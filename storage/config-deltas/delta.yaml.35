@@ -1,0 +1,25 @@
+dateApplied: '2023-07-04 07:36:34'
+changes:
+  -
+    message: 'Update timestamp for project config'
+    changed:
+      dateModified:
+        from: 1688481380
+        to: 1688481394
+  -
+    added:
+      imageTransforms.558289e0-2263-4114-af78-ce71e894cf10.fill: null
+      imageTransforms.558289e0-2263-4114-af78-ce71e894cf10.format: null
+      imageTransforms.558289e0-2263-4114-af78-ce71e894cf10.handle: favicon180x180
+      imageTransforms.558289e0-2263-4114-af78-ce71e894cf10.height: 180
+      imageTransforms.558289e0-2263-4114-af78-ce71e894cf10.interlace: none
+      imageTransforms.558289e0-2263-4114-af78-ce71e894cf10.mode: crop
+      imageTransforms.558289e0-2263-4114-af78-ce71e894cf10.name: 'Favicon 180x180'
+      imageTransforms.558289e0-2263-4114-af78-ce71e894cf10.position: center-center
+      imageTransforms.558289e0-2263-4114-af78-ce71e894cf10.quality: 80
+      imageTransforms.558289e0-2263-4114-af78-ce71e894cf10.upscale: true
+      imageTransforms.558289e0-2263-4114-af78-ce71e894cf10.width: 180
+    message: 'Saving transform “favicon180x180”'
+  -
+    added:
+      meta.__names__.558289e0-2263-4114-af78-ce71e894cf10: 'Favicon 180x180'

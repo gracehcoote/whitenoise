@@ -1,0 +1,30 @@
+/************
+ALERT STYLES
+************/
+
+.alert {
+  padding: 2rem;
+  border: 2px solid;
+
+  .alert-title {
+    font-weight: 700;
+  }
+
+  &.alert-success {
+    border-color: $success;
+    background-color: rgba($success, 0.04);
+
+    .alert-title {
+      color: $success;
+    }
+  }
+
+  &.alert-danger {
+    border-color: $danger;
+    background-color: rgba($danger, 0.04);
+
+    .alert-title {
+      color: $danger;
+    }
+  }
+}

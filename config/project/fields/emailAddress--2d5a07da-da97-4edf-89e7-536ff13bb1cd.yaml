@@ -1,0 +1,12 @@
+columnSuffix: sflytrwh
+contentColumnType: string
+fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2 # Globals
+handle: emailAddress
+instructions: null
+name: 'Email Address'
+searchable: false
+settings:
+  placeholder: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Email

@@ -1,0 +1,68 @@
+2023-07-05 09:35:47 [console.INFO] [yii\db\Connection::open] Opening DB connection: mysql:host=127.0.0.1;dbname=whitenoise;port=8889 {"memory":7954952} 
+2023-07-05 09:35:47 [console.INFO] [adigital\cookieconsentbanner\CookieConsentBanner::init] Cookie Consent Banner plugin loaded {"memory":11904056} 
+2023-07-05 09:35:47 [console.INFO] [nystudio107\cookies\Cookies::init] Cookies plugin loaded {"memory":12059328} 
+2023-07-05 09:35:47 [console.INFO] [application] Request context:
+$_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/zsh'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/nd/7xmysgks7yz7l_233jp3jpfm0000gn/T/'
+    'TERM_PROGRAM_VERSION' => '447'
+    'TERM_SESSION_ID' => '92DE0AEE-E623-47A4-BE9B-CF5687A75AF8'
+    'USER' => 'gracecoote'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.t3syZal4s5/Listeners'
+    'PATH' => '/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin'
+    'LaunchInstanceID' => 'CA76FF03-C9E1-4555-BC76-364D50B8443D'
+    '__CFBundleIdentifier' => 'com.apple.Terminal'
+    'PWD' => '/Applications/MAMP/htdocs/local.whitenoise.com'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/gracecoote'
+    'LOGNAME' => 'gracecoote'
+    'SECURITYSESSIONID' => '186a4'
+    'OLDPWD' => '/Applications/MAMP/htdocs'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'MANPATH' => '/opt/homebrew/share/man::'
+    'INFOPATH' => '/opt/homebrew/share/info:'
+    'LANG' => 'en_GB.UTF-8'
+    '_' => '/opt/homebrew/bin/php'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0:2'
+    'PHP_SELF' => 'craft'
+    'SCRIPT_NAME' => 'craft'
+    'SCRIPT_FILENAME' => 'craft'
+    'PATH_TRANSLATED' => 'craft'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1688549747.6222
+    'REQUEST_TIME' => 1688549747
+    'argv' => [
+        0 => 'craft'
+        1 => 'setup/app-id'
+    ]
+    'argc' => 2
+    'CRAFT_APP_ID' => 'CraftCMS--4f80cc3b-76dd-45b1-9147-bc8717a572d4'
+    'CRAFT_ENVIRONMENT' => 'dev'
+    'CRAFT_SECURITY_KEY' => '••••••••••••••••••••••••••••••••'
+    'CRAFT_DB_DRIVER' => 'mysql'
+    'CRAFT_DB_SERVER' => '127.0.0.1'
+    'CRAFT_DB_PORT' => '8889'
+    'CRAFT_DB_DATABASE' => 'whitenoise'
+    'CRAFT_DB_USER' => 'root'
+    'CRAFT_DB_PASSWORD' => '••••'
+    'CRAFT_DB_SCHEMA' => ''
+    'CRAFT_DB_TABLE_PREFIX' => ''
+    'DEV_MODE' => 'true'
+    'ALLOW_ADMIN_CHANGES' => 'true'
+    'DISALLOW_ROBOTS' => 'true'
+    'PRIMARY_SITE_URL' => 'http://local.whitenoise.com/'
+]  

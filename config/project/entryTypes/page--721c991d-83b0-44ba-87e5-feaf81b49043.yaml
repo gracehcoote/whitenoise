@@ -1,0 +1,97 @@
+fieldLayouts:
+  4a9006df-131f-493e-aec0-d817150e7b01:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: c9a82cb7-7e57-4b48-aa3f-09cea62cacc3 # Show in footer navigation
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2bab1534-3646-45d2-92d6-290dd34bcb61
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 8793eb33-738e-41a6-8811-1c37002a5ee9
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e3786a20-dffe-42ff-aa6e-161db47712ae
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 42d3d29f-acd5-4355-b756-dd24a263cf34 # SEO Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9e05fef1-3c82-4746-940f-00fd95278b36
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1013d0af-42f2-4277-8692-ca5f66ef4588 # SEO Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 97a235ba-b4cd-45e6-90bd-74320ca2de15
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 225d43ff-b622-4780-8602-22940bb83e3e # OG Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9707b054-55cd-4e01-83f4-16cbd999167a
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: fd17c192-e29f-4e3b-b7af-9a92d9404a9f
+        userCondition: null
+handle: page
+hasTitleField: true
+name: Page
+section: e5f1c294-aa5c-4406-a9a3-d5a067e2efc0 # Pages
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

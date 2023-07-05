@@ -1,0 +1,25 @@
+dateApplied: '2023-07-04 07:33:30'
+changes:
+  -
+    message: 'Update timestamp for project config'
+    changed:
+      dateModified:
+        from: 1688479611
+        to: 1688481210
+  -
+    added:
+      imageTransforms.f972ecdc-6372-435c-9cfe-234fe023396f.fill: null
+      imageTransforms.f972ecdc-6372-435c-9cfe-234fe023396f.format: null
+      imageTransforms.f972ecdc-6372-435c-9cfe-234fe023396f.handle: favicon114x114
+      imageTransforms.f972ecdc-6372-435c-9cfe-234fe023396f.height: 114
+      imageTransforms.f972ecdc-6372-435c-9cfe-234fe023396f.interlace: none
+      imageTransforms.f972ecdc-6372-435c-9cfe-234fe023396f.mode: crop
+      imageTransforms.f972ecdc-6372-435c-9cfe-234fe023396f.name: 'Favicon 114x114'
+      imageTransforms.f972ecdc-6372-435c-9cfe-234fe023396f.position: center-center
+      imageTransforms.f972ecdc-6372-435c-9cfe-234fe023396f.quality: 80
+      imageTransforms.f972ecdc-6372-435c-9cfe-234fe023396f.upscale: true
+      imageTransforms.f972ecdc-6372-435c-9cfe-234fe023396f.width: 114
+    message: 'Saving transform “favicon114x114”'
+  -
+    added:
+      meta.__names__.f972ecdc-6372-435c-9cfe-234fe023396f: 'Favicon 114x114'

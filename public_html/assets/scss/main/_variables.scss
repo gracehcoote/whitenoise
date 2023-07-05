@@ -1,0 +1,34 @@
+// Colours
+$black: #1A1A1A;
+$success: #19A000;
+$danger: #E00000;
+
+// Fonts
+
+$title-font: 'Jeko', 'Poppins', Arial, Helvetica, sans-serif;
+$body-font: 'Poppins', Arial, Helvetica, sans-serif;
+
+// Padding sizes
+
+$pad-lg: 7rem;
+$pad-md: 5rem;
+$pad-sm: 3rem;
+$pad-xs: 2rem;
+
+// Responsive rules
+
+$extra-large-up: 'only screen and (min-width: 1201px)';
+$extra-large: 'only screen and (max-width: 1200px)';
+$large-up: 'only screen and (min-width: 1101px)';
+$large: 'only screen and (max-width: 1100px)';
+$tablet-ls-up: 'only screen and (min-width: 1025px)';
+$tablet-ls: 'only screen and (max-width: 1024px)';
+$bs-large-up: 'only screen and (min-width: 992px)';
+$bs-large: 'only screen and (max-width: 991px)';
+$tablet-pt-up: 'only screen and (min-width: 768px)';
+$tablet-pt: 'only screen and (max-width: 767px)';
+$phone-ls-up: 'only screen and (min-width: 668px)';
+$phone-ls: 'only screen and (max-width: 667px)';
+$small-up: 'only screen and (min-width: 576px)';
+$small: 'only screen and (max-width: 575px)';
+$extra-small: 'only screen and (max-width: 480px)';

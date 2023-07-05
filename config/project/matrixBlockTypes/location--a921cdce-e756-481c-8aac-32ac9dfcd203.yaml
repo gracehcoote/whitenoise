@@ -1,0 +1,229 @@
+field: 1618d009-643f-4c8c-a421-cc3b3730bac6 # Locations
+fieldLayouts:
+  7d683ce4-c54c-4604-adff-fbee2041e386:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 47b5b191-b5ab-4a7f-b5d0-9b369c81e457 # Location Name
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 32bdc7a3-d9a0-4f5e-ad4f-b4dd07cc5b80
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: eb68d48e-ca63-4037-9bbb-0a6580a38e74 # Thumbnail
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4effcadc-ea63-4528-98b0-c9b51480ae9f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 14a88088-f556-42bf-976b-d48a31d3e122 # Address
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 599692dc-8060-472b-910d-d9a9d8d0c8a6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 812ed655-de97-4974-b556-2b648aa8d926 # Google Maps Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: efe43c8f-73f0-467f-9d1c-037f2eec406e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: bd6955ac-0003-4c1c-855f-6986ed631bc4 # Telephone Number
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 15d734ff-f069-4eeb-8507-4cf70cb38f0d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fcd3e3da-9055-422e-9d2a-e8b36f656e93 # Email Address
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1b2b672f-6fc8-48f1-9bdf-25b9da9fabeb
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fcef3708-7f8b-466b-a163-9e3d2483983c
+        userCondition: null
+fields:
+  14a88088-f556-42bf-976b-d48a31d3e122: # Address
+    columnSuffix: iudeefto
+    contentColumnType: text
+    fieldGroup: null
+    handle: address
+    instructions: null
+    name: Address
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: true
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  47b5b191-b5ab-4a7f-b5d0-9b369c81e457: # Location Name
+    columnSuffix: dxajjfgs
+    contentColumnType: text
+    fieldGroup: null
+    handle: locationName
+    instructions: null
+    name: 'Location Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  812ed655-de97-4974-b556-2b648aa8d926: # Google Maps Link
+    columnSuffix: fsfcadkc
+    contentColumnType: string(1000)
+    fieldGroup: null
+    handle: googleMapsLink
+    instructions: null
+    name: 'Google Maps Link'
+    searchable: false
+    settings:
+      maxLength: 1000
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  bd6955ac-0003-4c1c-855f-6986ed631bc4: # Telephone Number
+    columnSuffix: vkkuwrlc
+    contentColumnType: text
+    fieldGroup: null
+    handle: telephoneNumber
+    instructions: 'Only required if different than the Global phone number.'
+    name: 'Telephone Number'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  eb68d48e-ca63-4037-9bbb-0a6580a38e74: # Thumbnail
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: thumbnail
+    instructions: null
+    name: Thumbnail
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9' # Meta
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9' # Meta
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  fcd3e3da-9055-422e-9d2a-e8b36f656e93: # Email Address
+    columnSuffix: gdtjgzyh
+    contentColumnType: text
+    fieldGroup: null
+    handle: emailAddress
+    instructions: 'Only required if different than the Global email address.'
+    name: 'Email Address'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: location
+name: Location
+sortOrder: 1

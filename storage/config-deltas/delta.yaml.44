@@ -1,0 +1,25 @@
+dateApplied: '2023-07-04 07:34:42'
+changes:
+  -
+    message: 'Update timestamp for project config'
+    changed:
+      dateModified:
+        from: 1688481237
+        to: 1688481282
+  -
+    added:
+      imageTransforms.16bbca3c-0a97-487f-a802-b8eac447add5.fill: null
+      imageTransforms.16bbca3c-0a97-487f-a802-b8eac447add5.format: null
+      imageTransforms.16bbca3c-0a97-487f-a802-b8eac447add5.handle: favicon144x144
+      imageTransforms.16bbca3c-0a97-487f-a802-b8eac447add5.height: 144
+      imageTransforms.16bbca3c-0a97-487f-a802-b8eac447add5.interlace: none
+      imageTransforms.16bbca3c-0a97-487f-a802-b8eac447add5.mode: crop
+      imageTransforms.16bbca3c-0a97-487f-a802-b8eac447add5.name: 'Favicon 144x144'
+      imageTransforms.16bbca3c-0a97-487f-a802-b8eac447add5.position: center-center
+      imageTransforms.16bbca3c-0a97-487f-a802-b8eac447add5.quality: 80
+      imageTransforms.16bbca3c-0a97-487f-a802-b8eac447add5.upscale: true
+      imageTransforms.16bbca3c-0a97-487f-a802-b8eac447add5.width: 144
+    message: 'Saving transform “favicon144x144”'
+  -
+    added:
+      meta.__names__.16bbca3c-0a97-487f-a802-b8eac447add5: 'Favicon 144x144'

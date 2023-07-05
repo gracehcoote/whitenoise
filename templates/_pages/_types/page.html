@@ -1,0 +1,22 @@
+{% extends "_layouts/_sub" %}
+
+{% block seo %}
+{% include "_includes/seo" %}
+{% endblock %}
+
+{% block headContent %}
+{% endblock %}
+
+{% block main %}
+  <section>
+    <div class="section-container">
+      <h1 class="alt mb-6">{{ entry.title }}</h1>
+      
+			{% include "_includes/content_blocks" %}
+		</div><!-- end section-container -->
+  </section>
+{% endblock %}
+
+{% block javascript %}
+
+{% endblock %}

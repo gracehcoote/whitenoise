@@ -1,0 +1,61 @@
+/*====================
+
+Version: 1.0
+======================*/
+
+/**************************************************************
+
+  STYLESHEET CONTENT
+  |_ Main
+    |_ variables
+    |_ layout
+    |_ header
+    |_ footer
+    |_ sub-nav
+    |_ typography
+
+  |_ Elements
+    |_ buttons
+    |_ forms
+    |_ tables
+    |_ cards
+    |_ badges
+    |_ sub-nav
+    |_ hero
+    |_ sliders
+    |_ modals
+
+***************************************************************/
+
+/*
+Main Styles
+*/
+
+@import 'main/variables';
+
+@import 'main/header';
+@import 'main/footer';
+@import 'main/layout';
+@import 'main/navigation';
+@import 'main/typography';
+
+/*
+Elements
+*/
+
+@import 'elements/alerts';
+@import 'elements/animations';
+@import 'elements/badges';
+@import 'elements/buttons';
+@import 'elements/cards';
+@import 'elements/forms';
+@import 'elements/hero';
+@import 'elements/images';
+@import 'elements/miscellaneous';
+@import 'elements/tables';
+@import 'elements/sliders';
+
+/*
+Other
+*/
+

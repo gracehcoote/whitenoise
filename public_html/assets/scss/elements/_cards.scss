@@ -1,0 +1,20 @@
+/************
+CARD STYLES
+************/
+
+.card {
+  display: block;
+
+  .card-img,
+  .card-img-top {
+   
+  }
+
+  .card-body {
+    padding: 2rem;
+
+    @media #{$extra-small} {
+      padding: 1.5rem;
+    }
+  }
+}

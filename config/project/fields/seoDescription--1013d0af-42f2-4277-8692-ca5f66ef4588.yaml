@@ -1,0 +1,19 @@
+columnSuffix: tvvkyrsf
+contentColumnType: text
+fieldGroup: d4243c19-5c01-4c63-9754-11d398a4cbac # Meta
+handle: seoDescription
+instructions: null
+name: 'SEO Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

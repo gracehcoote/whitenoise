@@ -1,0 +1,130 @@
+dateModified: 1688550893
+email:
+  fromEmail: me@gracecoote.co.uk
+  fromName: 'Craft Base'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  meta:
+    hasUrls: true
+    name: Meta
+    settings:
+      path: '@webroot/assets/cms/meta'
+    type: craft\fs\Local
+    url: '@web/assets/cms/meta'
+meta:
+  __names__:
+    0f6d19b5-6f16-45c3-aa26-37159d9c4ba3: 'Favicon 36x36' # Favicon 36x36
+    2d5a07da-da97-4edf-89e7-536ff13bb1cd: 'Email Address' # Email Address
+    3c451390-36bf-41a6-910d-d4eaa3522dba: 'Theme Colour' # Theme Colour
+    4af96521-49a1-4757-8b37-7a72e5763e1f: Address # Address
+    6b2a9aec-c384-408b-946c-3cbaba877529: 'Redirect to First Child Page' # Redirect to First Child Page
+    6bf02326-b759-447d-bc08-0892b1fd65b7: 'Favicon 152x152' # Favicon 152x152
+    8e4f3c2b-86b9-4c29-acb8-b289f448993c: 'Favicon 310x150' # Favicon 310x150
+    9d5b7bdf-f496-41e6-8afb-6e4e7028332b: 'Favicon 57x57' # Favicon 57x57
+    14a88088-f556-42bf-976b-d48a31d3e122: Address # Address
+    16bbca3c-0a97-487f-a802-b8eac447add5: 'Favicon 144x144' # Favicon 144x144
+    17a9a7b1-15f5-4e06-ab52-b257da65e4a1: 'Company name' # Company name
+    34a6fa50-a3fc-49eb-979d-fc3c712f45c7: 'Favicon SVG' # Favicon SVG
+    42d3d29f-acd5-4355-b756-dd24a263cf34: 'SEO Title' # SEO Title
+    46a718b9-7e17-42a2-a4ce-3b0214a27bdc: Default # Default
+    47b5b191-b5ab-4a7f-b5d0-9b369c81e457: 'Location Name' # Location Name
+    56f30d52-cee5-4f1a-b135-27ad8bbe2ad9: Meta # Meta
+    225d43ff-b622-4780-8602-22940bb83e3e: 'OG Image' # OG Image
+    721c991d-83b0-44ba-87e5-feaf81b49043: Page # Page
+    756d642c-6246-4f4e-8537-32630250456f: 'Favicon 16x16' # Favicon 16x16
+    812ed655-de97-4974-b556-2b648aa8d926: 'Google Maps Link' # Google Maps Link
+    918a41b0-2cc1-4437-a0d9-20d8124c2318: 'Favicon .ico' # Favicon .ico
+    1013d0af-42f2-4277-8692-ca5f66ef4588: 'SEO Description' # SEO Description
+    1618d009-643f-4c8c-a421-cc3b3730bac6: Locations # Locations
+    3724a7d8-69f4-4e01-a414-e8be3d0abae0: Settings # Settings
+    5638a993-1e91-47fc-93a6-f7c52f789aae: Favicon # Favicon
+    6062bc9a-a4e5-4395-9fc7-823621507cec: 'Craft Base' # Craft Base
+    558289e0-2263-4114-af78-ce71e894cf10: 'Favicon 180x180' # Favicon 180x180
+    a0ad2a73-81a4-46fe-b8e7-6083409f70e5: 'Favicon 70x70' # Favicon 70x70
+    a4a25770-eaa8-46ce-8b3b-71a8c8b20614: 'Favicon 32x32' # Favicon 32x32
+    a6d4b9df-3107-45d2-ac86-437b4cb6b050: 'Favicon 76x76' # Favicon 76x76
+    a14c2dbb-8a00-4c4a-b85b-480a97252c6a: 'Favicon 310x310' # Favicon 310x310
+    a57e9e8d-4692-4656-b269-1682179f4fc2: Globals # Globals
+    a921cdce-e756-481c-8aac-32ac9dfcd203: Location # Location
+    a43126cb-dffe-46f6-b313-3aed439853e8: Home # Home
+    ae6c3077-031b-4b16-9ed8-f18ce2d83770: 'Site Info' # Site Info
+    b919de39-a74a-41ba-8366-3e3bfa181650: 'Favicon 72x72' # Favicon 72x72
+    bd6955ac-0003-4c1c-855f-6986ed631bc4: 'Telephone Number' # Telephone Number
+    c0a664fa-02e9-49fc-9a02-c55cf19ba5ca: 'Phone Number' # Phone Number
+    c7bbf02b-9a9d-47d2-acd0-5548c7e59e93: 'Favicon 120x120' # Favicon 120x120
+    c9a82cb7-7e57-4b48-aa3f-09cea62cacc3: 'Show in footer navigation' # Show in footer navigation
+    cecf5c92-7e2f-46fa-a2bf-8334c0c84de4: 'Favicon 150x150' # Favicon 150x150
+    d015ca1c-2019-49d3-9c26-0ab619a84fc3: Home # Home
+    d6daaff4-e52d-4539-9f6c-285af2414d68: 'Favicon 192x192' # Favicon 192x192
+    d4243c19-5c01-4c63-9754-11d398a4cbac: Meta # Meta
+    dbb4a582-e95f-47f0-bc3e-7a176a701c48: 'Craft Base' # Craft Base
+    e5eb5006-ee2c-454c-9cfa-2da9a96caeb2: 'Favicon 60x60' # Favicon 60x60
+    e5f1c294-aa5c-4406-a9a3-d5a067e2efc0: Pages # Pages
+    eb68d48e-ca63-4037-9bbb-0a6580a38e74: Thumbnail # Thumbnail
+    eda73b36-d0bf-4823-b7d5-50bf402b5cae: 'Favicon 48x48' # Favicon 48x48
+    efad4e89-5ff2-478f-b38b-09d1880c0021: 'Favicon 96x96' # Favicon 96x96
+    f8e8eec1-974e-4485-8dc8-e4cd25204baa: Common # Common
+    f972ecdc-6372-435c-9cfe-234fe023396f: 'Favicon 114x114' # Favicon 114x114
+    f70343b7-957b-4e91-a5d3-1c560e0757ce: 'OG image' # OG image
+    fcd3e3da-9055-422e-9d2a-e8b36f656e93: 'Email Address' # Email Address
+plugins:
+  cookie-consent-banner:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+    settings:
+      allow: 'Allow cookies'
+      async_js: ''
+      auto_inject: '1'
+      decline: Decline
+      defer_js: ''
+      disable_in_live_preview: ''
+      dismiss: 'Got it!'
+      dismiss_on_scroll: '0'
+      dismiss_on_timeout: '0'
+      excluded_categories: null
+      excluded_entry_types: null
+      expiry_days: '365'
+      honour_do_not_track_header: ''
+      layout: block
+      learn: 'Learn More'
+      learn_more_link: 'http://cookiesandyou.com/'
+      message: 'This website uses cookies to ensure you get the best experience on our website.'
+      palette: default
+      palette_banner: '000000'
+      palette_banner_text: ffffff
+      palette_button: f1d600
+      palette_button_text: '000000'
+      palette_left_button_bg: f8e71c
+      palette_left_button_text: '000000'
+      palette_link: ffffff
+      position: bottom
+      preload_css: ''
+      revokable: ''
+      secure_only: ''
+      target: _blank
+      type: opt-in
+  cookies:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  cp-nav:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.11
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: 'Craft Base'
+  schemaVersion: 4.4.0.4
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

@@ -1,0 +1,14 @@
+columnSuffix: gdegquvt
+contentColumnType: boolean
+fieldGroup: 3724a7d8-69f4-4e01-a414-e8be3d0abae0 # Settings
+handle: showInFooterNavigation
+instructions: null
+name: 'Show in footer navigation'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

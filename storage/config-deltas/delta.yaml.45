@@ -1,0 +1,25 @@
+dateApplied: '2023-07-04 07:33:57'
+changes:
+  -
+    message: 'Update timestamp for project config'
+    changed:
+      dateModified:
+        from: 1688481210
+        to: 1688481237
+  -
+    added:
+      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.fill: null
+      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.format: null
+      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.handle: favicon120x120
+      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.height: 120
+      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.interlace: none
+      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.mode: crop
+      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.name: 'Favicon 120x120'
+      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.position: center-center
+      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.quality: 80
+      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.upscale: true
+      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.width: 120
+    message: 'Saving transform “favicon120x120”'
+  -
+    added:
+      meta.__names__.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93: 'Favicon 120x120'

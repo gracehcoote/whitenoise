@@ -1,0 +1,206 @@
+/****************
+TYPOGRAPHY STYLES
+****************/
+
+body {
+  color: $black;
+  font-family: $body-font;
+}
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+
+  a {
+    text-decoration: none;
+    transition: all 0.3s;
+
+    &:hover {
+    }
+  }
+}
+
+h1 {
+  
+  @media #{$tablet-ls} {
+
+  }
+
+  @media #{$tablet-pt} {
+
+  }
+
+  @media #{$small} {
+
+  }
+
+  @media #{$extra-small} {
+
+  }
+}
+
+h2 {
+
+  @media #{$tablet-ls} {
+    
+  }
+
+  @media #{$tablet-pt} {
+   
+  }
+
+  @media #{$phone-ls} {
+    
+  }
+
+}
+
+h3 {
+  
+  @media #{$tablet-ls} {
+
+  }
+
+  @media #{$tablet-pt} {
+ 
+  }
+
+}
+
+h4 {
+
+
+  @media #{$tablet-ls} {
+
+  }
+
+  @media #{$tablet-pt} {
+
+  }
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p,
+ul,
+ol {
+  font-size: 16px;
+
+
+  @media #{$tablet-ls} {
+    font-size: 14px;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+ul:not(.nav):not(.crumbs),
+ol {
+  margin-left: 1rem;
+  padding-left: 0;
+
+  li:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+p {
+  &.small,
+  small {
+    font-size: 14px;
+    font-weight: 500;
+
+    footer & {
+      font-size: 12px;
+    }
+  }
+
+  a {
+
+    transition: 0.4s;
+
+    &:hover {
+
+    }
+
+  }
+}
+
+a {
+
+  text-decoration: underline;
+}
+
+ol {
+  counter-reset: number-list-counter;
+  list-style: none;
+  margin-left: 0;
+
+  li {
+    counter-increment: number-list-counter;
+    position: relative;
+    padding-left: 25px;
+
+    &:before {
+      content: counter(number-list-counter) '.';
+      font-weight: 600;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+}
+
+ul.ticks {
+  list-style: none;
+
+  li {
+    padding-left: 25px;
+    position: relative;
+
+    &:before {
+      position: absolute;
+      left: 0;
+    }
+  }
+}
+
+ul.inline-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    flex-shrink: 0;
+
+    &:not(:last-child) {
+      margin-right: 1rem;
+      padding-right: 1rem;
+    }
+  }
+}
+
+blockquote {
+	position: relative;
+
+  padding-left: 2rem;
+
+  p {
+    font-weight: 400;
+  }
+
+  cite {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+  }
+}

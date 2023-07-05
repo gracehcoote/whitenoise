@@ -1,0 +1,26 @@
+/************
+BADGE STYLES
+************/
+
+.badge {
+  border-radius: 0;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.5rem;
+
+  &.badge-primary {
+    
+  }
+
+  &.edge {
+    position: absolute;
+    top: 20px;
+    left: 0;
+  }
+
+  + * {
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,49 @@
+/*****************
+NAVIGATION STYLES
+*****************/
+
+ul.nav.social {
+  flex-direction: row;
+  margin: 0 -0.5rem;
+
+  .nav-item {
+    margin: 0 0.5rem;
+
+    .nav-link {
+      font-size: 20px;
+
+      &:hover {
+
+      }
+    }
+  }
+}
+
+ul.crumbs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+
+  li {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0;
+
+    &:not(:last-of-type):after {
+      content: '/';
+      display: inline-block;
+      padding: 0 5px;
+    }
+
+    a {
+      text-decoration: none;
+      transition: 0.3s;
+
+      &:hover {
+
+      }
+    }
+  }
+}

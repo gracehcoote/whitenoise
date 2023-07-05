@@ -1,0 +1,25 @@
+dateApplied: '2023-07-04 07:37:58'
+changes:
+  -
+    message: 'Update timestamp for project config'
+    changed:
+      dateModified:
+        from: 1688481469
+        to: 1688481478
+  -
+    added:
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.fill: null
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.format: null
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.handle: favicon60x60
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.height: 60
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.interlace: none
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.mode: crop
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.name: 'Favicon 60x60'
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.position: center-center
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.quality: 80
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.upscale: true
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.width: 60
+    message: 'Saving transform “favicon60x60”'
+  -
+    added:
+      meta.__names__.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2: 'Favicon 60x60'

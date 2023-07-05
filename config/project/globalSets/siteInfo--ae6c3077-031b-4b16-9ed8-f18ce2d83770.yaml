@@ -1,0 +1,126 @@
+fieldLayouts:
+  39359d63-22b0-47f9-928b-9077af435b53:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 17a9a7b1-15f5-4e06-ab52-b257da65e4a1 # Company name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5ab87322-6042-48f2-a5a7-4506671f9c0a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2d5a07da-da97-4edf-89e7-536ff13bb1cd # Email Address
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: db6a23be-e0a6-4330-8736-92109b6986b2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c0a664fa-02e9-49fc-9a02-c55cf19ba5ca # Phone Number
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4bab4264-b107-4a09-a56b-e0c1f406c1a4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4af96521-49a1-4757-8b37-7a72e5763e1f # Address
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7378800d-dbd4-4c7b-9b75-9a5388940f6c
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Company Information'
+        uid: bcfcaa76-2fd4-4287-bd37-a5ac134971f7
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 5638a993-1e91-47fc-93a6-f7c52f789aae # Favicon
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e55b5500-6231-48ce-8b00-7519d34f5d46
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 918a41b0-2cc1-4437-a0d9-20d8124c2318 # Favicon .ico
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 902c9de6-50e5-4ae8-b535-313acfca6997
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 34a6fa50-a3fc-49eb-979d-fc3c712f45c7 # Favicon SVG
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dbf7c471-482f-4a4d-8ffb-f612b6ffb6a4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 225d43ff-b622-4780-8602-22940bb83e3e # OG Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dc3e923d-4a4a-424f-9d66-d5f09050d715
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3c451390-36bf-41a6-910d-d4eaa3522dba # Theme Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9d3a9bf7-9c9d-4e69-80b4-715d1edb1d3c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Meta
+        uid: ccef8f58-a24c-41b0-a135-f3e3e8f4e58f
+        userCondition: null
+handle: siteInfo
+name: 'Site Info'
+sortOrder: 1

@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2 # Globals
+handle: locations
+instructions: null
+name: Locations
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_locations}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

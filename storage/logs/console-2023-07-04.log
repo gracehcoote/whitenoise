@@ -1,0 +1,287 @@
+2023-07-04 11:49:43 [console.INFO] [yii\db\Connection::open] Opening DB connection: mysql:host=127.0.0.1;dbname=;port=3306 {"memory":9336416} 
+2023-07-04 11:49:43 [console.ERROR] [craft\db\Connection::open] SQLSTATE[HY000] [2002] Connection refused {"memory":9373392} 
+2023-07-04 11:49:43 [console.ERROR] [craft\db\Connection::open] SQLSTATE[HY000] [2002] Connection refused {"memory":9373608} 
+2023-07-04 11:49:43 [console.ERROR] [craft\base\ApplicationTrait::getIsDbConnectionValid] There was a problem connecting to the database: Craft CMS can’t connect to the database. {"memory":9391080} 
+2023-07-04 11:49:43 [console.ERROR] [craft\errors\DbConnectException] PDOException: SQLSTATE[HY000] [2002] Connection refused in /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/db/Connection.php:722
+Stack trace:
+#0 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/db/Connection.php(722): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/db/Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/db/Connection.php(147): yii\db\Connection->open()
+#3 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(894): craft\db\Connection->open()
+#4 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(393): craft\console\Application->getIsDbConnectionValid()
+#5 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/helpers/App.php(927): craft\console\Application->getIsInstalled()
+#6 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/config/app.php(245): craft\helpers\App::projectConfigConfig()
+#7 [internal function]: {closure}()
+#8 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/di/Container.php(633): call_user_func_array(Object(Closure), Array)
+#9 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->invoke(Object(Closure), Array)
+#10 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/di/ServiceLocator.php(137): yii\BaseYii::createObject(Object(Closure))
+#11 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/base/Module.php(766): yii\di\ServiceLocator->get('projectConfig', true)
+#12 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/console/Application.php(173): yii\base\Module->get('projectConfig', true)
+#13 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(1310): craft\console\Application->get('projectConfig')
+#14 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(1601): craft\console\Application->getProjectConfig()
+#15 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(1536): craft\console\Application->_setTimeZone()
+#16 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/console/Application.php(50): craft\console\Application->_preInit()
+#17 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/base/BaseObject.php(109): craft\console\Application->init()
+#18 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/base/Application.php(204): yii\base\BaseObject->__construct(Array)
+#19 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/console/Application.php(89): yii\base\Application->__construct(Array)
+#20 [internal function]: yii\console\Application->__construct(Array)
+#21 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/di/Container.php(419): ReflectionClass->newInstanceArgs(Array)
+#22 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/di/Container.php(170): yii\di\Container->build('craft\\console\\A...', Array, Array)
+#23 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('craft\\console\\A...', Array, Array)
+#24 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/Craft.php(54): yii\BaseYii::createObject(Array, Array)
+#25 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/bootstrap/bootstrap.php(256): Craft::createObject(Array)
+#26 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/bootstrap/console.php(40): require('/Applications/M...')
+#27 /Applications/MAMP/htdocs/craft-base/craft(12): require('/Applications/M...')
+#28 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] Connection refused in /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/db/Connection.php:648
+Stack trace:
+#0 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/db/Connection.php(147): yii\db\Connection->open()
+#1 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(894): craft\db\Connection->open()
+#2 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(393): craft\console\Application->getIsDbConnectionValid()
+#3 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/helpers/App.php(927): craft\console\Application->getIsInstalled()
+#4 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/config/app.php(245): craft\helpers\App::projectConfigConfig()
+#5 [internal function]: {closure}()
+#6 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/di/Container.php(633): call_user_func_array(Object(Closure), Array)
+#7 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->invoke(Object(Closure), Array)
+#8 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/di/ServiceLocator.php(137): yii\BaseYii::createObject(Object(Closure))
+#9 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/base/Module.php(766): yii\di\ServiceLocator->get('projectConfig', true)
+#10 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/console/Application.php(173): yii\base\Module->get('projectConfig', true)
+#11 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(1310): craft\console\Application->get('projectConfig')
+#12 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(1601): craft\console\Application->getProjectConfig()
+#13 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(1536): craft\console\Application->_setTimeZone()
+#14 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/console/Application.php(50): craft\console\Application->_preInit()
+#15 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/base/BaseObject.php(109): craft\console\Application->init()
+#16 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/base/Application.php(204): yii\base\BaseObject->__construct(Array)
+#17 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/console/Application.php(89): yii\base\Application->__construct(Array)
+#18 [internal function]: yii\console\Application->__construct(Array)
+#19 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/di/Container.php(419): ReflectionClass->newInstanceArgs(Array)
+#20 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/di/Container.php(170): yii\di\Container->build('craft\\console\\A...', Array, Array)
+#21 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('craft\\console\\A...', Array, Array)
+#22 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/Craft.php(54): yii\BaseYii::createObject(Array, Array)
+#23 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/bootstrap/bootstrap.php(256): Craft::createObject(Array)
+#24 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/bootstrap/console.php(40): require('/Applications/M...')
+#25 /Applications/MAMP/htdocs/craft-base/craft(12): require('/Applications/M...')
+#26 {main}
+
+Next craft\errors\DbConnectException: Craft CMS can’t connect to the database. in /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/db/Connection.php:168
+Stack trace:
+#0 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(894): craft\db\Connection->open()
+#1 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(393): craft\console\Application->getIsDbConnectionValid()
+#2 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/helpers/App.php(927): craft\console\Application->getIsInstalled()
+#3 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/config/app.php(245): craft\helpers\App::projectConfigConfig()
+#4 [internal function]: {closure}()
+#5 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/di/Container.php(633): call_user_func_array(Object(Closure), Array)
+#6 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->invoke(Object(Closure), Array)
+#7 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/di/ServiceLocator.php(137): yii\BaseYii::createObject(Object(Closure))
+#8 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/base/Module.php(766): yii\di\ServiceLocator->get('projectConfig', true)
+#9 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/console/Application.php(173): yii\base\Module->get('projectConfig', true)
+#10 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(1310): craft\console\Application->get('projectConfig')
+#11 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(1601): craft\console\Application->getProjectConfig()
+#12 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(1536): craft\console\Application->_setTimeZone()
+#13 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/console/Application.php(50): craft\console\Application->_preInit()
+#14 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/base/BaseObject.php(109): craft\console\Application->init()
+#15 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/base/Application.php(204): yii\base\BaseObject->__construct(Array)
+#16 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/console/Application.php(89): yii\base\Application->__construct(Array)
+#17 [internal function]: yii\console\Application->__construct(Array)
+#18 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/di/Container.php(419): ReflectionClass->newInstanceArgs(Array)
+#19 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/di/Container.php(170): yii\di\Container->build('craft\\console\\A...', Array, Array)
+#20 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('craft\\console\\A...', Array, Array)
+#21 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/Craft.php(54): yii\BaseYii::createObject(Array, Array)
+#22 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/bootstrap/bootstrap.php(256): Craft::createObject(Array)
+#23 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/bootstrap/console.php(40): require('/Applications/M...')
+#24 /Applications/MAMP/htdocs/craft-base/craft(12): require('/Applications/M...')
+#25 {main} {"memory":9391296,"exception":"[object] (craft\\errors\\DbConnectException(code: 0): Craft CMS can’t connect to the database. at /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/db/Connection.php:168)
+[previous exception] [object] (yii\\db\\Exception(code: 2002): SQLSTATE[HY000] [2002] Connection refused at /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/db/Connection.php:648)
+[previous exception] [object] (PDOException(code: 2002): SQLSTATE[HY000] [2002] Connection refused at /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/db/Connection.php:722)"} 
+2023-07-04 11:49:43 [console.INFO] [yii\db\Connection::open] Opening DB connection: mysql:host=127.0.0.1;dbname=;port=3306 {"memory":11223112} 
+2023-07-04 11:49:43 [console.ERROR] [craft\db\Connection::open] SQLSTATE[HY000] [2002] Connection refused {"memory":11234104} 
+2023-07-04 11:49:43 [console.ERROR] [craft\db\Connection::open] SQLSTATE[HY000] [2002] Connection refused {"memory":11234320} 
+2023-07-04 11:49:43 [console.ERROR] [craft\base\ApplicationTrait::getIsDbConnectionValid] There was a problem connecting to the database: Craft CMS can’t connect to the database. {"memory":11238648} 
+2023-07-04 11:49:43 [console.ERROR] [craft\errors\DbConnectException] PDOException: SQLSTATE[HY000] [2002] Connection refused in /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/db/Connection.php:722
+Stack trace:
+#0 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/db/Connection.php(722): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/db/Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/db/Connection.php(147): yii\db\Connection->open()
+#3 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(894): craft\db\Connection->open()
+#4 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(393): craft\console\Application->getIsDbConnectionValid()
+#5 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/console/Application.php(73): craft\console\Application->getIsInstalled(true)
+#6 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/console/Application.php(147): craft\console\Application->runAction('setup/welcome', Array)
+#7 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/console/Application.php(121): yii\console\Application->handleRequest(Object(craft\console\Request))
+#8 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/base/Application.php(384): craft\console\Application->handleRequest(Object(craft\console\Request))
+#9 /Applications/MAMP/htdocs/craft-base/craft(13): yii\base\Application->run()
+#10 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] Connection refused in /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/db/Connection.php:648
+Stack trace:
+#0 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/db/Connection.php(147): yii\db\Connection->open()
+#1 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(894): craft\db\Connection->open()
+#2 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(393): craft\console\Application->getIsDbConnectionValid()
+#3 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/console/Application.php(73): craft\console\Application->getIsInstalled(true)
+#4 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/console/Application.php(147): craft\console\Application->runAction('setup/welcome', Array)
+#5 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/console/Application.php(121): yii\console\Application->handleRequest(Object(craft\console\Request))
+#6 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/base/Application.php(384): craft\console\Application->handleRequest(Object(craft\console\Request))
+#7 /Applications/MAMP/htdocs/craft-base/craft(13): yii\base\Application->run()
+#8 {main}
+
+Next craft\errors\DbConnectException: Craft CMS can’t connect to the database. in /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/db/Connection.php:168
+Stack trace:
+#0 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(894): craft\db\Connection->open()
+#1 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/base/ApplicationTrait.php(393): craft\console\Application->getIsDbConnectionValid()
+#2 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/console/Application.php(73): craft\console\Application->getIsInstalled(true)
+#3 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/console/Application.php(147): craft\console\Application->runAction('setup/welcome', Array)
+#4 /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/console/Application.php(121): yii\console\Application->handleRequest(Object(craft\console\Request))
+#5 /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/base/Application.php(384): craft\console\Application->handleRequest(Object(craft\console\Request))
+#6 /Applications/MAMP/htdocs/craft-base/craft(13): yii\base\Application->run()
+#7 {main} {"memory":11238864,"exception":"[object] (craft\\errors\\DbConnectException(code: 0): Craft CMS can’t connect to the database. at /Applications/MAMP/htdocs/craft-base/vendor/craftcms/cms/src/db/Connection.php:168)
+[previous exception] [object] (yii\\db\\Exception(code: 2002): SQLSTATE[HY000] [2002] Connection refused at /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/db/Connection.php:648)
+[previous exception] [object] (PDOException(code: 2002): SQLSTATE[HY000] [2002] Connection refused at /Applications/MAMP/htdocs/craft-base/vendor/yiisoft/yii2/db/Connection.php:722)"} 
+2023-07-04 11:49:43 [console.INFO] [yii\db\Connection::open] Opening DB connection: mysql:host=127.0.0.1;port=8889;dbname=craft_base; {"memory":12209960} 
+2023-07-04 11:49:43 [console.ERROR] [craft\db\Connection::open] SQLSTATE[HY000] [1049] Unknown database 'craft_base' {"memory":12252416} 
+2023-07-04 11:49:43 [console.ERROR] [craft\db\Connection::open] SQLSTATE[HY000] [1049] Unknown database 'craft_base' {"memory":12252632} 
+2023-07-04 11:49:43 [console.INFO] [yii\db\Connection::open] Opening DB connection: mysql:host=127.0.0.1;port=8889;dbname=craft_base; {"memory":12271872} 
+2023-07-04 11:49:43 [console.INFO] [craft\db\MigrationManager::migrateUp] Applying Install {"memory":16087784} 
+2023-07-04 11:49:43 [console.INFO] [craft\services\ProjectConfig::_applyChanges] Looking for pending changes {"memory":17462392} 
+2023-07-04 11:49:43 [console.INFO] [craft\services\ProjectConfig::_applyChanges] Parsing 7 new configuration items {"memory":17463432} 
+2023-07-04 11:49:43 [console.INFO] [craft\services\ProjectConfig::_applyChanges] Finalizing configuration parsing {"memory":19029784} 
+2023-07-04 11:49:43 [console.INFO] [application] Request context:
+$_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => '/opt/homebrew/share/man::'
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/zsh'
+    'COMPOSER_BINARY' => '/opt/homebrew/Cellar/composer/2.5.8/bin/composer'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'TMPDIR' => '/var/folders/nd/7xmysgks7yz7l_233jp3jpfm0000gn/T/'
+    'TERM_PROGRAM_VERSION' => '447'
+    'TERM_SESSION_ID' => '61B45F73-4E45-4D26-9820-9E607A42B687'
+    'USER' => 'gracecoote'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.t3syZal4s5/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0:2'
+    'COMPOSER_ROOT_VERSION' => '2.0.10'
+    'PATH' => '/Applications/MAMP/htdocs/craft-base/vendor/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin'
+    '_' => '/opt/homebrew/Cellar/php/8.2.7_2/bin/php'
+    'LaunchInstanceID' => 'CA76FF03-C9E1-4555-BC76-364D50B8443D'
+    '__CFBundleIdentifier' => 'com.apple.Terminal'
+    'PWD' => '/Applications/MAMP/htdocs/craft-base'
+    'LANG' => 'en_GB.UTF-8'
+    'COMPOSER_DEV_MODE' => '1'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHELL_VERBOSITY' => '0'
+    'HOME' => '/Users/gracecoote'
+    'SHLVL' => '2'
+    'LANGUAGE' => 'C'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'LOGNAME' => 'gracecoote'
+    'INFOPATH' => '/opt/homebrew/share/info:'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'GIT_ASKPASS' => 'echo'
+    'SECURITYSESSIONID' => '186a4'
+    'PHP_SELF' => 'craft'
+    'SCRIPT_NAME' => 'craft'
+    'SCRIPT_FILENAME' => 'craft'
+    'PATH_TRANSLATED' => 'craft'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1688471279.8732
+    'REQUEST_TIME' => 1688471279
+    'argv' => [
+        0 => 'craft'
+        1 => 'setup/welcome'
+    ]
+    'argc' => 2
+    'CRAFT_APP_ID' => 'CraftCMS--b4de22d4-063f-4dc6-9e27-6f45ddaa78c9'
+    'CRAFT_ENVIRONMENT' => 'dev'
+    'CRAFT_SECURITY_KEY' => '••••••••••••••••••••••••••••••••'
+    'CRAFT_DB_DRIVER' => 'mysql'
+    'CRAFT_DB_SERVER' => '127.0.0.1'
+    'CRAFT_DB_PORT' => '8889'
+    'CRAFT_DB_DATABASE' => 'craft_base'
+    'CRAFT_DB_USER' => 'root'
+    'CRAFT_DB_PASSWORD' => '••••'
+    'CRAFT_DB_SCHEMA' => ''
+    'CRAFT_DB_TABLE_PREFIX' => ''
+    'DEV_MODE' => 'true'
+    'ALLOW_ADMIN_CHANGES' => 'true'
+    'DISALLOW_ROBOTS' => 'true'
+    'PRIMARY_SITE_URL' => 'http://local.craft-base.com/'
+]  
+2023-07-04 11:49:44 [console.INFO] [craft\db\MigrationManager::migrateUp] Applied Install (time: 2.416s). {"memory":20109776} 
+2023-07-04 11:49:44 [console.INFO] [application] Request context:
+$_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => '/opt/homebrew/share/man::'
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/zsh'
+    'COMPOSER_BINARY' => '/opt/homebrew/Cellar/composer/2.5.8/bin/composer'
+    'HOMEBREW_REPOSITORY' => '/opt/homebrew'
+    'TMPDIR' => '/var/folders/nd/7xmysgks7yz7l_233jp3jpfm0000gn/T/'
+    'TERM_PROGRAM_VERSION' => '447'
+    'TERM_SESSION_ID' => '61B45F73-4E45-4D26-9820-9E607A42B687'
+    'USER' => 'gracecoote'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.t3syZal4s5/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0:2'
+    'COMPOSER_ROOT_VERSION' => '2.0.10'
+    'PATH' => '/Applications/MAMP/htdocs/craft-base/vendor/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin'
+    '_' => '/opt/homebrew/Cellar/php/8.2.7_2/bin/php'
+    'LaunchInstanceID' => 'CA76FF03-C9E1-4555-BC76-364D50B8443D'
+    '__CFBundleIdentifier' => 'com.apple.Terminal'
+    'PWD' => '/Applications/MAMP/htdocs/craft-base'
+    'LANG' => 'en_GB.UTF-8'
+    'COMPOSER_DEV_MODE' => '1'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHELL_VERBOSITY' => '0'
+    'HOME' => '/Users/gracecoote'
+    'SHLVL' => '2'
+    'LANGUAGE' => 'C'
+    'HOMEBREW_PREFIX' => '/opt/homebrew'
+    'LOGNAME' => 'gracecoote'
+    'INFOPATH' => '/opt/homebrew/share/info:'
+    'HOMEBREW_CELLAR' => '/opt/homebrew/Cellar'
+    'GIT_ASKPASS' => 'echo'
+    'SECURITYSESSIONID' => '186a4'
+    'PHP_SELF' => 'craft'
+    'SCRIPT_NAME' => 'craft'
+    'SCRIPT_FILENAME' => 'craft'
+    'PATH_TRANSLATED' => 'craft'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1688471279.8732
+    'REQUEST_TIME' => 1688471279
+    'argv' => [
+        0 => 'craft'
+        1 => 'setup/welcome'
+    ]
+    'argc' => 2
+    'CRAFT_APP_ID' => 'CraftCMS--b4de22d4-063f-4dc6-9e27-6f45ddaa78c9'
+    'CRAFT_ENVIRONMENT' => 'dev'
+    'CRAFT_SECURITY_KEY' => '••••••••••••••••••••••••••••••••'
+    'CRAFT_DB_DRIVER' => 'mysql'
+    'CRAFT_DB_SERVER' => '127.0.0.1'
+    'CRAFT_DB_PORT' => '8889'
+    'CRAFT_DB_DATABASE' => 'craft_base'
+    'CRAFT_DB_USER' => 'root'
+    'CRAFT_DB_PASSWORD' => '••••'
+    'CRAFT_DB_SCHEMA' => ''
+    'CRAFT_DB_TABLE_PREFIX' => ''
+    'DEV_MODE' => 'true'
+    'ALLOW_ADMIN_CHANGES' => 'true'
+    'DISALLOW_ROBOTS' => 'true'
+    'PRIMARY_SITE_URL' => 'http://local.craft-base.com/'
+]  

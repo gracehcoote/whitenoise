@@ -1,0 +1,11 @@
+fill: null
+format: null
+handle: favicon32x32
+height: 32
+interlace: none
+mode: crop
+name: 'Favicon 32x32'
+position: center-center
+quality: 80
+upscale: true
+width: 32

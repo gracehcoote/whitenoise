@@ -1,0 +1,47 @@
+/************
+MISCELLANEOUS STYLES
+************/
+
+.opacity-0 {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.opacity-1 {
+  opacity: 1 !important;
+  transition: opacity 0.3s;
+}
+
+.scroll-prompt {
+  width: 24px;
+  height: 43px;
+  border: 2px solid #fff;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+
+  .scroller {
+    position: relative;
+    top: 8px;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+}
+
+@keyframes scroll {
+  0% { opacity: 0; }
+  25% { transform: translateY(-2px); opacity: 1; }
+  30% { transform: translateY(0); opacity: 1; }
+  50% { transform: translateY(22px); opacity: 1; }
+  60% { opacity: 0; }
+  100% { opacity: 0; }
+}

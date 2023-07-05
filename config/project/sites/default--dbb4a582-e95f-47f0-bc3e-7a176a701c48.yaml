@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-GB
+name: 'Craft Base'
+primary: true
+siteGroup: 6062bc9a-a4e5-4395-9fc7-823621507cec # Craft Base
+sortOrder: 1

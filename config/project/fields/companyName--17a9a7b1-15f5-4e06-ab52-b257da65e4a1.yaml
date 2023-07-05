@@ -1,0 +1,19 @@
+columnSuffix: enolovkd
+contentColumnType: text
+fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2 # Globals
+handle: companyName
+instructions: null
+name: 'Company name'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

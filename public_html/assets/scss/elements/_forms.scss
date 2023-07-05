@@ -1,0 +1,88 @@
+/************
+FORM STYLES
+************/
+
+.form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid;
+  font-size: 20px;
+  padding-left: 0;
+  padding-right: 0;
+
+  @media #{$phone-ls} {
+    font-size: 16px;
+  }
+
+  transition: all 0.3s;
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #B0B1AF;
+  }
+  &::-moz-placeholder { /* Firefox 19+ */
+    color: #B0B1AF;
+  }
+  &:-ms-input-placeholder { /* IE 10+ */
+    color: #B0B1AF;
+  }
+  &:-moz-placeholder { /* Firefox 18- */
+    color: #B0B1AF;
+  }
+}
+
+.form-select {
+  border: 2px solid;
+  font-size: 20px;
+  position: relative;
+  left: -0.75rem;
+  width: calc(100% + 1.5rem);
+  -webkit-appearance: none;
+
+  @media #{$phone-ls} {
+    font-size: 16px;
+  }
+
+  &:focus {
+
+  }
+}
+
+textarea.form-control {
+  height: 100px;
+}
+
+label {
+  font-size: 10px;
+  font-weight: 900;
+  margin-top: 0.5rem;
+
+  @media #{$tablet-ls} {
+
+  }
+
+  @media #{$phone-ls} {
+
+  }
+}
+
+// Form errors
+
+ul.errors {
+  display: inline-block;
+  margin: 0;
+  margin-left: 0.5rem;
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin: 0.5rem 0;
+    font-size: 10px;
+    font-weight: 700;
+    color: $danger;
+  }
+}

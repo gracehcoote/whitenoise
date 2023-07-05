@@ -1,0 +1,175 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3867246, 2020-12-16T11:57:38-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Jeko Variable by EllenLuff
+ * URL: https://www.myfonts.com/products/variable-jeko-79284
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Jeko Italic Variable by EllenLuff
+ * URL: https://www.myfonts.com/products/italic-variable-jeko-79293
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Jeko Thin by EllenLuff
+ * URL: https://www.myfonts.com/products/thin-jeko-79105
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Jeko Thin Italic by EllenLuff
+ * URL: https://www.myfonts.com/products/thin-italic-jeko-79112
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Jeko Black by EllenLuff
+ * URL: https://www.myfonts.com/products/black-jeko-79258
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Jeko Extra Light by EllenLuff
+ * URL: https://www.myfonts.com/products/extra-light-jeko-79118
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Jeko Medium by EllenLuff
+ * URL: https://www.myfonts.com/products/medium-jeko-79175
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Jeko Light by EllenLuff
+ * URL: https://www.myfonts.com/products/light-jeko-79135
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Jeko Semi Bold by EllenLuff
+ * URL: https://www.myfonts.com/products/semi-bold-jeko-79195
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Jeko Regular by EllenLuff
+ * URL: https://www.myfonts.com/products/regular-jeko-79154
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Jeko Bold by EllenLuff
+ * URL: https://www.myfonts.com/products/bold-jeko-79214
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Jeko Black Italic by EllenLuff
+ * URL: https://www.myfonts.com/products/black-italic-jeko-79278
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Jeko Extra Bold by EllenLuff
+ * URL: https://www.myfonts.com/products/extra-bold-jeko-79234
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Jeko Medium Italic by EllenLuff
+ * URL: https://www.myfonts.com/products/medium-italic-jeko-79185
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Jeko Extra Light Italic by EllenLuff
+ * URL: https://www.myfonts.com/products/extra-light-italic-jeko-79126
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Jeko Bold Italic by EllenLuff
+ * URL: https://www.myfonts.com/products/bold-italic-jeko-79225
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Jeko Light Italic by EllenLuff
+ * URL: https://www.myfonts.com/products/light-italic-jeko-79145
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Jeko Regular Italic by EllenLuff
+ * URL: https://www.myfonts.com/products/regular-italic-jeko-79164
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Jeko Semi Bold Italic by EllenLuff
+ * URL: https://www.myfonts.com/products/semi-bold-italic-jeko-79203
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Jeko Extra Bold Italic by EllenLuff
+ * URL: https://www.myfonts.com/products/extra-bold-italic-jeko-79244
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ * 
+ * © 2023 MyFonts Inc. */
+
+
+  
+@font-face {
+  font-family: "JekoThin";
+  src: url('webFonts/JekoThin/font.woff2') format('woff2'), url('webFonts/JekoThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoLightItalic";
+  src: url('webFonts/JekoLightItalic/font.woff2') format('woff2'), url('webFonts/JekoLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoBold";
+  src: url('webFonts/JekoBold/font.woff2') format('woff2'), url('webFonts/JekoBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoMedium";
+  src: url('webFonts/JekoMedium/font.woff2') format('woff2'), url('webFonts/JekoMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoExtraLightItalic";
+  src: url('webFonts/JekoExtraLightItalic/font.woff2') format('woff2'), url('webFonts/JekoExtraLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoBlack";
+  src: url('webFonts/JekoBlack/font.woff2') format('woff2'), url('webFonts/JekoBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoSemiBold";
+  src: url('webFonts/JekoSemiBold/font.woff2') format('woff2'), url('webFonts/JekoSemiBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoExtraBoldItalic";
+  src: url('webFonts/JekoExtraBoldItalic/font.woff2') format('woff2'), url('webFonts/JekoExtraBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoBlackItalic";
+  src: url('webFonts/JekoBlackItalic/font.woff2') format('woff2'), url('webFonts/JekoBlackItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoMediumItalic";
+  src: url('webFonts/JekoMediumItalic/font.woff2') format('woff2'), url('webFonts/JekoMediumItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoBoldItalic";
+  src: url('webFonts/JekoBoldItalic/font.woff2') format('woff2'), url('webFonts/JekoBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoRegularItalic";
+  src: url('webFonts/JekoRegularItalic/font.woff2') format('woff2'), url('webFonts/JekoRegularItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoExtraLight";
+  src: url('webFonts/JekoExtraLight/font.woff2') format('woff2'), url('webFonts/JekoExtraLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoLight";
+  src: url('webFonts/JekoLight/font.woff2') format('woff2'), url('webFonts/JekoLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoRegular";
+  src: url('webFonts/JekoRegular/font.woff2') format('woff2'), url('webFonts/JekoRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoItalicVariable";
+  src: url('webFonts/JekoItalicVariable/font.woff2') format('woff2'), url('webFonts/JekoItalicVariable/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoThinItalic";
+  src: url('webFonts/JekoThinItalic/font.woff2') format('woff2'), url('webFonts/JekoThinItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoExtraBold";
+  src: url('webFonts/JekoExtraBold/font.woff2') format('woff2'), url('webFonts/JekoExtraBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoSemiBoldItalic";
+  src: url('webFonts/JekoSemiBoldItalic/font.woff2') format('woff2'), url('webFonts/JekoSemiBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoVariable";
+  src: url('webFonts/JekoVariable/font.woff2') format('woff2'), url('webFonts/JekoVariable/font.woff') format('woff');
+}
+

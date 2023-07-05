@@ -1,0 +1,25 @@
+dateApplied: '2023-07-04 07:37:00'
+changes:
+  -
+    message: 'Update timestamp for project config'
+    changed:
+      dateModified:
+        from: 1688481405
+        to: 1688481420
+  -
+    added:
+      imageTransforms.8e4f3c2b-86b9-4c29-acb8-b289f448993c.fill: null
+      imageTransforms.8e4f3c2b-86b9-4c29-acb8-b289f448993c.format: null
+      imageTransforms.8e4f3c2b-86b9-4c29-acb8-b289f448993c.handle: favicon310x150
+      imageTransforms.8e4f3c2b-86b9-4c29-acb8-b289f448993c.height: 150
+      imageTransforms.8e4f3c2b-86b9-4c29-acb8-b289f448993c.interlace: none
+      imageTransforms.8e4f3c2b-86b9-4c29-acb8-b289f448993c.mode: crop
+      imageTransforms.8e4f3c2b-86b9-4c29-acb8-b289f448993c.name: 'Favicon 310x150'
+      imageTransforms.8e4f3c2b-86b9-4c29-acb8-b289f448993c.position: center-center
+      imageTransforms.8e4f3c2b-86b9-4c29-acb8-b289f448993c.quality: 80
+      imageTransforms.8e4f3c2b-86b9-4c29-acb8-b289f448993c.upscale: true
+      imageTransforms.8e4f3c2b-86b9-4c29-acb8-b289f448993c.width: 310
+    message: 'Saving transform “favicon310x150”'
+  -
+    added:
+      meta.__names__.8e4f3c2b-86b9-4c29-acb8-b289f448993c: 'Favicon 310x150'
