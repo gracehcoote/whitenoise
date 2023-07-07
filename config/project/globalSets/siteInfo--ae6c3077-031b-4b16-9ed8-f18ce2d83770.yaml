@@ -52,8 +52,128 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            heading: 'If you have multiple business locations, use this area and leave Address above blank.'
+            type: craft\fieldlayoutelements\Heading
+            uid: 0eeb31a1-100e-4b8d-8e8c-20aa1adc5ca5
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 1618d009-643f-4c8c-a421-cc3b3730bac6 # Locations
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 21d78627-82f7-4a12-b7f4-319c5e9938b4
+            userCondition: null
+            warning: null
+            width: 100
         name: 'Company Information'
         uid: bcfcaa76-2fd4-4287-bd37-a5ac134971f7
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 62f1186e-e262-46b5-93a1-81ed960fc6a3 # Facebook
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d9a0af19-cd89-4147-ab6f-cf16650203c7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4f7797e5-910f-4536-9243-f9c5cfcda4d5 # Instagram
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 425066e8-f619-43a1-9261-d3e5bd11007d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 472533a5-38cd-464c-bd82-10d58ab4079a # LinkedIn
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f72e378e-ef79-4582-886d-dee735948dab
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c9747613-724c-481e-b4ac-2cf6fb4c8c72 # Pinterest
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 32011d2e-5dfd-47d3-98a1-e75d8a6c4a68
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3b22405f-25c4-4f1c-88a6-76cbbdff664c # TikTok
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9939a67b-a614-44cc-99ae-13c775eeeef3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 051c4e66-a3c8-411d-8e42-c93258e697c9 # Twitter
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ba887c13-4a3d-4154-b04c-fae3ca2e1bec
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8728a9f7-bd9c-4bd8-b47d-c25c941ba8af # Vimeo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3d8087d0-69af-4b27-8ce1-e7e30a2045a5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3f57fe1a-2538-4db3-976c-a42769a21b7a # YouTube
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 73ea3c11-f9f2-4961-ae64-89ab1cffdbdd
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Social Media Links'
+        uid: 91b5b35b-4f3e-48ae-adfe-365ce5135856
         userCondition: null
       -
         elementCondition: null

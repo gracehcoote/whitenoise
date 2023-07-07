@@ -1,25 +1,29 @@
-dateApplied: '2023-07-04 09:34:42'
+dateApplied: '2023-07-05 07:14:02'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688481521
-        to: 1688488482
+        from: 1688565903
+        to: 1688566442
   -
     added:
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.fill: null
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.format: jpg
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.handle: ogImage
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.height: 630
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.interlace: none
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.mode: crop
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.name: 'OG image'
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.position: center-center
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.quality: 80
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.upscale: true
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.width: 1200
-    message: 'Saving transform “ogImage”'
-  -
-    added:
-      meta.__names__.f70343b7-957b-4e91-a5d3-1c560e0757ce: 'OG image'
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.byteLimit: null
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.charLimit: null
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.code: false
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.columnType: null
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.initialRows: 4
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.multiline: false
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.placeholder: null
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.uiMode: normal
+    removed:
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.maxLength: 255
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.types.0: url
+    message: 'Save field “facebook”'
+    changed:
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.contentColumnType:
+        from: string(255)
+        to: text
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.type:
+        from: craft\fields\Url
+        to: craft\fields\PlainText

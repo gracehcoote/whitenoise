@@ -1,25 +1,26 @@
-dateApplied: '2023-07-04 07:37:31'
+dateApplied: '2023-07-05 07:02:44'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688481442
-        to: 1688481451
+        from: 1688565739
+        to: 1688565764
   -
     added:
-      imageTransforms.0f6d19b5-6f16-45c3-aa26-37159d9c4ba3.fill: null
-      imageTransforms.0f6d19b5-6f16-45c3-aa26-37159d9c4ba3.format: null
-      imageTransforms.0f6d19b5-6f16-45c3-aa26-37159d9c4ba3.handle: favicon36x36
-      imageTransforms.0f6d19b5-6f16-45c3-aa26-37159d9c4ba3.height: 36
-      imageTransforms.0f6d19b5-6f16-45c3-aa26-37159d9c4ba3.interlace: none
-      imageTransforms.0f6d19b5-6f16-45c3-aa26-37159d9c4ba3.mode: crop
-      imageTransforms.0f6d19b5-6f16-45c3-aa26-37159d9c4ba3.name: 'Favicon 36x36'
-      imageTransforms.0f6d19b5-6f16-45c3-aa26-37159d9c4ba3.position: center-center
-      imageTransforms.0f6d19b5-6f16-45c3-aa26-37159d9c4ba3.quality: 80
-      imageTransforms.0f6d19b5-6f16-45c3-aa26-37159d9c4ba3.upscale: true
-      imageTransforms.0f6d19b5-6f16-45c3-aa26-37159d9c4ba3.width: 36
-    message: 'Saving transform “favicon36x36”'
+      fields.472533a5-38cd-464c-bd82-10d58ab4079a.columnSuffix: vwvznmdf
+      fields.472533a5-38cd-464c-bd82-10d58ab4079a.contentColumnType: string(255)
+      fields.472533a5-38cd-464c-bd82-10d58ab4079a.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
+      fields.472533a5-38cd-464c-bd82-10d58ab4079a.handle: linkedin
+      fields.472533a5-38cd-464c-bd82-10d58ab4079a.instructions: null
+      fields.472533a5-38cd-464c-bd82-10d58ab4079a.name: LinkedIn
+      fields.472533a5-38cd-464c-bd82-10d58ab4079a.searchable: false
+      fields.472533a5-38cd-464c-bd82-10d58ab4079a.settings.maxLength: 255
+      fields.472533a5-38cd-464c-bd82-10d58ab4079a.settings.types.0: url
+      fields.472533a5-38cd-464c-bd82-10d58ab4079a.translationKeyFormat: null
+      fields.472533a5-38cd-464c-bd82-10d58ab4079a.translationMethod: none
+      fields.472533a5-38cd-464c-bd82-10d58ab4079a.type: craft\fields\Url
+    message: 'Save field “linkedin”'
   -
     added:
-      meta.__names__.0f6d19b5-6f16-45c3-aa26-37159d9c4ba3: 'Favicon 36x36'
+      meta.__names__.472533a5-38cd-464c-bd82-10d58ab4079a: LinkedIn

@@ -1,25 +1,26 @@
-dateApplied: '2023-07-04 07:38:18'
+dateApplied: '2023-07-05 07:04:38'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688481489
-        to: 1688481498
+        from: 1688565849
+        to: 1688565878
   -
     added:
-      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.fill: null
-      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.format: null
-      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.handle: favicon72x72
-      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.height: 72
-      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.interlace: none
-      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.mode: crop
-      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.name: 'Favicon 72x72'
-      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.position: center-center
-      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.quality: 80
-      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.upscale: true
-      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.width: 72
-    message: 'Saving transform “favicon72x72”'
+      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.columnSuffix: vowiowyy
+      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.contentColumnType: string(255)
+      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
+      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.handle: vimeo
+      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.instructions: null
+      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.name: Vimeo
+      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.searchable: false
+      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.settings.maxLength: 255
+      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.settings.types.0: url
+      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.translationKeyFormat: null
+      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.translationMethod: none
+      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.type: craft\fields\Url
+    message: 'Save field “vimeo”'
   -
     added:
-      meta.__names__.b919de39-a74a-41ba-8366-3e3bfa181650: 'Favicon 72x72'
+      meta.__names__.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af: Vimeo

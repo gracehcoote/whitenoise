@@ -28,6 +28,9 @@ Version: 1.0
 /*
 Main Styles
 */
+/*****************
+HEADER STYLES
+*****************/
 header#global {
   width: 100%;
   position: absolute;
@@ -35,149 +38,18 @@ header#global {
   right: 0;
   left: 0;
   z-index: 99;
-  padding: 0 5%;
 }
-header#global #toggle-nav {
-  position: relative;
-  z-index: 999;
-  top: 0;
-  right: 0;
-  width: 24px;
-  height: 24px;
-  cursor: pointer;
-  background-color: transparent;
-  transition: background-color ease-in-out 0.4s;
-}
-header#global #toggle-nav .burger {
-  display: block;
-  position: relative;
-  top: 10px;
-  width: 24px;
-  height: 2px;
-  background-color: #fff;
-}
-header#global #toggle-nav .burger:before, header#global #toggle-nav .burger:after {
-  position: absolute;
-  content: "";
-  width: 24px;
-  height: 2px;
-  transition: transform 0s, top 0.3s;
-  background-color: #fff;
-}
-header#global #toggle-nav .burger:before {
-  top: -8px;
-}
-header#global #toggle-nav .burger:after {
-  top: 8px;
-}
-header#global #toggle-nav:hover .burger:before {
-  top: -10px;
-}
-header#global #toggle-nav:hover .burger:after {
-  top: 10px;
-}
-header#global #toggle-nav.active .burger {
-  background-color: transparent;
-}
-header#global #toggle-nav.active .burger:before, header#global #toggle-nav.active .burger:after {
-  width: 25px;
-  top: 0;
-  background-color: black;
-  transition: top 0s, transform 0.3s, background-color 0.3s 0.3s;
-}
-header#global #toggle-nav.active .burger:before {
-  transform: rotate(45deg);
-}
-header#global #toggle-nav.active .burger:after {
-  transform: rotate(-45deg);
-}
-@media only screen and (max-width: 991px) {
-  header#global #toggle-nav.active {
-    position: fixed;
-    top: 5.75%;
-    right: 5%;
-  }
-}
-header#global nav {
-  position: fixed;
-  z-index: 99;
-  top: 0;
-  right: -100%;
-  bottom: 0;
-  width: 40vw;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  overflow: scroll;
-  transition: 0.5s;
-}
-@media only screen and (max-width: 1200px) {
-  header#global nav {
-    width: 50vw;
-  }
-}
-@media only screen and (max-width: 991px) {
-  header#global nav {
-    width: 100vw;
-  }
-}
-header#global nav.active {
-  right: 0;
-}
-header#global nav > ul.nav {
-  padding: 5rem;
-}
-@media only screen and (max-width: 575px) {
-  header#global nav > ul.nav {
-    padding: 4rem;
-  }
-}
-header#global nav ul.nav {
-  align-items: center;
-  text-align: center;
-}
-header#global nav ul.nav:not(.social) {
-  display: block;
-}
-header#global nav ul.nav:not(.social) .nav-item {
-  margin-bottom: 2.5rem;
-}
-header#global nav ul.nav .nav-item {
-  font-size: 38px;
-  font-weight: 900;
-  position: relative;
-}
-@media only screen and (max-width: 667px) {
-  header#global nav ul.nav .nav-item {
-    font-size: 28px;
-  }
-}
-header#global nav ul.nav .nav-item .nav-link {
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-  padding: 0;
-  font-weight: 900;
-}
-header#global nav ul.nav .nav-item .nav-link:before {
-  content: "";
-  position: absolute;
-  width: 0%;
-  height: 2px;
-  background-color: black;
-  top: 100%;
-  right: 0;
-  left: 0;
-  transition: 0.3s;
-}
-header#global nav ul.nav .nav-item .nav-link:not(.btn) {
-  padding-left: 0;
-}
-header#global nav ul.nav .nav-item .nav-link:not(.btn):hover:before, header#global nav ul.nav .nav-item .nav-link:not(.btn).active:before {
-  width: 100%;
+header#global .section-container {
+  padding-top: 3rem;
 }
 
+nav#global {
+  z-index: 98;
+}
+
+/*****************
+FOOTER STYLES
+*****************/
 /*****************
 MAIN LAYOUT STYLES
 *****************/
@@ -243,6 +115,10 @@ section {
     padding-left: 5%;
     padding-right: 5%;
   }
+  .section-container.x-narrow {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -297,16 +173,28 @@ section {
 /*****************
 NAVIGATION STYLES
 *****************/
-ul.nav.social {
+ul.nav .nav-link {
+  padding: 0;
+}
+
+ul.social {
+  display: flex;
   flex-direction: row;
   margin: 0 -0.5rem;
 }
-ul.nav.social .nav-item {
+ul.social .nav-item {
   margin: 0 0.5rem;
 }
-ul.nav.social .nav-item .nav-link {
-  font-size: 20px;
+ul.social .nav-item .nav-link {
+  font-size: 24px;
+  color: #fff;
+  padding: 0;
+  transition: 0.4s;
 }
+ul.social .nav-item .nav-link:hover {
+  color: #FFCD00;
+}
+
 ul.crumbs {
   list-style: none;
   margin: 0;
@@ -328,6 +216,145 @@ ul.crumbs li a {
   text-decoration: none;
   transition: 0.3s;
 }
+.toggle-nav {
+  width: 32px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: transparent;
+}
+.toggle-nav .burger {
+  display: block;
+  position: relative;
+  top: 0;
+  width: 32px;
+  height: 2px;
+  background-color: #fff;
+}
+@media only screen and (max-width: 480px) {
+  .toggle-nav .burger {
+    margin-left: 0;
+  }
+}
+.toggle-nav .burger:before, .toggle-nav .burger:after {
+  position: absolute;
+  content: "";
+  width: 32px;
+  height: 2px;
+  transition: transform 0s, top 0.3s;
+  background-color: #fff;
+}
+.toggle-nav .burger:before {
+  top: -12px;
+}
+.toggle-nav .burger:after {
+  top: 12px;
+}
+.toggle-nav:hover .burger:before {
+  top: -8px;
+}
+.toggle-nav:hover .burger:after {
+  top: 8px;
+}
+.toggle-nav.active .burger {
+  background-color: transparent;
+}
+.toggle-nav.active .burger:before, .toggle-nav.active .burger:after {
+  top: 0;
+  transition: top 0s, transform 0.3s, background-color 0.3s 0.3s;
+}
+.toggle-nav.active .burger:before {
+  transform: rotate(45deg);
+}
+.toggle-nav.active .burger:after {
+  transform: rotate(-45deg);
+}
+.toggle-nav.active:hover .burger:before, .toggle-nav.active:hover .burger:after {
+  top: 0;
+  transition: top 0s, transform 0.3s, background-color 0.3s 0.3s;
+}
+.toggle-nav.active:hover .burger:before {
+  transform: rotate(35deg);
+}
+.toggle-nav.active:hover .burger:after {
+  transform: rotate(-35deg);
+}
+
+nav#global {
+  background-color: #1A1A1A;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: scroll;
+  transition: 0.5s;
+}
+nav#global.active {
+  opacity: 1;
+}
+nav#global.active ul.nav .nav-item {
+  animation-name: animateIn;
+  animation-duration: 350ms;
+  animation-delay: calc(var(--animation-order) * 100ms);
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+}
+nav#global .nav-wrapper {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+nav#global ul.nav .nav-item {
+  margin: 1.25rem 0;
+  position: relative;
+  opacity: 0;
+}
+nav#global ul.nav .nav-link {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: "JekoSemiBold", "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  line-height: 1;
+  transition: 0.4s;
+}
+nav#global ul.nav .nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+nav#global ul.nav .nav-link.active {
+  color: #FFCD00;
+  font-family: "JekoExtraBold", "Poppins", Arial, Helvetica, sans-serif;
+}
+nav#global h1,
+nav#global h2,
+nav#global h3,
+nav#global h4,
+nav#global h5,
+nav#global h6,
+nav#global p {
+  color: #fff;
+}
+nav#global h1 a,
+nav#global h2 a,
+nav#global h3 a,
+nav#global h4 a,
+nav#global h5 a,
+nav#global h6 a,
+nav#global p a {
+  color: #fff;
+  font-weight: 600;
+}
+nav#global h1 a:hover,
+nav#global h2 a:hover,
+nav#global h3 a:hover,
+nav#global h4 a:hover,
+nav#global h5 a:hover,
+nav#global h6 a:hover,
+nav#global p a:hover {
+  color: #FFCD00;
+}
+
 /****************
 TYPOGRAPHY STYLES
 ****************/
@@ -345,10 +372,40 @@ body {
   text-decoration: none;
   transition: all 0.3s;
 }
+h1 {
+  font-family: "JekoSemiBold", "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 61px;
+}
+.home h1 {
+  font-size: 76px;
+}
+h2 {
+  font-family: "JekoSemiBold", "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 61px;
+}
+h3 {
+  font-family: "JekoMedium", "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 31px;
+}
+h4 {
+  font-family: "JekoBold", "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+h5 {
+  font-family: "JekoBold", "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
 p,
 ul,
 ol {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 16px;
+}
+p strong,
+ul strong,
+ol strong {
+  font-weight: 700;
 }
 @media only screen and (max-width: 1024px) {
   p,
@@ -365,7 +422,7 @@ ol:last-child {
 
 ul:not(.nav):not(.crumbs),
 ol {
-  margin-left: 1rem;
+  list-style: none;
   padding-left: 0;
 }
 ul:not(.nav):not(.crumbs) li:not(:last-child),
@@ -383,8 +440,13 @@ footer p small {
   font-size: 12px;
 }
 p a {
+  text-decoration: none;
   transition: 0.4s;
 }
+p a:hover {
+  color: #FFCD00;
+}
+
 a {
   text-decoration: underline;
 }
@@ -444,6 +506,15 @@ blockquote cite {
   font-weight: 700;
 }
 
+/*****************
+COLOUR STYLES
+*****************/
+.light .toggle-nav .burger,
+.light .toggle-nav .burger:before,
+.light .toggle-nav .burger:after {
+  background-color: #1A1A1A;
+}
+
 /*
 Elements
 */
@@ -475,29 +546,14 @@ ALERT STYLES
 /***************
 ANIMATION STYLES
 ***************/
-@-webkit-keyframes pulse {
+@keyframes animateIn {
   0% {
-    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
-  }
-  70% {
-    -webkit-box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+    opacity: 0;
+    top: -1rem;
   }
   100% {
-    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-  }
-}
-@keyframes pulse {
-  0% {
-    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
-  }
-  70% {
-    -moz-box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
-    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
-  }
-  100% {
-    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    opacity: 1;
+    top: 0;
   }
 }
 /************
@@ -616,6 +672,13 @@ ul.errors li {
 /************
 HERO STYLES
 ************/
+.hero {
+  background-color: #1A1A1A;
+}
+.hero * {
+  color: #fff;
+}
+
 /************
 IMAGE STYLES
 ************/
@@ -680,6 +743,16 @@ MISCELLANEOUS STYLES
     opacity: 0;
   }
 }
+hr.small {
+  margin: 1.5rem 0;
+  opacity: 1;
+  width: 80px;
+  border-width: 2px;
+}
+hr.small.light {
+  border-color: #fff;
+}
+
 /************
 TABLE STYLES
 ************/

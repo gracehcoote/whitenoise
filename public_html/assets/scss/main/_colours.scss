@@ -1,0 +1,13 @@
+/*****************
+COLOUR STYLES
+*****************/
+
+.light {
+  .toggle-nav {
+    .burger,
+    .burger:before,
+    .burger:after {
+      background-color: $black;
+    }
+  }
+}

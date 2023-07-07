@@ -52,8 +52,8 @@ section {
 
 .section-container {
 	position: relative;
-	padding-top: $pad-lg;
-	padding-bottom: $pad-lg;
+	padding-top: $space-lg;
+	padding-bottom: $space-lg;
 	margin: 0 auto;
 	width: 85%;
 	max-width: 1224px;
@@ -67,6 +67,11 @@ section {
 			padding-left: 5%;
 			padding-right: 5%;
 		}
+
+		&.x-narrow {
+			padding-left: 8%;
+			padding-right: 8%;
+		}
 	}
 }
 
@@ -79,8 +84,8 @@ section {
 
 @media #{$tablet-ls} {
 	.section-container {
-		padding-top: $pad-md;
-		padding-bottom: $pad-md;
+		padding-top: $space-md;
+		padding-bottom: $space-md;
 		width: 90%;
 
 		&.narrow {
@@ -91,8 +96,8 @@ section {
 
 @media #{$small} {
 	.section-container {
-		padding-top: $pad-sm;
-		padding-bottom: $pad-sm;
+		padding-top: $space-sm;
+		padding-bottom: $space-sm;
 		width: 85%;
 	}
 }
@@ -100,14 +105,14 @@ section {
 // Other elements
 
 .spacer {
-	height: $pad-lg;
+	height: $space-lg;
 
 	@media #{$tablet-ls} {
-		height: $pad-md;
+		height: $space-md;
 	}
 
 	@media #{$tablet-pt} {
-		height: $pad-sm;
+		height: $space-sm;
 	}
 }
 

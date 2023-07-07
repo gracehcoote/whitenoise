@@ -1,42 +1,25 @@
-dateApplied: '2023-07-04 07:06:51'
+dateApplied: '2023-07-04 07:37:58'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688478511
-        to: 1688479611
+        from: 1688481469
+        to: 1688481478
   -
     added:
-      plugins.cookie-consent-banner.settings.allow: 'Allow cookies'
-      plugins.cookie-consent-banner.settings.async_js: ''
-      plugins.cookie-consent-banner.settings.auto_inject: '1'
-      plugins.cookie-consent-banner.settings.decline: Decline
-      plugins.cookie-consent-banner.settings.defer_js: ''
-      plugins.cookie-consent-banner.settings.disable_in_live_preview: ''
-      plugins.cookie-consent-banner.settings.dismiss: 'Got it!'
-      plugins.cookie-consent-banner.settings.dismiss_on_scroll: '0'
-      plugins.cookie-consent-banner.settings.dismiss_on_timeout: '0'
-      plugins.cookie-consent-banner.settings.excluded_categories: null
-      plugins.cookie-consent-banner.settings.excluded_entry_types: null
-      plugins.cookie-consent-banner.settings.expiry_days: '365'
-      plugins.cookie-consent-banner.settings.honour_do_not_track_header: ''
-      plugins.cookie-consent-banner.settings.layout: block
-      plugins.cookie-consent-banner.settings.learn: 'Learn More'
-      plugins.cookie-consent-banner.settings.learn_more_link: 'http://cookiesandyou.com/'
-      plugins.cookie-consent-banner.settings.message: 'This website uses cookies to ensure you get the best experience on our website.'
-      plugins.cookie-consent-banner.settings.palette: default
-      plugins.cookie-consent-banner.settings.palette_banner: '000000'
-      plugins.cookie-consent-banner.settings.palette_banner_text: ffffff
-      plugins.cookie-consent-banner.settings.palette_button: f1d600
-      plugins.cookie-consent-banner.settings.palette_button_text: '000000'
-      plugins.cookie-consent-banner.settings.palette_left_button_bg: f8e71c
-      plugins.cookie-consent-banner.settings.palette_left_button_text: '000000'
-      plugins.cookie-consent-banner.settings.palette_link: ffffff
-      plugins.cookie-consent-banner.settings.position: bottom
-      plugins.cookie-consent-banner.settings.preload_css: ''
-      plugins.cookie-consent-banner.settings.revokable: ''
-      plugins.cookie-consent-banner.settings.secure_only: ''
-      plugins.cookie-consent-banner.settings.target: _blank
-      plugins.cookie-consent-banner.settings.type: opt-in
-    message: 'Change settings for plugin “cookie-consent-banner”'
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.fill: null
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.format: null
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.handle: favicon60x60
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.height: 60
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.interlace: none
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.mode: crop
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.name: 'Favicon 60x60'
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.position: center-center
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.quality: 80
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.upscale: true
+      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.width: 60
+    message: 'Saving transform “favicon60x60”'
+  -
+    added:
+      meta.__names__.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2: 'Favicon 60x60'

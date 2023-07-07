@@ -1,19 +1,25 @@
 // Colours
 $black: #1A1A1A;
+$yellow: #FFCD00;
+
 $success: #19A000;
 $danger: #E00000;
 
 // Fonts
 
-$title-font: 'Jeko', 'Poppins', Arial, Helvetica, sans-serif;
+$title-font-regular: 'JekoRegular', 'Poppins', Arial, Helvetica, sans-serif;
+$title-font-medium: 'JekoMedium', 'Poppins', Arial, Helvetica, sans-serif;
+$title-font-semi: 'JekoSemiBold', 'Poppins', Arial, Helvetica, sans-serif;
+$title-font-bold: 'JekoBold', 'Poppins', Arial, Helvetica, sans-serif;
+$title-font-xbold: 'JekoExtraBold', 'Poppins', Arial, Helvetica, sans-serif;
 $body-font: 'Poppins', Arial, Helvetica, sans-serif;
 
 // Padding sizes
 
-$pad-lg: 7rem;
-$pad-md: 5rem;
-$pad-sm: 3rem;
-$pad-xs: 2rem;
+$space-lg: 7rem;
+$space-md: 5rem;
+$space-sm: 3rem;
+$space-xs: 2rem;
 
 // Responsive rules
 

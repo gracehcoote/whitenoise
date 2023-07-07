@@ -1,22 +1,24 @@
 jQuery(document).ready(function(){
+  var headerHeight = $('header#global').outerHeight();
+  var navSpacerTop = headerHeight * 2;
+  $('nav#global').css('padding-top', navSpacerTop + 'px');
 
   jQuery('.toggle-nav').click(function(e){
     e.stopPropagation();
-    console.log('test');
     jQuery(this).toggleClass('active');
-    jQuery('header#global nav').toggleClass('active');
+    jQuery('nav#global').toggleClass('active');
   });
 
 	jQuery('header#global nav ul.nav li.nav-item a.nav-link').click(function(e){
     e.stopPropagation();
     jQuery('.toggle-nav').toggleClass('active');
-    jQuery('header#global nav').toggleClass('active');
+    jQuery('nav#global').toggleClass('active');
   });
 
   $(document).keyup(function(e) {
      if (e.keyCode == 27) { // escape key maps to keycode `27`
       jQuery('.toggle-nav').removeClass('active');
-      jQuery('header#global nav').removeClass('active');
+      jQuery('nav#global').removeClass('active');
     }
   });
 

@@ -1,25 +1,26 @@
-dateApplied: '2023-07-04 07:38:31'
+dateApplied: '2023-07-05 07:04:46'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688481498
-        to: 1688481511
+        from: 1688565878
+        to: 1688565886
   -
     added:
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.fill: null
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.format: null
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.handle: favicon76x76
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.height: 76
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.interlace: none
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.mode: crop
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.name: 'Favicon 76x76'
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.position: center-center
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.quality: 80
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.upscale: true
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.width: 76
-    message: 'Saving transform “favicon76x76”'
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.columnSuffix: watzhjlu
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.contentColumnType: string(255)
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.handle: twitter
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.instructions: null
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.name: Twitter
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.searchable: false
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.settings.maxLength: 255
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.settings.types.0: url
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.translationKeyFormat: null
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.translationMethod: none
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.type: craft\fields\Url
+    message: 'Save field “twitter”'
   -
     added:
-      meta.__names__.a6d4b9df-3107-45d2-ac86-437b4cb6b050: 'Favicon 76x76'
+      meta.__names__.051c4e66-a3c8-411d-8e42-c93258e697c9: Twitter

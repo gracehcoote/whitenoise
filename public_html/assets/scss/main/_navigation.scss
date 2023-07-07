@@ -2,7 +2,14 @@
 NAVIGATION STYLES
 *****************/
 
-ul.nav.social {
+ul.nav {
+  .nav-link {
+    padding: 0;
+  }
+}
+
+ul.social {
+  display: flex;
   flex-direction: row;
   margin: 0 -0.5rem;
 
@@ -10,10 +17,13 @@ ul.nav.social {
     margin: 0 0.5rem;
 
     .nav-link {
-      font-size: 20px;
+      font-size: 24px;
+      color: #fff;
+      padding: 0;
+      transition: 0.4s;
 
       &:hover {
-
+        color: $yellow;
       }
     }
   }
@@ -43,6 +53,174 @@ ul.crumbs {
 
       &:hover {
 
+      }
+    }
+  }
+}
+
+// Global navigation 
+
+.toggle-nav {
+  width: 32px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: transparent;
+
+  .burger {
+    display: block;
+    position: relative;
+    top: 0;
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+
+    @media #{$extra-small} {
+      margin-left: 0;
+    }
+
+    &:before,
+    &:after {
+      position: absolute;
+      content: '';
+      width: 32px;
+      height: 2px;
+      transition: transform 0s, top 0.3s;
+      background-color: #fff;
+    }
+
+    &:before {
+      top: -12px;
+    }
+
+    &:after {
+      top: 12px;    
+    }
+  }
+
+  &:hover {
+    .burger {
+      &:before {
+        top: -8px;
+      }
+
+      &:after {
+        top: 8px;
+      }
+    }
+  }
+
+  &.active {
+    .burger {
+      background-color: transparent;
+
+      &:before,
+      &:after {
+        top: 0;
+        transition: top 0s, transform 0.3s, background-color 0.3s 0.3s;
+      }
+
+      &:before {
+        transform: rotate(45deg)
+      }
+
+      &:after {
+        transform: rotate(-45deg)
+      }
+    }
+
+    &:hover {
+      .burger {
+        &:before,
+        &:after {
+          top: 0;
+          transition: top 0s, transform 0.3s, background-color 0.3s 0.3s;
+        }
+
+        &:before {
+          transform: rotate(35deg)
+        }
+
+        &:after {
+          transform: rotate(-35deg)
+        }
+      }
+    }
+  }
+}
+
+nav#global {
+  background-color: $black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: scroll;
+  transition: 0.5s;
+
+  &.active {
+    opacity: 1;
+
+    ul.nav {
+      .nav-item {
+        animation-name: animateIn;
+        animation-duration: 350ms;
+        animation-delay: calc(var(--animation-order) * 100ms);
+        animation-fill-mode: both;
+        animation-timing-function: ease-in-out;
+      }
+    }
+  }
+
+  .nav-wrapper {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  ul.nav {
+    .nav-item {
+      margin: 1.25rem 0;
+      position: relative;
+      opacity: 0;
+    }
+
+    .nav-link {
+      color: rgba(255,255,255,0.4);
+      font-family: $title-font-semi;
+      font-size: 48px;
+      line-height: 1;
+      transition: 0.4s;
+
+      &:hover {
+       color: rgba(255,255,255,1);
+      }
+
+      &.active {
+        color: $yellow;
+        font-family: $title-font-xbold;
+      }
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    color: #fff;
+
+    a {
+      color: #fff;
+      font-weight: 600;
+
+      &:hover {
+        color: $yellow;
       }
     }
   }

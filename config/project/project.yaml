@@ -1,4 +1,4 @@
-dateModified: 1688550893
+dateModified: 1688567166
 email:
   fromEmail: me@gracecoote.co.uk
   fromName: 'Craft Base'
@@ -15,8 +15,11 @@ meta:
   __names__:
     0f6d19b5-6f16-45c3-aa26-37159d9c4ba3: 'Favicon 36x36' # Favicon 36x36
     2d5a07da-da97-4edf-89e7-536ff13bb1cd: 'Email Address' # Email Address
+    3b22405f-25c4-4f1c-88a6-76cbbdff664c: TikTok # TikTok
     3c451390-36bf-41a6-910d-d4eaa3522dba: 'Theme Colour' # Theme Colour
+    3f57fe1a-2538-4db3-976c-a42769a21b7a: YouTube # YouTube
     4af96521-49a1-4757-8b37-7a72e5763e1f: Address # Address
+    4f7797e5-910f-4536-9243-f9c5cfcda4d5: Instagram # Instagram
     6b2a9aec-c384-408b-946c-3cbaba877529: 'Redirect to First Child Page' # Redirect to First Child Page
     6bf02326-b759-447d-bc08-0892b1fd65b7: 'Favicon 152x152' # Favicon 152x152
     8e4f3c2b-86b9-4c29-acb8-b289f448993c: 'Favicon 310x150' # Favicon 310x150
@@ -28,7 +31,9 @@ meta:
     42d3d29f-acd5-4355-b756-dd24a263cf34: 'SEO Title' # SEO Title
     46a718b9-7e17-42a2-a4ce-3b0214a27bdc: Default # Default
     47b5b191-b5ab-4a7f-b5d0-9b369c81e457: 'Location Name' # Location Name
+    051c4e66-a3c8-411d-8e42-c93258e697c9: Twitter # Twitter
     56f30d52-cee5-4f1a-b135-27ad8bbe2ad9: Meta # Meta
+    62f1186e-e262-46b5-93a1-81ed960fc6a3: Facebook # Facebook
     225d43ff-b622-4780-8602-22940bb83e3e: 'OG Image' # OG Image
     721c991d-83b0-44ba-87e5-feaf81b49043: Page # Page
     756d642c-6246-4f4e-8537-32630250456f: 'Favicon 16x16' # Favicon 16x16
@@ -39,6 +44,8 @@ meta:
     3724a7d8-69f4-4e01-a414-e8be3d0abae0: Settings # Settings
     5638a993-1e91-47fc-93a6-f7c52f789aae: Favicon # Favicon
     6062bc9a-a4e5-4395-9fc7-823621507cec: 'Craft Base' # Craft Base
+    8728a9f7-bd9c-4bd8-b47d-c25c941ba8af: Vimeo # Vimeo
+    472533a5-38cd-464c-bd82-10d58ab4079a: LinkedIn # LinkedIn
     558289e0-2263-4114-af78-ce71e894cf10: 'Favicon 180x180' # Favicon 180x180
     a0ad2a73-81a4-46fe-b8e7-6083409f70e5: 'Favicon 70x70' # Favicon 70x70
     a4a25770-eaa8-46ce-8b3b-71a8c8b20614: 'Favicon 32x32' # Favicon 32x32
@@ -53,6 +60,7 @@ meta:
     c0a664fa-02e9-49fc-9a02-c55cf19ba5ca: 'Phone Number' # Phone Number
     c7bbf02b-9a9d-47d2-acd0-5548c7e59e93: 'Favicon 120x120' # Favicon 120x120
     c9a82cb7-7e57-4b48-aa3f-09cea62cacc3: 'Show in footer navigation' # Show in footer navigation
+    c9747613-724c-481e-b4ac-2cf6fb4c8c72: Pinterest # Pinterest
     cecf5c92-7e2f-46fa-a2bf-8334c0c84de4: 'Favicon 150x150' # Favicon 150x150
     d015ca1c-2019-49d3-9c26-0ab619a84fc3: Home # Home
     d6daaff4-e52d-4539-9f6c-285af2414d68: 'Favicon 192x192' # Favicon 192x192

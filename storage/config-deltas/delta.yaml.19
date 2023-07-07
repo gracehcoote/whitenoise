@@ -1,25 +1,26 @@
-dateApplied: '2023-07-04 07:37:58'
+dateApplied: '2023-07-05 07:03:38'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688481469
-        to: 1688481478
+        from: 1688565781
+        to: 1688565818
   -
     added:
-      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.fill: null
-      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.format: null
-      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.handle: favicon60x60
-      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.height: 60
-      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.interlace: none
-      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.mode: crop
-      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.name: 'Favicon 60x60'
-      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.position: center-center
-      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.quality: 80
-      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.upscale: true
-      imageTransforms.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2.width: 60
-    message: 'Saving transform “favicon60x60”'
+      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.columnSuffix: jngusyae
+      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.contentColumnType: string(255)
+      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
+      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.handle: tiktok
+      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.instructions: null
+      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.name: TikTok
+      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.searchable: false
+      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.settings.maxLength: 255
+      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.settings.types.0: url
+      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.translationKeyFormat: null
+      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.translationMethod: none
+      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.type: craft\fields\Url
+    message: 'Save field “tiktok”'
   -
     added:
-      meta.__names__.e5eb5006-ee2c-454c-9cfa-2da9a96caeb2: 'Favicon 60x60'
+      meta.__names__.3b22405f-25c4-4f1c-88a6-76cbbdff664c: TikTok

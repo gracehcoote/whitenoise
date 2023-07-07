@@ -1,25 +1,26 @@
-dateApplied: '2023-07-04 07:38:09'
+dateApplied: '2023-07-05 07:03:47'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688481478
-        to: 1688481489
+        from: 1688565818
+        to: 1688565827
   -
     added:
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.fill: null
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.format: null
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.handle: favicon70x70
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.height: 70
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.interlace: none
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.mode: crop
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.name: 'Favicon 70x70'
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.position: center-center
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.quality: 80
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.upscale: true
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.width: 70
-    message: 'Saving transform “favicon70x70”'
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.columnSuffix: hizehzsj
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.contentColumnType: string(255)
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.handle: youtube
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.instructions: null
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.name: YouTube
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.searchable: false
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.settings.maxLength: 255
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.settings.types.0: url
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.translationKeyFormat: null
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.translationMethod: none
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.type: craft\fields\Url
+    message: 'Save field “youtube”'
   -
     added:
-      meta.__names__.a0ad2a73-81a4-46fe-b8e7-6083409f70e5: 'Favicon 70x70'
+      meta.__names__.3f57fe1a-2538-4db3-976c-a42769a21b7a: YouTube

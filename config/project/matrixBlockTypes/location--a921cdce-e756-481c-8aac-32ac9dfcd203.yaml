@@ -161,7 +161,7 @@ fields:
     contentColumnType: string
     fieldGroup: null
     handle: thumbnail
-    instructions: null
+    instructions: 'Used on the main Contact page'
     name: Thumbnail
     searchable: false
     settings:
@@ -194,7 +194,7 @@ fields:
             - class
             - craft\elements\conditions\assets\AssetCondition
       selectionLabel: null
-      showSiteMenu: false
+      showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       sources: '*'

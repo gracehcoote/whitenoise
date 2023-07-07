@@ -52,7 +52,7 @@
   <link rel="stylesheet" href="{{ siteUrl }}assets/css/Jeko.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
   <!-- Stylesheets -->
   {% block headContent %}
@@ -84,6 +84,8 @@
 <body class="{{ bodyClass }}">
   {% block body %}
     <div class="page-wrap">
+      {% include "_includes/header" %}
+
       {% block main %}
       {% endblock %}
     </div><!-- end page-wrap -->

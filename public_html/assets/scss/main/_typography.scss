@@ -23,7 +23,13 @@ body {
 }
 
 h1 {
-  
+  font-family: $title-font-semi;
+  font-size: 61px;
+
+  .home & {
+    font-size: 76px;
+  }
+
   @media #{$tablet-ls} {
 
   }
@@ -42,6 +48,8 @@ h1 {
 }
 
 h2 {
+  font-family: $title-font-semi;
+  font-size: 61px;
 
   @media #{$tablet-ls} {
     
@@ -58,7 +66,9 @@ h2 {
 }
 
 h3 {
-  
+  font-family: $title-font-medium;
+  font-size: 31px;
+
   @media #{$tablet-ls} {
 
   }
@@ -70,7 +80,8 @@ h3 {
 }
 
 h4 {
-
+  font-family: $title-font-bold;
+  font-size: 25px;
 
   @media #{$tablet-ls} {
 
@@ -82,7 +93,8 @@ h4 {
 }
 
 h5 {
-
+  font-family: $title-font-bold;
+  font-size: 20px;
 }
 
 h6 {
@@ -92,8 +104,12 @@ h6 {
 p,
 ul,
 ol {
+  font-family: $body-font;
   font-size: 16px;
 
+  strong {
+    font-weight: 700;
+  }
 
   @media #{$tablet-ls} {
     font-size: 14px;
@@ -106,7 +122,7 @@ ol {
 
 ul:not(.nav):not(.crumbs),
 ol {
-  margin-left: 1rem;
+  list-style: none;
   padding-left: 0;
 
   li:not(:last-child) {
@@ -126,11 +142,11 @@ p {
   }
 
   a {
-
+    text-decoration: none;
     transition: 0.4s;
 
     &:hover {
-
+      color: $yellow;
     }
 
   }

@@ -45,3 +45,14 @@ MISCELLANEOUS STYLES
   60% { opacity: 0; }
   100% { opacity: 0; }
 }
+
+hr.small {
+  margin: 1.5rem 0;
+  opacity: 1;
+  width: 80px;
+  border-width: 2px;
+
+  &.light {
+    border-color: #fff;
+  }
+}

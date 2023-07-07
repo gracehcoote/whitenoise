@@ -1,25 +1,25 @@
-dateApplied: '2023-07-04 07:33:57'
+dateApplied: '2023-07-04 07:38:18'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688481210
-        to: 1688481237
+        from: 1688481489
+        to: 1688481498
   -
     added:
-      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.fill: null
-      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.format: null
-      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.handle: favicon120x120
-      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.height: 120
-      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.interlace: none
-      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.mode: crop
-      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.name: 'Favicon 120x120'
-      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.position: center-center
-      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.quality: 80
-      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.upscale: true
-      imageTransforms.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93.width: 120
-    message: 'Saving transform “favicon120x120”'
+      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.fill: null
+      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.format: null
+      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.handle: favicon72x72
+      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.height: 72
+      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.interlace: none
+      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.mode: crop
+      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.name: 'Favicon 72x72'
+      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.position: center-center
+      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.quality: 80
+      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.upscale: true
+      imageTransforms.b919de39-a74a-41ba-8366-3e3bfa181650.width: 72
+    message: 'Saving transform “favicon72x72”'
   -
     added:
-      meta.__names__.c7bbf02b-9a9d-47d2-acd0-5548c7e59e93: 'Favicon 120x120'
+      meta.__names__.b919de39-a74a-41ba-8366-3e3bfa181650: 'Favicon 72x72'

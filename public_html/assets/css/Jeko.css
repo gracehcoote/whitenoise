@@ -4,7 +4,7 @@
  * 
  * The fonts listed in this notice are subject to the End User License
  * Agreement(s) entered into by the website owner. All other parties are 
- * explicitly restricted from using the Licensed Webfonts(s).
+ * explicitly restricted from using the Licensed ../fonts(s).
  * 
  * You may obtain a valid license at the URLs below.
  * 
@@ -91,85 +91,89 @@
  * © 2023 MyFonts Inc. */
 
 
-  
 @font-face {
-  font-family: "JekoThin";
-  src: url('webFonts/JekoThin/font.woff2') format('woff2'), url('webFonts/JekoThin/font.woff') format('woff');
-}
-@font-face {
-  font-family: "JekoLightItalic";
-  src: url('webFonts/JekoLightItalic/font.woff2') format('woff2'), url('webFonts/JekoLightItalic/font.woff') format('woff');
-}
-@font-face {
-  font-family: "JekoBold";
-  src: url('webFonts/JekoBold/font.woff2') format('woff2'), url('webFonts/JekoBold/font.woff') format('woff');
+  font-family: "JekoRegular";
+  src: url('../fonts/JekoRegular/font.woff2') format('woff2'), url('../fonts/JekoRegular/font.woff') format('woff');
 }
 @font-face {
   font-family: "JekoMedium";
-  src: url('webFonts/JekoMedium/font.woff2') format('woff2'), url('webFonts/JekoMedium/font.woff') format('woff');
-}
-@font-face {
-  font-family: "JekoExtraLightItalic";
-  src: url('webFonts/JekoExtraLightItalic/font.woff2') format('woff2'), url('webFonts/JekoExtraLightItalic/font.woff') format('woff');
-}
-@font-face {
-  font-family: "JekoBlack";
-  src: url('webFonts/JekoBlack/font.woff2') format('woff2'), url('webFonts/JekoBlack/font.woff') format('woff');
+  src: url('../fonts/JekoMedium/font.woff2') format('woff2'), url('../fonts/JekoMedium/font.woff') format('woff');
 }
 @font-face {
   font-family: "JekoSemiBold";
-  src: url('webFonts/JekoSemiBold/font.woff2') format('woff2'), url('webFonts/JekoSemiBold/font.woff') format('woff');
+  src: url('../fonts/JekoSemiBold/font.woff2') format('woff2'), url('../fonts/JekoSemiBold/font.woff') format('woff');
 }
 @font-face {
-  font-family: "JekoExtraBoldItalic";
-  src: url('webFonts/JekoExtraBoldItalic/font.woff2') format('woff2'), url('webFonts/JekoExtraBoldItalic/font.woff') format('woff');
-}
-@font-face {
-  font-family: "JekoBlackItalic";
-  src: url('webFonts/JekoBlackItalic/font.woff2') format('woff2'), url('webFonts/JekoBlackItalic/font.woff') format('woff');
-}
-@font-face {
-  font-family: "JekoMediumItalic";
-  src: url('webFonts/JekoMediumItalic/font.woff2') format('woff2'), url('webFonts/JekoMediumItalic/font.woff') format('woff');
-}
-@font-face {
-  font-family: "JekoBoldItalic";
-  src: url('webFonts/JekoBoldItalic/font.woff2') format('woff2'), url('webFonts/JekoBoldItalic/font.woff') format('woff');
-}
-@font-face {
-  font-family: "JekoRegularItalic";
-  src: url('webFonts/JekoRegularItalic/font.woff2') format('woff2'), url('webFonts/JekoRegularItalic/font.woff') format('woff');
-}
-@font-face {
-  font-family: "JekoExtraLight";
-  src: url('webFonts/JekoExtraLight/font.woff2') format('woff2'), url('webFonts/JekoExtraLight/font.woff') format('woff');
-}
-@font-face {
-  font-family: "JekoLight";
-  src: url('webFonts/JekoLight/font.woff2') format('woff2'), url('webFonts/JekoLight/font.woff') format('woff');
-}
-@font-face {
-  font-family: "JekoRegular";
-  src: url('webFonts/JekoRegular/font.woff2') format('woff2'), url('webFonts/JekoRegular/font.woff') format('woff');
-}
-@font-face {
-  font-family: "JekoItalicVariable";
-  src: url('webFonts/JekoItalicVariable/font.woff2') format('woff2'), url('webFonts/JekoItalicVariable/font.woff') format('woff');
-}
-@font-face {
-  font-family: "JekoThinItalic";
-  src: url('webFonts/JekoThinItalic/font.woff2') format('woff2'), url('webFonts/JekoThinItalic/font.woff') format('woff');
+  font-family: "JekoBold";
+  src: url('../fonts/JekoBold/font.woff2') format('woff2'), url('../fonts/JekoBold/font.woff') format('woff');
 }
 @font-face {
   font-family: "JekoExtraBold";
-  src: url('webFonts/JekoExtraBold/font.woff2') format('woff2'), url('webFonts/JekoExtraBold/font.woff') format('woff');
+  src: url('../fonts/JekoExtraBold/font.woff2') format('woff2'), url('../fonts/JekoExtraBold/font.woff') format('woff');
+}
+
+/* 
+@font-face {
+  font-family: "JekoThin";
+  src: url('../fonts/JekoThin/font.woff2') format('woff2'), url('../fonts/JekoThin/font.woff') format('woff');
 }
 @font-face {
+  font-family: "JekoLightItalic";
+  src: url('../fonts/JekoLightItalic/font.woff2') format('woff2'), url('../fonts/JekoLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoExtraLightItalic";
+  src: url('../fonts/JekoExtraLightItalic/font.woff2') format('woff2'), url('../fonts/JekoExtraLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoBlack";
+  src: url('../fonts/JekoBlack/font.woff2') format('woff2'), url('../fonts/JekoBlack/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: "JekoExtraBoldItalic";
+  src: url('../fonts/JekoExtraBoldItalic/font.woff2') format('woff2'), url('../fonts/JekoExtraBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoBlackItalic";
+  src: url('../fonts/JekoBlackItalic/font.woff2') format('woff2'), url('../fonts/JekoBlackItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoMediumItalic";
+  src: url('../fonts/JekoMediumItalic/font.woff2') format('woff2'), url('../fonts/JekoMediumItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoBoldItalic";
+  src: url('../fonts/JekoBoldItalic/font.woff2') format('woff2'), url('../fonts/JekoBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoRegularItalic";
+  src: url('../fonts/JekoRegularItalic/font.woff2') format('woff2'), url('../fonts/JekoRegularItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoExtraLight";
+  src: url('../fonts/JekoExtraLight/font.woff2') format('woff2'), url('../fonts/JekoExtraLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoLight";
+  src: url('../fonts/JekoLight/font.woff2') format('woff2'), url('../fonts/JekoLight/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: "JekoItalicVariable";
+  src: url('../fonts/JekoItalicVariable/font.woff2') format('woff2'), url('../fonts/JekoItalicVariable/font.woff') format('woff');
+}
+@font-face {
+  font-family: "JekoThinItalic";
+  src: url('../fonts/JekoThinItalic/font.woff2') format('woff2'), url('../fonts/JekoThinItalic/font.woff') format('woff');
+}
+
+@font-face {
   font-family: "JekoSemiBoldItalic";
-  src: url('webFonts/JekoSemiBoldItalic/font.woff2') format('woff2'), url('webFonts/JekoSemiBoldItalic/font.woff') format('woff');
+  src: url('../fonts/JekoSemiBoldItalic/font.woff2') format('woff2'), url('../fonts/JekoSemiBoldItalic/font.woff') format('woff');
 }
 @font-face {
   font-family: "JekoVariable";
-  src: url('webFonts/JekoVariable/font.woff2') format('woff2'), url('webFonts/JekoVariable/font.woff') format('woff');
+  src: url('../fonts/JekoVariable/font.woff2') format('woff2'), url('../fonts/JekoVariable/font.woff') format('woff');
 }
-
+ */
