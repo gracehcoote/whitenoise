@@ -1,0 +1,112 @@
+<nav id="global">
+  <div class="nav-wrapper">
+    <div class="section-container x-narrow">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-md-6">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link{% if craft.app.request.getSegment(1) == '' %} active{% endif %}" href="{{ siteUrl }}">Home</a>
+            </li>
+            <li class="nav-item" style="--animation-order: 1;">
+              <a class="nav-link" href="{{ siteUrl }}">Work</a>
+            </li>
+            <li class="nav-item" style="--animation-order: 2;">
+              <a class="nav-link" href="{{ siteUrl }}">Who we are</a>
+            </li>
+            <li class="nav-item" style="--animation-order: 3;">
+              <a class="nav-link" href="{{ siteUrl }}">What we do</a>
+            </li>
+            <li class="nav-item" style="--animation-order: 4;">
+              <a class="nav-link" href="{{ siteUrl }}">Newsroom</a>
+            </li>
+            <li class="nav-item" style="--animation-order: 5;">
+              <a class="nav-link" href="{{ siteUrl }}">Careers</a>
+            </li>
+            <li class="nav-item" style="--animation-order: 6;">
+              <a class="nav-link" href="{{ siteUrl }}">Sound Studio</a>
+            </li>
+            <li class="nav-item" style="--animation-order: 7;">
+              <a class="nav-link" href="{{ siteUrl }}">Contact</a>
+            </li>
+          </ul>
+        </div><!-- end col -->
+
+        <div class="d-none d-md-block col-4 info-wrap">
+          {% set locations = siteInfo.locations.all() %}
+
+          {% if locations %}
+          {% for location in locations %}
+          <h5>{{ location.locationName }}</h5>
+          <p>{{ location.address|nl2br}}</p>
+
+          <hr class="small light">
+
+          {% endfor %}
+          {% endif %}
+
+          <p>
+          {% if siteInfo.phoneNumber %}
+            {{ siteInfo.phoneNumber }}<br>
+          {% endif %}
+          {% if siteInfo.emailAddress %}
+            <a href="mailto:{{ siteInfo.emailAddress }}">{{ siteInfo.emailAddress }}</a><br>
+          {% endif %}
+            <a href="https://whitenoisestudios.com">whitenoisestudios.com</a>
+          </p>
+
+          {% if siteInfo.facebook or siteInfo.instagram or siteInfo.linkedin or siteInfo.pinterest or siteInfo.tiktok or siteInfo.twitter or siteInfo.vimeo or siteInfo.youtube %}
+          <ul class="social">
+            {% if siteInfo.facebook %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ siteInfo.facebook }}"><i class="fab fa-facebook"></i></a>
+            </li>
+            {% endif %}
+
+            {% if siteInfo.instagram %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ siteInfo.instagram }}"><i class="fab fa-instagram"></i></a>
+            </li>
+            {% endif %}
+
+            {% if siteInfo.linkedin %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ siteInfo.linkedin }}"><i class="fab fa-linkedin"></i></a>
+            </li>
+            {% endif %}
+
+            {% if siteInfo.pinterest %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ siteInfo.pinterest }}"><i class="fab fa-pinterest"></i></a>
+            </li>
+            {% endif %}
+
+            {% if siteInfo.tiktok %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ siteInfo.tiktok }}"><i class="fab fa-tiktok"></i></a>
+            </li>
+            {% endif %}
+
+            {% if siteInfo.twitter %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ siteInfo.twitter }}"><i class="fab fa-twitter"></i></a>
+            </li>
+            {% endif %}
+
+            {% if siteInfo.vimeo %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ siteInfo.vimeo }}"><i class="fab fa-vimeo"></i></a>
+            </li>
+            {% endif %}
+
+            {% if siteInfo.youtube %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ siteInfo.youtube }}"><i class="fab fa-youtube"></i></a>
+            </li>
+            {% endif %}
+          </ul>
+          {% endif %}
+        </div>
+      </div><!-- end row -->
+    </div><!-- end section-container -->
+  </div><!-- end nav-wrapper -->
+</nav>

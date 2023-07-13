@@ -25,6 +25,7 @@ body {
 h1 {
   font-family: $title-font-semi;
   font-size: 61px;
+  line-height: 1;
 
   .home & {
     font-size: 76px;
@@ -219,4 +220,8 @@ blockquote {
     font-style: normal;
     font-weight: 700;
   }
+}
+
+::selection {
+  background: $yellow;
 }

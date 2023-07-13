@@ -105,7 +105,6 @@ section {
   padding-bottom: 7rem;
   margin: 0 auto;
   width: 85%;
-  max-width: 1224px;
 }
 .section-container + .section-container {
   padding-top: 0;
@@ -121,17 +120,10 @@ section {
   }
 }
 
-@media only screen and (max-width: 991px) {
-  .section-container,
-  .section-container.narrow {
-    width: 90%;
-  }
-}
 @media only screen and (max-width: 1024px) {
   .section-container {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    width: 90%;
   }
   .section-container.narrow {
     width: 85%;
@@ -282,24 +274,31 @@ ul.crumbs li a {
 }
 
 nav#global {
-  background-color: #1A1A1A;
   position: fixed;
-  top: 0;
+  top: -100%;
   right: 0;
-  bottom: 0;
+  bottom: 100%;
   left: 0;
   overflow: scroll;
-  transition: 0.5s;
+  transition: top 0.6s, bottom 0.6s;
 }
-nav#global.active {
-  opacity: 1;
+nav#global:before, nav#global:after {
+  content: "";
+  width: 100%;
+  height: 0;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  left: 0;
 }
-nav#global.active ul.nav .nav-item {
-  animation-name: animateIn;
-  animation-duration: 350ms;
-  animation-delay: calc(var(--animation-order) * 100ms);
-  animation-fill-mode: both;
-  animation-timing-function: ease-in-out;
+nav#global:before {
+  background-color: #FFCD00;
+  transition: height 0.6s 0.3s ease-in-out;
+}
+nav#global:after {
+  background-color: #1A1A1A;
+  transition: height 0.3s 0.3s ease-in-out;
 }
 nav#global .nav-wrapper {
   width: 100vw;
@@ -319,12 +318,50 @@ nav#global ul.nav .nav-link {
   line-height: 1;
   transition: 0.4s;
 }
+@media only screen and (max-width: 667px) {
+  nav#global ul.nav .nav-link {
+    font-size: 30px;
+    text-align: center;
+  }
+}
 nav#global ul.nav .nav-link:hover {
   color: rgb(255, 255, 255);
 }
 nav#global ul.nav .nav-link.active {
   color: #FFCD00;
   font-family: "JekoExtraBold", "Poppins", Arial, Helvetica, sans-serif;
+}
+nav#global.active {
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  transition: top 0.3s, bottom 0.3s;
+}
+nav#global.active:before {
+  height: 100%;
+  transition: height 0.6s 0.3s ease-in-out;
+}
+nav#global.active:after {
+  height: 100%;
+  transition: height 0.8s 0.6s ease-in-out;
+}
+nav#global ul.nav.active .nav-item {
+  animation-name: animateIn;
+  animation-duration: 350ms;
+  animation-delay: calc(var(--animation-order) * 100ms);
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+}
+nav#global .info-wrap {
+  position: relative;
+  opacity: 0;
+}
+nav#global .info-wrap.active {
+  animation-name: animateIn;
+  animation-duration: 700ms;
+  animation-delay: 300ms;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
 }
 nav#global h1,
 nav#global h2,
@@ -375,6 +412,7 @@ body {
 h1 {
   font-family: "JekoSemiBold", "Poppins", Arial, Helvetica, sans-serif;
   font-size: 61px;
+  line-height: 1;
 }
 .home h1 {
   font-size: 76px;
@@ -506,6 +544,10 @@ blockquote cite {
   font-weight: 700;
 }
 
+::selection {
+  background: #FFCD00;
+}
+
 /*****************
 COLOUR STYLES
 *****************/
@@ -582,6 +624,43 @@ BUTTON STYLES
 button {
   border: none;
   background: none;
+}
+
+.btn {
+  border-radius: 6px;
+  border: 2px solid;
+  font-family: "JekoBlack", "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 0.75rem 1.5rem;
+  transition: all 0.4s;
+}
+.btn.btn-black {
+  background-color: #1A1A1A;
+  border-color: #1A1A1A;
+  color: #fff;
+}
+.btn.btn-white {
+  background-color: #fff;
+  border-color: #fff;
+  color: #1A1A1A;
+}
+.btn:not(.btn-outline):hover {
+  background-color: #FFCD00;
+  border-color: #FFCD00;
+}
+.btn.btn-outline {
+  background-color: transparent;
+}
+.btn.btn-outline.btn-black {
+  border-color: #1A1A1A;
+  color: #1A1A1A;
+}
+.btn.btn-outline.btn-white {
+  border-color: #fff;
+  color: #fff;
+}
+.btn.btn-outline:hover {
+  border-color: #FFCD00;
 }
 
 /************
@@ -678,6 +757,9 @@ HERO STYLES
 .hero * {
   color: #fff;
 }
+.home .hero {
+  height: 100vh;
+}
 
 /************
 IMAGE STYLES
@@ -697,25 +779,21 @@ MISCELLANEOUS STYLES
 
 .scroll-prompt {
   width: 24px;
-  height: 43px;
+  height: 36px;
   border: 2px solid #fff;
-  border-radius: 13px;
-  display: flex;
+  border-radius: 20px;
+  display: inline-flex;
   justify-content: center;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 2rem;
 }
 .scroll-prompt .scroller {
   position: relative;
   top: 8px;
-  width: 4px;
-  height: 4px;
+  width: 5px;
+  height: 5px;
   border-radius: 100%;
   background-color: #fff;
   animation-name: scroll;
-  animation-duration: 3s;
+  animation-duration: 4s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
@@ -733,7 +811,7 @@ MISCELLANEOUS STYLES
     opacity: 1;
   }
   50% {
-    transform: translateY(22px);
+    transform: translateY(14px);
     opacity: 1;
   }
   60% {

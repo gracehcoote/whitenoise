@@ -83,8 +83,12 @@
 {% set bodyClass = bodyClass ?? null%}
 <body class="{{ bodyClass }}">
   {% block body %}
+    <div id="top-bar"></div>
+
     <div class="page-wrap">
       {% include "_includes/header" %}
+
+      {% include "_includes/navigation" %}
 
       {% block main %}
       {% endblock %}

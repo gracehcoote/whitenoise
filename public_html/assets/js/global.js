@@ -1,12 +1,16 @@
 jQuery(document).ready(function(){
   var headerHeight = $('header#global').outerHeight();
-  var navSpacerTop = headerHeight * 2;
+  var navSpacerTop = headerHeight;
   $('nav#global').css('padding-top', navSpacerTop + 'px');
 
   jQuery('.toggle-nav').click(function(e){
     e.stopPropagation();
     jQuery(this).toggleClass('active');
     jQuery('nav#global').toggleClass('active');
+    setTimeout(function () {
+      $('ul.nav').toggleClass('active');
+      $('.info-wrap').toggleClass('active');
+    }, 1000);
   });
 
 	jQuery('header#global nav ul.nav li.nav-item a.nav-link').click(function(e){

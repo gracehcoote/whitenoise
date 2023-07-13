@@ -111,6 +111,10 @@
   font-family: "JekoExtraBold";
   src: url('../fonts/JekoExtraBold/font.woff2') format('woff2'), url('../fonts/JekoExtraBold/font.woff') format('woff');
 }
+@font-face {
+  font-family: "JekoBlack";
+  src: url('../fonts/JekoBlack/font.woff2') format('woff2'), url('../fonts/JekoBlack/font.woff') format('woff');
+}
 
 /* 
 @font-face {
@@ -125,10 +129,7 @@
   font-family: "JekoExtraLightItalic";
   src: url('../fonts/JekoExtraLightItalic/font.woff2') format('woff2'), url('../fonts/JekoExtraLightItalic/font.woff') format('woff');
 }
-@font-face {
-  font-family: "JekoBlack";
-  src: url('../fonts/JekoBlack/font.woff2') format('woff2'), url('../fonts/JekoBlack/font.woff') format('woff');
-}
+
 
 @font-face {
   font-family: "JekoExtraBoldItalic";

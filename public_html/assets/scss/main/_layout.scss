@@ -56,7 +56,7 @@ section {
 	padding-bottom: $space-lg;
 	margin: 0 auto;
 	width: 85%;
-	max-width: 1224px;
+	// max-width: 1224px;
 
 	+ .section-container {
 		padding-top: 0;
@@ -75,18 +75,10 @@ section {
 	}
 }
 
-@media #{$bs-large} {
-	.section-container,
-	.section-container.narrow {
-		width: 90%;
-	}
-}
-
 @media #{$tablet-ls} {
 	.section-container {
 		padding-top: $space-md;
 		padding-bottom: $space-md;
-		width: 90%;
 
 		&.narrow {
 			width: 85%;
