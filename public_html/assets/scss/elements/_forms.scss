@@ -3,9 +3,12 @@ FORM STYLES
 ************/
 
 .form-control {
+  background-color: transparent;
   border: none;
   border-radius: 0;
-  border-bottom: 2px solid;
+  border-bottom: 2px solid $black;
+  font-family: $title-font;
+  font-weight: 700;
   font-size: 20px;
   padding-left: 0;
   padding-right: 0;
@@ -17,21 +20,23 @@ FORM STYLES
   transition: all 0.3s;
 
   &:focus {
+    background-color: transparent;
     outline: none;
     box-shadow: none;
+    border-bottom-color: $yellow !important;
   }
 
   &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: #B0B1AF;
+    color: rgba($black, 0.4); 
   }
   &::-moz-placeholder { /* Firefox 19+ */
-    color: #B0B1AF;
+    color: rgba($black, 0.4);
   }
   &:-ms-input-placeholder { /* IE 10+ */
-    color: #B0B1AF;
+    color: rgba($black, 0.4);
   }
   &:-moz-placeholder { /* Firefox 18- */
-    color: #B0B1AF;
+    color: rgba($black, 0.4);
   }
 }
 
@@ -57,9 +62,10 @@ textarea.form-control {
 }
 
 label {
-  font-size: 10px;
-  font-weight: 900;
-  margin-top: 0.5rem;
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 0.25rem;
 
   @media #{$tablet-ls} {
 

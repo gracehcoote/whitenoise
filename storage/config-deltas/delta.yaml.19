@@ -1,26 +1,26 @@
-dateApplied: '2023-07-05 07:03:38'
+dateApplied: '2023-07-05 07:03:47'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688565781
-        to: 1688565818
+        from: 1688565818
+        to: 1688565827
   -
     added:
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.columnSuffix: jngusyae
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.contentColumnType: string(255)
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.handle: tiktok
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.instructions: null
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.name: TikTok
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.searchable: false
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.settings.maxLength: 255
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.settings.types.0: url
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.translationKeyFormat: null
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.translationMethod: none
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.type: craft\fields\Url
-    message: 'Save field “tiktok”'
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.columnSuffix: hizehzsj
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.contentColumnType: string(255)
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.handle: youtube
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.instructions: null
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.name: YouTube
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.searchable: false
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.settings.maxLength: 255
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.settings.types.0: url
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.translationKeyFormat: null
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.translationMethod: none
+      fields.3f57fe1a-2538-4db3-976c-a42769a21b7a.type: craft\fields\Url
+    message: 'Save field “youtube”'
   -
     added:
-      meta.__names__.3b22405f-25c4-4f1c-88a6-76cbbdff664c: TikTok
+      meta.__names__.3f57fe1a-2538-4db3-976c-a42769a21b7a: YouTube

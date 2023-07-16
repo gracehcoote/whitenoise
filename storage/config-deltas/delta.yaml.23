@@ -1,26 +1,26 @@
-dateApplied: '2023-07-05 07:02:51'
+dateApplied: '2023-07-05 07:03:01'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688565764
-        to: 1688565771
+        from: 1688565771
+        to: 1688565781
   -
     added:
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.columnSuffix: hcuoexha
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.contentColumnType: string(255)
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.handle: instagram
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.instructions: null
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.name: Instagram
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.searchable: false
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.settings.maxLength: 255
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.settings.types.0: url
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.translationKeyFormat: null
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.translationMethod: none
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.type: craft\fields\Url
-    message: 'Save field “instagram”'
+      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.columnSuffix: knsjrdrn
+      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.contentColumnType: string(255)
+      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
+      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.handle: pinterest
+      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.instructions: null
+      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.name: Pinterest
+      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.searchable: false
+      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.settings.maxLength: 255
+      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.settings.types.0: url
+      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.translationKeyFormat: null
+      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.translationMethod: none
+      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.type: craft\fields\Url
+    message: 'Save field “pinterest”'
   -
     added:
-      meta.__names__.4f7797e5-910f-4536-9243-f9c5cfcda4d5: Instagram
+      meta.__names__.c9747613-724c-481e-b4ac-2cf6fb4c8c72: Pinterest

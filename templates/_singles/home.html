@@ -12,23 +12,53 @@
 
 {% block main %}
 <section class="hero">
-  <div class="section-container h-100 d-flex align-items-end">
-    <div class="row justify-content-between align-items-end w-100">
-      <div class="col-lg-7">
+  <div class="section-container d-flex align-items-end">
+    <div class="row gy-7 justify-content-between align-items-end w-100">
+      <div class="col-lg-10 col-xl-8 col-xxl-6">
         <h1 class="mb-5">World-enhancing work that matters.</h1>
 
         <a class="btn btn-white me-3" href="">Start project</a>
         <a class="btn btn-white btn-outline" href="">Play showreel</a>
       </div><!-- end col -->
 
-      <div class="col-lg-5 text-lg-end">
+      <div class="col-lg-2 text-lg-end">
         <div class="scroll-prompt">
           <div class="scroller"></div>
         </div>
       </div>
     </div><!-- end row -->
   </div><!-- end section-container -->
+
+  <video class="background-video" autoplay loop muted poster="">
+    <source src="https://whitenoisestudios.com/assets/videos/Very-Small-New-Website-Video-2018.mp4" type="video/mp4">
+    <source src="https://whitenoisestudios.com/assets/videos/Very-Small-New-Website-Video-2018.webm" type="video/webm">
+  </video>
 </section>
+
+<section id="test-div">
+  <div class="section-container x-narrow py-7">
+    <div class="row justify-content-between gy-5 my-5">
+      <div class="col-7">
+        <h2>We are a multi award winning agency delivering across all platforms.</h2>
+      </div><!-- end col -->
+
+      <div class="col-4 ps-5">
+        <p><strong>We create stories that sell brands, businesses and ideas. Always on, everywhere.</strong></p>
+        <p>We're not just selling, we're telling your story. We are carrying your signal and amplifying your message. We are Whitenoise.</p>
+
+        <a class="btn-link mt-5" href="">Learn more</a>
+      </div><!-- end col -->
+    </div><!-- end row -->
+  </div><!-- end section-container -->
+</section>
+
+<section>
+  <div class="section-container x-narrow py-7">
+    <h4 class="text-center mb-5">We are proud to work with</h4>
+  </div><!-- end section-container -->
+</section>
+
+<div id="test">Test</div>
 {% endblock %}
 
 {% block javascript %}

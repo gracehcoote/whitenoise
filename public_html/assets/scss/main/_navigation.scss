@@ -60,6 +60,27 @@ ul.crumbs {
 
 // Global navigation 
 
+.navigation-bar {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+
+  &.fixed {
+    position: fixed;
+  }
+  
+  .section-container {
+    padding-top: $space-sm;
+  }
+}
+
+nav#global {
+  z-index: 98;
+}
+
 .toggle-nav {
   width: 32px;
   height: 24px;
@@ -197,7 +218,8 @@ nav#global {
 
     .nav-link {
       color: rgba(255,255,255,0.4);
-      font-family: $title-font-semi;
+      font-family: $title-font;
+      font-weight: 600;
       font-size: 48px;
 
       @media #{$phone-ls} {
@@ -214,13 +236,13 @@ nav#global {
 
       &.active {
         color: $yellow;
-        font-family: $title-font-xbold;
+        font-weight: 800;
       }
     }
   }
 
   &.active {
-    z-index: 1;
+    z-index: 10;
     top: 0;
     bottom: 0;
     transition: top 0.3s, bottom 0.3s;

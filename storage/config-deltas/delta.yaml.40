@@ -1,25 +1,25 @@
-dateApplied: '2023-07-04 07:38:42'
+dateApplied: '2023-07-04 09:34:42'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688481511
-        to: 1688481521
+        from: 1688481521
+        to: 1688488482
   -
     added:
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.fill: null
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.format: null
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.handle: favicon96x96
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.height: 96
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.interlace: none
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.mode: crop
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.name: 'Favicon 96x96'
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.position: center-center
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.quality: 80
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.upscale: true
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.width: 96
-    message: 'Saving transform “favicon96x96”'
+      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.fill: null
+      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.format: jpg
+      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.handle: ogImage
+      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.height: 630
+      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.interlace: none
+      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.mode: crop
+      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.name: 'OG image'
+      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.position: center-center
+      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.quality: 80
+      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.upscale: true
+      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.width: 1200
+    message: 'Saving transform “ogImage”'
   -
     added:
-      meta.__names__.efad4e89-5ff2-478f-b38b-09d1880c0021: 'Favicon 96x96'
+      meta.__names__.f70343b7-957b-4e91-a5d3-1c560e0757ce: 'OG image'

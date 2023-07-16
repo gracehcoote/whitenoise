@@ -1,14 +1,20 @@
-dateApplied: '2023-07-05 07:26:06'
+dateApplied: '2023-07-16 07:17:50'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688567139
-        to: 1688567166
+        from: 1688567166
+        to: 1689517070
   -
-    message: 'Save global set “siteInfo”'
+    message: 'Saving navigation “dashboard”'
     changed:
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.0.elements.4.heading:
-        from: 'If you have multiple business locations, use Locations and leave Address above blank.'
-        to: 'If you have multiple business locations, use this area and leave Address above blank.'
+      cp-nav.navigations.b47ee4ca-dc01-4e5c-b756-933b66f1f429.sortOrder:
+        from: 1
+        to: 0
+  -
+    message: 'Saving navigation “entries”'
+    changed:
+      cp-nav.navigations.1bc2b34b-d136-4a56-af8b-7d3029c26b72.sortOrder:
+        from: 7
+        to: 1

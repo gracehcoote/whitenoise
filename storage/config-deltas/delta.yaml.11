@@ -1,40 +1,29 @@
-dateApplied: '2023-07-05 07:05:03'
+dateApplied: '2023-07-05 07:14:02'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688565886
-        to: 1688565903
+        from: 1688565903
+        to: 1688566442
   -
     added:
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.6.elementCondition: null
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.6.fieldUid: 8728a9f7-bd9c-4bd8-b47d-c25c941ba8af
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.6.instructions: null
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.6.label: null
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.6.required: false
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.6.tip: null
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.6.type: craft\fieldlayoutelements\CustomField
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.6.uid: 3d8087d0-69af-4b27-8ce1-e7e30a2045a5
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.6.userCondition: null
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.6.warning: null
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.6.width: 100
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.7.elementCondition: null
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.7.fieldUid: 3f57fe1a-2538-4db3-976c-a42769a21b7a
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.7.instructions: null
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.7.label: null
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.7.required: false
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.7.tip: null
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.7.type: craft\fieldlayoutelements\CustomField
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.7.uid: 73ea3c11-f9f2-4961-ae64-89ab1cffdbdd
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.7.userCondition: null
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.7.warning: null
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.7.width: 100
-    message: 'Save global set “siteInfo”'
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.byteLimit: null
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.charLimit: null
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.code: false
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.columnType: null
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.initialRows: 4
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.multiline: false
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.placeholder: null
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.uiMode: normal
+    removed:
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.maxLength: 255
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.types.0: url
+    message: 'Save field “facebook”'
     changed:
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.5.fieldUid:
-        from: 3f57fe1a-2538-4db3-976c-a42769a21b7a
-        to: 051c4e66-a3c8-411d-8e42-c93258e697c9
-      globalSets.ae6c3077-031b-4b16-9ed8-f18ce2d83770.fieldLayouts.39359d63-22b0-47f9-928b-9077af435b53.tabs.1.elements.5.uid:
-        from: 73ea3c11-f9f2-4961-ae64-89ab1cffdbdd
-        to: ba887c13-4a3d-4154-b04c-fae3ca2e1bec
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.contentColumnType:
+        from: string(255)
+        to: text
+      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.type:
+        from: craft\fields\Url
+        to: craft\fields\PlainText

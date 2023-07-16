@@ -9,6 +9,7 @@ body {
 
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: $title-font;
   font-weight: 400;
   line-height: 1.4;
   margin-bottom: 1rem;
@@ -23,12 +24,16 @@ body {
 }
 
 h1 {
-  font-family: $title-font-semi;
+  font-weight: 600;
   font-size: 61px;
   line-height: 1;
 
   .home & {
     font-size: 76px;
+  }
+
+  strong {
+    font-weight: 800;
   }
 
   @media #{$tablet-ls} {
@@ -49,8 +54,13 @@ h1 {
 }
 
 h2 {
-  font-family: $title-font-semi;
   font-size: 61px;
+  font-weight: 600;
+  line-height: 1.1;
+
+  strong {
+    font-weight: 800;
+  }
 
   @media #{$tablet-ls} {
     
@@ -67,8 +77,12 @@ h2 {
 }
 
 h3 {
-  font-family: $title-font-medium;
+  font-weight: 500;
   font-size: 31px;
+
+  strong {
+    font-weight: 700;
+  }
 
   @media #{$tablet-ls} {
 
@@ -81,8 +95,12 @@ h3 {
 }
 
 h4 {
-  font-family: $title-font-bold;
+  font-weight: 700;
   font-size: 25px;
+
+  strong {
+    font-weight: 900;
+  }
 
   @media #{$tablet-ls} {
 
@@ -94,8 +112,12 @@ h4 {
 }
 
 h5 {
-  font-family: $title-font-bold;
+  font-weight: 700;
   font-size: 20px;
+
+  strong {
+    font-weight: 900;
+  }
 }
 
 h6 {
@@ -107,6 +129,7 @@ ul,
 ol {
   font-family: $body-font;
   font-size: 16px;
+  line-height: 1.5;
 
   strong {
     font-weight: 700;
@@ -143,6 +166,7 @@ p {
   }
 
   a {
+    color: $black;
     text-decoration: none;
     transition: 0.4s;
 

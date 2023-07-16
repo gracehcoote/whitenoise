@@ -2,19 +2,3 @@
 HEADER STYLES
 *****************/
 
-header#global {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 99;
-
-  .section-container {
-    padding-top: $space-sm;
-  }
-}
-
-nav#global {
-  z-index: 98;
-}

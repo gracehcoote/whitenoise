@@ -1,3 +1,69 @@
 /*****************
 FOOTER STYLES
 *****************/
+
+footer#global-footer {
+  background-color: $black;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  h2 {
+    font-size: 48px;
+  }
+
+  label {
+    color: #fff;
+  }
+
+  .form-control {
+    border-color: #fff;
+    color: #fff;
+
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: rgba(255, 255, 255, 0.4);
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+      color: rgba(255, 255, 255, 0.4);
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+      color: rgba(255, 255, 255, 0.4);
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+      color: rgba(255, 255, 255, 0.4);
+    }
+  }
+
+  .sub-footer {
+    border-top: 2px solid rgba(255,255,255,0.2);
+    
+    p,
+    ul,
+    ol,
+    li {
+      color: #fff;
+      font-size: 12px;
+      font-weight: 900;
+    }
+  }
+
+  ul.nav {
+    margin: 0 -1rem;
+    font-family: $title-font;
+
+    .nav-item {
+      margin: 0 1rem;
+      font-size: 12px;
+
+      .nav-link {
+        color: #fff;
+        font-weight: 900;
+
+        &:hover {
+          color: $yellow;
+        }
+      }
+    }
+  }
+}

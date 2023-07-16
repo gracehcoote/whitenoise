@@ -11,3 +11,24 @@ COLOUR STYLES
     }
   }
 }
+
+.dark,
+.page-footer {
+  background-color: $black;
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ol,
+  ul,
+  li {
+    color: #fff;
+  }
+
+  p a {
+    color: #fff;
+  }
+}

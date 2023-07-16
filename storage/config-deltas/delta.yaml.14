@@ -1,26 +1,26 @@
-dateApplied: '2023-07-05 07:04:39'
+dateApplied: '2023-07-05 07:04:46'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688565849
-        to: 1688565878
+        from: 1688565878
+        to: 1688565886
   -
     added:
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.columnSuffix: vowiowyy
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.contentColumnType: string(255)
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.handle: vimeo
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.instructions: null
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.name: Vimeo
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.searchable: false
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.settings.maxLength: 255
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.settings.types.0: url
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.translationKeyFormat: null
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.translationMethod: none
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.type: craft\fields\Url
-    message: 'Save field “vimeo”'
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.columnSuffix: watzhjlu
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.contentColumnType: string(255)
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.handle: twitter
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.instructions: null
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.name: Twitter
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.searchable: false
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.settings.maxLength: 255
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.settings.types.0: url
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.translationKeyFormat: null
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.translationMethod: none
+      fields.051c4e66-a3c8-411d-8e42-c93258e697c9.type: craft\fields\Url
+    message: 'Save field “twitter”'
   -
     added:
-      meta.__names__.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af: Vimeo
+      meta.__names__.051c4e66-a3c8-411d-8e42-c93258e697c9: Twitter

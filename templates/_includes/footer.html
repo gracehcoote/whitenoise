@@ -1,0 +1,152 @@
+<footer id="global-footer" class="page-footer">
+  {% include "_includes/nav-bar" %}
+
+  <div class="section-container d-flex align-items-center flex-grow-1">
+    <div class="row gy-7">
+      <div class="col-xxl-4 pe-xxl-7">
+        <h2>Get in touch today to start your next project.</h2>
+        <p>This is a reminder that this text needs updated.</p>
+        <a class="btn btn-white btn-outline mt-4 mt-xxl-5" href="">Start a project</a>
+      </div>
+
+      <div class="col-sm-7 col-xxl-4 pe-sm-4 pe-md-5 pe-lg-7">
+        <h5>Newsletter</h5>
+        <p>Sign up today to receive occasional fan mail and to stay up-to-date with the latest Whitenoise shenanigans.</p>
+
+        <!-- Begin Mailchimp Signup Form -->
+				<div id="mc_embed_signup" class="mt-5">
+					<form action="https://whitenoisestudios.us6.list-manage.com/subscribe/post?u=022e5de0495adc8006fbeaba3&amp;id=a731aa99df" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+					  <div id="mc_embed_signup_scroll">
+              <div class="mc-field-group clear mb-5">
+								<input type="text" value="" name="NAME" class="required form-control" id="mce-EMAIL" placeholder="Enter your name">
+                <label for="mce-EMAIL">Name</label>
+							</div>
+							<div class="mc-field-group clear mb-5">
+								<input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Enter your email address">
+                <label for="mce-EMAIL">Email address</label>
+							</div>
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-white btn-outline">
+							<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_022e5de0495adc8006fbeaba3_a731aa99df" tabindex="-1" value=""></div>
+					  </div>
+					</form>
+				</div>
+				<!--End mc_embed_signup-->
+      </div><!-- end col -->
+
+      <div class="col-sm-5 col-xxl-4 ps-sm-4 ps-md-5 ps-lg-7">
+        {% set locations = siteInfo.locations.all() %}
+        {% if locations %}
+        {% for location in locations %}
+        <h5>{{ location.locationName }}</h5>
+        <p>{{ location.address|nl2br}}</p>
+
+        <hr class="small light">
+
+        {% endfor %}
+        {% endif %}
+
+        <p>
+        {% if siteInfo.phoneNumber %}
+          {{ siteInfo.phoneNumber }}<br>
+        {% endif %}
+        {% if siteInfo.emailAddress %}
+          <a href="mailto:{{ siteInfo.emailAddress }}">{{ siteInfo.emailAddress }}</a><br>
+        {% endif %}
+          <a href="https://whitenoisestudios.com">whitenoisestudios.com</a>
+        </p>
+
+        {% if siteInfo.facebook or siteInfo.instagram or siteInfo.linkedin or siteInfo.pinterest or siteInfo.tiktok or siteInfo.twitter or siteInfo.vimeo or siteInfo.youtube %}
+        <ul class="social">
+          {% if siteInfo.facebook %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ siteInfo.facebook }}"><i class="fab fa-facebook"></i></a>
+          </li>
+          {% endif %}
+
+          {% if siteInfo.instagram %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ siteInfo.instagram }}"><i class="fab fa-instagram"></i></a>
+          </li>
+          {% endif %}
+
+          {% if siteInfo.linkedin %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ siteInfo.linkedin }}"><i class="fab fa-linkedin"></i></a>
+          </li>
+          {% endif %}
+
+          {% if siteInfo.pinterest %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ siteInfo.pinterest }}"><i class="fab fa-pinterest"></i></a>
+          </li>
+          {% endif %}
+
+          {% if siteInfo.tiktok %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ siteInfo.tiktok }}"><i class="fab fa-tiktok"></i></a>
+          </li>
+          {% endif %}
+
+          {% if siteInfo.twitter %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ siteInfo.twitter }}"><i class="fab fa-twitter"></i></a>
+          </li>
+          {% endif %}
+
+          {% if siteInfo.vimeo %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ siteInfo.vimeo }}"><i class="fab fa-vimeo"></i></a>
+          </li>
+          {% endif %}
+
+          {% if siteInfo.youtube %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ siteInfo.youtube }}"><i class="fab fa-youtube"></i></a>
+          </li>
+          {% endif %}
+        </ul>
+        {% endif %}
+      </div><!-- end col -->
+    </div><!-- end row -->
+  </div><!-- end section-container -->
+
+  <section class="sub-footer">
+    <div class="section-container py-4">
+      <div class="d-flex justify-content-between flex-wrap">
+        {% set policyPages = craft.entries()
+          .section('pages')
+          .type('page')
+          .showInFooterNavigation(true)
+          .all() %}
+        {% if policyPages|length %}
+        <div class="my-1">
+          <ul class="nav sub-nav">
+            {% for page in policyPages %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ page.url }}">{{ page.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+        
+
+        {% set startYear = 2023 %}
+        {% set currentYear = now|date('Y') %}
+        {% if startYear == currentYear %}
+          {% set copyrightYears = startYear %}
+        {% else %}
+          {% set copyrightYears = startYear ~ ' - ' ~ currentYear %}
+        {% endif %}
+
+        <div class="my-1">
+          <p><span class="me-3">Build: <a href="https://gracecoote.co.uk/" target="_blank"><img class="ms-1" src="{{ siteUrl }}assets/images/gracecoote-logo.svg" alt="Grace Coote Design &amp; Web Development" width="25"></a></span> &copy; {{ siteInfo.companyName }} {{ copyrightYears }}.</p>
+        </div>
+      </div>
+    </div><!-- end section-container -->
+  </section>
+</footer>

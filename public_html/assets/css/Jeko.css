@@ -92,28 +92,34 @@
 
 
 @font-face {
-  font-family: "JekoRegular";
-  src: url('../fonts/JekoRegular/font.woff2') format('woff2'), url('../fonts/JekoRegular/font.woff') format('woff');
+  font-family: "Jeko";
+  font-weight: 400;
+  src: url('../fonts/Jeko/regular-font.woff') format('woff2'), url('../fonts/Jeko/regular-font.woff') format('woff');
 }
 @font-face {
-  font-family: "JekoMedium";
-  src: url('../fonts/JekoMedium/font.woff2') format('woff2'), url('../fonts/JekoMedium/font.woff') format('woff');
+  font-family: "Jeko";
+  font-weight: 500;
+  src: url('../fonts/Jeko/medium-font.woff2') format('woff2'), url('../fonts/Jeko/medium-font.woff') format('woff');
 }
 @font-face {
-  font-family: "JekoSemiBold";
-  src: url('../fonts/JekoSemiBold/font.woff2') format('woff2'), url('../fonts/JekoSemiBold/font.woff') format('woff');
+  font-family: "Jeko";
+  font-weight: 600;
+  src: url('../fonts/Jeko/semibold-font.woff2') format('woff2'), url('../fonts/Jeko/semibold-font.woff') format('woff');
 }
 @font-face {
-  font-family: "JekoBold";
-  src: url('../fonts/JekoBold/font.woff2') format('woff2'), url('../fonts/JekoBold/font.woff') format('woff');
+  font-family: "Jeko";
+  font-weight: 700;
+  src: url('../fonts/Jeko/bold-font.woff2') format('woff2'), url('../fonts/Jeko/bold-font.woff') format('woff');
 }
 @font-face {
-  font-family: "JekoExtraBold";
-  src: url('../fonts/JekoExtraBold/font.woff2') format('woff2'), url('../fonts/JekoExtraBold/font.woff') format('woff');
+  font-family: "Jeko";
+  font-weight: 800;
+  src: url('../fonts/Jeko/extrabold-font.woff2') format('woff2'), url('../fonts/Jeko/extrabold-font.woff') format('woff');
 }
 @font-face {
-  font-family: "JekoBlack";
-  src: url('../fonts/JekoBlack/font.woff2') format('woff2'), url('../fonts/JekoBlack/font.woff') format('woff');
+  font-family: "Jeko";
+  font-weight: 900;
+  src: url('../fonts/Jeko/black-font.woff2') format('woff2'), url('../fonts/Jeko/black-font.woff') format('woff');
 }
 
 /* 

@@ -31,25 +31,65 @@ Main Styles
 /*****************
 HEADER STYLES
 *****************/
-header#global {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 99;
-}
-header#global .section-container {
-  padding-top: 3rem;
-}
-
-nav#global {
-  z-index: 98;
-}
-
 /*****************
 FOOTER STYLES
 *****************/
+footer#global-footer {
+  background-color: #1A1A1A;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+footer#global-footer h2 {
+  font-size: 48px;
+}
+footer#global-footer label {
+  color: #fff;
+}
+footer#global-footer .form-control {
+  border-color: #fff;
+  color: #fff;
+}
+footer#global-footer .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(255, 255, 255, 0.4);
+}
+footer#global-footer .form-control::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(255, 255, 255, 0.4);
+}
+footer#global-footer .form-control:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(255, 255, 255, 0.4);
+}
+footer#global-footer .form-control:-moz-placeholder { /* Firefox 18- */
+  color: rgba(255, 255, 255, 0.4);
+}
+footer#global-footer .sub-footer {
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+}
+footer#global-footer .sub-footer p,
+footer#global-footer .sub-footer ul,
+footer#global-footer .sub-footer ol,
+footer#global-footer .sub-footer li {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 900;
+}
+footer#global-footer ul.nav {
+  margin: 0 -1rem;
+  font-family: "Jeko", sans-serif;
+}
+footer#global-footer ul.nav .nav-item {
+  margin: 0 1rem;
+  font-size: 12px;
+}
+footer#global-footer ul.nav .nav-item .nav-link {
+  color: #fff;
+  font-weight: 900;
+}
+footer#global-footer ul.nav .nav-item .nav-link:hover {
+  color: #FFCD00;
+}
+
 /*****************
 MAIN LAYOUT STYLES
 *****************/
@@ -91,7 +131,6 @@ main {
 .page-footer {
   flex-shrink: 0;
   position: relative;
-  z-index: 4;
 }
 
 /* Containers */
@@ -208,6 +247,25 @@ ul.crumbs li a {
   text-decoration: none;
   transition: 0.3s;
 }
+.navigation-bar {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+}
+.navigation-bar.fixed {
+  position: fixed;
+}
+.navigation-bar .section-container {
+  padding-top: 3rem;
+}
+
+nav#global {
+  z-index: 98;
+}
+
 .toggle-nav {
   width: 32px;
   height: 24px;
@@ -313,7 +371,8 @@ nav#global ul.nav .nav-item {
 }
 nav#global ul.nav .nav-link {
   color: rgba(255, 255, 255, 0.4);
-  font-family: "JekoSemiBold", "Poppins", Arial, Helvetica, sans-serif;
+  font-family: "Jeko", sans-serif;
+  font-weight: 600;
   font-size: 48px;
   line-height: 1;
   transition: 0.4s;
@@ -329,10 +388,10 @@ nav#global ul.nav .nav-link:hover {
 }
 nav#global ul.nav .nav-link.active {
   color: #FFCD00;
-  font-family: "JekoExtraBold", "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 800;
 }
 nav#global.active {
-  z-index: 1;
+  z-index: 10;
   top: 0;
   bottom: 0;
   transition: top 0.3s, bottom 0.3s;
@@ -401,6 +460,7 @@ body {
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: "Jeko", sans-serif;
   font-weight: 400;
   line-height: 1.4;
   margin-bottom: 1rem;
@@ -410,28 +470,44 @@ body {
   transition: all 0.3s;
 }
 h1 {
-  font-family: "JekoSemiBold", "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 600;
   font-size: 61px;
   line-height: 1;
 }
 .home h1 {
   font-size: 76px;
 }
+h1 strong {
+  font-weight: 800;
+}
 h2 {
-  font-family: "JekoSemiBold", "Poppins", Arial, Helvetica, sans-serif;
   font-size: 61px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+h2 strong {
+  font-weight: 800;
 }
 h3 {
-  font-family: "JekoMedium", "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
   font-size: 31px;
 }
+h3 strong {
+  font-weight: 700;
+}
 h4 {
-  font-family: "JekoBold", "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 700;
   font-size: 25px;
 }
+h4 strong {
+  font-weight: 900;
+}
 h5 {
-  font-family: "JekoBold", "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 700;
   font-size: 20px;
+}
+h5 strong {
+  font-weight: 900;
 }
 
 p,
@@ -439,6 +515,7 @@ ul,
 ol {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 16px;
+  line-height: 1.5;
 }
 p strong,
 ul strong,
@@ -478,6 +555,7 @@ footer p small {
   font-size: 12px;
 }
 p a {
+  color: #1A1A1A;
   text-decoration: none;
   transition: 0.4s;
 }
@@ -557,6 +635,35 @@ COLOUR STYLES
   background-color: #1A1A1A;
 }
 
+.dark,
+.page-footer {
+  background-color: #1A1A1A;
+}
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
+.dark p,
+.dark ol,
+.dark ul,
+.dark li,
+.page-footer h2,
+.page-footer h3,
+.page-footer h4,
+.page-footer h5,
+.page-footer h6,
+.page-footer p,
+.page-footer ol,
+.page-footer ul,
+.page-footer li {
+  color: #fff;
+}
+.dark p a,
+.page-footer p a {
+  color: #fff;
+}
+
 /*
 Elements
 */
@@ -627,40 +734,64 @@ button {
 }
 
 .btn {
+  position: relative;
+  z-index: 1;
   border-radius: 6px;
-  border: 2px solid;
-  font-family: "JekoBlack", "Poppins", Arial, Helvetica, sans-serif;
+  border: none;
+  font-family: "Jeko", sans-serif;
+  font-weight: 900;
   font-size: 16px;
   padding: 0.75rem 1.5rem;
-  transition: all 0.4s;
+  transition: all 1s;
 }
-.btn.btn-black {
-  background-color: #1A1A1A;
-  border-color: #1A1A1A;
+.btn:not(.btn-outline) {
+  box-shadow: inset 0px 0px 0px 0px #FFCD00;
+}
+.btn:not(.btn-outline).btn-black {
   color: #fff;
+  background-color: #1A1A1A;
 }
-.btn.btn-white {
-  background-color: #fff;
-  border-color: #fff;
+.btn:not(.btn-outline).btn-white {
   color: #1A1A1A;
+  background-color: #fff;
 }
 .btn:not(.btn-outline):hover {
-  background-color: #FFCD00;
-  border-color: #FFCD00;
+  box-shadow: inset 0px 0px 0px 200px #FFCD00;
 }
 .btn.btn-outline {
   background-color: transparent;
 }
 .btn.btn-outline.btn-black {
-  border-color: #1A1A1A;
+  box-shadow: inset 0px 0px 0px 2px #1A1A1A;
   color: #1A1A1A;
 }
-.btn.btn-outline.btn-white {
-  border-color: #fff;
+.btn.btn-outline.btn-black:hover {
+  box-shadow: inset 0px 0px 0px 100px #1A1A1A;
   color: #fff;
 }
-.btn.btn-outline:hover {
-  border-color: #FFCD00;
+.btn.btn-outline.btn-white {
+  box-shadow: inset 0px 0px 0px 2px #fff;
+  color: #fff;
+}
+.btn.btn-outline.btn-white:hover {
+  box-shadow: inset 0px 0px 0px 100px #fff;
+  color: #1A1A1A;
+}
+
+.btn-link {
+  display: inline-block;
+  color: #1A1A1A;
+  font-family: "Jeko", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 3px solid #1A1A1A;
+  transition: all 0.4s;
+}
+.btn-link:hover {
+  border-bottom-color: #FFCD00;
+  color: #1A1A1A;
 }
 
 /************
@@ -682,9 +813,12 @@ CARD STYLES
 FORM STYLES
 ************/
 .form-control {
+  background-color: transparent;
   border: none;
   border-radius: 0;
-  border-bottom: 2px solid;
+  border-bottom: 2px solid #1A1A1A;
+  font-family: "Jeko", sans-serif;
+  font-weight: 700;
   font-size: 20px;
   padding-left: 0;
   padding-right: 0;
@@ -696,20 +830,22 @@ FORM STYLES
   }
 }
 .form-control:focus {
+  background-color: transparent;
   outline: none;
   box-shadow: none;
+  border-bottom-color: #FFCD00 !important;
 }
 .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #B0B1AF;
+  color: rgba(26, 26, 26, 0.4);
 }
 .form-control::-moz-placeholder { /* Firefox 19+ */
-  color: #B0B1AF;
+  color: rgba(26, 26, 26, 0.4);
 }
 .form-control:-ms-input-placeholder { /* IE 10+ */
-  color: #B0B1AF;
+  color: rgba(26, 26, 26, 0.4);
 }
 .form-control:-moz-placeholder { /* Firefox 18- */
-  color: #B0B1AF;
+  color: rgba(26, 26, 26, 0.4);
 }
 
 .form-select {
@@ -730,9 +866,10 @@ textarea.form-control {
 }
 
 label {
-  font-size: 10px;
-  font-weight: 900;
-  margin-top: 0.5rem;
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 0.25rem;
 }
 ul.errors {
   display: inline-block;
@@ -752,13 +889,27 @@ ul.errors li {
 HERO STYLES
 ************/
 .hero {
+  z-index: 1;
   background-color: #1A1A1A;
 }
 .hero * {
   color: #fff;
 }
 .home .hero {
-  height: 100vh;
+  display: flex;
+  min-height: 100vh;
+}
+.home .hero:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(26, 26, 26, 0.5);
 }
 
 /************
@@ -767,6 +918,18 @@ IMAGE STYLES
 /************
 MISCELLANEOUS STYLES
 ************/
+video.background-video {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .opacity-0 {
   opacity: 0;
   transition: opacity 0.3s;

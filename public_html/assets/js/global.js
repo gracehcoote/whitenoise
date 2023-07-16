@@ -1,11 +1,14 @@
 jQuery(document).ready(function(){
-  var headerHeight = $('header#global').outerHeight();
+  // Compensate for nav bar height
+  var headerHeight = $('.navigation-bar').outerHeight();
   var navSpacerTop = headerHeight;
-  $('nav#global').css('padding-top', navSpacerTop + 'px');
+  $('nav#global, .hero, footer#global-footer').css('padding-top', navSpacerTop + 'px');
 
+  // Show/hide navigation
   jQuery('.toggle-nav').click(function(e){
     e.stopPropagation();
     jQuery(this).toggleClass('active');
+    jQuery('.navigation-bar').toggleClass('fixed');
     jQuery('nav#global').toggleClass('active');
     setTimeout(function () {
       $('ul.nav').toggleClass('active');
@@ -13,7 +16,8 @@ jQuery(document).ready(function(){
     }, 1000);
   });
 
-	jQuery('header#global nav ul.nav li.nav-item a.nav-link').click(function(e){
+  // Close navigation methods
+	jQuery('.navigation-bar nav ul.nav li.nav-item a.nav-link').click(function(e){
     e.stopPropagation();
     jQuery('.toggle-nav').toggleClass('active');
     jQuery('nav#global').toggleClass('active');
@@ -26,36 +30,52 @@ jQuery(document).ready(function(){
     }
   });
 
-  // Close nav on outside click
-  // jQuery(document).one('click', function closeMenu (e){
-  //   if(jQuery('header#global nav').has(e.target).length === 0){
-  //     jQuery('.toggle-nav').removeClass('active');
-  //     jQuery('header#global nav').removeClass('active');
+  // Show footer navigation
+  $('footer#global-footer .navigation-bar').hide();
+  
+  var footerOffset = $('footer#global-footer').offset().top;
+  var footerPos = footerOffset - $(window).scrollTop();
+  var halfway = $(window).height()/2;
+
+  if (footerPos <= halfway) {
+    $('header#global .navigation-bar').fadeOut();
+    $('footer#global-footer .navigation-bar').fadeIn();
+  } else {
+    $('header#global .navigation-bar').fadeIn();
+    $('footer#global-footer .navigation-bar').fadeOut();
+  }
+
+  $(window).scroll(function() {
+    var footerOffset = $('footer#global-footer').offset().top;
+    var footerPos = footerOffset - $(window).scrollTop();
+    var halfway = $(window).height()/2;
+
+    if (footerPos <= halfway) {
+      $('header#global .navigation-bar').fadeOut();
+      $('footer#global-footer .navigation-bar').fadeIn();
+    } else {
+      $('header#global .navigation-bar').fadeIn();
+      $('footer#global-footer .navigation-bar').fadeOut();
+    }
+  });
+
+  // Scroll top when using footer navigation
+  $('footer#global-footer .toggle-nav').click(function(){
+    $('html, body').animate({
+      scrollTop: $('footer#global-footer').offset().top
+    }, 'slow');
+  });
+
+  // jQuery(window).scroll(function() {
+  //   var height = jQuery(window).scrollTop();
+  //   var halfWay = $(document).height()/2;
+
+  //   if (height == halfway ) {
+  //     $('footer#global-footer .navigation-bar').fadeIn();
   //   } else {
-  //     jQuery(document).one('click', closeMenu);
+  //     $('footer#global-footer .navigation-bar').fadeOut();
   //   }
   // });
-
-	// Dropdowns
-	jQuery('.menu-toggle').on('click', function() {
-		jQuery(this).toggleClass('menu-active');
-    var current_dropdown = jQuery(this).next('.sub-menu');
-    jQuery('.sub-menu').not(current_dropdown).removeClass('active');
-    current_dropdown.toggleClass('active');
-    current_dropdown.slideToggle();
-	});
-
-	jQuery('.sub-menu li.nav-item a').on('click', function() {
-		jQuery(this).parent().parent().parent('.sub-menu.active').removeClass('active');
-		jQuery('header#global nav').removeClass('active');
-	});
-
-  // Show/hide
-  $('.hidden-el').hide();
-  $('.toggle-hidden-el').on('click', function(){
-    $(this).toggleClass('hidden-opened');
-    $(this).next('.hidden-el').toggle();
-  });
 });
 
 // Back to top button
@@ -67,6 +87,13 @@ jQuery(window).scroll(function() {
 		jQuery('#top').fadeOut();
 	}
 });
+
+// Show/hide
+  // $('.hidden-el').hide();
+  // $('.toggle-hidden-el').on('click', function(){
+  //   $(this).toggleClass('hidden-opened');
+  //   $(this).next('.hidden-el').toggle();
+  // });
 
 // Sliders
 
