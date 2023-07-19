@@ -1,25 +1,25 @@
-dateApplied: '2023-07-17 08:56:05'
+dateApplied: '2023-07-18 08:28:41'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689609170
-        to: 1689609365
+        from: 1689609365
+        to: 1689694121
   -
     added:
-      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.fill: null
-      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.format: null
-      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.handle: thumb1920x1080
-      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.height: 1080
-      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.interlace: none
-      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.mode: crop
-      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.name: 'Thumb 1920 x 1080'
-      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.position: center-center
-      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.quality: null
-      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.upscale: true
-      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.width: 1920
-    message: 'Saving transform “thumb1920x1080”'
+      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.fill: null
+      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.format: null
+      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.handle: thumb960X540
+      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.height: 540
+      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.interlace: none
+      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.mode: crop
+      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.name: 'Thumb 960 x 540'
+      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.position: center-center
+      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.quality: 90
+      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.upscale: true
+      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.width: 960
+    message: 'Saving transform “thumb960X540”'
   -
     added:
-      meta.__names__.cbb11be7-7020-4487-a344-b7f5808868ad: 'Thumb 1920 x 1080'
+      meta.__names__.3f4faf43-dd6f-4014-9d64-8e145bb17352: 'Thumb 960 x 540'

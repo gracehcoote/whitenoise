@@ -1,14 +1,25 @@
-dateApplied: '2023-07-18 08:28:49'
+dateApplied: '2023-07-18 08:29:41'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689694121
-        to: 1689694129
+        from: 1689694144
+        to: 1689694181
   -
-    message: 'Saving transform “thumb1920X1080”'
-    changed:
-      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.handle:
-        from: thumb1920x1080
-        to: thumb1920X1080
+    added:
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.fill: null
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.format: null
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.handle: thumb1280X720
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.height: 720
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.interlace: none
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.mode: crop
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.name: 'Thumb 1280 x 720'
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.position: center-center
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.quality: 90
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.upscale: true
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.width: 1280
+    message: 'Saving transform “thumb1280X720”'
+  -
+    added:
+      meta.__names__.f4e9240f-b845-4e24-a506-4091720ce1b9: 'Thumb 1280 x 720'

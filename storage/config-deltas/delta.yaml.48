@@ -1,38 +1,25 @@
-dateApplied: '2023-07-17 08:52:50'
+dateApplied: '2023-07-17 08:56:06'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689609114
-        to: 1689609170
+        from: 1689609170
+        to: 1689609365
   -
     added:
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.allowedKinds.0: image
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.sources.0: 'volume:88345c9b-bba7-481d-b7be-a56f256bad79'
-    removed:
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.allowedKinds: null
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.sources: '*'
-    message: 'Save field “heroImage”'
-    changed:
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.defaultUploadLocationSource:
-        from: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
-        to: 'volume:88345c9b-bba7-481d-b7be-a56f256bad79'
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.maxRelations:
-        from: 0
-        to: 1
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.previewMode:
-        from: full
-        to: thumbs
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.restrictFiles:
-        from: false
-        to: true
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.selectionLabel:
-        from: null
-        to: 'Select an image'
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.showSiteMenu:
-        from: false
-        to: true
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.viewMode:
-        from: list
-        to: large
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.fill: null
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.format: null
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.handle: thumb1920x1080
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.height: 1080
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.interlace: none
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.mode: crop
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.name: 'Thumb 1920 x 1080'
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.position: center-center
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.quality: null
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.upscale: true
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.width: 1920
+    message: 'Saving transform “thumb1920x1080”'
+  -
+    added:
+      meta.__names__.cbb11be7-7020-4487-a344-b7f5808868ad: 'Thumb 1920 x 1080'

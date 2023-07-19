@@ -1,14 +1,17 @@
-dateApplied: '2023-07-18 11:07:24'
+dateApplied: '2023-07-18 11:29:13'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689703468
-        to: 1689703644
+        from: 1689704067
+        to: 1689704953
   -
-    added:
-      plugins.redactor-custom-styles.edition: standard
-      plugins.redactor-custom-styles.enabled: true
-      plugins.redactor-custom-styles.schemaVersion: 1.0.0
-    message: 'Install plugin “redactor-custom-styles”'
+    message: 'Save field “videoThumbnailEmbedLink”'
+    changed:
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.initialRows:
+        from: 4
+        to: 3
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.multiline:
+        from: false
+        to: true

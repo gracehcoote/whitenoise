@@ -76,7 +76,7 @@ footer#global-footer .sub-footer li {
 }
 footer#global-footer ul.nav {
   margin: 0 -1rem;
-  font-family: "Jeko", sans-serif;
+  font-family: "Jeko", "Poppins", Arial, Helvetica, sans-serif;
 }
 footer#global-footer ul.nav .nav-item {
   margin: 0 1rem;
@@ -375,7 +375,7 @@ nav#global ul.nav .nav-item {
 }
 nav#global ul.nav .nav-link {
   color: rgba(255, 255, 255, 0.4);
-  font-family: "Jeko", sans-serif;
+  font-family: "Jeko", "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 48px;
   line-height: 1;
@@ -487,7 +487,7 @@ body {
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  font-family: "Jeko", sans-serif;
+  font-family: "Jeko", "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 400;
   line-height: 1.4;
   margin-bottom: 1rem;
@@ -788,7 +788,7 @@ button {
   z-index: 1;
   border-radius: 6px;
   border: none;
-  font-family: "Jeko", sans-serif;
+  font-family: "Jeko", "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 900;
   font-size: 16px;
   padding: 0.75rem 1.5rem;
@@ -831,7 +831,7 @@ button {
 .btn-link {
   display: inline-block;
   color: #1A1A1A;
-  font-family: "Jeko", sans-serif;
+  font-family: "Jeko", "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 800;
   font-size: 16px;
   text-decoration: none;
@@ -886,7 +886,7 @@ FORM STYLES
   border: none;
   border-radius: 0;
   border-bottom: 2px solid #1A1A1A;
-  font-family: "Jeko", sans-serif;
+  font-family: "Jeko", "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 20px;
   padding-left: 0;

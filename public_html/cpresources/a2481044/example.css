@@ -1,8 +1,61 @@
+/* Heading weight */
+:root .redactor-styles .tw-regular,
+:root .redactor-dropdown-item-regular span {
+    font-weight: 400;
+}
+:root .redactor-styles .tw-medium,
+:root .redactor-dropdown-item-medium span {
+    font-weight: 500;
+}
+:root .redactor-styles .tw-semibold,
+:root .redactor-dropdown-item-semibold span {
+    font-weight: 600;
+}
+:root .redactor-styles .tw-bold,
+:root .redactor-dropdown-item-bold span {
+    font-weight: 700;
+}
+:root .redactor-styles .tw-extrabold,
+:root .redactor-dropdown-item-extrabold span {
+    font-weight: 800;
+}
+:root .redactor-styles .tw-black,
+:root .redactor-dropdown-item-black span {
+    font-weight: 900;
+}
+
+/* List styles */
+
+:root .redactor-styles ul  {
+    margin: 1em 0;
+    padding-left: 2em;
+    list-style-type: disc;
+}
+
+:root .redactor-styles ols  {
+    margin: 1em 0;
+    padding-left: 2em;
+}
+
+:root .redactor-styles .ticks  {
+    list-style: none;
+}
+:root .redactor-styles .ticks li {
+    padding-left: 25px;
+    position: relative;
+}
+:root .redactor-styles .ticks li:before {
+    position: absolute;
+    left: 0;
+    font-family: 'Material Icons';
+    content: '\e876';
+}
+
 /* Deleted, inserted, marked */
 :root .redactor-styles del {
     text-decoration: line-through;
 }
-
+ 
 :root .redactor-styles ins {
     border-bottom: 1px dotted rgba(0, 0, 0, .5);
     text-decoration: none;

@@ -1,25 +1,25 @@
-dateApplied: '2023-07-18 08:30:28'
+dateApplied: '2023-07-18 08:31:47'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689694181
-        to: 1689694228
+        from: 1689694228
+        to: 1689694307
   -
     added:
-      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.fill: null
-      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.format: null
-      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.handle: thumb768X432
-      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.height: 432
-      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.interlace: none
-      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.mode: crop
-      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.name: 'Thumb 768 x 432'
-      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.position: center-center
-      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.quality: 90
-      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.upscale: true
-      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.width: 768
-    message: 'Saving transform “thumb768X432”'
+      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.fill: null
+      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.format: null
+      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.handle: thumb512X288
+      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.height: 288
+      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.interlace: none
+      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.mode: crop
+      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.name: 'Thumb 512 x 288'
+      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.position: center-center
+      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.quality: 90
+      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.upscale: true
+      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.width: 512
+    message: 'Saving transform “thumb512X288”'
   -
     added:
-      meta.__names__.e0ad5847-624f-42b2-ab69-e3bd107d6e44: 'Thumb 768 x 432'
+      meta.__names__.1463eb46-b3bc-45c9-81a3-b89fcb1727aa: 'Thumb 512 x 288'

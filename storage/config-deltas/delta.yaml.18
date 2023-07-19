@@ -1,55 +1,32 @@
-dateApplied: '2023-07-18 11:00:03'
+dateApplied: '2023-07-18 11:00:45'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689695491
-        to: 1689703203
+        from: 1689703203
+        to: 1689703245
   -
     added:
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.columnSuffix: null
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.contentColumnType: string
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.fieldGroup: b6822878-090b-45fc-b637-6ccf6bed2f40
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.handle: videoThumbnailUpload
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.instructions: 'Use this field if uploading a video for use as a thumbnail'
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.name: 'Video Thumbnail (upload)'
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.searchable: false
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.allowSelfRelations: false
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.allowSubfolders: false
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.allowUploads: true
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.allowedKinds.0: video
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.branchLimit: null
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.defaultUploadLocationSource: 'volume:132246f9-c0e6-4f99-a712-62365f4bf939'
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.defaultUploadLocationSubpath: null
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.localizeRelations: false
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.maintainHierarchy: false
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.maxRelations: 1
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.minRelations: null
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.previewMode: full
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.restrictFiles: true
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.restrictLocation: false
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.restrictedDefaultUploadSubpath: null
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.restrictedLocationSource: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.restrictedLocationSubpath: null
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.selectionCondition.__assoc__.0.0: elementType
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.selectionCondition.__assoc__.0.1: craft\elements\Asset
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.selectionCondition.__assoc__.1.0: fieldContext
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.selectionCondition.__assoc__.1.1: global
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.selectionCondition.__assoc__.2.0: class
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.selectionCondition.__assoc__.2.1: craft\elements\conditions\assets\AssetCondition
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.selectionLabel: 'Select a video'
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.showSiteMenu: false
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.showUnpermittedFiles: false
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.showUnpermittedVolumes: false
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.sources.0: 'volume:132246f9-c0e6-4f99-a712-62365f4bf939'
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.targetSiteId: null
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.validateRelatedElements: false
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.viewMode: large
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.translationKeyFormat: null
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.translationMethod: site
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.type: craft\fields\Assets
-    message: 'Save field “videoThumbnailUpload”'
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.columnSuffix: iijdinjc
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.contentColumnType: text
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.fieldGroup: b6822878-090b-45fc-b637-6ccf6bed2f40
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.handle: videoThumbnailEmbedLink
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.instructions: 'Use this field if embedding a YouTube or Vimeo video.'
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.name: 'Video Thumbnail (embed link)'
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.searchable: false
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.byteLimit: null
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.charLimit: null
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.code: false
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.columnType: null
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.initialRows: 4
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.multiline: false
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.placeholder: null
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.uiMode: normal
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.translationKeyFormat: null
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.translationMethod: none
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.type: craft\fields\PlainText
+    message: 'Save field “videoThumbnailEmbedLink”'
   -
     added:
-      meta.__names__.f558bff2-7034-4fce-a016-3fbb6958f1c5: 'Video Thumbnail (upload)'
+      meta.__names__.d0590c29-504c-4f5f-83a0-93784d634ee4: 'Video Thumbnail (embed link)'

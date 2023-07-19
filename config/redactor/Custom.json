@@ -1,0 +1,62 @@
+{
+  "buttons": ["format", "bold", "italic", "lists", "link", "html"],
+  "formatting": [
+    "h2",
+    "h3",
+    "h4",
+    "h5",
+    "p"
+  ],
+  "plugins": ["customstyles"],
+  "customStyles": {
+    "headingWeight": {
+      "dropdown": {
+        "regular": {
+          "args": {
+            "tag": "span",
+            "class": "tw-regular"
+          }
+        },
+        "medium": {
+          "args": {
+            "tag": "span",
+            "class": "tw-medium"
+          }
+        },
+        "semibold": {
+          "args": {
+            "tag": "span",
+            "class": "tw-semibold"
+          }
+        },
+        "bold": {
+          "args": {
+            "tag": "span",
+            "class": "tw-bold"
+          }
+        },
+        "extrabold": {
+          "args": {
+            "tag": "span",
+            "class": "tw-extrabold"
+          }
+        },
+        "black": {
+          "args": {
+            "tag": "span",
+            "class": "tw-black"
+          }
+        }
+      }
+    },
+    "quote": {
+      "args": {
+          "tag": "blockquote",
+          "type": "toggle"
+        }
+    },
+    "clearStyles": {
+      "api": "module.inline.clearformat"
+    }
+  }
+}

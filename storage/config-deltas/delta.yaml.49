@@ -1,51 +1,25 @@
-dateApplied: '2023-07-17 08:51:55'
+dateApplied: '2023-07-17 08:56:05'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689609090
-        to: 1689609114
+        from: 1689609170
+        to: 1689609365
   -
     added:
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elementCondition: null
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.autocapitalize: true
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.autocomplete: false
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.autocorrect: true
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.class: null
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.disabled: false
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.elementCondition: null
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.id: null
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.instructions: null
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.label: null
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.max: null
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.min: null
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.name: null
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.orientation: null
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.placeholder: null
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.readonly: false
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.requirable: false
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.size: null
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.step: null
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.tip: null
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.title: null
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.type: craft\fieldlayoutelements\assets\AssetTitleField
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.uid: 4ac9f694-4ec9-48e6-b873-8ece53287151
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.userCondition: null
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.warning: null
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.elements.0.width: 100
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.name: Content
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.uid: 322b64a4-ab81-4d6d-9e02-058c3c8aa77b
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fieldLayouts.52a009b2-ffa5-448d-b6ae-bc9e96198c11.tabs.0.userCondition: null
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.fs: uploads
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.handle: uploads
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.name: Uploads
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.sortOrder: 2
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.titleTranslationKeyFormat: null
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.titleTranslationMethod: site
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.transformFs: ''
-      volumes.88345c9b-bba7-481d-b7be-a56f256bad79.transformSubpath: ''
-    message: 'Save the “uploads” volume'
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.fill: null
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.format: null
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.handle: thumb1920x1080
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.height: 1080
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.interlace: none
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.mode: crop
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.name: 'Thumb 1920 x 1080'
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.position: center-center
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.quality: null
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.upscale: true
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.width: 1920
+    message: 'Saving transform “thumb1920x1080”'
   -
     added:
-      meta.__names__.88345c9b-bba7-481d-b7be-a56f256bad79: Uploads
+      meta.__names__.cbb11be7-7020-4487-a344-b7f5808868ad: 'Thumb 1920 x 1080'

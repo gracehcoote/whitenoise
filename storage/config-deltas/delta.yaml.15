@@ -1,29 +1,14 @@
-dateApplied: '2023-07-18 11:00:57'
+dateApplied: '2023-07-18 11:07:24'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689703245
-        to: 1689703257
+        from: 1689703468
+        to: 1689703644
   -
     added:
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.elementCondition: null
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.fieldUid: ae375820-3398-4233-97c9-880f9bc88381
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.instructions: null
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.label: null
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.required: false
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.tip: null
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.type: craft\fieldlayoutelements\CustomField
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.uid: f8f0b0ef-57d7-43cb-ae8c-559fb5d15b40
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.userCondition: null
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.warning: null
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.width: 100
-    message: 'Save entry type “project”'
-    changed:
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.1.fieldUid:
-        from: ae375820-3398-4233-97c9-880f9bc88381
-        to: 7b48acb6-0409-495d-a9ca-d572373e8e89
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.1.uid:
-        from: f8f0b0ef-57d7-43cb-ae8c-559fb5d15b40
-        to: 26e86ad3-5502-4ccd-85ef-a9b718641dfd
+      plugins.redactor-custom-styles.edition: standard
+      plugins.redactor-custom-styles.enabled: true
+      plugins.redactor-custom-styles.schemaVersion: 1.0.0
+    message: 'Install plugin “redactor-custom-styles”'

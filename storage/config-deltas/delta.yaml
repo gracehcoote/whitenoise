@@ -1,22 +1,26 @@
-dateApplied: '2023-07-18 12:21:50'
+dateApplied: '2023-07-19 02:03:54'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689708087
-        to: 1689708110
+        from: 1689757405
+        to: 1689757434
   -
-    added:
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.1.elements.1.elementCondition: null
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.1.elements.1.fieldUid: 9e42d781-7ec4-4ffc-bcb0-b0990f578c4b
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.1.elements.1.instructions: null
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.1.elements.1.label: null
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.1.elements.1.required: false
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.1.elements.1.tip: null
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.1.elements.1.type: craft\fieldlayoutelements\CustomField
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.1.elements.1.uid: dee3501f-5b61-4286-ad1b-65e5e1a1ff7d
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.1.elements.1.userCondition: null
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.1.elements.1.warning: null
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.1.elements.1.width: 100
-    message: 'Save entry type “project”'
+    message: 'Save field “textBlock”'
+    changed:
+      fields.9e42d781-7ec4-4ffc-bcb0-b0990f578c4b.settings.availableTransforms:
+        from: null
+        to: ''
+      fields.9e42d781-7ec4-4ffc-bcb0-b0990f578c4b.settings.availableVolumes:
+        from: null
+        to: ''
+      fields.9e42d781-7ec4-4ffc-bcb0-b0990f578c4b.settings.defaultTransform:
+        from: null
+        to: ''
+      fields.9e42d781-7ec4-4ffc-bcb0-b0990f578c4b.settings.manualConfig:
+        from: null
+        to: ''
+      fields.9e42d781-7ec4-4ffc-bcb0-b0990f578c4b.settings.redactorConfig:
+        from: CustomStyles.json
+        to: Custom.json

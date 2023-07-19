@@ -1,32 +1,51 @@
-dateApplied: '2023-07-18 08:43:27'
+dateApplied: '2023-07-18 08:44:59'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689694954
-        to: 1689695007
+        from: 1689695078
+        to: 1689695099
   -
     added:
-      fields.bb59bfee-cc92-4c30-b875-71226f739843.columnSuffix: dsxlbphn
-      fields.bb59bfee-cc92-4c30-b875-71226f739843.contentColumnType: string(800)
-      fields.bb59bfee-cc92-4c30-b875-71226f739843.fieldGroup: f8e8eec1-974e-4485-8dc8-e4cd25204baa
-      fields.bb59bfee-cc92-4c30-b875-71226f739843.handle: subtitle
-      fields.bb59bfee-cc92-4c30-b875-71226f739843.instructions: null
-      fields.bb59bfee-cc92-4c30-b875-71226f739843.name: Subtitle
-      fields.bb59bfee-cc92-4c30-b875-71226f739843.searchable: false
-      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.byteLimit: null
-      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.charLimit: 200
-      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.code: false
-      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.columnType: null
-      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.initialRows: 4
-      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.multiline: false
-      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.placeholder: null
-      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.uiMode: normal
-      fields.bb59bfee-cc92-4c30-b875-71226f739843.translationKeyFormat: null
-      fields.bb59bfee-cc92-4c30-b875-71226f739843.translationMethod: none
-      fields.bb59bfee-cc92-4c30-b875-71226f739843.type: craft\fields\PlainText
-    message: 'Save field “subtitle”'
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elementCondition: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.autocapitalize: true
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.autocomplete: false
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.autocorrect: true
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.class: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.disabled: false
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.elementCondition: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.id: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.instructions: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.label: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.max: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.min: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.name: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.orientation: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.placeholder: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.readonly: false
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.requirable: false
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.size: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.step: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.tip: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.title: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.type: craft\fieldlayoutelements\assets\AssetTitleField
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.uid: 92c392c5-1a64-4e21-af37-a65322d3e6d4
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.userCondition: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.warning: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.width: 100
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.name: Content
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.uid: 10060c23-f23f-4160-8051-f22b05a59c2f
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.userCondition: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fs: videos
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.handle: videos
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.name: Videos
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.sortOrder: 3
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.titleTranslationKeyFormat: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.titleTranslationMethod: site
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.transformFs: ''
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.transformSubpath: ''
+    message: 'Save the “videos” volume'
   -
     added:
-      meta.__names__.bb59bfee-cc92-4c30-b875-71226f739843: Subtitle
+      meta.__names__.132246f9-c0e6-4f99-a712-62365f4bf939: Videos

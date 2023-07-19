@@ -1,15 +1,32 @@
-dateApplied: '2023-07-18 08:42:34'
+dateApplied: '2023-07-18 08:43:27'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689694782
-        to: 1689694954
+        from: 1689694954
+        to: 1689695007
   -
     added:
-      fieldGroups.b6822878-090b-45fc-b637-6ccf6bed2f40.name: Work
-    message: 'Save field group “Work”'
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.columnSuffix: dsxlbphn
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.contentColumnType: string(800)
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.fieldGroup: f8e8eec1-974e-4485-8dc8-e4cd25204baa
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.handle: subtitle
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.instructions: null
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.name: Subtitle
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.searchable: false
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.byteLimit: null
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.charLimit: 200
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.code: false
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.columnType: null
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.initialRows: 4
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.multiline: false
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.placeholder: null
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.uiMode: normal
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.translationKeyFormat: null
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.translationMethod: none
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.type: craft\fields\PlainText
+    message: 'Save field “subtitle”'
   -
     added:
-      meta.__names__.b6822878-090b-45fc-b637-6ccf6bed2f40: Work
+      meta.__names__.bb59bfee-cc92-4c30-b875-71226f739843: Subtitle
