@@ -2,6 +2,7 @@
   "require": {
     "adigital/cookie-consent-banner": "2.0.0",
     "craftcms/cms": "^4.4.0",
+    "craftcms/redactor": "3.0.4",
     "nystudio107/craft-cookies": "4.0.0",
     "verbb/cp-nav": "4.0.10",
     "vlucas/phpdotenv": "^5.4.0"

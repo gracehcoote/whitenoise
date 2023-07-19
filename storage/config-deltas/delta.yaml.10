@@ -1,29 +1,17 @@
-dateApplied: '2023-07-05 07:14:07'
+dateApplied: '2023-07-18 11:30:10'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688566442
-        to: 1688566447
+        from: 1689704953
+        to: 1689705010
   -
-    added:
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.settings.byteLimit: null
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.settings.charLimit: null
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.settings.code: false
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.settings.columnType: null
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.settings.initialRows: 4
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.settings.multiline: false
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.settings.placeholder: null
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.settings.uiMode: normal
-    removed:
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.settings.maxLength: 255
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.settings.types.0: url
-    message: 'Save field “instagram”'
+    message: 'Save field “videoThumbnailUpload”'
     changed:
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.contentColumnType:
-        from: string(255)
-        to: text
-      fields.4f7797e5-910f-4536-9243-f9c5cfcda4d5.type:
-        from: craft\fields\Url
-        to: craft\fields\PlainText
+      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.instructions:
+        from: 'Use this field if uploading a video for use as a thumbnail'
+        to: 'Use this field if uploading a video'
+      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.showSiteMenu:
+        from: false
+        to: true

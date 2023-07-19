@@ -1,25 +1,14 @@
-dateApplied: '2023-07-04 07:38:41'
+dateApplied: '2023-07-18 08:29:04'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688481511
-        to: 1688481521
+        from: 1689694129
+        to: 1689694144
   -
-    added:
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.fill: null
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.format: null
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.handle: favicon96x96
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.height: 96
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.interlace: none
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.mode: crop
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.name: 'Favicon 96x96'
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.position: center-center
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.quality: 80
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.upscale: true
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.width: 96
-    message: 'Saving transform “favicon96x96”'
-  -
-    added:
-      meta.__names__.efad4e89-5ff2-478f-b38b-09d1880c0021: 'Favicon 96x96'
+    message: 'Saving transform “thumb1920X1080”'
+    changed:
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.quality:
+        from: 0
+        to: 90

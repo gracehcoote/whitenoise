@@ -1,25 +1,25 @@
-dateApplied: '2023-07-04 07:38:42'
+dateApplied: '2023-07-18 08:29:41'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688481511
-        to: 1688481521
+        from: 1689694144
+        to: 1689694181
   -
     added:
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.fill: null
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.format: null
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.handle: favicon96x96
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.height: 96
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.interlace: none
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.mode: crop
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.name: 'Favicon 96x96'
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.position: center-center
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.quality: 80
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.upscale: true
-      imageTransforms.efad4e89-5ff2-478f-b38b-09d1880c0021.width: 96
-    message: 'Saving transform “favicon96x96”'
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.fill: null
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.format: null
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.handle: thumb1280X720
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.height: 720
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.interlace: none
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.mode: crop
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.name: 'Thumb 1280 x 720'
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.position: center-center
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.quality: 90
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.upscale: true
+      imageTransforms.f4e9240f-b845-4e24-a506-4091720ce1b9.width: 1280
+    message: 'Saving transform “thumb1280X720”'
   -
     added:
-      meta.__names__.efad4e89-5ff2-478f-b38b-09d1880c0021: 'Favicon 96x96'
+      meta.__names__.f4e9240f-b845-4e24-a506-4091720ce1b9: 'Thumb 1280 x 720'

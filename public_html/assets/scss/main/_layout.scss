@@ -21,6 +21,10 @@ body {
 	&.preloading {
 		overflow: hidden;
 	}
+
+	&.active {
+		overflow: hidden;
+	}
 }
 
 img {
@@ -58,9 +62,9 @@ section {
 	width: 85%;
 	// max-width: 1224px;
 
-	+ .section-container {
-		padding-top: 0;
-	}
+	// + .section-container {
+	// 	padding-top: 0;
+	// }
 
 	@media #{$extra-large-up} {
 		&.narrow {

@@ -1,0 +1,11 @@
+fill: null
+format: null
+handle: thumb1280X720
+height: 720
+interlace: none
+mode: crop
+name: 'Thumb 1280 x 720'
+position: center-center
+quality: 90
+upscale: true
+width: 1280

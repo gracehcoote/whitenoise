@@ -8,25 +8,25 @@
               <a class="nav-link{% if craft.app.request.getSegment(1) == '' %} active{% endif %}" href="{{ siteUrl }}">Home</a>
             </li>
             <li class="nav-item" style="--animation-order: 1;">
-              <a class="nav-link" href="{{ siteUrl }}">Work</a>
+              <a class="nav-link{% if craft.app.request.getSegment(1) == 'work' %} active{% endif %}" href="{{ siteUrl }}work">Work</a>
             </li>
             <li class="nav-item" style="--animation-order: 2;">
-              <a class="nav-link" href="{{ siteUrl }}">Who we are</a>
+              <a class="nav-link{% if craft.app.request.getSegment(1) == 'who-we-are' %} active{% endif %}" href="{{ siteUrl }}who-we-are">Who we are</a>
             </li>
             <li class="nav-item" style="--animation-order: 3;">
-              <a class="nav-link" href="{{ siteUrl }}">What we do</a>
+              <a class="nav-link{% if craft.app.request.getSegment(1) == 'what-we-do' %} active{% endif %}" href="{{ siteUrl }}what-we-do">What we do</a>
             </li>
             <li class="nav-item" style="--animation-order: 4;">
-              <a class="nav-link" href="{{ siteUrl }}">Newsroom</a>
+              <a class="nav-link{% if craft.app.request.getSegment(1) == 'newsroom' %} active{% endif %}" href="{{ siteUrl }}newsroom">Newsroom</a>
             </li>
             <li class="nav-item" style="--animation-order: 5;">
-              <a class="nav-link" href="{{ siteUrl }}">Careers</a>
+              <a class="nav-link{% if craft.app.request.getSegment(1) == 'careers' %} active{% endif %}" href="{{ siteUrl }}careers">Careers</a>
             </li>
             <li class="nav-item" style="--animation-order: 6;">
-              <a class="nav-link" href="{{ siteUrl }}">Sound Studio</a>
+              <a class="nav-link{% if craft.app.request.getSegment(1) == 'sound-studio' %} active{% endif %}" href="{{ siteUrl }}sound-studio">Sound Studio</a>
             </li>
             <li class="nav-item" style="--animation-order: 7;">
-              <a class="nav-link" href="{{ siteUrl }}">Contact</a>
+              <a class="nav-link{% if craft.app.request.getSegment(1) == 'contact' %} active{% endif %}" href="{{ siteUrl }}contact">Contact</a>
             </li>
           </ul>
         </div><!-- end col -->
@@ -49,9 +49,9 @@
             {{ siteInfo.phoneNumber }}<br>
           {% endif %}
           {% if siteInfo.emailAddress %}
-            <a href="mailto:{{ siteInfo.emailAddress }}">{{ siteInfo.emailAddress }}</a><br>
+            <a class="tw-semibold" href="mailto:{{ siteInfo.emailAddress }}">{{ siteInfo.emailAddress }}</a><br>
           {% endif %}
-            <a href="https://whitenoisestudios.com">whitenoisestudios.com</a>
+            <a class="tw-semibold" href="https://whitenoisestudios.com">whitenoisestudios.com</a>
           </p>
 
           {% if siteInfo.facebook or siteInfo.instagram or siteInfo.linkedin or siteInfo.pinterest or siteInfo.tiktok or siteInfo.twitter or siteInfo.vimeo or siteInfo.youtube %}

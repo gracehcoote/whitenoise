@@ -1,0 +1,85 @@
+fieldLayouts:
+  4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: d93abd44-04dc-49df-81f7-420d7ec81ea0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 19bc495d-8a10-4cbb-af06-686b79d623b6
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 42d3d29f-acd5-4355-b756-dd24a263cf34 # SEO Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5aeb20b7-84b5-4a18-8e49-77b432345e95
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1013d0af-42f2-4277-8692-ca5f66ef4588 # SEO Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e07e4ec9-3c34-42f2-96b6-a241f2706e5a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 225d43ff-b622-4780-8602-22940bb83e3e # OG Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b3bcfb86-19c5-44c0-9c5d-0e7e6607254e
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 4a5f4fe1-2107-4bb6-9e90-a44aa5f6fd7a
+        userCondition: null
+handle: work
+hasTitleField: false
+name: Work
+section: 7bf25c78-6521-4c16-92af-00826343b035 # Work
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

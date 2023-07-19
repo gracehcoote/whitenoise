@@ -1,26 +1,32 @@
-dateApplied: '2023-07-05 07:02:44'
+dateApplied: '2023-07-18 08:43:27'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688565739
-        to: 1688565764
+        from: 1689694954
+        to: 1689695007
   -
     added:
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.columnSuffix: vwvznmdf
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.contentColumnType: string(255)
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.handle: linkedin
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.instructions: null
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.name: LinkedIn
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.searchable: false
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.settings.maxLength: 255
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.settings.types.0: url
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.translationKeyFormat: null
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.translationMethod: none
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.type: craft\fields\Url
-    message: 'Save field “linkedin”'
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.columnSuffix: dsxlbphn
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.contentColumnType: string(800)
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.fieldGroup: f8e8eec1-974e-4485-8dc8-e4cd25204baa
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.handle: subtitle
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.instructions: null
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.name: Subtitle
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.searchable: false
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.byteLimit: null
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.charLimit: 200
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.code: false
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.columnType: null
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.initialRows: 4
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.multiline: false
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.placeholder: null
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.settings.uiMode: normal
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.translationKeyFormat: null
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.translationMethod: none
+      fields.bb59bfee-cc92-4c30-b875-71226f739843.type: craft\fields\PlainText
+    message: 'Save field “subtitle”'
   -
     added:
-      meta.__names__.472533a5-38cd-464c-bd82-10d58ab4079a: LinkedIn
+      meta.__names__.bb59bfee-cc92-4c30-b875-71226f739843: Subtitle

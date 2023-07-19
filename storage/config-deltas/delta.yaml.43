@@ -1,25 +1,14 @@
-dateApplied: '2023-07-04 07:38:31'
+dateApplied: '2023-07-18 08:28:49'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688481498
-        to: 1688481511
+        from: 1689694121
+        to: 1689694129
   -
-    added:
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.fill: null
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.format: null
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.handle: favicon76x76
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.height: 76
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.interlace: none
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.mode: crop
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.name: 'Favicon 76x76'
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.position: center-center
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.quality: 80
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.upscale: true
-      imageTransforms.a6d4b9df-3107-45d2-ac86-437b4cb6b050.width: 76
-    message: 'Saving transform “favicon76x76”'
-  -
-    added:
-      meta.__names__.a6d4b9df-3107-45d2-ac86-437b4cb6b050: 'Favicon 76x76'
+    message: 'Saving transform “thumb1920X1080”'
+    changed:
+      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.handle:
+        from: thumb1920x1080
+        to: thumb1920X1080

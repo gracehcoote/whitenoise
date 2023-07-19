@@ -1,25 +1,38 @@
-dateApplied: '2023-07-04 07:38:09'
+dateApplied: '2023-07-17 08:52:50'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688481478
-        to: 1688481489
+        from: 1689609114
+        to: 1689609170
   -
     added:
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.fill: null
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.format: null
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.handle: favicon70x70
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.height: 70
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.interlace: none
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.mode: crop
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.name: 'Favicon 70x70'
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.position: center-center
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.quality: 80
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.upscale: true
-      imageTransforms.a0ad2a73-81a4-46fe-b8e7-6083409f70e5.width: 70
-    message: 'Saving transform “favicon70x70”'
-  -
-    added:
-      meta.__names__.a0ad2a73-81a4-46fe-b8e7-6083409f70e5: 'Favicon 70x70'
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.allowedKinds.0: image
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.sources.0: 'volume:88345c9b-bba7-481d-b7be-a56f256bad79'
+    removed:
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.allowedKinds: null
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.sources: '*'
+    message: 'Save field “heroImage”'
+    changed:
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.defaultUploadLocationSource:
+        from: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
+        to: 'volume:88345c9b-bba7-481d-b7be-a56f256bad79'
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.maxRelations:
+        from: 0
+        to: 1
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.previewMode:
+        from: full
+        to: thumbs
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.restrictFiles:
+        from: false
+        to: true
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.selectionLabel:
+        from: null
+        to: 'Select an image'
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.showSiteMenu:
+        from: false
+        to: true
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.viewMode:
+        from: list
+        to: large

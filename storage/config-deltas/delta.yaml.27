@@ -1,26 +1,15 @@
-dateApplied: '2023-07-05 07:02:44'
+dateApplied: '2023-07-18 08:42:34'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688565739
-        to: 1688565764
+        from: 1689694782
+        to: 1689694954
   -
     added:
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.columnSuffix: vwvznmdf
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.contentColumnType: string(255)
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.handle: linkedin
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.instructions: null
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.name: LinkedIn
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.searchable: false
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.settings.maxLength: 255
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.settings.types.0: url
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.translationKeyFormat: null
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.translationMethod: none
-      fields.472533a5-38cd-464c-bd82-10d58ab4079a.type: craft\fields\Url
-    message: 'Save field “linkedin”'
+      fieldGroups.b6822878-090b-45fc-b637-6ccf6bed2f40.name: Work
+    message: 'Save field group “Work”'
   -
     added:
-      meta.__names__.472533a5-38cd-464c-bd82-10d58ab4079a: LinkedIn
+      meta.__names__.b6822878-090b-45fc-b637-6ccf6bed2f40: Work

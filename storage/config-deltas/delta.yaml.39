@@ -1,25 +1,25 @@
-dateApplied: '2023-07-04 09:34:42'
+dateApplied: '2023-07-18 08:30:28'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688481521
-        to: 1688488482
+        from: 1689694181
+        to: 1689694228
   -
     added:
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.fill: null
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.format: jpg
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.handle: ogImage
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.height: 630
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.interlace: none
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.mode: crop
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.name: 'OG image'
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.position: center-center
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.quality: 80
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.upscale: true
-      imageTransforms.f70343b7-957b-4e91-a5d3-1c560e0757ce.width: 1200
-    message: 'Saving transform “ogImage”'
+      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.fill: null
+      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.format: null
+      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.handle: thumb768X432
+      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.height: 432
+      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.interlace: none
+      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.mode: crop
+      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.name: 'Thumb 768 x 432'
+      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.position: center-center
+      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.quality: 90
+      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.upscale: true
+      imageTransforms.e0ad5847-624f-42b2-ab69-e3bd107d6e44.width: 768
+    message: 'Saving transform “thumb768X432”'
   -
     added:
-      meta.__names__.f70343b7-957b-4e91-a5d3-1c560e0757ce: 'OG image'
+      meta.__names__.e0ad5847-624f-42b2-ab69-e3bd107d6e44: 'Thumb 768 x 432'

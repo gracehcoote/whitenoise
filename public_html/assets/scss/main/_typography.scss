@@ -7,6 +7,29 @@ body {
   font-family: $body-font;
 }
 
+.tw-regular {
+  font-weight: 400;
+}
+
+.tw-medium {
+  font-weight: 500;
+}
+
+.tw-semibold {
+  font-weight: 600;
+}
+
+.tw-bold {
+  font-weight: 700;
+}
+
+.tw-extrabold {
+  font-weight: 800;
+}
+
+.tw-black {
+  font-weight: 900;
+}
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-family: $title-font;
@@ -79,6 +102,10 @@ h2 {
 h3 {
   font-weight: 500;
   font-size: 31px;
+
+  &.small {
+    font-size: 25px;
+  }
 
   strong {
     font-weight: 700;
@@ -165,6 +192,10 @@ p {
     }
   }
 
+  .x-small {
+    font-size: 12px;
+  }
+
   a {
     color: $black;
     text-decoration: none;
@@ -178,8 +209,8 @@ p {
 }
 
 a {
-
-  text-decoration: underline;
+  text-decoration: none;
+  color: inherit;
 }
 
 ol {

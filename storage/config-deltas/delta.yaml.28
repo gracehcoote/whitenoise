@@ -1,26 +1,15 @@
-dateApplied: '2023-07-05 07:02:19'
+dateApplied: '2023-07-18 08:42:34'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688550893
-        to: 1688565739
+        from: 1689694782
+        to: 1689694954
   -
     added:
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.columnSuffix: yrfwjhnq
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.contentColumnType: string(255)
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.handle: facebook
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.instructions: null
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.name: Facebook
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.searchable: false
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.maxLength: 255
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.types.0: url
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.translationKeyFormat: null
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.translationMethod: none
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.type: craft\fields\Url
-    message: 'Save field “facebook”'
+      fieldGroups.b6822878-090b-45fc-b637-6ccf6bed2f40.name: Work
+    message: 'Save field group “Work”'
   -
     added:
-      meta.__names__.62f1186e-e262-46b5-93a1-81ed960fc6a3: Facebook
+      meta.__names__.b6822878-090b-45fc-b637-6ccf6bed2f40: Work

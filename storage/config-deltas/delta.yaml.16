@@ -1,26 +1,32 @@
-dateApplied: '2023-07-05 07:04:38'
+dateApplied: '2023-07-18 11:00:45'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688565849
-        to: 1688565878
+        from: 1689703203
+        to: 1689703245
   -
     added:
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.columnSuffix: vowiowyy
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.contentColumnType: string(255)
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.handle: vimeo
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.instructions: null
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.name: Vimeo
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.searchable: false
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.settings.maxLength: 255
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.settings.types.0: url
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.translationKeyFormat: null
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.translationMethod: none
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.type: craft\fields\Url
-    message: 'Save field “vimeo”'
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.columnSuffix: iijdinjc
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.contentColumnType: text
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.fieldGroup: b6822878-090b-45fc-b637-6ccf6bed2f40
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.handle: videoThumbnailEmbedLink
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.instructions: 'Use this field if embedding a YouTube or Vimeo video.'
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.name: 'Video Thumbnail (embed link)'
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.searchable: false
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.byteLimit: null
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.charLimit: null
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.code: false
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.columnType: null
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.initialRows: 4
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.multiline: false
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.placeholder: null
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.uiMode: normal
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.translationKeyFormat: null
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.translationMethod: none
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.type: craft\fields\PlainText
+    message: 'Save field “videoThumbnailEmbedLink”'
   -
     added:
-      meta.__names__.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af: Vimeo
+      meta.__names__.d0590c29-504c-4f5f-83a0-93784d634ee4: 'Video Thumbnail (embed link)'

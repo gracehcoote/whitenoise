@@ -1,29 +1,17 @@
-dateApplied: '2023-07-05 07:14:02'
+dateApplied: '2023-07-18 11:29:13'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688565903
-        to: 1688566442
+        from: 1689704067
+        to: 1689704953
   -
-    added:
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.byteLimit: null
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.charLimit: null
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.code: false
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.columnType: null
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.initialRows: 4
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.multiline: false
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.placeholder: null
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.uiMode: normal
-    removed:
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.maxLength: 255
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.settings.types.0: url
-    message: 'Save field “facebook”'
+    message: 'Save field “videoThumbnailEmbedLink”'
     changed:
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.contentColumnType:
-        from: string(255)
-        to: text
-      fields.62f1186e-e262-46b5-93a1-81ed960fc6a3.type:
-        from: craft\fields\Url
-        to: craft\fields\PlainText
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.initialRows:
+        from: 4
+        to: 3
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.multiline:
+        from: false
+        to: true

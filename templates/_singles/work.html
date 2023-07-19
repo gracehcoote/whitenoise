@@ -1,0 +1,76 @@
+{% extends "_layouts/_base" %}
+
+{% block seo %}
+{% include "_includes/seo" %}
+{% endblock %}
+
+{% set bodyClass = '' %}
+
+{% block headContent %}
+<link href="{{ siteUrl }}assets/css/splide-core.min.css" rel="stylesheet"/>
+{% endblock %}
+
+{% block main %}
+<section class="hero d-flex flex-column">
+  <div class="section-container d-flex flex-grow-1 justify-content-center align-items-center text-center">
+    <h1>Work that works</h1>
+  </div><!-- end section-container -->
+
+  <img class="background-image" src="{{ siteUrl }}assets/images/work-hero.jpg" alt="">
+</section>
+
+<section class="d-flex flex-wrap">
+  {% set projects = craft.entries().section('projects').all() %}
+  {% if projects %}
+  {% for project in projects %}
+  <div class="work-item">
+    <a href="{{ project.url }}">
+      <div class="text-container p-2 p-sm-3 px-lg-4 py-lg-3 p-xl-5 d-flex justify-content-start align-items-end">
+        <div>
+          <h3 class="thumb-title small tw-black text-white mb-0">{{ project.title }}</h3>
+          <p class="thumb-subtitle text-white tw-medium">{{ project.subtitle }}</p>
+        </div>   
+      </div><!-- end text-container -->
+      
+      <div class="thumb-container">
+        {% set videoThumbnailUpload = project.videoThumbnailUpload.one() %}
+        {% set imageThumbnail = project.imageThumbnail.one() %}
+
+        {% if videoThumbnailUpload %}
+          <video preload="false" autoplay loop muted poster="{{ imageThumbnail.url('thumb1280X720') }}">
+            <source src="{{ videoThumbnailUpload.url }}" type="video/mp4">
+          </video>
+        {% endif %}
+        
+        <img 
+          src="{{ imageThumbnail.url('thumb1920X1080') }}" 
+          loading="lazy" 
+          alt="{{ project.title }}" 
+          sizes="100vw" 
+          srcset="
+            {{ imageThumbnail.url('thumb480X270') }} 480w,
+            {{ imageThumbnail.url('thumb512X288') }} 512w,
+            {{ imageThumbnail.url('thumb768X432') }} 768w,
+            {{ imageThumbnail.url('thumb960X540') }} 960w,
+            {{ imageThumbnail.url('thumb1280X720') }} 1280w,
+            {{ imageThumbnail.url('thumb1920X1080') }} 1920w
+            ">
+      </div><!-- end thumb-container -->
+    </a>
+  </div><!-- end work-item -->
+  {% endfor %}
+  {% endif %}
+</section>
+{% endblock %}
+
+{% block javascript %}
+<script>
+  $(document).ready(function() {
+    $('.work-item').each(function(){
+      var subtitle = $(this).find('.thumb-subtitle');
+      subtitleHeight = subtitle.outerHeight() + 'px';
+      subtitle.css('margin-bottom', '-' + subtitleHeight);
+    });
+  });
+</script>
+{% endblock %}

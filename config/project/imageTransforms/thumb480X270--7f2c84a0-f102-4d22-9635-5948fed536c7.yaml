@@ -1,0 +1,11 @@
+fill: null
+format: null
+handle: thumb480X270
+height: 270
+interlace: none
+mode: crop
+name: 'Thumb 480 x 270'
+position: center-center
+quality: 90
+upscale: true
+width: 480

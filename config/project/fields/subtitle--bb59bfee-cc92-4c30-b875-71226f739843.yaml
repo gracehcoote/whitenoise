@@ -1,0 +1,19 @@
+columnSuffix: dsxlbphn
+contentColumnType: string(800)
+fieldGroup: f8e8eec1-974e-4485-8dc8-e4cd25204baa # Common
+handle: subtitle
+instructions: null
+name: Subtitle
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 200
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

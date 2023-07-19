@@ -37,8 +37,8 @@ ul.crumbs {
   flex-direction: row;
 
   li {
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 700;
     margin-bottom: 0;
 
     &:not(:last-of-type):after {
@@ -52,7 +52,7 @@ ul.crumbs {
       transition: 0.3s;
 
       &:hover {
-
+        color: $yellow;
       }
     }
   }
@@ -194,12 +194,12 @@ nav#global {
 
   &:before {
     background-color: $yellow;
-    transition: height 0.6s 0.3s ease-in-out;
+    transition: height 0.5s 0.3s ease-in-out;
   }
 
   &:after {
     background-color: $black;
-    transition: height 0.3s 0.3s ease-in-out;
+    transition: height 0.5s 0s ease-in-out;
   }
 
   .nav-wrapper {
@@ -249,12 +249,12 @@ nav#global {
 
     &:before {
       height: 100%;
-      transition: height 0.6s 0.3s ease-in-out;
+      transition: height 0.5s 0s ease-in-out;
     }
 
     &:after {
       height: 100%;
-      transition: height 0.8s 0.6s ease-in-out;
+      transition: height 0.5s 0.3s ease-in-out;
     }
   }
 
@@ -292,7 +292,6 @@ nav#global {
 
     a {
       color: #fff;
-      font-weight: 600;
 
       &:hover {
         color: $yellow;

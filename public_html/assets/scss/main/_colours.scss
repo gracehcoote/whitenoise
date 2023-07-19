@@ -30,5 +30,19 @@ COLOUR STYLES
 
   p a {
     color: #fff;
+
+    &:hover {
+      color: $yellow;
+    }
   }
+}
+
+.text-white {
+  color: #fff !important;
+}
+.text-black {
+  color: $black !important;
+}
+.text-yellow {
+  color: $yellow !important;
 }

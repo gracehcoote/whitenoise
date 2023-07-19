@@ -1,29 +1,25 @@
-dateApplied: '2023-07-05 07:14:20'
+dateApplied: '2023-07-18 11:40:31'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688566456
-        to: 1688566460
+        from: 1689705229
+        to: 1689705631
   -
-    added:
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.settings.byteLimit: null
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.settings.charLimit: null
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.settings.code: false
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.settings.columnType: null
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.settings.initialRows: 4
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.settings.multiline: false
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.settings.placeholder: null
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.settings.uiMode: normal
-    removed:
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.settings.maxLength: 255
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.settings.types.0: url
-    message: 'Save field “tiktok”'
+    message: 'Save field “videoThumbnailVimeoLink”'
     changed:
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.contentColumnType:
-        from: string(255)
-        to: text
-      fields.3b22405f-25c4-4f1c-88a6-76cbbdff664c.type:
-        from: craft\fields\Url
-        to: craft\fields\PlainText
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.handle:
+        from: videoThumbnailEmbedLink
+        to: videoThumbnailVimeoLink
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.instructions:
+        from: 'Use this field if embedding a YouTube or Vimeo video. In Vimeo, ensure ''Responsive'' size option is selected.'
+        to: 'Use this field if embedding a Vimeo video, simply grab the long ID number from the video URL and paste here.'
+      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.name:
+        from: 'Video Thumbnail (embed link)'
+        to: 'Video Thumbnail - Vimeo Link'
+  -
+    changed:
+      meta.__names__.d0590c29-504c-4f5f-83a0-93784d634ee4:
+        from: 'Video Thumbnail (embed link)'
+        to: 'Video Thumbnail - Vimeo Link'

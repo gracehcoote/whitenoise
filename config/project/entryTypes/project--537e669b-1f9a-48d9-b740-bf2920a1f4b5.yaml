@@ -1,0 +1,151 @@
+fieldLayouts:
+  8eebf57b-a7df-4ea5-95e6-1d61a730aec9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 06292e67-fea5-44fd-9eda-334b416a4e03
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: bb59bfee-cc92-4c30-b875-71226f739843 # Subtitle
+            instructions: 'Shows when hovering thumbnails underneath the main title'
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 73a455c5-04a3-40c3-b599-b32dbe339309
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7b48acb6-0409-495d-a9ca-d572373e8e89 # Image Thumbnail
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 26e86ad3-5502-4ccd-85ef-a9b718641dfd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f558bff2-7034-4fce-a016-3fbb6958f1c5 # Video Thumbnail (upload)
+            instructions: null
+            label: 'Video Thumbnail'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 64bff557-53b0-4914-9a28-5b46044012d8
+            userCondition: null
+            warning: null
+            width: 50
+        name: 'Project Overview'
+        uid: a88442a0-0849-43be-8315-7715dac04aef
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ae375820-3398-4233-97c9-880f9bc88381 # Hero Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f8f0b0ef-57d7-43cb-ae8c-559fb5d15b40
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9e42d781-7ec4-4ffc-bcb0-b0990f578c4b # Text Block
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dee3501f-5b61-4286-ad1b-65e5e1a1ff7d
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Project Content'
+        uid: 85db5485-8c11-428d-b9ad-b395173ef3a0
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 42d3d29f-acd5-4355-b756-dd24a263cf34 # SEO Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0aa586d1-265e-4093-b338-c62c74fdb411
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1013d0af-42f2-4277-8692-ca5f66ef4588 # SEO Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 063be8fd-e6a1-4c01-8578-7008de7d2beb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 225d43ff-b622-4780-8602-22940bb83e3e # OG Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: de8668e8-41b2-4a87-a25d-52d241031a25
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: f853ea73-f6e0-4702-b512-fa4228ae02c1
+        userCondition: null
+handle: project
+hasTitleField: true
+name: Project
+section: 8b8e90e2-3152-4e63-8145-70715f8d6116 # Projects
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

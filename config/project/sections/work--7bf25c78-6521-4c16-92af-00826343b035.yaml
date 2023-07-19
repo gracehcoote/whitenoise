@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: work
+name: Work
+propagationMethod: all
+siteSettings:
+  dbb4a582-e95f-47f0-bc3e-7a176a701c48: # Craft Base
+    enabledByDefault: true
+    hasUrls: true
+    template: _singles/work.html
+    uriFormat: work
+type: single

@@ -1,26 +1,51 @@
-dateApplied: '2023-07-05 07:03:01'
+dateApplied: '2023-07-18 08:45:00'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688565771
-        to: 1688565781
+        from: 1689695078
+        to: 1689695099
   -
     added:
-      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.columnSuffix: knsjrdrn
-      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.contentColumnType: string(255)
-      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
-      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.handle: pinterest
-      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.instructions: null
-      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.name: Pinterest
-      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.searchable: false
-      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.settings.maxLength: 255
-      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.settings.types.0: url
-      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.translationKeyFormat: null
-      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.translationMethod: none
-      fields.c9747613-724c-481e-b4ac-2cf6fb4c8c72.type: craft\fields\Url
-    message: 'Save field “pinterest”'
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elementCondition: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.autocapitalize: true
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.autocomplete: false
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.autocorrect: true
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.class: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.disabled: false
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.elementCondition: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.id: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.instructions: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.label: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.max: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.min: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.name: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.orientation: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.placeholder: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.readonly: false
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.requirable: false
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.size: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.step: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.tip: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.title: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.type: craft\fieldlayoutelements\assets\AssetTitleField
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.uid: 92c392c5-1a64-4e21-af37-a65322d3e6d4
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.userCondition: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.warning: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.elements.0.width: 100
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.name: Content
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.uid: 10060c23-f23f-4160-8051-f22b05a59c2f
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fieldLayouts.ab43bd6f-71ed-4e89-946c-0fbe7ae972d8.tabs.0.userCondition: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.fs: videos
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.handle: videos
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.name: Videos
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.sortOrder: 3
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.titleTranslationKeyFormat: null
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.titleTranslationMethod: site
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.transformFs: ''
+      volumes.132246f9-c0e6-4f99-a712-62365f4bf939.transformSubpath: ''
+    message: 'Save the “videos” volume'
   -
     added:
-      meta.__names__.c9747613-724c-481e-b4ac-2cf6fb4c8c72: Pinterest
+      meta.__names__.132246f9-c0e6-4f99-a712-62365f4bf939: Videos

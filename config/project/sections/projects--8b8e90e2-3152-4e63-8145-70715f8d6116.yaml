@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: projects
+name: Projects
+propagationMethod: all
+siteSettings:
+  dbb4a582-e95f-47f0-bc3e-7a176a701c48: # Craft Base
+    enabledByDefault: true
+    hasUrls: true
+    template: work/_entry
+    uriFormat: 'work/{slug}'
+structure:
+  maxLevels: null
+  uid: 1de4093d-d0df-47f2-a7b6-8e113e16b7d2
+type: structure

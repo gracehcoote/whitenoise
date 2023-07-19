@@ -1,0 +1,51 @@
+{% extends "_layouts/_base" %}
+
+{% block seo %}
+{% include "_includes/seo" %}
+{% endblock %}
+
+{% set bodyClass = '' %}
+
+{% block headContent %}
+<link href="{{ siteUrl }}assets/css/splide-core.min.css" rel="stylesheet"/>
+{% endblock %}
+
+{% block main %}
+{% set heroImage = entry.heroImage.one() %}
+<section>
+  <img 
+    class="background-image"
+    src="{{ heroImage.url('thumb1920X1080') }}" 
+    loading="lazy" 
+    alt="{{ entry.title }}" 
+    sizes="100vw" 
+    srcset="
+      {{ heroImage.url('thumb480X270') }} 480w,
+      {{ heroImage.url('thumb512X288') }} 512w,
+      {{ heroImage.url('thumb768X432') }} 768w,
+      {{ heroImage.url('thumb960X540') }} 960w,
+      {{ heroImage.url('thumb1280X720') }} 1280w,
+      {{ heroImage.url('thumb1920X1080') }} 1920w
+      ">
+</section>
+
+<section>
+  <div class="section-container pb-0 d-flex justify-content-between flex-wrap">
+    <a class="back-link" href="{{ siteUrl }}work">Back</a>
+
+    <ul class="crumbs">
+      <li><a href="{{ siteUrl }}work">Work</a></li>
+      <li>{{ entry.title }}</li>
+    </ul>
+  </div><!-- end section-container -->
+
+  <div class="section-container py-lg-10">
+    <h1>{{ entry.title }}</h1>
+  </div><!-- end section-container -->
+</section>
+{% endblock %}
+
+{% block javascript %}
+
+
+{% endblock %}

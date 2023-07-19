@@ -2,29 +2,32 @@ jQuery(document).ready(function(){
   // Compensate for nav bar height
   var headerHeight = $('.navigation-bar').outerHeight();
   var navSpacerTop = headerHeight;
-  $('nav#global, .hero, footer#global-footer').css('padding-top', navSpacerTop + 'px');
+  $('nav#global, footer#global-footer').css('padding-top', navSpacerTop + 'px');
 
   // Show/hide navigation
   jQuery('.toggle-nav').click(function(e){
     e.stopPropagation();
     jQuery(this).toggleClass('active');
+    jQuery('body').toggleClass('active');
     jQuery('.navigation-bar').toggleClass('fixed');
     jQuery('nav#global').toggleClass('active');
     setTimeout(function () {
       $('ul.nav').toggleClass('active');
       $('.info-wrap').toggleClass('active');
-    }, 1000);
+    }, 500);
   });
 
   // Close navigation methods
 	jQuery('.navigation-bar nav ul.nav li.nav-item a.nav-link').click(function(e){
     e.stopPropagation();
+    jQuery('body').toggleClass('active');
     jQuery('.toggle-nav').toggleClass('active');
     jQuery('nav#global').toggleClass('active');
   });
 
   $(document).keyup(function(e) {
-     if (e.keyCode == 27) { // escape key maps to keycode `27`
+      if (e.keyCode == 27) { // escape key maps to keycode `27
+      jQuery('body').removeClass('active');
       jQuery('.toggle-nav').removeClass('active');
       jQuery('nav#global').removeClass('active');
     }
@@ -35,7 +38,7 @@ jQuery(document).ready(function(){
   
   var footerOffset = $('footer#global-footer').offset().top;
   var footerPos = footerOffset - $(window).scrollTop();
-  var halfway = $(window).height()/2;
+  var halfway = $(window).height()/4;
 
   if (footerPos <= halfway) {
     $('header#global .navigation-bar').fadeOut();
@@ -48,7 +51,7 @@ jQuery(document).ready(function(){
   $(window).scroll(function() {
     var footerOffset = $('footer#global-footer').offset().top;
     var footerPos = footerOffset - $(window).scrollTop();
-    var halfway = $(window).height()/2;
+    var halfway = $(window).height()/4;
 
     if (footerPos <= halfway) {
       $('header#global .navigation-bar').fadeOut();

@@ -1,26 +1,29 @@
-dateApplied: '2023-07-05 07:04:39'
+dateApplied: '2023-07-18 11:00:57'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1688565849
-        to: 1688565878
+        from: 1689703245
+        to: 1689703257
   -
     added:
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.columnSuffix: vowiowyy
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.contentColumnType: string(255)
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.handle: vimeo
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.instructions: null
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.name: Vimeo
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.searchable: false
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.settings.maxLength: 255
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.settings.types.0: url
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.translationKeyFormat: null
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.translationMethod: none
-      fields.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af.type: craft\fields\Url
-    message: 'Save field “vimeo”'
-  -
-    added:
-      meta.__names__.8728a9f7-bd9c-4bd8-b47d-c25c941ba8af: Vimeo
+      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.elementCondition: null
+      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.fieldUid: ae375820-3398-4233-97c9-880f9bc88381
+      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.instructions: null
+      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.label: null
+      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.required: false
+      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.tip: null
+      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.type: craft\fieldlayoutelements\CustomField
+      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.uid: f8f0b0ef-57d7-43cb-ae8c-559fb5d15b40
+      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.userCondition: null
+      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.warning: null
+      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.width: 100
+    message: 'Save entry type “project”'
+    changed:
+      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.1.fieldUid:
+        from: ae375820-3398-4233-97c9-880f9bc88381
+        to: 7b48acb6-0409-495d-a9ca-d572373e8e89
+      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.1.uid:
+        from: f8f0b0ef-57d7-43cb-ae8c-559fb5d15b40
+        to: 26e86ad3-5502-4ccd-85ef-a9b718641dfd

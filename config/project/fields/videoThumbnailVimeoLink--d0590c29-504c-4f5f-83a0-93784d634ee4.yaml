@@ -1,0 +1,19 @@
+columnSuffix: iijdinjc
+contentColumnType: text
+fieldGroup: b6822878-090b-45fc-b637-6ccf6bed2f40 # Work
+handle: videoThumbnailVimeoLink
+instructions: null
+name: 'Video Thumbnail - Vimeo Link'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 3
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

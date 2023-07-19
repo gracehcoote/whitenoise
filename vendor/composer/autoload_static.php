@@ -86,6 +86,7 @@ class ComposerStaticInita15f1218aadc04bca792e6aea66903b1
             'craft\\composer\\' => 15,
             'craft\\' => 6,
             'cebe\\markdown\\' => 14,
+            'carlcs\\redactorcustomstyles\\' => 28,
         ),
         'a' => 
         array (
@@ -268,9 +269,9 @@ class ComposerStaticInita15f1218aadc04bca792e6aea66903b1
         ),
         'voku\\helper\\' => 
         array (
-            0 => __DIR__ . '/..' . '/voku/anti-xss/src/voku/helper',
-            1 => __DIR__ . '/..' . '/voku/email-check/src/voku/helper',
-            2 => __DIR__ . '/..' . '/voku/urlify/src/voku/helper',
+            0 => __DIR__ . '/..' . '/voku/email-check/src/voku/helper',
+            1 => __DIR__ . '/..' . '/voku/urlify/src/voku/helper',
+            2 => __DIR__ . '/..' . '/voku/anti-xss/src/voku/helper',
         ),
         'voku\\' => 
         array (
@@ -339,6 +340,10 @@ class ComposerStaticInita15f1218aadc04bca792e6aea66903b1
         'cebe\\markdown\\' => 
         array (
             0 => __DIR__ . '/..' . '/cebe/markdown',
+        ),
+        'carlcs\\redactorcustomstyles\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/carlcs/craft-redactorcustomstyles/src',
         ),
         'adigital\\cookieconsentbanner\\' => 
         array (

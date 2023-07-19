@@ -77,3 +77,24 @@ button {
     color: $black;
   }
 }
+
+.back-link {
+  font-size: 12px;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+
+  &:before {
+    font-family: 'Material Icons';
+    font-size: 20px;
+    content: '\e5e0';
+    margin-right: 0.25rem;
+    transition: 0.3s;
+  }
+
+  &:hover:before {
+    color: $yellow;
+  }
+}

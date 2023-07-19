@@ -74,4 +74,20 @@ return array (
     'developerEmail' => 'support@craftcms.com',
     'documentationUrl' => 'https://github.com/craftcms/redactor/blob/v2/README.md',
   ),
+  'carlcs/craft-redactorcustomstyles' => 
+  array (
+    'class' => 'carlcs\\redactorcustomstyles\\Plugin',
+    'basePath' => $vendorDir . '/carlcs/craft-redactorcustomstyles/src',
+    'handle' => 'redactor-custom-styles',
+    'aliases' => 
+    array (
+      '@carlcs/redactorcustomstyles' => $vendorDir . '/carlcs/craft-redactorcustomstyles/src',
+    ),
+    'name' => 'Redactor Custom Styles',
+    'version' => '4.0.3',
+    'description' => 'Redactor Custom Styles plugin for Craft CMS',
+    'developer' => 'carlcs',
+    'developerUrl' => 'https://github.com/carlcs',
+    'documentationUrl' => 'https://github.com/carlcs/craft-redactorcustomstyles',
+  ),
 );

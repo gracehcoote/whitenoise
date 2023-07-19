@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '083c631a5f6c614a57146eb97c6a1734c110826c',
         'name' => '__root__',
         'dev' => false,
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '083c631a5f6c614a57146eb97c6a1734c110826c',
             'dev_requirement' => false,
         ),
         'adigital/cookie-consent-banner' => array(
@@ -51,6 +51,15 @@
             'provided' => array(
                 0 => '~2.0.1',
             ),
+        ),
+        'carlcs/craft-redactorcustomstyles' => array(
+            'pretty_version' => '4.0.3',
+            'version' => '4.0.3.0',
+            'type' => 'craft-plugin',
+            'install_path' => __DIR__ . '/../carlcs/craft-redactorcustomstyles',
+            'aliases' => array(),
+            'reference' => '393d283cebd46d3e7191e39958d35326e39b6c50',
+            'dev_requirement' => false,
         ),
         'cebe/markdown' => array(
             'pretty_version' => '1.2.1',
@@ -134,12 +143,12 @@
             'dev_requirement' => false,
         ),
         'craftcms/cms' => array(
-            'pretty_version' => '4.4.15',
-            'version' => '4.4.15.0',
+            'pretty_version' => '4.4.16',
+            'version' => '4.4.16.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../craftcms/cms',
             'aliases' => array(),
-            'reference' => '273dfd3dadbb404f69ffd6d7f93451497bbd811c',
+            'reference' => '7a89c833b8a53dc899ec5ac16a7215dcbcd7ec51',
             'dev_requirement' => false,
         ),
         'craftcms/html-field' => array(
@@ -960,12 +969,12 @@
             'dev_requirement' => false,
         ),
         'webonyx/graphql-php' => array(
-            'pretty_version' => 'v14.11.9',
-            'version' => '14.11.9.0',
+            'pretty_version' => 'v14.11.10',
+            'version' => '14.11.10.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../webonyx/graphql-php',
             'aliases' => array(),
-            'reference' => 'ff91c9f3cf241db702e30b2c42bcc0920e70ac70',
+            'reference' => 'd9c2fdebc6aa01d831bc2969da00e8588cffef19',
             'dev_requirement' => false,
         ),
         'yii2tech/ar-softdelete' => array(

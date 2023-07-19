@@ -53,6 +53,55 @@
             "install-path": "../adigital/cookie-consent-banner"
         },
         {
+            "name": "carlcs/craft-redactorcustomstyles",
+            "version": "4.0.3",
+            "version_normalized": "4.0.3.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/carlcs/craft-redactorcustomstyles/zipball/393d283cebd46d3e7191e39958d35326e39b6c50",
+                "reference": "393d283cebd46d3e7191e39958d35326e39b6c50",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0",
+                "craftcms/redactor": "^3.0.0"
+            },
+            "time": "2023-01-25T14:07:57+00:00",
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Redactor Custom Styles",
+                "handle": "redactor-custom-styles"
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "carlcs\\redactorcustomstyles\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "carlcs",
+                    "homepage": "https://github.com/carlcs"
+                }
+            ],
+            "description": "Redactor Custom Styles plugin for Craft CMS",
+            "keywords": [
+                "buttons",
+                "craftcms",
+                "redactor",
+                "styles"
+            ],
+            "support": {
+                "issues": "https://github.com/carlcs/craft-redactorcustomstyles/issues?state=open",
+                "source": "https://github.com/carlcs/craft-redactorcustomstyles",
+                "docs": "https://github.com/carlcs/craft-redactorcustomstyles"
+            },
+            "install-path": "../carlcs/craft-redactorcustomstyles"
+        },
+        {
             "name": "cebe/markdown",
             "version": "1.2.1",
             "version_normalized": "1.2.1.0",
@@ -513,12 +562,12 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "4.4.15",
-            "version_normalized": "4.4.15.0",
+            "version": "4.4.16",
+            "version_normalized": "4.4.16.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/273dfd3dadbb404f69ffd6d7f93451497bbd811c",
-                "reference": "273dfd3dadbb404f69ffd6d7f93451497bbd811c",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/7a89c833b8a53dc899ec5ac16a7215dcbcd7ec51",
+                "reference": "7a89c833b8a53dc899ec5ac16a7215dcbcd7ec51",
                 "shasum": ""
             },
             "require": {
@@ -575,7 +624,7 @@
                 "ext-iconv": "Adds support for more character encodings than PHP’s built-in mb_convert_encoding() function, which Craft will take advantage of when converting strings to UTF-8.",
                 "ext-imagick": "Adds support for more image processing formats and options."
             },
-            "time": "2023-07-03T17:32:53+00:00",
+            "time": "2023-07-18T16:57:32+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -4464,11 +4513,6 @@
             "name": "voku/anti-xss",
             "version": "4.1.42",
             "version_normalized": "4.1.42.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/voku/anti-xss.git",
-                "reference": "bca1f8607e55a3c5077483615cd93bd8f11bd675"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/voku/anti-xss/zipball/bca1f8607e55a3c5077483615cd93bd8f11bd675",
@@ -4478,9 +4522,6 @@
             "require": {
                 "php": ">=7.0.0",
                 "voku/portable-utf8": "~6.0.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
             },
             "time": "2023-07-03T14:40:46+00:00",
             "type": "library",
@@ -4495,7 +4536,6 @@
                     "voku\\helper\\": "src/voku/helper/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -4517,32 +4557,6 @@
                 "clean",
                 "security",
                 "xss"
-            ],
-            "support": {
-                "issues": "https://github.com/voku/anti-xss/issues",
-                "source": "https://github.com/voku/anti-xss/tree/4.1.42"
-            },
-            "funding": [
-                {
-                    "url": "https://www.paypal.me/moelleken",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/voku",
-                    "type": "github"
-                },
-                {
-                    "url": "https://opencollective.com/anti-xss",
-                    "type": "open_collective"
-                },
-                {
-                    "url": "https://www.patreon.com/voku",
-                    "type": "patreon"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/voku/anti-xss",
-                    "type": "tidelift"
-                }
             ],
             "install-path": "../voku/anti-xss"
         },
@@ -4960,12 +4974,12 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v14.11.9",
-            "version_normalized": "14.11.9.0",
+            "version": "v14.11.10",
+            "version_normalized": "14.11.10.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/ff91c9f3cf241db702e30b2c42bcc0920e70ac70",
-                "reference": "ff91c9f3cf241db702e30b2c42bcc0920e70ac70",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/d9c2fdebc6aa01d831bc2969da00e8588cffef19",
+                "reference": "d9c2fdebc6aa01d831bc2969da00e8588cffef19",
                 "shasum": ""
             },
             "require": {
@@ -4977,7 +4991,7 @@
                 "psr/http-message": "To use standard GraphQL server",
                 "react/promise": "To leverage async resolving on React PHP platform"
             },
-            "time": "2023-01-06T12:12:50+00:00",
+            "time": "2023-07-05T14:23:37+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
