@@ -1,15 +1,23 @@
-dateApplied: '2023-07-18 08:42:34'
+dateApplied: '2023-07-20 06:42:07'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689694782
-        to: 1689694954
+        from: 1689860466
+        to: 1689860526
   -
-    added:
-      fieldGroups.b6822878-090b-45fc-b637-6ccf6bed2f40.name: Work
-    message: 'Save field group “Work”'
-  -
-    added:
-      meta.__names__.b6822878-090b-45fc-b637-6ccf6bed2f40: Work
+    message: 'Save matrix block type “videoUpload” for parent field “contentBlocks”'
+    changed:
+      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fieldLayouts.a48b26f6-f88f-47f6-a6b4-3ef6029e1ebe.tabs.0.elements.1.required:
+        from: false
+        to: true
+      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.9794a518-fb48-48da-ac7d-b4b99fb966ad.settings.options.0.__assoc__.2.1:
+        from: 1
+        to: '1'
+      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.9794a518-fb48-48da-ac7d-b4b99fb966ad.settings.options.1.__assoc__.2.1:
+        from: null
+        to: ''
+      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.d37dbdf3-6a11-47f1-b913-e2114f3f3191.instructions:
+        from: "Select **either** Video File or Video Embed. \r\nUse this field to upload your own video file. "
+        to: null

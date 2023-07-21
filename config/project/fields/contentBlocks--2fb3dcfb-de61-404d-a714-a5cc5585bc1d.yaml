@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: f8e8eec1-974e-4485-8dc8-e4cd25204baa # Common
+handle: contentBlocks
+instructions: "Single click to select a block, double click to expand or collapse.\r\nShift + click multiple blocks to batch expand/collapse etc.\r\n"
+name: 'Content Blocks'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_contentblocks}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

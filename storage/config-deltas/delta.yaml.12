@@ -1,17 +1,14 @@
-dateApplied: '2023-07-18 11:30:10'
+dateApplied: '2023-07-20 08:32:35'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689704953
-        to: 1689705010
+        from: 1689867089
+        to: 1689867155
   -
-    message: 'Save field “videoThumbnailUpload”'
+    message: 'Save field “contentBlocks”'
     changed:
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.instructions:
-        from: 'Use this field if uploading a video for use as a thumbnail'
-        to: 'Use this field if uploading a video'
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.showSiteMenu:
-        from: false
-        to: true
+      fields.2fb3dcfb-de61-404d-a714-a5cc5585bc1d.instructions:
+        from: 'Single click to select a block, double click to expand or collapse.'
+        to: "Single click to select a block, double click to expand or collapse.\r\nShift + click multiple blocks to batch expand/collapse etc.\r\n"

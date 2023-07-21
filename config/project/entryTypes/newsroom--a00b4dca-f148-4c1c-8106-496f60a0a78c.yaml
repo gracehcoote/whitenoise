@@ -1,0 +1,79 @@
+fieldLayouts:
+  96cb0d34-bd52-4b0c-bc38-caf40d30969d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 9fbaf9a2-8c9d-4fb6-9429-f78541d4c6b1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 42d3d29f-acd5-4355-b756-dd24a263cf34 # SEO Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 50dba944-6c36-4dcd-ad5d-5b4ee99b8119
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1013d0af-42f2-4277-8692-ca5f66ef4588 # SEO Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0012f2be-4ebd-4272-a050-c5a5e9fd0368
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 225d43ff-b622-4780-8602-22940bb83e3e # OG Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 206df9a6-b701-4a20-ab01-6538be1e79de
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: f7c96f01-1ea2-4982-a37e-93d46ad2d717
+        userCondition: null
+handle: newsroom
+hasTitleField: false
+name: Newsroom
+section: 13be2e61-d618-4252-b6bb-59f5a19ed677 # Newsroom
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

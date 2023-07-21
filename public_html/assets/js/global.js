@@ -38,7 +38,7 @@ jQuery(document).ready(function(){
   
   var footerOffset = $('footer#global-footer').offset().top;
   var footerPos = footerOffset - $(window).scrollTop();
-  var halfway = $(window).height()/4;
+  var halfway = $(window).height()/3;
 
   if (footerPos <= halfway) {
     $('header#global .navigation-bar').fadeOut();
@@ -51,7 +51,7 @@ jQuery(document).ready(function(){
   $(window).scroll(function() {
     var footerOffset = $('footer#global-footer').offset().top;
     var footerPos = footerOffset - $(window).scrollTop();
-    var halfway = $(window).height()/4;
+    var halfway = $(window).height()/3;
 
     if (footerPos <= halfway) {
       $('header#global .navigation-bar').fadeOut();
@@ -158,6 +158,72 @@ if($('[data-fancybox="gallery"]').length > 0) {
         "</button>",
     }
   });
+}
+
+// Sliders 
+
+if($('.image-slider').length > 0) {
+  var elms = document.getElementsByClassName( 'image-slider' );
+
+  for ( var i = 0; i < elms.length; i++ ) {
+    new Splide( elms[ i ], {
+      type: 'loop',
+      rewind: true,
+      lazyLoad: 'sequential',
+    }).mount();
+  }
+}
+
+if($('.carousel-slider').length > 0) {
+  var sliders = document.getElementsByClassName('carousel-slider');
+
+  $(sliders).each(function (index, element) {
+    var splideCarousel = new Splide(element, {
+      perPage: 2,
+      lazyLoad: 'nearby',
+      breakpoints: {
+        991: {
+          perPage: 1,
+          // padding: '10%',
+        }
+      },
+      perMove: 1,
+      arrows: false,
+      trimSpace: false,
+      type: 'slide',
+      pagination: false,
+    });
+
+    var bar = splideCarousel.root.querySelector('.carousel-progress-bar');
+
+    // Store the carousel instance within the element using jQuery's data() method.
+    $(element).data('splideCarousel', splideCarousel);
+
+    // Updates the bar width whenever the carousel moves:
+    splideCarousel.on('mounted move', function () {
+      var splideCarouselInstance = $(element).data('splideCarousel');
+      var end = splideCarouselInstance.Components.Controller.getEnd() + 1;
+      var rate = Math.min((splideCarouselInstance.index + 1) / end, 1);
+      bar.style.width = String(100 * rate) + '%';
+    });
+
+    splideCarousel.mount();
+  });
+
+  $('.carousel-slider').each(function() {
+    var slider = $(this);
+    var slideCount = $(this).find('.splide__slide');
+      if ($(window).width() > 991) {
+        if (slideCount.length < 3) {
+          slider.find('.carousel-navigation').hide();
+        }
+      }
+      if ($(window).width() < 990) {
+        if (slideCount.length < 2) {
+          slider.find('.carousel-navigation').hide();
+        }
+      }
+    });
 }
 
 var vh = window.innerHeight * 0.01;

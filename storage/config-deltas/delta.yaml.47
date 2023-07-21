@@ -1,25 +1,20 @@
-dateApplied: '2023-07-18 08:28:41'
+dateApplied: '2023-07-19 04:56:25'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689609365
-        to: 1689694121
+        from: 1689767777
+        to: 1689767784
   -
-    added:
-      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.fill: null
-      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.format: null
-      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.handle: thumb960X540
-      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.height: 540
-      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.interlace: none
-      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.mode: crop
-      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.name: 'Thumb 960 x 540'
-      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.position: center-center
-      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.quality: 90
-      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.upscale: true
-      imageTransforms.3f4faf43-dd6f-4014-9d64-8e145bb17352.width: 960
-    message: 'Saving transform “thumb960X540”'
-  -
-    added:
-      meta.__names__.3f4faf43-dd6f-4014-9d64-8e145bb17352: 'Thumb 960 x 540'
+    message: 'Save matrix block type “video” for parent field “contentBlocks”'
+    changed:
+      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.9794a518-fb48-48da-ac7d-b4b99fb966ad.settings.options.0.__assoc__.2.1:
+        from: 1
+        to: '1'
+      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.9794a518-fb48-48da-ac7d-b4b99fb966ad.settings.options.1.__assoc__.2.1:
+        from: null
+        to: ''
+      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.d37dbdf3-6a11-47f1-b913-e2114f3f3191.instructions:
+        from: 'Select **either** Video File or Video Embed. Use this field to upload your own video file. '
+        to: "Select **either** Video File or Video Embed. \r\nUse this field to upload your own video file. "

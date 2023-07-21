@@ -77,8 +77,41 @@ ul.crumbs {
   }
 }
 
+.no-overlay,
+.dark-no-overlay {
+  header#global {
+    .navigation-bar {
+      position: relative;
+    }
+  }
+}
+
 nav#global {
   z-index: 98;
+}
+
+.no-overlay,
+.dark-no-overlay {
+  header#global {
+    .toggle-nav:not(.active) {
+      .burger {
+        background-color: $black;
+
+        &:before,
+        &:after {
+          background-color: $black;
+        }
+      }
+    }
+
+    .logo {
+      svg {
+        path {
+          fill: $black;
+        }
+      }
+    }
+  }
 }
 
 .toggle-nav {

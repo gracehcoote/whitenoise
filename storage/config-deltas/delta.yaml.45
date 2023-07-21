@@ -1,14 +1,26 @@
-dateApplied: '2023-07-18 08:28:49'
+dateApplied: '2023-07-20 04:13:55'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689694121
-        to: 1689694129
+        from: 1689767826
+        to: 1689851635
   -
-    message: 'Saving transform “thumb1920X1080”'
+    message: 'Save matrix block type “imageSlides” for parent field “contentBlocks”'
     changed:
-      imageTransforms.cbb11be7-7020-4487-a344-b7f5808868ad.handle:
-        from: thumb1920x1080
-        to: thumb1920X1080
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7bee1e32-7f18-4448-95ee-9cfc3b0ed3db.instructions:
+        from: null
+        to: 'This setting used with the Image Slides block will only have on effect on the Slideshow type. Carousel type will remain the same.'
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7bee1e32-7f18-4448-95ee-9cfc3b0ed3db.settings.options.0.__assoc__.2.1:
+        from: 1
+        to: '1'
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7bee1e32-7f18-4448-95ee-9cfc3b0ed3db.settings.options.1.__assoc__.2.1:
+        from: null
+        to: ''
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.d5a805fd-ad91-4501-b8d3-b8b1efada646.settings.options.0.__assoc__.2.1:
+        from: 1
+        to: '1'
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.d5a805fd-ad91-4501-b8d3-b8b1efada646.settings.options.1.__assoc__.2.1:
+        from: null
+        to: ''

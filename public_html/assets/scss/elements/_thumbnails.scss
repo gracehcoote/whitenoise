@@ -6,16 +6,6 @@ THUMBNAIL STYLES
   position: relative;
   flex-basis: 100%;
 
-  @media all and (min-width: 1800px) {
-    .section & {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    flex-basis: 50%;
-    flex-grow: 1;
-  }
-
   .text-container {
     position: absolute;
     top: 0;
@@ -56,6 +46,13 @@ THUMBNAIL STYLES
       opacity: 1;
       margin-bottom: 0 !important;
     }
+  }
+}
+
+@media all and (min-width: 2000px) {
+  section > .work-item {
+    flex-basis: 50%;
+    flex-grow: 1;
   }
 }
 

@@ -90,4 +90,77 @@ return array (
     'developerUrl' => 'https://github.com/carlcs',
     'documentationUrl' => 'https://github.com/carlcs/craft-redactorcustomstyles',
   ),
+  'vaersaagod/matrixmate' => 
+  array (
+    'class' => 'vaersaagod\\matrixmate\\MatrixMate',
+    'basePath' => $vendorDir . '/vaersaagod/matrixmate/src',
+    'handle' => 'matrixmate',
+    'aliases' => 
+    array (
+      '@vaersaagod/matrixmate' => $vendorDir . '/vaersaagod/matrixmate/src',
+    ),
+    'name' => 'MatrixMate',
+    'version' => '2.1.3',
+    'schemaVersion' => '1.0.0',
+    'description' => 'Welding Matrix into shape, mate!',
+    'developer' => 'Værsågod',
+    'developerUrl' => 'https://vaersaagod.no',
+    'documentationUrl' => 'https://github.com/vaersaagod/matrixmate/blob/master/README.md',
+    'changelogUrl' => 'https://raw.githubusercontent.com/vaersaagod/matrixmate/master/CHANGELOG.md',
+    'hasCpSettings' => false,
+    'hasCpSection' => false,
+  ),
+  'verbb/smith' => 
+  array (
+    'class' => 'verbb\\smith\\Smith',
+    'basePath' => $vendorDir . '/verbb/smith/src',
+    'handle' => 'smith',
+    'aliases' => 
+    array (
+      '@verbb/smith' => $vendorDir . '/verbb/smith/src',
+    ),
+    'name' => 'Smith',
+    'version' => '2.0.0',
+    'description' => 'Add copy, paste and clone functionality to Matrix blocks.',
+    'developer' => 'Verbb',
+    'developerUrl' => 'https://verbb.io',
+    'developerEmail' => 'support@verbb.io',
+    'documentationUrl' => 'https://github.com/verbb/smith',
+    'changelogUrl' => 'https://raw.githubusercontent.com/verbb/smith/craft-4/CHANGELOG.md',
+  ),
+  'necoapps/craft-matrix-snap' => 
+  array (
+    'class' => 'necoapps\\matrixsnap\\MatrixSnap',
+    'basePath' => $vendorDir . '/necoapps/craft-matrix-snap/src',
+    'handle' => 'matrix-snap',
+    'aliases' => 
+    array (
+      '@necoapps/matrixsnap' => $vendorDir . '/necoapps/craft-matrix-snap/src',
+    ),
+    'name' => 'Matrix Snap',
+    'version' => '1.0.0',
+    'description' => 'Collapses all Matrix blocks on entry load. Adds one-click block toggling.',
+    'developer' => 'Necoapps',
+    'developerUrl' => 'http://www.necoapps.com',
+    'developerEmail' => 'help@necoapps.com',
+    'documentationUrl' => 'https://github.com/necoapps/craft-matrix-snap/blob/main/README.md',
+  ),
+  'doublesecretagency/craft-cpcss' => 
+  array (
+    'class' => 'doublesecretagency\\cpcss\\CpCss',
+    'basePath' => $vendorDir . '/doublesecretagency/craft-cpcss/src',
+    'handle' => 'cp-css',
+    'aliases' => 
+    array (
+      '@doublesecretagency/cpcss' => $vendorDir . '/doublesecretagency/craft-cpcss/src',
+    ),
+    'name' => 'Control Panel CSS',
+    'version' => '2.6.0',
+    'schemaVersion' => '2.0.0',
+    'description' => 'Add custom CSS to your Control Panel.',
+    'developer' => 'Double Secret Agency',
+    'developerUrl' => 'https://www.doublesecretagency.com/plugins',
+    'documentationUrl' => 'https://github.com/doublesecretagency/craft-cpcss/blob/v2/README.md',
+    'changelogUrl' => 'https://raw.githubusercontent.com/doublesecretagency/craft-cpcss/v2/CHANGELOG.md',
+  ),
 );

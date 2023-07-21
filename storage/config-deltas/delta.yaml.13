@@ -1,17 +1,14 @@
-dateApplied: '2023-07-18 11:29:13'
+dateApplied: '2023-07-20 08:31:29'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689704067
-        to: 1689704953
+        from: 1689867047
+        to: 1689867089
   -
-    message: 'Save field “videoThumbnailEmbedLink”'
+    message: 'Save field “contentBlocks”'
     changed:
-      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.initialRows:
-        from: 4
-        to: 3
-      fields.d0590c29-504c-4f5f-83a0-93784d634ee4.settings.multiline:
-        from: false
-        to: true
+      fields.2fb3dcfb-de61-404d-a714-a5cc5585bc1d.instructions:
+        from: null
+        to: 'Single click to select a block, double click to expand or collapse.'

@@ -53,8 +53,10 @@ class ComposerStaticInita15f1218aadc04bca792e6aea66903b1
         array (
             'voku\\helper\\' => 12,
             'voku\\' => 5,
+            'verbb\\smith\\' => 12,
             'verbb\\cpnav\\' => 12,
             'verbb\\base\\' => 11,
+            'vaersaagod\\matrixmate\\' => 22,
         ),
         's' => 
         array (
@@ -68,6 +70,8 @@ class ComposerStaticInita15f1218aadc04bca792e6aea66903b1
         'n' => 
         array (
             'nystudio107\\cookies\\' => 20,
+            'nystudio107\\codeeditor\\' => 23,
+            'necoapps\\matrixsnap\\' => 20,
         ),
         'm' => 
         array (
@@ -77,6 +81,10 @@ class ComposerStaticInita15f1218aadc04bca792e6aea66903b1
         'e' => 
         array (
             'enshrined\\svgSanitize\\' => 22,
+        ),
+        'd' => 
+        array (
+            'doublesecretagency\\cpcss\\' => 25,
         ),
         'c' => 
         array (
@@ -269,15 +277,19 @@ class ComposerStaticInita15f1218aadc04bca792e6aea66903b1
         ),
         'voku\\helper\\' => 
         array (
-            0 => __DIR__ . '/..' . '/voku/email-check/src/voku/helper',
-            1 => __DIR__ . '/..' . '/voku/urlify/src/voku/helper',
-            2 => __DIR__ . '/..' . '/voku/anti-xss/src/voku/helper',
+            0 => __DIR__ . '/..' . '/voku/anti-xss/src/voku/helper',
+            1 => __DIR__ . '/..' . '/voku/email-check/src/voku/helper',
+            2 => __DIR__ . '/..' . '/voku/urlify/src/voku/helper',
         ),
         'voku\\' => 
         array (
             0 => __DIR__ . '/..' . '/voku/portable-ascii/src/voku',
             1 => __DIR__ . '/..' . '/voku/portable-utf8/src/voku',
             2 => __DIR__ . '/..' . '/voku/stop-words/src/voku',
+        ),
+        'verbb\\smith\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/verbb/smith/src',
         ),
         'verbb\\cpnav\\' => 
         array (
@@ -286,6 +298,10 @@ class ComposerStaticInita15f1218aadc04bca792e6aea66903b1
         'verbb\\base\\' => 
         array (
             0 => __DIR__ . '/..' . '/verbb/base/src',
+        ),
+        'vaersaagod\\matrixmate\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vaersaagod/matrixmate/src',
         ),
         'samdark\\log\\tests\\' => 
         array (
@@ -305,6 +321,14 @@ class ComposerStaticInita15f1218aadc04bca792e6aea66903b1
         array (
             0 => __DIR__ . '/..' . '/nystudio107/craft-cookies/src',
         ),
+        'nystudio107\\codeeditor\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nystudio107/craft-code-editor/src',
+        ),
+        'necoapps\\matrixsnap\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/necoapps/craft-matrix-snap/src',
+        ),
         'modules\\' => 
         array (
             0 => __DIR__ . '/../..' . '/modules',
@@ -316,6 +340,10 @@ class ComposerStaticInita15f1218aadc04bca792e6aea66903b1
         'enshrined\\svgSanitize\\' => 
         array (
             0 => __DIR__ . '/..' . '/enshrined/svg-sanitize/src',
+        ),
+        'doublesecretagency\\cpcss\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doublesecretagency/craft-cpcss/src',
         ),
         'creocoder\\nestedsets\\' => 
         array (

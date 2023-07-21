@@ -64,3 +64,9 @@ hr.small {
     border-color: #fff;
   }
 }
+
+/* Craft CMS Styles */
+
+body.ltr .matrixblock > .titlebar > .preview {
+  display: none;
+}

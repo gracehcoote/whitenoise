@@ -86,13 +86,30 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 9e42d781-7ec4-4ffc-bcb0-b0990f578c4b # Text Block
+            fieldUid: 2fb3dcfb-de61-404d-a714-a5cc5585bc1d # Content Blocks
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: dee3501f-5b61-4286-ad1b-65e5e1a1ff7d
+            uid: 8db4e8dd-828e-4c84-9875-baca16d7f8bc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: d26a9512-4364-420c-963f-c7d572e09212
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: c39129fa-e86f-49ce-9bcf-bf1043c6ed94 # Suggested Projects
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 752dd14b-26be-4470-893a-6966c96ae633
             userCondition: null
             warning: null
             width: 100

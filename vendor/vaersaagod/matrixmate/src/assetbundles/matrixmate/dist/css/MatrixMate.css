@@ -1,0 +1,186 @@
+/**
+ * MatrixMate plugin for Craft CMS
+ *
+ * MatrixMate CSS
+ *
+ * @author    Værsågod
+ * @copyright Copyright (c) 2019 Værsågod
+ * @link      https://vaersaagod.no
+ * @package   MatrixMate
+ * @since     1.0.0
+ */
+
+.matrixmate-buttons {
+    position: relative;
+    margin-top: 10px;
+}
+
+.matrixmate-buttons:before {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+body.ltr .matrixmate-buttons > .btn, body.ltr .matrixmate-buttons > .btngroup {
+    float: left;
+}
+
+body.rtl .matrixmate-buttons > .btn, body.rtl .matrixmate-buttons > .btngroup {
+    float: right;
+}
+
+body.ltr .matrixmate-buttons > .btn, body.ltr .matrixmate-buttons > .btngroup {
+    margin: 0px 5px 0 0;
+}
+
+body.rtl .matrixmate-buttons > .btn, body.rtl .matrixmate-buttons > .btngroup {
+    margin: 0px 0 0 5px;
+}
+
+.matrixmate-buttons > .btn:first, .matrixmate-buttons > .btngroup:first {
+    margin-top: 5px !important;
+}
+
+.border-box + .matrixmate-buttons, .shadow-box + .matrixmate-buttons {
+    margin-top: 7px;
+}
+
+.matrix-field:not(.matrixmate-inited) > .buttons,
+.matrix-field:not(.matrixmate-inited) > .blocks > .matrixblock:not(.static) > .fields {
+    visibility: hidden !important;
+}
+.field .field .matrix-field > .buttons,
+.field .field .matrix-field > .blocks > .matrixblock > .fields {
+    visibility: visible !important;
+}
+
+.matrixmate-block-inited.collapsed.draghelper .matrixmate-tabs,
+.matrixmate-block-inited.collapsed.draghelper .matrixmate-fields,
+.matrixmate-block-inited.velocity-animating .matrixmate-tabs,
+.matrixmate-block-inited.velocity-animating .matrixmate-fields,
+.matrixmate-block-inited.collapsed .matrixmate-tabs,
+.matrixmate-block-inited.collapsed .matrixmate-fields {
+    -webkit-opacity: 0 !important;
+    -moz-opacity: 0 !important;
+    opacity: 0 !important;
+}
+
+.matrixmate-fields .flex-fields > :before {
+    content: none !important;
+}
+
+.matrixmate-block-inited.collapsed .matrixmate-tabs {
+    pointer-events: none;
+}
+
+.matrixmate-block-inited .matrixmate-tabs {
+    position: absolute;
+    top: 0;
+    right: 76px;
+    display: block;
+    font-size: 0;
+}
+
+.matrixmate-block-inited .matrixmate-tabs li {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.matrixmate-block-inited .matrixmate-tabs li a {
+    display: block;
+    padding: 5px 12px;
+    color: currentColor;
+    white-space: nowrap;
+    opacity: 0.65;
+    border-top: 2px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+.matrixmate-block-inited .matrixmate-tabs li a:not(.sel) {
+    background-color: transparent !important;
+}
+
+.matrixmate-block-inited .matrixmate-tabs li a:hover {
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.matrixmate-block-inited .matrixmate-tabs li a.sel {
+    color: currentColor;
+    opacity: 1;
+    background-color: inherit;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top: 2px solid #606D7B;
+    border-left: 1px solid #e3e5e8;
+    border-right: 1px solid #e3e5e8;
+    position: relative;
+}
+
+.matrixmate-block-inited .matrixmate-tabs li a.sel::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: inherit;
+    position: absolute;
+    left: 0; top: calc(100% + 1px);
+}
+
+.matrixmate-block-inited.disabled .matrixmate-tabs {
+    right: 106px;
+}
+
+.matrixmate-block-inited.matrixmate-has-tabs > .titlebar {
+    border-bottom: 1px solid #E4E5E8;
+}
+
+.matrixmate-settings-menu h6 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+
+body.ltr .matrixmate-settings-menu a.fieldtoggle:before {
+    left: -12px;
+}
+
+body.rtl .matrixmate-settings-menu a.fieldtoggle:before {
+    right: -12px;
+}
+
+.matrixmate-collapsed-menu ul {
+    padding-top: 5px;
+}
+
+html.noscroll .matrixmate-collapsed-menu,
+html.noscroll .matrixmate-settings-menu {
+    max-height: 50%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.matrixmate-menu {
+    overflow: hidden;
+    max-height: none !important;
+}
+
+h6 + [data-matrixmate-group] {
+    margin-top: 3px;
+}
+
+[data-matrixmate-group] a:not(.disabled),
+.matrixmate-menu a:not(.disabled) {
+    cursor: pointer;
+}
+
+[data-matrixmate-group] a.disabled,
+.matrixmate-menu a.disabled,
+button.matrixmate-disabled,
+a.matrixmate-disabled {
+    pointer-events: none;
+}

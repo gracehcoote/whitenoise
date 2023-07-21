@@ -85,6 +85,11 @@ h2 {
     font-weight: 800;
   }
 
+  &.large {
+    font-size: 76px;
+    font-weight: 400;
+  }
+
   @media #{$tablet-ls} {
     
   }
@@ -100,8 +105,8 @@ h2 {
 }
 
 h3 {
-  font-weight: 500;
   font-size: 31px;
+  font-weight: 500;
 
   &.small {
     font-size: 25px;
@@ -149,6 +154,34 @@ h5 {
 
 h6 {
 
+}
+
+blockquote {
+  margin: 3rem 0;
+}
+
+blockquote,
+blockquote p {
+  font-family: $title-font;
+  font-size: 31px;
+  font-weight: 500;
+}
+
+cite {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  margin-top: 1rem;
+
+  &:before {
+    content: '- ';
+  }
+}
+
+.stat-text {
+  font-family: $title-font;
+  font-size: 61px;
+  font-weight: 700;
 }
 
 p,
@@ -258,22 +291,6 @@ ul.inline-list {
       margin-right: 1rem;
       padding-right: 1rem;
     }
-  }
-}
-
-blockquote {
-	position: relative;
-
-  padding-left: 2rem;
-
-  p {
-    font-weight: 400;
-  }
-
-  cite {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
   }
 }
 

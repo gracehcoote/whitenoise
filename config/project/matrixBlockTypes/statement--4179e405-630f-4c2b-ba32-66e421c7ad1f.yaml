@@ -1,0 +1,125 @@
+field: 2fb3dcfb-de61-404d-a714-a5cc5585bc1d # Content Blocks
+fieldLayouts:
+  0186e134-fc19-4972-ba1f-7cb0d9b6242d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2dd14558-c290-4b79-a4af-255dd2064f55 # Block Background Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8f709172-4a7e-45ef-93c1-953705a3142e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f605f0a4-4e31-42c7-b69b-0887c7cd8e26 # Statement Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 49a71ac7-47aa-413a-9307-e44fc5b1234a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: de3ccf4a-2099-429b-b6e3-b22e743240b1 # Statement Caption
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8b2bde3e-431a-4973-a261-57c05010782a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 76292c52-f30e-4fda-96ae-fd083c9c2e0d
+        userCondition: null
+fields:
+  2dd14558-c290-4b79-a4af-255dd2064f55: # Block Background Colour
+    columnSuffix: apzzjnbt
+    contentColumnType: string
+    fieldGroup: null
+    handle: blockBackgroundColour
+    instructions: null
+    name: 'Block Background Colour'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'White (default)'
+            -
+              - value
+              - light
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Black
+            -
+              - value
+              - dark
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  de3ccf4a-2099-429b-b6e3-b22e743240b1: # Statement Caption
+    columnSuffix: zwvuaeoj
+    contentColumnType: text
+    fieldGroup: null
+    handle: statementCaption
+    instructions: null
+    name: 'Statement Caption'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f605f0a4-4e31-42c7-b69b-0887c7cd8e26: # Statement Text
+    columnSuffix: ciuznbql
+    contentColumnType: text
+    fieldGroup: null
+    handle: statementText
+    instructions: null
+    name: 'Statement Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: statement
+name: Statement
+sortOrder: 3

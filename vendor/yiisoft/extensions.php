@@ -59,4 +59,14 @@ return array (
       '@creocoder/nestedsets' => $vendorDir . '/creocoder/yii2-nested-sets/src',
     ),
   ),
+  'nystudio107/craft-code-editor' => 
+  array (
+    'name' => 'nystudio107/craft-code-editor',
+    'version' => '1.0.10.0',
+    'alias' => 
+    array (
+      '@nystudio107/codeeditor' => $vendorDir . '/nystudio107/craft-code-editor/src',
+    ),
+    'bootstrap' => 'nystudio107\\codeeditor\\CodeEditor',
+  ),
 );

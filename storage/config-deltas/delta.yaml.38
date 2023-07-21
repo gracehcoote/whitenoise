@@ -1,25 +1,14 @@
-dateApplied: '2023-07-18 08:31:48'
+dateApplied: '2023-07-20 06:30:45'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689694228
-        to: 1689694307
+        from: 1689859584
+        to: 1689859845
   -
     added:
-      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.fill: null
-      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.format: null
-      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.handle: thumb512X288
-      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.height: 288
-      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.interlace: none
-      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.mode: crop
-      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.name: 'Thumb 512 x 288'
-      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.position: center-center
-      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.quality: 90
-      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.upscale: true
-      imageTransforms.1463eb46-b3bc-45c9-81a3-b89fcb1727aa.width: 512
-    message: 'Saving transform “thumb512X288”'
-  -
-    added:
-      meta.__names__.1463eb46-b3bc-45c9-81a3-b89fcb1727aa: 'Thumb 512 x 288'
+      plugins.matrixmate.edition: standard
+      plugins.matrixmate.enabled: true
+      plugins.matrixmate.schemaVersion: 1.0.0
+    message: 'Install plugin “matrixmate”'

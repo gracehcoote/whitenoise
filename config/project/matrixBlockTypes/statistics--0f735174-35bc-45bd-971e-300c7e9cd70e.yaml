@@ -1,0 +1,132 @@
+field: 2fb3dcfb-de61-404d-a714-a5cc5585bc1d # Content Blocks
+fieldLayouts:
+  8027b546-6528-4b82-b908-e7e166b47869:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: c12d1e3d-e58f-4496-92e0-d181974b2db9 # Block Background Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b475851b-1a1a-4f14-a656-7c1f4c510d45
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5b7711cc-caf3-471b-a459-8815f72b1376 # Statistic
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9e81601a-a36a-4411-ac0b-b8933cef402d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: bc434ac5-9dbd-40b3-b7f3-605d4f686ada
+        userCondition: null
+fields:
+  5b7711cc-caf3-471b-a459-8815f72b1376: # Statistic
+    columnSuffix: cukaxtjl
+    contentColumnType: text
+    fieldGroup: null
+    handle: statistic
+    instructions: "The statistic should be a short, usually numerical value e.g. 10%, 12m etc.\r\nThe statistic caption can be longer but should be limited to a maximum of a 2-5 words."
+    name: Statistic
+    searchable: false
+    settings:
+      addRowLabel: 'Add a statistic'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Statistic
+                -
+                  - handle
+                  - statisticFact
+                -
+                  - width
+                  - 30%
+                -
+                  - type
+                  - singleline
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Statistic caption'
+                -
+                  - handle
+                  - statisticCaption
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - ''
+            -
+              - col2
+              - ''
+      maxRows: null
+      minRows: 1
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  c12d1e3d-e58f-4496-92e0-d181974b2db9: # Block Background Colour
+    columnSuffix: bzhyccvl
+    contentColumnType: string
+    fieldGroup: null
+    handle: blockBackgroundColour
+    instructions: null
+    name: 'Block Background Colour'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'White (default)'
+            -
+              - value
+              - light
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Black
+            -
+              - value
+              - dark
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+handle: statistics
+name: Statistics
+sortOrder: 4

@@ -1,0 +1,123 @@
+field: 2fb3dcfb-de61-404d-a714-a5cc5585bc1d # Content Blocks
+fieldLayouts:
+  b7c676b7-c4fe-43a0-81ac-f9dd39c3be4e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 4c1526fd-e9b3-4e82-8f78-71a7c5496542 # Block Background Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 135fd1b2-64a4-48ed-98bd-0f305c10227f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5ccaadee-7b10-480c-882e-ed56169d88b0 # Images
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1eaa1541-fb01-473d-b55d-d7e058eb2501
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e88fc66f-5ce8-45b1-a249-c292b208c7b3
+        userCondition: null
+fields:
+  4c1526fd-e9b3-4e82-8f78-71a7c5496542: # Block Background Colour
+    columnSuffix: dkviuyed
+    contentColumnType: string
+    fieldGroup: null
+    handle: blockBackgroundColour
+    instructions: null
+    name: 'Block Background Colour'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'White (default)'
+            -
+              - value
+              - light
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Black
+            -
+              - value
+              - dark
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  5ccaadee-7b10-480c-882e-ed56169d88b0: # Images
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: images
+    instructions: 'This block works best when using 3 or more images'
+    name: Images
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:88345c9b-bba7-481d-b7be-a56f256bad79' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      previewMode: thumbs
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9' # Meta
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources:
+        - 'volume:88345c9b-bba7-481d-b7be-a56f256bad79' # Uploads
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: imageCarousel
+name: 'Image Carousel'
+sortOrder: 7

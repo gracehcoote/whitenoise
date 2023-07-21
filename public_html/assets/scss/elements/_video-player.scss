@@ -1,0 +1,67 @@
+/******************
+VIDEO PLAYER STYLES
+******************/
+
+.video-player {
+  font-size: 0;
+  overflow: hidden;
+
+  .video {
+    width: 100%;
+  }
+}
+
+.video-js {
+  .vjs-big-play-button {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 8vw;
+    height: 8vw;  
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 65px;
+    min-height: 65px;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 3px solid #fff;
+    margin-top: 0;
+    margin-left: 0;
+    transform: translate(-50%, -50%);
+    font-size: inherit;
+    transition: all 0.3s;
+
+    .vjs-icon-placeholder:before {
+      position: static;
+      font-family: "Material Icons Outlined";
+      content: '\e037';
+      font-size:calc(16px + 3vw);
+
+      @media all and (min-width: 1800px) {
+        font-size: 70px;
+      }
+
+      transition: all 0.3s;
+    }
+  }
+
+  &:hover {
+    .vjs-big-play-button {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-color: $yellow;
+      transition: all 0.3s;
+
+      .vjs-icon-placeholder:before {
+        color: $yellow;
+      }
+    }
+  }
+}
+
+.vjs-controls-disabled .vjs-big-play-button, 
+.vjs-has-started .vjs-big-play-button, 
+.vjs-using-native-controls .vjs-big-play-button, 
+.vjs-error .vjs-big-play-button {
+  display: none;
+}

@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: newsroomArticles
+name: 'Newsroom Articles'
+propagationMethod: all
+siteSettings:
+  dbb4a582-e95f-47f0-bc3e-7a176a701c48: # Craft Base
+    enabledByDefault: true
+    hasUrls: true
+    template: newsroom/_entry
+    uriFormat: 'newsroom/{slug}'
+structure:
+  maxLevels: null
+  uid: e4220f0a-b23e-40fe-a710-c1580375dd82
+type: structure

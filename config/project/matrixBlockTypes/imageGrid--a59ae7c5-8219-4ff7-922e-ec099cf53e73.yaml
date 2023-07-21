@@ -1,0 +1,170 @@
+field: 2fb3dcfb-de61-404d-a714-a5cc5585bc1d # Content Blocks
+fieldLayouts:
+  cda0b054-4534-4c72-b411-9d6af9b6279c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: bc7dee95-9e7b-471a-9e0b-7774fffe011c # Block Background Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2de9557a-bbda-4bc1-b105-cfa18957dc64
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 1983e86c-24df-47ad-b8e6-347b4fb66f50 # Block Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: aba058c6-4278-4996-820d-7b9eccd2b5ec
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 70d15b4f-fa51-414d-9d0e-372db863492e # Images
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e829cd25-ec79-4ad0-a65d-dde49f16c4c1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0601f7fa-27ec-404f-b746-e9211351250d
+        userCondition: null
+fields:
+  70d15b4f-fa51-414d-9d0e-372db863492e: # Images
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: images
+    instructions: "You should select a minimum of 1 image, which will automatically be 100% width of the container.\r\nYou can select up to 4 images - multiple images will automatically form either a row or 2, row of 3 or grid of 4."
+    name: Images
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:88345c9b-bba7-481d-b7be-a56f256bad79' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 4
+      minRelations: null
+      previewMode: thumbs
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9' # Meta
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: 'Select image(s)'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources:
+        - 'volume:88345c9b-bba7-481d-b7be-a56f256bad79' # Uploads
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  1983e86c-24df-47ad-b8e6-347b4fb66f50: # Block Width
+    columnSuffix: caaiifwr
+    contentColumnType: string
+    fieldGroup: null
+    handle: blockWidth
+    instructions: null
+    name: 'Block Width'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'Full width'
+            -
+              - value
+              - fullWidth
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Contained
+            -
+              - value
+              - contained
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  bc7dee95-9e7b-471a-9e0b-7774fffe011c: # Block Background Colour
+    columnSuffix: svyrqeei
+    contentColumnType: string
+    fieldGroup: null
+    handle: blockBackgroundColour
+    instructions: 'Block background colour will only be visible for the contained version of this block.'
+    name: 'Block Background Colour'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'White (default)'
+            -
+              - value
+              - light
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Black
+            -
+              - value
+              - dark
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+handle: imageGrid
+name: Image/ImageGrid
+sortOrder: 5

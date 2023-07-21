@@ -1,14 +1,17 @@
-dateApplied: '2023-07-18 11:07:24'
+dateApplied: '2023-07-20 08:30:03'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689703468
-        to: 1689703644
+        from: 1689866972
+        to: 1689867003
   -
-    added:
-      plugins.redactor-custom-styles.edition: standard
-      plugins.redactor-custom-styles.enabled: true
-      plugins.redactor-custom-styles.schemaVersion: 1.0.0
-    message: 'Install plugin “redactor-custom-styles”'
+    message: 'Change settings for plugin “cp-css”'
+    changed:
+      plugins.cp-css.settings.additionalCss:
+        from: "body.ltr .matrixblock > .titlebar > .preview {\r\n  display: none;\r\n}"
+        to: "body.ltr .matrixblock > .titlebar > .preview {\r\n  display: none !important;\r\n}"
+      plugins.cp-css.settings.cssFile:
+        from: null
+        to: ''

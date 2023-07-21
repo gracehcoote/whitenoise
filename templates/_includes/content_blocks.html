@@ -1,179 +1,224 @@
 {% set contentBlocks = entry.contentBlocks.all() %}
 <!-- {{ contentBlocks | length }} -->
 {% for block in contentBlocks %}
-	{% if block.type == 'textBlock' %}
-		<div class="post-block text-block">
-			{{ block.text }}
-		</div><!-- end post-block -->
-
-	{% elseif block.type == 'textImageBlock' %}
-	<div class="post-block image-side-block">
-		<div class="row{% if block.imageAlignment.value == 'alignRight' %} flex-row-reverse{% endif %}">
-			<div class="col-sm-5 col-pls-4 mb-4 mb-lg-0">
-				{% set image = block.image.one() %}
-				{% if image %}
-				<a data-fancybox href="{{ image.url('maxImageSize') }}">
-				  <img src="{{ image.url('mediumThumbnail') }}" alt="">
-				</a>
-				{% endif %}
-			</div>
-
-			<div class="col-sm-7 col-pls-8">
+	{% if block.type == 'textSingleColumn' %}
+		{% set bgColour = block.blockBackgroundColour %}
+		<section class="post-block text-block contained{% if bgColour %} {{ bgColour.value }}{% else %} light{% endif %}">
+			<div class="section-container max-width">
 				{{ block.text }}
 			</div>
-		</div><!-- end row -->
-	</div><!-- end post-block -->
+		</section><!-- end post-block -->
 
-	{% elseif block.type == 'quoteBlock' %}
-	<div class="post-block quote-block">
-		<blockquote>
-			<p>{{ block.quote }}</p>
-			<cite>{{ block.citation }}</cite>
-		</blockquote>
-	</div><!-- end post-block -->
+	{% elseif block.type == 'textDoubleColumn' %}
+		{% set bgColour = block.blockBackgroundColour %}
+		<section class="post-block text-block contained{% if bgColour %} {{ bgColour.value }}{% else %} light{% endif %}">
+			<div class="section-container max-width">
+				{{ block.title }}
 
-	{% elseif block.type == 'embeddedVideoBlock' %}
-	<div class="post-block">
-		<div class="ratio ratio-16x9">
-			{{ block.embedCode|raw  }}
-		</div>
-	</div><!-- end post-block -->
-
-	{% elseif block.type == 'audioBlock' %}
-	<div class="post-block">
-		{% set audioFile = block.audioFile.one() %}
-		<audio controls style="width: 100%;">
-			<source src="{{ audioFile.url }}" type="audio/ogg">
-			Your browser does not support the audio element.
-		</audio>
-
-		{% if block.audioFileDescription %}
-		<p class="small mt-2"><strong>{{ block.audioFileDescription }}</strong></p>
-		{% endif %}
-	</div><!-- end post-block -->
-
-	{% elseif block.type == 'galleryBlock' %}
-		{% set rows = block.imageRow.all() %}
-		{% if rows|length %}
-	<div class="post-block gallery-block">
-		{% for col in rows %}
-			{% set images = col.galleryImage.all() %}
-			{% if images|length %}
-		<div class="row{% if not loop.last %} mb-4{% endif %}">
-			{% for image in images %}
-			<div class="col">
-				<a data-fancybox="gallery-images" href="{{ image.url('maxImageSize') }}">
-					<img src="{{ image.url('largeThumbnail') }}" alt="{{ image.filename }}">
-				</a>
-			</div>
-			{% endfor %}
-		</div><!-- end row -->
-			{% endif %}
-		{% endfor %}
-	</div><!-- end post-block -->
-		{% endif %}
-
-	{% elseif block.type == 'imageSliderBlock' %}
-	<div class="post-block">
-		{% set galleryImages = block.sliderImages.all() %}
-		{% if galleryImages|length %}
-		    <div class="single-slider">
-	        {% for image in galleryImages %}
-					<div class="slide">
-					  <a data-fancybox="slider-images" href="{{ image.url('maxImageSize') }}">
-							<img src="{{ image.url('largeThumbnail') }}" alt="{{ image.filename }}">
-						</a>
-					</div><!-- end slide -->
-	        {% endfor %}
-		    </div>
-		{% endif %}
-	</div><!-- end post-block -->
-
-	{% elseif block.type == 'pageBlock' %}
-	<div class="post-block">
-		{% set pageLinks = block.page.all() %}
-		{% if pageLinks|length %}
-		{% for page in pageLinks %}
-			{% set sectionType = page.getSection().handle %}
-			{% if sectionType == 'sessions' %}
-				{% set sessionThumbnail = page.sessionThumbnail.one() %}
-				<div class="card bg-box"{% if sessionThumbnail %}style="background-image: url({{ sessionThumbnail.url('largeThumbnail')}});"{% endif %}>
-					<div class="card-body">
-						<div class="d-pls-flex justify-content-between align-items-center p-md-4">
-							<div>
-								<h6 class="card-subtitle">The Session</h6>
-	              <h3 class="card-title">{{ page.title }}</h3>
-	              <h5 class="card-subtitle">{{ page.sessionDate|date('M Y') }}{% if page.genre %}&nbsp;&bullet;&nbsp;{{ page.genre }}{% endif %}</h5>
-	            </div>
-
-							<div class="mt-4 mt-pls-0">
-								<a class="stretched-link" href="{{ page.url }}">
-	                <span class="btn btn-red">Find out more</span>
-	              </a>
-							</div>
-						</div>
-					</div>
-				</div><!-- end card -->
-			{% elseif sectionType == 'collectiveMembers' %}
-			<div class="card green mb-3">
-        <div class="row align-items-stretch g-0">
-          <div class="col-md-3">
-						{% set artistThumbnail = page.collectiveMemberThumbnail.one() %}
-          	<img src="{{ artistThumbnail.url('largeThumbnail')}}" class="card-img flex-grow-1" alt="">
-          </div><!-- end col -->
-          <div class="col-md-9 align-self-center">
-            <div class="card-body d-sm-flex justify-content-between align-items-center">
-							<div class="mb-4 mb-sm-0">
-								<h6 class="card-subtitle">Meet the Artist</h6>
-	              <h3 class="card-title">{{ page.title }}</h3>
-							</div>
-
-							<a class="stretched-link" href="{{ page.url }}">
-								<span class="btn" href="{{ page.url }}">Find out more</span>
-							</a>
-            </div>
-          </div><!-- end col -->
-        </div><!-- end row -->
-      </div><!-- end card -->
-			{% endif %}
-		{% endfor %}
-		{% endif %}
-	</div><!-- end post-block -->
-
-	{% elseif block.type == 'videoSessionBlock' %}
-	<div class="post-block">
-		{% set videoSession = block.videoSession.all() %}
-	  {% if videoSession|length %}
-		{% for video in videoSession %}
-		<div class="card card-bg">
-			<div class="card-body">
 				<div class="row">
-					<div class="col-lg-4">
-						<a class="video-thumb flex-grow-1" data-fancybox href="{{ video.youtubeUrl }}">
-							{% set videoThumbnail = video.sessionThumbnail.one() %}
-							<img src="{{ videoThumbnail.url('largeThumbnail')}}" class="card-img-top" alt="{{ video.title }}">
-						</a>
-					</div><!-- end col -->
+					<div class="col-lg-6 pe-lg-3">
+						{{ block.leftColumnText }}
+					</div>
 
-					<div class="col-lg-8 align-self-center">
-						<h6 class="card-subtitle">Watch the video session</h6>
-						<h3 class="card-title">{{ video.title }}</h3>
-						<h5 class="card-subtitle">Recorded {{ video.sessionDate|date('M, Y') }} {% if video.genre %} &nbsp;&bullet;&nbsp;{{ video.genre }}{% endif %}</h5>
-						{{ video.wysiwygBlock }}
-					</div><!-- end col -->
-				</div><!-- end card-body-->
-			</div><!-- end row -->
-		</div><!-- end card -->
-		{% endfor %}
-		{% endif %}
-	</div><!-- end post-block -->
+					{% if block.rightColumnText %}
+						<div class="col-lg-6 ps-lg-3">
+							{{ block.rightColumnText }}
+						</div>
+					{% endif %}
+				</div><!-- end row -->
+			</div>
+		</section><!-- end post-block -->
 
-	{% elseif block.type == 'buttonBlock' %}
-	<div class="post-block">
-		<div class="text-center">
-			<h4 class="mb-4">{{ block.buttonDescription }}</h4>
-			<a class="btn btn-primary {% if block.buttonColour.value == 'red' %}btn-red {% elseif block.buttonColour.value == 'green' %}btn-green {% endif %}" href="{{ block.buttonLink }}">{{ block.buttonText }}</a>
-		</div>
-	</div><!-- end post-block -->
+	{% elseif block.type == 'statement' %}
+		{% set bgColour = block.blockBackgroundColour %}
+		<section class="post-block text-block contained{% if bgColour %} {{ bgColour.value }}{% else %} light{% endif %}">
+			<div class="section-container max-width">
+				<h2 class="large">{{ block.statementText }}</h2>
+				{% if block.statementCaption %}
+				<cite>{{ block.statementCaption }}</cite>
+				{% endif %}
+			</div>
+		</section><!-- end post-block -->
+
+	{% elseif block.type == 'statistics' %}
+		{% set bgColour = block.blockBackgroundColour %}
+		<section class="post-block text-block contained{% if bgColour %} {{ bgColour.value }}{% else %} light{% endif %}">
+			<div class="section-container max-width">
+				<div class="d-flex flex-wrap justify-content-center align-items-start">
+				{% for row in block.statistic %}
+					<div class="px-3 my-2 text-center">
+						<span class="stat-text">{{ row.statisticFact }}</span>
+						{% if row.statisticCaption %}
+						<p class="tw-medium">{{ row.statisticCaption }}</p>
+						{% endif %}
+					</div>
+				{% endfor %}
+				</div>
+				
+			</div>
+		</section><!-- end post-block -->
+
+	{% elseif block.type == 'imageGrid' %}
+		{% set width = block.blockWidth %}
+		<section class="post-block text-block{% if width == 'contained' %} contained{% else %} full-width{% endif %}">
+			{% if width == 'contained' %}
+			<div class="section-container">
+			{% endif %}
+
+			{% set images = block.images.all() %}
+			{% if images|length == '1' %}
+				{% for image in images %}
+				<img 
+					loading="lazy" 
+          src="{{ image.url('thumb1920X1080') }}" 
+          alt="{{ image.title }}" 
+          sizes="100vw" 
+          srcset="
+            {{ image.url('thumb480X270') }} 480w,
+            {{ image.url('thumb512X288') }} 512w,
+            {{ image.url('thumb768X432') }} 768w,
+            {{ image.url('thumb960X540') }} 960w,
+            {{ image.url('thumb1280X720') }} 1280w,
+            {{ image.url('thumb1920X1080') }} 1920w
+          ">
+				{% endfor %}
+			{% else %}
+				<div class="row g-0">
+					{% for image in images %}
+					<div class="{% if images|length == '2' or images|length == '4' %}col-msm-6{%else %}col-sm{% endif %}">
+						<img 
+						loading="lazy" 
+						src="{{ image.url('thumb1280X720') }}" 
+						alt="{{ image.title }}" 
+						sizes="100vw" 
+						srcset="
+							{{ image.url('thumb480X270') }} 480w,
+							{{ image.url('thumb512X288') }} 512w,
+							{{ image.url('thumb768X432') }} 768w,
+							{{ image.url('thumb960X540') }} 960w,
+							{{ image.url('thumb1280X720') }} 1280w
+						">
+					</div>
+					{% endfor %}
+				</div>
+			{% endif %}
+
+			{% if width == 'contained' %}
+			</div>
+			{% endif %}
+		</section><!-- end post-block -->
+
+	{% elseif block.type == 'imageSlideshow' %}
+		{% set width = block.blockWidth %}
+		{% set bgColour = block.blockBackgroundColour %}
+		<section class="post-block text-block {% if width == 'contained' %} contained{% else %} full-width{% endif %}{% if bgColour %} {{ bgColour.value }}{% else %} light{% endif %}">
+			{% if width == 'contained' %}
+			<div class="section-container">
+			{% endif %}
+
+				{% set images = block.images.all() %}
+				<div class="image-slider splide" aria-label="Image slider">
+					<div class="splide__track">
+						<ul class="splide__list">
+							{% for image in images %}
+							<li class="splide__slide">
+								<img 
+									loading="lazy" 
+									src="{{ image.url('thumb1920X1080') }}" 
+									alt="{{ image.title }}" 
+									sizes="100vw" 
+									srcset="
+										{{ image.url('thumb480X270') }} 480w,
+										{{ image.url('thumb512X288') }} 512w,
+										{{ image.url('thumb768X432') }} 768w,
+										{{ image.url('thumb960X540') }} 960w,
+										{{ image.url('thumb1280X720') }} 1280w,
+										{{ image.url('thumb1920X1080') }} 1920w
+									">
+							</li>
+							{% endfor %}
+						</ul>
+					</div><!-- end splide__track -->
+				</div><!-- end splide -->
+
+			{% if width == 'contained' %}
+			</div>
+			{% endif %}
+		</section><!-- end post-block -->
+
+	{% elseif block.type == 'imageCarousel' %}
+		{% set bgColour = block.blockBackgroundColour %}
+		<section class="post-block text-block contained{% if bgColour %} {{ bgColour.value }}{% else %} light{% endif %}">
+			<div class="section-container">
+				{% set images = block.images.all() %}
+				<div class="carousel-slider splide" aria-label="Carousel slider">
+					<div class="splide__track">
+						<ul class="splide__list">
+							{% for image in images %}
+							<li class="splide__slide">
+								<img loading="lazy" src="{{ image.url('thumb1920X1080') }}" alt="{{ image.title }}">
+							</li>
+							{% endfor %}
+						</ul>
+					</div><!-- end splide__track -->
+
+					<div class="carousel-navigation">
+						<div class="splide__arrows">
+							<button class="splide__arrow splide__arrow--prev"></button>
+							<button class="splide__arrow splide__arrow--next"></button>
+						</div>
+
+						<div class="carousel-progress">
+							<div class="carousel-progress-bar"></div>
+						</div><!-- end carousel-progress -->
+					</div><!-- end carousel-navigation -->
+				</div><!-- end splide -->
+			</div><!-- end section-container -->
+		</section><!-- end post-block -->
+
+	{% elseif block.type == 'videoUpload' %}
+		{% set width = block.blockWidth %}
+		{% set bgColour = block.blockBackgroundColour %}
+		<section class="post-block {% if width == 'contained' %} contained{% else %} full-width{% endif %}{% if bgColour %} {{ bgColour.value }}{% else %} light{% endif %}">
+			{% if width == 'contained' %}
+			<div class="section-container">
+			{% endif %}
+
+			{% set videoFile = block.videoFile.one() %}
+			{% if videoFile %}
+			<div class="video-player">
+				<video class="video-js" data-setup='{"controls": true, "autoplay": false, "preload": "none", "fluid": "true"}'>
+					<source src="{{ videoFile.url }}" type="video/mp4">
+
+					<p class="vjs-no-js">
+						To view this video please enable JavaScript, and consider upgrading to a
+						web browser that
+						<a href="https://videojs.com/html5-video-support/" target="_blank"
+							>supports HTML5 video</a
+						>
+					</p>
+				</video>
+			</div><!-- end video-player -->
+			{% endif %}
+
+			{% if width == 'contained' %}
+			</div>
+			{% endif %}
+		</section><!-- end post-block -->
+
+	{% elseif block.type == 'videoEmbed' %}
+		{% set width = block.blockWidth %}
+		{% set bgColour = block.blockBackgroundColour %}
+		<section class="post-block {% if width == 'contained' %} contained{% else %} full-width{% endif %}{% if bgColour %} {{ bgColour.value }}{% else %} light{% endif %}">
+			{% if width == 'contained' %}
+			<div class="section-container">
+			{% endif %}
+
+			{{ block.embedCode|raw }}
+
+			{% if width == 'contained' %}
+			</div>
+			{% endif %}
+		</section><!-- end post-block -->
 	{% endif %}
 {% endfor %}

@@ -1,0 +1,139 @@
+fieldLayouts:
+  e47f984b-92fd-41ea-9a5a-132aff407849:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 0688e080-7f97-4b30-b82d-bb5f284acfe7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: bb59bfee-cc92-4c30-b875-71226f739843 # Subtitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 12cb5625-ae7c-4ae8-a5ad-381ffae70d8c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7b48acb6-0409-495d-a9ca-d572373e8e89 # Image Thumbnail
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7abf7298-82c3-4fa6-88aa-7b86a270f1a4
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Article Overview'
+        uid: a0b14fde-965e-413c-bfc3-35d0a4da0d72
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ae375820-3398-4233-97c9-880f9bc88381 # Hero Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 43c05c3b-4c3d-4337-8e40-11caab81c249
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2fb3dcfb-de61-404d-a714-a5cc5585bc1d # Content Blocks
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6cd8bf6c-92ec-4518-bd1d-641b00d8c5ac
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Article Content'
+        uid: 5d221450-51ba-447e-90cb-3ffbc781d9d8
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 42d3d29f-acd5-4355-b756-dd24a263cf34 # SEO Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 55207ccd-96d9-4f40-859b-e62a3416513c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1013d0af-42f2-4277-8692-ca5f66ef4588 # SEO Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 687e03cd-b9ba-463f-8a61-f36532183f1e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 225d43ff-b622-4780-8602-22940bb83e3e # OG Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 096c41d6-b56e-46d3-906a-cad27df58d35
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: eef4465b-b42c-4278-a902-682c5318d6a0
+        userCondition: null
+handle: article
+hasTitleField: true
+name: Article
+section: 0f8100aa-dfeb-4c7a-a612-34bcba4bf7d2 # Newsroom Articles
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

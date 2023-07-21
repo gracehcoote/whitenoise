@@ -1,0 +1,169 @@
+field: 2fb3dcfb-de61-404d-a714-a5cc5585bc1d # Content Blocks
+fieldLayouts:
+  a48b26f6-f88f-47f6-a6b4-3ef6029e1ebe:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 006e61d0-26c0-4fb2-8bcd-ed60efa1e12e # Block Background Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ec34c874-69ac-4368-bf28-1b333504af2b
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 9794a518-fb48-48da-ac7d-b4b99fb966ad # Block Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4ca0f9e8-2440-4c78-80ca-ae4e0cdbb996
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: d37dbdf3-6a11-47f1-b913-e2114f3f3191 # Video File
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0c277bf4-05c5-468f-990c-e229b637d615
+            userCondition: null
+            warning: null
+            width: 50
+        name: Content
+        uid: dc5d750c-d1b1-461b-9466-fe3d0bbd1f81
+        userCondition: null
+fields:
+  006e61d0-26c0-4fb2-8bcd-ed60efa1e12e: # Block Background Colour
+    columnSuffix: jrfcggmo
+    contentColumnType: string
+    fieldGroup: null
+    handle: blockBackgroundColour
+    instructions: 'Block background colour will only be visible for the contained version of this block.'
+    name: 'Block Background Colour'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'White (default)'
+            -
+              - value
+              - light
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Black
+            -
+              - value
+              - dark
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  9794a518-fb48-48da-ac7d-b4b99fb966ad: # Block Width
+    columnSuffix: kpytnocu
+    contentColumnType: string
+    fieldGroup: null
+    handle: blockWidth
+    instructions: null
+    name: 'Block Width'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'Full width'
+            -
+              - value
+              - fullWidth
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Contained
+            -
+              - value
+              - contained
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  d37dbdf3-6a11-47f1-b913-e2114f3f3191: # Video File
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: videoFile
+    instructions: null
+    name: 'Video File'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - video
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9' # Meta
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: true
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:132246f9-c0e6-4f99-a712-62365f4bf939' # Videos
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: videoUpload
+name: 'Video (upload)'
+sortOrder: 8

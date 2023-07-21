@@ -1,55 +1,14 @@
-dateApplied: '2023-07-18 11:00:03'
+dateApplied: '2023-07-20 08:22:31'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689695491
-        to: 1689703203
+        from: 1689865730
+        to: 1689866551
   -
     added:
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.columnSuffix: null
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.contentColumnType: string
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.fieldGroup: b6822878-090b-45fc-b637-6ccf6bed2f40
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.handle: videoThumbnailUpload
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.instructions: 'Use this field if uploading a video for use as a thumbnail'
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.name: 'Video Thumbnail (upload)'
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.searchable: false
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.allowSelfRelations: false
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.allowSubfolders: false
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.allowUploads: true
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.allowedKinds.0: video
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.branchLimit: null
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.defaultUploadLocationSource: 'volume:132246f9-c0e6-4f99-a712-62365f4bf939'
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.defaultUploadLocationSubpath: null
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.localizeRelations: false
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.maintainHierarchy: false
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.maxRelations: 1
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.minRelations: null
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.previewMode: full
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.restrictFiles: true
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.restrictLocation: false
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.restrictedDefaultUploadSubpath: null
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.restrictedLocationSource: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.restrictedLocationSubpath: null
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.selectionCondition.__assoc__.0.0: elementType
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.selectionCondition.__assoc__.0.1: craft\elements\Asset
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.selectionCondition.__assoc__.1.0: fieldContext
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.selectionCondition.__assoc__.1.1: global
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.selectionCondition.__assoc__.2.0: class
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.selectionCondition.__assoc__.2.1: craft\elements\conditions\assets\AssetCondition
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.selectionLabel: 'Select a video'
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.showSiteMenu: false
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.showUnpermittedFiles: false
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.showUnpermittedVolumes: false
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.sources.0: 'volume:132246f9-c0e6-4f99-a712-62365f4bf939'
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.targetSiteId: null
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.validateRelatedElements: false
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.settings.viewMode: large
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.translationKeyFormat: null
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.translationMethod: site
-      fields.f558bff2-7034-4fce-a016-3fbb6958f1c5.type: craft\fields\Assets
-    message: 'Save field “videoThumbnailUpload”'
-  -
-    added:
-      meta.__names__.f558bff2-7034-4fce-a016-3fbb6958f1c5: 'Video Thumbnail (upload)'
+      plugins.matrix-snap.edition: standard
+      plugins.matrix-snap.enabled: true
+      plugins.matrix-snap.schemaVersion: 1.0.0
+    message: 'Install plugin “matrix-snap”'

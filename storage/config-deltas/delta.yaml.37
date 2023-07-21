@@ -1,25 +1,14 @@
-dateApplied: '2023-07-18 08:32:14'
+dateApplied: '2023-07-20 06:31:29'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689694307
-        to: 1689694334
+        from: 1689859845
+        to: 1689859889
   -
     added:
-      imageTransforms.7f2c84a0-f102-4d22-9635-5948fed536c7.fill: null
-      imageTransforms.7f2c84a0-f102-4d22-9635-5948fed536c7.format: null
-      imageTransforms.7f2c84a0-f102-4d22-9635-5948fed536c7.handle: thumb480X270
-      imageTransforms.7f2c84a0-f102-4d22-9635-5948fed536c7.height: 270
-      imageTransforms.7f2c84a0-f102-4d22-9635-5948fed536c7.interlace: none
-      imageTransforms.7f2c84a0-f102-4d22-9635-5948fed536c7.mode: crop
-      imageTransforms.7f2c84a0-f102-4d22-9635-5948fed536c7.name: 'Thumb 480 x 270'
-      imageTransforms.7f2c84a0-f102-4d22-9635-5948fed536c7.position: center-center
-      imageTransforms.7f2c84a0-f102-4d22-9635-5948fed536c7.quality: 90
-      imageTransforms.7f2c84a0-f102-4d22-9635-5948fed536c7.upscale: true
-      imageTransforms.7f2c84a0-f102-4d22-9635-5948fed536c7.width: 480
-    message: 'Saving transform “thumb480X270”'
-  -
-    added:
-      meta.__names__.7f2c84a0-f102-4d22-9635-5948fed536c7: 'Thumb 480 x 270'
+      plugins.smith.edition: standard
+      plugins.smith.enabled: true
+      plugins.smith.schemaVersion: 1.0.0
+    message: 'Install plugin “smith”'

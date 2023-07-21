@@ -1,0 +1,35 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: b6822878-090b-45fc-b637-6ccf6bed2f40 # Work
+handle: suggestedProjects
+instructions: "Shows at the bottom of the project page.\r\nIf left blank, the system will randomly select 2 projects for you."
+name: 'Suggested Projects'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 2
+  minRelations: null
+  selectionCondition:
+    __assoc__:
+      -
+        - elementType
+        - craft\elements\Entry
+      -
+        - fieldContext
+        - global
+      -
+        - class
+        - craft\elements\conditions\entries\EntryCondition
+  selectionLabel: 'Select project(s)'
+  showSiteMenu: true
+  sources:
+    - 'section:8b8e90e2-3152-4e63-8145-70715f8d6116' # Projects
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

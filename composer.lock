@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c6f9f24522a91e523332d88f10c0105",
+    "content-hash": "e39ee069ea79811720af0e2c2cfa8da7",
     "packages": [
         {
             "name": "adigital/cookie-consent-banner",
@@ -535,11 +535,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "4.4.16",
+            "version": "4.4.16.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/7a89c833b8a53dc899ec5ac16a7215dcbcd7ec51",
-                "reference": "7a89c833b8a53dc899ec5ac16a7215dcbcd7ec51",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/d2f4a215a1e2320841773c50e680509d4a3a5769",
+                "reference": "d2f4a215a1e2320841773c50e680509d4a3a5769",
                 "shasum": ""
             },
             "require": {
@@ -627,7 +627,7 @@
                 "docs": "https://craftcms.com/docs/4.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2023-07-18T16:57:32+00:00"
+            "time": "2023-07-19T14:56:36+00:00"
         },
         {
             "name": "craftcms/html-field",
@@ -997,6 +997,56 @@
                 "php"
             ],
             "time": "2022-12-14T08:49:07+00:00"
+        },
+        {
+            "name": "doublesecretagency/craft-cpcss",
+            "version": "2.6.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doublesecretagency/craft-cpcss/zipball/d9f3a9f1f2fc30b78a64dfbab13c9ebc4fe9d801",
+                "reference": "d9f3a9f1f2fc30b78a64dfbab13c9ebc4fe9d801",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0",
+                "nystudio107/craft-code-editor": "^1.0.7"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Control Panel CSS",
+                "handle": "cp-css",
+                "schemaVersion": "2.0.0",
+                "changelogUrl": "https://raw.githubusercontent.com/doublesecretagency/craft-cpcss/v2/CHANGELOG.md",
+                "class": "doublesecretagency\\cpcss\\CpCss"
+            },
+            "autoload": {
+                "psr-4": {
+                    "doublesecretagency\\cpcss\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Double Secret Agency",
+                    "homepage": "https://www.doublesecretagency.com/plugins"
+                }
+            ],
+            "description": "Add custom CSS to your Control Panel.",
+            "keywords": [
+                "cms",
+                "cp-css",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "css"
+            ],
+            "support": {
+                "docs": "https://github.com/doublesecretagency/craft-cpcss/blob/v2/README.md",
+                "issues": "https://github.com/doublesecretagency/craft-cpcss/issues"
+            },
+            "time": "2022-12-16T05:29:18+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -1816,6 +1866,102 @@
                 "psr-3"
             ],
             "time": "2023-02-06T13:44:46+00:00"
+        },
+        {
+            "name": "necoapps/craft-matrix-snap",
+            "version": "1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/necoapps/craft-matrix-snap/zipball/e808849895e78ca749b8a8cda56f8452bd0d6558",
+                "reference": "e808849895e78ca749b8a8cda56f8452bd0d6558",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.5|^4.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Matrix Snap",
+                "handle": "matrix-snap",
+                "class": "necoapps\\matrixsnap\\MatrixSnap"
+            },
+            "autoload": {
+                "psr-4": {
+                    "necoapps\\matrixsnap\\": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Necoapps",
+                    "homepage": "http://www.necoapps.com"
+                }
+            ],
+            "description": "Collapses all Matrix blocks on entry load. Adds one-click block toggling.",
+            "keywords": [
+                "matrix",
+                "matrix block",
+                "matrix snap",
+                "matrixblock",
+                "matrixsnap",
+                "productivity",
+                "snap",
+                "usability"
+            ],
+            "support": {
+                "email": "help@necoapps.com",
+                "issues": "https://github.com/necoapps/craft-matrix-snap/issues?state=open",
+                "source": "https://github.com/necoapps/craft-matrix-snap",
+                "docs": "https://github.com/necoapps/craft-matrix-snap/blob/main/README.md"
+            },
+            "time": "2023-03-30T20:58:39+00:00"
+        },
+        {
+            "name": "nystudio107/craft-code-editor",
+            "version": "1.0.10",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nystudio107/craft-code-editor/zipball/da48a7f7738442c629a43e8d41f458d6774aae53",
+                "reference": "da48a7f7738442c629a43e8d41f458d6774aae53",
+                "shasum": ""
+            },
+            "require": {
+                "phpdocumentor/reflection-docblock": "^5.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "nystudio107\\codeeditor\\CodeEditor"
+            },
+            "autoload": {
+                "psr-4": {
+                    "nystudio107\\codeeditor\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "nystudio107",
+                    "homepage": "https://nystudio107.com"
+                }
+            ],
+            "description": "Provides a code editor field with Twig & Craft API autocomplete",
+            "keywords": [
+                "Craft",
+                "Monaco",
+                "cms",
+                "code",
+                "craftcms",
+                "css",
+                "editor",
+                "javascript",
+                "markdown",
+                "twig"
+            ],
+            "time": "2023-06-19T22:09:46+00:00"
         },
         {
             "name": "nystudio107/craft-cookies",
@@ -4086,6 +4232,57 @@
             "time": "2022-09-28T08:42:51+00:00"
         },
         {
+            "name": "vaersaagod/matrixmate",
+            "version": "2.1.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaersaagod/matrixmate/zipball/cc954aafcbfa7616be6f075501796236fe154ba0",
+                "reference": "cc954aafcbfa7616be6f075501796236fe154ba0",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0",
+                "php": "^8.0.2"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "MatrixMate",
+                "handle": "matrixmate",
+                "schemaVersion": "1.0.0",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/vaersaagod/matrixmate/master/CHANGELOG.md",
+                "class": "vaersaagod\\matrixmate\\MatrixMate"
+            },
+            "autoload": {
+                "psr-4": {
+                    "vaersaagod\\matrixmate\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Værsågod",
+                    "homepage": "https://vaersaagod.no"
+                }
+            ],
+            "description": "Welding Matrix into shape, mate!",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "matrixmate"
+            ],
+            "support": {
+                "docs": "https://github.com/vaersaagod/matrixmate/blob/master/README.md",
+                "issues": "https://github.com/vaersaagod/matrixmate/issues"
+            },
+            "time": "2023-04-24T15:50:15+00:00"
+        },
+        {
             "name": "verbb/base",
             "version": "2.0.2",
             "dist": {
@@ -4169,6 +4366,58 @@
                 "rss": "https://github.com/verbb/cp-nav/commits/v2.atom"
             },
             "time": "2023-01-18T05:41:32+00:00"
+        },
+        {
+            "name": "verbb/smith",
+            "version": "2.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verbb/smith/zipball/0d24c48d37b49de7a591c556cafb1eb3f5f2cfe4",
+                "reference": "0d24c48d37b49de7a591c556cafb1eb3f5f2cfe4",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0",
+                "php": "^8.0.2",
+                "verbb/base": "^2.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Smith",
+                "handle": "smith",
+                "changelogUrl": "https://raw.githubusercontent.com/verbb/smith/craft-4/CHANGELOG.md",
+                "class": "verbb\\smith\\Smith"
+            },
+            "autoload": {
+                "psr-4": {
+                    "verbb\\smith\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https://verbb.io"
+                }
+            ],
+            "description": "Add copy, paste and clone functionality to Matrix blocks.",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "smith"
+            ],
+            "support": {
+                "email": "support@verbb.io",
+                "issues": "https://github.com/verbb/smith/issues?state=open",
+                "source": "https://github.com/verbb/smith",
+                "docs": "https://github.com/verbb/smith",
+                "rss": "https://github.com/verbb/smith/commits/v2.atom"
+            },
+            "time": "2022-06-03T02:00:59+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
