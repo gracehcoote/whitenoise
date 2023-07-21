@@ -4,7 +4,8 @@
 {% include "_includes/seo" %}
 {% endblock %}
 
-{% set bodyClass = '' %}
+{% set headerColour = entry.headerColour %}
+{% set bodyClass = headerColour %}
 
 {% block headContent %}
 <link href="{{ siteUrl }}assets/css/splide-core.min.css" rel="stylesheet"/>
@@ -12,10 +13,10 @@
 {% endblock %}
 
 {% block main %}
-{% set heroImage = entry.heroImage.one() %}
+{% set heroImage = entry.heroImage.one() ?? entry.imageThumbnail.one() %}
 <section>
   <img 
-    class="background-image"
+    class="background-image{% if entry.greyscaleImage %} greyscale{% endif %}"
     src="{{ heroImage.url('thumb1920X1080') }}" 
     loading="lazy" 
     alt="{{ entry.title }}" 
@@ -32,10 +33,10 @@
 
 <section>
   <div class="section-container max-width pb-0 d-flex justify-content-between flex-wrap">
-    <a class="back-link" href="{{ siteUrl }}work">Back</a>
+    <a class="back-link" href="{{ siteUrl }}newsroom">Back</a>
 
     <ul class="crumbs">
-      <li><a href="{{ siteUrl }}work">Work</a></li>
+      <li><a href="{{ siteUrl }}newsroom">Newsroom</a></li>
       <li>{{ entry.title }}</li>
     </ul>
   </div><!-- end section-container -->
@@ -53,99 +54,6 @@
   </section>
 
   {% include "_includes/content_blocks" %}
-</section>
-
-<section>
-  <div class="row g-0">
-  {% set suggestedEntries = entry.suggestedProjects.all() %}
-  {% if suggestedEntries %}
-    {% for project in suggestedEntries %}
-    <div class="col-pls-6">
-      <div class="work-item">
-        <a href="{{ project.url }}">
-          <div class="text-container p-2 p-sm-3 px-lg-4 py-lg-3 p-xl-5 d-flex justify-content-start align-items-end">
-            <div>
-              <h3 class="thumb-title small tw-black text-white mb-0">{{ project.title }}</h3>
-              <p class="thumb-subtitle text-white tw-medium">{{ project.subtitle }}</p>
-            </div>   
-          </div><!-- end text-container -->
-          
-          <div class="thumb-container">
-            {% set videoThumbnailUpload = project.videoThumbnailUpload.one() %}
-            {% set imageThumbnail = project.imageThumbnail.one() %}
-
-            {% if videoThumbnailUpload %}
-              <video preload="false" autoplay loop muted poster="{{ imageThumbnail.url('thumb1280X720') }}">
-                <source src="{{ videoThumbnailUpload.url }}" type="video/mp4">
-              </video>
-            {% endif %}
-            
-            <img 
-              src="{{ imageThumbnail.url('thumb1920X1080') }}" 
-              loading="lazy" 
-              alt="{{ project.title }}" 
-              sizes="100vw" 
-              srcset="
-                {{ imageThumbnail.url('thumb480X270') }} 480w,
-                {{ imageThumbnail.url('thumb512X288') }} 512w,
-                {{ imageThumbnail.url('thumb768X432') }} 768w,
-                {{ imageThumbnail.url('thumb960X540') }} 960w,
-                {{ imageThumbnail.url('thumb1280X720') }} 1280w,
-                {{ imageThumbnail.url('thumb1920X1080') }} 1920w
-                ">
-          </div><!-- end thumb-container -->
-        </a>
-      </div><!-- end work-item -->
-    </div><!-- end col -->
-    {% endfor %}
-  {% else %}  
-    {% set randomEntries = craft.entries()
-      .section('projects')
-      .orderBy('RAND()')
-      .limit(2)
-      .id('not ' ~ entry.id)
-    %}
-    {% for project in randomEntries %}
-    <div class="col-pls-6">
-      <div class="work-item">
-        <a href="{{ project.url }}">
-          <div class="text-container p-2 p-sm-3 px-lg-4 py-lg-3 p-xl-5 d-flex justify-content-start align-items-end">
-            <div>
-              <h3 class="thumb-title small tw-black text-white mb-0">{{ project.title }}</h3>
-              <p class="thumb-subtitle text-white tw-medium">{{ project.subtitle }}</p>
-            </div>   
-          </div><!-- end text-container -->
-          
-          <div class="thumb-container">
-            {% set videoThumbnailUpload = project.videoThumbnailUpload.one() %}
-            {% set imageThumbnail = project.imageThumbnail.one() %}
-
-            {% if videoThumbnailUpload %}
-              <video preload="false" autoplay loop muted poster="{{ imageThumbnail.url('thumb1280X720') }}">
-                <source src="{{ videoThumbnailUpload.url }}" type="video/mp4">
-              </video>
-            {% endif %}
-            
-            <img 
-              src="{{ imageThumbnail.url('thumb1920X1080') }}" 
-              loading="lazy" 
-              alt="{{ project.title }}" 
-              sizes="100vw" 
-              srcset="
-                {{ imageThumbnail.url('thumb480X270') }} 480w,
-                {{ imageThumbnail.url('thumb512X288') }} 512w,
-                {{ imageThumbnail.url('thumb768X432') }} 768w,
-                {{ imageThumbnail.url('thumb960X540') }} 960w,
-                {{ imageThumbnail.url('thumb1280X720') }} 1280w,
-                {{ imageThumbnail.url('thumb1920X1080') }} 1920w
-                ">
-          </div><!-- end thumb-container -->
-        </a>
-      </div><!-- end work-item -->
-    </div><!-- end col -->
-    {% endfor %}
-  {% endif %}
-  </div><!-- end row -->
 </section>
 {% endblock %}
 

@@ -290,8 +290,8 @@ ul.crumbs li a:hover {
   padding-top: 3rem;
 }
 
-.no-overlay header#global .navigation-bar,
-.dark-no-overlay header#global .navigation-bar {
+body.no-overlay header#global .navigation-bar,
+body.black-no-overlay header#global .navigation-bar {
   position: relative;
 }
 
@@ -299,17 +299,21 @@ nav#global {
   z-index: 98;
 }
 
-.no-overlay header#global .toggle-nav:not(.active) .burger,
-.dark-no-overlay header#global .toggle-nav:not(.active) .burger {
+body.black header#global .toggle-nav:not(.active) .burger,
+body.no-overlay header#global .toggle-nav:not(.active) .burger,
+body.black-no-overlay header#global .toggle-nav:not(.active) .burger {
   background-color: #1A1A1A;
 }
-.no-overlay header#global .toggle-nav:not(.active) .burger:before, .no-overlay header#global .toggle-nav:not(.active) .burger:after,
-.dark-no-overlay header#global .toggle-nav:not(.active) .burger:before,
-.dark-no-overlay header#global .toggle-nav:not(.active) .burger:after {
+body.black header#global .toggle-nav:not(.active) .burger:before, body.black header#global .toggle-nav:not(.active) .burger:after,
+body.no-overlay header#global .toggle-nav:not(.active) .burger:before,
+body.no-overlay header#global .toggle-nav:not(.active) .burger:after,
+body.black-no-overlay header#global .toggle-nav:not(.active) .burger:before,
+body.black-no-overlay header#global .toggle-nav:not(.active) .burger:after {
   background-color: #1A1A1A;
 }
-.no-overlay header#global .logo svg path,
-.dark-no-overlay header#global .logo svg path {
+body.black header#global .logo svg path,
+body.no-overlay header#global .logo svg path,
+body.black-no-overlay header#global .logo svg path {
   fill: #1A1A1A;
 }
 
@@ -1061,7 +1065,6 @@ HERO STYLES
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: grayscale(100%);
 }
 .home .hero {
   display: flex;
@@ -1071,6 +1074,10 @@ HERO STYLES
 /************
 IMAGE STYLES
 ************/
+img.greyscale {
+  filter: grayscale(100%);
+}
+
 /************
 MISCELLANEOUS STYLES
 ************/

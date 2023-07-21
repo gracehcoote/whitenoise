@@ -1,4 +1,4 @@
-{% set title = entry.seoTitle ?? entry.title %}
+{% set title = entry.seoTitle ?? entry.pageTitle ?? entry.title %}
 {% set description = entry.seoDescription %}
 {% set pageOgImage = entry.ogImage.one() %}
 {% set globalOgImage = siteInfo.ogImage.one() %}

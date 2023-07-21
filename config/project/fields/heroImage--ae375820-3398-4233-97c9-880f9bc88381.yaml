@@ -2,7 +2,7 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: f8e8eec1-974e-4485-8dc8-e4cd25204baa # Common
 handle: heroImage
-instructions: 'Images are made greyscale automatically'
+instructions: null
 name: 'Hero Image'
 searchable: false
 settings:
@@ -12,7 +12,7 @@ settings:
   allowedKinds:
     - image
   branchLimit: null
-  defaultUploadLocationSource: 'volume:88345c9b-bba7-481d-b7be-a56f256bad79' # Uploads
+  defaultUploadLocationSource: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9' # Meta
   defaultUploadLocationSubpath: null
   localizeRelations: false
   maintainHierarchy: false
@@ -20,9 +20,9 @@ settings:
   minRelations: null
   previewMode: thumbs
   restrictFiles: true
-  restrictLocation: false
+  restrictLocation: true
   restrictedDefaultUploadSubpath: null
-  restrictedLocationSource: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9' # Meta
+  restrictedLocationSource: 'volume:88345c9b-bba7-481d-b7be-a56f256bad79' # Uploads
   restrictedLocationSubpath: null
   selectionCondition:
     __assoc__:
@@ -39,8 +39,7 @@ settings:
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
-  sources:
-    - 'volume:88345c9b-bba7-481d-b7be-a56f256bad79' # Uploads
+  sources: '*'
   targetSiteId: null
   validateRelatedElements: false
   viewMode: large

@@ -1,14 +1,29 @@
-dateApplied: '2023-07-20 08:23:47'
+dateApplied: '2023-07-21 07:29:31'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689866556
-        to: 1689866627
+        from: 1689949720
+        to: 1689949771
   -
-    message: 'Disable plugin “matrix-snap”'
+    added:
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.2.elementCondition: null
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.2.fieldUid: ae375820-3398-4233-97c9-880f9bc88381
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.2.instructions: null
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.2.label: null
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.2.required: false
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.2.tip: null
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.2.type: craft\fieldlayoutelements\CustomField
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.2.uid: e3a19ec1-9d95-4802-8fe0-3ba24ce13ff3
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.2.userCondition: null
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.2.warning: null
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.2.width: 100
+    message: 'Save entry type “work”'
     changed:
-      plugins.matrix-snap.enabled:
-        from: true
-        to: false
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.fieldUid:
+        from: ae375820-3398-4233-97c9-880f9bc88381
+        to: 4ee33dc6-65da-4bc3-8a64-ad85d9832bdf
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.uid:
+        from: e3a19ec1-9d95-4802-8fe0-3ba24ce13ff3
+        to: a734bfc6-4578-46b5-b2fa-cd8799e4a5f9

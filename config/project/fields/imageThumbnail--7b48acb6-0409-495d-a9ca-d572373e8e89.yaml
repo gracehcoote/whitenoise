@@ -2,7 +2,7 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: b6822878-090b-45fc-b637-6ccf6bed2f40 # Work
 handle: imageThumbnail
-instructions: 'Project with video thumbnails should also have an image uploaded for fallback and video poster image.'
+instructions: null
 name: 'Image Thumbnail'
 searchable: false
 settings:
@@ -36,7 +36,7 @@ settings:
         - class
         - craft\elements\conditions\assets\AssetCondition
   selectionLabel: 'Select an image'
-  showSiteMenu: false
+  showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   sources:

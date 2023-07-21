@@ -1,14 +1,52 @@
-dateApplied: '2023-07-20 08:29:32'
+dateApplied: '2023-07-21 07:32:25'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689866934
-        to: 1689866972
+        from: 1689949908
+        to: 1689949945
   -
     added:
-      plugins.cp-css.settings.additionalCss: "body.ltr .matrixblock > .titlebar > .preview {\r\n  display: none;\r\n}"
-      plugins.cp-css.settings.cacheBusting: true
-      plugins.cp-css.settings.cssFile: ''
-    message: 'Change settings for plugin “cp-css”'
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.allowSelfRelations: false
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.allowSubfolders: false
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.allowUploads: true
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.allowedKinds.0: image
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.branchLimit: null
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.defaultUploadLocationSource: null
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.defaultUploadLocationSubpath: null
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.localizeRelations: false
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.maintainHierarchy: false
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.maxRelations: 1
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.minRelations: null
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.previewMode: thumbs
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.restrictFiles: true
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.restrictLocation: true
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.restrictedDefaultUploadSubpath: null
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.restrictedLocationSource: 'volume:88345c9b-bba7-481d-b7be-a56f256bad79'
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.restrictedLocationSubpath: null
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.selectionCondition.__assoc__.0.0: elementType
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.selectionCondition.__assoc__.0.1: craft\elements\Asset
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.selectionCondition.__assoc__.1.0: fieldContext
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.selectionCondition.__assoc__.1.1: global
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.selectionCondition.__assoc__.2.0: class
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.selectionCondition.__assoc__.2.1: craft\elements\conditions\assets\AssetCondition
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.selectionLabel: 'Select an image'
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.showSiteMenu: true
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.showUnpermittedFiles: false
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.showUnpermittedVolumes: false
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.sources: '*'
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.targetSiteId: null
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.validateRelatedElements: false
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.viewMode: large
+    removed:
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.contentTable: '{{%matrixcontent_heroimage}}'
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.maxBlocks: 1
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.minBlocks: null
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.propagationKeyFormat: null
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.propagationMethod: all
+    message: 'Save field “heroImage”'
+    changed:
+      fields.ae375820-3398-4233-97c9-880f9bc88381.type:
+        from: craft\fields\Matrix
+        to: craft\fields\Assets

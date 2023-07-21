@@ -1,14 +1,22 @@
-dateApplied: '2023-07-20 08:31:29'
+dateApplied: '2023-07-21 07:33:34'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689867047
-        to: 1689867089
+        from: 1689950001
+        to: 1689950014
   -
-    message: 'Save field “contentBlocks”'
-    changed:
-      fields.2fb3dcfb-de61-404d-a714-a5cc5585bc1d.instructions:
-        from: null
-        to: 'Single click to select a block, double click to expand or collapse.'
+    added:
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.elementCondition: null
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.fieldUid: 000c4a94-5161-4498-89db-9414a8c6ed36
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.instructions: null
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.label: null
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.required: false
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.tip: null
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.type: craft\fieldlayoutelements\CustomField
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.uid: 2a376753-b925-43d7-8f0a-6e235cbec7a4
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.userCondition: null
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.warning: null
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.width: 100
+    message: 'Save entry type “work”'

@@ -1,0 +1,14 @@
+columnSuffix: eqnnyiwq
+contentColumnType: boolean
+fieldGroup: f8e8eec1-974e-4485-8dc8-e4cd25204baa # Common
+handle: greyscaleImage
+instructions: 'This will make your hero image greyscale (or Image thumbnail if no hero image is selected).'
+name: 'Greyscale Image'
+searchable: false
+settings:
+  default: false
+  offLabel: 'No'
+  onLabel: 'Yes'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

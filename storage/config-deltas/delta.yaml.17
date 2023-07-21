@@ -1,14 +1,20 @@
-dateApplied: '2023-07-20 08:28:54'
+dateApplied: '2023-07-21 07:31:48'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689866627
-        to: 1689866934
+        from: 1689949771
+        to: 1689949908
   -
-    added:
-      plugins.cp-css.edition: standard
-      plugins.cp-css.enabled: true
-      plugins.cp-css.schemaVersion: 2.0.0
-    message: 'Install plugin “cp-css”'
+    message: 'Save matrix block type “heroImage” for parent field “heroImage”'
+    changed:
+      matrixBlockTypes.3bc252f4-632a-4520-bb75-a3bea8eb012a.fields.1a647170-6b92-46d3-a5af-91b1883af9f0.settings.showSiteMenu:
+        from: false
+        to: true
+  -
+    message: 'Save field “heroImage”'
+    changed:
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.maxBlocks:
+        from: 0
+        to: 1

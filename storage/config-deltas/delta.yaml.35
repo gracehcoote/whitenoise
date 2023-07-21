@@ -1,96 +1,51 @@
-dateApplied: '2023-07-20 06:40:33'
+dateApplied: '2023-07-21 07:19:17'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689859898
-        to: 1689860433
-  -
-    removed:
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fieldLayouts.a48b26f6-f88f-47f6-a6b4-3ef6029e1ebe.tabs.0.elements.2.elementCondition: null
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fieldLayouts.a48b26f6-f88f-47f6-a6b4-3ef6029e1ebe.tabs.0.elements.2.fieldUid: 27f6f607-d6b3-4571-8764-4e16a46f960b
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fieldLayouts.a48b26f6-f88f-47f6-a6b4-3ef6029e1ebe.tabs.0.elements.2.instructions: null
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fieldLayouts.a48b26f6-f88f-47f6-a6b4-3ef6029e1ebe.tabs.0.elements.2.label: null
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fieldLayouts.a48b26f6-f88f-47f6-a6b4-3ef6029e1ebe.tabs.0.elements.2.required: false
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fieldLayouts.a48b26f6-f88f-47f6-a6b4-3ef6029e1ebe.tabs.0.elements.2.tip: null
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fieldLayouts.a48b26f6-f88f-47f6-a6b4-3ef6029e1ebe.tabs.0.elements.2.type: craft\fieldlayoutelements\CustomField
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fieldLayouts.a48b26f6-f88f-47f6-a6b4-3ef6029e1ebe.tabs.0.elements.2.uid: 9c08148b-2b52-4787-9845-fce0f5c916fd
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fieldLayouts.a48b26f6-f88f-47f6-a6b4-3ef6029e1ebe.tabs.0.elements.2.userCondition: null
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fieldLayouts.a48b26f6-f88f-47f6-a6b4-3ef6029e1ebe.tabs.0.elements.2.warning: null
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fieldLayouts.a48b26f6-f88f-47f6-a6b4-3ef6029e1ebe.tabs.0.elements.2.width: 50
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.27f6f607-d6b3-4571-8764-4e16a46f960b.columnSuffix: ytcuvxtc
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.27f6f607-d6b3-4571-8764-4e16a46f960b.contentColumnType: text
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.27f6f607-d6b3-4571-8764-4e16a46f960b.fieldGroup: null
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.27f6f607-d6b3-4571-8764-4e16a46f960b.handle: videoEmbed
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.27f6f607-d6b3-4571-8764-4e16a46f960b.instructions: "Select **either** Video File or Video Embed. \r\nUse this field to add either a YouTube or Vimeo video. Please note that controls such as play button etc will not be custom if using this option."
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.27f6f607-d6b3-4571-8764-4e16a46f960b.name: 'Video Embed'
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.27f6f607-d6b3-4571-8764-4e16a46f960b.searchable: false
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.27f6f607-d6b3-4571-8764-4e16a46f960b.settings.byteLimit: null
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.27f6f607-d6b3-4571-8764-4e16a46f960b.settings.charLimit: null
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.27f6f607-d6b3-4571-8764-4e16a46f960b.settings.code: false
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.27f6f607-d6b3-4571-8764-4e16a46f960b.settings.columnType: null
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.27f6f607-d6b3-4571-8764-4e16a46f960b.settings.initialRows: 4
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.27f6f607-d6b3-4571-8764-4e16a46f960b.settings.multiline: false
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.27f6f607-d6b3-4571-8764-4e16a46f960b.settings.placeholder: null
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.27f6f607-d6b3-4571-8764-4e16a46f960b.settings.uiMode: normal
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.27f6f607-d6b3-4571-8764-4e16a46f960b.translationKeyFormat: null
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.27f6f607-d6b3-4571-8764-4e16a46f960b.translationMethod: none
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.27f6f607-d6b3-4571-8764-4e16a46f960b.type: craft\fields\PlainText
-    message: 'Save matrix block type “videoUpload” for parent field “contentBlocks”'
-    changed:
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.9794a518-fb48-48da-ac7d-b4b99fb966ad.settings.options.0.__assoc__.2.1:
-        from: 1
-        to: '1'
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.9794a518-fb48-48da-ac7d-b4b99fb966ad.settings.options.1.__assoc__.2.1:
-        from: null
-        to: ''
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.handle:
-        from: video
-        to: videoUpload
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.name:
-        from: Video
-        to: 'Video (upload)'
+        from: 1689949119
+        to: 1689949155
   -
     added:
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.field: 2fb3dcfb-de61-404d-a714-a5cc5585bc1d
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elementCondition: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.0.elementCondition: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.0.fieldUid: a392aaa4-4e63-4a27-94a2-cfb9b0bd1684
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.0.instructions: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.0.label: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.0.required: false
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.0.tip: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.0.type: craft\fieldlayoutelements\CustomField
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.0.uid: a624175c-bae9-42af-bfd1-d394797069a3
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.0.userCondition: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.0.warning: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.0.width: 100
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.name: Content
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.uid: 86146a9d-7235-4070-8f01-c6e22e704c5a
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.userCondition: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.columnSuffix: rqroggpi
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.contentColumnType: string
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.fieldGroup: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.handle: blockWidth
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.instructions: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.name: 'Block Width'
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.searchable: false
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.translationKeyFormat: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.translationMethod: none
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.type: craft\fields\RadioButtons
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.handle: videoEmbed
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.name: 'Video (embed)'
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.sortOrder: 9
-    message: 'Save matrix block type “videoEmbed” for parent field “contentBlocks”'
-  -
-    changed:
-      meta.__names__.e203826d-16fa-45ed-9c14-78c4c523915f:
-        from: Video
-        to: 'Video (upload)'
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.defaultPlacement: end
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elementCondition: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.autocapitalize: true
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.autocomplete: false
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.autocorrect: true
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.class: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.disabled: false
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.elementCondition: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.id: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.instructions: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.label: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.max: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.min: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.name: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.orientation: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.placeholder: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.readonly: false
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.requirable: false
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.size: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.step: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.tip: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.title: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.type: craft\fieldlayoutelements\TitleField
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.uid: 4e3e0b03-ad8a-422a-b932-0475eb3dcace
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.userCondition: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.warning: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.width: 100
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.name: Content
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.uid: d7dbab7a-eebd-47ef-9dd0-60643925894b
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.userCondition: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.handle: newsroomCategories
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.name: 'Newsroom Categories'
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.hasUrls: true
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.template: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.uriFormat: 'newsroom/{slug}'
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.structure.maxLevels: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.structure.uid: 7b5a901a-5ac0-4f77-ac1f-d63740f997bf
+    message: 'Save category group “newsroomCategories”'
   -
     added:
-      meta.__names__.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e: 'Video (embed)'
-  -
-    added:
-      meta.__names__.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684: 'Block Width'
+      meta.__names__.67a7b2dc-406c-4fce-8de7-33f2740de892: 'Newsroom Categories'

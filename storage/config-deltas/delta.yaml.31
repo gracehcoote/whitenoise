@@ -1,55 +1,36 @@
-dateApplied: '2023-07-20 06:41:06'
+dateApplied: '2023-07-21 07:20:31'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689860433
-        to: 1689860466
+        from: 1689949158
+        to: 1689949230
   -
     added:
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.1.elementCondition: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.1.fieldUid: 463bfb9d-3f36-49ce-b8cc-485d9e11122d
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.1.instructions: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.1.label: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.1.required: true
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.1.tip: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.1.type: craft\fieldlayoutelements\CustomField
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.1.uid: 614b9b06-d83c-4447-bb86-2a7eced2f33e
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.1.userCondition: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.1.warning: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fieldLayouts.50c53640-ea16-40dc-abca-79f4ea56244d.tabs.0.elements.1.width: 100
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.463bfb9d-3f36-49ce-b8cc-485d9e11122d.columnSuffix: lgwocupq
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.463bfb9d-3f36-49ce-b8cc-485d9e11122d.contentColumnType: text
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.463bfb9d-3f36-49ce-b8cc-485d9e11122d.fieldGroup: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.463bfb9d-3f36-49ce-b8cc-485d9e11122d.handle: embedCode
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.463bfb9d-3f36-49ce-b8cc-485d9e11122d.instructions: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.463bfb9d-3f36-49ce-b8cc-485d9e11122d.name: 'Embed code'
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.463bfb9d-3f36-49ce-b8cc-485d9e11122d.searchable: false
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.463bfb9d-3f36-49ce-b8cc-485d9e11122d.settings.byteLimit: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.463bfb9d-3f36-49ce-b8cc-485d9e11122d.settings.charLimit: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.463bfb9d-3f36-49ce-b8cc-485d9e11122d.settings.code: false
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.463bfb9d-3f36-49ce-b8cc-485d9e11122d.settings.columnType: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.463bfb9d-3f36-49ce-b8cc-485d9e11122d.settings.initialRows: 4
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.463bfb9d-3f36-49ce-b8cc-485d9e11122d.settings.multiline: false
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.463bfb9d-3f36-49ce-b8cc-485d9e11122d.settings.placeholder: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.463bfb9d-3f36-49ce-b8cc-485d9e11122d.settings.uiMode: normal
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.463bfb9d-3f36-49ce-b8cc-485d9e11122d.translationKeyFormat: null
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.463bfb9d-3f36-49ce-b8cc-485d9e11122d.translationMethod: none
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.463bfb9d-3f36-49ce-b8cc-485d9e11122d.type: craft\fields\PlainText
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.settings.options.0.__assoc__.0.0: label
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.settings.options.0.__assoc__.0.1: 'Full width'
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.settings.options.0.__assoc__.1.0: value
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.settings.options.0.__assoc__.1.1: fullWidth
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.settings.options.0.__assoc__.2.0: default
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.settings.options.0.__assoc__.2.1: '1'
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.settings.options.1.__assoc__.0.0: label
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.settings.options.1.__assoc__.0.1: Contained
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.settings.options.1.__assoc__.1.0: value
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.settings.options.1.__assoc__.1.1: contained
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.settings.options.1.__assoc__.2.0: default
-      matrixBlockTypes.5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e.fields.a392aaa4-4e63-4a27-94a2-cfb9b0bd1684.settings.options.1.__assoc__.2.1: ''
-    message: 'Save matrix block type “videoEmbed” for parent field “contentBlocks”'
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.columnSuffix: null
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.contentColumnType: string
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.fieldGroup: f8e8eec1-974e-4485-8dc8-e4cd25204baa
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.handle: category
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.instructions: null
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.name: Category
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.searchable: false
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.allowSelfRelations: false
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.branchLimit: null
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.localizeRelations: false
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.maintainHierarchy: false
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.maxRelations: null
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.minRelations: null
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.selectionLabel: null
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.showSiteMenu: false
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.source: 'group:67a7b2dc-406c-4fce-8de7-33f2740de892'
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.targetSiteId: null
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.validateRelatedElements: false
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.viewMode: null
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.translationKeyFormat: null
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.translationMethod: site
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.type: craft\fields\Categories
+    message: 'Save field “category”'
   -
     added:
-      meta.__names__.463bfb9d-3f36-49ce-b8cc-485d9e11122d: 'Embed code'
+      meta.__names__.377e4815-2d50-4422-8079-ef03bd4ea6a9: Category

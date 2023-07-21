@@ -1,14 +1,15 @@
-dateApplied: '2023-07-20 06:30:45'
+dateApplied: '2023-07-21 07:18:39'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689859584
-        to: 1689859845
+        from: 1689949113
+        to: 1689949119
   -
-    added:
-      plugins.matrixmate.edition: standard
-      plugins.matrixmate.enabled: true
-      plugins.matrixmate.schemaVersion: 1.0.0
-    message: 'Install plugin “matrixmate”'
+    removed:
+      fieldGroups.bf10e38a-a92b-4155-95f5-2efc9649e03d.name: Category
+    message: 'Delete the “Category” field group'
+  -
+    removed:
+      meta.__names__.bf10e38a-a92b-4155-95f5-2efc9649e03d: Category

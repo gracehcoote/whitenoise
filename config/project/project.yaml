@@ -1,4 +1,4 @@
-dateModified: 1689867811
+dateModified: 1689952715
 elementSources:
   craft\elements\Entry:
     -
@@ -53,18 +53,22 @@ fs:
     url: '@web/assets/cms/videos'
 meta:
   __names__:
+    000c4a94-5161-4498-89db-9414a8c6ed36: 'Greyscale Image' # Greyscale Image
     0f6d19b5-6f16-45c3-aa26-37159d9c4ba3: 'Favicon 36x36' # Favicon 36x36
     0f8100aa-dfeb-4c7a-a612-34bcba4bf7d2: 'Newsroom Articles' # Newsroom Articles
     0f735174-35bc-45bd-971e-300c7e9cd70e: Statistics # Statistics
+    1a647170-6b92-46d3-a5af-91b1883af9f0: Image # Image
     2d5a07da-da97-4edf-89e7-536ff13bb1cd: 'Email Address' # Email Address
     2dd14558-c290-4b79-a4af-255dd2064f55: 'Block Background Colour' # Block Background Colour
     2fb3dcfb-de61-404d-a714-a5cc5585bc1d: 'Content Blocks' # Content Blocks
     3b22405f-25c4-4f1c-88a6-76cbbdff664c: TikTok # TikTok
+    3bc252f4-632a-4520-bb75-a3bea8eb012a: 'Hero Image' # Hero Image
     3c451390-36bf-41a6-910d-d4eaa3522dba: 'Theme Colour' # Theme Colour
     3f4faf43-dd6f-4014-9d64-8e145bb17352: 'Thumb 960 x 540' # Thumb 960 x 540
     3f57fe1a-2538-4db3-976c-a42769a21b7a: YouTube # YouTube
     4af96521-49a1-4757-8b37-7a72e5763e1f: Address # Address
     4c1526fd-e9b3-4e82-8f78-71a7c5496542: 'Block Background Colour' # Block Background Colour
+    4ee33dc6-65da-4bc3-8a64-ad85d9832bdf: 'Page Title' # Page Title
     4f7797e5-910f-4536-9243-f9c5cfcda4d5: Instagram # Instagram
     5b7711cc-caf3-471b-a459-8815f72b1376: Statistic # Statistic
     5ccaadee-7b10-480c-882e-ed56169d88b0: Images # Images
@@ -72,6 +76,7 @@ meta:
     6b2a9aec-c384-408b-946c-3cbaba877529: 'Redirect to First Child Page' # Redirect to First Child Page
     6bf02326-b759-447d-bc08-0892b1fd65b7: 'Favicon 152x152' # Favicon 152x152
     6c273e0a-2f13-4c11-a6b7-fdd82aa39566: 'Text (Single Column)' # Text (Single Column)
+    6ca82952-fe83-4353-84c2-279fa6562e6c: 'Header Colour' # Header Colour
     006e61d0-26c0-4fb2-8bcd-ed60efa1e12e: 'Block Background Colour' # Block Background Colour
     7b48acb6-0409-495d-a9ca-d572373e8e89: 'Image Thumbnail' # Image Thumbnail
     7bee1e32-7f18-4448-95ee-9cfc3b0ed3db: 'Block Width' # Block Width
@@ -97,11 +102,13 @@ meta:
     56f30d52-cee5-4f1a-b135-27ad8bbe2ad9: Meta # Meta
     62f1186e-e262-46b5-93a1-81ed960fc6a3: Facebook # Facebook
     63b249c2-c5f1-47b9-b7ec-7d80d06bec66: 'Text (Double Column)' # Text (Double Column)
+    67a7b2dc-406c-4fce-8de7-33f2740de892: 'Newsroom Categories' # Newsroom Categories
     70d15b4f-fa51-414d-9d0e-372db863492e: Images # Images
     78b7ec25-ca51-442f-81b1-516f79f96d66: Image(s) # Image(s)
     95e390a4-38aa-4707-85aa-975f59abc835: 'Right column text' # Right column text
     124ff1fb-e849-4d19-9f06-1ca2cf7bc8b3: 'Block Background Colour' # Block Background Colour
     225d43ff-b622-4780-8602-22940bb83e3e: 'OG Image' # OG Image
+    377e4815-2d50-4422-8079-ef03bd4ea6a9: Category # Category
     463bfb9d-3f36-49ce-b8cc-485d9e11122d: 'Embed code' # Embed code
     537e669b-1f9a-48d9-b740-bf2920a1f4b5: Project # Project
     721c991d-83b0-44ba-87e5-feaf81b49043: Page # Page
@@ -119,6 +126,7 @@ meta:
     6062bc9a-a4e5-4395-9fc7-823621507cec: 'Craft Base' # Craft Base
     8728a9f7-bd9c-4bd8-b47d-c25c941ba8af: Vimeo # Vimeo
     9794a518-fb48-48da-ac7d-b4b99fb966ad: 'Block Width' # Block Width
+    47055c18-ba46-4bb5-b886-7609129c8ab3: Greyscale # Greyscale
     88345c9b-bba7-481d-b7be-a56f256bad79: Uploads # Uploads
     132246f9-c0e6-4f99-a712-62365f4bf939: Videos # Videos
     472533a5-38cd-464c-bd82-10d58ab4079a: LinkedIn # LinkedIn

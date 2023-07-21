@@ -1,12 +1,32 @@
-dateApplied: '2023-07-20 08:22:36'
+dateApplied: '2023-07-21 07:28:42'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689866551
-        to: 1689866556
+        from: 1689949666
+        to: 1689949720
   -
     added:
-      plugins.matrix-snap.licenseKey: FWOMJ6QQ5WC5N00NPRQH794U
-    message: 'Set license key for plugin “matrix-snap”'
+      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.columnSuffix: ehovtocs
+      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.contentColumnType: text
+      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.fieldGroup: f8e8eec1-974e-4485-8dc8-e4cd25204baa
+      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.handle: pageTitle
+      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.instructions: 'This only affects the H1 (main heading) of the page and will not change the URL.'
+      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.name: 'Page Title'
+      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.searchable: false
+      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.settings.byteLimit: null
+      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.settings.charLimit: null
+      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.settings.code: false
+      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.settings.columnType: null
+      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.settings.initialRows: 4
+      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.settings.multiline: false
+      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.settings.placeholder: null
+      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.settings.uiMode: normal
+      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.translationKeyFormat: null
+      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.translationMethod: none
+      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.type: craft\fields\PlainText
+    message: 'Save field “pageTitle”'
+  -
+    added:
+      meta.__names__.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf: 'Page Title'

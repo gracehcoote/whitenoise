@@ -77,8 +77,8 @@ ul.crumbs {
   }
 }
 
-.no-overlay,
-.dark-no-overlay {
+body.no-overlay,
+body.black-no-overlay {
   header#global {
     .navigation-bar {
       position: relative;
@@ -90,8 +90,9 @@ nav#global {
   z-index: 98;
 }
 
-.no-overlay,
-.dark-no-overlay {
+body.black,
+body.no-overlay,
+body.black-no-overlay {
   header#global {
     .toggle-nav:not(.active) {
       .burger {

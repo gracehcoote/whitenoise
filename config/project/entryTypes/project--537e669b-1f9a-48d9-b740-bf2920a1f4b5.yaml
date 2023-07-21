@@ -5,6 +5,23 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            elementCondition: null
+            fieldUid: 6ca82952-fe83-4353-84c2-279fa6562e6c # Header Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 122f885b-ff7c-497b-afb6-d61e9c8756d4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: de2a8c6a-c257-4a28-962d-4a99af299c0b
+            userCondition: null
+          -
             autocapitalize: true
             autocomplete: false
             autocorrect: true
@@ -45,7 +62,7 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 7b48acb6-0409-495d-a9ca-d572373e8e89 # Image Thumbnail
-            instructions: null
+            instructions: 'Project with video thumbnails should also have an image uploaded for fallback and video poster image.'
             label: null
             required: true
             tip: null
@@ -75,12 +92,24 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: ae375820-3398-4233-97c9-880f9bc88381 # Hero Image
-            instructions: null
+            instructions: 'Uses Image Thumbnail by dafault if nothing uploaded here.'
             label: null
-            required: true
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: f8f0b0ef-57d7-43cb-ae8c-559fb5d15b40
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 000c4a94-5161-4498-89db-9414a8c6ed36 # Greyscale Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 34488d1b-11bf-41f6-85e7-8b4d9dd60b1d
             userCondition: null
             warning: null
             width: 100

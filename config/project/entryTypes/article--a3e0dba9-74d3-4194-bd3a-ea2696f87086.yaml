@@ -5,6 +5,23 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            elementCondition: null
+            fieldUid: 6ca82952-fe83-4353-84c2-279fa6562e6c # Header Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0db2f328-dafa-4694-8852-1d482961b991
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: ef52fb46-3607-4265-8f32-a6c16c6d509e
+            userCondition: null
+          -
             autocapitalize: true
             autocomplete: false
             autocorrect: true
@@ -45,12 +62,24 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 7b48acb6-0409-495d-a9ca-d572373e8e89 # Image Thumbnail
+            instructions: ' '
+            label: Thumbnail
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7abf7298-82c3-4fa6-88aa-7b86a270f1a4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 377e4815-2d50-4422-8079-ef03bd4ea6a9 # Category
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 7abf7298-82c3-4fa6-88aa-7b86a270f1a4
+            uid: 70af4449-605d-4051-8c4c-a166cdc9045b
             userCondition: null
             warning: null
             width: 100
@@ -63,12 +92,24 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: ae375820-3398-4233-97c9-880f9bc88381 # Hero Image
-            instructions: null
+            instructions: 'Uses Image Thumbnail by dafault if nothing is uploaded here.'
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 43c05c3b-4c3d-4337-8e40-11caab81c249
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 000c4a94-5161-4498-89db-9414a8c6ed36 # Greyscale Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3b7fe1c3-cc20-453c-bbf4-acc3449256b8
             userCondition: null
             warning: null
             width: 100

@@ -1,27 +1,22 @@
-dateApplied: '2023-07-20 08:08:50'
+dateApplied: '2023-07-21 07:27:46'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689865219
-        to: 1689865730
+        from: 1689949598
+        to: 1689949666
   -
     added:
-      elementSources.craft\elements\Entry.0.key: '*'
-      elementSources.craft\elements\Entry.0.type: native
-      elementSources.craft\elements\Entry.1.key: singles
-      elementSources.craft\elements\Entry.1.type: native
-      elementSources.craft\elements\Entry.2.heading: Structures
-      elementSources.craft\elements\Entry.2.type: heading
-      elementSources.craft\elements\Entry.3.key: 'section:e5f1c294-aa5c-4406-a9a3-d5a067e2efc0'
-      elementSources.craft\elements\Entry.3.type: native
-      elementSources.craft\elements\Entry.4.defaultSort.0: structure
-      elementSources.craft\elements\Entry.4.defaultSort.1: asc
-      elementSources.craft\elements\Entry.4.disabled: false
-      elementSources.craft\elements\Entry.4.key: 'section:8b8e90e2-3152-4e63-8145-70715f8d6116'
-      elementSources.craft\elements\Entry.4.tableAttributes.0: dateCreated
-      elementSources.craft\elements\Entry.4.tableAttributes.1: dateUpdated
-      elementSources.craft\elements\Entry.4.tableAttributes.2: slug
-      elementSources.craft\elements\Entry.4.tableAttributes.3: link
-      elementSources.craft\elements\Entry.4.type: native
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.elementCondition: null
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.fieldUid: ae375820-3398-4233-97c9-880f9bc88381
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.instructions: null
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.label: null
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.required: false
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.tip: null
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.type: craft\fieldlayoutelements\CustomField
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.uid: e3a19ec1-9d95-4802-8fe0-3ba24ce13ff3
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.userCondition: null
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.warning: null
+      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.width: 100
+    message: 'Save entry type “work”'

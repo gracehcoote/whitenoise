@@ -1,23 +1,17 @@
-dateApplied: '2023-07-20 06:42:07'
+dateApplied: '2023-07-21 07:22:28'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689860466
-        to: 1689860526
+        from: 1689949245
+        to: 1689949348
   -
-    message: 'Save matrix block type “videoUpload” for parent field “contentBlocks”'
+    message: 'Save entry type “article”'
     changed:
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fieldLayouts.a48b26f6-f88f-47f6-a6b4-3ef6029e1ebe.tabs.0.elements.1.required:
-        from: false
-        to: true
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.9794a518-fb48-48da-ac7d-b4b99fb966ad.settings.options.0.__assoc__.2.1:
-        from: 1
-        to: '1'
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.9794a518-fb48-48da-ac7d-b4b99fb966ad.settings.options.1.__assoc__.2.1:
+      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.0.elements.2.instructions:
         from: null
-        to: ''
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.d37dbdf3-6a11-47f1-b913-e2114f3f3191.instructions:
-        from: "Select **either** Video File or Video Embed. \r\nUse this field to upload your own video file. "
-        to: null
+        to: ' '
+      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.0.elements.2.label:
+        from: null
+        to: Thumbnail

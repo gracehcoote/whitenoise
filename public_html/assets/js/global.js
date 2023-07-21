@@ -11,6 +11,7 @@ jQuery(document).ready(function(){
     jQuery('body').toggleClass('active');
     jQuery('.navigation-bar').toggleClass('fixed');
     jQuery('nav#global').toggleClass('active');
+    
     setTimeout(function () {
       $('ul.nav').toggleClass('active');
       $('.info-wrap').toggleClass('active');
@@ -41,10 +42,10 @@ jQuery(document).ready(function(){
   var halfway = $(window).height()/3;
 
   if (footerPos <= halfway) {
-    $('header#global .navigation-bar').fadeOut();
+    //$('header#global .navigation-bar').fadeOut();
     $('footer#global-footer .navigation-bar').fadeIn();
   } else {
-    $('header#global .navigation-bar').fadeIn();
+    //$('header#global .navigation-bar').fadeIn();
     $('footer#global-footer .navigation-bar').fadeOut();
   }
 
@@ -54,16 +55,17 @@ jQuery(document).ready(function(){
     var halfway = $(window).height()/3;
 
     if (footerPos <= halfway) {
-      $('header#global .navigation-bar').fadeOut();
+      //$('header#global .navigation-bar').fadeOut();
       $('footer#global-footer .navigation-bar').fadeIn();
     } else {
-      $('header#global .navigation-bar').fadeIn();
+      //$('header#global .navigation-bar').fadeIn();
       $('footer#global-footer .navigation-bar').fadeOut();
     }
   });
 
   // Scroll top when using footer navigation
   $('footer#global-footer .toggle-nav').click(function(){
+    $('header#global .navigation-bar').fadeToggle();
     $('html, body').animate({
       scrollTop: $('footer#global-footer').offset().top
     }, 'slow');

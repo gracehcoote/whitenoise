@@ -16,7 +16,21 @@
     <h1>Work that works</h1>
   </div><!-- end section-container -->
 
-  <img class="background-image" src="{{ siteUrl }}assets/images/work-hero.jpg" alt="">
+  {% set heroImage = entry.heroImage.one() %}
+  <img 
+    class="background-image{% if entry.greyscaleImage %} greyscale{% endif %}" 
+    loading="lazy" 
+    src="{{ heroImage.url('thumb1920X1080') }}" 
+    alt="{{ heroImage.title }}" 
+    sizes="100vw" 
+    srcset="
+      {{ heroImage.url('thumb480X270') }} 480w,
+      {{ heroImage.url('thumb512X288') }} 512w,
+      {{ heroImage.url('thumb768X432') }} 768w,
+      {{ heroImage.url('thumb960X540') }} 960w,
+      {{ heroImage.url('thumb1280X720') }} 1280w,
+      {{ heroImage.url('thumb1920X1080') }} 1920w
+      ">
 </section>
 
 <section class="d-flex flex-wrap">
@@ -43,8 +57,8 @@
         {% endif %}
         
         <img 
-          src="{{ imageThumbnail.url('thumb1920X1080') }}" 
           loading="lazy" 
+          src="{{ imageThumbnail.url('thumb1920X1080') }}" 
           alt="{{ project.title }}" 
           sizes="100vw" 
           srcset="

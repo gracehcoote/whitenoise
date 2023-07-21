@@ -1,14 +1,17 @@
-dateApplied: '2023-07-20 08:32:35'
+dateApplied: '2023-07-21 07:34:57'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689867089
-        to: 1689867155
+        from: 1689950014
+        to: 1689950097
   -
-    message: 'Save field “contentBlocks”'
+    message: 'Save field “heroImage”'
     changed:
-      fields.2fb3dcfb-de61-404d-a714-a5cc5585bc1d.instructions:
-        from: 'Single click to select a block, double click to expand or collapse.'
-        to: "Single click to select a block, double click to expand or collapse.\r\nShift + click multiple blocks to batch expand/collapse etc.\r\n"
+      fields.ae375820-3398-4233-97c9-880f9bc88381.instructions:
+        from: 'Uses Image Thumbnail by dafault if nothing uploaded here.'
+        to: null
+      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.defaultUploadLocationSource:
+        from: null
+        to: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'

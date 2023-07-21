@@ -1,0 +1,46 @@
+defaultPlacement: end
+fieldLayouts:
+  6d98c45b-6bce-494d-b99d-c0a1de2dda3f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 4e3e0b03-ad8a-422a-b932-0475eb3dcace
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d7dbab7a-eebd-47ef-9dd0-60643925894b
+        userCondition: null
+handle: newsroomCategories
+name: 'Newsroom Categories'
+siteSettings:
+  dbb4a582-e95f-47f0-bc3e-7a176a701c48: # Craft Base
+    hasUrls: true
+    template: null
+    uriFormat: 'newsroom/{slug}'
+structure:
+  maxLevels: null
+  uid: 7b5a901a-5ac0-4f77-ac1f-d63740f997bf

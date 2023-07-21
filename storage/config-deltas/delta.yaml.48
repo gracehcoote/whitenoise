@@ -1,26 +1,22 @@
-dateApplied: '2023-07-19 04:56:18'
+dateApplied: '2023-07-20 08:39:53'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689767734
-        to: 1689767777
+        from: 1689867348
+        to: 1689867592
   -
-    message: 'Save matrix block type “video” for parent field “contentBlocks”'
+    message: 'Save section “newsroomArticles”'
     changed:
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fieldLayouts.a48b26f6-f88f-47f6-a6b4-3ef6029e1ebe.tabs.0.elements.1.width:
-        from: 50
-        to: 100
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fieldLayouts.a48b26f6-f88f-47f6-a6b4-3ef6029e1ebe.tabs.0.elements.2.width:
-        from: 50
-        to: 100
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.9794a518-fb48-48da-ac7d-b4b99fb966ad.settings.options.0.__assoc__.2.1:
-        from: 1
-        to: '1'
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.9794a518-fb48-48da-ac7d-b4b99fb966ad.settings.options.1.__assoc__.2.1:
-        from: null
-        to: ''
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.d37dbdf3-6a11-47f1-b913-e2114f3f3191.instructions:
-        from: 'Use this field to upload your own video file'
-        to: 'Select **either** Video File or Video Embed. Use this field to upload your own video file. '
+      sections.0f8100aa-dfeb-4c7a-a612-34bcba4bf7d2.handle:
+        from: newsroom
+        to: newsroomArticles
+      sections.0f8100aa-dfeb-4c7a-a612-34bcba4bf7d2.name:
+        from: Newsroom
+        to: 'Newsroom Articles'
+  -
+    changed:
+      meta.__names__.0f8100aa-dfeb-4c7a-a612-34bcba4bf7d2:
+        from: Newsroom
+        to: 'Newsroom Articles'

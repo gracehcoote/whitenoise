@@ -1,36 +1,51 @@
-dateApplied: '2023-07-20 06:31:39'
+dateApplied: '2023-07-21 07:19:15'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689859889
-        to: 1689859898
+        from: 1689949119
+        to: 1689949155
   -
     added:
-      matrixBlockTypes.a8e2e079-7f11-403c-b358-c93b93a0c992.fields.4c1526fd-e9b3-4e82-8f78-71a7c5496542.settings.options.1.__assoc__.0.0: label
-      matrixBlockTypes.a8e2e079-7f11-403c-b358-c93b93a0c992.fields.4c1526fd-e9b3-4e82-8f78-71a7c5496542.settings.options.1.__assoc__.0.1: Black
-      matrixBlockTypes.a8e2e079-7f11-403c-b358-c93b93a0c992.fields.4c1526fd-e9b3-4e82-8f78-71a7c5496542.settings.options.1.__assoc__.1.0: value
-      matrixBlockTypes.a8e2e079-7f11-403c-b358-c93b93a0c992.fields.4c1526fd-e9b3-4e82-8f78-71a7c5496542.settings.options.1.__assoc__.1.1: dark
-      matrixBlockTypes.a8e2e079-7f11-403c-b358-c93b93a0c992.fields.4c1526fd-e9b3-4e82-8f78-71a7c5496542.settings.options.1.__assoc__.2.0: default
-      matrixBlockTypes.a8e2e079-7f11-403c-b358-c93b93a0c992.fields.4c1526fd-e9b3-4e82-8f78-71a7c5496542.settings.options.1.__assoc__.2.1: ''
-    message: 'Save matrix block type “imageCarousel” for parent field “contentBlocks”'
-    changed:
-      matrixBlockTypes.a8e2e079-7f11-403c-b358-c93b93a0c992.fields.4c1526fd-e9b3-4e82-8f78-71a7c5496542.settings.options.0.__assoc__.2.1:
-        from: null
-        to: '1'
-      matrixBlockTypes.a8e2e079-7f11-403c-b358-c93b93a0c992.sortOrder:
-        from: 8
-        to: 7
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.defaultPlacement: end
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elementCondition: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.autocapitalize: true
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.autocomplete: false
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.autocorrect: true
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.class: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.disabled: false
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.elementCondition: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.id: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.instructions: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.label: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.max: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.min: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.name: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.orientation: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.placeholder: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.readonly: false
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.requirable: false
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.size: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.step: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.tip: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.title: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.type: craft\fieldlayoutelements\TitleField
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.uid: 4e3e0b03-ad8a-422a-b932-0475eb3dcace
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.userCondition: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.warning: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.elements.0.width: 100
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.name: Content
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.uid: d7dbab7a-eebd-47ef-9dd0-60643925894b
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.fieldLayouts.6d98c45b-6bce-494d-b99d-c0a1de2dda3f.tabs.0.userCondition: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.handle: newsroomCategories
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.name: 'Newsroom Categories'
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.hasUrls: true
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.template: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.uriFormat: 'newsroom/{slug}'
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.structure.maxLevels: null
+      categoryGroups.67a7b2dc-406c-4fce-8de7-33f2740de892.structure.uid: 7b5a901a-5ac0-4f77-ac1f-d63740f997bf
+    message: 'Save category group “newsroomCategories”'
   -
-    message: 'Save matrix block type “video” for parent field “contentBlocks”'
-    changed:
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.9794a518-fb48-48da-ac7d-b4b99fb966ad.settings.options.0.__assoc__.2.1:
-        from: 1
-        to: '1'
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.fields.9794a518-fb48-48da-ac7d-b4b99fb966ad.settings.options.1.__assoc__.2.1:
-        from: null
-        to: ''
-      matrixBlockTypes.e203826d-16fa-45ed-9c14-78c4c523915f.sortOrder:
-        from: 7
-        to: 8
+    added:
+      meta.__names__.67a7b2dc-406c-4fce-8de7-33f2740de892: 'Newsroom Categories'

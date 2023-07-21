@@ -1,26 +1,17 @@
-dateApplied: '2023-07-20 04:13:55'
+dateApplied: '2023-07-20 08:42:10'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689767826
-        to: 1689851635
+        from: 1689867706
+        to: 1689867730
   -
-    message: 'Save matrix block type “imageSlides” for parent field “contentBlocks”'
+    added:
+      sections.0f8100aa-dfeb-4c7a-a612-34bcba4bf7d2.structure.maxLevels: null
+      sections.0f8100aa-dfeb-4c7a-a612-34bcba4bf7d2.structure.uid: e4220f0a-b23e-40fe-a710-c1580375dd82
+    message: 'Save section “newsroomArticles”'
     changed:
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7bee1e32-7f18-4448-95ee-9cfc3b0ed3db.instructions:
-        from: null
-        to: 'This setting used with the Image Slides block will only have on effect on the Slideshow type. Carousel type will remain the same.'
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7bee1e32-7f18-4448-95ee-9cfc3b0ed3db.settings.options.0.__assoc__.2.1:
-        from: 1
-        to: '1'
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7bee1e32-7f18-4448-95ee-9cfc3b0ed3db.settings.options.1.__assoc__.2.1:
-        from: null
-        to: ''
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.d5a805fd-ad91-4501-b8d3-b8b1efada646.settings.options.0.__assoc__.2.1:
-        from: 1
-        to: '1'
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.d5a805fd-ad91-4501-b8d3-b8b1efada646.settings.options.1.__assoc__.2.1:
-        from: null
-        to: ''
+      sections.0f8100aa-dfeb-4c7a-a612-34bcba4bf7d2.type:
+        from: channel
+        to: structure
