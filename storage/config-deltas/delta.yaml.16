@@ -1,52 +1,21 @@
-dateApplied: '2023-07-21 07:32:25'
+dateApplied: '2023-07-26 16:28:49'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689949908
-        to: 1689949945
+        from: 1690385314
+        to: 1690385329
   -
     added:
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.allowSelfRelations: false
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.allowSubfolders: false
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.allowUploads: true
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.allowedKinds.0: image
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.branchLimit: null
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.defaultUploadLocationSource: null
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.defaultUploadLocationSubpath: null
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.localizeRelations: false
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.maintainHierarchy: false
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.maxRelations: 1
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.minRelations: null
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.previewMode: thumbs
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.restrictFiles: true
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.restrictLocation: true
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.restrictedDefaultUploadSubpath: null
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.restrictedLocationSource: 'volume:88345c9b-bba7-481d-b7be-a56f256bad79'
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.restrictedLocationSubpath: null
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.selectionCondition.__assoc__.0.0: elementType
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.selectionCondition.__assoc__.0.1: craft\elements\Asset
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.selectionCondition.__assoc__.1.0: fieldContext
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.selectionCondition.__assoc__.1.1: global
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.selectionCondition.__assoc__.2.0: class
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.selectionCondition.__assoc__.2.1: craft\elements\conditions\assets\AssetCondition
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.selectionLabel: 'Select an image'
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.showSiteMenu: true
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.showUnpermittedFiles: false
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.showUnpermittedVolumes: false
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.sources: '*'
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.targetSiteId: null
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.validateRelatedElements: false
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.viewMode: large
-    removed:
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.contentTable: '{{%matrixcontent_heroimage}}'
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.maxBlocks: 1
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.minBlocks: null
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.propagationKeyFormat: null
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.propagationMethod: all
-    message: 'Save field “heroImage”'
+      sites.dbb4a582-e95f-47f0-bc3e-7a176a701c48.enabled: true
+    message: 'Save the “default” site'
     changed:
-      fields.ae375820-3398-4233-97c9-880f9bc88381.type:
-        from: craft\fields\Matrix
-        to: craft\fields\Assets
+      sites.dbb4a582-e95f-47f0-bc3e-7a176a701c48.name:
+        from: 'Craft Base'
+        to: 'Whitenoise Studios'
+  -
+    changed:
+      meta.__names__.dbb4a582-e95f-47f0-bc3e-7a176a701c48:
+        from: 'Craft Base'
+        to: 'Whitenoise Studios'

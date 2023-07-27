@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: whoWeAre
+name: 'Who We Are'
+propagationMethod: all
+siteSettings:
+  dbb4a582-e95f-47f0-bc3e-7a176a701c48: # $DEFAULT_SITE_NAME
+    enabledByDefault: true
+    hasUrls: true
+    template: _singles/who-we-are.html
+    uriFormat: who-we-are
+type: single

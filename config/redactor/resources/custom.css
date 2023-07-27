@@ -66,4 +66,42 @@
   font-weight: 900;
 }
 
+/* Buttons */
+:root .redactor-styles a.btn {
+  border-radius: 6px;
+  border: none;
+  font-family: "Jeko", "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  background-color: #1A1A1A;
+  transition: all 1s;
+}
+.dark :root .redactor-styles a.btn {
+  color: #1A1A1A;
+  background-color: #fff;
+}
+:root .redactor-styles a.btn:hover {
+  box-shadow: inset 0px 0px 0px 200px #FFCD00;
+}
+
+:root .redactor-styles a.btn-outline {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px #1A1A1A;
+  color: #1A1A1A;
+}
+:root .redactor-styles a.btn-outline:hover {
+  box-shadow: inset 0px 0px 0px 100px #1A1A1A;
+  color: #fff;
+}
+.dark :root .redactor-styles a.btn-outline {
+  box-shadow: inset 0px 0px 0px 2px #fff;
+  color: #fff;
+}
+.dark :root .redactor-styles a.btn-outline:hover {
+  box-shadow: inset 0px 0px 0px 100px #fff;
+  color: #1A1A1A;
+}
+
 /*# sourceMappingURL=custom.css.map */

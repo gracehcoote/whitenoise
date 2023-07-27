@@ -1,17 +1,23 @@
-dateApplied: '2023-07-21 07:22:28'
+dateApplied: '2023-07-26 14:22:06'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689949245
-        to: 1689949348
+        from: 1690377463
+        to: 1690377726
   -
-    message: 'Save entry type “article”'
+    message: 'Change settings for plugin “freeform”'
     changed:
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.0.elements.2.instructions:
+      plugins.freeform.settings.allowFileTemplateEdit:
+        from: 1
+        to: '1'
+      plugins.freeform.settings.clientDigestRecipients:
         from: null
-        to: ' '
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.0.elements.2.label:
+        to: ''
+      plugins.freeform.settings.emailTemplateDirectory:
         from: null
-        to: Thumbnail
+        to: email-notifications
+      plugins.freeform.settings.sessionContextSecret:
+        from: null
+        to: ''

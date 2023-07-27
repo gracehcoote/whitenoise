@@ -1,27 +1,19 @@
-dateApplied: '2023-07-21 07:33:22'
+dateApplied: '2023-07-26 16:30:32'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689949945
-        to: 1689950001
+        from: 1690385329
+        to: 1690385432
   -
-    added:
-      fields.000c4a94-5161-4498-89db-9414a8c6ed36.columnSuffix: eqnnyiwq
-      fields.000c4a94-5161-4498-89db-9414a8c6ed36.contentColumnType: boolean
-      fields.000c4a94-5161-4498-89db-9414a8c6ed36.fieldGroup: f8e8eec1-974e-4485-8dc8-e4cd25204baa
-      fields.000c4a94-5161-4498-89db-9414a8c6ed36.handle: greyscaleImage
-      fields.000c4a94-5161-4498-89db-9414a8c6ed36.instructions: 'This will make your hero image greyscale (or Image thumbnail if no hero image is selected).'
-      fields.000c4a94-5161-4498-89db-9414a8c6ed36.name: 'Greyscale Image'
-      fields.000c4a94-5161-4498-89db-9414a8c6ed36.searchable: false
-      fields.000c4a94-5161-4498-89db-9414a8c6ed36.settings.default: false
-      fields.000c4a94-5161-4498-89db-9414a8c6ed36.settings.offLabel: 'No'
-      fields.000c4a94-5161-4498-89db-9414a8c6ed36.settings.onLabel: 'Yes'
-      fields.000c4a94-5161-4498-89db-9414a8c6ed36.translationKeyFormat: null
-      fields.000c4a94-5161-4498-89db-9414a8c6ed36.translationMethod: none
-      fields.000c4a94-5161-4498-89db-9414a8c6ed36.type: craft\fields\Lightswitch
-    message: 'Save field “greyscaleImage”'
+    message: 'Save the “default” site'
+    changed:
+      sites.dbb4a582-e95f-47f0-bc3e-7a176a701c48.name:
+        from: 'Whitenoise Studios'
+        to: $DEFAULT_SITE_NAME
   -
-    added:
-      meta.__names__.000c4a94-5161-4498-89db-9414a8c6ed36: 'Greyscale Image'
+    changed:
+      meta.__names__.dbb4a582-e95f-47f0-bc3e-7a176a701c48:
+        from: 'Whitenoise Studios'
+        to: $DEFAULT_SITE_NAME

@@ -1,20 +1,19 @@
-dateApplied: '2023-07-21 07:31:48'
+dateApplied: '2023-07-26 16:28:37'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689949771
-        to: 1689949908
+        from: 1690385295
+        to: 1690385314
   -
-    message: 'Save matrix block type “heroImage” for parent field “heroImage”'
+    message: 'Save the “Whitenoise Studios” site group'
     changed:
-      matrixBlockTypes.3bc252f4-632a-4520-bb75-a3bea8eb012a.fields.1a647170-6b92-46d3-a5af-91b1883af9f0.settings.showSiteMenu:
-        from: false
-        to: true
+      siteGroups.6062bc9a-a4e5-4395-9fc7-823621507cec.name:
+        from: 'Craft Base'
+        to: 'Whitenoise Studios'
   -
-    message: 'Save field “heroImage”'
     changed:
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.maxBlocks:
-        from: 0
-        to: 1
+      meta.__names__.6062bc9a-a4e5-4395-9fc7-823621507cec:
+        from: 'Craft Base'
+        to: 'Whitenoise Studios'

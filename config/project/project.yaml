@@ -1,4 +1,4 @@
-dateModified: 1689952715
+dateModified: 1690386260
 elementSources:
   craft\elements\Entry:
     -
@@ -25,11 +25,39 @@ elementSources:
         - slug
         - link
       type: native
+    -
+      heading: ''
+      type: heading
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:0f8100aa-dfeb-4c7a-a612-34bcba4bf7d2' # Newsroom Articles
+      tableAttributes:
+        - postDate
+        - dateCreated
+        - dateUpdated
+        - link
+        - 'field:377e4815-2d50-4422-8079-ef03bd4ea6a9' # Category
+        - uri
+      type: native
 email:
   fromEmail: me@gracecoote.co.uk
-  fromName: 'Craft Base'
+  fromName: 'Whitenoise Studios'
+  replyToEmail: null
+  template: null
+  transportSettings:
+    command: '/usr/sbin/sendmail -bs'
   transportType: craft\mail\transportadapters\Sendmail
 fs:
+  documents:
+    hasUrls: true
+    name: Documents
+    settings:
+      path: '@webroot/assets/cms/documents'
+    type: craft\fs\Local
+    url: '@web/assets/cms/documents'
   meta:
     hasUrls: true
     name: Meta
@@ -58,6 +86,7 @@ meta:
     0f8100aa-dfeb-4c7a-a612-34bcba4bf7d2: 'Newsroom Articles' # Newsroom Articles
     0f735174-35bc-45bd-971e-300c7e9cd70e: Statistics # Statistics
     1a647170-6b92-46d3-a5af-91b1883af9f0: Image # Image
+    2c12dea1-d691-474a-98f9-a94752fa65db: 'Link Button' # Link Button
     2d5a07da-da97-4edf-89e7-536ff13bb1cd: 'Email Address' # Email Address
     2dd14558-c290-4b79-a4af-255dd2064f55: 'Block Background Colour' # Block Background Colour
     2fb3dcfb-de61-404d-a714-a5cc5585bc1d: 'Content Blocks' # Content Blocks
@@ -66,8 +95,11 @@ meta:
     3c451390-36bf-41a6-910d-d4eaa3522dba: 'Theme Colour' # Theme Colour
     3f4faf43-dd6f-4014-9d64-8e145bb17352: 'Thumb 960 x 540' # Thumb 960 x 540
     3f57fe1a-2538-4db3-976c-a42769a21b7a: YouTube # YouTube
+    3f957332-91de-4931-b907-dd4e99714a3f: Form # Form
+    3fc83b9d-b21d-4bff-a4a1-17a7c3643393: 'Service Description' # Service Description
     4af96521-49a1-4757-8b37-7a72e5763e1f: Address # Address
     4c1526fd-e9b3-4e82-8f78-71a7c5496542: 'Block Background Colour' # Block Background Colour
+    4d66aaf5-ed97-45ab-8bbe-a33ec0a1ca67: 'Team Member' # Team Member
     4ee33dc6-65da-4bc3-8a64-ad85d9832bdf: 'Page Title' # Page Title
     4f7797e5-910f-4536-9243-f9c5cfcda4d5: Instagram # Instagram
     5b7711cc-caf3-471b-a459-8815f72b1376: Statistic # Statistic
@@ -89,8 +121,10 @@ meta:
     13be2e61-d618-4252-b6bb-59f5a19ed677: Newsroom # Newsroom
     14a88088-f556-42bf-976b-d48a31d3e122: Address # Address
     16bbca3c-0a97-487f-a802-b8eac447add5: 'Favicon 144x144' # Favicon 144x144
+    16f4f1fa-ceab-4aac-9c81-843936f84f39: Contact # Contact
     17a9a7b1-15f5-4e06-ab52-b257da65e4a1: 'Company name' # Company name
     017fdb0e-1650-4bed-aa88-2320f4c5101a: 'Block Background Colour' # Block Background Colour
+    25fd576e-d9c7-4c34-b7dc-c1ee788f86b9: 'What We Offer' # What We Offer
     27f6f607-d6b3-4571-8764-4e16a46f960b: 'Video Embed' # Video Embed
     30cc7a46-25b5-4389-8d03-63a08439e958: 'Block Background Colour' # Block Background Colour
     34a6fa50-a3fc-49eb-979d-fc3c712f45c7: 'Favicon SVG' # Favicon SVG
@@ -105,32 +139,44 @@ meta:
     67a7b2dc-406c-4fce-8de7-33f2740de892: 'Newsroom Categories' # Newsroom Categories
     70d15b4f-fa51-414d-9d0e-372db863492e: Images # Images
     78b7ec25-ca51-442f-81b1-516f79f96d66: Image(s) # Image(s)
+    90edb45c-e20e-485a-8dd5-2ea9d8e59a3e: 'Square Thumb 1080 x 1080' # Square Thumb 1080 x 1080
+    93fe13af-1afd-4b9a-89c7-9a4b0efece0c: Careers # Careers
     95e390a4-38aa-4707-85aa-975f59abc835: 'Right column text' # Right column text
     124ff1fb-e849-4d19-9f06-1ca2cf7bc8b3: 'Block Background Colour' # Block Background Colour
     225d43ff-b622-4780-8602-22940bb83e3e: 'OG Image' # OG Image
     377e4815-2d50-4422-8079-ef03bd4ea6a9: Category # Category
+    414f3452-9ee4-403d-b4ad-dd18bb777fb3: 'Team Member Image (weekday)' # Team Member Image (weekday)
+    446caed5-74b5-4b17-97ec-85a832af00a7: 'Equal Opportunities' # Equal Opportunities
     463bfb9d-3f36-49ce-b8cc-485d9e11122d: 'Embed code' # Embed code
     537e669b-1f9a-48d9-b740-bf2920a1f4b5: Project # Project
+    625cd463-ffb3-43a9-8c2e-f6836b9a4d62: 'Service Name' # Service Name
+    692e9ece-d442-4b7a-9214-f7ab2c88b3df: Services # Services
     721c991d-83b0-44ba-87e5-feaf81b49043: Page # Page
     756d642c-6246-4f4e-8537-32630250456f: 'Favicon 16x16' # Favicon 16x16
     812ed655-de97-4974-b556-2b648aa8d926: 'Google Maps Link' # Google Maps Link
     918a41b0-2cc1-4437-a0d9-20d8124c2318: 'Favicon .ico' # Favicon .ico
     1013d0af-42f2-4277-8692-ca5f66ef4588: 'SEO Description' # SEO Description
     1463eb46-b3bc-45c9-81a3-b89fcb1727aa: 'Thumb 512 x 288' # Thumb 512 x 288
+    1544ef0f-cf56-4850-a153-9b5bb47e6064: Documents # Documents
     1618d009-643f-4c8c-a421-cc3b3730bac6: Locations # Locations
     1983e86c-24df-47ad-b8e6-347b4fb66f50: 'Block Width' # Block Width
     2271f307-8c2f-4514-a1db-1ff4a135acf1: Text # Text
     3724a7d8-69f4-4e01-a414-e8be3d0abae0: Settings # Settings
     4179e405-630f-4c2b-ba32-66e421c7ad1f: Statement # Statement
+    04818a19-5400-4974-aa44-64e0ea7df6b7: 'Team Member Image (weekend)' # Team Member Image (weekend)
     5638a993-1e91-47fc-93a6-f7c52f789aae: Favicon # Favicon
-    6062bc9a-a4e5-4395-9fc7-823621507cec: 'Craft Base' # Craft Base
+    6062bc9a-a4e5-4395-9fc7-823621507cec: $DEFAULT_SITE_NAME # $DEFAULT_SITE_NAME
     8728a9f7-bd9c-4bd8-b47d-c25c941ba8af: Vimeo # Vimeo
+    9188a04c-dafe-4374-91d1-db40ef539de4: 'Team Member Role (weekday)' # Team Member Role (weekday)
     9794a518-fb48-48da-ac7d-b4b99fb966ad: 'Block Width' # Block Width
     47055c18-ba46-4bb5-b886-7609129c8ab3: Greyscale # Greyscale
     88345c9b-bba7-481d-b7be-a56f256bad79: Uploads # Uploads
     132246f9-c0e6-4f99-a712-62365f4bf939: Videos # Videos
+    344832ca-b0e9-43f5-8578-716c92e36c0c: 'Team Member Name' # Team Member Name
     472533a5-38cd-464c-bd82-10d58ab4079a: LinkedIn # LinkedIn
     558289e0-2263-4114-af78-ce71e894cf10: 'Favicon 180x180' # Favicon 180x180
+    25725436-bbad-4fde-b7bf-84f437f541ab: Careers # Careers
+    45014464-90a7-4681-bdda-9dc18da1e6d7: 'What We Do' # What We Do
     a0ad2a73-81a4-46fe-b8e7-6083409f70e5: 'Favicon 70x70' # Favicon 70x70
     a00b4dca-f148-4c1c-8106-496f60a0a78c: Newsroom # Newsroom
     a2c85f09-8bef-4517-8214-c3578c40e695: 'Block Title' # Block Title
@@ -144,6 +190,7 @@ meta:
     a392aaa4-4e63-4a27-94a2-cfb9b0bd1684: 'Block Width' # Block Width
     a921cdce-e756-481c-8aac-32ac9dfcd203: Location # Location
     a43126cb-dffe-46f6-b313-3aed439853e8: Home # Home
+    ab5a94a3-2466-4c96-8ae4-0d3df02c94aa: 'Download Button' # Download Button
     ae6c3077-031b-4b16-9ed8-f18ce2d83770: 'Site Info' # Site Info
     ae375820-3398-4233-97c9-880f9bc88381: 'Hero Image' # Hero Image
     b4f2bb50-338e-4111-8725-f254bc3b87b0: Statistic # Statistic
@@ -153,12 +200,15 @@ meta:
     bc7dee95-9e7b-471a-9e0b-7774fffe011c: 'Block Background Colour' # Block Background Colour
     bd6955ac-0003-4c1c-855f-6986ed631bc4: 'Telephone Number' # Telephone Number
     c0a664fa-02e9-49fc-9a02-c55cf19ba5ca: 'Phone Number' # Phone Number
+    c02d89a3-c669-4c7c-a126-bc51c853145a: 'What We Do' # What We Do
     c7bbf02b-9a9d-47d2-acd0-5548c7e59e93: 'Favicon 120x120' # Favicon 120x120
     c9a82cb7-7e57-4b48-aa3f-09cea62cacc3: 'Show in footer navigation' # Show in footer navigation
     c12d1e3d-e58f-4496-92e0-d181974b2db9: 'Block Background Colour' # Block Background Colour
     c39129fa-e86f-49ce-9bcf-bf1043c6ed94: 'Suggested Projects' # Suggested Projects
     c9747613-724c-481e-b4ac-2cf6fb4c8c72: Pinterest # Pinterest
     cbb11be7-7020-4487-a344-b7f5808868ad: 'Thumb 1920 x 1080' # Thumb 1920 x 1080
+    ccdedfbc-ec18-497e-a755-2398cc5bedf5: Careers # Careers
+    cec03b03-7afe-4c55-b93d-3de5f34dd6ff: Contact # Contact
     cecf5c92-7e2f-46fa-a2bf-8334c0c84de4: 'Favicon 150x150' # Favicon 150x150
     d015ca1c-2019-49d3-9c26-0ab619a84fc3: Home # Home
     d0590c29-504c-4f5f-83a0-93784d634ee4: 'Video Thumbnail - Vimeo Link' # Video Thumbnail - Vimeo Link
@@ -168,22 +218,29 @@ meta:
     d8a0c075-0ea5-4aa4-838d-233574d0c90c: 'Image Slideshow' # Image Slideshow
     d37dbdf3-6a11-47f1-b913-e2114f3f3191: 'Video File' # Video File
     d4243c19-5c01-4c63-9754-11d398a4cbac: Meta # Meta
-    dbb4a582-e95f-47f0-bc3e-7a176a701c48: 'Craft Base' # Craft Base
+    d2628718-52b2-476b-9be8-984357a173aa: 'Square Thumb 540 x 540' # Square Thumb 540 x 540
+    dbb4a582-e95f-47f0-bc3e-7a176a701c48: $DEFAULT_SITE_NAME # $DEFAULT_SITE_NAME
     de3ccf4a-2099-429b-b6e3-b22e743240b1: 'Statement Caption' # Statement Caption
     e0ad5847-624f-42b2-ab69-e3bd107d6e44: 'Thumb 768 x 432' # Thumb 768 x 432
     e5eb5006-ee2c-454c-9cfa-2da9a96caeb2: 'Favicon 60x60' # Favicon 60x60
     e5f1c294-aa5c-4406-a9a3-d5a067e2efc0: Pages # Pages
+    e7e8ea6f-f78e-4628-a521-627269c93bb0: 'Who We Are' # Who We Are
+    e9c25fc9-fefb-4fda-95ac-2da6ae74d89c: 'Download Button Text' # Download Button Text
     e31a3c8c-e7f8-4b46-ad11-df7eb18d591e: 'Left column text' # Left column text
     e203826d-16fa-45ed-9c14-78c4c523915f: 'Video (upload)' # Video (upload)
+    e1035377-e7f1-4fb8-9ffd-e7ba21e5bb95: Service # Service
     eb68d48e-ca63-4037-9bbb-0a6580a38e74: Thumbnail # Thumbnail
     eda73b36-d0bf-4823-b7d5-50bf402b5cae: 'Favicon 48x48' # Favicon 48x48
+    ee609e80-4dbf-4fcc-a38a-42124ed6cfe6: 'Team Member Role (weekend)' # Team Member Role (weekend)
     efad4e89-5ff2-478f-b38b-09d1880c0021: 'Favicon 96x96' # Favicon 96x96
     f052d2f9-01fa-4193-869e-6eac9acdf651: 'Block Background Colour' # Block Background Colour
     f4e9240f-b845-4e24-a506-4091720ce1b9: 'Thumb 1280 x 720' # Thumb 1280 x 720
     f8e8eec1-974e-4485-8dc8-e4cd25204baa: Common # Common
     f558bff2-7034-4fce-a016-3fbb6958f1c5: 'Video Thumbnail (upload)' # Video Thumbnail (upload)
+    f586ca8a-c508-4871-91b2-259dc8688653: Team # Team
     f605f0a4-4e31-42c7-b69b-0887c7cd8e26: 'Statement Text' # Statement Text
     f972ecdc-6372-435c-9cfe-234fe023396f: 'Favicon 114x114' # Favicon 114x114
+    f49558ec-f8cf-4a9e-b167-c13f58c343e7: 'Who We Are' # Who We Are
     f70343b7-957b-4e91-a5d3-1c560e0757ce: 'OG image' # OG image
     fcd3e3da-9055-422e-9d2a-e8b36f656e93: 'Email Address' # Email Address
 plugins:
@@ -239,6 +296,94 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.0.11
+  freeform:
+    edition: pro
+    enabled: true
+    licenseKey: 46UHV8AH8Y94378IQ26K0FH4
+    schemaVersion: 4.2.6
+    settings:
+      ajaxByDefault: true
+      alertNotificationRecipients: me@gracecoote.co.uk
+      allowFileTemplateEdit: '1'
+      autoScroll: true
+      autoScrollToErrors: true
+      badgeType: all
+      blockedEmails: null
+      blockedEmailsError: 'Invalid Email Address'
+      blockedIpAddresses: null
+      blockedKeywords: null
+      blockedKeywordsError: 'Invalid Entry Data'
+      bypassSpamCheckOnLoggedInUsers: false
+      clientDigestFrequency: 1
+      clientDigestRecipients: ''
+      customErrorMessage: null
+      customHoneypotName: null
+      defaultTemplates: true
+      defaultView: dashboard
+      digestFrequency: 1
+      digestOnlyOnProduction: false
+      digestRecipients: me@gracecoote.co.uk
+      displayFeed: true
+      emailTemplateDefault: files
+      emailTemplateDirectory: email-notifications
+      emailTemplateStorageType: files_database
+      exportHandlesAsNames: false
+      exportLabels: false
+      fieldDisplayOrder: name
+      fillWithGet: false
+      footerScripts: false
+      formFieldShowOnlyAllowedForms: false
+      formSubmitDisable: true
+      formSubmitExpiration: null
+      formTemplateDirectory: freeform
+      formattingTemplate: bootstrap-5.twig
+      freeformHoneypot: true
+      freeformHoneypotEnhancement: false
+      hideBannerDemo: false
+      hideBannerOldFreeform: false
+      minimumSubmitTime: null
+      pluginName: 'Contact Forms'
+      purgableSpamAgeInDays: null
+      purgableSubmissionAgeInDays: null
+      purgableUnfinalizedAssetAgeInMinutes: 180
+      recaptchaBehaviour: display_error
+      recaptchaEnabled: false
+      recaptchaErrorMessage: 'Please verify that you are not a robot.'
+      recaptchaKey: null
+      recaptchaLazyLoad: false
+      recaptchaMinScore: 0.5
+      recaptchaSecret: null
+      recaptchaSize: normal
+      recaptchaTheme: light
+      recaptchaType: v2_checkbox
+      rememberPageSubmitOrder: true
+      removeNewlines: false
+      renderFormHtmlInCpViews: true
+      salesforce_client_id: null
+      salesforce_client_secret: null
+      salesforce_password: null
+      salesforce_username: null
+      saveFormSessionLimit: 10
+      saveFormTtl: 30
+      scriptInsertLocation: footer
+      scriptInsertType: pointers
+      sessionContext: payload
+      sessionContextCount: 100
+      sessionContextSecret: ''
+      sessionContextTimeToLiveMinutes: 180
+      sessionEntryMaxCount: 50
+      sessionEntryTTL: 10800
+      showErrorsForBlockedEmails: false
+      showErrorsForBlockedKeywords: false
+      showTutorial: false
+      spamFolderEnabled: true
+      spamProtectionBehaviour: simulate_success
+      submissionThrottlingCount: null
+      submissionThrottlingTimeFrame: null
+      successTemplateDirectory: null
+      twigInHtml: true
+      twigInHtmlIsolatedMode: true
+      updateSearchIndexes: true
   matrix-snap:
     edition: standard
     enabled: false
@@ -260,12 +405,17 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  sprig:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
 system:
   edition: solo
   live: true
-  name: 'Craft Base'
+  name: $DEFAULT_SITE_NAME
+  retryDuration: null
   schemaVersion: 4.4.0.4
-  timeZone: America/Los_Angeles
+  timeZone: Europe/London
 users:
   allowPublicRegistration: false
   defaultGroup: null

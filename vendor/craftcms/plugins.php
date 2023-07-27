@@ -163,4 +163,41 @@ return array (
     'documentationUrl' => 'https://github.com/doublesecretagency/craft-cpcss/blob/v2/README.md',
     'changelogUrl' => 'https://raw.githubusercontent.com/doublesecretagency/craft-cpcss/v2/CHANGELOG.md',
   ),
+  'putyourlightson/craft-sprig' => 
+  array (
+    'class' => 'putyourlightson\\sprig\\plugin\\Sprig',
+    'basePath' => $vendorDir . '/putyourlightson/craft-sprig/src',
+    'handle' => 'sprig',
+    'aliases' => 
+    array (
+      '@putyourlightson/sprig/plugin' => $vendorDir . '/putyourlightson/craft-sprig/src',
+    ),
+    'name' => 'Sprig',
+    'version' => '2.6.2',
+    'description' => 'A reactive Twig component framework for Craft.',
+    'developer' => 'PutYourLightsOn',
+    'developerUrl' => 'https://putyourlightson.com/',
+    'documentationUrl' => 'https://putyourlightson.com/plugins/sprig',
+    'changelogUrl' => 'https://raw.githubusercontent.com/putyourlightson/craft-sprig/v2/CHANGELOG.md',
+  ),
+  'solspace/craft-freeform' => 
+  array (
+    'class' => 'Solspace\\Freeform\\Freeform',
+    'basePath' => $vendorDir . '/solspace/craft-freeform/packages/plugin/src',
+    'handle' => 'freeform',
+    'aliases' => 
+    array (
+      '@Solspace/Freeform' => $vendorDir . '/solspace/craft-freeform/packages/plugin/src',
+      '@Solspace/Tests/Freeform' => $vendorDir . '/solspace/craft-freeform/packages/plugin/tests',
+    ),
+    'name' => 'Freeform',
+    'version' => '4.1.6',
+    'schemaVersion' => '4.2.6',
+    'description' => 'Reliable form builder that\'s ready for wherever your project takes you.',
+    'developer' => 'Solspace',
+    'developerUrl' => 'https://docs.solspace.com/',
+    'documentationUrl' => 'https://docs.solspace.com/craft/freeform/v4/',
+    'changelogUrl' => 'https://raw.githubusercontent.com/solspace/craft-freeform/v4/CHANGELOG.md',
+    'hasCpSection' => true,
+  ),
 );

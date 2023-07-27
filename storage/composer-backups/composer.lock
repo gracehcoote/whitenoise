@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a7fd25c930c5de90c7b884ed08eecc9a",
+    "content-hash": "9cb63387406cea104f929a2d8877ce16",
     "packages": [
         {
             "name": "adigital/cookie-consent-banner",
@@ -999,6 +999,56 @@
             "time": "2022-12-14T08:49:07+00:00"
         },
         {
+            "name": "doublesecretagency/craft-cpcss",
+            "version": "2.6.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doublesecretagency/craft-cpcss/zipball/d9f3a9f1f2fc30b78a64dfbab13c9ebc4fe9d801",
+                "reference": "d9f3a9f1f2fc30b78a64dfbab13c9ebc4fe9d801",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0",
+                "nystudio107/craft-code-editor": "^1.0.7"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Control Panel CSS",
+                "handle": "cp-css",
+                "schemaVersion": "2.0.0",
+                "changelogUrl": "https://raw.githubusercontent.com/doublesecretagency/craft-cpcss/v2/CHANGELOG.md",
+                "class": "doublesecretagency\\cpcss\\CpCss"
+            },
+            "autoload": {
+                "psr-4": {
+                    "doublesecretagency\\cpcss\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Double Secret Agency",
+                    "homepage": "https://www.doublesecretagency.com/plugins"
+                }
+            ],
+            "description": "Add custom CSS to your Control Panel.",
+            "keywords": [
+                "cms",
+                "cp-css",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "css"
+            ],
+            "support": {
+                "docs": "https://github.com/doublesecretagency/craft-cpcss/blob/v2/README.md",
+                "issues": "https://github.com/doublesecretagency/craft-cpcss/issues"
+            },
+            "time": "2022-12-16T05:29:18+00:00"
+        },
+        {
             "name": "egulias/email-validator",
             "version": "3.2.6",
             "dist": {
@@ -1869,6 +1919,51 @@
             "time": "2023-03-30T20:58:39+00:00"
         },
         {
+            "name": "nystudio107/craft-code-editor",
+            "version": "1.0.10",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nystudio107/craft-code-editor/zipball/da48a7f7738442c629a43e8d41f458d6774aae53",
+                "reference": "da48a7f7738442c629a43e8d41f458d6774aae53",
+                "shasum": ""
+            },
+            "require": {
+                "phpdocumentor/reflection-docblock": "^5.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "nystudio107\\codeeditor\\CodeEditor"
+            },
+            "autoload": {
+                "psr-4": {
+                    "nystudio107\\codeeditor\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "nystudio107",
+                    "homepage": "https://nystudio107.com"
+                }
+            ],
+            "description": "Provides a code editor field with Twig & Craft API autocomplete",
+            "keywords": [
+                "Craft",
+                "Monaco",
+                "cms",
+                "code",
+                "craftcms",
+                "css",
+                "editor",
+                "javascript",
+                "markdown",
+                "twig"
+            ],
+            "time": "2023-06-19T22:09:46+00:00"
+        },
+        {
             "name": "nystudio107/craft-cookies",
             "version": "4.0.0",
             "dist": {
@@ -2151,15 +2246,31 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.22.1",
+            "version": "1.23.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpstan/phpdoc-parser.git",
+                "reference": "a2b24135c35852b348894320d47b3902a94bc494"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/65c39594fbd8c67abfc68bb323f86447bab79cc0",
-                "reference": "65c39594fbd8c67abfc68bb323f86447bab79cc0",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/a2b24135c35852b348894320d47b3902a94bc494",
+                "reference": "a2b24135c35852b348894320d47b3902a94bc494",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "doctrine/annotations": "^2.0",
+                "nikic/php-parser": "^4.15",
+                "php-parallel-lint/php-parallel-lint": "^1.2",
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "^1.5",
+                "phpstan/phpstan-phpunit": "^1.1",
+                "phpstan/phpstan-strict-rules": "^1.0",
+                "phpunit/phpunit": "^9.5",
+                "symfony/process": "^5.2"
             },
             "type": "library",
             "autoload": {
@@ -2169,11 +2280,16 @@
                     ]
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
-            "time": "2023-06-29T20:46:06+00:00"
+            "support": {
+                "issues": "https://github.com/phpstan/phpdoc-parser/issues",
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.23.0"
+            },
+            "time": "2023-07-23T22:17:56+00:00"
         },
         {
             "name": "pixelandtonic/imagine",
@@ -2522,6 +2638,77 @@
                 "simple-cache"
             ],
             "time": "2021-10-29T13:26:27+00:00"
+        },
+        {
+            "name": "putyourlightson/craft-sprig",
+            "version": "2.6.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/putyourlightson/craft-sprig/zipball/5fb86aaaf040d6fe2b15882fa2c0a44bde78106a",
+                "reference": "5fb86aaaf040d6fe2b15882fa2c0a44bde78106a",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0",
+                "nystudio107/craft-code-editor": "^1.0.0",
+                "php": "^8.0.2",
+                "putyourlightson/craft-sprig-core": "^2.5.2"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Sprig",
+                "handle": "sprig",
+                "developer": "PutYourLightsOn",
+                "developerUrl": "https://putyourlightson.com/",
+                "documentationUrl": "https://putyourlightson.com/plugins/sprig",
+                "changelogUrl": "https://raw.githubusercontent.com/putyourlightson/craft-sprig/v2/CHANGELOG.md",
+                "class": "putyourlightson\\sprig\\plugin\\Sprig"
+            },
+            "autoload": {
+                "psr-4": {
+                    "putyourlightson\\sprig\\plugin\\": "src/"
+                }
+            },
+            "license": [
+                "mit"
+            ],
+            "description": "A reactive Twig component framework for Craft.",
+            "support": {
+                "docs": "https://putyourlightson.com/plugins/sprig",
+                "source": "https://github.com/putyourlightson/craft-sprig",
+                "issues": "https://github.com/putyourlightson/craft-sprig/issues"
+            },
+            "time": "2023-05-01T13:00:18+00:00"
+        },
+        {
+            "name": "putyourlightson/craft-sprig-core",
+            "version": "2.5.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/putyourlightson/craft-sprig-core/zipball/129e9963e67628913f5c9a20063a08cb56c6cf0a",
+                "reference": "129e9963e67628913f5c9a20063a08cb56c6cf0a",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0",
+                "php": "^8.0.2"
+            },
+            "type": "craft-module",
+            "autoload": {
+                "psr-4": {
+                    "putyourlightson\\sprig\\": "src/"
+                }
+            },
+            "license": [
+                "mit"
+            ],
+            "description": "A reactive Twig component framework for Craft.",
+            "support": {
+                "docs": "https://github.com/putyourlightson/craft-sprig-core",
+                "source": "https://github.com/putyourlightson/craft-sprig-core",
+                "issues": "https://github.com/putyourlightson/craft-sprig-core/issues"
+            },
+            "time": "2023-05-01T12:59:26+00:00"
         },
         {
             "name": "ralouphie/getallheaders",

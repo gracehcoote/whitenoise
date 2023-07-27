@@ -1,22 +1,67 @@
-dateApplied: '2023-07-21 07:27:46'
+dateApplied: '2023-07-26 16:28:15'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689949598
-        to: 1689949666
+        from: 1690385035
+        to: 1690385295
   -
     added:
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.elementCondition: null
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.fieldUid: ae375820-3398-4233-97c9-880f9bc88381
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.instructions: null
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.label: null
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.required: false
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.tip: null
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.type: craft\fieldlayoutelements\CustomField
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.uid: e3a19ec1-9d95-4802-8fe0-3ba24ce13ff3
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.userCondition: null
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.warning: null
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.1.width: 100
-    message: 'Save entry type “work”'
+      sections.93fe13af-1afd-4b9a-89c7-9a4b0efece0c.defaultPlacement: end
+      sections.93fe13af-1afd-4b9a-89c7-9a4b0efece0c.enableVersioning: true
+      sections.93fe13af-1afd-4b9a-89c7-9a4b0efece0c.handle: careers
+      sections.93fe13af-1afd-4b9a-89c7-9a4b0efece0c.name: Careers
+      sections.93fe13af-1afd-4b9a-89c7-9a4b0efece0c.propagationMethod: all
+      sections.93fe13af-1afd-4b9a-89c7-9a4b0efece0c.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.enabledByDefault: true
+      sections.93fe13af-1afd-4b9a-89c7-9a4b0efece0c.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.hasUrls: true
+      sections.93fe13af-1afd-4b9a-89c7-9a4b0efece0c.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.template: _singles/careers.html
+      sections.93fe13af-1afd-4b9a-89c7-9a4b0efece0c.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.uriFormat: careers
+      sections.93fe13af-1afd-4b9a-89c7-9a4b0efece0c.type: single
+    message: 'Save section “careers”'
+  -
+    added:
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elementCondition: null
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.autocapitalize: true
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.autocomplete: false
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.autocorrect: true
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.class: null
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.disabled: false
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.elementCondition: null
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.id: null
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.instructions: null
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.label: null
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.max: null
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.min: null
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.name: null
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.orientation: null
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.placeholder: null
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.readonly: false
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.requirable: false
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.size: null
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.step: null
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.tip: null
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.title: null
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.type: craft\fieldlayoutelements\entries\EntryTitleField
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.uid: 93730659-99de-4a2f-8df3-bc30ecb2d693
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.userCondition: null
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.warning: null
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.elements.0.width: 100
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.name: Content
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.uid: 028e6376-28c7-4be4-9bd4-d22a69be2c03
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.fieldLayouts.b428d106-aca6-4705-ad78-9b806a0eafb0.tabs.0.userCondition: null
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.handle: careers
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.hasTitleField: false
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.name: Careers
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.section: 93fe13af-1afd-4b9a-89c7-9a4b0efece0c
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.sortOrder: 1
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.titleFormat: '{section.name|raw}'
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.titleTranslationKeyFormat: null
+      entryTypes.25725436-bbad-4fde-b7bf-84f437f541ab.titleTranslationMethod: site
+    message: 'Save entry type “careers”'
+  -
+    added:
+      meta.__names__.93fe13af-1afd-4b9a-89c7-9a4b0efece0c: Careers
+  -
+    added:
+      meta.__names__.25725436-bbad-4fde-b7bf-84f437f541ab: Careers

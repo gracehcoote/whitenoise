@@ -1,17 +1,18 @@
-jQuery(document).ready(function(){
+$(document).ready(function(){
   // Compensate for nav bar height
   var headerHeight = $('.navigation-bar').outerHeight();
   var navSpacerTop = headerHeight;
   $('nav#global, footer#global-footer').css('padding-top', navSpacerTop + 'px');
 
   // Show/hide navigation
-  jQuery('.toggle-nav').click(function(e){
+  $('.toggle-nav').click(function(e){
     e.stopPropagation();
-    jQuery(this).toggleClass('active');
-    jQuery('body').toggleClass('active');
-    jQuery('.navigation-bar').toggleClass('fixed');
-    jQuery('nav#global').toggleClass('active');
-    
+    $(this).toggleClass('active');
+    $('body, header#global, nav#global').toggleClass('active');
+    var nearestNav = $(this).parents().closest('.navigation-bar');
+    $(this).parents().find('.navigation-bar').not(nearestNav).fadeToggle();
+    nearestNav.toggleClass('active');
+
     setTimeout(function () {
       $('ul.nav').toggleClass('active');
       $('.info-wrap').toggleClass('active');
@@ -19,18 +20,16 @@ jQuery(document).ready(function(){
   });
 
   // Close navigation methods
-	jQuery('.navigation-bar nav ul.nav li.nav-item a.nav-link').click(function(e){
+	$('.navigation-bar nav ul.nav li.nav-item a.nav-link').click(function(e){
     e.stopPropagation();
-    jQuery('body').toggleClass('active');
-    jQuery('.toggle-nav').toggleClass('active');
-    jQuery('nav#global').toggleClass('active');
+    $('body, .toggle-nav, header#global, nav#global').toggleClass('active');
+    $('.navigation-bar').toggleClass('fixed');
   });
 
   $(document).keyup(function(e) {
       if (e.keyCode == 27) { // escape key maps to keycode `27
-      jQuery('body').removeClass('active');
-      jQuery('.toggle-nav').removeClass('active');
-      jQuery('nav#global').removeClass('active');
+      $('body, .toggle-nav, header#global, nav#global').removeClass('active');
+      $('.navigation-bar').toggleClass('fixed');
     }
   });
 
@@ -39,26 +38,22 @@ jQuery(document).ready(function(){
   
   var footerOffset = $('footer#global-footer').offset().top;
   var footerPos = footerOffset - $(window).scrollTop();
-  var halfway = $(window).height()/3;
+  var revealPoint = $(window).height()/3;
 
-  if (footerPos <= halfway) {
-    //$('header#global .navigation-bar').fadeOut();
+  if (footerPos <= revealPoint) {
     $('footer#global-footer .navigation-bar').fadeIn();
   } else {
-    //$('header#global .navigation-bar').fadeIn();
     $('footer#global-footer .navigation-bar').fadeOut();
   }
 
   $(window).scroll(function() {
     var footerOffset = $('footer#global-footer').offset().top;
     var footerPos = footerOffset - $(window).scrollTop();
-    var halfway = $(window).height()/3;
+    var revealPoint = $(window).height()/3;
 
-    if (footerPos <= halfway) {
-      //$('header#global .navigation-bar').fadeOut();
+    if (footerPos <= revealPoint) {
       $('footer#global-footer .navigation-bar').fadeIn();
     } else {
-      //$('header#global .navigation-bar').fadeIn();
       $('footer#global-footer .navigation-bar').fadeOut();
     }
   });
@@ -71,8 +66,8 @@ jQuery(document).ready(function(){
     }, 'slow');
   });
 
-  // jQuery(window).scroll(function() {
-  //   var height = jQuery(window).scrollTop();
+  // $(window).scroll(function() {
+  //   var height = $(window).scrollTop();
   //   var halfWay = $(document).height()/2;
 
   //   if (height == halfway ) {
@@ -84,12 +79,12 @@ jQuery(document).ready(function(){
 });
 
 // Back to top button
-jQuery(window).scroll(function() {
-	var height = jQuery(window).scrollTop();
+$(window).scroll(function() {
+	var height = $(window).scrollTop();
 	if (height > 300) {
-		jQuery('#top').fadeIn();
+		$('#top').fadeIn();
 	} else {
-		jQuery('#top').fadeOut();
+		$('#top').fadeOut();
 	}
 });
 
@@ -198,7 +193,7 @@ if($('.carousel-slider').length > 0) {
 
     var bar = splideCarousel.root.querySelector('.carousel-progress-bar');
 
-    // Store the carousel instance within the element using jQuery's data() method.
+    // Store the carousel instance within the element using $'s data() method.
     $(element).data('splideCarousel', splideCarousel);
 
     // Updates the bar width whenever the carousel moves:

@@ -1,22 +1,19 @@
-dateApplied: '2023-07-21 07:33:34'
+dateApplied: '2023-07-26 16:30:35'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689950001
-        to: 1689950014
+        from: 1690385329
+        to: 1690385432
   -
-    added:
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.elementCondition: null
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.fieldUid: 000c4a94-5161-4498-89db-9414a8c6ed36
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.instructions: null
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.label: null
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.required: false
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.tip: null
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.type: craft\fieldlayoutelements\CustomField
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.uid: 2a376753-b925-43d7-8f0a-6e235cbec7a4
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.userCondition: null
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.warning: null
-      entryTypes.52dcff48-c8a2-4b4e-84db-3e4b87968d8b.fieldLayouts.4dbe76d5-4e40-4d6b-81cd-0020ecbcdcef.tabs.0.elements.3.width: 100
-    message: 'Save entry type “work”'
+    message: 'Save the “default” site'
+    changed:
+      sites.dbb4a582-e95f-47f0-bc3e-7a176a701c48.name:
+        from: 'Whitenoise Studios'
+        to: $DEFAULT_SITE_NAME
+  -
+    changed:
+      meta.__names__.dbb4a582-e95f-47f0-bc3e-7a176a701c48:
+        from: 'Whitenoise Studios'
+        to: $DEFAULT_SITE_NAME

@@ -1,28 +1,93 @@
-dateApplied: '2023-07-21 07:19:20'
+dateApplied: '2023-07-25 15:19:46'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689949155
-        to: 1689949158
+        from: 1690294601
+        to: 1690294786
   -
     added:
-      cp-nav.navigations.817a7c2b-6670-4646-ba36-98299089aabc.currLabel: Categories
-      cp-nav.navigations.817a7c2b-6670-4646-ba36-98299089aabc.customIcon: null
-      cp-nav.navigations.817a7c2b-6670-4646-ba36-98299089aabc.enabled: true
-      cp-nav.navigations.817a7c2b-6670-4646-ba36-98299089aabc.handle: categories
-      cp-nav.navigations.817a7c2b-6670-4646-ba36-98299089aabc.icon: tree
-      cp-nav.navigations.817a7c2b-6670-4646-ba36-98299089aabc.layout: 46a718b9-7e17-42a2-a4ce-3b0214a27bdc
-      cp-nav.navigations.817a7c2b-6670-4646-ba36-98299089aabc.level: 1
-      cp-nav.navigations.817a7c2b-6670-4646-ba36-98299089aabc.newWindow: false
-      cp-nav.navigations.817a7c2b-6670-4646-ba36-98299089aabc.parent: null
-      cp-nav.navigations.817a7c2b-6670-4646-ba36-98299089aabc.prevLabel: Categories
-      cp-nav.navigations.817a7c2b-6670-4646-ba36-98299089aabc.prevLevel: 1
-      cp-nav.navigations.817a7c2b-6670-4646-ba36-98299089aabc.prevParent: null
-      cp-nav.navigations.817a7c2b-6670-4646-ba36-98299089aabc.prevUrl: categories
-      cp-nav.navigations.817a7c2b-6670-4646-ba36-98299089aabc.sortOrder: 7
-      cp-nav.navigations.817a7c2b-6670-4646-ba36-98299089aabc.subnavBehaviour: null
-      cp-nav.navigations.817a7c2b-6670-4646-ba36-98299089aabc.type: craft
-      cp-nav.navigations.817a7c2b-6670-4646-ba36-98299089aabc.url: categories
-    message: 'Saving navigation “categories”'
+      plugins.freeform.settings.ajaxByDefault: true
+      plugins.freeform.settings.alertNotificationRecipients: null
+      plugins.freeform.settings.allowFileTemplateEdit: true
+      plugins.freeform.settings.autoScroll: true
+      plugins.freeform.settings.autoScrollToErrors: true
+      plugins.freeform.settings.badgeType: all
+      plugins.freeform.settings.blockedEmails: null
+      plugins.freeform.settings.blockedEmailsError: 'Invalid Email Address'
+      plugins.freeform.settings.blockedIpAddresses: null
+      plugins.freeform.settings.blockedKeywords: null
+      plugins.freeform.settings.blockedKeywordsError: 'Invalid Entry Data'
+      plugins.freeform.settings.bypassSpamCheckOnLoggedInUsers: false
+      plugins.freeform.settings.clientDigestFrequency: 1
+      plugins.freeform.settings.clientDigestRecipients: null
+      plugins.freeform.settings.customErrorMessage: null
+      plugins.freeform.settings.customHoneypotName: null
+      plugins.freeform.settings.defaultTemplates: true
+      plugins.freeform.settings.defaultView: dashboard
+      plugins.freeform.settings.digestFrequency: 1
+      plugins.freeform.settings.digestOnlyOnProduction: false
+      plugins.freeform.settings.digestRecipients: null
+      plugins.freeform.settings.displayFeed: true
+      plugins.freeform.settings.emailTemplateDefault: files
+      plugins.freeform.settings.emailTemplateDirectory: null
+      plugins.freeform.settings.emailTemplateStorageType: files_database
+      plugins.freeform.settings.exportHandlesAsNames: false
+      plugins.freeform.settings.exportLabels: false
+      plugins.freeform.settings.fieldDisplayOrder: name
+      plugins.freeform.settings.fillWithGet: false
+      plugins.freeform.settings.footerScripts: false
+      plugins.freeform.settings.formFieldShowOnlyAllowedForms: false
+      plugins.freeform.settings.formSubmitDisable: true
+      plugins.freeform.settings.formSubmitExpiration: null
+      plugins.freeform.settings.formTemplateDirectory: null
+      plugins.freeform.settings.formattingTemplate: bootstrap-5.twig
+      plugins.freeform.settings.freeformHoneypot: true
+      plugins.freeform.settings.freeformHoneypotEnhancement: false
+      plugins.freeform.settings.hideBannerDemo: false
+      plugins.freeform.settings.hideBannerOldFreeform: false
+      plugins.freeform.settings.minimumSubmitTime: null
+      plugins.freeform.settings.pluginName: 'Contact Forms'
+      plugins.freeform.settings.purgableSpamAgeInDays: null
+      plugins.freeform.settings.purgableSubmissionAgeInDays: null
+      plugins.freeform.settings.purgableUnfinalizedAssetAgeInMinutes: 180
+      plugins.freeform.settings.recaptchaBehaviour: display_error
+      plugins.freeform.settings.recaptchaEnabled: false
+      plugins.freeform.settings.recaptchaErrorMessage: 'Please verify that you are not a robot.'
+      plugins.freeform.settings.recaptchaKey: null
+      plugins.freeform.settings.recaptchaLazyLoad: false
+      plugins.freeform.settings.recaptchaMinScore: 0.5
+      plugins.freeform.settings.recaptchaSecret: null
+      plugins.freeform.settings.recaptchaSize: normal
+      plugins.freeform.settings.recaptchaTheme: light
+      plugins.freeform.settings.recaptchaType: v2_checkbox
+      plugins.freeform.settings.rememberPageSubmitOrder: true
+      plugins.freeform.settings.removeNewlines: false
+      plugins.freeform.settings.renderFormHtmlInCpViews: true
+      plugins.freeform.settings.salesforce_client_id: null
+      plugins.freeform.settings.salesforce_client_secret: null
+      plugins.freeform.settings.salesforce_password: null
+      plugins.freeform.settings.salesforce_username: null
+      plugins.freeform.settings.saveFormSessionLimit: 10
+      plugins.freeform.settings.saveFormTtl: 30
+      plugins.freeform.settings.scriptInsertLocation: footer
+      plugins.freeform.settings.scriptInsertType: pointers
+      plugins.freeform.settings.sessionContext: payload
+      plugins.freeform.settings.sessionContextCount: 100
+      plugins.freeform.settings.sessionContextSecret: ''
+      plugins.freeform.settings.sessionContextTimeToLiveMinutes: 180
+      plugins.freeform.settings.sessionEntryMaxCount: 50
+      plugins.freeform.settings.sessionEntryTTL: 10800
+      plugins.freeform.settings.showErrorsForBlockedEmails: false
+      plugins.freeform.settings.showErrorsForBlockedKeywords: false
+      plugins.freeform.settings.showTutorial: true
+      plugins.freeform.settings.spamFolderEnabled: true
+      plugins.freeform.settings.spamProtectionBehaviour: simulate_success
+      plugins.freeform.settings.submissionThrottlingCount: null
+      plugins.freeform.settings.submissionThrottlingTimeFrame: null
+      plugins.freeform.settings.successTemplateDirectory: null
+      plugins.freeform.settings.twigInHtml: true
+      plugins.freeform.settings.twigInHtmlIsolatedMode: true
+      plugins.freeform.settings.updateSearchIndexes: true
+    message: 'Change settings for plugin “freeform”'

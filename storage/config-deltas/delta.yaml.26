@@ -1,14 +1,18 @@
-dateApplied: '2023-07-21 07:25:05'
+dateApplied: '2023-07-26 15:24:45'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689949384
-        to: 1689949505
+        from: 1690379260
+        to: 1690381485
   -
-    message: 'Save field “heroImage”'
+    added:
+      email.replyToEmail: null
+      email.template: null
+      email.transportSettings.command: '/usr/sbin/sendmail -bs'
+    message: 'Update email settings.'
     changed:
-      fields.ae375820-3398-4233-97c9-880f9bc88381.instructions:
-        from: 'Images are made greyscale automatically'
-        to: 'Uses Image Thumbnail by dafault if nothing uploaded here.'
+      email.fromName:
+        from: 'Craft Base'
+        to: 'Whitenoise Studios'

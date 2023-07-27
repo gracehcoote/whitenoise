@@ -1,0 +1,34 @@
+columnSuffix: nbumnjdw
+contentColumnType: text
+fieldGroup: ccdedfbc-ec18-497e-a755-2398cc5bedf5 # Careers
+handle: whatWeOffer
+instructions: null
+name: 'What We Offer'
+searchable: false
+settings:
+  addRowLabel: 'Add a benefit'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - Benefit
+            -
+              - handle
+              - benefit
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults: null
+  maxRows: null
+  minRows: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

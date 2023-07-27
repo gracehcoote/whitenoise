@@ -1,17 +1,19 @@
-dateApplied: '2023-07-21 07:34:57'
+dateApplied: '2023-07-26 16:30:45'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689950014
-        to: 1689950097
+        from: 1690385432
+        to: 1690385445
   -
-    message: 'Save field “heroImage”'
+    message: 'Save the “$DEFAULT_SITE_NAME” site group'
     changed:
-      fields.ae375820-3398-4233-97c9-880f9bc88381.instructions:
-        from: 'Uses Image Thumbnail by dafault if nothing uploaded here.'
-        to: null
-      fields.ae375820-3398-4233-97c9-880f9bc88381.settings.defaultUploadLocationSource:
-        from: null
-        to: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
+      siteGroups.6062bc9a-a4e5-4395-9fc7-823621507cec.name:
+        from: 'Whitenoise Studios'
+        to: $DEFAULT_SITE_NAME
+  -
+    changed:
+      meta.__names__.6062bc9a-a4e5-4395-9fc7-823621507cec:
+        from: 'Whitenoise Studios'
+        to: $DEFAULT_SITE_NAME

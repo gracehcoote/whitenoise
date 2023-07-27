@@ -90,6 +90,10 @@ h2 {
     font-weight: 400;
   }
 
+  &.small {
+    font-size: 31px;
+  }
+
   @media #{$tablet-ls} {
     
   }
@@ -110,6 +114,10 @@ h3 {
 
   &.small {
     font-size: 25px;
+  }
+
+  &.x-small {
+    font-size: 20px;
   }
 
   strong {
@@ -146,6 +154,7 @@ h4 {
 h5 {
   font-weight: 700;
   font-size: 20px;
+  margin-bottom: 0.5rem;
 
   strong {
     font-weight: 900;
@@ -204,7 +213,6 @@ ol {
   }
 }
 
-ul:not(.nav):not(.crumbs),
 ol {
   list-style: none;
   padding-left: 0;
@@ -246,6 +254,11 @@ a {
   color: inherit;
 }
 
+ol,
+ul {
+  padding-left: 1rem;
+}
+
 ol {
   counter-reset: number-list-counter;
   list-style: none;
@@ -266,8 +279,15 @@ ol {
   }
 }
 
+ul:not(.nav) {
+  li {
+    margin-bottom: 1rem;
+  }
+}
+
 ul.ticks {
   list-style: none;
+  padding: 0;
 
   li {
     padding-left: 25px;
@@ -283,6 +303,7 @@ ul.ticks {
 ul.inline-list {
   display: flex;
   flex-wrap: wrap;
+  padding: 0;
 
   li {
     flex-shrink: 0;

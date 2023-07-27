@@ -1,17 +1,14 @@
-dateApplied: '2023-07-20 08:42:10'
+dateApplied: '2023-07-25 15:16:35'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689867706
-        to: 1689867730
+        from: 1690294372
+        to: 1690294595
   -
     added:
-      sections.0f8100aa-dfeb-4c7a-a612-34bcba4bf7d2.structure.maxLevels: null
-      sections.0f8100aa-dfeb-4c7a-a612-34bcba4bf7d2.structure.uid: e4220f0a-b23e-40fe-a710-c1580375dd82
-    message: 'Save section “newsroomArticles”'
-    changed:
-      sections.0f8100aa-dfeb-4c7a-a612-34bcba4bf7d2.type:
-        from: channel
-        to: structure
+      plugins.freeform.edition: pro
+      plugins.freeform.enabled: true
+      plugins.freeform.schemaVersion: 4.2.6
+    message: 'Install plugin “freeform”'

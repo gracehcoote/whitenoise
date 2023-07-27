@@ -1,0 +1,162 @@
+fieldLayouts:
+  b428d106-aca6-4705-ad78-9b806a0eafb0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 93730659-99de-4a2f-8df3-bc30ecb2d693
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4ee33dc6-65da-4bc3-8a64-ad85d9832bdf # Page Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e0dfc3af-8e35-4d6b-ab8a-43771495b19e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ae375820-3398-4233-97c9-880f9bc88381 # Hero Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f8ba843d-3c02-4162-905e-cde99fbd85c4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 000c4a94-5161-4498-89db-9414a8c6ed36 # Greyscale Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d60d2d91-5054-4f74-b920-5ed2a3e05cc5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 2c5bb2d0-2667-410b-a55e-5610c58ac52b
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 9e42d781-7ec4-4ffc-bcb0-b0990f578c4b # Text Block
+            instructions: null
+            label: 'About Us'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 61ecbc3a-37b0-4dcf-918a-6741fea82b35
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 25fd576e-d9c7-4c34-b7dc-c1ee788f86b9 # What We Offer
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e698e1c8-83bb-48cc-8f9a-4b22d501c3bc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 446caed5-74b5-4b17-97ec-85a832af00a7 # Equal Opportunities
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fcba50e5-9a46-4683-99ca-c61aa74b174a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 028e6376-28c7-4be4-9bd4-d22a69be2c03
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 42d3d29f-acd5-4355-b756-dd24a263cf34 # SEO Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4d17a34e-72c1-47e4-b8af-aef1e83dae2f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1013d0af-42f2-4277-8692-ca5f66ef4588 # SEO Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3bf5d9e8-f338-4e6e-85e7-8b030e075ca9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 225d43ff-b622-4780-8602-22940bb83e3e # OG Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b249d593-1c43-40ee-ac90-b8f72503bad7
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: a93ee550-6010-4f4e-a8dc-bc5f16f94321
+        userCondition: null
+handle: careers
+hasTitleField: false
+name: Careers
+section: 93fe13af-1afd-4b9a-89c7-9a4b0efece0c # Careers
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

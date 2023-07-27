@@ -1,6 +1,6 @@
 {
   "buttons": ["html", "format", "bold", "italic", "lists", "link"],
-  "plugins": ["customstyles"],
+  "plugins": ["customstyles"], 
   "customStyles": {
     "style": {
       "dropdown": {

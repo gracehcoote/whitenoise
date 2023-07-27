@@ -41,10 +41,18 @@
         {% set locations = siteInfo.locations.all() %}
         {% if locations %}
         {% for location in locations %}
-        <h5>{{ location.locationName }}</h5>
-        <p>{{ location.address|nl2br}}</p>
+          <h5>{{ location.locationName }}</h5>
+          <p>{{ location.address|nl2br}}</p>
+          
+          {% if location.telephoneNumber %}
+          <p>{{ location.telephoneNumber }}</p>
+          {% endif %}
 
-        <hr class="small light">
+          {% if location.emailAddress %}
+          <p><a class="tw-semibold" href="mailto:{{ location.emailAddress }}">{{ location.emailAddress }}</a></p>
+          {% endif %}
+
+          <hr class="small light">
 
         {% endfor %}
         {% endif %}

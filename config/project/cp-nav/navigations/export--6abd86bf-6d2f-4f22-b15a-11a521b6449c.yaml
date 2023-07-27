@@ -1,0 +1,17 @@
+currLabel: Export
+customIcon: null
+enabled: true
+handle: export
+icon: null
+layout: 46a718b9-7e17-42a2-a4ce-3b0214a27bdc # Default
+level: 2
+newWindow: false
+parent: 00368c20-6b8d-4805-ad1d-b03c9418250f
+prevLabel: Export
+prevLevel: 2
+prevParent: 00368c20-6b8d-4805-ad1d-b03c9418250f
+prevUrl: freeform/export/profiles
+sortOrder: 16
+subnavBehaviour: null
+type: plugin
+url: freeform/export/profiles

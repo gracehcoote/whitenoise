@@ -1,0 +1,120 @@
+{% extends "_layouts/_base" %}
+
+{% block seo %}
+{% include "_includes/seo" %}
+{% endblock %}
+
+{% set bodyClass = '' %}
+
+{% block headContent %}
+<link href="{{ siteUrl }}assets/css/splide-core.min.css" rel="stylesheet"/>
+{% endblock %}
+
+{% block main %}
+<section class="hero d-flex flex-column">
+  <div class="section-container d-flex flex-grow-1 justify-content-center align-items-center text-center">
+    <h1>{{ entry.pageTitle ?? entry.title }}</h1>
+  </div><!-- end section-container -->
+
+  {% set heroImage = entry.heroImage.one() %}
+  {% if heroImage %}
+  <img 
+    class="background-image{% if entry.greyscaleImage %} greyscale{% endif %}" 
+    loading="lazy" 
+    src="{{ heroImage.url('thumb1920X1080') }}" 
+    alt="{{ heroImage.title }}" 
+    sizes="100vw" 
+    srcset="
+      {{ heroImage.url('thumb480X270') }} 480w,
+      {{ heroImage.url('thumb512X288') }} 512w,
+      {{ heroImage.url('thumb768X432') }} 768w,
+      {{ heroImage.url('thumb960X540') }} 960w,
+      {{ heroImage.url('thumb1280X720') }} 1280w,
+      {{ heroImage.url('thumb1920X1080') }} 1920w
+      ">
+    {% endif %}
+</section>
+
+<section>
+  <div class="section-container x-narrow py-5 pt-lg-10 pt-xl-12 pt-xxl-14 pb-lg-8 pb-xl-9 pb-xxl-10">
+    <div class="row justify-content-between">
+      <div class="col-tls-7">
+        <h2>Built on collaboration and an integrated approach, our structure is unique.</h2>
+      </div><!-- end col -->
+
+      <div class="col-tls-4 ps-tls-3">
+        <p><strong>With all our services under one roof, our creative teams deliver tangible synergies and cost benefits to our clients.</strong></p>
+        <p>Our work has been recognised 28 times by the IDI, Ireland's leading design awards body, with awards including Grand Prix, Design Excellence and Gold awards. Glass and Steel bookends, representing of the outstanding quality of our work and critical acclaim across Ireland and Europe.</p>
+      </div><!-- end col -->
+    </div><!-- end row -->
+
+    <div class="d-flex align-items-center mt-4">
+      <p class="mb-0 me-1"><strong>Weekend mode</strong></p>
+
+      <label class="switch">
+        <input type="checkbox" id="weekend-mode">
+        <div class="slider round"></div>
+      </label>
+    </div>
+  </div><!-- end section-container -->
+</section>
+
+{% set team = entry.team.all() %}
+{% if team %}
+<section>
+  <div class="row g-0">
+    {% for member in team %}
+    {% set weekdayImage = member.teamMemberImageWeekday.one() %}
+    {% set weekendImage = member.teamMemberImageWeekend.one() %}
+      <div class="col-sm-6 col-lg-4 col-xl-3 greyscale-hover-off position-relative z-1">
+        <div class="text-overlay p-3 d-flex flex-column justify-content-end align-items-start">
+          <h3 class="x-small text-white tw-bold mb-0">{{ member.teamMemberName }}</h3>
+          <p class="text-white mb-0 toggle-display">{{ member.teamMemberRoleWeekday }}</p>
+          <p class="text-white mb-0 toggle-display d-none">{{ member.teamMemberRoleWeekend }}</p>
+        </div><!-- end text-overlay -->
+
+        <img 
+          class="background-image greyscale{% if weekendImage %} toggle-opacity opacity-1{% endif %}" 
+          loading="lazy" 
+          src="{{ weekdayImage.url('squareThumb1080X1080') }}" 
+          alt="{{ weekdayImage.title }}" 
+          sizes="100vw" 
+          srcset="
+            {{ weekdayImage.url('squareThumb540X540') }} 540w,
+            {{ weekdayImage.url('squareThumb1080X1080') }} 1080w
+            ">
+
+          {% if weekendImage %}
+          <img 
+          class="background-image position-absolute top-0 start-0 toggle-opacity opacity-0" 
+          loading="lazy" 
+          src="{{ weekendImage.url('squareThumb1080X1080') }}" 
+          alt="{{ weekendImage.title }}" 
+          sizes="100vw" 
+          srcset="
+            {{ weekendImage.url('squareThumb540X540') }} 540w,
+            {{ weekendImage.url('squareThumb1080X1080') }} 1080w
+            ">
+          {% endif %}
+      </div><!-- end col -->
+    {% endfor %}
+  </div><!-- end row -->
+</section>
+{% endif %}
+{% endblock %}
+
+{% block javascript %}
+<script>
+  $(document).ready(function(){
+    $('#weekend-mode').change(function() {
+        if(this.checked) {
+          $('.toggle-display').fadeToggle().toggleClass('d-none');
+          $('.toggle-opacity').toggleClass('opacity-0 opacity-1');
+        } else {
+          $('.toggle-display').fadeToggle().toggleClass('d-none');
+          $('.toggle-opacity').toggleClass('opacity-1 opacity-0');
+        }
+    });
+  });
+</script>
+{% endblock %}

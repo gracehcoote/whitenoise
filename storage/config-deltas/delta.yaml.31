@@ -1,36 +1,123 @@
-dateApplied: '2023-07-21 07:20:31'
+dateApplied: '2023-07-25 15:20:10'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689949158
-        to: 1689949230
+        from: 1690294789
+        to: 1690294809
   -
     added:
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.columnSuffix: null
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.contentColumnType: string
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.fieldGroup: f8e8eec1-974e-4485-8dc8-e4cd25204baa
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.handle: category
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.instructions: null
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.name: Category
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.searchable: false
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.allowSelfRelations: false
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.branchLimit: null
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.localizeRelations: false
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.maintainHierarchy: false
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.maxRelations: null
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.minRelations: null
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.selectionLabel: null
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.showSiteMenu: false
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.source: 'group:67a7b2dc-406c-4fce-8de7-33f2740de892'
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.targetSiteId: null
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.validateRelatedElements: false
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.viewMode: null
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.translationKeyFormat: null
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.translationMethod: site
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.type: craft\fields\Categories
-    message: 'Save field “category”'
+      routes.a673e557-225a-46f5-99ef-05d219d90913.siteUid: null
+      routes.a673e557-225a-46f5-99ef-05d219d90913.sortOrder: 1
+      routes.a673e557-225a-46f5-99ef-05d219d90913.template: /freeform-demo/templates
+      routes.a673e557-225a-46f5-99ef-05d219d90913.uriParts.0: freeform-demo/templates/
+      routes.a673e557-225a-46f5-99ef-05d219d90913.uriParts.1.0: '*'
+      routes.a673e557-225a-46f5-99ef-05d219d90913.uriParts.1.1: '[^\/]+'
+      routes.a673e557-225a-46f5-99ef-05d219d90913.uriPattern: 'freeform-demo/templates/<any:[^\/]+>'
+    message: 'Save route'
   -
     added:
-      meta.__names__.377e4815-2d50-4422-8079-ef03bd4ea6a9: Category
+      routes.d5dfcd4a-f696-4245-9192-b9972537660c.siteUid: null
+      routes.d5dfcd4a-f696-4245-9192-b9972537660c.sortOrder: 2
+      routes.d5dfcd4a-f696-4245-9192-b9972537660c.template: /freeform-demo/templates/form
+      routes.d5dfcd4a-f696-4245-9192-b9972537660c.uriParts.0: freeform-demo/templates/
+      routes.d5dfcd4a-f696-4245-9192-b9972537660c.uriParts.1.0: '*'
+      routes.d5dfcd4a-f696-4245-9192-b9972537660c.uriParts.1.1: '[^\/]+'
+      routes.d5dfcd4a-f696-4245-9192-b9972537660c.uriParts.2: /
+      routes.d5dfcd4a-f696-4245-9192-b9972537660c.uriParts.3.0: '*'
+      routes.d5dfcd4a-f696-4245-9192-b9972537660c.uriParts.3.1: '[^\/]+'
+      routes.d5dfcd4a-f696-4245-9192-b9972537660c.uriPattern: 'freeform-demo/templates/<any:[^\/]+>/<any2:[^\/]+>'
+    message: 'Save route'
+  -
+    added:
+      routes.736e187c-03eb-4fbb-b72f-1f1c4ac25b73.siteUid: null
+      routes.736e187c-03eb-4fbb-b72f-1f1c4ac25b73.sortOrder: 3
+      routes.736e187c-03eb-4fbb-b72f-1f1c4ac25b73.template: /freeform-demo/templates/form
+      routes.736e187c-03eb-4fbb-b72f-1f1c4ac25b73.uriParts.0: freeform-demo/templates/
+      routes.736e187c-03eb-4fbb-b72f-1f1c4ac25b73.uriParts.1.0: '*'
+      routes.736e187c-03eb-4fbb-b72f-1f1c4ac25b73.uriParts.1.1: '[^\/]+'
+      routes.736e187c-03eb-4fbb-b72f-1f1c4ac25b73.uriParts.2: /
+      routes.736e187c-03eb-4fbb-b72f-1f1c4ac25b73.uriParts.3.0: '*'
+      routes.736e187c-03eb-4fbb-b72f-1f1c4ac25b73.uriParts.3.1: '[^\/]+'
+      routes.736e187c-03eb-4fbb-b72f-1f1c4ac25b73.uriParts.4: /edit/
+      routes.736e187c-03eb-4fbb-b72f-1f1c4ac25b73.uriParts.5.0: '*'
+      routes.736e187c-03eb-4fbb-b72f-1f1c4ac25b73.uriParts.5.1: '[^\/]+'
+      routes.736e187c-03eb-4fbb-b72f-1f1c4ac25b73.uriPattern: 'freeform-demo/templates/<any:[^\/]+>/<any2:[^\/]+>/edit/<any3:[^\/]+>'
+    message: 'Save route'
+  -
+    added:
+      routes.d5de6802-c277-4dda-bf6b-f1784bd42940.siteUid: null
+      routes.d5de6802-c277-4dda-bf6b-f1784bd42940.sortOrder: 4
+      routes.d5de6802-c277-4dda-bf6b-f1784bd42940.template: /freeform-demo/submissions
+      routes.d5de6802-c277-4dda-bf6b-f1784bd42940.uriParts.0: freeform-demo/submissions/
+      routes.d5de6802-c277-4dda-bf6b-f1784bd42940.uriParts.1.0: '*'
+      routes.d5de6802-c277-4dda-bf6b-f1784bd42940.uriParts.1.1: '[^\/]+'
+      routes.d5de6802-c277-4dda-bf6b-f1784bd42940.uriPattern: 'freeform-demo/submissions/<any:[^\/]+>'
+    message: 'Save route'
+  -
+    added:
+      routes.0caf51b9-3917-4431-8ff0-7f11b1ad6e60.siteUid: null
+      routes.0caf51b9-3917-4431-8ff0-7f11b1ad6e60.sortOrder: 5
+      routes.0caf51b9-3917-4431-8ff0-7f11b1ad6e60.template: /freeform-demo/submissions
+      routes.0caf51b9-3917-4431-8ff0-7f11b1ad6e60.uriParts.0: freeform-demo/submissions/
+      routes.0caf51b9-3917-4431-8ff0-7f11b1ad6e60.uriParts.1.0: '*'
+      routes.0caf51b9-3917-4431-8ff0-7f11b1ad6e60.uriParts.1.1: '[^\/]+'
+      routes.0caf51b9-3917-4431-8ff0-7f11b1ad6e60.uriParts.2: /spam/
+      routes.0caf51b9-3917-4431-8ff0-7f11b1ad6e60.uriPattern: 'freeform-demo/submissions/<any:[^\/]+>/spam/'
+    message: 'Save route'
+  -
+    added:
+      routes.f99f815f-c8bb-4062-91fa-64d2f05d8b37.siteUid: null
+      routes.f99f815f-c8bb-4062-91fa-64d2f05d8b37.sortOrder: 6
+      routes.f99f815f-c8bb-4062-91fa-64d2f05d8b37.template: /freeform-demo/submissions/view
+      routes.f99f815f-c8bb-4062-91fa-64d2f05d8b37.uriParts.0: freeform-demo/submissions/
+      routes.f99f815f-c8bb-4062-91fa-64d2f05d8b37.uriParts.1.0: '*'
+      routes.f99f815f-c8bb-4062-91fa-64d2f05d8b37.uriParts.1.1: '[^\/]+'
+      routes.f99f815f-c8bb-4062-91fa-64d2f05d8b37.uriParts.2: /
+      routes.f99f815f-c8bb-4062-91fa-64d2f05d8b37.uriParts.3.0: '*'
+      routes.f99f815f-c8bb-4062-91fa-64d2f05d8b37.uriParts.3.1: '[^\/]+'
+      routes.f99f815f-c8bb-4062-91fa-64d2f05d8b37.uriPattern: 'freeform-demo/submissions/<any:[^\/]+>/<any2:[^\/]+>'
+    message: 'Save route'
+  -
+    added:
+      routes.521d32eb-e11a-4fe3-b8b2-205921645d99.siteUid: null
+      routes.521d32eb-e11a-4fe3-b8b2-205921645d99.sortOrder: 7
+      routes.521d32eb-e11a-4fe3-b8b2-205921645d99.template: /freeform-demo/submissions/view
+      routes.521d32eb-e11a-4fe3-b8b2-205921645d99.uriParts.0: freeform-demo/submissions/
+      routes.521d32eb-e11a-4fe3-b8b2-205921645d99.uriParts.1.0: '*'
+      routes.521d32eb-e11a-4fe3-b8b2-205921645d99.uriParts.1.1: '[^\/]+'
+      routes.521d32eb-e11a-4fe3-b8b2-205921645d99.uriParts.2: /
+      routes.521d32eb-e11a-4fe3-b8b2-205921645d99.uriParts.3.0: '*'
+      routes.521d32eb-e11a-4fe3-b8b2-205921645d99.uriParts.3.1: '[^\/]+'
+      routes.521d32eb-e11a-4fe3-b8b2-205921645d99.uriParts.4: /spam/
+      routes.521d32eb-e11a-4fe3-b8b2-205921645d99.uriPattern: 'freeform-demo/submissions/<any:[^\/]+>/<any2:[^\/]+>/spam/'
+    message: 'Save route'
+  -
+    added:
+      routes.6a55a3ae-fad1-41f5-9673-c72cc864fa34.siteUid: null
+      routes.6a55a3ae-fad1-41f5-9673-c72cc864fa34.sortOrder: 8
+      routes.6a55a3ae-fad1-41f5-9673-c72cc864fa34.template: /freeform-demo/custom
+      routes.6a55a3ae-fad1-41f5-9673-c72cc864fa34.uriParts.0: freeform-demo/custom/
+      routes.6a55a3ae-fad1-41f5-9673-c72cc864fa34.uriPattern: freeform-demo/custom/
+    message: 'Save route'
+  -
+    added:
+      routes.f32b2254-928b-4af1-bc0b-c0db654e7680.siteUid: null
+      routes.f32b2254-928b-4af1-bc0b-c0db654e7680.sortOrder: 9
+      routes.f32b2254-928b-4af1-bc0b-c0db654e7680.template: /freeform-demo/custom/form
+      routes.f32b2254-928b-4af1-bc0b-c0db654e7680.uriParts.0: freeform-demo/custom/
+      routes.f32b2254-928b-4af1-bc0b-c0db654e7680.uriParts.1.0: '*'
+      routes.f32b2254-928b-4af1-bc0b-c0db654e7680.uriParts.1.1: '[^\/]+'
+      routes.f32b2254-928b-4af1-bc0b-c0db654e7680.uriPattern: 'freeform-demo/custom/<any:[^\/]+>'
+    message: 'Save route'
+  -
+    added:
+      routes.4df5ccee-4ed6-42d2-a74a-9946fab7fc00.siteUid: null
+      routes.4df5ccee-4ed6-42d2-a74a-9946fab7fc00.sortOrder: 10
+      routes.4df5ccee-4ed6-42d2-a74a-9946fab7fc00.template: /freeform-demo/extras/suppress-edit-submissions
+      routes.4df5ccee-4ed6-42d2-a74a-9946fab7fc00.uriParts.0: freeform-demo/extras/suppress-edit-submissions/edit/
+      routes.4df5ccee-4ed6-42d2-a74a-9946fab7fc00.uriParts.1.0: token
+      routes.4df5ccee-4ed6-42d2-a74a-9946fab7fc00.uriParts.1.1: \w+
+      routes.4df5ccee-4ed6-42d2-a74a-9946fab7fc00.uriPattern: 'freeform-demo/extras/suppress-edit-submissions/edit/<token:\w+>'
+    message: 'Save route'

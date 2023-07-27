@@ -1,0 +1,139 @@
+fieldLayouts:
+  7f78833a-935e-4232-824f-0d35af5152f1:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 27e8c0cc-78c2-498b-9b0b-d199dbfb6ab1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4ee33dc6-65da-4bc3-8a64-ad85d9832bdf # Page Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7bb73234-afbb-4728-b5d1-f1036f2612b1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ae375820-3398-4233-97c9-880f9bc88381 # Hero Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 28619d5b-c849-4a66-8dcf-4def9c904d89
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 000c4a94-5161-4498-89db-9414a8c6ed36 # Greyscale Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 909ae57b-617a-46cf-9833-57166bff79ee
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d7958f48-d794-49e5-a9bf-7a90ac658489
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 692e9ece-d442-4b7a-9214-f7ab2c88b3df # Services
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5ad99da6-fcab-48ca-93d0-5ba0741e8084
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Services Content'
+        uid: 29d1ef4f-331e-4f18-bc14-cf5054f176fc
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 42d3d29f-acd5-4355-b756-dd24a263cf34 # SEO Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 679e657b-8e7f-478c-8b75-290555eaba69
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1013d0af-42f2-4277-8692-ca5f66ef4588 # SEO Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9eb7c379-3e29-4525-9027-52ae93175d46
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 225d43ff-b622-4780-8602-22940bb83e3e # OG Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b74d6e41-1b94-4cc7-80d1-60e960f59521
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 7d43b617-1400-4a28-9d6a-bc9af88ad157
+        userCondition: null
+handle: whatWeDo
+hasTitleField: false
+name: 'What We Do'
+section: 45014464-90a7-4681-bdda-9dc18da1e6d7 # What We Do
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,121 @@
+fieldLayouts:
+  565b7280-889a-4b0d-8d10-6b0ba74c24b0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 32ef1a01-020c-44c8-82bc-e429a2240da1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4ee33dc6-65da-4bc3-8a64-ad85d9832bdf # Page Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b4416518-a726-4474-b60d-4ffea9fb565a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ae375820-3398-4233-97c9-880f9bc88381 # Hero Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 684e3d72-5895-46a6-bde1-2b6ea74a1a13
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 000c4a94-5161-4498-89db-9414a8c6ed36 # Greyscale Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1fe447bc-08b4-4e5e-8243-e6ae1790a8ca
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 54223db2-8d75-4364-9c6c-876469ba9b81
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 42d3d29f-acd5-4355-b756-dd24a263cf34 # SEO Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3fa84432-78b6-47e2-a8f7-64b8070f3b98
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1013d0af-42f2-4277-8692-ca5f66ef4588 # SEO Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 46bac326-31fa-4616-9c0b-35c047158672
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 225d43ff-b622-4780-8602-22940bb83e3e # OG Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ab295e14-1cca-4c0d-97ed-2008f12bcbe1
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: ff8c1766-d018-428b-aa12-0093c28b2071
+        userCondition: null
+handle: contact
+hasTitleField: false
+name: Contact
+section: 16f4f1fa-ceab-4aac-9c81-843936f84f39 # Contact
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

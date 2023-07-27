@@ -6,6 +6,11 @@ HERO STYLES
   z-index: 1;
   min-height: 75vh;
 
+  @media #{$phone-ls} {
+    min-height: 50vh;
+    padding-top: 90px;
+  }
+
   &:before {
     content: '';
     position: absolute;

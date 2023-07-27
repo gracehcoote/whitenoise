@@ -1,0 +1,18 @@
+{% extends "_layouts/elementindex" %}
+
+{% set extraPageHeaderHtml %}
+
+    {% if currentUser.can("freeform-formsManage") %}
+        <div class="buttons">
+            <a class="btn submit add icon" href="{{ url('freeform/forms/new/') }}">
+                {{ "New Form"|t('freeform') }}
+            </a>
+        </div>
+    {% endif %}
+
+{% endset %}
+
+{% block body %}
+    {{ parent() }}
+    {% hook 'freeform-beta-widget' %}
+{% endblock %}

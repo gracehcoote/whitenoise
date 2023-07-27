@@ -1,32 +1,14 @@
-dateApplied: '2023-07-21 07:35:38'
+dateApplied: '2023-07-26 16:30:57'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689950118
-        to: 1689950138
+        from: 1690385445
+        to: 1690385457
   -
-    added:
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.1.elements.2.elementCondition: null
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.1.elements.2.fieldUid: 2fb3dcfb-de61-404d-a714-a5cc5585bc1d
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.1.elements.2.instructions: null
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.1.elements.2.label: null
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.1.elements.2.required: false
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.1.elements.2.tip: null
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.1.elements.2.type: craft\fieldlayoutelements\CustomField
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.1.elements.2.uid: 6cd8bf6c-92ec-4518-bd1d-641b00d8c5ac
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.1.elements.2.userCondition: null
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.1.elements.2.warning: null
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.1.elements.2.width: 100
-    message: 'Save entry type “article”'
+    message: 'Update system settings.'
     changed:
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.1.elements.0.instructions:
-        from: null
-        to: 'Uses Image Thumbnail by dafault if nothing uploaded here.'
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.1.elements.1.fieldUid:
-        from: 2fb3dcfb-de61-404d-a714-a5cc5585bc1d
-        to: 000c4a94-5161-4498-89db-9414a8c6ed36
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.1.elements.1.uid:
-        from: 6cd8bf6c-92ec-4518-bd1d-641b00d8c5ac
-        to: ba23d4da-2d9e-4a99-b1d4-02966e2f2e94
+      system.name:
+        from: Whitenoise
+        to: $DEFAULT_SITE_NAME

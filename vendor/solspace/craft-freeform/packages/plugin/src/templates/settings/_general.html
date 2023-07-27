@@ -1,0 +1,159 @@
+{% extends "freeform/_layouts/settings" %}
+
+{% import "_includes/forms" as forms %}
+
+{% set title = "General Settings"|t("freeform") %}
+
+{% block content %}
+
+    <input type="hidden" name="action" value="freeform/settings/save-settings">
+    {{ redirectInput('freeform/settings/general') }}
+    {{ csrfInput() }}
+
+    <h2 class="first">{{ "General Settings"|t('freeform') }}</h2>
+
+    <h3>{{ "Control Panel"|t('freeform') }}</h3>
+
+    {% if craft.freeform.pro %}
+
+        {{ forms.textField({
+            class: "code",
+            label: "Custom Plugin Name"|t('freeform'),
+            instructions: "Override the plugin name by specifying your own here."|t('freeform'),
+            placeholder: craft.freeform.name,
+            id: "pluginName",
+            name: "settings[pluginName]",
+            value: settings.pluginName,
+            errors: settings.getErrors("pluginName"),
+        }) }}
+
+    {% endif %}
+
+    {{ forms.selectField({
+        label: "Default View"|t('freeform'),
+        instructions: "The default page to go to when clicking the Freeform nav item."|t('freeform'),
+        name: "settings[defaultView]",
+        value: settings.defaultView,
+        errors: settings.errors("defaultView"),
+        options: {
+            dashboard: "Dashboard"|t('freeform'),
+            forms: "Form view"|t('freeform'),
+            submissions: "Submission view"|t('freeform'),
+        },
+    }) }}
+
+    {{ forms.selectField({
+        label: "Plugin Badge"|t('freeform'),
+        instructions: "Select the options you'd like to be included in the plugin badge count (when applicable)."|t('freeform'),
+        name: "settings[badgeType]",
+        value: settings.badgeType,
+        errors: settings.errors("badgeType"),
+        options: {
+            '': "Don't Show"|t('freeform'),
+            all: "Update Notices, What's New, Logged Errors"|t('freeform'),
+            notices: "Update Notices only"|t('freeform'),
+            errors: "Logged Errors only"|t('freeform'),
+            submissions: "Submission Count"|t('freeform'),
+            spam: "Spam Folder Count"|t('freeform'),
+        },
+    }) }}
+
+    {{ forms.lightswitchField({
+        label: "Hide 'Install Demo' alert message?"|t('freeform'),
+        instructions: "Hides the alert message suggesting to install demo templates when this setting is enabled."|t('freeform'),
+        name: 'settings[hideBannerDemo]',
+        on: settings.hideBannerDemo,
+        errors: settings.getErrors('hideBannerDemo')
+    }) }}
+
+    <hr>
+
+    <h3>{{ "Element Field Type"|t('freeform') }}</h3>
+
+    {{ forms.lightswitchField({
+        label: "Restrict Form options in Form Field Type to User permissions?"|t('freeform'),
+        instructions: "Enable this to only show forms the user or group has permissions to manage in the list of options for the Form Element Field Type (relating forms in Entries, etc)."|t('freeform'),
+        name: "settings[formFieldShowOnlyAllowedForms]",
+        on: settings.formFieldShowOnlyAllowedForms,
+        errors: settings.errors("formFieldShowOnlyAllowedForms"),
+    }) }}
+
+    <hr>
+
+    <h3>{{ "Submission Data"|t('freeform') }}</h3>
+
+    {{ forms.lightswitchField({
+        label: "Enable Search Index Updating on New Submissions?"|t('freeform'),
+        instructions: "Enable this to have Craft update search indexes whenever a new submission is created."|t('freeform'),
+        name: "settings[updateSearchIndexes]",
+        on: settings.updateSearchIndexes,
+        errors: settings.errors("updateSearchIndexes"),
+    }) }}
+
+    {{ forms.lightswitchField({
+        label: "Remove Newlines from Textareas for Exporting"|t('freeform'),
+        instructions: "Enable this to have newlines removed from Textarea fields in submissions when exporting."|t('freeform'),
+        name: "settings[removeNewlines]",
+        on: settings.removeNewlines,
+        errors: settings.errors("removeNewlines"),
+    }) }}
+
+    {{ forms.lightswitchField({
+        label: "Use Option Labels when Exporting"|t('freeform'),
+        instructions: "Enable this to have fields with options use the submission's option labels instead of values when exporting."|t('freeform'),
+        name: "settings[exportLabels]",
+        on: settings.exportLabels,
+        errors: settings.errors("exportLabels"),
+    }) }}
+
+    {{ forms.lightswitchField({
+        label: "Use Field Handles for Headings when Exporting"|t('freeform'),
+        instructions: "Enable this to use field handles as headings instead of field labels when exporting submissions."|t('freeform'),
+        name: "settings[exportHandlesAsNames]",
+        on: settings.exportHandlesAsNames,
+        errors: settings.errors("exportHandlesAsNames"),
+    }) }}
+
+    {% if craft.freeform.pro %}
+
+        {{ forms.lightswitchField({
+            label: "Automatically Purge Submission Data"|t('freeform'),
+            instructions: "If you wish to have Freeform automatically purge submission data after a specified number of days, enable this setting and specify the number of days after submission date it should purge submissions."|t('freeform'),
+            warning: "Enabling this and saving this settings page will result in purging feature beginning, and cannot be undone (it may not happen immediately, and may take a couple hours before the next process runs).",
+            name: "purge-toggle",
+            on: settings.purgableSubmissionAgeInDays,
+            toggle: "purge",
+            errors: settings.errors("purgableSubmissionAgeInDays"),
+        }) }}
+
+        <div id="purge" class="field {{ not settings.purgableSubmissionAgeInDays ? 'hidden' }}">
+            {{ forms.selectField({
+                label: "Days After Submission Date to Purge"|t('freeform'),
+                instructions: "Select the number of days after submissions have been submitted for Freeform to begin automatically purging. This process will only run every hour, and only when Freeform is accessed on the front end in templates or in the control panel."|t('freeform'),
+                name: "settings[purgableSubmissionAgeInDays]",
+                value: settings.purgableSubmissionAgeInDays,
+                errors: settings.errors("purgableSubmissionAgeInDays"),
+                id: "purge-value",
+                options: {
+                    0: "Please select"|t("freeform"),
+                    1: "1 day"|t("freeform"),
+                    2: "2 days"|t("freeform"),
+                    3: "3 days"|t("freeform"),
+                    4: "4 days"|t("freeform"),
+                    5: "5 days"|t("freeform"),
+                    6: "6 days"|t("freeform"),
+                    7: "7 days"|t("freeform"),
+                    14: "14 days"|t("freeform"),
+                    30: "30 days"|t("freeform"),
+                    60: "60 days"|t("freeform"),
+                    90: "90 days"|t("freeform"),
+                    120: "120 days"|t("freeform"),
+                    180: "180 days"|t("freeform"),
+                    365: "365 days"|t("freeform"),
+                }
+            }) }}
+        </div>
+
+    {% endif %}
+
+{% endblock %}

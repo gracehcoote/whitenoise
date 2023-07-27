@@ -1,0 +1,187 @@
+field: 692e9ece-d442-4b7a-9214-f7ab2c88b3df # Services
+fieldLayouts:
+  dd5784a6-4e81-4e1c-bf00-558f9c54338b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 625cd463-ffb3-43a9-8c2e-f6836b9a4d62 # Service Name
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ff588eed-bac7-4662-8fa3-e178fc3f5a16
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3fc83b9d-b21d-4bff-a4a1-17a7c3643393 # Service Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e4b106cd-2a9c-4dad-a931-64c64b0a3a42
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ab5a94a3-2466-4c96-8ae4-0d3df02c94aa # Download Button
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 07048743-ec8c-4bd1-80bf-c82cab78970c
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: e9c25fc9-fefb-4fda-95ac-2da6ae74d89c # Download Button Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5af742a6-e63e-4bc3-94e2-e3baf6f6a951
+            userCondition: null
+            warning: null
+            width: 50
+        name: Content
+        uid: e9ed85ea-b38c-4487-946d-0d3a08922f64
+        userCondition: null
+fields:
+  3fc83b9d-b21d-4bff-a4a1-17a7c3643393: # Service Description
+    columnSuffix: ncxawezy
+    contentColumnType: text
+    fieldGroup: null
+    handle: serviceDescription
+    instructions: 'You can use the text editor below to insert insert internal or external links and style them as buttons. First, type the desired text e.g. "View our Brand Case Studies", then highlight and select link type. You can then choose a link style using the Link Style button.'
+    name: 'Service Description'
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: Custom.json
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  625cd463-ffb3-43a9-8c2e-f6836b9a4d62: # Service Name
+    columnSuffix: qvbnjspo
+    contentColumnType: text
+    fieldGroup: null
+    handle: serviceName
+    instructions: null
+    name: 'Service Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ab5a94a3-2466-4c96-8ae4-0d3df02c94aa: # Download Button
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: downloadButton
+    instructions: 'If you would like to allow the user to download a document or asset, use this button.'
+    name: 'Download Button'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - audio
+        - image
+        - pdf
+        - powerpoint
+        - text
+        - video
+        - word
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:1544ef0f-cf56-4850-a153-9b5bb47e6064' # Documents
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:1544ef0f-cf56-4850-a153-9b5bb47e6064' # Documents
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources:
+        - 'volume:88345c9b-bba7-481d-b7be-a56f256bad79' # Uploads
+        - 'volume:1544ef0f-cf56-4850-a153-9b5bb47e6064' # Documents
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  e9c25fc9-fefb-4fda-95ac-2da6ae74d89c: # Download Button Text
+    columnSuffix: lzzjrzcl
+    contentColumnType: text
+    fieldGroup: null
+    handle: downloadButtonText
+    instructions: null
+    name: 'Download Button Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: service
+name: Service
+sortOrder: 1

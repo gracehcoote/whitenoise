@@ -1,17 +1,12 @@
-dateApplied: '2023-07-21 07:22:46'
+dateApplied: '2023-07-26 14:24:08'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689949348
-        to: 1689949366
+        from: 1690377726
+        to: 1690377848
   -
-    message: 'Save field “imageThumbnail”'
-    changed:
-      fields.7b48acb6-0409-495d-a9ca-d572373e8e89.instructions:
-        from: 'Project with video thumbnails should also have an image uploaded for fallback and video poster image.'
-        to: null
-      fields.7b48acb6-0409-495d-a9ca-d572373e8e89.settings.showSiteMenu:
-        from: false
-        to: true
+    added:
+      plugins.freeform.licenseKey: 46UHV8AH8Y94378IQ26K0FH4
+    message: 'Set license key for plugin “freeform”'

@@ -1,15 +1,168 @@
-dateApplied: '2023-07-21 07:18:41'
+dateApplied: '2023-07-25 15:16:57'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689949113
-        to: 1689949119
+        from: 1690294595
+        to: 1690294601
   -
-    removed:
-      fieldGroups.bf10e38a-a92b-4155-95f5-2efc9649e03d.name: Category
-    message: 'Delete the “Category” field group'
+    added:
+      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.currLabel: Freeform
+      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.customIcon: null
+      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.enabled: true
+      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.handle: freeform
+      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.icon: /Applications/MAMP/htdocs/local.whitenoise.com/vendor/solspace/craft-freeform/packages/plugin/src/icon-mask.svg
+      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.layout: 46a718b9-7e17-42a2-a4ce-3b0214a27bdc
+      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.level: 1
+      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.newWindow: false
+      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.parent: null
+      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.prevLabel: Freeform
+      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.prevLevel: 1
+      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.prevParent: null
+      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.prevUrl: freeform
+      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.sortOrder: 9
+      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.subnavBehaviour: null
+      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.type: plugin
+      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.url: freeform
+    message: 'Saving navigation “freeform”'
   -
-    removed:
-      meta.__names__.bf10e38a-a92b-4155-95f5-2efc9649e03d: Category
+    added:
+      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.currLabel: Dashboard
+      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.customIcon: null
+      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.enabled: true
+      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.handle: dashboard
+      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.icon: null
+      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.layout: 46a718b9-7e17-42a2-a4ce-3b0214a27bdc
+      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.level: 2
+      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.newWindow: false
+      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.parent: 00368c20-6b8d-4805-ad1d-b03c9418250f
+      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.prevLabel: Dashboard
+      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.prevLevel: 2
+      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.prevParent: 00368c20-6b8d-4805-ad1d-b03c9418250f
+      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.prevUrl: freeform/dashboard
+      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.sortOrder: 10
+      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.subnavBehaviour: null
+      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.type: plugin
+      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.url: freeform/dashboard
+    message: 'Saving navigation “dashboard”'
+  -
+    added:
+      cp-nav.navigations.503d1920-0d96-4b34-b3af-a13761ad2374.currLabel: Submissions
+      cp-nav.navigations.503d1920-0d96-4b34-b3af-a13761ad2374.customIcon: null
+      cp-nav.navigations.503d1920-0d96-4b34-b3af-a13761ad2374.enabled: true
+      cp-nav.navigations.503d1920-0d96-4b34-b3af-a13761ad2374.handle: submissions
+      cp-nav.navigations.503d1920-0d96-4b34-b3af-a13761ad2374.icon: null
+      cp-nav.navigations.503d1920-0d96-4b34-b3af-a13761ad2374.layout: 46a718b9-7e17-42a2-a4ce-3b0214a27bdc
+      cp-nav.navigations.503d1920-0d96-4b34-b3af-a13761ad2374.level: 2
+      cp-nav.navigations.503d1920-0d96-4b34-b3af-a13761ad2374.newWindow: false
+      cp-nav.navigations.503d1920-0d96-4b34-b3af-a13761ad2374.parent: 00368c20-6b8d-4805-ad1d-b03c9418250f
+      cp-nav.navigations.503d1920-0d96-4b34-b3af-a13761ad2374.prevLabel: Submissions
+      cp-nav.navigations.503d1920-0d96-4b34-b3af-a13761ad2374.prevLevel: 2
+      cp-nav.navigations.503d1920-0d96-4b34-b3af-a13761ad2374.prevParent: 00368c20-6b8d-4805-ad1d-b03c9418250f
+      cp-nav.navigations.503d1920-0d96-4b34-b3af-a13761ad2374.prevUrl: freeform/submissions
+      cp-nav.navigations.503d1920-0d96-4b34-b3af-a13761ad2374.sortOrder: 11
+      cp-nav.navigations.503d1920-0d96-4b34-b3af-a13761ad2374.subnavBehaviour: null
+      cp-nav.navigations.503d1920-0d96-4b34-b3af-a13761ad2374.type: plugin
+      cp-nav.navigations.503d1920-0d96-4b34-b3af-a13761ad2374.url: freeform/submissions
+    message: 'Saving navigation “submissions”'
+  -
+    added:
+      cp-nav.navigations.9e5f9b6c-4195-4d68-b6eb-105d8f1a9a16.currLabel: Spam
+      cp-nav.navigations.9e5f9b6c-4195-4d68-b6eb-105d8f1a9a16.customIcon: null
+      cp-nav.navigations.9e5f9b6c-4195-4d68-b6eb-105d8f1a9a16.enabled: true
+      cp-nav.navigations.9e5f9b6c-4195-4d68-b6eb-105d8f1a9a16.handle: spam
+      cp-nav.navigations.9e5f9b6c-4195-4d68-b6eb-105d8f1a9a16.icon: null
+      cp-nav.navigations.9e5f9b6c-4195-4d68-b6eb-105d8f1a9a16.layout: 46a718b9-7e17-42a2-a4ce-3b0214a27bdc
+      cp-nav.navigations.9e5f9b6c-4195-4d68-b6eb-105d8f1a9a16.level: 2
+      cp-nav.navigations.9e5f9b6c-4195-4d68-b6eb-105d8f1a9a16.newWindow: false
+      cp-nav.navigations.9e5f9b6c-4195-4d68-b6eb-105d8f1a9a16.parent: 00368c20-6b8d-4805-ad1d-b03c9418250f
+      cp-nav.navigations.9e5f9b6c-4195-4d68-b6eb-105d8f1a9a16.prevLabel: Spam
+      cp-nav.navigations.9e5f9b6c-4195-4d68-b6eb-105d8f1a9a16.prevLevel: 2
+      cp-nav.navigations.9e5f9b6c-4195-4d68-b6eb-105d8f1a9a16.prevParent: 00368c20-6b8d-4805-ad1d-b03c9418250f
+      cp-nav.navigations.9e5f9b6c-4195-4d68-b6eb-105d8f1a9a16.prevUrl: freeform/spam
+      cp-nav.navigations.9e5f9b6c-4195-4d68-b6eb-105d8f1a9a16.sortOrder: 12
+      cp-nav.navigations.9e5f9b6c-4195-4d68-b6eb-105d8f1a9a16.subnavBehaviour: null
+      cp-nav.navigations.9e5f9b6c-4195-4d68-b6eb-105d8f1a9a16.type: plugin
+      cp-nav.navigations.9e5f9b6c-4195-4d68-b6eb-105d8f1a9a16.url: freeform/spam
+    message: 'Saving navigation “spam”'
+  -
+    added:
+      cp-nav.navigations.1bb2d218-c295-4cdf-811a-dea25a3c946c.currLabel: Forms
+      cp-nav.navigations.1bb2d218-c295-4cdf-811a-dea25a3c946c.customIcon: null
+      cp-nav.navigations.1bb2d218-c295-4cdf-811a-dea25a3c946c.enabled: true
+      cp-nav.navigations.1bb2d218-c295-4cdf-811a-dea25a3c946c.handle: forms
+      cp-nav.navigations.1bb2d218-c295-4cdf-811a-dea25a3c946c.icon: null
+      cp-nav.navigations.1bb2d218-c295-4cdf-811a-dea25a3c946c.layout: 46a718b9-7e17-42a2-a4ce-3b0214a27bdc
+      cp-nav.navigations.1bb2d218-c295-4cdf-811a-dea25a3c946c.level: 2
+      cp-nav.navigations.1bb2d218-c295-4cdf-811a-dea25a3c946c.newWindow: false
+      cp-nav.navigations.1bb2d218-c295-4cdf-811a-dea25a3c946c.parent: 00368c20-6b8d-4805-ad1d-b03c9418250f
+      cp-nav.navigations.1bb2d218-c295-4cdf-811a-dea25a3c946c.prevLabel: Forms
+      cp-nav.navigations.1bb2d218-c295-4cdf-811a-dea25a3c946c.prevLevel: 2
+      cp-nav.navigations.1bb2d218-c295-4cdf-811a-dea25a3c946c.prevParent: 00368c20-6b8d-4805-ad1d-b03c9418250f
+      cp-nav.navigations.1bb2d218-c295-4cdf-811a-dea25a3c946c.prevUrl: freeform/forms
+      cp-nav.navigations.1bb2d218-c295-4cdf-811a-dea25a3c946c.sortOrder: 13
+      cp-nav.navigations.1bb2d218-c295-4cdf-811a-dea25a3c946c.subnavBehaviour: null
+      cp-nav.navigations.1bb2d218-c295-4cdf-811a-dea25a3c946c.type: plugin
+      cp-nav.navigations.1bb2d218-c295-4cdf-811a-dea25a3c946c.url: freeform/forms
+    message: 'Saving navigation “forms”'
+  -
+    added:
+      cp-nav.navigations.fd47c850-53b5-4d4c-8882-263a739035b6.currLabel: Fields
+      cp-nav.navigations.fd47c850-53b5-4d4c-8882-263a739035b6.customIcon: null
+      cp-nav.navigations.fd47c850-53b5-4d4c-8882-263a739035b6.enabled: true
+      cp-nav.navigations.fd47c850-53b5-4d4c-8882-263a739035b6.handle: fields
+      cp-nav.navigations.fd47c850-53b5-4d4c-8882-263a739035b6.icon: null
+      cp-nav.navigations.fd47c850-53b5-4d4c-8882-263a739035b6.layout: 46a718b9-7e17-42a2-a4ce-3b0214a27bdc
+      cp-nav.navigations.fd47c850-53b5-4d4c-8882-263a739035b6.level: 2
+      cp-nav.navigations.fd47c850-53b5-4d4c-8882-263a739035b6.newWindow: false
+      cp-nav.navigations.fd47c850-53b5-4d4c-8882-263a739035b6.parent: 00368c20-6b8d-4805-ad1d-b03c9418250f
+      cp-nav.navigations.fd47c850-53b5-4d4c-8882-263a739035b6.prevLabel: Fields
+      cp-nav.navigations.fd47c850-53b5-4d4c-8882-263a739035b6.prevLevel: 2
+      cp-nav.navigations.fd47c850-53b5-4d4c-8882-263a739035b6.prevParent: 00368c20-6b8d-4805-ad1d-b03c9418250f
+      cp-nav.navigations.fd47c850-53b5-4d4c-8882-263a739035b6.prevUrl: freeform/fields
+      cp-nav.navigations.fd47c850-53b5-4d4c-8882-263a739035b6.sortOrder: 14
+      cp-nav.navigations.fd47c850-53b5-4d4c-8882-263a739035b6.subnavBehaviour: null
+      cp-nav.navigations.fd47c850-53b5-4d4c-8882-263a739035b6.type: plugin
+      cp-nav.navigations.fd47c850-53b5-4d4c-8882-263a739035b6.url: freeform/fields
+    message: 'Saving navigation “fields”'
+  -
+    added:
+      cp-nav.navigations.84d2cd28-0949-4556-9b0c-c841b59ed919.currLabel: 'Email Notifications'
+      cp-nav.navigations.84d2cd28-0949-4556-9b0c-c841b59ed919.customIcon: null
+      cp-nav.navigations.84d2cd28-0949-4556-9b0c-c841b59ed919.enabled: true
+      cp-nav.navigations.84d2cd28-0949-4556-9b0c-c841b59ed919.handle: notifications
+      cp-nav.navigations.84d2cd28-0949-4556-9b0c-c841b59ed919.icon: null
+      cp-nav.navigations.84d2cd28-0949-4556-9b0c-c841b59ed919.layout: 46a718b9-7e17-42a2-a4ce-3b0214a27bdc
+      cp-nav.navigations.84d2cd28-0949-4556-9b0c-c841b59ed919.level: 2
+      cp-nav.navigations.84d2cd28-0949-4556-9b0c-c841b59ed919.newWindow: false
+      cp-nav.navigations.84d2cd28-0949-4556-9b0c-c841b59ed919.parent: 00368c20-6b8d-4805-ad1d-b03c9418250f
+      cp-nav.navigations.84d2cd28-0949-4556-9b0c-c841b59ed919.prevLabel: 'Email Notifications'
+      cp-nav.navigations.84d2cd28-0949-4556-9b0c-c841b59ed919.prevLevel: 2
+      cp-nav.navigations.84d2cd28-0949-4556-9b0c-c841b59ed919.prevParent: 00368c20-6b8d-4805-ad1d-b03c9418250f
+      cp-nav.navigations.84d2cd28-0949-4556-9b0c-c841b59ed919.prevUrl: freeform/notifications
+      cp-nav.navigations.84d2cd28-0949-4556-9b0c-c841b59ed919.sortOrder: 15
+      cp-nav.navigations.84d2cd28-0949-4556-9b0c-c841b59ed919.subnavBehaviour: null
+      cp-nav.navigations.84d2cd28-0949-4556-9b0c-c841b59ed919.type: plugin
+      cp-nav.navigations.84d2cd28-0949-4556-9b0c-c841b59ed919.url: freeform/notifications
+    message: 'Saving navigation “notifications”'
+  -
+    added:
+      cp-nav.navigations.6abd86bf-6d2f-4f22-b15a-11a521b6449c.currLabel: Export
+      cp-nav.navigations.6abd86bf-6d2f-4f22-b15a-11a521b6449c.customIcon: null
+      cp-nav.navigations.6abd86bf-6d2f-4f22-b15a-11a521b6449c.enabled: true
+      cp-nav.navigations.6abd86bf-6d2f-4f22-b15a-11a521b6449c.handle: export
+      cp-nav.navigations.6abd86bf-6d2f-4f22-b15a-11a521b6449c.icon: null
+      cp-nav.navigations.6abd86bf-6d2f-4f22-b15a-11a521b6449c.layout: 46a718b9-7e17-42a2-a4ce-3b0214a27bdc
+      cp-nav.navigations.6abd86bf-6d2f-4f22-b15a-11a521b6449c.level: 2
+      cp-nav.navigations.6abd86bf-6d2f-4f22-b15a-11a521b6449c.newWindow: false
+      cp-nav.navigations.6abd86bf-6d2f-4f22-b15a-11a521b6449c.parent: 00368c20-6b8d-4805-ad1d-b03c9418250f
+      cp-nav.navigations.6abd86bf-6d2f-4f22-b15a-11a521b6449c.prevLabel: Export
+      cp-nav.navigations.6abd86bf-6d2f-4f22-b15a-11a521b6449c.prevLevel: 2
+      cp-nav.navigations.6abd86bf-6d2f-4f22-b15a-11a521b6449c.prevParent: 00368c20-6b8d-4805-ad1d-b03c9418250f
+      cp-nav.navigations.6abd86bf-6d2f-4f22-b15a-11a521b6449c.prevUrl: freeform/export/profiles
+      cp-nav.navigations.6abd86bf-6d2f-4f22-b15a-11a521b6449c.sortOrder: 16
+      cp-nav.navigations.6abd86bf-6d2f-4f22-b15a-11a521b6449c.subnavBehaviour: null
+      cp-nav.navigations.6abd86bf-6d2f-4f22-b15a-11a521b6449c.type: plugin
+      cp-nav.navigations.6abd86bf-6d2f-4f22-b15a-11a521b6449c.url: freeform/export/profiles
+    message: 'Saving navigation “export”'

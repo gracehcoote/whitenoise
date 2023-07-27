@@ -1,0 +1,139 @@
+fieldLayouts:
+  88f25d53-6315-4745-8d5b-6e7ce8bc0659:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 27876490-9ff2-4b5b-9316-66f9fa9f74d5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4ee33dc6-65da-4bc3-8a64-ad85d9832bdf # Page Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 07f6e6b0-d478-4f05-aa11-fed4fd33b017
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ae375820-3398-4233-97c9-880f9bc88381 # Hero Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bbcff363-c590-4f56-b2f0-85ebde2d7056
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 000c4a94-5161-4498-89db-9414a8c6ed36 # Greyscale Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 01471ad2-f2a4-4327-a842-6b374ce3fdfc
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1d625af8-66af-4f2f-9699-16a9cff5cbbc
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: f586ca8a-c508-4871-91b2-259dc8688653 # Team
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6970f929-ba76-4357-989b-e5331e957544
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Team Members'
+        uid: ebc34258-0dbd-49a9-b21b-96b3b5e3385a
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 42d3d29f-acd5-4355-b756-dd24a263cf34 # SEO Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0fca7e9f-5873-4d86-86e1-aca55010a4a3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1013d0af-42f2-4277-8692-ca5f66ef4588 # SEO Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: df7c9459-8e91-418c-8194-f9d144aea0a1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 225d43ff-b622-4780-8602-22940bb83e3e # OG Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: faa661b1-90cf-448d-8e03-426051c63b3c
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: c21611a3-3761-4786-8930-4c900875bb96
+        userCondition: null
+handle: whoWeAre
+hasTitleField: false
+name: 'Who We Are'
+section: f49558ec-f8cf-4a9e-b167-c13f58c343e7 # Who We Are
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

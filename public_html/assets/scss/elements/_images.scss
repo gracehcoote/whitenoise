@@ -4,4 +4,16 @@ IMAGE STYLES
 
 img.greyscale {
   filter: grayscale(100%);
+  transition: 0.3s;
+}
+
+.greyscale-hover-off:hover {
+  img.greyscale {
+    filter: grayscale(0%);
+  }
+}
+
+.object-fit-cover {
+  width: 100%;
+  height: 100%;
 }

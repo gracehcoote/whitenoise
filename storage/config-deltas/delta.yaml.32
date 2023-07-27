@@ -1,36 +1,23 @@
-dateApplied: '2023-07-21 07:20:30'
+dateApplied: '2023-07-25 15:19:49'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689949158
-        to: 1689949230
+        from: 1690294786
+        to: 1690294789
   -
-    added:
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.columnSuffix: null
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.contentColumnType: string
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.fieldGroup: f8e8eec1-974e-4485-8dc8-e4cd25204baa
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.handle: category
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.instructions: null
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.name: Category
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.searchable: false
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.allowSelfRelations: false
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.branchLimit: null
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.localizeRelations: false
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.maintainHierarchy: false
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.maxRelations: null
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.minRelations: null
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.selectionLabel: null
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.showSiteMenu: false
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.source: 'group:67a7b2dc-406c-4fce-8de7-33f2740de892'
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.targetSiteId: null
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.validateRelatedElements: false
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.viewMode: null
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.translationKeyFormat: null
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.translationMethod: site
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.type: craft\fields\Categories
-    message: 'Save field “category”'
-  -
-    added:
-      meta.__names__.377e4815-2d50-4422-8079-ef03bd4ea6a9: Category
+    message: 'Change settings for plugin “freeform”'
+    changed:
+      plugins.freeform.settings.alertNotificationRecipients:
+        from: null
+        to: me@gracecoote.co.uk
+      plugins.freeform.settings.clientDigestRecipients:
+        from: null
+        to: ''
+      plugins.freeform.settings.digestRecipients:
+        from: null
+        to: me@gracecoote.co.uk
+      plugins.freeform.settings.sessionContextSecret:
+        from: null
+        to: ''

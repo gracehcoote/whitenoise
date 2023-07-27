@@ -1,14 +1,23 @@
-dateApplied: '2023-07-21 07:23:04'
+dateApplied: '2023-07-26 14:47:40'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689949366
-        to: 1689949384
+        from: 1690377848
+        to: 1690379260
   -
-    message: 'Save entry type “project”'
+    message: 'Change settings for plugin “freeform”'
     changed:
-      entryTypes.537e669b-1f9a-48d9-b740-bf2920a1f4b5.fieldLayouts.8eebf57b-a7df-4ea5-95e6-1d61a730aec9.tabs.0.elements.2.instructions:
+      plugins.freeform.settings.allowFileTemplateEdit:
+        from: 1
+        to: '1'
+      plugins.freeform.settings.clientDigestRecipients:
         from: null
-        to: 'Project with video thumbnails should also have an image uploaded for fallback and video poster image.'
+        to: ''
+      plugins.freeform.settings.formTemplateDirectory:
+        from: null
+        to: freeform
+      plugins.freeform.settings.sessionContextSecret:
+        from: null
+        to: ''

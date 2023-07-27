@@ -1,0 +1,6 @@
+{% extends "_layouts/cp" %}
+
+{% block body %}
+    {{ parent() }}
+    {% hook 'freeform-beta-widget' %}
+{% endblock %}

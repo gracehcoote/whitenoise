@@ -1,0 +1,27 @@
+columnSuffix: iffgcrqn
+contentColumnType: text
+fieldGroup: ccdedfbc-ec18-497e-a755-2398cc5bedf5 # Careers
+handle: equalOpportunities
+instructions: null
+name: 'Equal Opportunities'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: Simple.json
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

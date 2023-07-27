@@ -1,0 +1,76 @@
+{% extends "_layouts/_base" %}
+
+{% block seo %}
+{% include "_includes/seo" %}
+{% endblock %}
+
+{% set bodyClass = '' %}
+
+{% block headContent %}
+<link href="{{ siteUrl }}assets/css/splide-core.min.css" rel="stylesheet"/>
+{% endblock %}
+
+{% block main %}
+<section class="hero d-flex flex-column">
+  <div class="section-container d-flex flex-grow-1 justify-content-center align-items-center text-center py-5">
+    <h1>{{ entry.pageTitle ?? entry.title }}</h1>
+  </div><!-- end section-container -->
+
+  {% set heroImage = entry.heroImage.one() %}
+  {% if heroImage %}
+  <img 
+    class="background-image{% if entry.greyscaleImage %} greyscale{% endif %}" 
+    loading="lazy" 
+    src="{{ heroImage.url('thumb1920X1080') }}" 
+    alt="{{ heroImage.title }}" 
+    sizes="100vw" 
+    srcset="
+      {{ heroImage.url('thumb480X270') }} 480w,
+      {{ heroImage.url('thumb512X288') }} 512w,
+      {{ heroImage.url('thumb768X432') }} 768w,
+      {{ heroImage.url('thumb960X540') }} 960w,
+      {{ heroImage.url('thumb1280X720') }} 1280w,
+      {{ heroImage.url('thumb1920X1080') }} 1920w
+      ">
+    {% endif %}
+</section>
+
+<section>
+  {% if entry.textBlock or entry.whatWeOffer %}
+  <div class="section-container max-width py-5 pt-lg-10 pt-xl-12 pt-xxl-14 pb-lg-8 pb-xl-9 pb-xxl-10">
+    <div class="row justify-content-between gy-3">
+      {% if entry.textBlock %}
+      <div class="col-tls-7">
+        <h3 class="tw-bold">About us</h3>
+
+        {{ entry.textBlock }}
+
+        <a class="btn btn-outline mt-2" href="{{ siteUrl }}contact">Get in touch</a>
+      </div><!-- end col -->
+      {% endif %}
+
+      {% if entry.whatWeOffer %}
+      <div class="col-tls-4 ps-tls-3">
+        <h3 class="tw-bold">What we offer</h3>
+        <ul>
+          {% for item in entry.whatWeOffer %}
+            <li>{{ item.benefit }}</li>
+          {% endfor %}
+        </ul>
+      </div><!-- end col -->
+      {% endif %}
+    </div><!-- end row -->
+  </div><!-- end section-container -->
+  {% endif %}
+
+  {% if entry.equalOpportunities %}
+  <div class="section-container max-width py-5 pt-lg-10 pt-xl-12 pt-xxl-14 pb-lg-8 pb-xl-9 pb-xxl-10">
+    <p><strong>Equal Opportunities Employer</strong></p>
+    {{ entry.equalOpportunities }}
+  </div><!-- end section-container -->
+  {% endif %}
+</section>
+{% endblock %}
+
+{% block javascript %}
+{% endblock %}

@@ -56,15 +56,12 @@ section {
 
 .section-container {
 	position: relative;
-	padding-top: $space-lg;
-	padding-bottom: $space-lg;
 	margin: 0 auto;
 	width: 85%;
-	// max-width: 1224px;
 
-	// + .section-container {
-	// 	padding-top: 0;
-	// }
+	+ .section-container {
+		padding-top: 0 !important;
+	}
 
 	@media #{$extra-large-up} {
 		&.narrow {
@@ -88,25 +85,6 @@ section {
 		max-width: 1424px;
 		padding-left: 0;
 		padding-right: 0;
-	}
-}
-
-@media #{$tablet-ls} {
-	.section-container {
-		padding-top: $space-md;
-		padding-bottom: $space-md;
-
-		&.narrow {
-			width: 85%;
-		}
-	}
-}
-
-@media #{$small} {
-	.section-container {
-		padding-top: $space-sm;
-		padding-bottom: $space-sm;
-		width: 85%;
 	}
 }
 

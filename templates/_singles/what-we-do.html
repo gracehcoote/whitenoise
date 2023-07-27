@@ -1,0 +1,93 @@
+{% extends "_layouts/_base" %}
+
+{% block seo %}
+{% include "_includes/seo" %}
+{% endblock %}
+
+{% set bodyClass = '' %}
+
+{% block headContent %}
+<link href="{{ siteUrl }}assets/css/splide-core.min.css" rel="stylesheet"/>
+{% endblock %}
+
+{% block main %}
+<section class="hero d-flex flex-column">
+  <div class="section-container d-flex flex-grow-1 justify-content-center align-items-center text-center py-5">
+    <h1>{{ entry.pageTitle ?? entry.title }}</h1>
+  </div><!-- end section-container -->
+
+  {% set heroImage = entry.heroImage.one() %}
+  {% if heroImage %}
+  <img 
+    class="background-image{% if entry.greyscaleImage %} greyscale{% endif %}" 
+    loading="lazy" 
+    src="{{ heroImage.url('thumb1920X1080') }}" 
+    alt="{{ heroImage.title }}" 
+    sizes="100vw" 
+    srcset="
+      {{ heroImage.url('thumb480X270') }} 480w,
+      {{ heroImage.url('thumb512X288') }} 512w,
+      {{ heroImage.url('thumb768X432') }} 768w,
+      {{ heroImage.url('thumb960X540') }} 960w,
+      {{ heroImage.url('thumb1280X720') }} 1280w,
+      {{ heroImage.url('thumb1920X1080') }} 1920w
+      ">
+    {% endif %}
+</section>
+
+{% set services = entry.services.all() %}
+{% if services %}
+<section>
+  <div class="section-container x-narrow py-5 pt-lg-10 pt-xl-12 pt-xxl-14 pb-lg-8 pb-xl-9 pb-xxl-10">
+    <div class="row gy-4 justify-content-between">
+      <div class="col-tls-6">
+        <ul class="nav flex-tls-column">
+        {% for service in services %}
+        <li class="nav-item toggle-partner{% if loop.first %} active{% endif %}{% if not loop.last %} mb-tls-1{% endif %}" data-toggle-partner="{{ service.serviceName|replace({' ': ''}) }}">{{ service.serviceName }}</li>
+        {% endfor %}
+        </ul>
+      </div><!-- end col -->
+
+      <div class="col-tls-6">
+        {% for service in services %}
+          <div class="partner" data-partner="{{ service.serviceName|replace({' ': ''}) }}">
+            <h2 class="d-tls-none">{{ service.serviceName }}</h2>
+            {{ service.serviceDescription }}
+
+            {% if service.downloadButton %}
+              {% set assetLink = service.downloadButton.one() %}
+              {% if assetLink %}
+              <a class="btn btn-outline" href="{{ assetLink.url }}">{% if service.downloadButtonText %}{{ service.downloadButtonText }}{% else %}Learn more{% endif %}</a>
+              {% endif %}
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div><!-- end col -->
+    </div><!-- end row -->
+  </div><!-- end section-container -->
+</section>
+{% endif %}
+{% endblock %}
+
+{% block javascript %}
+<script>
+  $(document).ready(function(){
+    if($('.partner').length > 0) {
+      $('.partner:not(:first)').hide();
+
+      $('.toggle-partner').click(function() {
+        //get the value of data-album-id-trigger
+        var tid = $(this).data('toggle-partner');
+        $('.toggle-partner').removeClass('active');
+        $(this).addClass('active');
+        //hide all album-list then show only the one's with data-album-id same as the clicked value
+        var $current = $('.partner[data-partner="' + tid + '"]').fadeIn();
+        $('.partner').not($current).hide();
+
+        //if you don't want to hide the previous items
+        //$('.album-list[data-album-id="' + tid + '"]').toggle();
+      });
+    }
+  });
+</script>
+{% endblock %}

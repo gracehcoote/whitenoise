@@ -1,0 +1,52 @@
+[
+  {
+    "urlParts": ["templates\\/", ["*","[^\\\\\\/]+"]],
+    "urlPattern": "templates/{template}",
+    "template": "/templates"
+  },
+  {
+    "urlParts": ["templates\\/", ["*","[^\\\\\\/]+"], "\\/", ["*","[^\\\\\\/]+"]],
+    "urlPattern": "templates/{template}/{form}",
+    "template": "/templates/form"
+  },
+  {
+    "urlParts": ["templates\\/", ["*","[^\\\\\\/]+"], "\\/", ["*","[^\\\\\\/]+"], "\\/edit\\/", ["*","[^\\\\\\/]+"]],
+    "urlPattern": "templates/{template}/{form}/edit/{id}",
+    "template": "/templates/form"
+  },
+  {
+    "urlParts": ["submissions\\/", ["*","[^\\\\\\/]+"]],
+    "urlPattern": "submissions/{form}",
+    "template": "/submissions"
+  },
+  {
+    "urlParts": ["submissions\\/", ["*","[^\\\\\\/]+"], "\\/spam\\/"],
+    "urlPattern": "submissions/{form}/spam",
+    "template": "/submissions"
+  },
+  {
+    "urlParts": ["submissions\\/", ["*","[^\\\\\\/]+"], "\\/", ["*","[^\\\\\\/]+"]],
+    "urlPattern": "submissions/{form}/{id}",
+    "template": "/submissions/view"
+  },
+  {
+    "urlParts": ["submissions\\/", ["*","[^\\\\\\/]+"], "\\/", ["*","[^\\\\\\/]+"], "\\/spam\\/"],
+    "urlPattern": "submissions/{form}/{id}/spam",
+    "template": "/submissions/view"
+  },
+  {
+    "urlParts": ["custom\\/"],
+    "urlPattern": "custom",
+    "template": "/custom"
+  },
+  {
+    "urlParts": ["custom\\/", ["*","[^\\\\\\/]+"]],
+    "urlPattern": "custom/{form}",
+    "template": "/custom/form"
+  },
+  {
+    "urlParts": ["extras\\/suppress-edit-submissions\\/edit\\/", ["token","\\\\w+"]],
+    "urlPattern": "extras/suppress-edit-submissions/edit/{token}",
+    "template": "/extras/suppress-edit-submissions"
+  }
+]

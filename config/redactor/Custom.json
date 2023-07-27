@@ -1,5 +1,5 @@
 {
-  "buttons": ["format", "bold", "italic", "lists", "link", "html"],
+  "buttons": ["format", "bold", "italic", "link", "lists", "html"],
   "formatting": [
     "h2",
     "h3",
@@ -57,6 +57,25 @@
     },
     "clearStyles": {
       "api": "module.inline.clearformat"
+    },
+    "linkStyle": {
+      "dropdown": {
+        "solidButton": {
+          "api": "module.inline.set",
+          "args": {
+            "class": "btn"
+          }
+        },
+        "outlineButton": {
+          "api": "module.inline.set",
+          "args": {
+            "class": "btn btn-outline"
+          }
+        },
+        "normalLink": {
+          "api": "module.inline.clearclass"
+        }
+      }
     }
   }
 }

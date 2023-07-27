@@ -1,0 +1,10 @@
+columnSuffix: nbivpieq
+contentColumnType: integer
+fieldGroup: f8e8eec1-974e-4485-8dc8-e4cd25204baa # Common
+handle: form
+instructions: null
+name: Form
+searchable: false
+translationKeyFormat: null
+translationMethod: none
+type: Solspace\Freeform\FieldTypes\FormFieldType

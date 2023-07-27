@@ -24,6 +24,15 @@ FORM STYLES
     outline: none;
     box-shadow: none;
     border-bottom-color: $yellow !important;
+
+    + label {
+      color: $yellow !important;
+    }
+
+    &.is-invalid {
+      box-shadow: none;
+      border-color: $danger !important;
+    }
   }
 
   &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -62,17 +71,16 @@ textarea.form-control {
 }
 
 label {
-  display: block;
+  display: inline-block;
   font-size: 12px;
   font-weight: 600;
   margin-top: 0.25rem;
+  transition: 0.3s;
+}
 
-  @media #{$tablet-ls} {
-
-  }
-
-  @media #{$phone-ls} {
-
+[data-freeform] {
+  label:not(.required):after {
+    content: ' (optional)';
   }
 }
 
@@ -80,10 +88,15 @@ label {
 
 ul.errors {
   display: inline-block;
+  width: auto;
   margin: 0;
   margin-left: 0.5rem;
   padding: 0;
   list-style: none;
+
+  @media #{$phone-ls-up} {
+    float: right;
+  }
 
   li {
     margin: 0.5rem 0;
@@ -91,4 +104,9 @@ ul.errors {
     font-weight: 700;
     color: $danger;
   }
+}
+
+.was-validated .form-control:invalid, 
+.form-control.is-invalid {
+  background-position: right center;
 }

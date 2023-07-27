@@ -1,0 +1,166 @@
+{% extends '_layouts/cp' %}
+
+{% import 'codeeditor/codeEditor' as codeEditor %}
+
+{% set title = 'Sprig Playground'|t('sprig') %}
+
+{% set bundle = view.registerAssetBundle('putyourlightson\\sprig\\plugin\\assets\\PlaygroundAsset') %}
+{% set resourcesUrl = bundle.baseUrl %}
+
+{% block pageTitle %}
+
+    <div style="width: 54px;">
+        {{ svg(craft.app.plugins.getPluginIconSvg('sprig')) }}
+    </div>
+
+    {{ parent() }}
+
+{% endblock %}
+
+{% block contextMenu %}
+
+    <div id="context-btngroup" class="btngroup">
+        <button type="button" id="context-btn" class="btn menubtn">
+            <span id="revision-label">{{ playground.name ?? '' }}</span>
+        </button>
+        <div class="menu">
+            {% if allSamples|length > 0 %}
+                <h6>{{ "Sample Components" | t('sprig') }}</h6>
+                <ul class="padded">
+                    {% for sample in allSamples %}
+                        <li>
+                            <a href="{{ url('sprig/' ~ sample.slug) }}" class="{{ sample.slug == slug ? 'sel' }}">
+                                {{ sample.name }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            {% if allSaved|length > 0 %}
+                <h6>{{ "Saved Components" | t('sprig') }}</h6>
+                <ul class="padded">
+                    {% for saved in allSaved %}
+                        <li>
+                            <a href="{{ url('sprig/' ~ saved.id) }}"
+                               class="{{ playground and playground.id == saved.id ? 'sel' }}">
+                                {{ saved.name }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+    </div>
+
+    {% if not craft.app.config.general.devMode %}
+        <span class="info warning" title="devMode is not enabled">
+            {{ 'Enable `devMode` to see Twig template errors.'|t('sprig')|markdown }}
+        </span>
+    {% endif %}
+
+{% endblock %}
+
+
+{% block actionButton %}
+
+    <form id="action-form" method="post">
+
+        {{ csrfInput() }}
+        <input type="hidden" name="action" value="sprig/playground/save">
+        <input type="hidden" name="id" value="{{ playground ? playground.id }}">
+        <input type="hidden" name="name" value="">
+        <textarea name="component" class="hidden"></textarea>
+        <textarea name="variables" class="hidden"></textarea>
+
+        <div class="flex">
+            <a href="https://putyourlightson.com/sprig" class="btn" target="_blank" rel="noopener">
+                {{ 'Learning Resources'|t('sprig') }}
+            </a>
+
+            {% if playground and not slug %}
+                <div class="btngroup">
+                    <button type="button" class="btn submit formsubmit"
+                            data-action="sprig/playground/update">{{ 'Update'|t('sprig') }}</button>
+                    <button type="button" class="btn submit menubtn"></button>
+                    <div class="menu">
+                        <ul>
+                            <li>
+                                <a class="formsubmit">{{ 'Save as a new component'|t('sprig') }}</a>
+                            </li>
+                        </ul>
+                        <hr>
+                        <ul>
+                            <li>
+                                <a class="formsubmit error" data-action="sprig/playground/delete"
+                                   data-confirm="{{ 'Are you sure you want to delete this component?'|t('sprig') }}">{{ 'Delete component'|t('sprig') }}</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            {% else %}
+                <button type="button" class="btn submit formsubmit">{{ 'Save'|t('sprig') }}</button>
+            {% endif %}
+        </div>
+
+    </form>
+
+{% endblock %}
+
+
+{% block main %}
+
+    <div class="playground">
+        <div>
+            <div class="variables content-pane">
+                <p class="light code">{{ 'Component Variables'|t('sprig') }}</p>
+                {% set variables = playground ? playground.variables : '' %}
+                <input id="input-variables" class="input code fullwidth field" value="{{ variables }}"
+                       placeholder="x=1&y=2&z=3">
+            </div>
+            <div class="pane input-pane">
+                <p class="light code">{{ 'Component'|t('sprig') }}</p>
+                {# See default options in https://github.com/nystudio107/craft-code-editor/blob/develop/src/web/assets/src/js/default-monaco-options.ts #}
+                {% set monacoOptions = {
+                    lineNumbers: 'on',
+                    lineNumbersMinChars: 4,
+                    lineDecorationsWidth: 6,
+                    folding: true,
+                } %}
+                {% set codeEditorOptions = {
+                    displayLanguageIcon: false,
+                } %}
+                {{ codeEditor.textarea({
+                    id: 'input',
+                    class: 'hidden',
+                    value: playground.component ?? '',
+                }, 'SprigField', monacoOptions, codeEditorOptions) }}
+                <button id="create" type="submit" class="btn submit topright">{{ 'Create'|t('sprig') }}</button>
+            </div>
+        </div>
+
+        <div>
+            <div class="variables content-pane">
+                <p class="light code">{{ 'Output Variables'|t('sprig') }}</p>
+                <input id="output-variables" class="input code fullwidth field" value="" disabled>
+            </div>
+            <div class="pane output-pane">
+                <p class="light code">
+                    {{ 'Output'|t('sprig') }}
+                    <span id="spinner" class="spinner" style="display: none;"></span>
+                </p>
+                <a href="#" id="output-toggle" class="btn topright">&lt; &gt;</a>
+                <div class="playground-output">
+                    {{ sprig('SprigPlayground', {}, { id: 'playground' }) }}
+                </div>
+                <textarea id="sourcecode" class="code fullwidth field" style="display: none;" disabled></textarea>
+            </div>
+        </div>
+    </div>
+
+    {{ sprig.script }}
+
+    {% js %}
+        let resourcesUrl = '{{ resourcesUrl }}';
+    {% endjs %}
+
+{% endblock %}

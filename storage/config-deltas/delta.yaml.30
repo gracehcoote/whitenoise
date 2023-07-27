@@ -1,22 +1,20 @@
-dateApplied: '2023-07-21 07:20:45'
+dateApplied: '2023-07-26 14:17:43'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689949230
-        to: 1689949245
+        from: 1690294809
+        to: 1690377463
   -
-    added:
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.0.elements.3.elementCondition: null
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.0.elements.3.fieldUid: 377e4815-2d50-4422-8079-ef03bd4ea6a9
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.0.elements.3.instructions: null
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.0.elements.3.label: null
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.0.elements.3.required: false
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.0.elements.3.tip: null
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.0.elements.3.type: craft\fieldlayoutelements\CustomField
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.0.elements.3.uid: 70af4449-605d-4051-8c4c-a166cdc9045b
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.0.elements.3.userCondition: null
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.0.elements.3.warning: null
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.0.elements.3.width: 100
-    message: 'Save entry type “article”'
+    message: 'Change settings for plugin “freeform”'
+    changed:
+      plugins.freeform.settings.clientDigestRecipients:
+        from: null
+        to: ''
+      plugins.freeform.settings.sessionContextSecret:
+        from: null
+        to: ''
+      plugins.freeform.settings.showTutorial:
+        from: true
+        to: false

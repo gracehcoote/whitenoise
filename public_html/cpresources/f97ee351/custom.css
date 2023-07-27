@@ -1,0 +1,106 @@
+/* Heading weight */
+:root .redactor-styles h1 .tw-regular,
+:root .redactor-styles h2 .tw-regular,
+:root .redactor-styles h3 .tw-regular,
+:root .redactor-styles h4 .tw-regular,
+:root .redactor-styles h5 .tw-regular {
+  font-weight: 400;
+}
+:root .redactor-styles h1 .tw-medium,
+:root .redactor-styles h2 .tw-medium,
+:root .redactor-styles h3 .tw-medium,
+:root .redactor-styles h4 .tw-medium,
+:root .redactor-styles h5 .tw-medium {
+  font-weight: 500;
+}
+:root .redactor-styles h1 .tw-semibold,
+:root .redactor-styles h2 .tw-semibold,
+:root .redactor-styles h3 .tw-semibold,
+:root .redactor-styles h4 .tw-semibold,
+:root .redactor-styles h5 .tw-semibold {
+  font-weight: 600;
+}
+:root .redactor-styles h1 .tw-bold,
+:root .redactor-styles h2 .tw-bold,
+:root .redactor-styles h3 .tw-bold,
+:root .redactor-styles h4 .tw-bold,
+:root .redactor-styles h5 .tw-bold {
+  font-weight: 700;
+}
+:root .redactor-styles h1 .tw-extrabold,
+:root .redactor-styles h2 .tw-extrabold,
+:root .redactor-styles h3 .tw-extrabold,
+:root .redactor-styles h4 .tw-extrabold,
+:root .redactor-styles h5 .tw-extrabold {
+  font-weight: 800;
+}
+:root .redactor-styles h1 .tw-black,
+:root .redactor-styles h2 .tw-black,
+:root .redactor-styles h3 .tw-black,
+:root .redactor-styles h4 .tw-black,
+:root .redactor-styles h5 .tw-black {
+  font-weight: 900;
+}
+
+:root .redactor-dropdown-item-regular span {
+  font-weight: 400;
+}
+
+:root .redactor-dropdown-item-medium span {
+  font-weight: 500;
+}
+
+:root .redactor-dropdown-item-semibold span {
+  font-weight: 600;
+}
+
+:root .redactor-dropdown-item-bold span {
+  font-weight: 700;
+}
+
+:root .redactor-dropdown-item-extrabold span {
+  font-weight: 800;
+}
+
+:root .redactor-dropdown-item-black span {
+  font-weight: 900;
+}
+
+/* Buttons */
+:root .redactor-styles a.btn {
+  border-radius: 6px;
+  border: none;
+  font-family: "Jeko", "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  background-color: #1A1A1A;
+  transition: all 1s;
+}
+.dark :root .redactor-styles a.btn {
+  color: #1A1A1A;
+  background-color: #fff;
+}
+:root .redactor-styles a.btn.btn-outline {
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px #1A1A1A;
+  color: #1A1A1A;
+}
+:root .redactor-styles a.btn.btn-outline:hover {
+  box-shadow: inset 0px 0px 0px 100px #1A1A1A;
+  color: #fff;
+}
+.dark :root .redactor-styles a.btn.btn-outline {
+  box-shadow: inset 0px 0px 0px 2px #fff;
+  color: #fff;
+}
+.dark :root .redactor-styles a.btn.btn-outline:hover {
+  box-shadow: inset 0px 0px 0px 100px #fff;
+  color: #1A1A1A;
+}
+:root .redactor-styles a.btn:hover {
+  box-shadow: inset 0px 0px 0px 200px #FFCD00;
+}
+
+/*# sourceMappingURL=custom.css.map */

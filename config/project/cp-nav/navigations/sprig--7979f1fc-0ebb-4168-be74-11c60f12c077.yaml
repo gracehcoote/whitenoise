@@ -1,0 +1,17 @@
+currLabel: Sprig
+customIcon: null
+enabled: true
+handle: sprig
+icon: /Applications/MAMP/htdocs/local.whitenoise.com/vendor/putyourlightson/craft-sprig/src/icon-mask.svg
+layout: 46a718b9-7e17-42a2-a4ce-3b0214a27bdc # Default
+level: 1
+newWindow: false
+parent: null
+prevLabel: Sprig
+prevLevel: 1
+prevParent: null
+prevUrl: sprig
+sortOrder: 8
+subnavBehaviour: null
+type: plugin
+url: sprig

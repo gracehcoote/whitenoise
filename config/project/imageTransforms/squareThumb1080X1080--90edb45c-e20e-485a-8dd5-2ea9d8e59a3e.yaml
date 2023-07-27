@@ -1,0 +1,11 @@
+fill: null
+format: null
+handle: squareThumb1080X1080
+height: 1080
+interlace: none
+mode: crop
+name: 'Square Thumb 1080 x 1080'
+position: center-center
+quality: 90
+upscale: true
+width: 1080

@@ -1,0 +1,232 @@
+field: f586ca8a-c508-4871-91b2-259dc8688653 # Team
+fieldLayouts:
+  d5aad0e7-2fb3-4377-aaf4-3737ec8242c3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 344832ca-b0e9-43f5-8578-716c92e36c0c # Team Member Name
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1350a0a3-bc6d-4490-b432-1728940d3fc5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9188a04c-dafe-4374-91d1-db40ef539de4 # Team Member Role (weekday)
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6ebabe17-1dc5-49fd-8f4c-84f7b1b31035
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 414f3452-9ee4-403d-b4ad-dd18bb777fb3 # Team Member Image (weekday)
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2b3a17d5-c07d-4dfd-99d3-6357eb6d56d7
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: ee609e80-4dbf-4fcc-a38a-42124ed6cfe6 # Team Member Role (weekend)
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b668610f-113f-4917-96ac-49cbad3f4eef
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 04818a19-5400-4974-aa44-64e0ea7df6b7 # Team Member Image (weekend)
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1bbbbcaf-0413-4974-afb0-04bc4f92f37d
+            userCondition: null
+            warning: null
+            width: 50
+        name: Content
+        uid: 7f2dee94-3cac-452e-b639-b0d4b6c89409
+        userCondition: null
+fields:
+  414f3452-9ee4-403d-b4ad-dd18bb777fb3: # Team Member Image (weekday)
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: teamMemberImageWeekday
+    instructions: 'A placeholder will be used for any team members without images.'
+    name: 'Team Member Image (weekday)'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9' # Meta
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: thumbs
+      restrictFiles: true
+      restrictLocation: true
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:88345c9b-bba7-481d-b7be-a56f256bad79' # Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: 'Select an image'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  04818a19-5400-4974-aa44-64e0ea7df6b7: # Team Member Image (weekend)
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: teamMemberImageWeekend
+    instructions: null
+    name: 'Team Member Image (weekend)'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9' # Meta
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: thumbs
+      restrictFiles: true
+      restrictLocation: true
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:88345c9b-bba7-481d-b7be-a56f256bad79' # Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: 'Select an image'
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  9188a04c-dafe-4374-91d1-db40ef539de4: # Team Member Role (weekday)
+    columnSuffix: ctveofol
+    contentColumnType: text
+    fieldGroup: null
+    handle: teamMemberRoleWeekday
+    instructions: null
+    name: 'Team Member Role (weekday)'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  344832ca-b0e9-43f5-8578-716c92e36c0c: # Team Member Name
+    columnSuffix: jjiddikk
+    contentColumnType: text
+    fieldGroup: null
+    handle: teamMemberName
+    instructions: null
+    name: 'Team Member Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ee609e80-4dbf-4fcc-a38a-42124ed6cfe6: # Team Member Role (weekend)
+    columnSuffix: amwnsquw
+    contentColumnType: text
+    fieldGroup: null
+    handle: teamMemberRoleWeekend
+    instructions: null
+    name: 'Team Member Role (weekend)'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: teamMember
+name: 'Team Member'
+sortOrder: 1

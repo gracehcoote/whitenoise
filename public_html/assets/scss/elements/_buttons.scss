@@ -20,11 +20,8 @@ button {
 
   &:not(.btn-outline) {
     box-shadow: inset 0px 0px 0px 0px $yellow;
-
-    &.btn-black {
-      color: #fff;
-      background-color: $black;
-    }
+    color: #fff;
+    background-color: $black;
 
     &.btn-white {
       color: $black;
@@ -39,14 +36,12 @@ button {
   &.btn-outline {
     background-color: transparent;
 
-    &.btn-black {
-      box-shadow: inset 0px 0px 0px 2px $black;
-      color: $black;
+    box-shadow: inset 0px 0px 0px 2px $black;
+    color: $black;
 
-      &:hover {
-        box-shadow: inset 0px 0px 0px 100px $black;
-        color: #fff;
-      }
+    &:hover {
+      box-shadow: inset 0px 0px 0px 100px $black;
+      color: #fff;
     }
 
     &.btn-white {

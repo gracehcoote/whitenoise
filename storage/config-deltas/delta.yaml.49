@@ -1,22 +1,67 @@
-dateApplied: '2023-07-20 08:39:52'
+dateApplied: '2023-07-25 14:46:41'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1689867348
-        to: 1689867592
+        from: 1690290049
+        to: 1690292799
   -
-    message: 'Save section “newsroomArticles”'
-    changed:
-      sections.0f8100aa-dfeb-4c7a-a612-34bcba4bf7d2.handle:
-        from: newsroom
-        to: newsroomArticles
-      sections.0f8100aa-dfeb-4c7a-a612-34bcba4bf7d2.name:
-        from: Newsroom
-        to: 'Newsroom Articles'
+    added:
+      sections.16f4f1fa-ceab-4aac-9c81-843936f84f39.defaultPlacement: end
+      sections.16f4f1fa-ceab-4aac-9c81-843936f84f39.enableVersioning: true
+      sections.16f4f1fa-ceab-4aac-9c81-843936f84f39.handle: contact
+      sections.16f4f1fa-ceab-4aac-9c81-843936f84f39.name: Contact
+      sections.16f4f1fa-ceab-4aac-9c81-843936f84f39.propagationMethod: all
+      sections.16f4f1fa-ceab-4aac-9c81-843936f84f39.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.enabledByDefault: true
+      sections.16f4f1fa-ceab-4aac-9c81-843936f84f39.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.hasUrls: true
+      sections.16f4f1fa-ceab-4aac-9c81-843936f84f39.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.template: _singles/contact.html
+      sections.16f4f1fa-ceab-4aac-9c81-843936f84f39.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.uriFormat: contact
+      sections.16f4f1fa-ceab-4aac-9c81-843936f84f39.type: single
+    message: 'Save section “contact”'
   -
-    changed:
-      meta.__names__.0f8100aa-dfeb-4c7a-a612-34bcba4bf7d2:
-        from: Newsroom
-        to: 'Newsroom Articles'
+    added:
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elementCondition: null
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.autocapitalize: true
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.autocomplete: false
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.autocorrect: true
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.class: null
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.disabled: false
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.elementCondition: null
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.id: null
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.instructions: null
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.label: null
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.max: null
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.min: null
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.name: null
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.orientation: null
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.placeholder: null
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.readonly: false
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.requirable: false
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.size: null
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.step: null
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.tip: null
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.title: null
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.type: craft\fieldlayoutelements\entries\EntryTitleField
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.uid: 32ef1a01-020c-44c8-82bc-e429a2240da1
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.userCondition: null
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.warning: null
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.width: 100
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.name: Content
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.uid: 54223db2-8d75-4364-9c6c-876469ba9b81
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.userCondition: null
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.handle: contact
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.hasTitleField: false
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.name: Contact
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.section: 16f4f1fa-ceab-4aac-9c81-843936f84f39
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.sortOrder: 1
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.titleFormat: '{section.name|raw}'
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.titleTranslationKeyFormat: null
+      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.titleTranslationMethod: site
+    message: 'Save entry type “contact”'
+  -
+    added:
+      meta.__names__.16f4f1fa-ceab-4aac-9c81-843936f84f39: Contact
+  -
+    added:
+      meta.__names__.cec03b03-7afe-4c55-b93d-3de5f34dd6ff: Contact

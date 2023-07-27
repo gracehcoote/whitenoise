@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: f8e8eec1-974e-4485-8dc8-e4cd25204baa # Common
+handle: team
+instructions: null
+name: Team
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_team}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

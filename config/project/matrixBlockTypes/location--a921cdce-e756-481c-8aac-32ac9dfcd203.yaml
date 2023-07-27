@@ -123,19 +123,24 @@ fields:
     type: craft\fields\PlainText
   812ed655-de97-4974-b556-2b648aa8d926: # Google Maps Link
     columnSuffix: fsfcadkc
-    contentColumnType: string(1000)
+    contentColumnType: text
     fieldGroup: null
     handle: googleMapsLink
     instructions: null
     name: 'Google Maps Link'
     searchable: false
     settings:
-      maxLength: 1000
-      types:
-        - url
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
     translationKeyFormat: null
     translationMethod: none
-    type: craft\fields\Url
+    type: craft\fields\PlainText
   bd6955ac-0003-4c1c-855f-6986ed631bc4: # Telephone Number
     columnSuffix: vkkuwrlc
     contentColumnType: text

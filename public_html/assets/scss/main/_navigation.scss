@@ -3,6 +3,12 @@ NAVIGATION STYLES
 *****************/
 
 ul.nav {
+  margin: 0 -1rem;
+
+  .nav-item {
+    margin: 0 1rem;
+  }
+
   .nav-link {
     padding: 0;
   }
@@ -12,6 +18,7 @@ ul.social {
   display: flex;
   flex-direction: row;
   margin: 0 -0.5rem;
+  padding: 0;
 
   .nav-item {
     margin: 0 0.5rem;
@@ -93,8 +100,8 @@ nav#global {
 body.black,
 body.no-overlay,
 body.black-no-overlay {
-  header#global {
-    .toggle-nav:not(.active) {
+  header#global:not(.active) {
+    .toggle-nav {
       .burger {
         background-color: $black;
 
@@ -244,6 +251,8 @@ nav#global {
   }
 
   ul.nav {
+    margin: 0;
+    
     .nav-item {
       margin: 1.25rem 0;
       position: relative;
