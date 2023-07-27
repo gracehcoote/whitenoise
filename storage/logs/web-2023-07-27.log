@@ -12990,3 +12990,787 @@ $_SERVER = [
     'DEFAULT_SITE_NAME' => 'Whitenoise Studios'
     'PRIMARY_SITE_URL' => 'http://local.whitenoise.com/'
 ]  
+2023-07-27 09:35:00 [web.INFO] [yii\db\Connection::open] Opening DB connection: mysql:host=127.0.0.1;dbname=whitenoise;port=8889 {"memory":748136} 
+2023-07-27 09:35:00 [web.INFO] [yii\web\Session::open] Session started {"memory":1528336} 
+2023-07-27 09:35:00 [web.INFO] [nystudio107\codeeditor\CodeEditor::bootstrap] CodeEditor module bootstrapped {"memory":1553256} 
+2023-07-27 09:35:00 [web.INFO] [adigital\cookieconsentbanner\CookieConsentBanner::init] Cookie Consent Banner plugin loaded {"memory":1689832} 
+2023-07-27 09:35:00 [web.INFO] [nystudio107\cookies\Cookies::init] Cookies plugin loaded {"memory":1701608} 
+2023-07-27 09:35:00 [web.INFO] [vaersaagod\matrixmate\MatrixMate::init] MatrixMate plugin loaded {"memory":2081232} 
+2023-07-27 09:35:00 [web.INFO] [application] Request context:
+$_GET = [
+    'p' => 'admin/actions/users/session-info'
+    'dontExtendSession' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'CRAFT_CSRF_TOKEN' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    'cookieconsent_status' => 'allow'
+    'CraftSessionId' => '1r4h7t40gi6dfa1lt8pnvd38di'
+    '8f2c3cf96b939295061eb13a81ccc27a_username' => 'c756a378f9ad4b95b39abb629ac78d6924bfe5af5bf71406651b02291bd6276ba:2:{i:0;s:41:\"8f2c3cf96b939295061eb13a81ccc27a_username\";i:1;s:5:\"admin\";}'
+    '__stripe_mid' => '62891bd2-e906-4fe6-897d-a9213de5a3bb10859d'
+]
+
+$_SESSION = [
+    '0d86b8e7ffa267616a3ade71e3baf37d__flash' => [
+        'cp-notice' => -1
+        'Notification saved' => -1
+    ]
+    '0d86b8e7ffa267616a3ade71e3baf37d__auth_access' => [
+        0 => 'previewElement:15'
+        1 => 'saveAssets:88345c9b-bba7-481d-b7be-a56f256bad79'
+        2 => 'saveAssets:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
+        3 => 'previewElement:867'
+        4 => 'previewElement:988'
+        5 => 'previewDraft:3'
+        6 => 'previewDraft:4'
+        7 => 'previewDraft:5'
+        8 => 'previewElement:1010'
+        9 => 'previewDraft:7'
+        10 => 'previewDraft:8'
+        11 => 'previewDraft:9'
+        12 => 'saveAssets:1544ef0f-cf56-4850-a153-9b5bb47e6064'
+        13 => 'previewDraft:10'
+        14 => 'previewDraft:11'
+        15 => 'previewDraft:13'
+        16 => 'previewDraft:17'
+        17 => 'previewDraft:21'
+        18 => 'previewDraft:23'
+        19 => 'previewDraft:25'
+        20 => 'previewElement:1112'
+        21 => 'previewDraft:28'
+        22 => 'previewElement:1126'
+        23 => 'previewDraft:29'
+        24 => 'previewDraft:30'
+        25 => 'previewDraft:31'
+        26 => 'previewDraft:32'
+    ]
+    'cp-notice' => 'Settings Saved'
+    'Notification saved' => true
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.whitenoise.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://local.whitenoise.com/admin/entries/careers/1126-careers'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'CRAFT_CSRF_TOKEN=f6a20c9ede4994a28ce083cae8e241378ecf1476828d2ac846fe23a47954bb83a%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22CRAFT_CSRF_TOKEN%22%3Bi%3A1%3Bs%3A40%3A%22CnotM7HlaK2-25-vi2e6MjCBm-8m0ry2j1nX-MKt%22%3B%7D; cookieconsent_status=allow; CraftSessionId=1r4h7t40gi6dfa1lt8pnvd38di; 8f2c3cf96b939295061eb13a81ccc27a_username=c756a378f9ad4b95b39abb629ac78d6924bfe5af5bf71406651b02291bd6276ba%3A2%3A%7Bi%3A0%3Bs%3A41%3A%228f2c3cf96b939295061eb13a81ccc27a_username%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3B%7D; __stripe_mid=62891bd2-e906-4fe6-897d-a9213de5a3bb10859d'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/8.2.0 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1'
+    'SERVER_NAME' => 'local.whitenoise.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html/index.php'
+    'REMOTE_PORT' => '60120'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'p=admin%2Factions%2Fusers%2Fsession-info&dontExtendSession=1'
+    'REQUEST_URI' => '/index.php?p=admin%2Factions%2Fusers%2Fsession-info&dontExtendSession=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1690450500.5672
+    'REQUEST_TIME' => 1690450500
+    'CRAFT_APP_ID' => 'CraftCMS--4f80cc3b-76dd-45b1-9147-bc8717a572d4'
+    'CRAFT_ENVIRONMENT' => 'dev'
+    'CRAFT_SECURITY_KEY' => '••••••••••••••••••••••••••••••••'
+    'CRAFT_DB_DRIVER' => 'mysql'
+    'CRAFT_DB_SERVER' => '127.0.0.1'
+    'CRAFT_DB_PORT' => '8889'
+    'CRAFT_DB_DATABASE' => 'whitenoise'
+    'CRAFT_DB_USER' => 'root'
+    'CRAFT_DB_PASSWORD' => '••••'
+    'CRAFT_DB_SCHEMA' => ''
+    'CRAFT_DB_TABLE_PREFIX' => ''
+    'DEV_MODE' => 'true'
+    'ALLOW_ADMIN_CHANGES' => 'true'
+    'DISALLOW_ROBOTS' => 'true'
+    'DEFAULT_SITE_NAME' => 'Whitenoise Studios'
+    'PRIMARY_SITE_URL' => 'http://local.whitenoise.com/'
+]  
+2023-07-27 09:35:31 [web.INFO] [yii\db\Connection::open] Opening DB connection: mysql:host=127.0.0.1;dbname=whitenoise;port=8889 {"memory":748136} 
+2023-07-27 09:35:31 [web.INFO] [yii\web\Session::open] Session started {"memory":1528336} 
+2023-07-27 09:35:31 [web.INFO] [nystudio107\codeeditor\CodeEditor::bootstrap] CodeEditor module bootstrapped {"memory":1553256} 
+2023-07-27 09:35:31 [web.INFO] [adigital\cookieconsentbanner\CookieConsentBanner::init] Cookie Consent Banner plugin loaded {"memory":1689832} 
+2023-07-27 09:35:31 [web.INFO] [nystudio107\cookies\Cookies::init] Cookies plugin loaded {"memory":1701608} 
+2023-07-27 09:35:31 [web.INFO] [vaersaagod\matrixmate\MatrixMate::init] MatrixMate plugin loaded {"memory":2081232} 
+2023-07-27 09:35:31 [web.INFO] [application] Request context:
+$_GET = [
+    'p' => 'admin/actions/users/session-info'
+    'dontExtendSession' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'CRAFT_CSRF_TOKEN' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    'cookieconsent_status' => 'allow'
+    'CraftSessionId' => '1r4h7t40gi6dfa1lt8pnvd38di'
+    '8f2c3cf96b939295061eb13a81ccc27a_username' => 'c756a378f9ad4b95b39abb629ac78d6924bfe5af5bf71406651b02291bd6276ba:2:{i:0;s:41:\"8f2c3cf96b939295061eb13a81ccc27a_username\";i:1;s:5:\"admin\";}'
+    '__stripe_mid' => '62891bd2-e906-4fe6-897d-a9213de5a3bb10859d'
+]
+
+$_SESSION = [
+    '0d86b8e7ffa267616a3ade71e3baf37d__flash' => [
+        'cp-notice' => -1
+        'Notification saved' => -1
+    ]
+    '0d86b8e7ffa267616a3ade71e3baf37d__auth_access' => [
+        0 => 'previewElement:15'
+        1 => 'saveAssets:88345c9b-bba7-481d-b7be-a56f256bad79'
+        2 => 'saveAssets:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
+        3 => 'previewElement:867'
+        4 => 'previewElement:988'
+        5 => 'previewDraft:3'
+        6 => 'previewDraft:4'
+        7 => 'previewDraft:5'
+        8 => 'previewElement:1010'
+        9 => 'previewDraft:7'
+        10 => 'previewDraft:8'
+        11 => 'previewDraft:9'
+        12 => 'saveAssets:1544ef0f-cf56-4850-a153-9b5bb47e6064'
+        13 => 'previewDraft:10'
+        14 => 'previewDraft:11'
+        15 => 'previewDraft:13'
+        16 => 'previewDraft:17'
+        17 => 'previewDraft:21'
+        18 => 'previewDraft:23'
+        19 => 'previewDraft:25'
+        20 => 'previewElement:1112'
+        21 => 'previewDraft:28'
+        22 => 'previewElement:1126'
+        23 => 'previewDraft:29'
+        24 => 'previewDraft:30'
+        25 => 'previewDraft:31'
+        26 => 'previewDraft:32'
+    ]
+    'cp-notice' => 'Settings Saved'
+    'Notification saved' => true
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.whitenoise.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://local.whitenoise.com/admin/settings/sections/10/entrytypes/10'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'CRAFT_CSRF_TOKEN=f6a20c9ede4994a28ce083cae8e241378ecf1476828d2ac846fe23a47954bb83a%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22CRAFT_CSRF_TOKEN%22%3Bi%3A1%3Bs%3A40%3A%22CnotM7HlaK2-25-vi2e6MjCBm-8m0ry2j1nX-MKt%22%3B%7D; cookieconsent_status=allow; CraftSessionId=1r4h7t40gi6dfa1lt8pnvd38di; 8f2c3cf96b939295061eb13a81ccc27a_username=c756a378f9ad4b95b39abb629ac78d6924bfe5af5bf71406651b02291bd6276ba%3A2%3A%7Bi%3A0%3Bs%3A41%3A%228f2c3cf96b939295061eb13a81ccc27a_username%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3B%7D; __stripe_mid=62891bd2-e906-4fe6-897d-a9213de5a3bb10859d'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/8.2.0 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1'
+    'SERVER_NAME' => 'local.whitenoise.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html/index.php'
+    'REMOTE_PORT' => '60203'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'p=admin%2Factions%2Fusers%2Fsession-info&dontExtendSession=1'
+    'REQUEST_URI' => '/index.php?p=admin%2Factions%2Fusers%2Fsession-info&dontExtendSession=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1690450530.8407
+    'REQUEST_TIME' => 1690450530
+    'CRAFT_APP_ID' => 'CraftCMS--4f80cc3b-76dd-45b1-9147-bc8717a572d4'
+    'CRAFT_ENVIRONMENT' => 'dev'
+    'CRAFT_SECURITY_KEY' => '••••••••••••••••••••••••••••••••'
+    'CRAFT_DB_DRIVER' => 'mysql'
+    'CRAFT_DB_SERVER' => '127.0.0.1'
+    'CRAFT_DB_PORT' => '8889'
+    'CRAFT_DB_DATABASE' => 'whitenoise'
+    'CRAFT_DB_USER' => 'root'
+    'CRAFT_DB_PASSWORD' => '••••'
+    'CRAFT_DB_SCHEMA' => ''
+    'CRAFT_DB_TABLE_PREFIX' => ''
+    'DEV_MODE' => 'true'
+    'ALLOW_ADMIN_CHANGES' => 'true'
+    'DISALLOW_ROBOTS' => 'true'
+    'DEFAULT_SITE_NAME' => 'Whitenoise Studios'
+    'PRIMARY_SITE_URL' => 'http://local.whitenoise.com/'
+]  
+2023-07-27 09:35:31 [web.INFO] [yii\db\Connection::open] Opening DB connection: mysql:host=127.0.0.1;dbname=whitenoise;port=8889 {"memory":748136} 
+2023-07-27 09:35:31 [web.INFO] [yii\web\Session::open] Session started {"memory":1528336} 
+2023-07-27 09:35:31 [web.INFO] [nystudio107\codeeditor\CodeEditor::bootstrap] CodeEditor module bootstrapped {"memory":1553256} 
+2023-07-27 09:35:31 [web.INFO] [adigital\cookieconsentbanner\CookieConsentBanner::init] Cookie Consent Banner plugin loaded {"memory":1689832} 
+2023-07-27 09:35:31 [web.INFO] [nystudio107\cookies\Cookies::init] Cookies plugin loaded {"memory":1701608} 
+2023-07-27 09:35:31 [web.INFO] [vaersaagod\matrixmate\MatrixMate::init] MatrixMate plugin loaded {"memory":2081232} 
+2023-07-27 09:35:31 [web.INFO] [application] Request context:
+$_GET = [
+    'p' => 'admin/actions/users/session-info'
+    'dontExtendSession' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'CRAFT_CSRF_TOKEN' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    'cookieconsent_status' => 'allow'
+    'CraftSessionId' => '1r4h7t40gi6dfa1lt8pnvd38di'
+    '8f2c3cf96b939295061eb13a81ccc27a_username' => 'c756a378f9ad4b95b39abb629ac78d6924bfe5af5bf71406651b02291bd6276ba:2:{i:0;s:41:\"8f2c3cf96b939295061eb13a81ccc27a_username\";i:1;s:5:\"admin\";}'
+    '__stripe_mid' => '62891bd2-e906-4fe6-897d-a9213de5a3bb10859d'
+]
+
+$_SESSION = [
+    '0d86b8e7ffa267616a3ade71e3baf37d__flash' => [
+        'cp-notice' => -1
+        'Notification saved' => -1
+    ]
+    '0d86b8e7ffa267616a3ade71e3baf37d__auth_access' => [
+        0 => 'previewElement:15'
+        1 => 'saveAssets:88345c9b-bba7-481d-b7be-a56f256bad79'
+        2 => 'saveAssets:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
+        3 => 'previewElement:867'
+        4 => 'previewElement:988'
+        5 => 'previewDraft:3'
+        6 => 'previewDraft:4'
+        7 => 'previewDraft:5'
+        8 => 'previewElement:1010'
+        9 => 'previewDraft:7'
+        10 => 'previewDraft:8'
+        11 => 'previewDraft:9'
+        12 => 'saveAssets:1544ef0f-cf56-4850-a153-9b5bb47e6064'
+        13 => 'previewDraft:10'
+        14 => 'previewDraft:11'
+        15 => 'previewDraft:13'
+        16 => 'previewDraft:17'
+        17 => 'previewDraft:21'
+        18 => 'previewDraft:23'
+        19 => 'previewDraft:25'
+        20 => 'previewElement:1112'
+        21 => 'previewDraft:28'
+        22 => 'previewElement:1126'
+        23 => 'previewDraft:29'
+        24 => 'previewDraft:30'
+        25 => 'previewDraft:31'
+        26 => 'previewDraft:32'
+    ]
+    'cp-notice' => 'Settings Saved'
+    'Notification saved' => true
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.whitenoise.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://local.whitenoise.com/admin/settings/fields/edit/85'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'CRAFT_CSRF_TOKEN=f6a20c9ede4994a28ce083cae8e241378ecf1476828d2ac846fe23a47954bb83a%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22CRAFT_CSRF_TOKEN%22%3Bi%3A1%3Bs%3A40%3A%22CnotM7HlaK2-25-vi2e6MjCBm-8m0ry2j1nX-MKt%22%3B%7D; cookieconsent_status=allow; CraftSessionId=1r4h7t40gi6dfa1lt8pnvd38di; 8f2c3cf96b939295061eb13a81ccc27a_username=c756a378f9ad4b95b39abb629ac78d6924bfe5af5bf71406651b02291bd6276ba%3A2%3A%7Bi%3A0%3Bs%3A41%3A%228f2c3cf96b939295061eb13a81ccc27a_username%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3B%7D; __stripe_mid=62891bd2-e906-4fe6-897d-a9213de5a3bb10859d'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/8.2.0 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1'
+    'SERVER_NAME' => 'local.whitenoise.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html/index.php'
+    'REMOTE_PORT' => '60207'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'p=admin%2Factions%2Fusers%2Fsession-info&dontExtendSession=1'
+    'REQUEST_URI' => '/index.php?p=admin%2Factions%2Fusers%2Fsession-info&dontExtendSession=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1690450531.092
+    'REQUEST_TIME' => 1690450531
+    'CRAFT_APP_ID' => 'CraftCMS--4f80cc3b-76dd-45b1-9147-bc8717a572d4'
+    'CRAFT_ENVIRONMENT' => 'dev'
+    'CRAFT_SECURITY_KEY' => '••••••••••••••••••••••••••••••••'
+    'CRAFT_DB_DRIVER' => 'mysql'
+    'CRAFT_DB_SERVER' => '127.0.0.1'
+    'CRAFT_DB_PORT' => '8889'
+    'CRAFT_DB_DATABASE' => 'whitenoise'
+    'CRAFT_DB_USER' => 'root'
+    'CRAFT_DB_PASSWORD' => '••••'
+    'CRAFT_DB_SCHEMA' => ''
+    'CRAFT_DB_TABLE_PREFIX' => ''
+    'DEV_MODE' => 'true'
+    'ALLOW_ADMIN_CHANGES' => 'true'
+    'DISALLOW_ROBOTS' => 'true'
+    'DEFAULT_SITE_NAME' => 'Whitenoise Studios'
+    'PRIMARY_SITE_URL' => 'http://local.whitenoise.com/'
+]  
+2023-07-27 09:36:01 [web.INFO] [yii\db\Connection::open] Opening DB connection: mysql:host=127.0.0.1;dbname=whitenoise;port=8889 {"memory":748136} 
+2023-07-27 09:36:01 [web.INFO] [yii\web\Session::open] Session started {"memory":1528336} 
+2023-07-27 09:36:01 [web.INFO] [nystudio107\codeeditor\CodeEditor::bootstrap] CodeEditor module bootstrapped {"memory":1553256} 
+2023-07-27 09:36:01 [web.INFO] [adigital\cookieconsentbanner\CookieConsentBanner::init] Cookie Consent Banner plugin loaded {"memory":1689832} 
+2023-07-27 09:36:01 [web.INFO] [nystudio107\cookies\Cookies::init] Cookies plugin loaded {"memory":1701608} 
+2023-07-27 09:36:01 [web.INFO] [vaersaagod\matrixmate\MatrixMate::init] MatrixMate plugin loaded {"memory":2081232} 
+2023-07-27 09:36:01 [web.INFO] [application] Request context:
+$_GET = [
+    'p' => 'admin/actions/users/session-info'
+    'dontExtendSession' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'CRAFT_CSRF_TOKEN' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    'cookieconsent_status' => 'allow'
+    'CraftSessionId' => '1r4h7t40gi6dfa1lt8pnvd38di'
+    '8f2c3cf96b939295061eb13a81ccc27a_username' => 'c756a378f9ad4b95b39abb629ac78d6924bfe5af5bf71406651b02291bd6276ba:2:{i:0;s:41:\"8f2c3cf96b939295061eb13a81ccc27a_username\";i:1;s:5:\"admin\";}'
+    '__stripe_mid' => '62891bd2-e906-4fe6-897d-a9213de5a3bb10859d'
+]
+
+$_SESSION = [
+    '0d86b8e7ffa267616a3ade71e3baf37d__flash' => [
+        'cp-notice' => -1
+        'Notification saved' => -1
+    ]
+    '0d86b8e7ffa267616a3ade71e3baf37d__auth_access' => [
+        0 => 'previewElement:15'
+        1 => 'saveAssets:88345c9b-bba7-481d-b7be-a56f256bad79'
+        2 => 'saveAssets:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
+        3 => 'previewElement:867'
+        4 => 'previewElement:988'
+        5 => 'previewDraft:3'
+        6 => 'previewDraft:4'
+        7 => 'previewDraft:5'
+        8 => 'previewElement:1010'
+        9 => 'previewDraft:7'
+        10 => 'previewDraft:8'
+        11 => 'previewDraft:9'
+        12 => 'saveAssets:1544ef0f-cf56-4850-a153-9b5bb47e6064'
+        13 => 'previewDraft:10'
+        14 => 'previewDraft:11'
+        15 => 'previewDraft:13'
+        16 => 'previewDraft:17'
+        17 => 'previewDraft:21'
+        18 => 'previewDraft:23'
+        19 => 'previewDraft:25'
+        20 => 'previewElement:1112'
+        21 => 'previewDraft:28'
+        22 => 'previewElement:1126'
+        23 => 'previewDraft:29'
+        24 => 'previewDraft:30'
+        25 => 'previewDraft:31'
+        26 => 'previewDraft:32'
+    ]
+    'cp-notice' => 'Settings Saved'
+    'Notification saved' => true
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.whitenoise.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://local.whitenoise.com/admin/entries/careers/1126-careers'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'CRAFT_CSRF_TOKEN=f6a20c9ede4994a28ce083cae8e241378ecf1476828d2ac846fe23a47954bb83a%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22CRAFT_CSRF_TOKEN%22%3Bi%3A1%3Bs%3A40%3A%22CnotM7HlaK2-25-vi2e6MjCBm-8m0ry2j1nX-MKt%22%3B%7D; cookieconsent_status=allow; CraftSessionId=1r4h7t40gi6dfa1lt8pnvd38di; 8f2c3cf96b939295061eb13a81ccc27a_username=c756a378f9ad4b95b39abb629ac78d6924bfe5af5bf71406651b02291bd6276ba%3A2%3A%7Bi%3A0%3Bs%3A41%3A%228f2c3cf96b939295061eb13a81ccc27a_username%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3B%7D; __stripe_mid=62891bd2-e906-4fe6-897d-a9213de5a3bb10859d'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/8.2.0 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1'
+    'SERVER_NAME' => 'local.whitenoise.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html/index.php'
+    'REMOTE_PORT' => '60367'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'p=admin%2Factions%2Fusers%2Fsession-info&dontExtendSession=1'
+    'REQUEST_URI' => '/index.php?p=admin%2Factions%2Fusers%2Fsession-info&dontExtendSession=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1690450560.9033
+    'REQUEST_TIME' => 1690450560
+    'CRAFT_APP_ID' => 'CraftCMS--4f80cc3b-76dd-45b1-9147-bc8717a572d4'
+    'CRAFT_ENVIRONMENT' => 'dev'
+    'CRAFT_SECURITY_KEY' => '••••••••••••••••••••••••••••••••'
+    'CRAFT_DB_DRIVER' => 'mysql'
+    'CRAFT_DB_SERVER' => '127.0.0.1'
+    'CRAFT_DB_PORT' => '8889'
+    'CRAFT_DB_DATABASE' => 'whitenoise'
+    'CRAFT_DB_USER' => 'root'
+    'CRAFT_DB_PASSWORD' => '••••'
+    'CRAFT_DB_SCHEMA' => ''
+    'CRAFT_DB_TABLE_PREFIX' => ''
+    'DEV_MODE' => 'true'
+    'ALLOW_ADMIN_CHANGES' => 'true'
+    'DISALLOW_ROBOTS' => 'true'
+    'DEFAULT_SITE_NAME' => 'Whitenoise Studios'
+    'PRIMARY_SITE_URL' => 'http://local.whitenoise.com/'
+]  
+2023-07-27 09:36:31 [web.INFO] [yii\db\Connection::open] Opening DB connection: mysql:host=127.0.0.1;dbname=whitenoise;port=8889 {"memory":748136} 
+2023-07-27 09:36:31 [web.INFO] [yii\web\Session::open] Session started {"memory":1528336} 
+2023-07-27 09:36:31 [web.INFO] [nystudio107\codeeditor\CodeEditor::bootstrap] CodeEditor module bootstrapped {"memory":1553256} 
+2023-07-27 09:36:31 [web.INFO] [adigital\cookieconsentbanner\CookieConsentBanner::init] Cookie Consent Banner plugin loaded {"memory":1689832} 
+2023-07-27 09:36:31 [web.INFO] [nystudio107\cookies\Cookies::init] Cookies plugin loaded {"memory":1701608} 
+2023-07-27 09:36:31 [web.INFO] [vaersaagod\matrixmate\MatrixMate::init] MatrixMate plugin loaded {"memory":2081232} 
+2023-07-27 09:36:31 [web.INFO] [application] Request context:
+$_GET = [
+    'p' => 'admin/actions/users/session-info'
+    'dontExtendSession' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'CRAFT_CSRF_TOKEN' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    'cookieconsent_status' => 'allow'
+    'CraftSessionId' => '1r4h7t40gi6dfa1lt8pnvd38di'
+    '8f2c3cf96b939295061eb13a81ccc27a_username' => 'c756a378f9ad4b95b39abb629ac78d6924bfe5af5bf71406651b02291bd6276ba:2:{i:0;s:41:\"8f2c3cf96b939295061eb13a81ccc27a_username\";i:1;s:5:\"admin\";}'
+    '__stripe_mid' => '62891bd2-e906-4fe6-897d-a9213de5a3bb10859d'
+]
+
+$_SESSION = [
+    '0d86b8e7ffa267616a3ade71e3baf37d__flash' => [
+        'cp-notice' => -1
+        'Notification saved' => -1
+    ]
+    '0d86b8e7ffa267616a3ade71e3baf37d__auth_access' => [
+        0 => 'previewElement:15'
+        1 => 'saveAssets:88345c9b-bba7-481d-b7be-a56f256bad79'
+        2 => 'saveAssets:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
+        3 => 'previewElement:867'
+        4 => 'previewElement:988'
+        5 => 'previewDraft:3'
+        6 => 'previewDraft:4'
+        7 => 'previewDraft:5'
+        8 => 'previewElement:1010'
+        9 => 'previewDraft:7'
+        10 => 'previewDraft:8'
+        11 => 'previewDraft:9'
+        12 => 'saveAssets:1544ef0f-cf56-4850-a153-9b5bb47e6064'
+        13 => 'previewDraft:10'
+        14 => 'previewDraft:11'
+        15 => 'previewDraft:13'
+        16 => 'previewDraft:17'
+        17 => 'previewDraft:21'
+        18 => 'previewDraft:23'
+        19 => 'previewDraft:25'
+        20 => 'previewElement:1112'
+        21 => 'previewDraft:28'
+        22 => 'previewElement:1126'
+        23 => 'previewDraft:29'
+        24 => 'previewDraft:30'
+        25 => 'previewDraft:31'
+        26 => 'previewDraft:32'
+    ]
+    'cp-notice' => 'Settings Saved'
+    'Notification saved' => true
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.whitenoise.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://local.whitenoise.com/admin/settings/sections/10/entrytypes/10'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'CRAFT_CSRF_TOKEN=f6a20c9ede4994a28ce083cae8e241378ecf1476828d2ac846fe23a47954bb83a%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22CRAFT_CSRF_TOKEN%22%3Bi%3A1%3Bs%3A40%3A%22CnotM7HlaK2-25-vi2e6MjCBm-8m0ry2j1nX-MKt%22%3B%7D; cookieconsent_status=allow; CraftSessionId=1r4h7t40gi6dfa1lt8pnvd38di; 8f2c3cf96b939295061eb13a81ccc27a_username=c756a378f9ad4b95b39abb629ac78d6924bfe5af5bf71406651b02291bd6276ba%3A2%3A%7Bi%3A0%3Bs%3A41%3A%228f2c3cf96b939295061eb13a81ccc27a_username%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3B%7D; __stripe_mid=62891bd2-e906-4fe6-897d-a9213de5a3bb10859d'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/8.2.0 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1'
+    'SERVER_NAME' => 'local.whitenoise.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html/index.php'
+    'REMOTE_PORT' => '60392'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'p=admin%2Factions%2Fusers%2Fsession-info&dontExtendSession=1'
+    'REQUEST_URI' => '/index.php?p=admin%2Factions%2Fusers%2Fsession-info&dontExtendSession=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1690450591.2044
+    'REQUEST_TIME' => 1690450591
+    'CRAFT_APP_ID' => 'CraftCMS--4f80cc3b-76dd-45b1-9147-bc8717a572d4'
+    'CRAFT_ENVIRONMENT' => 'dev'
+    'CRAFT_SECURITY_KEY' => '••••••••••••••••••••••••••••••••'
+    'CRAFT_DB_DRIVER' => 'mysql'
+    'CRAFT_DB_SERVER' => '127.0.0.1'
+    'CRAFT_DB_PORT' => '8889'
+    'CRAFT_DB_DATABASE' => 'whitenoise'
+    'CRAFT_DB_USER' => 'root'
+    'CRAFT_DB_PASSWORD' => '••••'
+    'CRAFT_DB_SCHEMA' => ''
+    'CRAFT_DB_TABLE_PREFIX' => ''
+    'DEV_MODE' => 'true'
+    'ALLOW_ADMIN_CHANGES' => 'true'
+    'DISALLOW_ROBOTS' => 'true'
+    'DEFAULT_SITE_NAME' => 'Whitenoise Studios'
+    'PRIMARY_SITE_URL' => 'http://local.whitenoise.com/'
+]  
+2023-07-27 09:36:31 [web.INFO] [yii\db\Connection::open] Opening DB connection: mysql:host=127.0.0.1;dbname=whitenoise;port=8889 {"memory":748136} 
+2023-07-27 09:36:31 [web.INFO] [yii\web\Session::open] Session started {"memory":1528336} 
+2023-07-27 09:36:31 [web.INFO] [nystudio107\codeeditor\CodeEditor::bootstrap] CodeEditor module bootstrapped {"memory":1553256} 
+2023-07-27 09:36:31 [web.INFO] [adigital\cookieconsentbanner\CookieConsentBanner::init] Cookie Consent Banner plugin loaded {"memory":1689832} 
+2023-07-27 09:36:31 [web.INFO] [nystudio107\cookies\Cookies::init] Cookies plugin loaded {"memory":1701608} 
+2023-07-27 09:36:31 [web.INFO] [vaersaagod\matrixmate\MatrixMate::init] MatrixMate plugin loaded {"memory":2081232} 
+2023-07-27 09:36:31 [web.INFO] [application] Request context:
+$_GET = [
+    'p' => 'admin/actions/users/session-info'
+    'dontExtendSession' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'CRAFT_CSRF_TOKEN' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    'cookieconsent_status' => 'allow'
+    'CraftSessionId' => '1r4h7t40gi6dfa1lt8pnvd38di'
+    '8f2c3cf96b939295061eb13a81ccc27a_username' => 'c756a378f9ad4b95b39abb629ac78d6924bfe5af5bf71406651b02291bd6276ba:2:{i:0;s:41:\"8f2c3cf96b939295061eb13a81ccc27a_username\";i:1;s:5:\"admin\";}'
+    '__stripe_mid' => '62891bd2-e906-4fe6-897d-a9213de5a3bb10859d'
+]
+
+$_SESSION = [
+    '0d86b8e7ffa267616a3ade71e3baf37d__flash' => [
+        'cp-notice' => -1
+        'Notification saved' => -1
+    ]
+    '0d86b8e7ffa267616a3ade71e3baf37d__auth_access' => [
+        0 => 'previewElement:15'
+        1 => 'saveAssets:88345c9b-bba7-481d-b7be-a56f256bad79'
+        2 => 'saveAssets:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
+        3 => 'previewElement:867'
+        4 => 'previewElement:988'
+        5 => 'previewDraft:3'
+        6 => 'previewDraft:4'
+        7 => 'previewDraft:5'
+        8 => 'previewElement:1010'
+        9 => 'previewDraft:7'
+        10 => 'previewDraft:8'
+        11 => 'previewDraft:9'
+        12 => 'saveAssets:1544ef0f-cf56-4850-a153-9b5bb47e6064'
+        13 => 'previewDraft:10'
+        14 => 'previewDraft:11'
+        15 => 'previewDraft:13'
+        16 => 'previewDraft:17'
+        17 => 'previewDraft:21'
+        18 => 'previewDraft:23'
+        19 => 'previewDraft:25'
+        20 => 'previewElement:1112'
+        21 => 'previewDraft:28'
+        22 => 'previewElement:1126'
+        23 => 'previewDraft:29'
+        24 => 'previewDraft:30'
+        25 => 'previewDraft:31'
+        26 => 'previewDraft:32'
+    ]
+    'cp-notice' => 'Settings Saved'
+    'Notification saved' => true
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.whitenoise.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://local.whitenoise.com/admin/settings/fields/edit/85'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'CRAFT_CSRF_TOKEN=f6a20c9ede4994a28ce083cae8e241378ecf1476828d2ac846fe23a47954bb83a%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22CRAFT_CSRF_TOKEN%22%3Bi%3A1%3Bs%3A40%3A%22CnotM7HlaK2-25-vi2e6MjCBm-8m0ry2j1nX-MKt%22%3B%7D; cookieconsent_status=allow; CraftSessionId=1r4h7t40gi6dfa1lt8pnvd38di; 8f2c3cf96b939295061eb13a81ccc27a_username=c756a378f9ad4b95b39abb629ac78d6924bfe5af5bf71406651b02291bd6276ba%3A2%3A%7Bi%3A0%3Bs%3A41%3A%228f2c3cf96b939295061eb13a81ccc27a_username%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3B%7D; __stripe_mid=62891bd2-e906-4fe6-897d-a9213de5a3bb10859d'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/8.2.0 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1'
+    'SERVER_NAME' => 'local.whitenoise.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html/index.php'
+    'REMOTE_PORT' => '60395'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'p=admin%2Factions%2Fusers%2Fsession-info&dontExtendSession=1'
+    'REQUEST_URI' => '/index.php?p=admin%2Factions%2Fusers%2Fsession-info&dontExtendSession=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1690450591.4323
+    'REQUEST_TIME' => 1690450591
+    'CRAFT_APP_ID' => 'CraftCMS--4f80cc3b-76dd-45b1-9147-bc8717a572d4'
+    'CRAFT_ENVIRONMENT' => 'dev'
+    'CRAFT_SECURITY_KEY' => '••••••••••••••••••••••••••••••••'
+    'CRAFT_DB_DRIVER' => 'mysql'
+    'CRAFT_DB_SERVER' => '127.0.0.1'
+    'CRAFT_DB_PORT' => '8889'
+    'CRAFT_DB_DATABASE' => 'whitenoise'
+    'CRAFT_DB_USER' => 'root'
+    'CRAFT_DB_PASSWORD' => '••••'
+    'CRAFT_DB_SCHEMA' => ''
+    'CRAFT_DB_TABLE_PREFIX' => ''
+    'DEV_MODE' => 'true'
+    'ALLOW_ADMIN_CHANGES' => 'true'
+    'DISALLOW_ROBOTS' => 'true'
+    'DEFAULT_SITE_NAME' => 'Whitenoise Studios'
+    'PRIMARY_SITE_URL' => 'http://local.whitenoise.com/'
+]  
+2023-07-27 09:37:01 [web.INFO] [yii\db\Connection::open] Opening DB connection: mysql:host=127.0.0.1;dbname=whitenoise;port=8889 {"memory":748136} 
+2023-07-27 09:37:01 [web.INFO] [yii\web\Session::open] Session started {"memory":1528336} 
+2023-07-27 09:37:01 [web.INFO] [nystudio107\codeeditor\CodeEditor::bootstrap] CodeEditor module bootstrapped {"memory":1553256} 
+2023-07-27 09:37:01 [web.INFO] [adigital\cookieconsentbanner\CookieConsentBanner::init] Cookie Consent Banner plugin loaded {"memory":1689832} 
+2023-07-27 09:37:01 [web.INFO] [nystudio107\cookies\Cookies::init] Cookies plugin loaded {"memory":1701608} 
+2023-07-27 09:37:01 [web.INFO] [vaersaagod\matrixmate\MatrixMate::init] MatrixMate plugin loaded {"memory":2081232} 
+2023-07-27 09:37:01 [web.INFO] [application] Request context:
+$_GET = [
+    'p' => 'admin/actions/users/session-info'
+    'dontExtendSession' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'CRAFT_CSRF_TOKEN' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    'cookieconsent_status' => 'allow'
+    'CraftSessionId' => '1r4h7t40gi6dfa1lt8pnvd38di'
+    '8f2c3cf96b939295061eb13a81ccc27a_username' => 'c756a378f9ad4b95b39abb629ac78d6924bfe5af5bf71406651b02291bd6276ba:2:{i:0;s:41:\"8f2c3cf96b939295061eb13a81ccc27a_username\";i:1;s:5:\"admin\";}'
+    '__stripe_mid' => '62891bd2-e906-4fe6-897d-a9213de5a3bb10859d'
+]
+
+$_SESSION = [
+    '0d86b8e7ffa267616a3ade71e3baf37d__flash' => [
+        'cp-notice' => -1
+        'Notification saved' => -1
+    ]
+    '0d86b8e7ffa267616a3ade71e3baf37d__auth_access' => [
+        0 => 'previewElement:15'
+        1 => 'saveAssets:88345c9b-bba7-481d-b7be-a56f256bad79'
+        2 => 'saveAssets:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
+        3 => 'previewElement:867'
+        4 => 'previewElement:988'
+        5 => 'previewDraft:3'
+        6 => 'previewDraft:4'
+        7 => 'previewDraft:5'
+        8 => 'previewElement:1010'
+        9 => 'previewDraft:7'
+        10 => 'previewDraft:8'
+        11 => 'previewDraft:9'
+        12 => 'saveAssets:1544ef0f-cf56-4850-a153-9b5bb47e6064'
+        13 => 'previewDraft:10'
+        14 => 'previewDraft:11'
+        15 => 'previewDraft:13'
+        16 => 'previewDraft:17'
+        17 => 'previewDraft:21'
+        18 => 'previewDraft:23'
+        19 => 'previewDraft:25'
+        20 => 'previewElement:1112'
+        21 => 'previewDraft:28'
+        22 => 'previewElement:1126'
+        23 => 'previewDraft:29'
+        24 => 'previewDraft:30'
+        25 => 'previewDraft:31'
+        26 => 'previewDraft:32'
+    ]
+    'cp-notice' => 'Settings Saved'
+    'Notification saved' => true
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.whitenoise.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://local.whitenoise.com/admin/entries/careers/1126-careers'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'CRAFT_CSRF_TOKEN=f6a20c9ede4994a28ce083cae8e241378ecf1476828d2ac846fe23a47954bb83a%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22CRAFT_CSRF_TOKEN%22%3Bi%3A1%3Bs%3A40%3A%22CnotM7HlaK2-25-vi2e6MjCBm-8m0ry2j1nX-MKt%22%3B%7D; cookieconsent_status=allow; CraftSessionId=1r4h7t40gi6dfa1lt8pnvd38di; 8f2c3cf96b939295061eb13a81ccc27a_username=c756a378f9ad4b95b39abb629ac78d6924bfe5af5bf71406651b02291bd6276ba%3A2%3A%7Bi%3A0%3Bs%3A41%3A%228f2c3cf96b939295061eb13a81ccc27a_username%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3B%7D; __stripe_mid=62891bd2-e906-4fe6-897d-a9213de5a3bb10859d'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/8.2.0 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1'
+    'SERVER_NAME' => 'local.whitenoise.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html/index.php'
+    'REMOTE_PORT' => '60428'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'p=admin%2Factions%2Fusers%2Fsession-info&dontExtendSession=1'
+    'REQUEST_URI' => '/index.php?p=admin%2Factions%2Fusers%2Fsession-info&dontExtendSession=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1690450621.2344
+    'REQUEST_TIME' => 1690450621
+    'CRAFT_APP_ID' => 'CraftCMS--4f80cc3b-76dd-45b1-9147-bc8717a572d4'
+    'CRAFT_ENVIRONMENT' => 'dev'
+    'CRAFT_SECURITY_KEY' => '••••••••••••••••••••••••••••••••'
+    'CRAFT_DB_DRIVER' => 'mysql'
+    'CRAFT_DB_SERVER' => '127.0.0.1'
+    'CRAFT_DB_PORT' => '8889'
+    'CRAFT_DB_DATABASE' => 'whitenoise'
+    'CRAFT_DB_USER' => 'root'
+    'CRAFT_DB_PASSWORD' => '••••'
+    'CRAFT_DB_SCHEMA' => ''
+    'CRAFT_DB_TABLE_PREFIX' => ''
+    'DEV_MODE' => 'true'
+    'ALLOW_ADMIN_CHANGES' => 'true'
+    'DISALLOW_ROBOTS' => 'true'
+    'DEFAULT_SITE_NAME' => 'Whitenoise Studios'
+    'PRIMARY_SITE_URL' => 'http://local.whitenoise.com/'
+]  
