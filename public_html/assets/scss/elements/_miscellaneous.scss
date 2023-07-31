@@ -170,7 +170,7 @@ hr.small {
   }
 }
 
-// Show/hide partner text links
+// Show/hide adjacent partner text links
 
 .toggle-partner {
   font-family: $title-font;
@@ -200,6 +200,65 @@ hr.small {
   }
 }
 
+// Expand/collapse
+
+.hidden-el-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+
+  &:after {
+    content: 'Read more';
+    font-family: $title-font;
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+  }
+
+  &:hover:after {
+    border-bottom-color: $yellow;
+  }
+
+  &.hidden-opened:after{
+    content: 'Close';
+  }
+
+  .hidden-el-toggle-title {
+    margin-bottom: 0;
+  }
+}
+.hidden-el-close {
+  font-family: $title-font;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 2px solid transparent;
+  transition: 0.3s;
+
+  &:hover {
+    border-bottom-color: $yellow;
+  }
+}
+
+// Tooltips
+
+.tooltip-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $black;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.custom-tooltip {
+  text-align: left !important;
+  font-size: 14px;
+}
 
 /* Craft CMS Styles */
 

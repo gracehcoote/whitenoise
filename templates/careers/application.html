@@ -1,0 +1,45 @@
+{% extends "_layouts/_base" %}
+
+{% set entry = craft.entries.slug(slug).one() %}
+
+{% block seo %}
+{% set title = entry.title ~ " Application Form" %}
+{% include "_includes/seo" %}
+{% endblock %}
+
+{% set bodyClass = 'black-no-overlay' %}
+
+{% block headContent %}
+
+{% endblock %}
+
+{% block main %}
+{% set entry = craft.entries.slug(slug).one() %}
+
+<section>
+  <div class="section-container py-6">
+    <h1 class="mb-4">Application Form</h1>
+  </div><!-- end section-container -->
+
+  <div class="section-container max-width py-6">
+    <div class="shadow px-12 py-6">
+      <h2 id="job-title" class="medium text-center mb-4">{{ entry.title }}</h2>
+      {{ craft.freeform.form("careerApplication", {
+        overrideValues: {
+            role: entry.id,
+        }
+      }).render() }}
+
+    </div>
+    
+  </div><!-- end section-container -->
+</section>
+{% endblock %}
+
+{% block javascript %}
+<script>
+$('#form-input-role').change(function() { // when a option is selected
+  $("#job-title").html($('#form-input-role option:selected').text()); // pushs html code in P element
+});
+</script>
+{% endblock %}

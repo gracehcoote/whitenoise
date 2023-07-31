@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: ccdedfbc-ec18-497e-a755-2398cc5bedf5 # Careers
+handle: careerContentBlocks
+instructions: 'Use these blocks to create your job role. Each block will be shown as a border separated white box.'
+name: 'Career Content Blocks'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_careercontentblocks}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,0 +1,102 @@
+{% set careerContentBlocks = entry.careerContentBlocks.all() %}
+<!-- {{ careerContentBlocks | length }} -->
+{% for block in careerContentBlocks %}
+	{% if block.type == 'textBlock' %}
+		<div class="py-5 border-top border-2 border-dark">
+			{{ block.text }}
+		</div>
+
+	{% elseif block.type == 'statement' %}
+		<div class="py-5 border-top border-2 border-dark">
+			<h2 class="large">{{ block.statementText }}</h2>
+			{% if block.statementCaption %}
+			<cite>{{ block.statementCaption }}</cite>
+			{% endif %}
+		</div>
+
+	{% elseif block.type == 'statistics' %}
+		<div class="py-5 border-top border-2 border-dark">
+			<div class="d-flex flex-wrap justify-content-center align-items-start">
+			{% for row in block.statistic %}
+				<div class="px-3 my-2 text-center">
+					<span class="stat-text">{{ row.statisticFact }}</span>
+					{% if row.statisticCaption %}
+					<p class="tw-medium">{{ row.statisticCaption }}</p>
+					{% endif %}
+				</div>
+			{% endfor %}
+			</div>
+		</div>
+
+	{% elseif block.type == 'imageBlock' %}
+		<div>
+		{% set images = block.images.all() %}
+		{% if images|length == '1' %}
+			{% for image in images %}
+			<img 
+				loading="lazy" 
+				src="{{ image.url('thumb1920X1080') }}" 
+				alt="{{ image.title }}" 
+				sizes="100vw" 
+				srcset="
+					{{ image.url('thumb480X270') }} 480w,
+					{{ image.url('thumb512X288') }} 512w,
+					{{ image.url('thumb768X432') }} 768w,
+					{{ image.url('thumb960X540') }} 960w,
+					{{ image.url('thumb1280X720') }} 1280w,
+					{{ image.url('thumb1920X1080') }} 1920w
+				">
+			{% endfor %}
+		{% elseif images|length > 1 %}
+			<div class="image-slider splide" aria-label="Image slider">
+				<div class="splide__track">
+					<ul class="splide__list">
+						{% for image in images %}
+						<li class="splide__slide">
+							<img 
+								loading="lazy" 
+								src="{{ image.url('thumb1920X1080') }}" 
+								alt="{{ image.title }}" 
+								sizes="100vw" 
+								srcset="
+									{{ image.url('thumb480X270') }} 480w,
+									{{ image.url('thumb512X288') }} 512w,
+									{{ image.url('thumb768X432') }} 768w,
+									{{ image.url('thumb960X540') }} 960w,
+									{{ image.url('thumb1280X720') }} 1280w,
+									{{ image.url('thumb1920X1080') }} 1920w
+								">
+						</li>
+						{% endfor %}
+					</ul>
+				</div><!-- end splide__track -->
+			</div><!-- end splide -->
+			{% endif %}
+		</div>
+
+	{% elseif block.type == 'videoUpload' %}
+		<div class="border-top border-2 border-dark">
+			{% set videoFile = block.videoFile.one() %}
+			{% if videoFile %}
+			<div class="video-player">
+				<video class="video-js" data-setup='{"controls": true, "autoplay": false, "preload": "none", "fluid": "true"}'>
+					<source src="{{ videoFile.url }}" type="video/mp4">
+
+					<p class="vjs-no-js">
+						To view this video please enable JavaScript, and consider upgrading to a
+						web browser that
+						<a href="https://videojs.com/html5-video-support/" target="_blank"
+							>supports HTML5 video</a
+						>
+					</p>
+				</video>
+			</div><!-- end video-player -->
+			{% endif %}
+		</div>
+
+	{% elseif block.type == 'videoEmbed' %}
+		<div class="border-top border-2 border-dark">
+			{{ block.embedCode|raw }}
+		</div>
+	{% endif %}
+{% endfor %}

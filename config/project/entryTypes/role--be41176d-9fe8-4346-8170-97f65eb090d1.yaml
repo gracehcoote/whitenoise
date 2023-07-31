@@ -1,0 +1,127 @@
+fieldLayouts:
+  2bff6510-8d69-47d0-bbcb-788d28a0882a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 744c81b2-eeee-4c2c-ad47-e02ab10c003d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 82174415-6789-4d3d-8ab3-c711895906c0 # Closing Date
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9a7a4e8d-5582-416c-8714-1302f906bb46
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 76814d0e-9dd5-4780-8c5f-748b9bb99a6b # Role Information
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2e91a563-8419-40ab-bf67-063ee316aeb9
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Key Information'
+        uid: 261f487f-5e57-4bc6-bddd-f1833591d644
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: e04fa217-fc47-4d88-a1a5-9c4161a82be9 # Career Content Blocks
+            instructions: null
+            label: 'Role Details'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3e04cb22-a752-4339-bc89-b475244620ae
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Role Content'
+        uid: 1ac70503-9b50-4197-95c1-8d38cfa09850
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 42d3d29f-acd5-4355-b756-dd24a263cf34 # SEO Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 738d77ae-c803-450e-aac5-3c62f3a6a716
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1013d0af-42f2-4277-8692-ca5f66ef4588 # SEO Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2a829564-e33b-4959-8202-5d23c8952f19
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 225d43ff-b622-4780-8602-22940bb83e3e # OG Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d3de386f-bb45-4293-9137-6a71dd4fd520
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 0459c61d-a264-449b-9d23-bbbb6ff38ba4
+        userCondition: null
+handle: role
+hasTitleField: true
+name: Role
+section: aed785a3-b437-4c3d-9594-430b1b054cb4 # Careers - Roles
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

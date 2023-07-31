@@ -1,21 +1,29 @@
-dateApplied: '2023-07-26 16:28:51'
+dateApplied: '2023-07-27 11:35:39'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690385314
-        to: 1690385329
+        from: 1690454121
+        to: 1690454139
   -
-    added:
-      sites.dbb4a582-e95f-47f0-bc3e-7a176a701c48.enabled: true
-    message: 'Save the “default” site'
+    message: 'Save entry type “role”'
     changed:
-      sites.dbb4a582-e95f-47f0-bc3e-7a176a701c48.name:
-        from: 'Craft Base'
-        to: 'Whitenoise Studios'
-  -
-    changed:
-      meta.__names__.dbb4a582-e95f-47f0-bc3e-7a176a701c48:
-        from: 'Craft Base'
-        to: 'Whitenoise Studios'
+      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.fieldUid:
+        from: 76814d0e-9dd5-4780-8c5f-748b9bb99a6b
+        to: 82174415-6789-4d3d-8ab3-c711895906c0
+      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.uid:
+        from: 2e91a563-8419-40ab-bf67-063ee316aeb9
+        to: 9a7a4e8d-5582-416c-8714-1302f906bb46
+      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.width:
+        from: 75
+        to: 100
+      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.fieldUid:
+        from: 82174415-6789-4d3d-8ab3-c711895906c0
+        to: 76814d0e-9dd5-4780-8c5f-748b9bb99a6b
+      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.uid:
+        from: 9a7a4e8d-5582-416c-8714-1302f906bb46
+        to: 2e91a563-8419-40ab-bf67-063ee316aeb9
+      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.width:
+        from: 25
+        to: 100

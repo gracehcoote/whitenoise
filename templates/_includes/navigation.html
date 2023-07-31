@@ -19,9 +19,12 @@
             <li class="nav-item" style="--animation-order: 4;">
               <a class="nav-link{% if craft.app.request.getSegment(1) == 'newsroom' %} active{% endif %}" href="{{ siteUrl }}newsroom">Newsroom</a>
             </li>
+            {% set roles = craft.entries().section('careersRoles') .closingDate('> now').all() %}
+            {% if roles %}
             <li class="nav-item" style="--animation-order: 5;">
               <a class="nav-link{% if craft.app.request.getSegment(1) == 'careers' %} active{% endif %}" href="{{ siteUrl }}careers">Careers</a>
             </li>
+            {% endif %}
             <li class="nav-item" style="--animation-order: 6;">
               <a class="nav-link{% if craft.app.request.getSegment(1) == 'sound-studio' %} active{% endif %}" href="{{ siteUrl }}sound-studio">Sound Studio</a>
             </li>

@@ -1,0 +1,17 @@
+columnSuffix: bykwqkjt
+contentColumnType: datetime
+fieldGroup: ccdedfbc-ec18-497e-a755-2398cc5bedf5 # Careers
+handle: closingDate
+instructions: null
+name: 'Closing Date'
+searchable: false
+settings:
+  max: null
+  min: null
+  minuteIncrement: 30
+  showDate: true
+  showTime: true
+  showTimeZone: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date

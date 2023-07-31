@@ -1,0 +1,85 @@
+field: e04fa217-fc47-4d88-a1a5-9c4161a82be9 # Career Content Blocks
+fieldLayouts:
+  f3d8e808-971c-4ed7-add1-d0e99d6768d0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 5fdc20ac-8b9d-4a7f-9fd5-c4c13d3a1e3e # Statistic
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 06d4e4fe-cbef-421f-ba14-af6fd07b70db
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e5b8a4d6-edfa-4b4c-8993-91a915ccd4ed
+        userCondition: null
+fields:
+  5fdc20ac-8b9d-4a7f-9fd5-c4c13d3a1e3e: # Statistic
+    columnSuffix: lmlshplh
+    contentColumnType: text
+    fieldGroup: null
+    handle: statistic
+    instructions: "The statistic should be a short, usually numerical value e.g. 10%, 12m etc.\r\nThe statistic caption can be longer but should be limited to a maximum of a 2-5 words."
+    name: Statistic
+    searchable: false
+    settings:
+      addRowLabel: 'Add a statistic'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Statistic
+                -
+                  - handle
+                  - statisticFact
+                -
+                  - width
+                  - 30%
+                -
+                  - type
+                  - singleline
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Statistic caption'
+                -
+                  - handle
+                  - statisticCaption
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - ''
+            -
+              - col2
+              - ''
+      maxRows: null
+      minRows: 1
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+handle: statistics
+name: Statistics
+sortOrder: 3

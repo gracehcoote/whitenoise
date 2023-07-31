@@ -1,19 +1,17 @@
-dateApplied: '2023-07-26 16:28:34'
+dateApplied: '2023-07-27 11:33:35'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690385295
-        to: 1690385314
+        from: 1690453960
+        to: 1690454015
   -
-    message: 'Save the “Whitenoise Studios” site group'
+    message: 'Save entry type “role”'
     changed:
-      siteGroups.6062bc9a-a4e5-4395-9fc7-823621507cec.name:
-        from: 'Craft Base'
-        to: 'Whitenoise Studios'
-  -
-    changed:
-      meta.__names__.6062bc9a-a4e5-4395-9fc7-823621507cec:
-        from: 'Craft Base'
-        to: 'Whitenoise Studios'
+      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.width:
+        from: 100
+        to: 75
+      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.width:
+        from: 100
+        to: 25

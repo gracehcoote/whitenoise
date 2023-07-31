@@ -1,18 +1,33 @@
-dateModified: 1690386260
+dateModified: 1690811615
 elementSources:
   craft\elements\Entry:
     -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
       key: '*'
+      tableAttributes:
+        - section
+        - postDate
+        - expiryDate
+        - link
       type: native
     -
+      defaultSort:
+        - title
+        - asc
+      disabled: false
       key: singles
+      tableAttributes:
+        - link
       type: native
-    -
-      heading: Structures
-      type: heading
     -
       key: 'section:e5f1c294-aa5c-4406-a9a3-d5a067e2efc0' # Pages
       type: native
+    -
+      heading: ''
+      type: heading
     -
       defaultSort:
         - structure
@@ -25,9 +40,6 @@ elementSources:
         - slug
         - link
       type: native
-    -
-      heading: ''
-      type: heading
     -
       defaultSort:
         - structure
@@ -42,6 +54,18 @@ elementSources:
         - 'field:377e4815-2d50-4422-8079-ef03bd4ea6a9' # Category
         - uri
       type: native
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:aed785a3-b437-4c3d-9594-430b1b054cb4' # Careers - Roles
+      tableAttributes:
+        - slug
+        - dateCreated
+        - 'field:82174415-6789-4d3d-8ab3-c711895906c0' # Closing Date
+        - link
+      type: native
 email:
   fromEmail: me@gracecoote.co.uk
   fromName: 'Whitenoise Studios'
@@ -51,6 +75,13 @@ email:
     command: '/usr/sbin/sendmail -bs'
   transportType: craft\mail\transportadapters\Sendmail
 fs:
+  careerApplicationFiles:
+    hasUrls: true
+    name: 'Career Application Files'
+    settings:
+      path: '@webroot/assets/cms/application-files'
+    type: craft\fs\Local
+    url: '@web/assets/cms/application-files'
   documents:
     hasUrls: true
     name: Documents
@@ -97,14 +128,17 @@ meta:
     3f57fe1a-2538-4db3-976c-a42769a21b7a: YouTube # YouTube
     3f957332-91de-4931-b907-dd4e99714a3f: Form # Form
     3fc83b9d-b21d-4bff-a4a1-17a7c3643393: 'Service Description' # Service Description
+    4a7db17b-2222-4756-8951-97e810b7d7c2: 'Statement Caption' # Statement Caption
     4af96521-49a1-4757-8b37-7a72e5763e1f: Address # Address
     4c1526fd-e9b3-4e82-8f78-71a7c5496542: 'Block Background Colour' # Block Background Colour
     4d66aaf5-ed97-45ab-8bbe-a33ec0a1ca67: 'Team Member' # Team Member
+    4ed0db04-e661-4ceb-8827-18d30fe9443c: 'Embed code' # Embed code
     4ee33dc6-65da-4bc3-8a64-ad85d9832bdf: 'Page Title' # Page Title
     4f7797e5-910f-4536-9243-f9c5cfcda4d5: Instagram # Instagram
     5b7711cc-caf3-471b-a459-8815f72b1376: Statistic # Statistic
     5ccaadee-7b10-480c-882e-ed56169d88b0: Images # Images
     5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e: 'Video (embed)' # Video (embed)
+    5fdc20ac-8b9d-4a7f-9fd5-c4c13d3a1e3e: Statistic # Statistic
     6b2a9aec-c384-408b-946c-3cbaba877529: 'Redirect to First Child Page' # Redirect to First Child Page
     6bf02326-b759-447d-bc08-0892b1fd65b7: 'Favicon 152x152' # Favicon 152x152
     6c273e0a-2f13-4c11-a6b7-fdd82aa39566: 'Text (Single Column)' # Text (Single Column)
@@ -117,6 +151,7 @@ meta:
     8b8e90e2-3152-4e63-8145-70715f8d6116: Projects # Projects
     8e4f3c2b-86b9-4c29-acb8-b289f448993c: 'Favicon 310x150' # Favicon 310x150
     9d5b7bdf-f496-41e6-8afb-6e4e7028332b: 'Favicon 57x57' # Favicon 57x57
+    9dd0ffd1-d71c-48c9-8847-8740eb194eaf: 'Text Content' # Text Content
     9e42d781-7ec4-4ffc-bcb0-b0990f578c4b: 'Text Block' # Text Block
     13be2e61-d618-4252-b6bb-59f5a19ed677: Newsroom # Newsroom
     14a88088-f556-42bf-976b-d48a31d3e122: Address # Address
@@ -124,6 +159,7 @@ meta:
     16f4f1fa-ceab-4aac-9c81-843936f84f39: Contact # Contact
     17a9a7b1-15f5-4e06-ab52-b257da65e4a1: 'Company name' # Company name
     017fdb0e-1650-4bed-aa88-2320f4c5101a: 'Block Background Colour' # Block Background Colour
+    25be9bfa-72b4-464a-a4fd-d214ac6336cc: Statistics # Statistics
     25fd576e-d9c7-4c34-b7dc-c1ee788f86b9: 'What We Offer' # What We Offer
     27f6f607-d6b3-4571-8764-4e16a46f960b: 'Video Embed' # Video Embed
     30cc7a46-25b5-4389-8d03-63a08439e958: 'Block Background Colour' # Block Background Colour
@@ -153,6 +189,7 @@ meta:
     692e9ece-d442-4b7a-9214-f7ab2c88b3df: Services # Services
     721c991d-83b0-44ba-87e5-feaf81b49043: Page # Page
     756d642c-6246-4f4e-8537-32630250456f: 'Favicon 16x16' # Favicon 16x16
+    766fddc9-ccdf-4523-acca-d1aeca7b3800: 'Closing Date' # Closing Date
     812ed655-de97-4974-b556-2b648aa8d926: 'Google Maps Link' # Google Maps Link
     918a41b0-2cc1-4437-a0d9-20d8124c2318: 'Favicon .ico' # Favicon .ico
     1013d0af-42f2-4277-8692-ca5f66ef4588: 'SEO Description' # SEO Description
@@ -168,17 +205,24 @@ meta:
     6062bc9a-a4e5-4395-9fc7-823621507cec: $DEFAULT_SITE_NAME # $DEFAULT_SITE_NAME
     8728a9f7-bd9c-4bd8-b47d-c25c941ba8af: Vimeo # Vimeo
     9188a04c-dafe-4374-91d1-db40ef539de4: 'Team Member Role (weekday)' # Team Member Role (weekday)
+    9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38: 'Career Application Files' # Career Application Files
     9794a518-fb48-48da-ac7d-b4b99fb966ad: 'Block Width' # Block Width
+    39079f49-43cb-4047-87c4-df8edf61a4c2: 'Key Information' # Key Information
     47055c18-ba46-4bb5-b886-7609129c8ab3: Greyscale # Greyscale
+    71169d5c-00e6-45d4-90a4-2999131c6a0f: Image(s) # Image(s)
+    76814d0e-9dd5-4780-8c5f-748b9bb99a6b: 'Role Information' # Role Information
     88345c9b-bba7-481d-b7be-a56f256bad79: Uploads # Uploads
     132246f9-c0e6-4f99-a712-62365f4bf939: Videos # Videos
     344832ca-b0e9-43f5-8578-716c92e36c0c: 'Team Member Name' # Team Member Name
     472533a5-38cd-464c-bd82-10d58ab4079a: LinkedIn # LinkedIn
     558289e0-2263-4114-af78-ce71e894cf10: 'Favicon 180x180' # Favicon 180x180
+    644298b5-241e-43a3-aeb7-1eded764aeea: Statement # Statement
     25725436-bbad-4fde-b7bf-84f437f541ab: Careers # Careers
     45014464-90a7-4681-bdda-9dc18da1e6d7: 'What We Do' # What We Do
+    82174415-6789-4d3d-8ab3-c711895906c0: 'Closing Date' # Closing Date
     a0ad2a73-81a4-46fe-b8e7-6083409f70e5: 'Favicon 70x70' # Favicon 70x70
     a00b4dca-f148-4c1c-8106-496f60a0a78c: Newsroom # Newsroom
+    a1cca0bf-7915-42f2-afe2-7cfef2ca16e1: Text # Text
     a2c85f09-8bef-4517-8214-c3578c40e695: 'Block Title' # Block Title
     a3e0dba9-74d3-4194-bd3a-ea2696f87086: Article # Article
     a4a25770-eaa8-46ce-8b3b-71a8c8b20614: 'Favicon 32x32' # Favicon 32x32
@@ -193,12 +237,15 @@ meta:
     ab5a94a3-2466-4c96-8ae4-0d3df02c94aa: 'Download Button' # Download Button
     ae6c3077-031b-4b16-9ed8-f18ce2d83770: 'Site Info' # Site Info
     ae375820-3398-4233-97c9-880f9bc88381: 'Hero Image' # Hero Image
+    aed785a3-b437-4c3d-9594-430b1b054cb4: 'Careers - Roles' # Careers - Roles
     b4f2bb50-338e-4111-8725-f254bc3b87b0: Statistic # Statistic
     b919de39-a74a-41ba-8366-3e3bfa181650: 'Favicon 72x72' # Favicon 72x72
     b6822878-090b-45fc-b637-6ccf6bed2f40: Work # Work
     bb59bfee-cc92-4c30-b875-71226f739843: Subtitle # Subtitle
     bc7dee95-9e7b-471a-9e0b-7774fffe011c: 'Block Background Colour' # Block Background Colour
     bd6955ac-0003-4c1c-855f-6986ed631bc4: 'Telephone Number' # Telephone Number
+    be41176d-9fe8-4346-8170-97f65eb090d1: Role # Role
+    bf010d9f-f05f-4ec8-80dc-8358b618a9e7: 'Video File' # Video File
     c0a664fa-02e9-49fc-9a02-c55cf19ba5ca: 'Phone Number' # Phone Number
     c02d89a3-c669-4c7c-a126-bc51c853145a: 'What We Do' # What We Do
     c7bbf02b-9a9d-47d2-acd0-5548c7e59e93: 'Favicon 120x120' # Favicon 120x120
@@ -222,20 +269,26 @@ meta:
     dbb4a582-e95f-47f0-bc3e-7a176a701c48: $DEFAULT_SITE_NAME # $DEFAULT_SITE_NAME
     de3ccf4a-2099-429b-b6e3-b22e743240b1: 'Statement Caption' # Statement Caption
     e0ad5847-624f-42b2-ab69-e3bd107d6e44: 'Thumb 768 x 432' # Thumb 768 x 432
+    e04fa217-fc47-4d88-a1a5-9c4161a82be9: 'Career Content Blocks' # Career Content Blocks
+    e5a90d1a-159d-4470-85e2-14beeb76275b: Image # Image
     e5eb5006-ee2c-454c-9cfa-2da9a96caeb2: 'Favicon 60x60' # Favicon 60x60
     e5f1c294-aa5c-4406-a9a3-d5a067e2efc0: Pages # Pages
     e7e8ea6f-f78e-4628-a521-627269c93bb0: 'Who We Are' # Who We Are
     e9c25fc9-fefb-4fda-95ac-2da6ae74d89c: 'Download Button Text' # Download Button Text
     e31a3c8c-e7f8-4b46-ad11-df7eb18d591e: 'Left column text' # Left column text
+    e79305dd-6595-4bac-aedb-34e55934ebdc: 'Video (upload)' # Video (upload)
     e203826d-16fa-45ed-9c14-78c4c523915f: 'Video (upload)' # Video (upload)
     e1035377-e7f1-4fb8-9ffd-e7ba21e5bb95: Service # Service
+    ea2089d4-1f26-4ba9-9e61-f83afadca498: 'Statement Text' # Statement Text
     eb68d48e-ca63-4037-9bbb-0a6580a38e74: Thumbnail # Thumbnail
+    ed22b818-c1ad-48fe-a40f-6f0bdcc5f00a: Text # Text
     eda73b36-d0bf-4823-b7d5-50bf402b5cae: 'Favicon 48x48' # Favicon 48x48
     ee609e80-4dbf-4fcc-a38a-42124ed6cfe6: 'Team Member Role (weekend)' # Team Member Role (weekend)
     efad4e89-5ff2-478f-b38b-09d1880c0021: 'Favicon 96x96' # Favicon 96x96
     f052d2f9-01fa-4193-869e-6eac9acdf651: 'Block Background Colour' # Block Background Colour
     f4e9240f-b845-4e24-a506-4091720ce1b9: 'Thumb 1280 x 720' # Thumb 1280 x 720
     f8e8eec1-974e-4485-8dc8-e4cd25204baa: Common # Common
+    f90f6400-b44a-4107-865f-696705dad0f0: 'Video (embed)' # Video (embed)
     f558bff2-7034-4fce-a016-3fbb6958f1c5: 'Video Thumbnail (upload)' # Video Thumbnail (upload)
     f586ca8a-c508-4871-91b2-259dc8688653: Team # Team
     f605f0a4-4e31-42c7-b69b-0887c7cd8e26: 'Statement Text' # Statement Text

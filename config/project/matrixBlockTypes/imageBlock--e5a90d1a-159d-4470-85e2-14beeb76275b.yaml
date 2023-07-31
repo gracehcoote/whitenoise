@@ -1,0 +1,75 @@
+field: e04fa217-fc47-4d88-a1a5-9c4161a82be9 # Career Content Blocks
+fieldLayouts:
+  21695cd7-de3b-4ad4-9d8a-f73087f6a73d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 71169d5c-00e6-45d4-90a4-2999131c6a0f # Image(s)
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1224e299-5bb7-4762-85f8-f8b07d18b23e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c038ff2b-a6f3-4144-a17c-c50ac900df66
+        userCondition: null
+fields:
+  71169d5c-00e6-45d4-90a4-2999131c6a0f: # Image(s)
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: images
+    instructions: "Images are shown full width of the block.\r\nSelecting multiple will generate an image slideshow."
+    name: Image(s)
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9' # Meta
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      previewMode: thumbs
+      restrictFiles: true
+      restrictLocation: true
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:88345c9b-bba7-481d-b7be-a56f256bad79' # Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: imageBlock
+name: Image
+sortOrder: 4

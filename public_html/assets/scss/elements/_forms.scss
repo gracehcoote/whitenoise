@@ -35,6 +35,22 @@ FORM STYLES
     }
   }
 
+  &::file-selector-button {
+    float: right;
+    margin-right: 0;
+    margin-bottom: 5px;
+    border: 2px solid #1a1a1a;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: 0.3s;
+  }
+
+  &:hover:not(:disabled):not([readonly])::file-selector-button {
+    background-color: $yellow;
+    border-color: $yellow;
+  }
+
   &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: rgba($black, 0.4); 
   }
@@ -76,11 +92,39 @@ label {
   font-weight: 600;
   margin-top: 0.25rem;
   transition: 0.3s;
+  
+  &.form-check-label {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  &.large {
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+  }
 }
 
 [data-freeform] {
-  label:not(.required):after {
+  label:not(.required):not(.form-check-label):after {
     content: ' (optional)';
+  }
+}
+
+[class^='ff-fieldtype-'], 
+[class*=' ff-fieldtype-']{
+  position: relative;
+
+  .tooltip-icon {
+    position: absolute;
+    top: 10px;
+    left: -25px;
+  }
+}
+
+.form-check {
+  .form-check-input {
+    margin-top: 0.75em;
   }
 }
 

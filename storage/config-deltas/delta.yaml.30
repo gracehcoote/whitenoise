@@ -1,20 +1,35 @@
-dateApplied: '2023-07-26 14:17:43'
+dateApplied: '2023-07-27 11:24:27'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690294809
-        to: 1690377463
+        from: 1690453444
+        to: 1690453467
   -
-    message: 'Change settings for plugin “freeform”'
+    message: 'Save field “roleInformation”'
     changed:
-      plugins.freeform.settings.clientDigestRecipients:
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.addRowLabel:
+        from: 'Add a row'
+        to: ' '
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.0.1.__assoc__.2.1:
         from: null
         to: ''
-      plugins.freeform.settings.sessionContextSecret:
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.2.1:
         from: null
         to: ''
-      plugins.freeform.settings.showTutorial:
-        from: true
-        to: false
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.2.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.0.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.2.1:
+        from: null
+        to: ''

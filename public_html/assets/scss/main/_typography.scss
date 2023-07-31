@@ -31,6 +31,10 @@ body {
   font-weight: 900;
 }
 
+.title-font {
+  font-family: $title-font;
+}
+
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-family: $title-font;
   font-weight: 400;
@@ -88,6 +92,10 @@ h2 {
   &.large {
     font-size: 76px;
     font-weight: 400;
+  }
+
+  &.medium {
+    font-size: 48px;
   }
 
   &.small {
@@ -239,7 +247,7 @@ p {
 
   a {
     color: $black;
-    text-decoration: none;
+    text-decoration: underline;
     transition: 0.4s;
 
     &:hover {

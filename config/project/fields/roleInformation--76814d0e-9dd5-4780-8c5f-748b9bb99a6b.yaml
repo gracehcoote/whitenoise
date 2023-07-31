@@ -1,0 +1,212 @@
+columnSuffix: ugnrkepp
+contentColumnType: text
+fieldGroup: ccdedfbc-ec18-497e-a755-2398cc5bedf5 # Careers
+handle: roleInformation
+instructions: null
+name: 'Role Information'
+searchable: false
+settings:
+  addRowLabel: ' '
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - Position
+            -
+              - handle
+              - position
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - Location
+            -
+              - handle
+              - location
+            -
+              - width
+              - ''
+            -
+              - type
+              - select
+            -
+              - options
+              -
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - 'Belfast office'
+                    -
+                      - value
+                      - 'Belfast Office'
+                    -
+                      - default
+                      - true
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - 'Dublin office'
+                    -
+                      - value
+                      - 'Dublin Office'
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Remote
+                    -
+                      - value
+                      - Remote
+                    -
+                      - default
+                      - false
+      -
+        - col3
+        -
+          __assoc__:
+            -
+              - heading
+              - Salary
+            -
+              - handle
+              - salary
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col4
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Employment Type'
+            -
+              - handle
+              - employmentType
+            -
+              - width
+              - ''
+            -
+              - type
+              - select
+            -
+              - options
+              -
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Permanent
+                    -
+                      - value
+                      - Permanent
+                    -
+                      - default
+                      - true
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Casual
+                    -
+                      - value
+                      - Casual
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Fixed-term
+                    -
+                      - value
+                      - Fixed-term
+                    -
+                      - default
+                      - false
+      -
+        - col5
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Employment Hours'
+            -
+              - handle
+              - employmentHours
+            -
+              - width
+              - ''
+            -
+              - type
+              - select
+            -
+              - options
+              -
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Full-time
+                    -
+                      - value
+                      - 'Full time'
+                    -
+                      - default
+                      - true
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Part-time
+                    -
+                      - value
+                      - 'Part time'
+                    -
+                      - default
+                      - false
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+        -
+          - col2
+          - 'Belfast Office'
+        -
+          - col3
+          - ''
+        -
+          - col4
+          - Permanent
+        -
+          - col5
+          - 'Full time'
+  maxRows: 1
+  minRows: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

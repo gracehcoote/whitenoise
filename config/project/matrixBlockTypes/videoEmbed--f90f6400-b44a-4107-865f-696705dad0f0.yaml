@@ -1,0 +1,46 @@
+field: e04fa217-fc47-4d88-a1a5-9c4161a82be9 # Career Content Blocks
+fieldLayouts:
+  2778e00f-2e20-47dc-b030-daecb9ebe4ec:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 4ed0db04-e661-4ceb-8827-18d30fe9443c # Embed code
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5897ccb4-f223-4231-838b-f1f423bd3a36
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 31fec2f1-6d7a-44fd-a41b-bd4e25c2b1a5
+        userCondition: null
+fields:
+  4ed0db04-e661-4ceb-8827-18d30fe9443c: # Embed code
+    columnSuffix: vjbsygte
+    contentColumnType: text
+    fieldGroup: null
+    handle: embedCode
+    instructions: null
+    name: 'Embed code'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: videoEmbed
+name: 'Video (embed)'
+sortOrder: 6

@@ -528,6 +528,10 @@ body {
   font-weight: 900;
 }
 
+.title-font {
+  font-family: "Jeko", "Poppins", Arial, Helvetica, sans-serif;
+}
+
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-family: "Jeko", "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -560,6 +564,9 @@ h2 strong {
 h2.large {
   font-size: 76px;
   font-weight: 400;
+}
+h2.medium {
+  font-size: 48px;
 }
 h2.small {
   font-size: 31px;
@@ -667,7 +674,7 @@ p .x-small {
 }
 p a {
   color: #1A1A1A;
-  text-decoration: none;
+  text-decoration: underline;
   transition: 0.4s;
 }
 p a:hover {
@@ -996,6 +1003,20 @@ FORM STYLES
   box-shadow: none;
   border-color: #E00000 !important;
 }
+.form-control::file-selector-button {
+  float: right;
+  margin-right: 0;
+  margin-bottom: 5px;
+  border: 2px solid #1a1a1a;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #fff;
+  transition: 0.3s;
+}
+.form-control:hover:not(:disabled):not([readonly])::file-selector-button {
+  background-color: #FFCD00;
+  border-color: #FFCD00;
+}
 .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: rgba(26, 26, 26, 0.4);
 }
@@ -1033,9 +1054,33 @@ label {
   margin-top: 0.25rem;
   transition: 0.3s;
 }
+label.form-check-label {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+label.large {
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
 
-[data-freeform] label:not(.required):after {
+[data-freeform] label:not(.required):not(.form-check-label):after {
   content: " (optional)";
+}
+
+[class^=ff-fieldtype-],
+[class*=" ff-fieldtype-"] {
+  position: relative;
+}
+[class^=ff-fieldtype-] .tooltip-icon,
+[class*=" ff-fieldtype-"] .tooltip-icon {
+  position: absolute;
+  top: 10px;
+  left: -25px;
+}
+
+.form-check .form-check-input {
+  margin-top: 0.75em;
 }
 
 ul.errors {
@@ -1323,6 +1368,58 @@ hr.small {
     font-weight: 900;
     border-bottom: 2px solid #FFCD00;
   }
+}
+
+.hidden-el-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.hidden-el-toggle:after {
+  content: "Read more";
+  font-family: "Jeko", "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 2px solid transparent;
+  transition: 0.3s;
+}
+.hidden-el-toggle:hover:after {
+  border-bottom-color: #FFCD00;
+}
+.hidden-el-toggle.hidden-opened:after {
+  content: "Close";
+}
+.hidden-el-toggle .hidden-el-toggle-title {
+  margin-bottom: 0;
+}
+
+.hidden-el-close {
+  font-family: "Jeko", "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 2px solid transparent;
+  transition: 0.3s;
+}
+.hidden-el-close:hover {
+  border-bottom-color: #FFCD00;
+}
+
+.tooltip-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1A1A1A;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.custom-tooltip {
+  text-align: left !important;
+  font-size: 14px;
 }
 
 /* Craft CMS Styles */

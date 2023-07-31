@@ -1,48 +1,30 @@
-dateApplied: '2023-07-25 15:16:44'
+dateApplied: '2023-07-27 11:17:10'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690294595
-        to: 1690294601
+        from: 1690452998
+        to: 1690453027
   -
     added:
-      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.currLabel: Freeform
-      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.customIcon: null
-      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.enabled: true
-      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.handle: freeform
-      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.icon: /Applications/MAMP/htdocs/local.whitenoise.com/vendor/solspace/craft-freeform/packages/plugin/src/icon-mask.svg
-      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.layout: 46a718b9-7e17-42a2-a4ce-3b0214a27bdc
-      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.level: 1
-      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.newWindow: false
-      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.parent: null
-      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.prevLabel: Freeform
-      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.prevLevel: 1
-      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.prevParent: null
-      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.prevUrl: freeform
-      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.sortOrder: 9
-      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.subnavBehaviour: null
-      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.type: plugin
-      cp-nav.navigations.00368c20-6b8d-4805-ad1d-b03c9418250f.url: freeform
-    message: 'Saving navigation “freeform”'
+      fields.82174415-6789-4d3d-8ab3-c711895906c0.columnSuffix: bykwqkjt
+      fields.82174415-6789-4d3d-8ab3-c711895906c0.contentColumnType: datetime
+      fields.82174415-6789-4d3d-8ab3-c711895906c0.fieldGroup: ccdedfbc-ec18-497e-a755-2398cc5bedf5
+      fields.82174415-6789-4d3d-8ab3-c711895906c0.handle: applicationDeadline
+      fields.82174415-6789-4d3d-8ab3-c711895906c0.instructions: null
+      fields.82174415-6789-4d3d-8ab3-c711895906c0.name: 'Application Deadline'
+      fields.82174415-6789-4d3d-8ab3-c711895906c0.searchable: false
+      fields.82174415-6789-4d3d-8ab3-c711895906c0.settings.max: null
+      fields.82174415-6789-4d3d-8ab3-c711895906c0.settings.min: null
+      fields.82174415-6789-4d3d-8ab3-c711895906c0.settings.minuteIncrement: 30
+      fields.82174415-6789-4d3d-8ab3-c711895906c0.settings.showDate: true
+      fields.82174415-6789-4d3d-8ab3-c711895906c0.settings.showTime: true
+      fields.82174415-6789-4d3d-8ab3-c711895906c0.settings.showTimeZone: false
+      fields.82174415-6789-4d3d-8ab3-c711895906c0.translationKeyFormat: null
+      fields.82174415-6789-4d3d-8ab3-c711895906c0.translationMethod: none
+      fields.82174415-6789-4d3d-8ab3-c711895906c0.type: craft\fields\Date
+    message: 'Save field “applicationDeadline”'
   -
     added:
-      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.currLabel: Dashboard
-      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.customIcon: null
-      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.enabled: true
-      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.handle: dashboard
-      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.icon: null
-      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.layout: 46a718b9-7e17-42a2-a4ce-3b0214a27bdc
-      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.level: 2
-      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.newWindow: false
-      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.parent: 00368c20-6b8d-4805-ad1d-b03c9418250f
-      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.prevLabel: Dashboard
-      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.prevLevel: 2
-      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.prevParent: 00368c20-6b8d-4805-ad1d-b03c9418250f
-      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.prevUrl: freeform/dashboard
-      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.sortOrder: 10
-      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.subnavBehaviour: null
-      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.type: plugin
-      cp-nav.navigations.fcfbb654-1b2c-4092-aac3-a42176efc10a.url: freeform/dashboard
-    message: 'Saving navigation “dashboard”'
+      meta.__names__.82174415-6789-4d3d-8ab3-c711895906c0: 'Application Deadline'

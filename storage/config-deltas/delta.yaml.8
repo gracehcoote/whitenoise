@@ -1,15 +1,16 @@
-dateApplied: '2023-07-26 16:36:45'
+dateApplied: '2023-07-27 15:09:30'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690385723
-        to: 1690385805
+        from: 1690455589
+        to: 1690466970
   -
     added:
-      fieldGroups.ccdedfbc-ec18-497e-a755-2398cc5bedf5.name: Careers
-    message: 'Save field group “Careers”'
-  -
-    added:
-      meta.__names__.ccdedfbc-ec18-497e-a755-2398cc5bedf5: Careers
+      fs.careerApplicationFiles.hasUrls: true
+      fs.careerApplicationFiles.name: 'Career Application Files'
+      fs.careerApplicationFiles.settings.path: '@webroot/assets/cms/application-files'
+      fs.careerApplicationFiles.type: craft\fs\Local
+      fs.careerApplicationFiles.url: '@web/assets/cms/application-files'
+    message: 'Save the “careerApplicationFiles” filesystem'

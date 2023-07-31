@@ -1,23 +1,59 @@
-dateApplied: '2023-07-25 15:19:49'
+dateApplied: '2023-07-27 11:23:07'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690294786
-        to: 1690294789
+        from: 1690453343
+        to: 1690453387
   -
-    message: 'Change settings for plugin “freeform”'
+    added:
+      elementSources.craft\elements\Entry.0.defaultSort.0: postDate
+      elementSources.craft\elements\Entry.0.defaultSort.1: desc
+      elementSources.craft\elements\Entry.0.disabled: false
+      elementSources.craft\elements\Entry.0.tableAttributes.0: section
+      elementSources.craft\elements\Entry.0.tableAttributes.1: postDate
+      elementSources.craft\elements\Entry.0.tableAttributes.2: expiryDate
+      elementSources.craft\elements\Entry.0.tableAttributes.3: link
+      elementSources.craft\elements\Entry.1.defaultSort.0: title
+      elementSources.craft\elements\Entry.1.defaultSort.1: asc
+      elementSources.craft\elements\Entry.1.disabled: false
+      elementSources.craft\elements\Entry.1.tableAttributes.0: link
+      elementSources.craft\elements\Entry.2.key: 'section:e5f1c294-aa5c-4406-a9a3-d5a067e2efc0'
+      elementSources.craft\elements\Entry.3.heading: ''
+      elementSources.craft\elements\Entry.5.defaultSort.0: structure
+      elementSources.craft\elements\Entry.5.defaultSort.1: asc
+      elementSources.craft\elements\Entry.5.disabled: false
+      elementSources.craft\elements\Entry.5.key: 'section:0f8100aa-dfeb-4c7a-a612-34bcba4bf7d2'
+      elementSources.craft\elements\Entry.5.tableAttributes.0: postDate
+      elementSources.craft\elements\Entry.5.tableAttributes.1: dateCreated
+      elementSources.craft\elements\Entry.5.tableAttributes.2: dateUpdated
+      elementSources.craft\elements\Entry.5.tableAttributes.3: link
+      elementSources.craft\elements\Entry.5.tableAttributes.4: 'field:377e4815-2d50-4422-8079-ef03bd4ea6a9'
+      elementSources.craft\elements\Entry.5.tableAttributes.5: uri
+    removed:
+      elementSources.craft\elements\Entry.2.heading: Structures
+      elementSources.craft\elements\Entry.3.key: 'section:e5f1c294-aa5c-4406-a9a3-d5a067e2efc0'
+      elementSources.craft\elements\Entry.5.heading: ''
+      elementSources.craft\elements\Entry.6.defaultSort.0: structure
+      elementSources.craft\elements\Entry.6.defaultSort.1: asc
+      elementSources.craft\elements\Entry.6.disabled: false
+      elementSources.craft\elements\Entry.6.tableAttributes.0: postDate
+      elementSources.craft\elements\Entry.6.tableAttributes.1: dateCreated
+      elementSources.craft\elements\Entry.6.tableAttributes.2: dateUpdated
+      elementSources.craft\elements\Entry.6.tableAttributes.3: link
+      elementSources.craft\elements\Entry.6.tableAttributes.4: 'field:377e4815-2d50-4422-8079-ef03bd4ea6a9'
+      elementSources.craft\elements\Entry.6.tableAttributes.5: uri
     changed:
-      plugins.freeform.settings.alertNotificationRecipients:
-        from: null
-        to: me@gracecoote.co.uk
-      plugins.freeform.settings.clientDigestRecipients:
-        from: null
-        to: ''
-      plugins.freeform.settings.digestRecipients:
-        from: null
-        to: me@gracecoote.co.uk
-      plugins.freeform.settings.sessionContextSecret:
-        from: null
-        to: ''
+      elementSources.craft\elements\Entry.2.type:
+        from: heading
+        to: native
+      elementSources.craft\elements\Entry.3.type:
+        from: native
+        to: heading
+      elementSources.craft\elements\Entry.5.type:
+        from: heading
+        to: native
+      elementSources.craft\elements\Entry.6.key:
+        from: 'section:0f8100aa-dfeb-4c7a-a612-34bcba4bf7d2'
+        to: 'section:aed785a3-b437-4c3d-9594-430b1b054cb4'

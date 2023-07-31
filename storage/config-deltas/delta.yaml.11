@@ -1,19 +1,35 @@
-dateApplied: '2023-07-26 16:30:48'
+dateApplied: '2023-07-27 11:55:26'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690385432
-        to: 1690385445
+        from: 1690455182
+        to: 1690455326
   -
-    message: 'Save the “$DEFAULT_SITE_NAME” site group'
+    message: 'Save field “roleInformation”'
     changed:
-      siteGroups.6062bc9a-a4e5-4395-9fc7-823621507cec.name:
-        from: 'Whitenoise Studios'
-        to: $DEFAULT_SITE_NAME
-  -
-    changed:
-      meta.__names__.6062bc9a-a4e5-4395-9fc7-823621507cec:
-        from: 'Whitenoise Studios'
-        to: $DEFAULT_SITE_NAME
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.0.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.0.__assoc__.2.1:
+        from: false
+        to: true
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.2.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.0.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.2.1:
+        from: null
+        to: ''

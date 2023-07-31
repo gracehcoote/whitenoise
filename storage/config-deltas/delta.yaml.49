@@ -1,67 +1,233 @@
-dateApplied: '2023-07-25 14:46:41'
+dateApplied: '2023-07-27 11:15:02'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690290049
-        to: 1690292799
+        from: 1690452787
+        to: 1690452899
   -
-    added:
-      sections.16f4f1fa-ceab-4aac-9c81-843936f84f39.defaultPlacement: end
-      sections.16f4f1fa-ceab-4aac-9c81-843936f84f39.enableVersioning: true
-      sections.16f4f1fa-ceab-4aac-9c81-843936f84f39.handle: contact
-      sections.16f4f1fa-ceab-4aac-9c81-843936f84f39.name: Contact
-      sections.16f4f1fa-ceab-4aac-9c81-843936f84f39.propagationMethod: all
-      sections.16f4f1fa-ceab-4aac-9c81-843936f84f39.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.enabledByDefault: true
-      sections.16f4f1fa-ceab-4aac-9c81-843936f84f39.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.hasUrls: true
-      sections.16f4f1fa-ceab-4aac-9c81-843936f84f39.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.template: _singles/contact.html
-      sections.16f4f1fa-ceab-4aac-9c81-843936f84f39.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.uriFormat: contact
-      sections.16f4f1fa-ceab-4aac-9c81-843936f84f39.type: single
-    message: 'Save section “contact”'
+    removed:
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.field: 8b284b89-7c28-4eda-bc1a-a4842899afaf
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elementCondition: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.0.elementCondition: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.0.fieldUid: 39079f49-43cb-4047-87c4-df8edf61a4c2
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.0.instructions: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.0.label: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.0.required: false
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.0.tip: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.0.type: craft\fieldlayoutelements\CustomField
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.0.uid: e9cb8c51-fc88-4231-b003-435eca64e847
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.0.userCondition: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.0.warning: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.0.width: 100
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.1.elementCondition: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.1.fieldUid: 766fddc9-ccdf-4523-acca-d1aeca7b3800
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.1.instructions: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.1.label: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.1.required: true
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.1.tip: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.1.type: craft\fieldlayoutelements\CustomField
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.1.uid: dd749582-321b-486d-a3bc-03e3328854d4
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.1.userCondition: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.1.warning: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.elements.1.width: 100
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.name: Content
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.uid: ee68bac6-7b85-4df6-aeb5-eb5b8b92bf0f
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fieldLayouts.244984f5-ba89-4f41-bca6-1e6c9753cc2c.tabs.0.userCondition: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.766fddc9-ccdf-4523-acca-d1aeca7b3800.columnSuffix: rduelogh
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.766fddc9-ccdf-4523-acca-d1aeca7b3800.contentColumnType: datetime
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.766fddc9-ccdf-4523-acca-d1aeca7b3800.fieldGroup: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.766fddc9-ccdf-4523-acca-d1aeca7b3800.handle: closingDate
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.766fddc9-ccdf-4523-acca-d1aeca7b3800.instructions: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.766fddc9-ccdf-4523-acca-d1aeca7b3800.name: 'Closing Date'
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.766fddc9-ccdf-4523-acca-d1aeca7b3800.searchable: false
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.766fddc9-ccdf-4523-acca-d1aeca7b3800.settings.max: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.766fddc9-ccdf-4523-acca-d1aeca7b3800.settings.min: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.766fddc9-ccdf-4523-acca-d1aeca7b3800.settings.minuteIncrement: 30
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.766fddc9-ccdf-4523-acca-d1aeca7b3800.settings.showDate: true
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.766fddc9-ccdf-4523-acca-d1aeca7b3800.settings.showTime: true
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.766fddc9-ccdf-4523-acca-d1aeca7b3800.settings.showTimeZone: false
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.766fddc9-ccdf-4523-acca-d1aeca7b3800.translationKeyFormat: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.766fddc9-ccdf-4523-acca-d1aeca7b3800.translationMethod: none
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.766fddc9-ccdf-4523-acca-d1aeca7b3800.type: craft\fields\Date
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.columnSuffix: kezhhdnk
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.contentColumnType: text
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.fieldGroup: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.handle: keyInformation
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.instructions: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.name: 'Key Information'
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.searchable: false
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.addRowLabel: 'Add a row'
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columnType: text
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.0.0: col1
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.0.1.__assoc__.0.0: heading
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.0.1.__assoc__.0.1: Position
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.0.1.__assoc__.1.0: handle
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.0.1.__assoc__.1.1: position
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.0.1.__assoc__.2.0: width
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.0.1.__assoc__.2.1: ''
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.0.1.__assoc__.3.0: type
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.0.1.__assoc__.3.1: singleline
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.1.0: col2
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.1.1.__assoc__.0.0: heading
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.1.1.__assoc__.0.1: Location
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.1.1.__assoc__.1.0: handle
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.1.1.__assoc__.1.1: location
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.1.1.__assoc__.2.0: width
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.1.1.__assoc__.2.1: ''
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.1.1.__assoc__.3.0: type
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.1.1.__assoc__.3.1: singleline
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.2.0: col3
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.2.1.__assoc__.0.0: heading
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.2.1.__assoc__.0.1: Salary
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.2.1.__assoc__.1.0: handle
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.2.1.__assoc__.1.1: salary
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.2.1.__assoc__.2.0: width
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.2.1.__assoc__.2.1: ''
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.2.1.__assoc__.3.0: type
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.2.1.__assoc__.3.1: singleline
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.0: col4
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.0.0: heading
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.0.1: 'Employment type'
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.1.0: handle
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.1.1: employmentType
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.2.0: width
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.2.1: ''
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.3.0: type
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.3.1: select
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.4.0: options
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.4.1.0.__assoc__.0.0: label
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.4.1.0.__assoc__.0.1: Permanent
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.4.1.0.__assoc__.1.0: value
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.4.1.0.__assoc__.1.1: permanent
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.4.1.0.__assoc__.2.0: default
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.4.1.0.__assoc__.2.1: false
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.4.1.1.__assoc__.0.0: label
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.4.1.1.__assoc__.0.1: Casual
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.4.1.1.__assoc__.1.0: value
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.4.1.1.__assoc__.1.1: casual
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.4.1.1.__assoc__.2.0: default
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.4.1.1.__assoc__.2.1: false
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.4.1.2.__assoc__.0.0: label
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.4.1.2.__assoc__.0.1: Fixed-term
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.4.1.2.__assoc__.1.0: value
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.4.1.2.__assoc__.1.1: fixedTerm
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.4.1.2.__assoc__.2.0: default
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.3.1.__assoc__.4.1.2.__assoc__.2.1: false
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.0: col7
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.0.0: heading
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.0.1: 'Employment hours'
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.1.0: handle
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.1.1: employmentHours
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.2.0: width
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.2.1: ''
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.3.0: type
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.3.1: select
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.4.0: options
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.4.1.0.__assoc__.0.0: label
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.4.1.0.__assoc__.0.1: Full-time
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.4.1.0.__assoc__.1.0: value
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.4.1.0.__assoc__.1.1: fullTime
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.4.1.0.__assoc__.2.0: default
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.4.1.0.__assoc__.2.1: true
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.4.1.1.__assoc__.0.0: label
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.4.1.1.__assoc__.0.1: Part-time
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.4.1.1.__assoc__.1.0: value
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.4.1.1.__assoc__.1.1: partTime
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.4.1.1.__assoc__.2.0: default
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.columns.__assoc__.4.1.__assoc__.4.1.1.__assoc__.2.1: false
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.defaults.0.__assoc__.0.0: col1
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.defaults.0.__assoc__.0.1: ''
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.defaults.0.__assoc__.1.0: col2
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.defaults.0.__assoc__.1.1: ''
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.defaults.0.__assoc__.2.0: col3
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.defaults.0.__assoc__.2.1: ''
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.defaults.0.__assoc__.3.0: col4
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.defaults.0.__assoc__.3.1: permanent
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.defaults.0.__assoc__.4.0: col7
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.defaults.0.__assoc__.4.1: fullTime
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.maxRows: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.settings.minRows: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.translationKeyFormat: null
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.translationMethod: none
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.fields.39079f49-43cb-4047-87c4-df8edf61a4c2.type: craft\fields\Table
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.handle: role
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.name: Role
+      matrixBlockTypes.8a377ec5-6e97-4db9-a110-6f69f3eef94f.sortOrder: 1
+    message: 'Delete matrix block type “role” for parent field “careers”'
   -
-    added:
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elementCondition: null
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.autocapitalize: true
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.autocomplete: false
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.autocorrect: true
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.class: null
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.disabled: false
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.elementCondition: null
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.id: null
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.instructions: null
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.label: null
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.max: null
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.min: null
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.name: null
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.orientation: null
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.placeholder: null
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.readonly: false
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.requirable: false
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.size: null
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.step: null
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.tip: null
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.title: null
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.type: craft\fieldlayoutelements\entries\EntryTitleField
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.uid: 32ef1a01-020c-44c8-82bc-e429a2240da1
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.userCondition: null
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.warning: null
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.elements.0.width: 100
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.name: Content
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.uid: 54223db2-8d75-4364-9c6c-876469ba9b81
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.fieldLayouts.565b7280-889a-4b0d-8d10-6b0ba74c24b0.tabs.0.userCondition: null
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.handle: contact
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.hasTitleField: false
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.name: Contact
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.section: 16f4f1fa-ceab-4aac-9c81-843936f84f39
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.sortOrder: 1
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.titleFormat: '{section.name|raw}'
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.titleTranslationKeyFormat: null
-      entryTypes.cec03b03-7afe-4c55-b93d-3de5f34dd6ff.titleTranslationMethod: site
-    message: 'Save entry type “contact”'
+    removed:
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.field: 8b284b89-7c28-4eda-bc1a-a4842899afaf
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fieldLayouts.8e87ca8a-4638-44a2-8779-33d1e1f3e594.tabs.0.elementCondition: null
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fieldLayouts.8e87ca8a-4638-44a2-8779-33d1e1f3e594.tabs.0.elements.0.elementCondition: null
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fieldLayouts.8e87ca8a-4638-44a2-8779-33d1e1f3e594.tabs.0.elements.0.fieldUid: 9dd0ffd1-d71c-48c9-8847-8740eb194eaf
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fieldLayouts.8e87ca8a-4638-44a2-8779-33d1e1f3e594.tabs.0.elements.0.instructions: null
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fieldLayouts.8e87ca8a-4638-44a2-8779-33d1e1f3e594.tabs.0.elements.0.label: null
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fieldLayouts.8e87ca8a-4638-44a2-8779-33d1e1f3e594.tabs.0.elements.0.required: false
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fieldLayouts.8e87ca8a-4638-44a2-8779-33d1e1f3e594.tabs.0.elements.0.tip: null
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fieldLayouts.8e87ca8a-4638-44a2-8779-33d1e1f3e594.tabs.0.elements.0.type: craft\fieldlayoutelements\CustomField
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fieldLayouts.8e87ca8a-4638-44a2-8779-33d1e1f3e594.tabs.0.elements.0.uid: 0ccdf3b6-3e0a-4c18-ac75-9bf8d6f85e49
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fieldLayouts.8e87ca8a-4638-44a2-8779-33d1e1f3e594.tabs.0.elements.0.userCondition: null
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fieldLayouts.8e87ca8a-4638-44a2-8779-33d1e1f3e594.tabs.0.elements.0.warning: null
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fieldLayouts.8e87ca8a-4638-44a2-8779-33d1e1f3e594.tabs.0.elements.0.width: 100
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fieldLayouts.8e87ca8a-4638-44a2-8779-33d1e1f3e594.tabs.0.name: Content
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fieldLayouts.8e87ca8a-4638-44a2-8779-33d1e1f3e594.tabs.0.uid: f867a958-33e8-4da2-b504-4b8904d6a4d8
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fieldLayouts.8e87ca8a-4638-44a2-8779-33d1e1f3e594.tabs.0.userCondition: null
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.columnSuffix: eiskmbqr
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.contentColumnType: text
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.fieldGroup: null
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.handle: textContent
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.instructions: null
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.name: 'Text Content'
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.searchable: false
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.settings.availableTransforms: ''
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.settings.availableVolumes: ''
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.settings.columnType: text
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.settings.configSelectionMode: choose
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.settings.defaultTransform: ''
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.settings.manualConfig: ''
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.settings.purifierConfig: null
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.settings.purifyHtml: true
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.settings.redactorConfig: Custom.json
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.settings.removeEmptyTags: false
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.settings.removeInlineStyles: false
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.settings.removeNbsp: false
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.settings.showHtmlButtonForNonAdmins: false
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.settings.showUnpermittedFiles: false
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.settings.showUnpermittedVolumes: false
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.settings.uiMode: enlarged
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.translationKeyFormat: null
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.translationMethod: none
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.fields.9dd0ffd1-d71c-48c9-8847-8740eb194eaf.type: craft\redactor\Field
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.handle: textBlock
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.name: 'Text Block'
+      matrixBlockTypes.d88d5d77-82c1-4082-b4e0-324a3836d693.sortOrder: 2
+    message: 'Delete matrix block type “textBlock” for parent field “careers”'
   -
-    added:
-      meta.__names__.16f4f1fa-ceab-4aac-9c81-843936f84f39: Contact
+    removed:
+      fields.8b284b89-7c28-4eda-bc1a-a4842899afaf.columnSuffix: null
+      fields.8b284b89-7c28-4eda-bc1a-a4842899afaf.contentColumnType: string
+      fields.8b284b89-7c28-4eda-bc1a-a4842899afaf.fieldGroup: ccdedfbc-ec18-497e-a755-2398cc5bedf5
+      fields.8b284b89-7c28-4eda-bc1a-a4842899afaf.handle: careers
+      fields.8b284b89-7c28-4eda-bc1a-a4842899afaf.instructions: null
+      fields.8b284b89-7c28-4eda-bc1a-a4842899afaf.name: Careers
+      fields.8b284b89-7c28-4eda-bc1a-a4842899afaf.searchable: false
+      fields.8b284b89-7c28-4eda-bc1a-a4842899afaf.settings.contentTable: '{{%matrixcontent_careers}}'
+      fields.8b284b89-7c28-4eda-bc1a-a4842899afaf.settings.maxBlocks: null
+      fields.8b284b89-7c28-4eda-bc1a-a4842899afaf.settings.minBlocks: null
+      fields.8b284b89-7c28-4eda-bc1a-a4842899afaf.settings.propagationKeyFormat: null
+      fields.8b284b89-7c28-4eda-bc1a-a4842899afaf.settings.propagationMethod: all
+      fields.8b284b89-7c28-4eda-bc1a-a4842899afaf.translationKeyFormat: null
+      fields.8b284b89-7c28-4eda-bc1a-a4842899afaf.translationMethod: site
+      fields.8b284b89-7c28-4eda-bc1a-a4842899afaf.type: craft\fields\Matrix
+    message: 'Delete the “careers” field'
   -
-    added:
-      meta.__names__.cec03b03-7afe-4c55-b93d-3de5f34dd6ff: Contact
+    removed:
+      meta.__names__.8b284b89-7c28-4eda-bc1a-a4842899afaf: Careers
+  -
+    removed:
+      meta.__names__.8a377ec5-6e97-4db9-a110-6f69f3eef94f: Role
+  -
+    removed:
+      meta.__names__.d88d5d77-82c1-4082-b4e0-324a3836d693: 'Text Block'

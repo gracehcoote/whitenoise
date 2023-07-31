@@ -66,13 +66,13 @@
 
             {% set isCheckbox = field.type in ["checkbox","mailing_list"] %}
 
-            {% set columnClass = "mb-3" %}
+            {% set columnClass = "mb-2" %}
             {% set columnClass = columnClass ~ form.customAttributes.columnClass %}
             {% set columnClass = columnClass ~ " col-pls-" ~ width ~ " col-12" %}
 
             {% set class = "form-control" ~ (field.hasErrors ? " is-invalid has-validation") %}
             {% if field.type == "file" %}
-                {% set class = "form-control-file" ~ (field.hasErrors ? " is-invalid") %}
+                {% set class = "form-control" ~ (field.hasErrors ? " is-invalid") %}
             {% elseif field.type == "select" or field.type == "dynamic_recipients" and (field.showAsSelect) %}
                 {% set class = "form-select" %}
             {% elseif field.type == "signature" %}
@@ -124,34 +124,36 @@
                     {{ field.renderErrors({ errorClass: errorClass }) }}
 
                 {% elseif field.type == "radio_group" %}
+                    
+                    <div class="d-flex justify-content-between flex-wrap">
+                        {{ field.renderLabel({
+                            labelClass: labelClass ~ ' large',
+                            instructionsClass: instructionClass,
+                            errorClass: errorClass,
+                        }) }}
 
-                    {{ field.renderLabel({
-                        labelClass: labelClass,
-                        instructionsClass: instructionClass,
-                        errorClass: errorClass,
-                    }) }}
+                        {{ field.oneLine ? "<div>"|raw }}
 
-                    {{ field.oneLine ? "<div>"|raw }}
+                        {% for index, option in field.options %}
+                            <div class="form-check{{ field.oneLine ? " form-check-inline" }}">
+                                <input type="radio"
+                                    name="{{ field.handle }}"
+                                    value="{{ option.value }}"
+                                    id="{{ field.idAttribute }}-{{ index }}"
+                                    class="form-check-input{{ field.hasErrors ? " is-invalid" }}"
+                                        {{ option.checked ? "checked" : "" }}
+                                />
+                                <label class="form-check-label" for="{{ field.idAttribute }}-{{ index }}">
+                                    {{ option.label|t('freeform')|raw }}
+                                </label>
+                            </div>
+                        {% endfor %}
 
-                    {% for index, option in field.options %}
-                        <div class="form-check{{ field.oneLine ? " form-check-inline" }}">
-                            <input type="radio"
-                                   name="{{ field.handle }}"
-                                   value="{{ option.value }}"
-                                   id="{{ field.idAttribute }}-{{ index }}"
-                                   class="form-check-input{{ field.hasErrors ? " is-invalid" }}"
-                                    {{ option.checked ? "checked" : "" }}
-                            />
-                            <label class="form-check-label" for="{{ field.idAttribute }}-{{ index }}">
-                                {{ option.label|t('freeform')|raw }}
-                            </label>
-                        </div>
-                    {% endfor %}
+                        {{ field.oneLine ? "</div>"|raw }}
 
-                    {{ field.oneLine ? "</div>"|raw }}
-
-                    {{ field.renderInstructions() }}
-                    {{ field.renderErrors() }}
+                        {{ field.renderInstructions() }}
+                        {{ field.renderErrors() }}
+                    </div>
 
                 {% elseif field.type == "dynamic_recipients" and (field.showAsRadio or field.showAsCheckboxes) %}
 
@@ -254,19 +256,24 @@
                     {{ field.renderErrors }}
 
                 {% else %}
+                    {% if field.instructions %}
+                    <span class="tooltip-icon text-start" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-custom-class="custom-tooltip" data-bs-title="{{ field.instructions }}"><i class="fas fa-question"></i></span> 
+                    {% endif %}
 
                     {{ field.renderInput({
                         class: class,
-                        instructionsClass: instructionClass,
-                        instructionsBelowField: true,
                         errorClass: errorClass,
                     }) }}
                     
+                    {% if field.type != "html" %}
                     {{ field.renderLabel({
                         labelClass: labelClass,
                         instructionsClass: instructionClass,
                         errorClass: errorClass,
                     }) }}
+                    {% endif %}
+
+                    {# field.renderInstructions() #}
                 {% endif %}
             </div>
         {% endfor %}

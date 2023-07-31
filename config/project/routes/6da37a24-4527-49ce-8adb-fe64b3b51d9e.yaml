@@ -1,0 +1,10 @@
+siteUid: null
+sortOrder: 11
+template: careers/application
+uriParts:
+  - careers/
+  -
+    - slug
+    - '[^\/]+'
+  - /application
+uriPattern: 'careers/<slug:[^\/]+>/application'

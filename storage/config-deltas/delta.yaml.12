@@ -1,19 +1,47 @@
-dateApplied: '2023-07-26 16:30:45'
+dateApplied: '2023-07-27 11:53:02'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690385432
-        to: 1690385445
+        from: 1690454579
+        to: 1690455182
   -
-    message: 'Save the “$DEFAULT_SITE_NAME” site group'
+    message: 'Save field “roleInformation”'
     changed:
-      siteGroups.6062bc9a-a4e5-4395-9fc7-823621507cec.name:
-        from: 'Whitenoise Studios'
-        to: $DEFAULT_SITE_NAME
-  -
-    changed:
-      meta.__names__.6062bc9a-a4e5-4395-9fc7-823621507cec:
-        from: 'Whitenoise Studios'
-        to: $DEFAULT_SITE_NAME
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.0.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.0.__assoc__.0.1:
+        from: 'Belfast location'
+        to: 'Belfast office'
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.0.__assoc__.1.1:
+        from: belfastLocation
+        to: belfastOffice
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.1.__assoc__.0.1:
+        from: 'Dublin location'
+        to: 'Dublin office'
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.1.__assoc__.1.1:
+        from: dublinLocation
+        to: dublinOffice
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.2.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.0.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.1.1:
+        from: belfastLocation
+        to: belfastOffice
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.2.1:
+        from: null
+        to: ''

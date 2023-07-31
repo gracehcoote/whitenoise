@@ -18,103 +18,12 @@
 
   <div class="section-container max-width py-5">
     {% set articles = craft.entries().section('newsroomArticles').limit(6) %}
-    {% paginate articles as pageInfo, pageEntries %}
 
-    {% if articles %}
-    <div class="row gy-1half">
-    {% for article in pageEntries %}
-      {% set thumbnail = article.imageThumbnail.one() %}
-      {% set category = article.category.one() %}
-      {% if loop.first %}
-        <div class="col-12 mb-5 position-relative greyscale-hover-off">
-          <div class="shadow">
-            <div class="row g-0">
-              <div class="col-md-6 col-lg-7 col-xl-8">
-                <a href="{{ article.url }}">
-                  <img class="greyscale object-fit-cover" src="{{ thumbnail.url('thumb960X540') }}" alt="{{ article.title }}">
-                </a>
-              </div><!-- end col -->
-
-              <div class="col-md-6 col-lg-5 col-xl-4 d-flex flex-column justify-content-center">
-                <div class="p-3 flex-grow-1 d-flex flex-column justify-content-center align-items-start">
-                  <p class="tw-bold mb-0">{{ category.title }}</p>
-                  <h2 class="small tw-medium my-2"><a href="{{ article.url }}">{{ article.title }}</a></h2>
-                  <a class="btn-link stretched-link" href="{{ article.url }}">Read more</a>
-                </div>
-              </div><!-- end col -->
-            </div><!-- end row --> 
-          </div>
-        </div><!-- end col -->
-      {% else %}
-      <div class="col-sm-6 col-lg-4 d-flex position-relative greyscale-hover-off">
-        <div class="shadow d-flex flex-column">
-          <a href="{{ article.url }}">
-            <img class="greyscale" src="{{ thumbnail.url('thumb512X288') }}" alt="{{ article.title }}">
-          </a>
-
-          <div class="p-2 p-md-3 flex-grow-1 d-flex flex-column justify-content-between align-items-start">
-            <div>
-              <p class="tw-bold">{{ category.title }}</p>
-              <h3 class="x-small"><a href="{{ article.url }}">{{ article.title }}</a></h3>
-            </div>
-            
-            <a class="btn-link stretched-link" href="{{ article.url }}">Read more</a>
-          </div>
-        </div>
-      </div><!-- end col -->
-      {% endif %}
-    {% endfor %}
-    </div><!-- end row -->
-
-    <nav class="mt-5">
-			<div class="pagination-wrap d-flex justify-content-end">
-	  		<ul class="pagination">
-					<li class="page-item arrow">
-			      <a class="page-link" href="{{ pageInfo.firstUrl }}" aria-label="First page">
-			        <span aria-hidden="true"><span class="material-icons">keyboard_double_arrow_left</span></span>
-			      </a>
-			    </li>
-
-					{% if pageInfo.prevUrl %}
-					<li class="page-item arrow">
-			      <a class="page-link" href="{{ pageInfo.prevUrl }}" aria-label="Previous page">
-			        <span aria-hidden="true"><span class="material-icons">chevron_left</span></span>
-			      </a>
-			    </li>
-					{% endif %}
-
-					{% for page, url in pageInfo.getPrevUrls(5) %}
-					<li class="page-item"><a class="page-link" href="{{ url }}">{{ page }}</a></li>
-					{% endfor %}
-
-					<li class="page-item active" aria-current="page">
-			      <span class="page-link">{{ pageInfo.currentPage }}</span>
-			    </li>
-
-					{% for page, url in pageInfo.getNextUrls(5) %}
-					<li class="page-item"><a class="page-link" href="{{ url }}">{{ page }}</a></li>
-					{% endfor %}
-
-					{% if pageInfo.nextUrl %}
-					<li class="page-item arrow">
-						<a class="page-link" href="{{ pageInfo.nextUrl }}" aria-label="Next page">
-							<span aria-hidden="true"><span class="material-icons">chevron_right</span>
-						</a>
-					</li>
-					{% endif %}
-
-					<li class="page-item arrow">
-			      <a class="page-link" href="{{ pageInfo.lastUrl }}" aria-label="Last page">
-			        <span aria-hidden="true"><span class="material-icons">keyboard_double_arrow_right</span></span>
-			      </a>
-			    </li>
-				</ul>
-			</div>
-		</nav>
-    {% endif %}
+    {{ sprig('_components/search') }}
   </div><!-- end section-container -->
 </section>
 {% endblock %}
 
 {% block javascript %}
+ {{ sprig.script }}
 {% endblock %}

@@ -1,11 +1,11 @@
-{% set title = entry.seoTitle ?? entry.pageTitle ?? entry.title %}
-{% set description = entry.seoDescription %}
-{% set pageOgImage = entry.ogImage.one() %}
+{% set title = entry.seoTitle ?? entry.pageTitle ?? entry.title ?? title ?? null %}
+{% set description = entry.seoDescription ?? null %}
+{% set pageOgImage = entry.ogImage.one() ?? null %}
 {% set globalOgImage = siteInfo.ogImage.one() %}
 {% set heroImage = entry.heroImage.one() ?? null %}
 {% set locale = craft.app.locale %}
 {% set locales = craft.app.i18n.siteLocaleIds|without(locale) %}
-<title>{% if title|length %}{{ title }}{% else %}{{ entry.title }}{% endif %} - {{ siteInfo.companyName }}</title>
+<title>{% if title|length %}{{ title }}{% endif %} - {{ siteInfo.companyName }}</title>
 <meta name="description" content="{{ description }}" />
 <meta property="og:url" content="{{ craft.app.request.absoluteUrl }}" />
 <meta property="og:type" content="website" />

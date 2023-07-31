@@ -1,19 +1,29 @@
-dateApplied: '2023-07-26 16:28:37'
+dateApplied: '2023-07-27 11:35:00'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690385295
-        to: 1690385314
+        from: 1690454015
+        to: 1690454100
   -
-    message: 'Save the “Whitenoise Studios” site group'
+    message: 'Save matrix block type “imageBlock” for parent field “careerContentBlocks”'
     changed:
-      siteGroups.6062bc9a-a4e5-4395-9fc7-823621507cec.name:
-        from: 'Craft Base'
-        to: 'Whitenoise Studios'
+      matrixBlockTypes.e5a90d1a-159d-4470-85e2-14beeb76275b.fields.71169d5c-00e6-45d4-90a4-2999131c6a0f.settings.showSiteMenu:
+        from: false
+        to: true
   -
+    message: 'Save matrix block type “videoUpload” for parent field “careerContentBlocks”'
     changed:
-      meta.__names__.6062bc9a-a4e5-4395-9fc7-823621507cec:
-        from: 'Craft Base'
-        to: 'Whitenoise Studios'
+      matrixBlockTypes.e79305dd-6595-4bac-aedb-34e55934ebdc.fields.bf010d9f-f05f-4ec8-80dc-8358b618a9e7.settings.defaultUploadLocationSource:
+        from: null
+        to: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
+      matrixBlockTypes.e79305dd-6595-4bac-aedb-34e55934ebdc.fields.bf010d9f-f05f-4ec8-80dc-8358b618a9e7.settings.showSiteMenu:
+        from: false
+        to: true
+  -
+    message: 'Save field “careerContentBlocks”'
+    changed:
+      fields.e04fa217-fc47-4d88-a1a5-9c4161a82be9.instructions:
+        from: null
+        to: 'Use these blocks to create your job role. Each block will be shown as a border separated white box.'
