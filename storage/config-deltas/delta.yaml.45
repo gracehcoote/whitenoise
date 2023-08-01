@@ -1,115 +1,17 @@
-dateApplied: '2023-07-27 11:16:41'
+dateApplied: '2023-07-27 11:32:40'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690452899
-        to: 1690452998
+        from: 1690453844
+        to: 1690453960
   -
-    added:
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.columnSuffix: ugnrkepp
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.contentColumnType: text
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.fieldGroup: ccdedfbc-ec18-497e-a755-2398cc5bedf5
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.handle: roleInformation
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.instructions: null
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.name: 'Role Information'
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.searchable: false
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.addRowLabel: 'Add a row'
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columnType: text
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.0.0: col1
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.0.1.__assoc__.0.0: heading
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.0.1.__assoc__.0.1: Position
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.0.1.__assoc__.1.0: handle
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.0.1.__assoc__.1.1: position
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.0.1.__assoc__.2.0: width
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.0.1.__assoc__.2.1: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.0.1.__assoc__.3.0: type
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.0.1.__assoc__.3.1: singleline
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.0: col2
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.0.0: heading
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.0.1: Location
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.1.0: handle
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.1.1: location
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.2.0: width
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.2.1: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.3.0: type
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.3.1: singleline
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.2.0: col3
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.2.1.__assoc__.0.0: heading
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.2.1.__assoc__.0.1: Salary
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.2.1.__assoc__.1.0: handle
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.2.1.__assoc__.1.1: salary
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.2.1.__assoc__.2.0: width
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.2.1.__assoc__.2.1: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.2.1.__assoc__.3.0: type
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.2.1.__assoc__.3.1: singleline
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.0: col4
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.0.0: heading
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.0.1: 'Employment Type'
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.1.0: handle
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.1.1: employmentType
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.2.0: width
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.2.1: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.3.0: type
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.3.1: select
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.0: options
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.0.__assoc__.0.0: label
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.0.__assoc__.0.1: Permanent
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.0.__assoc__.1.0: value
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.0.__assoc__.1.1: permanent
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.0.__assoc__.2.0: default
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.0.__assoc__.2.1: true
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.1.__assoc__.0.0: label
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.1.__assoc__.0.1: Casual
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.1.__assoc__.1.0: value
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.1.__assoc__.1.1: casual
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.1.__assoc__.2.0: default
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.1.__assoc__.2.1: false
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.2.__assoc__.0.0: label
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.2.__assoc__.0.1: Fixed-term
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.2.__assoc__.1.0: value
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.2.__assoc__.1.1: fixedTerm
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.2.__assoc__.2.0: default
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.2.__assoc__.2.1: false
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.0: col5
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.0.0: heading
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.0.1: 'Employment Hours'
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.1.0: handle
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.1.1: employmentHours
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.2.0: width
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.2.1: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.3.0: type
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.3.1: select
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.4.0: options
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.4.1.0.__assoc__.0.0: label
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.4.1.0.__assoc__.0.1: Full-time
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.4.1.0.__assoc__.1.0: value
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.4.1.0.__assoc__.1.1: fullTime
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.4.1.0.__assoc__.2.0: default
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.4.1.0.__assoc__.2.1: true
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.4.1.1.__assoc__.0.0: label
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.4.1.1.__assoc__.0.1: Part-time
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.4.1.1.__assoc__.1.0: value
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.4.1.1.__assoc__.1.1: partTime
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.4.1.1.__assoc__.2.0: default
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.4.1.1.__assoc__.2.1: false
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.0.0: col1
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.0.1: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.1.0: col2
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.1.1: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.2.0: col3
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.2.1: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.3.0: col4
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.3.1: permanent
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.4.0: col5
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.4.1: fullTime
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.maxRows: 1
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.minRows: null
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.translationKeyFormat: null
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.translationMethod: none
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.type: craft\fields\Table
-    message: 'Save field “roleInformation”'
-  -
-    added:
-      meta.__names__.76814d0e-9dd5-4780-8c5f-748b9bb99a6b: 'Role Information'
+    message: 'Save entry type “role”'
+    changed:
+      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.fieldUid:
+        from: 2fb3dcfb-de61-404d-a714-a5cc5585bc1d
+        to: e04fa217-fc47-4d88-a1a5-9c4161a82be9
+      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.uid:
+        from: 1687c594-7eda-4b92-af09-aff3337bf40f
+        to: 3e04cb22-a752-4339-bc89-b475244620ae

@@ -260,6 +260,12 @@ hr.small {
   font-size: 14px;
 }
 
+// Modal styles
+
+.modal-backdrop {
+  opacity: 0.7;
+}
+
 /* Craft CMS Styles */
 
 body.ltr .matrixblock > .titlebar > .preview {

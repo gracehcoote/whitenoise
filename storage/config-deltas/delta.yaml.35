@@ -1,56 +1,41 @@
-dateApplied: '2023-07-27 11:22:03'
+dateApplied: '2023-07-27 11:59:49'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690453287
-        to: 1690453320
+        from: 1690455502
+        to: 1690455589
   -
-    added:
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.elementCondition: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.fieldUid: 76814d0e-9dd5-4780-8c5f-748b9bb99a6b
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.instructions: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.label: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.required: false
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.tip: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.type: craft\fieldlayoutelements\CustomField
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.uid: 2e91a563-8419-40ab-bf67-063ee316aeb9
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.userCondition: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.warning: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.width: 100
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.elementCondition: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.fieldUid: 82174415-6789-4d3d-8ab3-c711895906c0
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.instructions: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.label: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.required: false
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.tip: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.type: craft\fieldlayoutelements\CustomField
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.uid: 9a7a4e8d-5582-416c-8714-1302f906bb46
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.userCondition: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.warning: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.width: 100
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.elementCondition: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.fieldUid: 2fb3dcfb-de61-404d-a714-a5cc5585bc1d
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.instructions: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.label: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.required: false
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.tip: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.type: craft\fieldlayoutelements\CustomField
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.uid: 1687c594-7eda-4b92-af09-aff3337bf40f
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.userCondition: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.warning: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.width: 100
-    message: 'Save entry type “role”'
+    message: 'Save field “roleInformation”'
     changed:
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.handle:
-        from: default
-        to: role
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.name:
-        from: Default
-        to: Role
-  -
-    changed:
-      meta.__names__.be41176d-9fe8-4346-8170-97f65eb090d1:
-        from: Default
-        to: Role
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.0.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.2.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.4.1.0.__assoc__.1.1:
+        from: fullTime
+        to: 'Full time'
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.4.1.1.__assoc__.1.1:
+        from: partTime
+        to: 'Part time'
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.0.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.4.1:
+        from: fullTime
+        to: 'Full time'

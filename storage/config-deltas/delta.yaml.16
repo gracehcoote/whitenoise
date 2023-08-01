@@ -1,37 +1,44 @@
-dateApplied: '2023-07-27 11:35:21'
+dateApplied: '2023-07-31 16:18:06'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690454100
-        to: 1690454121
+        from: 1690816665
+        to: 1690816686
   -
     added:
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.elementCondition: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.fieldUid: e04fa217-fc47-4d88-a1a5-9c4161a82be9
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.instructions: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.label: 'Role Details'
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.required: false
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.tip: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.type: craft\fieldlayoutelements\CustomField
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.uid: 3e04cb22-a752-4339-bc89-b475244620ae
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.userCondition: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.warning: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.width: 100
-    removed:
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.fieldUid: e04fa217-fc47-4d88-a1a5-9c4161a82be9
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.instructions: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.label: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.required: false
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.tip: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.warning: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.width: 100
-    message: 'Save entry type “role”'
-    changed:
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.type:
-        from: craft\fieldlayoutelements\CustomField
-        to: craft\fieldlayoutelements\HorizontalRule
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.uid:
-        from: 3e04cb22-a752-4339-bc89-b475244620ae
-        to: d8cd56dd-96b2-468a-9478-d9f4e32a3acf
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.2.elementCondition: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.2.fieldUid: 46d39a5a-5a05-4341-800c-fec3d516f08c
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.2.instructions: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.2.label: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.2.required: false
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.2.tip: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.2.type: craft\fieldlayoutelements\CustomField
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.2.uid: 550d206f-70dc-4729-95dc-36e1e87dcd4d
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.2.userCondition: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.2.warning: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.2.width: 50
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.3.elementCondition: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.3.fieldUid: 0499b203-3226-46f7-a942-f210773facd9
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.3.instructions: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.3.label: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.3.required: false
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.3.tip: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.3.type: craft\fieldlayoutelements\CustomField
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.3.uid: 9719c448-a712-454e-aa00-dd89a304c53b
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.3.userCondition: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.3.warning: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.3.width: 50
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.4.elementCondition: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.4.fieldUid: 1e9e0128-1168-4d1f-bb4a-207db0c1ec46
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.4.instructions: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.4.label: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.4.required: false
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.4.tip: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.4.type: craft\fieldlayoutelements\CustomField
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.4.uid: 0ae27642-45dc-4c13-991e-2667aeaa39f3
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.4.userCondition: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.4.warning: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.4.width: 100
+    message: 'Save entry type “home”'

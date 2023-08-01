@@ -1,29 +1,22 @@
-dateApplied: '2023-07-27 11:35:00'
+dateApplied: '2023-07-31 16:17:45'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690454015
-        to: 1690454100
+        from: 1690816658
+        to: 1690816665
   -
-    message: 'Save matrix block type “imageBlock” for parent field “careerContentBlocks”'
-    changed:
-      matrixBlockTypes.e5a90d1a-159d-4470-85e2-14beeb76275b.fields.71169d5c-00e6-45d4-90a4-2999131c6a0f.settings.showSiteMenu:
-        from: false
-        to: true
-  -
-    message: 'Save matrix block type “videoUpload” for parent field “careerContentBlocks”'
-    changed:
-      matrixBlockTypes.e79305dd-6595-4bac-aedb-34e55934ebdc.fields.bf010d9f-f05f-4ec8-80dc-8358b618a9e7.settings.defaultUploadLocationSource:
-        from: null
-        to: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
-      matrixBlockTypes.e79305dd-6595-4bac-aedb-34e55934ebdc.fields.bf010d9f-f05f-4ec8-80dc-8358b618a9e7.settings.showSiteMenu:
-        from: false
-        to: true
-  -
-    message: 'Save field “careerContentBlocks”'
-    changed:
-      fields.e04fa217-fc47-4d88-a1a5-9c4161a82be9.instructions:
-        from: null
-        to: 'Use these blocks to create your job role. Each block will be shown as a border separated white box.'
+    added:
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.1.elementCondition: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.1.fieldUid: 4ee33dc6-65da-4bc3-8a64-ad85d9832bdf
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.1.instructions: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.1.label: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.1.required: false
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.1.tip: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.1.type: craft\fieldlayoutelements\CustomField
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.1.uid: 39c601f4-3ba5-4a93-bb84-fb42aa3abab6
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.1.userCondition: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.1.warning: null
+      entryTypes.d015ca1c-2019-49d3-9c26-0ab619a84fc3.fieldLayouts.1e0fdf0e-73ee-4cf1-85b8-816bc2141f38.tabs.0.elements.1.width: 100
+    message: 'Save entry type “home”'

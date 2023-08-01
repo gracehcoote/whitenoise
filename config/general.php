@@ -27,6 +27,7 @@ return GeneralConfig::create()
     // Prevent user enumeration attacks
     ->preventUserEnumeration()
     // Set the @webroot alias so the clear-caches command knows where to find CP resources
+    ->maxUploadFileSize(26214400)
     ->aliases([
         '@webroot' => dirname(__DIR__) . '/public_html',
     ])

@@ -1,16 +1,25 @@
-dateApplied: '2023-07-27 15:09:30'
+dateApplied: '2023-07-31 16:23:45'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690455589
-        to: 1690466970
+        from: 1690816983
+        to: 1690817025
   -
-    added:
-      fs.careerApplicationFiles.hasUrls: true
-      fs.careerApplicationFiles.name: 'Career Application Files'
-      fs.careerApplicationFiles.settings.path: '@webroot/assets/cms/application-files'
-      fs.careerApplicationFiles.type: craft\fs\Local
-      fs.careerApplicationFiles.url: '@web/assets/cms/application-files'
-    message: 'Save the “careerApplicationFiles” filesystem'
+    message: 'Save field “heroVideoFullLength”'
+    changed:
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.handle:
+        from: videoFullLength
+        to: heroVideoFullLength
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.name:
+        from: 'Video (Full Length)'
+        to: 'Hero Video (Full Length)'
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.showSiteMenu:
+        from: false
+        to: true
+  -
+    changed:
+      meta.__names__.0d84188a-d34e-4643-a5af-190572cbcb39:
+        from: 'Video (Full Length)'
+        to: 'Hero Video (Full Length)'

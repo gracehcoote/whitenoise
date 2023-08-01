@@ -35,23 +35,17 @@ button {
 
   &.btn-outline {
     background-color: transparent;
-
     box-shadow: inset 0px 0px 0px 2px $black;
     color: $black;
-
-    &:hover {
-      box-shadow: inset 0px 0px 0px 100px $black;
-      color: #fff;
-    }
 
     &.btn-white {
       box-shadow: inset 0px 0px 0px 2px #fff;
       color: #fff;
+    }
 
-      &:hover {
-        box-shadow: inset 0px 0px 0px 100px #fff;
-        color: $black;
-      }
+    &:hover {
+      box-shadow: inset 0px 0px 0px 100px $yellow;
+      color: $black;
     }
   }
 }

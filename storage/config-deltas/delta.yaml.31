@@ -1,58 +1,19 @@
-dateApplied: '2023-07-27 11:24:04'
+dateApplied: '2023-07-27 15:29:36'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690453387
-        to: 1690453444
+        from: 1690466987
+        to: 1690468176
   -
     added:
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.0: options
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.0.__assoc__.0.0: label
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.0.__assoc__.0.1: 'Belfast location'
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.0.__assoc__.1.0: value
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.0.__assoc__.1.1: belfastLocation
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.0.__assoc__.2.0: default
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.0.__assoc__.2.1: false
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.1.__assoc__.0.0: label
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.1.__assoc__.0.1: 'Dublin location'
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.1.__assoc__.1.0: value
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.1.__assoc__.1.1: dublinLocation
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.1.__assoc__.2.0: default
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.1.__assoc__.2.1: false
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.2.__assoc__.0.0: label
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.2.__assoc__.0.1: Remote
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.2.__assoc__.1.0: value
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.2.__assoc__.1.1: remote
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.2.__assoc__.2.0: default
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.2.__assoc__.2.1: false
-    message: 'Save field “roleInformation”'
-    changed:
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.0.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.3.1:
-        from: singleline
-        to: select
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.2.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.0.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.1.1:
-        from: null
-        to: belfastLocation
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.2.1:
-        from: null
-        to: ''
+      routes.6da37a24-4527-49ce-8adb-fe64b3b51d9e.siteUid: null
+      routes.6da37a24-4527-49ce-8adb-fe64b3b51d9e.sortOrder: 11
+      routes.6da37a24-4527-49ce-8adb-fe64b3b51d9e.template: careers/application-form
+      routes.6da37a24-4527-49ce-8adb-fe64b3b51d9e.uriParts.0: careers/
+      routes.6da37a24-4527-49ce-8adb-fe64b3b51d9e.uriParts.1.0: slug
+      routes.6da37a24-4527-49ce-8adb-fe64b3b51d9e.uriParts.1.1: '[^\/]+'
+      routes.6da37a24-4527-49ce-8adb-fe64b3b51d9e.uriParts.2: '-application'
+      routes.6da37a24-4527-49ce-8adb-fe64b3b51d9e.uriPattern: 'careers/<slug:[^\/]+>-application'
+    message: 'Save route'

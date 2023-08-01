@@ -1,25 +1,14 @@
-dateApplied: '2023-07-31 14:53:35'
+dateApplied: '2023-07-31 16:35:46'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690805575
-        to: 1690811615
+        from: 1690817733
+        to: 1690817746
   -
+    message: 'Save field “heroVideoFullLength”'
     changed:
-      elementSources.craft\elements\Entry.3.heading:
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.selectionLabel:
         from: null
-        to: ''
-      elementSources.craft\elements\Entry.6.tableAttributes.0:
-        from: postDate
-        to: slug
-      elementSources.craft\elements\Entry.6.tableAttributes.1:
-        from: expiryDate
-        to: dateCreated
-      elementSources.craft\elements\Entry.6.tableAttributes.2:
-        from: link
-        to: 'field:82174415-6789-4d3d-8ab3-c711895906c0'
-      elementSources.craft\elements\Entry.6.tableAttributes.3:
-        from: slug
-        to: link
+        to: 'Select a video'

@@ -264,7 +264,7 @@
                 <div class="d-flex justify-content-between align-items-center flex-wrap">
                   <a class="my-1 btn btn-outline" href="{{ siteUrl }}careers/{{ role.slug }}/application">Apply now</a>
 
-                  <span class="m-0 hidden-el-close">Close</span>
+                  <!-- <span class="m-0 hidden-el-close">Close</span> -->
                 </div>
               
               {% else %}
@@ -277,6 +277,12 @@
         
       {% endfor %}
     </div><!-- end section-container -->
+  {% else %}
+  <div class="section-container max-width py-5 pt-lg-10 pt-xl-12 pt-xxl-14 pb-lg-8 pb-xl-9 pb-xxl-10">
+    <div class="shadow p-4">
+      <p class="text-center">We have no roles available at present, but check back soon for updates.</p>
+    </div>
+  </div>
   {% endif %}
 
   {% if entry.equalOpportunities %}

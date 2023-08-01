@@ -1,69 +1,35 @@
-dateApplied: '2023-07-27 11:21:32'
+dateApplied: '2023-07-27 11:55:26'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690453060
-        to: 1690453287
+        from: 1690455182
+        to: 1690455326
   -
-    added:
-      sections.aed785a3-b437-4c3d-9594-430b1b054cb4.defaultPlacement: end
-      sections.aed785a3-b437-4c3d-9594-430b1b054cb4.enableVersioning: true
-      sections.aed785a3-b437-4c3d-9594-430b1b054cb4.handle: careersRoles
-      sections.aed785a3-b437-4c3d-9594-430b1b054cb4.name: 'Careers Roles'
-      sections.aed785a3-b437-4c3d-9594-430b1b054cb4.propagationMethod: all
-      sections.aed785a3-b437-4c3d-9594-430b1b054cb4.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.enabledByDefault: true
-      sections.aed785a3-b437-4c3d-9594-430b1b054cb4.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.hasUrls: true
-      sections.aed785a3-b437-4c3d-9594-430b1b054cb4.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.template: careers/_entry.html
-      sections.aed785a3-b437-4c3d-9594-430b1b054cb4.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.uriFormat: 'careers/{slug}'
-      sections.aed785a3-b437-4c3d-9594-430b1b054cb4.structure.maxLevels: null
-      sections.aed785a3-b437-4c3d-9594-430b1b054cb4.structure.uid: 61d0100a-0460-4d1b-a418-d64fd0c40af0
-      sections.aed785a3-b437-4c3d-9594-430b1b054cb4.type: structure
-    message: 'Save section “careersRoles”'
-  -
-    added:
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elementCondition: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.autocapitalize: true
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.autocomplete: false
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.autocorrect: true
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.class: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.disabled: false
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.elementCondition: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.id: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.instructions: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.label: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.max: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.min: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.name: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.orientation: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.placeholder: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.readonly: false
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.requirable: false
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.size: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.step: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.tip: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.title: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.type: craft\fieldlayoutelements\entries\EntryTitleField
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.uid: 744c81b2-eeee-4c2c-ad47-e02ab10c003d
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.userCondition: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.warning: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.0.width: 100
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.name: Content
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.uid: 261f487f-5e57-4bc6-bddd-f1833591d644
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.userCondition: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.handle: default
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.hasTitleField: true
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.name: Default
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.section: aed785a3-b437-4c3d-9594-430b1b054cb4
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.sortOrder: 1
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.titleFormat: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.titleTranslationKeyFormat: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.titleTranslationMethod: site
-    message: 'Save entry type “default”'
-  -
-    added:
-      meta.__names__.aed785a3-b437-4c3d-9594-430b1b054cb4: 'Careers Roles'
-  -
-    added:
-      meta.__names__.be41176d-9fe8-4346-8170-97f65eb090d1: Default
+    message: 'Save field “roleInformation”'
+    changed:
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.0.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.0.__assoc__.2.1:
+        from: false
+        to: true
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.2.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.2.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.0.1:
+        from: null
+        to: ''
+      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.2.1:
+        from: null
+        to: ''

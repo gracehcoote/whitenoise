@@ -1,30 +1,17 @@
-dateApplied: '2023-07-27 11:17:08'
+dateApplied: '2023-07-27 11:33:35'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690452998
-        to: 1690453027
+        from: 1690453960
+        to: 1690454015
   -
-    added:
-      fields.82174415-6789-4d3d-8ab3-c711895906c0.columnSuffix: bykwqkjt
-      fields.82174415-6789-4d3d-8ab3-c711895906c0.contentColumnType: datetime
-      fields.82174415-6789-4d3d-8ab3-c711895906c0.fieldGroup: ccdedfbc-ec18-497e-a755-2398cc5bedf5
-      fields.82174415-6789-4d3d-8ab3-c711895906c0.handle: applicationDeadline
-      fields.82174415-6789-4d3d-8ab3-c711895906c0.instructions: null
-      fields.82174415-6789-4d3d-8ab3-c711895906c0.name: 'Application Deadline'
-      fields.82174415-6789-4d3d-8ab3-c711895906c0.searchable: false
-      fields.82174415-6789-4d3d-8ab3-c711895906c0.settings.max: null
-      fields.82174415-6789-4d3d-8ab3-c711895906c0.settings.min: null
-      fields.82174415-6789-4d3d-8ab3-c711895906c0.settings.minuteIncrement: 30
-      fields.82174415-6789-4d3d-8ab3-c711895906c0.settings.showDate: true
-      fields.82174415-6789-4d3d-8ab3-c711895906c0.settings.showTime: true
-      fields.82174415-6789-4d3d-8ab3-c711895906c0.settings.showTimeZone: false
-      fields.82174415-6789-4d3d-8ab3-c711895906c0.translationKeyFormat: null
-      fields.82174415-6789-4d3d-8ab3-c711895906c0.translationMethod: none
-      fields.82174415-6789-4d3d-8ab3-c711895906c0.type: craft\fields\Date
-    message: 'Save field “applicationDeadline”'
-  -
-    added:
-      meta.__names__.82174415-6789-4d3d-8ab3-c711895906c0: 'Application Deadline'
+    message: 'Save entry type “role”'
+    changed:
+      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.width:
+        from: 100
+        to: 75
+      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.width:
+        from: 100
+        to: 25

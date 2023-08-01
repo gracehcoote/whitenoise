@@ -1,0 +1,27 @@
+columnSuffix: dgfxbkfc
+contentColumnType: text
+fieldGroup: d65dd566-89fb-49fd-944c-9ebbc1cdad44 # Home
+handle: introTextLeftColumn
+instructions: null
+name: 'Intro Text (Left Column)'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: Custom.json
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

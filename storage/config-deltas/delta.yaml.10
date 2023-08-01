@@ -1,56 +1,55 @@
-dateApplied: '2023-07-27 11:58:22'
+dateApplied: '2023-07-31 16:22:46'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690455326
-        to: 1690455502
+        from: 1690816866
+        to: 1690816962
   -
-    message: 'Save field “roleInformation”'
-    changed:
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.0.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.0.__assoc__.1.1:
-        from: belfastOffice
-        to: 'Belfast Office'
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.1.__assoc__.1.1:
-        from: dublinOffice
-        to: 'Dublin Office'
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.2.__assoc__.1.1:
-        from: remote
-        to: Remote
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.2.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.0.__assoc__.1.1:
-        from: permanent
-        to: Permanent
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.1.__assoc__.1.1:
-        from: casual
-        to: Casual
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.4.1.2.__assoc__.1.1:
-        from: fixedTerm
-        to: Fixed-term
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.0.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.1.1:
-        from: belfastOffice
-        to: 'Belfast Office'
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.3.1:
-        from: permanent
-        to: Permanent
+    added:
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.columnSuffix: null
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.contentColumnType: string
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.fieldGroup: f8e8eec1-974e-4485-8dc8-e4cd25204baa
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.handle: webmFile
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.instructions: 'Use this field to upload a WebM version of your video, to increase compatibility.'
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.name: 'WebM File'
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.searchable: false
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.allowSelfRelations: false
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.allowSubfolders: false
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.allowUploads: true
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.allowedKinds.0: video
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.branchLimit: null
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.defaultUploadLocationSource: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.defaultUploadLocationSubpath: null
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.localizeRelations: false
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.maintainHierarchy: false
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.maxRelations: 1
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.minRelations: null
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.previewMode: full
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.restrictFiles: true
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.restrictLocation: true
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.restrictedDefaultUploadSubpath: null
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.restrictedLocationSource: 'volume:132246f9-c0e6-4f99-a712-62365f4bf939'
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.restrictedLocationSubpath: null
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.selectionCondition.__assoc__.0.0: elementType
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.selectionCondition.__assoc__.0.1: craft\elements\Asset
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.selectionCondition.__assoc__.1.0: fieldContext
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.selectionCondition.__assoc__.1.1: global
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.selectionCondition.__assoc__.2.0: class
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.selectionCondition.__assoc__.2.1: craft\elements\conditions\assets\AssetCondition
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.selectionLabel: null
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.showSiteMenu: false
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.showUnpermittedFiles: false
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.showUnpermittedVolumes: false
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.sources: '*'
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.targetSiteId: null
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.validateRelatedElements: false
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.settings.viewMode: list
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.translationKeyFormat: null
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.translationMethod: site
+      fields.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76.type: craft\fields\Assets
+    message: 'Save field “webmFile”'
+  -
+    added:
+      meta.__names__.b0d70358-47f0-4a3e-a0e8-32b83f8a8f76: 'WebM File'

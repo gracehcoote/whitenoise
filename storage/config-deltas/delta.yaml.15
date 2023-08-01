@@ -1,29 +1,55 @@
-dateApplied: '2023-07-27 11:35:39'
+dateApplied: '2023-07-31 16:20:03'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690454121
-        to: 1690454139
+        from: 1690816686
+        to: 1690816803
   -
-    message: 'Save entry type “role”'
-    changed:
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.fieldUid:
-        from: 76814d0e-9dd5-4780-8c5f-748b9bb99a6b
-        to: 82174415-6789-4d3d-8ab3-c711895906c0
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.uid:
-        from: 2e91a563-8419-40ab-bf67-063ee316aeb9
-        to: 9a7a4e8d-5582-416c-8714-1302f906bb46
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.width:
-        from: 75
-        to: 100
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.fieldUid:
-        from: 82174415-6789-4d3d-8ab3-c711895906c0
-        to: 76814d0e-9dd5-4780-8c5f-748b9bb99a6b
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.uid:
-        from: 9a7a4e8d-5582-416c-8714-1302f906bb46
-        to: 2e91a563-8419-40ab-bf67-063ee316aeb9
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.width:
-        from: 25
-        to: 100
+    added:
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.columnSuffix: null
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.contentColumnType: string
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.fieldGroup: d65dd566-89fb-49fd-944c-9ebbc1cdad44
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.handle: videoFullLength
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.instructions: null
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.name: 'Video (Full Length)'
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.searchable: false
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.allowSelfRelations: false
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.allowSubfolders: false
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.allowUploads: true
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.allowedKinds.0: video
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.branchLimit: null
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.defaultUploadLocationSource: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.defaultUploadLocationSubpath: null
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.localizeRelations: false
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.maintainHierarchy: false
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.maxRelations: 1
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.minRelations: null
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.previewMode: full
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.restrictFiles: true
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.restrictLocation: true
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.restrictedDefaultUploadSubpath: null
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.restrictedLocationSource: 'volume:132246f9-c0e6-4f99-a712-62365f4bf939'
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.restrictedLocationSubpath: null
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.selectionCondition.__assoc__.0.0: elementType
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.selectionCondition.__assoc__.0.1: craft\elements\Asset
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.selectionCondition.__assoc__.1.0: fieldContext
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.selectionCondition.__assoc__.1.1: global
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.selectionCondition.__assoc__.2.0: class
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.selectionCondition.__assoc__.2.1: craft\elements\conditions\assets\AssetCondition
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.selectionLabel: null
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.showSiteMenu: false
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.showUnpermittedFiles: false
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.showUnpermittedVolumes: false
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.sources: '*'
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.targetSiteId: null
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.validateRelatedElements: false
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.viewMode: large
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.translationKeyFormat: null
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.translationMethod: site
+      fields.0d84188a-d34e-4643-a5af-190572cbcb39.type: craft\fields\Assets
+    message: 'Save field “videoFullLength”'
+  -
+    added:
+      meta.__names__.0d84188a-d34e-4643-a5af-190572cbcb39: 'Video (Full Length)'

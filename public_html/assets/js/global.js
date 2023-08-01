@@ -96,10 +96,10 @@ if($('.hidden-el').length > 0) {
     $(this).next('.hidden-el').slideToggle();
   });
 
-  $('.hidden-el-close').on('click', function(){
-    $(this).parents('.shadow').closest('.hidden-el-toggle').removeClass('hidden-opened');
-    $(this).parents('.shadow').closest('.hidden-el').slideUp();
-  });
+  // $('.hidden-el-close').on('click', function(){
+  //   $(this).parents().closest('.hidden-el-toggle').toggleClass('hidden-opened');
+  //   $(this).parents().closest('.hidden-el').slideUp();
+  // });
 }
 
 if($('[data-fancybox="gallery"]').length > 0) {

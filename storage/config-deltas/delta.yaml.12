@@ -1,47 +1,55 @@
-dateApplied: '2023-07-27 11:53:02'
+dateApplied: '2023-07-31 16:21:10'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690454579
-        to: 1690455182
+        from: 1690816803
+        to: 1690816866
   -
-    message: 'Save field “roleInformation”'
-    changed:
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.0.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.0.__assoc__.0.1:
-        from: 'Belfast location'
-        to: 'Belfast office'
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.0.__assoc__.1.1:
-        from: belfastLocation
-        to: belfastOffice
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.1.__assoc__.0.1:
-        from: 'Dublin location'
-        to: 'Dublin office'
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.1.__assoc__.1.1:
-        from: dublinLocation
-        to: dublinOffice
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.2.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.0.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.1.1:
-        from: belfastLocation
-        to: belfastOffice
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.2.1:
-        from: null
-        to: ''
+    added:
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.columnSuffix: null
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.contentColumnType: string
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.fieldGroup: d65dd566-89fb-49fd-944c-9ebbc1cdad44
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.handle: videoShortClip
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.instructions: 'This video will be used for the looped background video, as such you should ensure it is compressed as much as possible to keep page load time to a minimum.'
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.name: 'Video (Short Clip)'
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.searchable: false
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.allowSelfRelations: false
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.allowSubfolders: false
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.allowUploads: true
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.allowedKinds.0: video
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.branchLimit: null
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.defaultUploadLocationSource: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.defaultUploadLocationSubpath: null
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.localizeRelations: false
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.maintainHierarchy: false
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.maxRelations: 1
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.minRelations: null
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.previewMode: full
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.restrictFiles: true
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.restrictLocation: true
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.restrictedDefaultUploadSubpath: null
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.restrictedLocationSource: 'volume:132246f9-c0e6-4f99-a712-62365f4bf939'
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.restrictedLocationSubpath: null
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.selectionCondition.__assoc__.0.0: elementType
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.selectionCondition.__assoc__.0.1: craft\elements\Asset
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.selectionCondition.__assoc__.1.0: fieldContext
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.selectionCondition.__assoc__.1.1: global
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.selectionCondition.__assoc__.2.0: class
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.selectionCondition.__assoc__.2.1: craft\elements\conditions\assets\AssetCondition
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.selectionLabel: null
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.showSiteMenu: false
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.showUnpermittedFiles: false
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.showUnpermittedVolumes: false
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.sources: '*'
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.targetSiteId: null
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.validateRelatedElements: false
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.settings.viewMode: large
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.translationKeyFormat: null
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.translationMethod: site
+      fields.faf98929-acbc-4d0a-a6c6-636be44b0f74.type: craft\fields\Assets
+    message: 'Save field “videoShortClip”'
+  -
+    added:
+      meta.__names__.faf98929-acbc-4d0a-a6c6-636be44b0f74: 'Video (Short Clip)'

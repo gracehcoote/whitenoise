@@ -11,14 +11,21 @@
 {% endblock %}
 
 {% block main %}
+
+{% set heroImage = entry.heroImage.one() %}
+{% set heroVideoClip = entry.heroVideoClip.one() %}
+{% set heroVideoFullLength = entry.heroVideoFullLength.one() %}
 <section class="hero">
-  <div class="section-container d-flex align-items-end">
+  <div class="section-container d-flex align-items-end py-5 py-lg-10 py-xl-12">
     <div class="row gy-7 justify-content-between align-items-end w-100">
       <div class="col-lg-10 col-xl-8 col-xxl-6">
-        <h1 class="mb-3">World-enhancing work that matters.</h1>
+        <h1 class="mb-3">{{ entry.pageTitle }}</h1>
 
         <a class="btn btn-white me-1" href="">Start project</a>
-        <a class="btn btn-white btn-outline" href="">Play showreel</a>
+
+        {% if heroVideoFullLength %}
+        <button id="play-video" class="btn btn-white btn-outline" type="button" data-bs-toggle="modal" data-bs-target="#video-modal">Play showreel</button>
+        {% endif %}
       </div><!-- end col -->
 
       <div class="col-lg-2 text-lg-end">
@@ -29,14 +36,53 @@
     </div><!-- end row -->
   </div><!-- end section-container -->
 
-  <video class="background-video" autoplay loop muted poster="">
-    <source src="https://whitenoisestudios.com/assets/videos/Very-Small-New-Website-Video-2018.mp4" type="video/mp4">
-    <source src="https://whitenoisestudios.com/assets/videos/Very-Small-New-Website-Video-2018.webm" type="video/webm">
+  {% if heroImage|length and not heroVideoClip|length %}
+  <img 
+  class="background-image{% if entry.greyscaleImage %} greyscale{% endif %}" 
+  loading="lazy" 
+  src="{{ heroImage.url('thumb1920X1080') }}" 
+  alt="{{ heroImage.title }}" 
+  sizes="100vw" 
+  srcset="
+    {{ heroImage.url('thumb480X270') }} 480w,
+    {{ heroImage.url('thumb512X288') }} 512w,
+    {{ heroImage.url('thumb768X432') }} 768w,
+    {{ heroImage.url('thumb960X540') }} 960w,
+    {{ heroImage.url('thumb1280X720') }} 1280w,
+    {{ heroImage.url('thumb1920X1080') }} 1920w
+    ">
+  {% endif %}
+
+  
+  {% if heroVideoClip %}
+  <video class="background-video" autoplay loop muted poster="{{ heroImage.url }}">
+    <source src="{{ heroVideoClip.url }}" type="video/mp4">
+    {% if heroVideoClip.webmFile %}
+    <source src="{{ heroVideoClip.webmFile }}" type="video/webm">
+    {% endif %}
   </video>
+  {% endif %} 
 </section>
 
+{# if heroVideoFullLength #}
+  <div class="modal fade" id="video-modal" tabindex="-1" aria-labelledby="Video modal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+      <div class="modal-content">
+        <video id="full-video" controls>
+          <source src="{{ heroVideoFullLength.url }}" type="video/mp4">
+          {% if heroVideoFullLength.webmFile %}
+          <source src="{{ heroVideoFullLength.webmFile }}" type="video/webm">
+          {% endif %}
+        </video>
+      </div>
+    </div>
+  </div><!-- end modal -->
+  {# endif #}
+
 <section>
-  <div class="section-container x-narrow py-5 py-lg-10 py-xl-12 py-xxl-14">
+  <div class="section-container max-width-wide py-5 py-lg-10 py-xl-12 py-xxl-14">
     <div class="row justify-content-between">
       <div class="col-tls-7">
         <h2>We are a multi award winning agency delivering across all platforms.</h2>
@@ -52,105 +98,95 @@
   </div><!-- end section-container -->
 </section>
 
+{% set projects = entry.selectedProjects.all() %}
+{% if projects %}
 <section>
-  <!-- FEATURED PROJECT -->
-  <div class="work-item">
-    <a href="">
-      <div class="text-container p-2 p-sm-3 px-lg-4 py-lg-3 p-xl-5 d-flex justify-content-start align-items-end">
-        <div>
-          <h3 class="thumb-title small tw-black text-white mb-0">BBC</h3>
-          <p class="thumb-subtitle text-white tw-medium">Tangible outputs and outcomes supporting your business across all media and platforms.</p>
-        </div>   
-      </div><!-- end text-container -->
-      
-      <div class="thumb-container">
-        <iframe title="" src="https://player.vimeo.com/video/794623311?background=true" allow="autoplay; fullscreen" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
-
-        <img src="https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001.jpg" loading="lazy" alt="" sizes="100vw" srcset="https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-500.jpg 500w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-800.jpg 800w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-1080.jpg 1080w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-1600.jpg 1600w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-2000.jpg 2000w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001.jpg 2560w">
-      </div><!-- end thumb-container -->
-    </a>
-  </div><!-- end work-item -->
-
-  <!-- REMAINING PROJECTS - max 4, determine col size by number -->
   <div class="row g-0">
-    <div class="col-lg-6">
+    {% for project in projects %}
+    {% if loop.first %}
+    <!-- FEATURED PROJECT -->
+    <div class="col-12">
       <div class="work-item">
-        <a href="">
+        <a href="{{ project.url }}">
           <div class="text-container p-2 p-sm-3 px-lg-4 py-lg-3 p-xl-5 d-flex justify-content-start align-items-end">
             <div>
-              <h3 class="thumb-title small tw-black text-white mb-0">Moy Park</h3>
-              <p class="thumb-subtitle text-white tw-medium">Tangible outputs and outcomes supporting your business across all media and platforms.</p>
+              <h3 class="thumb-title small tw-black text-white mb-0">{{ project.title }}</h3>
+              <p class="thumb-subtitle text-white tw-medium">{{ project.subtitle }}</p>
             </div>   
           </div><!-- end text-container -->
           
           <div class="thumb-container">
-            <img src="https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001.jpg" loading="lazy" alt="" sizes="100vw" srcset="https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-500.jpg 500w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-800.jpg 800w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-1080.jpg 1080w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-1600.jpg 1600w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-2000.jpg 2000w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001.jpg 2560w">
+            {% set videoThumbnailUpload = project.videoThumbnailUpload.one() %}
+            {% set imageThumbnail = project.imageThumbnail.one() %}
+
+            {% if videoThumbnailUpload %}
+              <video preload="false" autoplay loop muted poster="{{ imageThumbnail.url('thumb1280X720') }}">
+                <source src="{{ videoThumbnailUpload.url }}" type="video/mp4">
+              </video>
+            {% endif %}
+            
+            <img 
+              loading="lazy" 
+              src="{{ imageThumbnail.url('thumb1920X1080') }}" 
+              alt="{{ project.title }}" 
+              sizes="100vw" 
+              srcset="
+                {{ imageThumbnail.url('thumb480X270') }} 480w,
+                {{ imageThumbnail.url('thumb512X288') }} 512w,
+                {{ imageThumbnail.url('thumb768X432') }} 768w,
+                {{ imageThumbnail.url('thumb960X540') }} 960w,
+                {{ imageThumbnail.url('thumb1280X720') }} 1280w,
+                {{ imageThumbnail.url('thumb1920X1080') }} 1920w
+                ">
           </div><!-- end thumb-container -->
         </a>
       </div><!-- end work-item -->
     </div><!-- end col -->
-
+    {% else %}
+    
+    <!-- REMAINING PROJECTS - max 4, determine col size by number -->
     <div class="col-lg-6">
       <div class="work-item">
-        <a href="">
+        <a href="{{ project.url }}">
           <div class="text-container p-2 p-sm-3 px-lg-4 py-lg-3 p-xl-5 d-flex justify-content-start align-items-end">
             <div>
-              <h3 class="thumb-title small tw-black text-white mb-0">Q Radio</h3>
-              <p class="thumb-subtitle text-white tw-medium">Tangible outputs and outcomes supporting your business across all media and platforms.</p>
+              <h3 class="thumb-title small tw-black text-white mb-0">{{ project.title }}</h3>
+              <p class="thumb-subtitle text-white tw-medium">{{ project.subtitle }}</p>
             </div>   
           </div><!-- end text-container -->
           
           <div class="thumb-container">
-            <iframe title="" src="https://player.vimeo.com/video/529419193?background=true" allow="autoplay; fullscreen" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
+            {% set videoThumbnailUpload = project.videoThumbnailUpload.one() %}
+            {% set imageThumbnail = project.imageThumbnail.one() %}
 
-            <img src="https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001.jpg" loading="lazy" alt="" sizes="100vw" srcset="https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-500.jpg 500w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-800.jpg 800w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-1080.jpg 1080w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-1600.jpg 1600w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-2000.jpg 2000w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001.jpg 2560w">
+            {% if videoThumbnailUpload %}
+              <video preload="false" autoplay loop muted poster="{{ imageThumbnail.url('thumb1280X720') }}">
+                <source src="{{ videoThumbnailUpload.url }}" type="video/mp4">
+              </video>
+            {% endif %}
+            
+            <img 
+              loading="lazy" 
+              src="{{ imageThumbnail.url('thumb1920X1080') }}" 
+              alt="{{ project.title }}" 
+              sizes="100vw" 
+              srcset="
+                {{ imageThumbnail.url('thumb480X270') }} 480w,
+                {{ imageThumbnail.url('thumb512X288') }} 512w,
+                {{ imageThumbnail.url('thumb768X432') }} 768w,
+                {{ imageThumbnail.url('thumb960X540') }} 960w,
+                {{ imageThumbnail.url('thumb1280X720') }} 1280w,
+                {{ imageThumbnail.url('thumb1920X1080') }} 1920w
+                ">
           </div><!-- end thumb-container -->
         </a>
       </div><!-- end work-item -->
     </div><!-- end col -->
-
-    <div class="col-lg-6">
-      <div class="work-item">
-        <a href="">
-          <div class="text-container p-2 p-sm-3 px-lg-4 py-lg-3 p-xl-5 d-flex justify-content-start align-items-end">
-            <div>
-              <h3 class="thumb-title small tw-black text-white mb-0">Ulster University</h3>
-              <p class="thumb-subtitle text-white tw-medium">Tangible outputs and outcomes supporting your business across all media and platforms.</p>
-            </div>   
-          </div><!-- end text-container -->
-          
-          <div class="thumb-container">
-            <iframe title="" src="https://player.vimeo.com/video/794623311?background=true" allow="autoplay; fullscreen" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
-
-            <img src="https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001.jpg" loading="lazy" alt="" sizes="100vw" srcset="https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-500.jpg 500w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-800.jpg 800w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-1080.jpg 1080w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-1600.jpg 1600w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-2000.jpg 2000w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001.jpg 2560w">
-          </div><!-- end thumb-container -->
-        </a>
-      </div><!-- end work-item -->
-    </div><!-- end col -->
-
-    <div class="col-lg-6">
-      <div class="work-item">
-        <a href="">
-          <div class="text-container p-2 p-sm-3 px-lg-4 py-lg-3 p-xl-5 d-flex justify-content-start align-items-end">
-            <div>
-              <h3 class="thumb-title small tw-black text-white mb-0">Kainos</h3>
-              <p class="thumb-subtitle text-white tw-medium">Tangible outputs and outcomes supporting your business across all media and platforms.</p>
-            </div>   
-          </div><!-- end text-container -->
-          
-          <div class="thumb-container">
-            <video preload="false" autoplay loop muted poster="">
-              <source src="https://whitenoisestudios.com/assets/videos/Very-Small-New-Website-Video-2018.mp4" type="video/mp4">
-              <source src="https://whitenoisestudios.com/assets/videos/Very-Small-New-Website-Video-2018.webm" type="video/webm">
-            </video>
-
-            <img src="https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001.jpg" loading="lazy" alt="" sizes="100vw" srcset="https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-500.jpg 500w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-800.jpg 800w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-1080.jpg 1080w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-1600.jpg 1600w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001-p-2000.jpg 2000w, https://assets.website-files.com/63482e441823ca7ee0b4fbba/640f469a334b4e7788852167_DixonBaxi_PC_001.jpg 2560w">
-          </div><!-- end thumb-container -->
-        </a>
-      </div><!-- end work-item -->
-    </div><!-- end col -->
+    {% endif %}
+    {% endfor %}
   </div><!-- end row -->
 </section>
+{% endif %}
 
 <section class="py-7 py-lg-10 py-xl-12 py-xxl-14">
   <div class="section-container x-narrow py-0">

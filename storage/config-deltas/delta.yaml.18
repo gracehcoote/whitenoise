@@ -1,17 +1,40 @@
-dateApplied: '2023-07-27 11:33:35'
+dateApplied: '2023-07-31 16:17:41'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690453960
-        to: 1690454015
+        from: 1690816635
+        to: 1690816658
   -
-    message: 'Save entry type “role”'
-    changed:
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.width:
-        from: 100
-        to: 75
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.width:
-        from: 100
-        to: 25
+    added:
+      fields.0499b203-3226-46f7-a942-f210773facd9.columnSuffix: biuqvucc
+      fields.0499b203-3226-46f7-a942-f210773facd9.contentColumnType: text
+      fields.0499b203-3226-46f7-a942-f210773facd9.fieldGroup: d65dd566-89fb-49fd-944c-9ebbc1cdad44
+      fields.0499b203-3226-46f7-a942-f210773facd9.handle: introTextRightColumn
+      fields.0499b203-3226-46f7-a942-f210773facd9.instructions: null
+      fields.0499b203-3226-46f7-a942-f210773facd9.name: 'Intro Text (Right Column)'
+      fields.0499b203-3226-46f7-a942-f210773facd9.searchable: false
+      fields.0499b203-3226-46f7-a942-f210773facd9.settings.availableTransforms: ''
+      fields.0499b203-3226-46f7-a942-f210773facd9.settings.availableVolumes: ''
+      fields.0499b203-3226-46f7-a942-f210773facd9.settings.columnType: text
+      fields.0499b203-3226-46f7-a942-f210773facd9.settings.configSelectionMode: choose
+      fields.0499b203-3226-46f7-a942-f210773facd9.settings.defaultTransform: ''
+      fields.0499b203-3226-46f7-a942-f210773facd9.settings.manualConfig: ''
+      fields.0499b203-3226-46f7-a942-f210773facd9.settings.purifierConfig: null
+      fields.0499b203-3226-46f7-a942-f210773facd9.settings.purifyHtml: true
+      fields.0499b203-3226-46f7-a942-f210773facd9.settings.redactorConfig: Custom.json
+      fields.0499b203-3226-46f7-a942-f210773facd9.settings.removeEmptyTags: false
+      fields.0499b203-3226-46f7-a942-f210773facd9.settings.removeInlineStyles: false
+      fields.0499b203-3226-46f7-a942-f210773facd9.settings.removeNbsp: false
+      fields.0499b203-3226-46f7-a942-f210773facd9.settings.showHtmlButtonForNonAdmins: false
+      fields.0499b203-3226-46f7-a942-f210773facd9.settings.showUnpermittedFiles: false
+      fields.0499b203-3226-46f7-a942-f210773facd9.settings.showUnpermittedVolumes: false
+      fields.0499b203-3226-46f7-a942-f210773facd9.settings.uiMode: enlarged
+      fields.0499b203-3226-46f7-a942-f210773facd9.translationKeyFormat: null
+      fields.0499b203-3226-46f7-a942-f210773facd9.translationMethod: none
+      fields.0499b203-3226-46f7-a942-f210773facd9.type: craft\redactor\Field
+    message: 'Save field “introTextRightColumn”'
+  -
+    added:
+      meta.__names__.0499b203-3226-46f7-a942-f210773facd9: 'Intro Text (Right Column)'

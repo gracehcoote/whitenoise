@@ -1,35 +1,14 @@
-dateApplied: '2023-07-27 11:24:27'
+dateApplied: '2023-07-27 15:29:47'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690453444
-        to: 1690453467
+        from: 1690468176
+        to: 1690468187
   -
-    message: 'Save field “roleInformation”'
+    message: 'Save route'
     changed:
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.addRowLabel:
-        from: 'Add a row'
-        to: ' '
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.0.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.2.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.0.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.2.1:
-        from: null
-        to: ''
+      routes.6da37a24-4527-49ce-8adb-fe64b3b51d9e.template:
+        from: careers/application-form
+        to: careers/application
