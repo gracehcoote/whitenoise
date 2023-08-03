@@ -1,0 +1,43 @@
+fieldLayouts:
+  8e239d1c-3c6b-4263-a83d-dafa31a7bd0c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: ecec970f-2e52-4d30-b63c-5635f9999118
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: abf0e31f-3eb7-4066-aeba-542f1c699f4f
+        userCondition: null
+fs: audio
+handle: audio
+name: Audio
+sortOrder: 7
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

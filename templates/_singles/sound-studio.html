@@ -1,0 +1,289 @@
+{% extends "_layouts/_base" %}
+
+{% block seo %}
+{% include "_includes/seo" %}
+{% endblock %}
+
+{% set bodyClass = '' %}
+
+{% block headContent %}
+{% endblock %}
+
+{% block main %}
+<section class="hero d-flex flex-column">
+  <div class="section-container d-flex flex-grow-1 justify-content-center align-items-center text-center">
+    <h1>{{ entry.pageTitle ?? entry.title }}</h1>
+  </div><!-- end section-container -->
+
+  {% set heroImage = entry.heroImage.one() %}
+  {% if heroImage %}
+  <img 
+    class="background-image{% if entry.greyscaleImage %} greyscale{% endif %}" 
+    loading="lazy" 
+    src="{{ heroImage.url('thumb1920X1080') }}" 
+    alt="{{ heroImage.title }}" 
+    sizes="100vw" 
+    srcset="
+      {{ heroImage.url('thumb480X270') }} 480w,
+      {{ heroImage.url('thumb512X288') }} 512w,
+      {{ heroImage.url('thumb768X432') }} 768w,
+      {{ heroImage.url('thumb960X540') }} 960w,
+      {{ heroImage.url('thumb1280X720') }} 1280w,
+      {{ heroImage.url('thumb1920X1080') }} 1920w
+      ">
+    {% endif %}
+</section>
+
+<section>
+  {% if entry.introTextLeftColumn or entry.introTextRightColumn %}
+  <div class="section-container max-width">
+    <div class="row justify-content-between">
+      {% if entry.introTextLeftColumn %}
+      <div class="col-tls-8 col-xl-7">
+        {{ entry.introTextLeftColumn }}
+      </div><!-- end col -->
+      {% endif %}
+
+      {% if entry.introTextRightColumn %}
+      <div class="col-tls-4 ps-tls-3">
+        {{ entry.introTextRightColumn }}
+      </div><!-- end col -->
+      {% endif %}
+    </div><!-- end row -->
+  </div><!-- end section-container -->
+  {% endif %}
+
+  {% set samples = entry.soundStudioSamples.all() %}
+  {% if samples %}
+  <div class="section-container max-width-wide">
+    <h4 class="text-center mb-5">Some samples of our work</h4>
+
+    <div class="row gy-2 justify-content-center">
+      {% for sample in samples %}
+      <div class="col-msm-6 col-md-4 col-tls-3 col-xxl-2 d-flex position-relative">
+        <div class="shadow d-flex flex-column flex-grow-1">
+          <div class="position-relative" style="width: 100%; height: 0; padding-bottom: 56.25%; background-color: #1a1a1a;">
+            {% set sampleFile = sample.sampleFile.one() %}
+            {% if sampleFile.kind == 'audio' %}
+            <button class="play-button play-audio position-absolute top-50 start-50" type="button"></button>  
+            <audio class="audio-file" src="{{ sampleFile.url }}" preload="metadata" loop></audio>
+            {% else %}
+            <button class="play-button position-absolute top-50 start-50" type="button" data-bs-toggle="modal" data-bs-target="#{{ sampleFile.id }}-video-modal"></button>     
+            <div class="modal fade" id="{{ sampleFile.id }}-video-modal" tabindex="-1" aria-labelledby="Video modal" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-xl">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                
+                <div class="modal-content">
+                  <video id="full-video" controls>
+                    <source src="{{ sampleFile.url }}" type="video/mp4">
+                    {% if sampleFile.webmFile %}
+                    <source src="{{ sampleFile.webmFile }}" type="video/webm">
+                    {% endif %}
+                  </video>
+                </div>
+              </div>
+            </div><!-- end modal -->
+            {% endif %}
+
+            {% set thumbnail = sample.sampleThumbnail.one() %}
+            {% if thumbnail %}
+            <img src="{{ thumbnail.url('thumb512X288') }}" alt="{{ thumbnail.title }}">
+            {% else %}
+            {% endif %}
+          </div>
+
+          <div class="p-2 flex-grow-1 d-flex flex-column justify-content-between align-items-start">
+            <div>
+              <p class="title-font tw-extrabold mb-half">{{ sample.sampleSubtitle }}</p>
+              <h6 class="tw-medium mb-0">{{ sample.sampleTitle }}</h6>
+            </div>
+          </div>
+        </div>
+      </div><!-- end col -->
+      {% endfor %}
+    </div><!-- end row -->
+  </div><!-- end section-container -->
+</section>
+{% endif %}
+
+{% set images = entry.images.all() %}
+{% if images %}
+<section>
+  <div class="image-slider splide" aria-label="Image slider">
+    <div class="splide__track">
+      <ul class="splide__list">
+        {% for image in images %}
+        <li class="splide__slide">
+          <img 
+            loading="lazy" 
+            src="{{ image.url('thumb480X270') }}" 
+            alt="{{ image.title }}" 
+            sizes="100vw" 
+            srcset="
+              {{ image.url('thumb480X270') }} 480w,
+              {{ image.url('thumb512X288') }} 512w,
+              {{ image.url('thumb768X432') }} 768w,
+              {{ image.url('thumb960X540') }} 960w,
+              {{ image.url('thumb1280X720') }} 1280w,
+              {{ image.url('thumb1920X1080') }} 1920w
+            ">
+        </li>
+        {% endfor %}
+      </ul>
+    </div><!-- end splide__track -->
+  </div><!-- end splide -->
+</section>
+{% endif %}
+
+<section>
+  {% if entry.soundStudioServices %}
+  <div class="section-container max-width">
+    <div class="row gy-2">
+      {% for service in entry.soundStudioServices %}
+      <div class="col-sm-6 col-xl-3 d-flex">
+        <div class="shadow p-3 flex-grow-1 d-flex flex-column">
+          <div class="text-center mb-2">
+            <h4 class="tw-semibold">{{ service.serviceName }}</h4>
+            <h4 class="tw-medium">{{ service.pricing }}</h4>
+            <p class="x-small"><strong>per hour ex VAT</strong></p>
+          </div>
+          
+          {% if service.serviceDescription %}
+          <p>{{ service.serviceDescription }}</p>
+          {% endif %}
+        </div>
+      </div><!-- end col -->
+      {% endfor %}
+    </div><!-- end row -->
+  </div><!-- end section-container -->
+
+  <div class="section-container max-width">
+    <div class="shadow p-4">
+      <h2 class="medium text-center mb-4">Get in touch</h2>
+      {{ craft.freeform.form("soundStudioContact").render() }}
+    </div>
+  </div>
+  {% endif %}
+</section>
+
+{% set clientLogos = entry.clientLogos.all() %}
+{% if clientLogos %}
+<section class="pb-7 pb-lg-10 pb-xl-12 pb-xxl-14">
+  <div class="section-container x-narrow p-0">
+    <h4 class="text-center mb-7">We are proud to work with</h4>
+  </div><!-- end section-container -->
+
+  {% if clientLogos|length > 9 %}
+    {% set firstHalfEnd = clientLogos|length / 2 %}
+    {% set secondHalfStart = firstHalfEnd %}
+    {% set last = clientLogos|length %}
+    <div class="splide splide-rtl pb-4" aria-label="Partner logos slider">
+      <div class="splide__track">
+        <ul class="splide__list">
+          {% for logo in clientLogos|slice(0, firstHalfEnd) %}
+          <li class="splide__slide px-2">
+            {% if logo.assetLink %}
+            <a href="{{ logo.assetLink }}" target="_blank">
+              <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+            </a>
+            {% else %}
+            <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div><!-- end splide -->
+    
+    <div class="splide splide-ltr pt-4" aria-label="Partner logos slider">
+      <div class="splide__track">
+        <ul class="splide__list">
+          {% for logo in clientLogos|slice(secondHalfStart, last) %}
+          <li class="splide__slide px-2">
+            {% if logo.assetLink %}
+            <a href="{{ logo.assetLink }}" target="_blank">
+              <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+            </a>
+            {% else %}
+            <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div><!-- end splide -->
+  {% else %}
+    <div class="splide splide-ltr" aria-label="Partner logos slider">
+      <div class="splide__track">
+        <ul class="splide__list">
+          {% for logo in clientLogos %}
+          <li class="splide__slide px-2">
+            {% if logo.assetLink %}
+            <a href="{{ logo.assetLink }}" target="_blank">
+              <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+            </a>
+            {% else %}
+            <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div><!-- end splide -->
+  {% endif %}
+</section>
+{% endif %}
+{% endblock %}
+
+{% block javascript %}
+<script src="{{ siteUrl }}assets/js/splide-extension-auto-scroll.min.js"></script>
+<script>
+if($('.splide-rtl').length > 0) {
+  new Splide('.splide-rtl', {
+    type   : 'loop',
+    perPage: 5,
+    breakpoints: {
+      991: {
+        perPage: 4,
+      },
+      480: {
+        perPage: 2,
+      },
+    },
+    arrows: false,
+    pagination: false,
+  }).mount( window.splide.Extensions );
+}
+
+if($('.splide-ltr').length > 0) {
+  new Splide('.splide-ltr', {
+    type   : 'loop',
+    perPage: 5,
+    breakpoints: {
+      991: {
+        perPage: 4,
+      },
+      480: {
+        perPage: 2,
+      },
+    },
+    arrows: false,
+    pagination: false,
+    autoScroll: {
+      speed: -1,
+    },
+  }).mount( window.splide.Extensions );
+}
+
+$('.play-audio').each(function(){
+  $(this).click(function(){
+    $(this).toggleClass('active');
+    if($(this).hasClass('active')){
+      $(this).next('audio').trigger('play');      
+    } else {
+      $(this).next('audio').trigger('pause');
+    }
+  });
+});
+</script>
+{% endblock %}

@@ -1,42 +1,16 @@
-dateApplied: '2023-07-31 16:16:34'
+dateApplied: '2023-08-02 12:11:47'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690816443
-        to: 1690816591
+        from: 1690974645
+        to: 1690974707
   -
     added:
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.columnSuffix: null
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.contentColumnType: string
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.fieldGroup: d65dd566-89fb-49fd-944c-9ebbc1cdad44
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.handle: selectedProjects
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.instructions: 'Featured project is determined by the order i.e. first project will always be featured.'
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.name: 'Selected Projects'
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.searchable: false
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.settings.allowSelfRelations: false
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.settings.branchLimit: null
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.settings.localizeRelations: false
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.settings.maintainHierarchy: false
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.settings.maxRelations: 5
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.settings.minRelations: 1
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.settings.selectionCondition.__assoc__.0.0: elementType
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.settings.selectionCondition.__assoc__.0.1: craft\elements\Entry
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.settings.selectionCondition.__assoc__.1.0: fieldContext
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.settings.selectionCondition.__assoc__.1.1: global
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.settings.selectionCondition.__assoc__.2.0: class
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.settings.selectionCondition.__assoc__.2.1: craft\elements\conditions\entries\EntryCondition
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.settings.selectionLabel: 'Select a project'
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.settings.showSiteMenu: false
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.settings.sources.0: 'section:8b8e90e2-3152-4e63-8145-70715f8d6116'
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.settings.targetSiteId: null
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.settings.validateRelatedElements: false
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.settings.viewMode: null
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.translationKeyFormat: null
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.translationMethod: site
-      fields.1e9e0128-1168-4d1f-bb4a-207db0c1ec46.type: craft\fields\Entries
-    message: 'Save field “selectedProjects”'
-  -
-    added:
-      meta.__names__.1e9e0128-1168-4d1f-bb4a-207db0c1ec46: 'Selected Projects'
+      fs.audio.hasUrls: true
+      fs.audio.name: Audio
+      fs.audio.settings.path: '@webroot/assets/cms/audio'
+      fs.audio.type: craft\fs\Local
+      fs.audio.url: '@web/assets/cms/audio'
+    message: 'Save the “audio” filesystem'

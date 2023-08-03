@@ -1,0 +1,19 @@
+columnSuffix: mqdfcsvp
+contentColumnType: string(200)
+fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2 # Globals
+handle: announcementButtonText
+instructions: 'Enter the text you''d like the button to show e.g. "View Careers"'
+name: 'Announcement Button Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 50
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

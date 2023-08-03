@@ -2,6 +2,10 @@
 SLIDER STYLES
 ************/
 
+.splide__list {
+  align-items: center;
+}
+
 .splide__arrows {
   margin: 0 -5px;
   width: 100%;
@@ -70,8 +74,8 @@ SLIDER STYLES
     border: 0;
     border-radius: 50%;
     display: inline-block;
-    width: 8px;
-    height: 8px;
+    width: 12px;
+    height: 12px;
     margin: 0 .25rem;
     padding: 0;
     position: relative;

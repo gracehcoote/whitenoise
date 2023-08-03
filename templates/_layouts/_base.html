@@ -84,7 +84,22 @@
 {% set bodyClass = bodyClass ?? null%}
 <body class="{{ bodyClass }}">
   {% block body %}
-    <div id="top-bar"></div>
+    {% if announcements.announcementBarActive and bodyClass == 'home' %}
+    <section id="announcement-bar">
+      <div class="section-container py-1">
+        <div class="d-flex flex-wrap justify-content-center align-items-center">
+          <div>
+            {{ announcements.announcementText }}
+          </div>
+          
+          {% if announcements.announcementButtonLink %}
+            {% set buttonLink = announcements.announcementButtonLink.one() %}
+            <a class="btn btn-outline btn-sm ms-1" href="{{ buttonLink.url }}">{% if announcements.announcementButtonText %}{{ announcements.announcementButtonText }}{% else %}Learn more{% endif %}</a>
+          {% endif %}
+        </div>
+      </div><!-- end section-container -->
+    </section>
+    {% endif %}
 
     <div class="page-wrap">
       <header id="global">

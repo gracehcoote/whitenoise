@@ -1,46 +1,14 @@
-dateApplied: '2023-07-27 11:42:28'
+dateApplied: '2023-08-01 14:54:50'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690454139
-        to: 1690454548
+        from: 1690898069
+        to: 1690898090
   -
-    added:
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.1.elementCondition: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.1.elements.0.elementCondition: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.1.elements.0.fieldUid: e04fa217-fc47-4d88-a1a5-9c4161a82be9
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.1.elements.0.instructions: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.1.elements.0.label: 'Role Details'
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.1.elements.0.required: false
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.1.elements.0.tip: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.1.elements.0.type: craft\fieldlayoutelements\CustomField
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.1.elements.0.uid: 3e04cb22-a752-4339-bc89-b475244620ae
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.1.elements.0.userCondition: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.1.elements.0.warning: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.1.elements.0.width: 100
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.1.name: 'Role Content'
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.1.uid: 1ac70503-9b50-4197-95c1-8d38cfa09850
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.1.userCondition: null
-    removed:
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.elementCondition: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.type: craft\fieldlayoutelements\HorizontalRule
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.uid: d8cd56dd-96b2-468a-9478-d9f4e32a3acf
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.userCondition: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.elementCondition: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.fieldUid: e04fa217-fc47-4d88-a1a5-9c4161a82be9
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.instructions: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.label: 'Role Details'
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.required: false
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.tip: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.type: craft\fieldlayoutelements\CustomField
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.uid: 3e04cb22-a752-4339-bc89-b475244620ae
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.userCondition: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.warning: null
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.4.width: 100
-    message: 'Save entry type “role”'
+    message: 'Save field “announcementButtonText”'
     changed:
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.name:
-        from: Content
-        to: 'Key Information'
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.instructions:
+        from: 'Enter the text you''d like the button to show.'
+        to: 'Enter the text you''d like the button to show e.g. "View Careers"'

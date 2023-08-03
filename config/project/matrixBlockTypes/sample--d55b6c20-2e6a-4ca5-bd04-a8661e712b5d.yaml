@@ -1,0 +1,203 @@
+field: d97cab54-76a8-4280-942d-c59ce888204e # Sound Studio Samples
+fieldLayouts:
+  d0462643-8df4-4a3c-845d-7ee664a9c779:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a2e2c41d-ff17-4003-9f00-f458cda4070b # Sample File
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9810336e-a0bd-497a-919d-563d1a171a01
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e1892342-465e-413a-9363-446b97324322 # Sample Title
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5d00201b-7876-43cd-b8f1-fcb63df673ea
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50 # Sample Subtitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d1fab80f-ee75-403c-a99c-93ce4b82b94c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3508988d-7b9a-4bce-a763-4d4f03a907fa # Sample Thumbnail
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a7148aee-0d27-4a0f-9dbf-1f414d24f3d4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1c57a7fd-54b5-4c0b-a6c3-4b4093dd3200
+        userCondition: null
+fields:
+  5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50: # Sample Subtitle
+    columnSuffix: gvqkihmj
+    contentColumnType: text
+    fieldGroup: null
+    handle: sampleSubtitle
+    instructions: 'Shows above the title, e.g. client name'
+    name: 'Sample Subtitle'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  3508988d-7b9a-4bce-a763-4d4f03a907fa: # Sample Thumbnail
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: sampleThumbnail
+    instructions: 'Background will show as plain black if no image is selected'
+    name: 'Sample Thumbnail'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9' # Meta
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: true
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:88345c9b-bba7-481d-b7be-a56f256bad79' # Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: 'Select an image'
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  a2e2c41d-ff17-4003-9f00-f458cda4070b: # Sample File
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: sampleFile
+    instructions: 'You can select audio or video files for this field.'
+    name: 'Sample File'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - audio
+        - video
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:88345c9b-bba7-481d-b7be-a56f256bad79' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9' # Meta
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: 'Select a file'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources:
+        - 'volume:88345c9b-bba7-481d-b7be-a56f256bad79' # Uploads
+        - 'volume:132246f9-c0e6-4f99-a712-62365f4bf939' # Videos
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  e1892342-465e-413a-9363-446b97324322: # Sample Title
+    columnSuffix: drfngghg
+    contentColumnType: text
+    fieldGroup: null
+    handle: sampleTitle
+    instructions: null
+    name: 'Sample Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: sample
+name: Sample
+sortOrder: 1

@@ -1,20 +1,15 @@
-dateApplied: '2023-07-31 13:12:55'
+dateApplied: '2023-08-02 12:07:49'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690469655
-        to: 1690805575
+        from: 1690974372
+        to: 1690974465
   -
-    message: 'Save field “category”'
-    changed:
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.maxRelations:
-        from: 0
-        to: 1
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.selectionLabel:
-        from: null
-        to: 'Selectt a category'
-      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.showSiteMenu:
-        from: false
-        to: true
+    added:
+      fieldGroups.a3f76f51-1422-4bfe-a045-3f06cad0c550.name: 'Sound Studio'
+    message: 'Save field group “Sound Studio”'
+  -
+    added:
+      meta.__names__.a3f76f51-1422-4bfe-a045-3f06cad0c550: 'Sound Studio'

@@ -1,17 +1,25 @@
-dateApplied: '2023-07-27 11:33:35'
+dateApplied: '2023-08-01 14:53:39'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690453960
-        to: 1690454015
+        from: 1690897982
+        to: 1690898019
   -
-    message: 'Save entry type “role”'
+    message: 'Save field “announcementButtonLink”'
     changed:
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.width:
-        from: 100
-        to: 75
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.width:
-        from: 100
-        to: 25
+      fields.6abb5b38-832a-4c70-8416-58b01e988618.handle:
+        from: announcementButton
+        to: announcementButtonLink
+      fields.6abb5b38-832a-4c70-8416-58b01e988618.name:
+        from: 'Announcement Button'
+        to: 'Announcement Button Link'
+      fields.6abb5b38-832a-4c70-8416-58b01e988618.settings.showSiteMenu:
+        from: false
+        to: true
+  -
+    changed:
+      meta.__names__.6abb5b38-832a-4c70-8416-58b01e988618:
+        from: 'Announcement Button'
+        to: 'Announcement Button Link'

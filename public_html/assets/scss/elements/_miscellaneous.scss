@@ -263,7 +263,65 @@ hr.small {
 // Modal styles
 
 .modal-backdrop {
-  opacity: 0.7;
+  opacity: 0.7 !important;
+}
+
+// Announcement bar
+
+#announcement-bar {
+  display: none;
+}
+
+// Confetti animation
+#confetti {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+// Play button 
+
+.play-button {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 40px;
+  height: 40px;  
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 3px solid #fff;
+  margin-top: 0;
+  margin-left: 0;
+  transform: translate(-50%, -50%);
+  font-size: inherit;
+  transition: all 0.3s;
+
+  &:before {
+    position: static;
+    font-family: "Material Icons Outlined";
+    content: '\e037';
+    color: #fff;
+    font-size: 30px;
+    transition: all 0.3s;
+  }
+  
+  &.active:before {
+    content: '\e034';
+  }
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: $yellow;
+    transition: all 0.3s;
+
+    &:before {
+      color: $yellow;
+    }
+  }
 }
 
 /* Craft CMS Styles */

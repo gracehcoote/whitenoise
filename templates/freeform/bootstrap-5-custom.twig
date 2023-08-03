@@ -60,15 +60,15 @@
 {% endif %}
 
 {% for row in form %}
-    <div class="row {{ form.customAttributes.rowClass }}">
+    <div class="row g-3 mb-3 {{ form.customAttributes.rowClass }}">
         {% for field in row %}
             {% set width = (12 / (row|length)) %}
 
             {% set isCheckbox = field.type in ["checkbox","mailing_list"] %}
 
-            {% set columnClass = "mb-2" %}
+            {% set columnClass = "" %}
             {% set columnClass = columnClass ~ form.customAttributes.columnClass %}
-            {% set columnClass = columnClass ~ " col-pls-" ~ width ~ " col-12" %}
+            {% set columnClass = columnClass ~ " col-md-" ~ width ~ " col-12" %}
 
             {% set class = "form-control" ~ (field.hasErrors ? " is-invalid has-validation") %}
             {% if field.type == "file" %}

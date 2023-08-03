@@ -1,4 +1,4 @@
-dateModified: 1690817746
+dateModified: 1691061170
 elementSources:
   craft\elements\Entry:
     -
@@ -75,6 +75,13 @@ email:
     command: '/usr/sbin/sendmail -bs'
   transportType: craft\mail\transportadapters\Sendmail
 fs:
+  audio:
+    hasUrls: true
+    name: Audio
+    settings:
+      path: '@webroot/assets/cms/audio'
+    type: craft\fs\Local
+    url: '@web/assets/cms/audio'
   careerApplicationFiles:
     hasUrls: true
     name: 'Career Application Files'
@@ -82,6 +89,13 @@ fs:
       path: '@webroot/assets/cms/application-files'
     type: craft\fs\Local
     url: '@web/assets/cms/application-files'
+  clientLogos:
+    hasUrls: true
+    name: 'Client Logos'
+    settings:
+      path: '@webroot/assets/cms/client-logos'
+    type: craft\fs\Local
+    url: '@web/assets/cms/client-logos'
   documents:
     hasUrls: true
     name: Documents
@@ -122,6 +136,7 @@ meta:
     2c12dea1-d691-474a-98f9-a94752fa65db: 'Link Button' # Link Button
     2d5a07da-da97-4edf-89e7-536ff13bb1cd: 'Email Address' # Email Address
     2dd14558-c290-4b79-a4af-255dd2064f55: 'Block Background Colour' # Block Background Colour
+    2f2938f0-4737-4dcb-81cd-faa0977a8a02: 'Button Link' # Button Link
     2fb3dcfb-de61-404d-a714-a5cc5585bc1d: 'Content Blocks' # Content Blocks
     3b22405f-25c4-4f1c-88a6-76cbbdff664c: TikTok # TikTok
     3bc252f4-632a-4520-bb75-a3bea8eb012a: 'Hero Image' # Hero Image
@@ -137,10 +152,13 @@ meta:
     4ed0db04-e661-4ceb-8827-18d30fe9443c: 'Embed code' # Embed code
     4ee33dc6-65da-4bc3-8a64-ad85d9832bdf: 'Page Title' # Page Title
     4f7797e5-910f-4536-9243-f9c5cfcda4d5: Instagram # Instagram
+    5ae521bc-cbdd-4059-8f88-5a1e355f40ba: 'Announcement Text' # Announcement Text
     5b7711cc-caf3-471b-a459-8815f72b1376: Statistic # Statistic
     5ccaadee-7b10-480c-882e-ed56169d88b0: Images # Images
+    5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50: 'Sample Subtitle' # Sample Subtitle
     5f77600e-9c97-45c6-ae67-f6d2bb6e0e4e: 'Video (embed)' # Video (embed)
     5fdc20ac-8b9d-4a7f-9fd5-c4c13d3a1e3e: Statistic # Statistic
+    6abb5b38-832a-4c70-8416-58b01e988618: 'Announcement Button Link' # Announcement Button Link
     6b2a9aec-c384-408b-946c-3cbaba877529: 'Redirect to First Child Page' # Redirect to First Child Page
     6bf02326-b759-447d-bc08-0892b1fd65b7: 'Favicon 152x152' # Favicon 152x152
     6c273e0a-2f13-4c11-a6b7-fdd82aa39566: 'Text (Single Column)' # Text (Single Column)
@@ -149,12 +167,15 @@ meta:
     7b48acb6-0409-495d-a9ca-d572373e8e89: 'Image Thumbnail' # Image Thumbnail
     7bee1e32-7f18-4448-95ee-9cfc3b0ed3db: 'Block Width' # Block Width
     7bf25c78-6521-4c16-92af-00826343b035: Work # Work
+    07cac246-2cc1-402e-ad2b-a549aac34326: 'Announcement Text' # Announcement Text
     7f2c84a0-f102-4d22-9635-5948fed536c7: 'Thumb 480 x 270' # Thumb 480 x 270
+    8a79ebaa-bbbe-44fa-af12-dc55acafcf31: 'Announcement Button Text' # Announcement Button Text
     8b8e90e2-3152-4e63-8145-70715f8d6116: Projects # Projects
     8e4f3c2b-86b9-4c29-acb8-b289f448993c: 'Favicon 310x150' # Favicon 310x150
     9d5b7bdf-f496-41e6-8afb-6e4e7028332b: 'Favicon 57x57' # Favicon 57x57
     9dd0ffd1-d71c-48c9-8847-8740eb194eaf: 'Text Content' # Text Content
     9e42d781-7ec4-4ffc-bcb0-b0990f578c4b: 'Text Block' # Text Block
+    9e71b1fa-79a1-483a-b43f-9a9855cc5108: Audio # Audio
     13be2e61-d618-4252-b6bb-59f5a19ed677: Newsroom # Newsroom
     14a88088-f556-42bf-976b-d48a31d3e122: Address # Address
     16bbca3c-0a97-487f-a802-b8eac447add5: 'Favicon 144x144' # Favicon 144x144
@@ -181,6 +202,7 @@ meta:
     90edb45c-e20e-485a-8dd5-2ea9d8e59a3e: 'Square Thumb 1080 x 1080' # Square Thumb 1080 x 1080
     93fe13af-1afd-4b9a-89c7-9a4b0efece0c: Careers # Careers
     95e390a4-38aa-4707-85aa-975f59abc835: 'Right column text' # Right column text
+    98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac: 'Sound Studio Services' # Sound Studio Services
     124ff1fb-e849-4d19-9f06-1ca2cf7bc8b3: 'Block Background Colour' # Block Background Colour
     225d43ff-b622-4780-8602-22940bb83e3e: 'OG Image' # OG Image
     377e4815-2d50-4422-8079-ef03bd4ea6a9: Category # Category
@@ -211,16 +233,19 @@ meta:
     9188a04c-dafe-4374-91d1-db40ef539de4: 'Team Member Role (weekday)' # Team Member Role (weekday)
     9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38: 'Career Application Files' # Career Application Files
     9794a518-fb48-48da-ac7d-b4b99fb966ad: 'Block Width' # Block Width
+    20675af5-e003-413c-b2e8-299de178ad9a: Link # Link
     39079f49-43cb-4047-87c4-df8edf61a4c2: 'Key Information' # Key Information
     47055c18-ba46-4bb5-b886-7609129c8ab3: Greyscale # Greyscale
     71169d5c-00e6-45d4-90a4-2999131c6a0f: Image(s) # Image(s)
     76814d0e-9dd5-4780-8c5f-748b9bb99a6b: 'Role Information' # Role Information
+    77534d92-9769-49ef-b77c-317214da003b: 'Logo Max Width and Height' # Logo Max Width and Height
     88345c9b-bba7-481d-b7be-a56f256bad79: Uploads # Uploads
     132246f9-c0e6-4f99-a712-62365f4bf939: Videos # Videos
     344832ca-b0e9-43f5-8578-716c92e36c0c: 'Team Member Name' # Team Member Name
     472533a5-38cd-464c-bd82-10d58ab4079a: LinkedIn # LinkedIn
     558289e0-2263-4114-af78-ce71e894cf10: 'Favicon 180x180' # Favicon 180x180
     644298b5-241e-43a3-aeb7-1eded764aeea: Statement # Statement
+    3508988d-7b9a-4bce-a763-4d4f03a907fa: 'Sample Thumbnail' # Sample Thumbnail
     25725436-bbad-4fde-b7bf-84f437f541ab: Careers # Careers
     45014464-90a7-4681-bdda-9dc18da1e6d7: 'What We Do' # What We Do
     82174415-6789-4d3d-8ab3-c711895906c0: 'Closing Date' # Closing Date
@@ -228,7 +253,9 @@ meta:
     a00b4dca-f148-4c1c-8106-496f60a0a78c: Newsroom # Newsroom
     a1cca0bf-7915-42f2-afe2-7cfef2ca16e1: Text # Text
     a2c85f09-8bef-4517-8214-c3578c40e695: 'Block Title' # Block Title
+    a2e2c41d-ff17-4003-9f00-f458cda4070b: 'Sample File' # Sample File
     a3e0dba9-74d3-4194-bd3a-ea2696f87086: Article # Article
+    a3f76f51-1422-4bfe-a045-3f06cad0c550: 'Sound Studio' # Sound Studio
     a4a25770-eaa8-46ce-8b3b-71a8c8b20614: 'Favicon 32x32' # Favicon 32x32
     a6d4b9df-3107-45d2-ac86-437b4cb6b050: 'Favicon 76x76' # Favicon 76x76
     a8e2e079-7f11-403c-b358-c93b93a0c992: 'Image Carousel' # Image Carousel
@@ -253,11 +280,16 @@ meta:
     bf010d9f-f05f-4ec8-80dc-8358b618a9e7: 'Video File' # Video File
     c0a664fa-02e9-49fc-9a02-c55cf19ba5ca: 'Phone Number' # Phone Number
     c02d89a3-c669-4c7c-a126-bc51c853145a: 'What We Do' # What We Do
+    c5d8b915-06eb-42e2-b071-c4543ee06156: Images # Images
     c7bbf02b-9a9d-47d2-acd0-5548c7e59e93: 'Favicon 120x120' # Favicon 120x120
     c9a82cb7-7e57-4b48-aa3f-09cea62cacc3: 'Show in footer navigation' # Show in footer navigation
     c12d1e3d-e58f-4496-92e0-d181974b2db9: 'Block Background Colour' # Block Background Colour
+    c19c1dc9-fcdf-41c2-a49a-222e0cbed0db: 'Sound Studio' # Sound Studio
+    c716f0ad-a801-4104-bfa5-e8269e480d7e: 'Client Logos' # Client Logos
     c39129fa-e86f-49ce-9bcf-bf1043c6ed94: 'Suggested Projects' # Suggested Projects
+    c44907e5-f9e0-4eb8-87d9-e7c95124a04c: 'Announcement Bar Active' # Announcement Bar Active
     c9747613-724c-481e-b4ac-2cf6fb4c8c72: Pinterest # Pinterest
+    cb49ef47-da78-485c-a246-4e6d34719e67: Announcements # Announcements
     cbb11be7-7020-4487-a344-b7f5808868ad: 'Thumb 1920 x 1080' # Thumb 1920 x 1080
     ccdedfbc-ec18-497e-a755-2398cc5bedf5: Careers # Careers
     cec03b03-7afe-4c55-b93d-3de5f34dd6ff: Contact # Contact
@@ -269,11 +301,14 @@ meta:
     d6daaff4-e52d-4539-9f6c-285af2414d68: 'Favicon 192x192' # Favicon 192x192
     d8a0c075-0ea5-4aa4-838d-233574d0c90c: 'Image Slideshow' # Image Slideshow
     d37dbdf3-6a11-47f1-b913-e2114f3f3191: 'Video File' # Video File
+    d55b6c20-2e6a-4ca5-bd04-a8661e712b5d: Sample # Sample
     d65dd566-89fb-49fd-944c-9ebbc1cdad44: Home # Home
+    d97cab54-76a8-4280-942d-c59ce888204e: 'Sound Studio Samples' # Sound Studio Samples
     d4243c19-5c01-4c63-9754-11d398a4cbac: Meta # Meta
     d2628718-52b2-476b-9be8-984357a173aa: 'Square Thumb 540 x 540' # Square Thumb 540 x 540
     dbb4a582-e95f-47f0-bc3e-7a176a701c48: $DEFAULT_SITE_NAME # $DEFAULT_SITE_NAME
     de3ccf4a-2099-429b-b6e3-b22e743240b1: 'Statement Caption' # Statement Caption
+    dfb10236-499f-43e8-b5e9-c1ee7d4e58ed: 'Client Logos' # Client Logos
     e0ad5847-624f-42b2-ab69-e3bd107d6e44: 'Thumb 768 x 432' # Thumb 768 x 432
     e04fa217-fc47-4d88-a1a5-9c4161a82be9: 'Career Content Blocks' # Career Content Blocks
     e5a90d1a-159d-4470-85e2-14beeb76275b: Image # Image
@@ -282,9 +317,11 @@ meta:
     e7e8ea6f-f78e-4628-a521-627269c93bb0: 'Who We Are' # Who We Are
     e9c25fc9-fefb-4fda-95ac-2da6ae74d89c: 'Download Button Text' # Download Button Text
     e31a3c8c-e7f8-4b46-ad11-df7eb18d591e: 'Left column text' # Left column text
+    e810bb11-7005-434d-a3ae-250407bebd18: Announcement # Announcement
     e79305dd-6595-4bac-aedb-34e55934ebdc: 'Video (upload)' # Video (upload)
     e203826d-16fa-45ed-9c14-78c4c523915f: 'Video (upload)' # Video (upload)
     e1035377-e7f1-4fb8-9ffd-e7ba21e5bb95: Service # Service
+    e1892342-465e-413a-9363-446b97324322: 'Sample Title' # Sample Title
     ea2089d4-1f26-4ba9-9e61-f83afadca498: 'Statement Text' # Statement Text
     eb68d48e-ca63-4037-9bbb-0a6580a38e74: Thumbnail # Thumbnail
     ed22b818-c1ad-48fe-a40f-6f0bdcc5f00a: Text # Text
@@ -295,6 +332,7 @@ meta:
     f4e9240f-b845-4e24-a506-4091720ce1b9: 'Thumb 1280 x 720' # Thumb 1280 x 720
     f8e8eec1-974e-4485-8dc8-e4cd25204baa: Common # Common
     f90f6400-b44a-4107-865f-696705dad0f0: 'Video (embed)' # Video (embed)
+    f96a8730-7c78-483a-b9ac-090b9dd4b139: 'Sound Studio' # Sound Studio
     f558bff2-7034-4fce-a016-3fbb6958f1c5: 'Video Thumbnail (upload)' # Video Thumbnail (upload)
     f586ca8a-c508-4871-91b2-259dc8688653: Team # Team
     f605f0a4-4e31-42c7-b69b-0887c7cd8e26: 'Statement Text' # Statement Text

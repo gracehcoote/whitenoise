@@ -1,51 +1,17 @@
-dateApplied: '2023-07-27 15:09:50'
+dateApplied: '2023-08-02 12:04:56'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690466970
-        to: 1690466987
+        from: 1690974287
+        to: 1690974296
   -
-    added:
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elementCondition: null
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.autocapitalize: true
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.autocomplete: false
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.autocorrect: true
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.class: null
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.disabled: false
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.elementCondition: null
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.id: null
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.instructions: null
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.label: null
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.max: null
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.min: null
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.name: null
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.orientation: null
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.placeholder: null
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.readonly: false
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.requirable: false
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.size: null
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.step: null
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.tip: null
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.title: null
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.type: craft\fieldlayoutelements\assets\AssetTitleField
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.uid: b39e702e-b603-459e-97a7-1cd459d0ebb9
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.userCondition: null
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.warning: null
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.elements.0.width: 100
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.name: Content
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.uid: 0b7ff2db-acac-4df8-b77b-9ee589570a61
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fieldLayouts.64e5f825-37a8-40be-8592-137bd8c4deb5.tabs.0.userCondition: null
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.fs: careerApplicationFiles
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.handle: careerApplicationFiles
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.name: 'Career Application Files'
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.sortOrder: 5
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.titleTranslationKeyFormat: null
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.titleTranslationMethod: site
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.transformFs: ''
-      volumes.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38.transformSubpath: ''
-    message: 'Save the “careerApplicationFiles” volume'
-  -
-    added:
-      meta.__names__.9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38: 'Career Application Files'
+    message: 'Save field “clientLogos”'
+    changed:
+      fields.c716f0ad-a801-4104-bfa5-e8269e480d7e.fieldGroup:
+        from: d65dd566-89fb-49fd-944c-9ebbc1cdad44
+        to: f8e8eec1-974e-4485-8dc8-e4cd25204baa
+      fields.c716f0ad-a801-4104-bfa5-e8269e480d7e.settings.showSiteMenu:
+        from: false
+        to: true

@@ -1,20 +1,116 @@
-{% extends "_layouts/_sub" %}
+{% extends "_layouts/_base" %}
 
 {% block seo %}
 {% include "_includes/seo" %}
 {% endblock %}
 
+{% set bodyClass = 'black-no-overlay' %}
+
 {% block headContent %}
 {% endblock %}
 
 {% block main %}
-  <section>
-    <div class="section-container">
-      <h1 class="alt mb-6">{{ entry.title }}</h1>
-      
-			{% include "_includes/content_blocks" %}
+	<section>
+		<div class="section-container py-5">
+			<h1>{{ entry.title }}</h1>
 		</div><!-- end section-container -->
-  </section>
+	</section>
+
+	<section>
+		<div class="section-container">
+			<div class="row justify-content-between">
+				<div class="col-lg-8 mb-5 mb-lg-0">
+					{% if entry.textBlock %}
+					{{ entry.textBlock }}
+					{% endif %}
+				</div><!-- end col -->
+
+				<div class="col-lg-4 col-xxl-3 ps-lg-6 ps-xxl-0">
+					<div class="dark p-3">
+            {% set locations = siteInfo.locations.all() %}
+          {% if locations %}
+          {% for location in locations %}
+            <h5>{{ location.locationName }}</h5>
+            <p>{{ location.address|nl2br}}</p>
+            
+            {% if location.telephoneNumber %}
+            <p>{{ location.telephoneNumber }}</p>
+            {% endif %}
+
+            {% if location.emailAddress %}
+            <p><a class="tw-semibold" href="mailto:{{ location.emailAddress }}">{{ location.emailAddress }}</a></p>
+            {% endif %}
+
+            <hr class="small light">
+
+          {% endfor %}
+          {% endif %}
+
+          <p>
+          {% if siteInfo.phoneNumber %}
+            {{ siteInfo.phoneNumber }}<br>
+          {% endif %}
+          {% if siteInfo.emailAddress %}
+            <a class="tw-semibold" href="mailto:{{ siteInfo.emailAddress }}">{{ siteInfo.emailAddress }}</a><br>
+          {% endif %}
+            <a class="tw-semibold" href="https://whitenoisestudios.com">whitenoisestudios.com</a>
+          </p>
+
+          {% if siteInfo.facebook or siteInfo.instagram or siteInfo.linkedin or siteInfo.pinterest or siteInfo.tiktok or siteInfo.twitter or siteInfo.vimeo or siteInfo.youtube %}
+          <ul class="social">
+            {% if siteInfo.facebook %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ siteInfo.facebook }}"><i class="fab fa-facebook"></i></a>
+            </li>
+            {% endif %}
+
+            {% if siteInfo.instagram %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ siteInfo.instagram }}"><i class="fab fa-instagram"></i></a>
+            </li>
+            {% endif %}
+
+            {% if siteInfo.linkedin %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ siteInfo.linkedin }}"><i class="fab fa-linkedin"></i></a>
+            </li>
+            {% endif %}
+
+            {% if siteInfo.pinterest %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ siteInfo.pinterest }}"><i class="fab fa-pinterest"></i></a>
+            </li>
+            {% endif %}
+
+            {% if siteInfo.tiktok %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ siteInfo.tiktok }}"><i class="fab fa-tiktok"></i></a>
+            </li>
+            {% endif %}
+
+            {% if siteInfo.twitter %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ siteInfo.twitter }}"><i class="fab fa-twitter"></i></a>
+            </li>
+            {% endif %}
+
+            {% if siteInfo.vimeo %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ siteInfo.vimeo }}"><i class="fab fa-vimeo"></i></a>
+            </li>
+            {% endif %}
+
+            {% if siteInfo.youtube %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ siteInfo.youtube }}"><i class="fab fa-youtube"></i></a>
+            </li>
+            {% endif %}
+          </ul>
+        {% endif %}
+				</div><!-- end col -->
+			</div><!-- end row -->
+		</div><!-- end section-container -->
+	</section>
 {% endblock %}
 
 {% block javascript %}

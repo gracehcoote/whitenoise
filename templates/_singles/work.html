@@ -35,9 +35,9 @@
     {% endif %}
 </section>
 
+{% set projects = craft.entries().section('projects').all() %}
+{% if projects %}
 <section class="d-flex flex-wrap">
-  {% set projects = craft.entries().section('projects').all() %}
-  {% if projects %}
   {% for project in projects %}
   <div class="work-item">
     <a href="{{ project.url }}">
@@ -75,8 +75,8 @@
     </a>
   </div><!-- end work-item -->
   {% endfor %}
-  {% endif %}
 </section>
+{% endif %}
 {% endblock %}
 
 {% block javascript %}

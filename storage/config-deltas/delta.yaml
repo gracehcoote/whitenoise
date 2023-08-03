@@ -1,14 +1,17 @@
-dateApplied: '2023-07-31 16:35:46'
+dateApplied: '2023-08-03 12:12:50'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690817733
-        to: 1690817746
+        from: 1691061151
+        to: 1691061170
   -
-    message: 'Save field “heroVideoFullLength”'
+    message: 'Save section “pages”'
     changed:
-      fields.0d84188a-d34e-4643-a5af-190572cbcb39.settings.selectionLabel:
-        from: null
-        to: 'Select a video'
+      sections.e5f1c294-aa5c-4406-a9a3-d5a067e2efc0.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.template:
+        from: pages/_entry
+        to: _pages/_entry.html
+      sections.e5f1c294-aa5c-4406-a9a3-d5a067e2efc0.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.uriFormat:
+        from: '{slug}'
+        to: '{parent.uri}/{slug}'

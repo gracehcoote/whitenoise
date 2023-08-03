@@ -1,0 +1,14 @@
+columnSuffix: hkozmxbj
+contentColumnType: string(1000)
+fieldGroup: f8e8eec1-974e-4485-8dc8-e4cd25204baa # Common
+handle: assetLink
+instructions: null
+name: Link
+searchable: false
+settings:
+  maxLength: 1000
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

@@ -78,6 +78,12 @@ $(document).ready(function(){
   // });
 });
 
+// Announcement bar
+
+setTimeout(function () {
+  $('.home #announcement-bar').slideToggle();
+}, 1000);
+
 // Back to top button
 $(window).scroll(function() {
 	var height = $(window).scrollTop();

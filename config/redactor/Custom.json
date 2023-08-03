@@ -72,6 +72,12 @@
             "class": "btn btn-outline"
           }
         },
+        "underlinedButton": {
+          "api": "module.inline.set",
+          "args": {
+            "class": "btn-link"
+          }
+        },
         "normalLink": {
           "api": "module.inline.clearclass"
         }

@@ -1,0 +1,14 @@
+columnSuffix: wtalskvu
+contentColumnType: boolean
+fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2 # Globals
+handle: announcementBarActive
+instructions: null
+name: 'Announcement Bar Active'
+searchable: false
+settings:
+  default: false
+  offLabel: 'No'
+  onLabel: 'Yes'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

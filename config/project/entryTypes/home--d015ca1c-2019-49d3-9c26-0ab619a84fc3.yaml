@@ -124,6 +124,23 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: eab10f32-7ab2-461d-b87c-31923ffbd204
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: c716f0ad-a801-4104-bfa5-e8269e480d7e # Client Logos
+            instructions: "* Selecting 10 or more logos will automatically split the logo slider into two sliders.\r\n* Double click a logo asset to add an external link to the client's website, if desired.\r\n* Logos should be cropped edge-to-edge i.e. no white space around the outside."
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bb6ebab7-3d11-4045-a691-142c20ab832e
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: 420dd59d-d1c9-481e-98b3-a2706347fbfa
         userCondition: null

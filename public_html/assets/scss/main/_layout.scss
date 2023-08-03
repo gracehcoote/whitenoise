@@ -40,6 +40,7 @@ main {
 .page-wrap {
 	overflow: hidden;
 	flex-grow: 1;
+	position: relative;
 }
 .page-footer {
 	flex-shrink: 0;
@@ -86,12 +87,45 @@ section {
 		padding-left: 0;
 		padding-right: 0;
 	}
+
+	padding-top: 14rem;
+	padding-bottom: 14rem;
+
+	@media #{$x-extra-large} {
+		padding-top: 12rem;
+		padding-bottom: 12rem;
+	}
+
+	@media #{$extra-large} {
+		padding-top: 10rem;
+		padding-bottom: 10rem;
+	}
+
+	@media #{$tablet-ls} {
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+	}
+
+	@media #{$bs-large} {
+		padding-top: 6rem;
+		padding-bottom: 6rem;
+	}
 }
 
 .post-block {
 	.section-container {
 		padding-top: 10rem;
 		padding-bottom: 10rem;
+
+		@media #{$tablet-ls} {
+			padding-top: 8rem;
+			padding-bottom: 8rem;
+		}
+
+		@media #{$bs-large} {
+			padding-top: 6rem;
+			padding-bottom: 6rem;
+		}
 	}
 
 	&:not(.full-width).light + .contained.light {

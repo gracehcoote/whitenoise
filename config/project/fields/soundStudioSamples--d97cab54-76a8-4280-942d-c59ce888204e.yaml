@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: a3f76f51-1422-4bfe-a045-3f06cad0c550 # Sound Studio
+handle: soundStudioSamples
+instructions: null
+name: 'Sound Studio Samples'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_soundstudiosamples}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

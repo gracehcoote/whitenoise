@@ -2,7 +2,7 @@ columnSuffix: ehovtocs
 contentColumnType: text
 fieldGroup: f8e8eec1-974e-4485-8dc8-e4cd25204baa # Common
 handle: pageTitle
-instructions: 'This only affects the H1 (main heading) of the page and will not change the URL.'
+instructions: "• If left blank the entry name will be used automatically\r\n• This only affects the H1 (main heading) of the page and will not change the URL"
 name: 'Page Title'
 searchable: false
 settings:

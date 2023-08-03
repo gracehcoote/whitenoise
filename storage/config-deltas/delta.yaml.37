@@ -1,35 +1,26 @@
-dateApplied: '2023-07-27 11:55:26'
+dateApplied: '2023-08-02 12:02:04'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690455182
-        to: 1690455326
+        from: 1690974119
+        to: 1690974123
   -
-    message: 'Save field “roleInformation”'
+    message: 'Save field “introTextRightColumn”'
     changed:
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.0.1.__assoc__.2.1:
+      fields.0499b203-3226-46f7-a942-f210773facd9.fieldGroup:
+        from: d65dd566-89fb-49fd-944c-9ebbc1cdad44
+        to: f8e8eec1-974e-4485-8dc8-e4cd25204baa
+      fields.0499b203-3226-46f7-a942-f210773facd9.settings.availableTransforms:
         from: null
         to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.2.1:
+      fields.0499b203-3226-46f7-a942-f210773facd9.settings.availableVolumes:
         from: null
         to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.1.1.__assoc__.4.1.0.__assoc__.2.1:
-        from: false
-        to: true
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.2.1.__assoc__.2.1:
+      fields.0499b203-3226-46f7-a942-f210773facd9.settings.defaultTransform:
         from: null
         to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.3.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.columns.__assoc__.4.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.0.1:
-        from: null
-        to: ''
-      fields.76814d0e-9dd5-4780-8c5f-748b9bb99a6b.settings.defaults.0.__assoc__.2.1:
+      fields.0499b203-3226-46f7-a942-f210773facd9.settings.manualConfig:
         from: null
         to: ''

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="rnib-logo" width="120px" height="50px" viewBox="0 0 125.431 53.865">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1104" data-name="Rectangle 1104" width="125.431" height="53.865" fill="#1a1a1a"></rect>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_1103" data-name="Rectangle 1103" width="124.617" height="5.134" transform="translate(0 48.731)" fill="#1a1a1a"></rect>
+  <g id="Group_178" data-name="Group 178" transform="translate(0 0)">
+    <g id="Group_177" data-name="Group 177" clip-path="url(#clip-path)">
+      <path id="Path_286" data-name="Path 286" d="M85.978,0H80.043V27.953h5.935ZM38.137,27.953h5.6V9.271L55.89,28.018h6.168V0H56.421V18.735L44.3,0H38.137Zm-26-16.2H5.671V5.12h6.607a3.323,3.323,0,1,1,.329,6.638,3.18,3.18,0,0,1-.406,0m9.128-3.491A8.352,8.352,0,0,0,13.118,0H.188V27.953H5.749V17.028h4.2l6.076,10.887h6.6l-6.9-11.637a8.663,8.663,0,0,0,5.611-8.017" transform="translate(-0.007 0)" fill="#1a1a1a"></path>
+      <path id="Path_287" data-name="Path 287" d="M113.634,22.745V15.736H119.1a5.238,5.238,0,0,1,3.453.867,3.168,3.168,0,0,1,.97,2.508,4.308,4.308,0,0,1-.232,1.474,2.6,2.6,0,0,1-.815,1.125,4.023,4.023,0,0,1-1.552.737,9.55,9.55,0,0,1-2.406.258Zm0-11.637V5.121h3.878a7.9,7.9,0,0,1,3.777.66,2.446,2.446,0,0,1,1.111,2.25,2.9,2.9,0,0,1-.867,2.262,4.807,4.807,0,0,1-3.168.789Zm-5.572,16.847h10.719a17.814,17.814,0,0,0,4.94-.672,7.576,7.576,0,0,0,5.688-7.758,7.5,7.5,0,0,0-3.969-6.465,6.817,6.817,0,0,0,2.586-5.469A7.048,7.048,0,0,0,122.479.622a16.78,16.78,0,0,0-4.4-.582H108.062Z" transform="translate(-3.989 -0.002)" fill="#1a1a1a"></path>
+    </g>
+  </g>
+</svg>

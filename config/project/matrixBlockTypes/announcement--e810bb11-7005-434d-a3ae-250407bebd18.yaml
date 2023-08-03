@@ -1,0 +1,101 @@
+field: 07cac246-2cc1-402e-ad2b-a549aac34326 # Announcement Text
+fieldLayouts:
+  3fd23197-8a29-4cc4-98f4-0d0da47d4018:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 5ae521bc-cbdd-4059-8f88-5a1e355f40ba # Announcement Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a973a8a7-3ee8-4cf2-bf5f-b111082cf42c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2f2938f0-4737-4dcb-81cd-faa0977a8a02 # Button Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1560521d-4145-45e8-87bb-a8e7e99b2417
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 7b585b6e-abf3-477c-92d5-3e647d5e3960
+        userCondition: null
+fields:
+  2f2938f0-4737-4dcb-81cd-faa0977a8a02: # Button Link
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: buttonLink
+    instructions: 'This field allows you to select any entry from within this website as a link.'
+    name: 'Button Link'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      branchLimit: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: 'Select an entry'
+      showSiteMenu: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  5ae521bc-cbdd-4059-8f88-5a1e355f40ba: # Announcement Text
+    columnSuffix: dcdyktse
+    contentColumnType: text
+    fieldGroup: null
+    handle: announcementText
+    instructions: null
+    name: 'Announcement Text'
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: Simple.json
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: announcement
+name: Announcement
+sortOrder: 1

@@ -37,7 +37,7 @@
 
 <section>
   {% if entry.textBlock or entry.whatWeOffer %}
-  <div class="section-container max-width py-5 pt-lg-10 pt-xl-12 pt-xxl-14 pb-lg-8 pb-xl-9 pb-xxl-10">
+  <div class="section-container max-width">
     <div class="row justify-content-between gy-3">
       {% if entry.textBlock %}
       <div class="col-tls-7">
@@ -68,7 +68,7 @@
     .closingDate('> now')
     .all() %}
   {% if roles %}
-    <div class="section-container max-width py-5 pt-lg-10 pt-xl-12 pt-xxl-14 pb-lg-8 pb-xl-9 pb-xxl-10">
+    <div class="section-container max-width">
       {% for role in roles %}
         <div class="shadow{% if not loop.last %} mb-2{% endif %}">
           <div class="hidden-el-toggle px-2 px-sm-4 px-md-6 px-lg-8 px-xl-10 py-2 py-md-3 py-lg-4">
@@ -78,11 +78,11 @@
           <div class="hidden-el">
             {% if role.roleInformation %}
             <div class="px-2 px-sm-4 px-md-6 px-lg-8 px-xl-10 pb-2 pb-md-3 pb-lg-4">
-              <div class="row gy-2">
+              <div class="row gy-1 gy-sm-2">
                 <div class="col-md-6">
                   {% for detail in role.roleInformation %}
                     {% if detail.position %}
-                    <div class="row gy-msm-2 mb-2">
+                    <div class="row gy-msm-1 gy-sm-2 mb-1 mb-sm-2">
                       <div class="col-msm-6">
                         <p class="title-font tw-bold">Position:</p>
                       </div><!-- end col -->
@@ -93,7 +93,7 @@
                     {% endif %}
 
                     {% if detail.location %}
-                    <div class="row gy-msm-2 mb-2">
+                    <div class="row gy-msm-1 gy-sm-2 mb-1 mb-sm-2">
                       <div class="col-msm-6">
                         <p class="title-font tw-bold">Location:</p>
                       </div><!-- end col -->
@@ -104,7 +104,7 @@
                     {% endif %}
 
                     {% if detail.salary %}
-                    <div class="row gy-msm-2">
+                    <div class="row gy-msm-1 gy-sm-2">
                       <div class="col-msm-6">
                         <p class="title-font tw-bold">Salary:</p>
                       </div><!-- end col -->
@@ -119,7 +119,7 @@
                 <div class="col-md-6">
                   {% for detail in role.roleInformation %}
                     {% if detail.employmentType %}
-                    <div class="row mb-2">
+                    <div class="row gy-msm-1 gy-sm-2 mb-1 mb-sm-2">
                       <div class="col-msm-6">
                         <p class="title-font tw-bold">Employment:</p>
                       </div><!-- end col -->
@@ -130,7 +130,7 @@
                     {% endif %}
                   {% endfor %}
 
-                  <div class="row gy-msm-2 mb-2">
+                  <div class="row gy-msm-1 gy-sm-2 mb-1 mb-sm-2">
                     <div class="col-msm-6">
                       <p class="title-font tw-bold">Date posted:</p>
                     </div><!-- end col -->
@@ -140,7 +140,7 @@
                     </div>  <!-- end col -->
                   </div><!-- end row -->
                   
-                  <div class="row gy-msm-2 mb-2">
+                  <div class="row gy-msm-1 gy-sm-2">
                     <div class="col-msm-6">
                       <p class="title-font tw-bold">Closing date:</p>
                     </div><!-- end col -->
@@ -278,7 +278,7 @@
       {% endfor %}
     </div><!-- end section-container -->
   {% else %}
-  <div class="section-container max-width py-5 pt-lg-10 pt-xl-12 pt-xxl-14 pb-lg-8 pb-xl-9 pb-xxl-10">
+  <div class="section-container max-width">
     <div class="shadow p-4">
       <p class="text-center">We have no roles available at present, but check back soon for updates.</p>
     </div>
@@ -286,7 +286,7 @@
   {% endif %}
 
   {% if entry.equalOpportunities %}
-  <div class="section-container max-width py-5 pt-lg-10 pt-xl-12 pt-xxl-14 pb-lg-8 pb-xl-9 pb-xxl-10">
+  <div class="section-container max-width">
     <p><strong>Equal Opportunities Employer</strong></p>
     {{ entry.equalOpportunities }}
   </div><!-- end section-container -->

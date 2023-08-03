@@ -36,17 +36,22 @@
 </section>
 
 <section>
-  <div class="section-container x-narrow py-5 pt-lg-10 pt-xl-12 pt-xxl-14 pb-lg-8 pb-xl-9 pb-xxl-10">
+  <div class="section-container x-narrow">
+    {% if entry.introTextLeftColumn or entry.introTextRightColumn %}
     <div class="row justify-content-between">
-      <div class="col-tls-7">
-        <h2>Built on collaboration and an integrated approach, our structure is unique.</h2>
+      {% if entry.introTextLeftColumn %}
+      <div class="col-tls-8 col-xl-7">
+        {{ entry.introTextLeftColumn }}
       </div><!-- end col -->
+      {% endif %}
 
+      {% if entry.introTextRightColumn %}
       <div class="col-tls-4 ps-tls-3">
-        <p><strong>With all our services under one roof, our creative teams deliver tangible synergies and cost benefits to our clients.</strong></p>
-        <p>Our work has been recognised 28 times by the IDI, Ireland's leading design awards body, with awards including Grand Prix, Design Excellence and Gold awards. Glass and Steel bookends, representing of the outstanding quality of our work and critical acclaim across Ireland and Europe.</p>
+        {{ entry.introTextRightColumn }}
       </div><!-- end col -->
+      {% endif %}
     </div><!-- end row -->
+    {% endif %}
 
     <div class="d-flex align-items-center mt-4">
       <p class="mb-0 me-1"><strong>Weekend mode</strong></p>
@@ -57,6 +62,8 @@
       </label>
     </div>
   </div><!-- end section-container -->
+  
+  <div id="confetti"></div>
 </section>
 
 {% set team = entry.team.all() %}
@@ -104,15 +111,41 @@
 {% endblock %}
 
 {% block javascript %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.14/lottie.min.js"></script>
 <script>
   $(document).ready(function(){
+    let container = document.getElementById("confetti");
+    let animation;
+    let animationCompleted = true;
+
+    animation = lottie.loadAnimation({
+      container: container,
+      renderer: 'svg',
+      loop: false,
+      autoplay: false,
+      path: 'https://lottie.host/af2bf277-3e9d-4b11-becc-f7f4ef8869ac/SAbVt8Jb7O.json'
+    });
+
+    $('#confetti').hide();
+    
     $('#weekend-mode').change(function() {
         if(this.checked) {
           $('.toggle-display').fadeToggle().toggleClass('d-none');
-          $('.toggle-opacity').toggleClass('opacity-0 opacity-1');
+          $('.toggle-opacity').toggleClass('opacity-0 opacity-1 ');
+          $('#confetti').show();
+          if (animationCompleted) {
+            animation.goToAndPlay(0, true);    
+            animationCompleted = false;
+          }
+          animation.addEventListener("complete", () => {
+            animationCompleted = true;
+            $('#confetti').hide();
+          });
         } else {
           $('.toggle-display').fadeToggle().toggleClass('d-none');
           $('.toggle-opacity').toggleClass('opacity-1 opacity-0');
+          animationCompleted = true;
+          $('#confetti').hide();
         }
     });
   });

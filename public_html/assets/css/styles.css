@@ -129,6 +129,7 @@ main {
 .page-wrap {
   overflow: hidden;
   flex-grow: 1;
+  position: relative;
 }
 
 .page-footer {
@@ -145,6 +146,8 @@ section {
   position: relative;
   margin: 0 auto;
   width: 85%;
+  padding-top: 14rem;
+  padding-bottom: 14rem;
 }
 .section-container + .section-container {
   padding-top: 0 !important;
@@ -169,10 +172,46 @@ section {
   padding-left: 0;
   padding-right: 0;
 }
+@media only screen and (max-width: 1300px) {
+  .section-container {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .section-container {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .section-container {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .section-container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
 
 .post-block .section-container {
   padding-top: 10rem;
   padding-bottom: 10rem;
+}
+@media only screen and (max-width: 1024px) {
+  .post-block .section-container {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .post-block .section-container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
 }
 .post-block:not(.full-width).light + .contained.light .section-container {
   padding-top: 0;
@@ -601,6 +640,12 @@ h5 strong {
   font-weight: 900;
 }
 
+h6 {
+  font-family: "Jeko", "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+}
+
 blockquote {
   margin: 3rem 0;
 }
@@ -670,8 +715,11 @@ footer p.small,
 footer p small {
   font-size: 12px;
 }
-p .x-small {
+p.x-small {
   font-size: 12px;
+}
+p.title-font {
+  font-family: "Jeko", "Poppins", Arial, Helvetica, sans-serif;
 }
 p a {
   color: #1A1A1A;
@@ -819,6 +867,7 @@ ALERT STYLES
 .alert {
   padding: 2rem;
   border: 2px solid;
+  border-radius: 6px;
 }
 .alert .alert-title {
   font-weight: 700;
@@ -888,7 +937,11 @@ button {
   font-weight: 900;
   font-size: 16px;
   padding: 0.75rem 1.5rem;
-  transition: all 1s;
+  transition: all 0.5s;
+}
+.btn.btn-sm {
+  padding: 0.35rem 1rem;
+  font-size: 14px;
 }
 .btn:not(.btn-outline) {
   box-shadow: inset 0px 0px 0px 0px #FFCD00;
@@ -1057,7 +1110,7 @@ label.form-check-label {
   margin: 0;
 }
 label.large {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 0.5rem;
 }
 
@@ -1073,7 +1126,7 @@ label.large {
 [class*=" ff-fieldtype-"] .tooltip-icon {
   position: absolute;
   top: 10px;
-  left: -25px;
+  left: -10px;
 }
 
 .form-check .form-check-input {
@@ -1420,7 +1473,56 @@ hr.small {
 }
 
 .modal-backdrop {
-  opacity: 0.7;
+  opacity: 0.7 !important;
+}
+
+#announcement-bar {
+  display: none;
+}
+
+#confetti {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.play-button {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 40px;
+  height: 40px;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 3px solid #fff;
+  margin-top: 0;
+  margin-left: 0;
+  transform: translate(-50%, -50%);
+  font-size: inherit;
+  transition: all 0.3s;
+}
+.play-button:before {
+  position: static;
+  font-family: "Material Icons Outlined";
+  content: "\e037";
+  color: #fff;
+  font-size: 30px;
+  transition: all 0.3s;
+}
+.play-button.active:before {
+  content: "\e034";
+}
+.play-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #FFCD00;
+  transition: all 0.3s;
+}
+.play-button:hover:before {
+  color: #FFCD00;
 }
 
 /* Craft CMS Styles */
@@ -1434,6 +1536,10 @@ TABLE STYLES
 /************
 SLIDER STYLES
 ************/
+.splide__list {
+  align-items: center;
+}
+
 .splide__arrows {
   margin: 0 -5px;
   width: 100%;
@@ -1493,8 +1599,8 @@ SLIDER STYLES
   border: 0;
   border-radius: 50%;
   display: inline-block;
-  width: 8px;
-  height: 8px;
+  width: 12px;
+  height: 12px;
   margin: 0 0.25rem;
   padding: 0;
   position: relative;

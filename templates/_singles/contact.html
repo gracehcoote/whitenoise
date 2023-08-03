@@ -38,7 +38,7 @@
 {% set locations = siteInfo.locations.all() %}
 {% if locations %}
 <section>
-  <div class="section-container max-width py-5 pt-lg-10 pt-xl-12 pt-xxl-14 pb-lg-8 pb-xl-9 pb-xxl-10">
+  <div class="section-container max-width">
     <div class="row gy-4 justify-content-between">
       {% for location in locations %}
       {% set thumbnail = location.thumbnail.one() %}
@@ -80,9 +80,9 @@
     </div><!-- end row -->
   </div><!-- end section-container -->
 
-  <div class="section-container max-width py-5 pt-lg-10 pt-xl-12 pt-xxl-14 pb-lg-8 pb-xl-9 pb-xxl-10">
+  <div class="section-container max-width">
     <div class="shadow p-4">
-      <h2 class="text-center mb-4">Get in touch</h2>
+      <h2 class="medium text-center mb-4">Get in touch</h2>
       {{ craft.freeform.form("generalContact").render() }}
     </div>
   </div>

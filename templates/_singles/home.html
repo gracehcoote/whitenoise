@@ -11,7 +11,6 @@
 {% endblock %}
 
 {% block main %}
-
 {% set heroImage = entry.heroImage.one() %}
 {% set heroVideoClip = entry.heroVideoClip.one() %}
 {% set heroVideoFullLength = entry.heroVideoFullLength.one() %}
@@ -65,38 +64,41 @@
 </section>
 
 {# if heroVideoFullLength #}
-  <div class="modal fade" id="video-modal" tabindex="-1" aria-labelledby="Video modal" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-xl">
-      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      
-      <div class="modal-content">
-        <video id="full-video" controls>
-          <source src="{{ heroVideoFullLength.url }}" type="video/mp4">
-          {% if heroVideoFullLength.webmFile %}
-          <source src="{{ heroVideoFullLength.webmFile }}" type="video/webm">
-          {% endif %}
-        </video>
-      </div>
+<div class="modal fade" id="video-modal" tabindex="-1" aria-labelledby="Video modal" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+    <div class="modal-content">
+      <video id="full-video" controls>
+        <source src="{{ heroVideoFullLength.url }}" type="video/mp4">
+        {% if heroVideoFullLength.webmFile %}
+        <source src="{{ heroVideoFullLength.webmFile }}" type="video/webm">
+        {% endif %}
+      </video>
     </div>
-  </div><!-- end modal -->
-  {# endif #}
+  </div>
+</div><!-- end modal -->
+{# endif #}
 
+{% if entry.introTextLeftColumn or entry.introTextRightColumn %}
 <section>
-  <div class="section-container max-width-wide py-5 py-lg-10 py-xl-12 py-xxl-14">
+  <div class="section-container max-width-wide">
     <div class="row justify-content-between">
+      {% if entry.introTextLeftColumn %}
       <div class="col-tls-7">
-        <h2>We are a multi award winning agency delivering across all platforms.</h2>
+        {{ entry.introTextLeftColumn }}
       </div><!-- end col -->
+      {% endif %}
 
+      {% if entry.introTextRightColumn %}
       <div class="col-tls-4 ps-tls-3">
-        <p><strong>We create stories that sell brands, businesses and ideas. Always on, everywhere.</strong></p>
-        <p>We're not just selling, we're telling your story. We are carrying your signal and amplifying your message. We are Whitenoise.</p>
-
-        <a class="btn-link mt-3" href="">Learn more</a>
+        {{ entry.introTextRightColumn }}
       </div><!-- end col -->
+      {% endif %}
     </div><!-- end row -->
   </div><!-- end section-container -->
 </section>
+{% endif %}
 
 {% set projects = entry.selectedProjects.all() %}
 {% if projects %}
@@ -145,7 +147,7 @@
     {% else %}
     
     <!-- REMAINING PROJECTS - max 4, determine col size by number -->
-    <div class="col-lg-6">
+    <div class="{% if loop.length == 5 or loop.length == 3 %}col-xl-6{% else %}col-xl-4{% endif %}">
       <div class="work-item">
         <a href="{{ project.url }}">
           <div class="text-container p-2 p-sm-3 px-lg-4 py-lg-3 p-xl-5 d-flex justify-content-start align-items-end">
@@ -188,37 +190,73 @@
 </section>
 {% endif %}
 
+{% set clientLogos = entry.clientLogos.all() %}
+{% if clientLogos %}
 <section class="py-7 py-lg-10 py-xl-12 py-xxl-14">
-  <div class="section-container x-narrow py-0">
+  <div class="section-container x-narrow p-0">
     <h4 class="text-center mb-7">We are proud to work with</h4>
   </div><!-- end section-container -->
 
-  <div class="splide splide-rtl mb-4" aria-label="Partner logos slider">
-    <div class="splide__track">
-      <ul class="splide__list">
-        <li class="splide__slide px-2"><img src="{{ siteUrl }}assets/images/translink-logo.svg" alt=""></li>
-        <li class="splide__slide px-2"><img src="{{ siteUrl }}assets/images/rnib-logo.svg" alt=""></li>
-        <li class="splide__slide px-2"><img src="{{ siteUrl }}assets/images/uu-logo.svg" alt=""></li>
-        <li class="splide__slide px-2"><img src="{{ siteUrl }}assets/images/moy-park-logo.svg" alt=""></li>
-        <li class="splide__slide px-2"><img src="{{ siteUrl }}assets/images/kainos-logo.svg" alt=""></li>
-        <li class="splide__slide px-2"><img src="{{ siteUrl }}assets/images/ulster-orchestra-logo.svg" alt=""></li>
-      </ul>
-    </div>
-  </div><!-- end splide -->
-
-  <div class="splide splide-ltr" aria-label="Partner logos slider">
-    <div class="splide__track">
-      <ul class="splide__list">
-        <li class="splide__slide px-2"><img src="{{ siteUrl }}assets/images/translink-logo.svg" alt=""></li>
-        <li class="splide__slide px-2"><img src="{{ siteUrl }}assets/images/rnib-logo.svg" alt=""></li>
-        <li class="splide__slide px-2"><img src="{{ siteUrl }}assets/images/uu-logo.svg" alt=""></li>
-        <li class="splide__slide px-2"><img src="{{ siteUrl }}assets/images/moy-park-logo.svg" alt=""></li>
-        <li class="splide__slide px-2"><img src="{{ siteUrl }}assets/images/kainos-logo.svg" alt=""></li>
-        <li class="splide__slide px-2"><img src="{{ siteUrl }}assets/images/ulster-orchestra-logo.svg" alt=""></li>
-      </ul>
-    </div>
-  </div><!-- end splide -->
+  {% if clientLogos|length > 9 %}
+    {% set firstHalfEnd = clientLogos|length / 2 %}
+    {% set secondHalfStart = firstHalfEnd %}
+    {% set last = clientLogos|length %}
+    <div class="splide splide-rtl pb-4" aria-label="Partner logos slider">
+      <div class="splide__track">
+        <ul class="splide__list">
+          {% for logo in clientLogos|slice(0, firstHalfEnd) %}
+          <li class="splide__slide px-2">
+            {% if logo.assetLink %}
+            <a href="{{ logo.assetLink }}" target="_blank">
+              <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+            </a>
+            {% else %}
+            <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div><!-- end splide -->
+    
+    <div class="splide splide-ltr pt-4" aria-label="Partner logos slider">
+      <div class="splide__track">
+        <ul class="splide__list">
+          {% for logo in clientLogos|slice(secondHalfStart, last) %}
+          <li class="splide__slide px-2">
+            {% if logo.assetLink %}
+            <a href="{{ logo.assetLink }}" target="_blank">
+              <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+            </a>
+            {% else %}
+            <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div><!-- end splide -->
+  {% else %}
+    <div class="splide splide-ltr" aria-label="Partner logos slider">
+      <div class="splide__track">
+        <ul class="splide__list">
+          {% for logo in clientLogos %}
+          <li class="splide__slide px-2">
+            {% if logo.assetLink %}
+            <a href="{{ logo.assetLink }}" target="_blank">
+              <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+            </a>
+            {% else %}
+            <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div><!-- end splide -->
+  {% endif %}
 </section>
+{% endif %}
 {% endblock %}
 
 {% block javascript %}
@@ -232,9 +270,9 @@
   });
 </script>
 
-<script src="{{ siteUrl }}assets/js/splide.min.js"></script>
 <script src="{{ siteUrl }}assets/js/splide-extension-auto-scroll.min.js"></script>
 <script>
+if($('.splide-rtl').length > 0) {
   new Splide('.splide-rtl', {
     type   : 'loop',
     perPage: 5,
@@ -249,7 +287,9 @@
     arrows: false,
     pagination: false,
   }).mount( window.splide.Extensions );
+}
 
+if($('.splide-ltr').length > 0) {
   new Splide('.splide-ltr', {
     type   : 'loop',
     perPage: 5,
@@ -267,5 +307,6 @@
       speed: -1,
     },
   }).mount( window.splide.Extensions );
+}
 </script>
 {% endblock %}

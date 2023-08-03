@@ -1,0 +1,60 @@
+fieldLayouts:
+  9b2277fa-a181-4088-8bcb-1e0c16ced4a2:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: c44907e5-f9e0-4eb8-87d9-e7c95124a04c # Announcement Bar Active
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8c0b6ed8-427f-4167-99fa-f6e47ebfb0c5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 07cac246-2cc1-402e-ad2b-a549aac34326 # Announcement Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c0799d21-5c9e-4832-b633-7c10463ad1ee
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6abb5b38-832a-4c70-8416-58b01e988618 # Announcement Button Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 749ded82-32cd-4d83-a393-9e1a829de6d1
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 8a79ebaa-bbbe-44fa-af12-dc55acafcf31 # Announcement Button Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 56a4b97c-b08f-4643-9806-30393cf28242
+            userCondition: null
+            warning: null
+            width: 50
+        name: Announcements
+        uid: 5f04dc70-1ec8-41d2-bc02-c35d91f5e6c6
+        userCondition: null
+handle: announcements
+name: Announcements
+sortOrder: 2

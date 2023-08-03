@@ -170,7 +170,9 @@ h5 {
 }
 
 h6 {
-
+  font-family: $title-font;
+  font-size: 16px;
+  font-weight: 800;
 }
 
 blockquote {
@@ -241,8 +243,12 @@ p {
     }
   }
 
-  .x-small {
+  &.x-small {
     font-size: 12px;
+  }
+
+  &.title-font {
+    font-family: $title-font;
   }
 
   a {

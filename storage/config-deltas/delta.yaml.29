@@ -1,21 +1,17 @@
-dateApplied: '2023-07-27 15:31:33'
+dateApplied: '2023-08-02 12:06:12'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690468187
-        to: 1690468293
+        from: 1690974349
+        to: 1690974372
   -
-    added:
-      elementSources.craft\elements\Entry.6.defaultSort.0: structure
-      elementSources.craft\elements\Entry.6.defaultSort.1: asc
-      elementSources.craft\elements\Entry.6.disabled: false
-      elementSources.craft\elements\Entry.6.tableAttributes.0: postDate
-      elementSources.craft\elements\Entry.6.tableAttributes.1: expiryDate
-      elementSources.craft\elements\Entry.6.tableAttributes.2: link
-      elementSources.craft\elements\Entry.6.tableAttributes.3: slug
+    message: 'Save field “images”'
     changed:
-      elementSources.craft\elements\Entry.3.heading:
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.instructions:
         from: null
-        to: ''
+        to: 'Selecting more than one image will generate an image slideshow.'
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.showSiteMenu:
+        from: false
+        to: true

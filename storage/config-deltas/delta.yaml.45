@@ -1,17 +1,40 @@
-dateApplied: '2023-07-27 11:32:40'
+dateApplied: '2023-08-01 14:53:02'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690453844
-        to: 1690453960
+        from: 1690897956
+        to: 1690897982
   -
-    message: 'Save entry type “role”'
+    added:
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.1.elementCondition: null
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.1.fieldUid: 07cac246-2cc1-402e-ad2b-a549aac34326
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.1.instructions: null
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.1.label: null
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.1.required: false
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.1.tip: null
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.1.type: craft\fieldlayoutelements\CustomField
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.1.uid: c0799d21-5c9e-4832-b633-7c10463ad1ee
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.1.userCondition: null
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.1.warning: null
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.1.width: 100
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.2.elementCondition: null
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.2.fieldUid: 6abb5b38-832a-4c70-8416-58b01e988618
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.2.instructions: null
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.2.label: null
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.2.required: false
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.2.tip: null
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.2.type: craft\fieldlayoutelements\CustomField
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.2.uid: 749ded82-32cd-4d83-a393-9e1a829de6d1
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.2.userCondition: null
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.2.warning: null
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.2.width: 100
+    message: 'Save global set “announcements”'
     changed:
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.fieldUid:
-        from: 2fb3dcfb-de61-404d-a714-a5cc5585bc1d
-        to: e04fa217-fc47-4d88-a1a5-9c4161a82be9
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.3.uid:
-        from: 1687c594-7eda-4b92-af09-aff3337bf40f
-        to: 3e04cb22-a752-4339-bc89-b475244620ae
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.0.fieldUid:
+        from: 07cac246-2cc1-402e-ad2b-a549aac34326
+        to: c44907e5-f9e0-4eb8-87d9-e7c95124a04c
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.0.uid:
+        from: c0799d21-5c9e-4832-b633-7c10463ad1ee
+        to: 8c0b6ed8-427f-4167-99fa-f6e47ebfb0c5

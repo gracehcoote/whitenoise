@@ -1,25 +1,56 @@
-dateApplied: '2023-07-31 14:53:35'
+dateApplied: '2023-08-02 12:10:12'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690805575
-        to: 1690811615
+        from: 1690974465
+        to: 1690974612
   -
-    changed:
-      elementSources.craft\elements\Entry.3.heading:
-        from: null
-        to: ''
-      elementSources.craft\elements\Entry.6.tableAttributes.0:
-        from: postDate
-        to: slug
-      elementSources.craft\elements\Entry.6.tableAttributes.1:
-        from: expiryDate
-        to: dateCreated
-      elementSources.craft\elements\Entry.6.tableAttributes.2:
-        from: link
-        to: 'field:82174415-6789-4d3d-8ab3-c711895906c0'
-      elementSources.craft\elements\Entry.6.tableAttributes.3:
-        from: slug
-        to: link
+    added:
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.columnSuffix: eirnwric
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.contentColumnType: text
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.fieldGroup: a3f76f51-1422-4bfe-a045-3f06cad0c550
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.handle: soundStudioService
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.instructions: null
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.name: 'Sound Studio Service'
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.searchable: false
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.addRowLabel: 'Add a service'
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columnType: text
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.0.0: col1
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.0.1.__assoc__.0.0: heading
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.0.1.__assoc__.0.1: 'Service Name'
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.0.1.__assoc__.1.0: handle
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.0.1.__assoc__.1.1: serviceName
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.0.1.__assoc__.2.0: width
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.0.1.__assoc__.2.1: 25%
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.0.1.__assoc__.3.0: type
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.0.1.__assoc__.3.1: singleline
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.1.0: col2
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.1.1.__assoc__.0.0: heading
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.1.1.__assoc__.0.1: 'Pricing (per hour ex VAT)'
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.1.1.__assoc__.1.0: handle
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.1.1.__assoc__.1.1: pricing
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.1.1.__assoc__.2.0: width
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.1.1.__assoc__.2.1: ''
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.1.1.__assoc__.3.0: type
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.1.1.__assoc__.3.1: singleline
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.2.0: col3
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.2.1.__assoc__.0.0: heading
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.2.1.__assoc__.0.1: 'Service Description'
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.2.1.__assoc__.1.0: handle
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.2.1.__assoc__.1.1: serviceDescription
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.2.1.__assoc__.2.0: width
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.2.1.__assoc__.2.1: 60%
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.2.1.__assoc__.3.0: type
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.2.1.__assoc__.3.1: singleline
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.defaults: null
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.maxRows: null
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.minRows: null
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.translationKeyFormat: null
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.translationMethod: none
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.type: craft\fields\Table
+    message: 'Save field “soundStudioService”'
+  -
+    added:
+      meta.__names__.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac: 'Sound Studio Service'

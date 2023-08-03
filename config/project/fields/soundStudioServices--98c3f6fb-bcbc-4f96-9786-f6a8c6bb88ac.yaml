@@ -1,0 +1,77 @@
+columnSuffix: eirnwric
+contentColumnType: text
+fieldGroup: a3f76f51-1422-4bfe-a045-3f06cad0c550 # Sound Studio
+handle: soundStudioServices
+instructions: null
+name: 'Sound Studio Services'
+searchable: false
+settings:
+  addRowLabel: 'Add a service'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Service Name'
+            -
+              - handle
+              - serviceName
+            -
+              - width
+              - 25%
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Pricing (per hour ex VAT)'
+            -
+              - handle
+              - pricing
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col3
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Service Description'
+            -
+              - handle
+              - serviceDescription
+            -
+              - width
+              - 60%
+            -
+              - type
+              - multiline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+        -
+          - col2
+          - £
+        -
+          - col3
+          - ''
+  maxRows: null
+  minRows: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

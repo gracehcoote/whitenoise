@@ -1,29 +1,32 @@
-dateApplied: '2023-07-27 11:35:39'
+dateApplied: '2023-08-01 14:54:33'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690454121
-        to: 1690454139
+        from: 1690898019
+        to: 1690898069
   -
-    message: 'Save entry type “role”'
-    changed:
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.fieldUid:
-        from: 76814d0e-9dd5-4780-8c5f-748b9bb99a6b
-        to: 82174415-6789-4d3d-8ab3-c711895906c0
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.uid:
-        from: 2e91a563-8419-40ab-bf67-063ee316aeb9
-        to: 9a7a4e8d-5582-416c-8714-1302f906bb46
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.1.width:
-        from: 75
-        to: 100
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.fieldUid:
-        from: 82174415-6789-4d3d-8ab3-c711895906c0
-        to: 76814d0e-9dd5-4780-8c5f-748b9bb99a6b
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.uid:
-        from: 9a7a4e8d-5582-416c-8714-1302f906bb46
-        to: 2e91a563-8419-40ab-bf67-063ee316aeb9
-      entryTypes.be41176d-9fe8-4346-8170-97f65eb090d1.fieldLayouts.2bff6510-8d69-47d0-bbcb-788d28a0882a.tabs.0.elements.2.width:
-        from: 25
-        to: 100
+    added:
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.columnSuffix: mqdfcsvp
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.contentColumnType: string(200)
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.handle: announcementButtonText
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.instructions: 'Enter the text you''d like the button to show.'
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.name: 'Announcement Button Text'
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.searchable: false
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.byteLimit: null
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.charLimit: 50
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.code: false
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.columnType: null
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.initialRows: 4
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.multiline: false
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.placeholder: null
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.uiMode: normal
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.translationKeyFormat: null
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.translationMethod: none
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.type: craft\fields\PlainText
+    message: 'Save field “announcementButtonText”'
+  -
+    added:
+      meta.__names__.8a79ebaa-bbbe-44fa-af12-dc55acafcf31: 'Announcement Button Text'

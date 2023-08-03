@@ -82,25 +82,26 @@
   color: #1A1A1A;
   background-color: #fff;
 }
-:root .redactor-styles a.btn.btn-outline {
+:root .redactor-styles a.btn:hover {
+  box-shadow: inset 0px 0px 0px 200px #FFCD00;
+}
+
+:root .redactor-styles a.btn-outline {
   background-color: transparent;
   box-shadow: inset 0px 0px 0px 2px #1A1A1A;
   color: #1A1A1A;
 }
-:root .redactor-styles a.btn.btn-outline:hover {
+:root .redactor-styles a.btn-outline:hover {
   box-shadow: inset 0px 0px 0px 100px #1A1A1A;
   color: #fff;
 }
-.dark :root .redactor-styles a.btn.btn-outline {
+.dark :root .redactor-styles a.btn-outline {
   box-shadow: inset 0px 0px 0px 2px #fff;
   color: #fff;
 }
-.dark :root .redactor-styles a.btn.btn-outline:hover {
+.dark :root .redactor-styles a.btn-outline:hover {
   box-shadow: inset 0px 0px 0px 100px #fff;
   color: #1A1A1A;
-}
-:root .redactor-styles a.btn:hover {
-  box-shadow: inset 0px 0px 0px 200px #FFCD00;
 }
 
 /*# sourceMappingURL=custom.css.map */

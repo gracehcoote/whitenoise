@@ -16,7 +16,7 @@
     <h1>{{ entry.pageTitle ?? entry.title }}</h1>
   </div><!-- end section-container -->
 
-  <div class="section-container max-width py-5">
+  <div class="section-container max-width">
     {% set articles = craft.entries().section('newsroomArticles').limit(6) %}
 
     {{ sprig('_components/search') }}
