@@ -1,14 +1,17 @@
-dateApplied: '2023-08-01 14:54:50'
+dateApplied: '2023-08-02 12:04:56'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690898069
-        to: 1690898090
+        from: 1690974287
+        to: 1690974296
   -
-    message: 'Save field “announcementButtonText”'
+    message: 'Save field “clientLogos”'
     changed:
-      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.instructions:
-        from: 'Enter the text you''d like the button to show.'
-        to: 'Enter the text you''d like the button to show e.g. "View Careers"'
+      fields.c716f0ad-a801-4104-bfa5-e8269e480d7e.fieldGroup:
+        from: d65dd566-89fb-49fd-944c-9ebbc1cdad44
+        to: f8e8eec1-974e-4485-8dc8-e4cd25204baa
+      fields.c716f0ad-a801-4104-bfa5-e8269e480d7e.settings.showSiteMenu:
+        from: false
+        to: true

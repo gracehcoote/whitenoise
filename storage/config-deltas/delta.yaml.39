@@ -1,26 +1,55 @@
-dateApplied: '2023-08-01 14:55:19'
+dateApplied: '2023-08-02 12:05:49'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690898090
-        to: 1690898119
+        from: 1690974296
+        to: 1690974349
   -
     added:
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.elementCondition: null
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.fieldUid: 8a79ebaa-bbbe-44fa-af12-dc55acafcf31
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.instructions: null
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.label: null
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.required: false
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.tip: null
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.type: craft\fieldlayoutelements\CustomField
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.uid: 56a4b97c-b08f-4643-9806-30393cf28242
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.userCondition: null
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.warning: null
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.width: 50
-    message: 'Save global set “announcements”'
-    changed:
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.2.width:
-        from: 100
-        to: 50
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.columnSuffix: null
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.contentColumnType: string
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.fieldGroup: f8e8eec1-974e-4485-8dc8-e4cd25204baa
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.handle: images
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.instructions: null
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.name: Images
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.searchable: false
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.allowSelfRelations: false
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.allowSubfolders: false
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.allowUploads: true
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.allowedKinds.0: image
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.branchLimit: null
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.defaultUploadLocationSource: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.defaultUploadLocationSubpath: null
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.localizeRelations: false
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.maintainHierarchy: false
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.maxRelations: null
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.minRelations: null
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.previewMode: full
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.restrictFiles: true
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.restrictLocation: true
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.restrictedDefaultUploadSubpath: null
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.restrictedLocationSource: 'volume:88345c9b-bba7-481d-b7be-a56f256bad79'
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.restrictedLocationSubpath: null
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.selectionCondition.__assoc__.0.0: elementType
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.selectionCondition.__assoc__.0.1: craft\elements\Asset
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.selectionCondition.__assoc__.1.0: fieldContext
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.selectionCondition.__assoc__.1.1: global
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.selectionCondition.__assoc__.2.0: class
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.selectionCondition.__assoc__.2.1: craft\elements\conditions\assets\AssetCondition
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.selectionLabel: 'Select an image'
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.showSiteMenu: false
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.showUnpermittedFiles: false
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.showUnpermittedVolumes: false
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.sources: '*'
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.targetSiteId: null
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.validateRelatedElements: false
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.viewMode: large
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.translationKeyFormat: null
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.translationMethod: site
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.type: craft\fields\Assets
+    message: 'Save field “images”'
+  -
+    added:
+      meta.__names__.c5d8b915-06eb-42e2-b071-c4543ee06156: Images

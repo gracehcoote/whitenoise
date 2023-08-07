@@ -1,0 +1,19 @@
+columnSuffix: wjuwdkwa
+contentColumnType: text
+fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2 # Globals
+handle: errorTitle
+instructions: 'If left blank, this will say "Page not found"'
+name: '404 Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

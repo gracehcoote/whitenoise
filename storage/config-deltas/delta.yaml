@@ -1,17 +1,14 @@
-dateApplied: '2023-08-03 12:12:50'
+dateApplied: '2023-08-04 14:25:16'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1691061151
-        to: 1691061170
+        from: 1691155455
+        to: 1691155516
   -
-    message: 'Save section “pages”'
+    message: 'Save field “errorTitle”'
     changed:
-      sections.e5f1c294-aa5c-4406-a9a3-d5a067e2efc0.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.template:
-        from: pages/_entry
-        to: _pages/_entry.html
-      sections.e5f1c294-aa5c-4406-a9a3-d5a067e2efc0.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.uriFormat:
-        from: '{slug}'
-        to: '{parent.uri}/{slug}'
+      fields.27380490-0137-4d35-9b9f-cecc8d83b599.instructions:
+        from: null
+        to: 'If left blank, this will say "Page not found"'

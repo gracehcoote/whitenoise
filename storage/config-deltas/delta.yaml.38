@@ -1,26 +1,55 @@
-dateApplied: '2023-08-02 12:01:59'
+dateApplied: '2023-08-02 12:05:53'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690898119
-        to: 1690974119
+        from: 1690974296
+        to: 1690974349
   -
-    message: 'Save field “introTextLeftColumn”'
-    changed:
-      fields.46d39a5a-5a05-4341-800c-fec3d516f08c.fieldGroup:
-        from: d65dd566-89fb-49fd-944c-9ebbc1cdad44
-        to: f8e8eec1-974e-4485-8dc8-e4cd25204baa
-      fields.46d39a5a-5a05-4341-800c-fec3d516f08c.settings.availableTransforms:
-        from: null
-        to: ''
-      fields.46d39a5a-5a05-4341-800c-fec3d516f08c.settings.availableVolumes:
-        from: null
-        to: ''
-      fields.46d39a5a-5a05-4341-800c-fec3d516f08c.settings.defaultTransform:
-        from: null
-        to: ''
-      fields.46d39a5a-5a05-4341-800c-fec3d516f08c.settings.manualConfig:
-        from: null
-        to: ''
+    added:
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.columnSuffix: null
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.contentColumnType: string
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.fieldGroup: f8e8eec1-974e-4485-8dc8-e4cd25204baa
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.handle: images
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.instructions: null
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.name: Images
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.searchable: false
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.allowSelfRelations: false
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.allowSubfolders: false
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.allowUploads: true
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.allowedKinds.0: image
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.branchLimit: null
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.defaultUploadLocationSource: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.defaultUploadLocationSubpath: null
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.localizeRelations: false
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.maintainHierarchy: false
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.maxRelations: null
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.minRelations: null
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.previewMode: full
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.restrictFiles: true
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.restrictLocation: true
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.restrictedDefaultUploadSubpath: null
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.restrictedLocationSource: 'volume:88345c9b-bba7-481d-b7be-a56f256bad79'
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.restrictedLocationSubpath: null
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.selectionCondition.__assoc__.0.0: elementType
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.selectionCondition.__assoc__.0.1: craft\elements\Asset
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.selectionCondition.__assoc__.1.0: fieldContext
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.selectionCondition.__assoc__.1.1: global
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.selectionCondition.__assoc__.2.0: class
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.selectionCondition.__assoc__.2.1: craft\elements\conditions\assets\AssetCondition
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.selectionLabel: 'Select an image'
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.showSiteMenu: false
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.showUnpermittedFiles: false
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.showUnpermittedVolumes: false
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.sources: '*'
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.targetSiteId: null
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.validateRelatedElements: false
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.viewMode: large
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.translationKeyFormat: null
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.translationMethod: site
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.type: craft\fields\Assets
+    message: 'Save field “images”'
+  -
+    added:
+      meta.__names__.c5d8b915-06eb-42e2-b071-c4543ee06156: Images

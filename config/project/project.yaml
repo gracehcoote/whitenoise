@@ -1,4 +1,4 @@
-dateModified: 1691061170
+dateModified: 1691155516
 elementSources:
   craft\elements\Entry:
     -
@@ -208,6 +208,7 @@ meta:
     377e4815-2d50-4422-8079-ef03bd4ea6a9: Category # Category
     414f3452-9ee4-403d-b4ad-dd18bb777fb3: 'Team Member Image (weekday)' # Team Member Image (weekday)
     446caed5-74b5-4b17-97ec-85a832af00a7: 'Equal Opportunities' # Equal Opportunities
+    450dfced-188f-40e6-a65d-d8e0d5ef3c6f: Settings # Settings
     463bfb9d-3f36-49ce-b8cc-485d9e11122d: 'Embed code' # Embed code
     0499b203-3226-46f7-a942-f210773facd9: 'Intro Text (Right Column)' # Intro Text (Right Column)
     537e669b-1f9a-48d9-b740-bf2920a1f4b5: Project # Project
@@ -247,6 +248,7 @@ meta:
     644298b5-241e-43a3-aeb7-1eded764aeea: Statement # Statement
     3508988d-7b9a-4bce-a763-4d4f03a907fa: 'Sample Thumbnail' # Sample Thumbnail
     25725436-bbad-4fde-b7bf-84f437f541ab: Careers # Careers
+    27380490-0137-4d35-9b9f-cecc8d83b599: '404 Title' # 404 Title
     45014464-90a7-4681-bdda-9dc18da1e6d7: 'What We Do' # What We Do
     82174415-6789-4d3d-8ab3-c711895906c0: 'Closing Date' # Closing Date
     a0ad2a73-81a4-46fe-b8e7-6083409f70e5: 'Favicon 70x70' # Favicon 70x70
@@ -305,6 +307,7 @@ meta:
     d65dd566-89fb-49fd-944c-9ebbc1cdad44: Home # Home
     d97cab54-76a8-4280-942d-c59ce888204e: 'Sound Studio Samples' # Sound Studio Samples
     d4243c19-5c01-4c63-9754-11d398a4cbac: Meta # Meta
+    d88121d6-672f-488d-a3e6-ff61e5ded3f6: '404 Background' # 404 Background
     d2628718-52b2-476b-9be8-984357a173aa: 'Square Thumb 540 x 540' # Square Thumb 540 x 540
     dbb4a582-e95f-47f0-bc3e-7a176a701c48: $DEFAULT_SITE_NAME # $DEFAULT_SITE_NAME
     de3ccf4a-2099-429b-b6e3-b22e743240b1: 'Statement Caption' # Statement Caption

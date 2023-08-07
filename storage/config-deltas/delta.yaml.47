@@ -1,27 +1,26 @@
-dateApplied: '2023-08-01 14:52:37'
+dateApplied: '2023-08-01 14:55:19'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690897922
-        to: 1690897956
+        from: 1690898090
+        to: 1690898119
   -
     added:
-      fields.c44907e5-f9e0-4eb8-87d9-e7c95124a04c.columnSuffix: wtalskvu
-      fields.c44907e5-f9e0-4eb8-87d9-e7c95124a04c.contentColumnType: boolean
-      fields.c44907e5-f9e0-4eb8-87d9-e7c95124a04c.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
-      fields.c44907e5-f9e0-4eb8-87d9-e7c95124a04c.handle: announcementBarActive
-      fields.c44907e5-f9e0-4eb8-87d9-e7c95124a04c.instructions: null
-      fields.c44907e5-f9e0-4eb8-87d9-e7c95124a04c.name: 'Announcement Bar Active'
-      fields.c44907e5-f9e0-4eb8-87d9-e7c95124a04c.searchable: false
-      fields.c44907e5-f9e0-4eb8-87d9-e7c95124a04c.settings.default: false
-      fields.c44907e5-f9e0-4eb8-87d9-e7c95124a04c.settings.offLabel: 'No'
-      fields.c44907e5-f9e0-4eb8-87d9-e7c95124a04c.settings.onLabel: 'Yes'
-      fields.c44907e5-f9e0-4eb8-87d9-e7c95124a04c.translationKeyFormat: null
-      fields.c44907e5-f9e0-4eb8-87d9-e7c95124a04c.translationMethod: none
-      fields.c44907e5-f9e0-4eb8-87d9-e7c95124a04c.type: craft\fields\Lightswitch
-    message: 'Save field “announcementBarActive”'
-  -
-    added:
-      meta.__names__.c44907e5-f9e0-4eb8-87d9-e7c95124a04c: 'Announcement Bar Active'
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.elementCondition: null
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.fieldUid: 8a79ebaa-bbbe-44fa-af12-dc55acafcf31
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.instructions: null
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.label: null
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.required: false
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.tip: null
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.type: craft\fieldlayoutelements\CustomField
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.uid: 56a4b97c-b08f-4643-9806-30393cf28242
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.userCondition: null
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.warning: null
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.width: 50
+    message: 'Save global set “announcements”'
+    changed:
+      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.2.width:
+        from: 100
+        to: 50

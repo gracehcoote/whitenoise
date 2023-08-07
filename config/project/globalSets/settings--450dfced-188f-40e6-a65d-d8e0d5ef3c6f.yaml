@@ -1,0 +1,36 @@
+fieldLayouts:
+  08d33819-e39f-48cc-82f4-e27634cbf37b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 27380490-0137-4d35-9b9f-cecc8d83b599 # 404 Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c8bfdae2-8631-4671-93e3-8e1fd4586d4b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d88121d6-672f-488d-a3e6-ff61e5ded3f6 # 404 Background
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5c538c0d-3272-4c01-b76e-af84ab66dce8
+            userCondition: null
+            warning: null
+            width: 100
+        name: '404 Page'
+        uid: f4769df7-007f-4b30-86db-a154578b5ab9
+        userCondition: null
+handle: settings
+name: Settings
+sortOrder: 3

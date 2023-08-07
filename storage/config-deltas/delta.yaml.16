@@ -1,51 +1,14 @@
-dateApplied: '2023-08-02 12:15:27'
+dateApplied: '2023-08-02 12:21:40'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690974854
-        to: 1690974922
+        from: 1690975181
+        to: 1690975299
   -
-    added:
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elementCondition: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.autocapitalize: true
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.autocomplete: false
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.autocorrect: true
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.class: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.disabled: false
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.elementCondition: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.id: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.instructions: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.label: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.max: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.min: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.name: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.orientation: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.placeholder: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.readonly: false
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.requirable: false
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.size: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.step: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.tip: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.title: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.type: craft\fieldlayoutelements\assets\AssetTitleField
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.uid: ecec970f-2e52-4d30-b63c-5635f9999118
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.userCondition: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.warning: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.width: 100
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.name: Content
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.uid: abf0e31f-3eb7-4066-aeba-542f1c699f4f
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.userCondition: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fs: audio
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.handle: audio
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.name: Audio
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.sortOrder: 7
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.titleTranslationKeyFormat: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.titleTranslationMethod: site
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.transformFs: ''
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.transformSubpath: ''
-    message: 'Save the “audio” volume'
-  -
-    added:
-      meta.__names__.9e71b1fa-79a1-483a-b43f-9a9855cc5108: Audio
+    message: 'Save field “pageTitle”'
+    changed:
+      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.instructions:
+        from: 'This only affects the H1 (main heading) of the page and will not change the URL.'
+        to: "• If left blank the entry name will be used automatically\r\n• This only affects the H1 (main heading) of the page and will not change the URL"

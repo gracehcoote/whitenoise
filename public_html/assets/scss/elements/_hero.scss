@@ -30,7 +30,7 @@ HERO STYLES
 
   background-color: $black;
 
-  img.background-image {
+  .background-image {
     position: absolute;
     z-index: -1;
     top: 0;
@@ -42,6 +42,7 @@ HERO STYLES
     object-fit: cover;
   }
 
+  &.full,
   .home & {
     display: flex;
     min-height: 100vh;

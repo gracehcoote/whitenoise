@@ -1,26 +1,17 @@
-dateApplied: '2023-08-02 12:02:04'
+dateApplied: '2023-08-02 12:06:12'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690974119
-        to: 1690974123
+        from: 1690974349
+        to: 1690974372
   -
-    message: 'Save field “introTextRightColumn”'
+    message: 'Save field “images”'
     changed:
-      fields.0499b203-3226-46f7-a942-f210773facd9.fieldGroup:
-        from: d65dd566-89fb-49fd-944c-9ebbc1cdad44
-        to: f8e8eec1-974e-4485-8dc8-e4cd25204baa
-      fields.0499b203-3226-46f7-a942-f210773facd9.settings.availableTransforms:
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.instructions:
         from: null
-        to: ''
-      fields.0499b203-3226-46f7-a942-f210773facd9.settings.availableVolumes:
-        from: null
-        to: ''
-      fields.0499b203-3226-46f7-a942-f210773facd9.settings.defaultTransform:
-        from: null
-        to: ''
-      fields.0499b203-3226-46f7-a942-f210773facd9.settings.manualConfig:
-        from: null
-        to: ''
+        to: 'Selecting more than one image will generate an image slideshow.'
+      fields.c5d8b915-06eb-42e2-b071-c4543ee06156.settings.showSiteMenu:
+        from: false
+        to: true

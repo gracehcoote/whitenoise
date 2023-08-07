@@ -1,0 +1,30 @@
+{% extends "_layouts/_base" %}
+
+{% set title = "Page not found" %}
+
+{% block seo %}
+{% include "_includes/seo" %}
+{% endblock %}
+
+{% block headContent %}
+
+{% endblock %}
+
+{% block main %}
+	<section class="hero full">
+		<div class="section-container text-center section-container d-flex flex-column justify-content-center align-items-center">
+			<h5 class="text-uppercase mb-2">404 error</h5>
+			<h1 class="super-lg text-uppercase">{% if settings.errorTitle %}{{ settings.errorTitle }}{% else %}Page not found{% endif %}</h1>
+			<h5 class="mb-3">We can't find the page you are looking for. <br>It is either unavailable or doesn't exist</h5>
+      <a class="btn btn-outline btn-white" href="{{ siteUrl }}">Vist homepage</a>
+		</div><!-- end section-container -->
+
+		{% set errorBackground = settings.errorBackground.one() %}
+		{% if errorBackground %}
+		<img class="background-image" src="{{ errorBackground.url }}">
+		{% endif %}
+	</section>
+{% endblock %}
+
+{% block javascript %}
+{% endblock %}

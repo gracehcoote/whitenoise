@@ -1,14 +1,17 @@
-dateApplied: '2023-08-02 12:21:40'
+dateApplied: '2023-08-03 12:12:50'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690975181
-        to: 1690975299
+        from: 1691061151
+        to: 1691061170
   -
-    message: 'Save field “pageTitle”'
+    message: 'Save section “pages”'
     changed:
-      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.instructions:
-        from: 'This only affects the H1 (main heading) of the page and will not change the URL.'
-        to: "• If left blank the entry name will be used automatically\r\n• This only affects the H1 (main heading) of the page and will not change the URL"
+      sections.e5f1c294-aa5c-4406-a9a3-d5a067e2efc0.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.template:
+        from: pages/_entry
+        to: _pages/_entry.html
+      sections.e5f1c294-aa5c-4406-a9a3-d5a067e2efc0.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.uriFormat:
+        from: '{slug}'
+        to: '{parent.uri}/{slug}'

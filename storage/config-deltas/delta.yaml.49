@@ -1,42 +1,32 @@
-dateApplied: '2023-08-01 14:52:02'
+dateApplied: '2023-08-01 14:54:33'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690897874
-        to: 1690897922
+        from: 1690898019
+        to: 1690898069
   -
     added:
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.columnSuffix: null
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.contentColumnType: string
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.handle: announcementButton
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.instructions: 'This field allows you to select any entry from within this website, which will be shown as a button in the announcement bar.'
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.name: 'Announcement Button'
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.searchable: false
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.settings.allowSelfRelations: false
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.settings.branchLimit: null
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.settings.localizeRelations: false
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.settings.maintainHierarchy: false
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.settings.maxRelations: 1
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.settings.minRelations: null
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.settings.selectionCondition.__assoc__.0.0: elementType
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.settings.selectionCondition.__assoc__.0.1: craft\elements\Entry
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.settings.selectionCondition.__assoc__.1.0: fieldContext
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.settings.selectionCondition.__assoc__.1.1: global
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.settings.selectionCondition.__assoc__.2.0: class
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.settings.selectionCondition.__assoc__.2.1: craft\elements\conditions\entries\EntryCondition
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.settings.selectionLabel: 'Select an entry'
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.settings.showSiteMenu: false
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.settings.sources: '*'
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.settings.targetSiteId: null
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.settings.validateRelatedElements: false
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.settings.viewMode: null
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.translationKeyFormat: null
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.translationMethod: site
-      fields.6abb5b38-832a-4c70-8416-58b01e988618.type: craft\fields\Entries
-    message: 'Save field “announcementButton”'
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.columnSuffix: mqdfcsvp
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.contentColumnType: string(200)
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.handle: announcementButtonText
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.instructions: 'Enter the text you''d like the button to show.'
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.name: 'Announcement Button Text'
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.searchable: false
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.byteLimit: null
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.charLimit: 50
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.code: false
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.columnType: null
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.initialRows: 4
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.multiline: false
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.placeholder: null
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.uiMode: normal
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.translationKeyFormat: null
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.translationMethod: none
+      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.type: craft\fields\PlainText
+    message: 'Save field “announcementButtonText”'
   -
     added:
-      meta.__names__.6abb5b38-832a-4c70-8416-58b01e988618: 'Announcement Button'
+      meta.__names__.8a79ebaa-bbbe-44fa-af12-dc55acafcf31: 'Announcement Button Text'

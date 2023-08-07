@@ -1,32 +1,67 @@
-dateApplied: '2023-08-01 14:54:29'
+dateApplied: '2023-08-02 12:02:33'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690898019
-        to: 1690898069
+        from: 1690974123
+        to: 1690974145
   -
     added:
-      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.columnSuffix: mqdfcsvp
-      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.contentColumnType: string(200)
-      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
-      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.handle: announcementButtonText
-      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.instructions: 'Enter the text you''d like the button to show.'
-      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.name: 'Announcement Button Text'
-      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.searchable: false
-      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.byteLimit: null
-      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.charLimit: 50
-      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.code: false
-      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.columnType: null
-      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.initialRows: 4
-      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.multiline: false
-      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.placeholder: null
-      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.settings.uiMode: normal
-      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.translationKeyFormat: null
-      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.translationMethod: none
-      fields.8a79ebaa-bbbe-44fa-af12-dc55acafcf31.type: craft\fields\PlainText
-    message: 'Save field “announcementButtonText”'
+      sections.c19c1dc9-fcdf-41c2-a49a-222e0cbed0db.defaultPlacement: end
+      sections.c19c1dc9-fcdf-41c2-a49a-222e0cbed0db.enableVersioning: true
+      sections.c19c1dc9-fcdf-41c2-a49a-222e0cbed0db.handle: soundStudio
+      sections.c19c1dc9-fcdf-41c2-a49a-222e0cbed0db.name: 'Sound Studio'
+      sections.c19c1dc9-fcdf-41c2-a49a-222e0cbed0db.propagationMethod: all
+      sections.c19c1dc9-fcdf-41c2-a49a-222e0cbed0db.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.enabledByDefault: true
+      sections.c19c1dc9-fcdf-41c2-a49a-222e0cbed0db.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.hasUrls: true
+      sections.c19c1dc9-fcdf-41c2-a49a-222e0cbed0db.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.template: _singles/sound-studio.html
+      sections.c19c1dc9-fcdf-41c2-a49a-222e0cbed0db.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.uriFormat: sound-studio
+      sections.c19c1dc9-fcdf-41c2-a49a-222e0cbed0db.type: single
+    message: 'Save section “soundStudio”'
   -
     added:
-      meta.__names__.8a79ebaa-bbbe-44fa-af12-dc55acafcf31: 'Announcement Button Text'
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elementCondition: null
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.autocapitalize: true
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.autocomplete: false
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.autocorrect: true
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.class: null
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.disabled: false
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.elementCondition: null
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.id: null
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.instructions: null
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.label: null
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.max: null
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.min: null
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.name: null
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.orientation: null
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.placeholder: null
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.readonly: false
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.requirable: false
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.size: null
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.step: null
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.tip: null
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.title: null
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.type: craft\fieldlayoutelements\entries\EntryTitleField
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.uid: a7227089-58d5-40cf-adce-a9c9b64245ab
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.userCondition: null
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.warning: null
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.elements.0.width: 100
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.name: Content
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.uid: a5a0f2ed-e196-41e9-b290-96ac1f403915
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.fieldLayouts.dc3d6af0-a1fe-4269-902b-ad1a1c1e2c62.tabs.0.userCondition: null
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.handle: soundStudio
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.hasTitleField: false
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.name: 'Sound Studio'
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.section: c19c1dc9-fcdf-41c2-a49a-222e0cbed0db
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.sortOrder: 1
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.titleFormat: '{section.name|raw}'
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.titleTranslationKeyFormat: null
+      entryTypes.f96a8730-7c78-483a-b9ac-090b9dd4b139.titleTranslationMethod: site
+    message: 'Save entry type “soundStudio”'
+  -
+    added:
+      meta.__names__.c19c1dc9-fcdf-41c2-a49a-222e0cbed0db: 'Sound Studio'
+  -
+    added:
+      meta.__names__.f96a8730-7c78-483a-b9ac-090b9dd4b139: 'Sound Studio'
