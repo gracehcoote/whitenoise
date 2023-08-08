@@ -110,6 +110,11 @@ section {
 		padding-top: 6rem;
 		padding-bottom: 6rem;
 	}
+
+	@media #{$phone-ls} {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
 }
 
 .post-block {
@@ -125,6 +130,11 @@ section {
 		@media #{$bs-large} {
 			padding-top: 6rem;
 			padding-bottom: 6rem;
+		}
+
+		@media #{$phone-ls} {
+			padding-top: 4rem;
+			padding-bottom: 4rem;
 		}
 	}
 

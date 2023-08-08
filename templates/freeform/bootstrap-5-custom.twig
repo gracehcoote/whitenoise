@@ -95,28 +95,32 @@
                 {% if field.type == "checkbox_group" %}
 
                     {{ field.renderLabel({
-                        labelClass: labelClass,
+                        labelClass: labelClass ~ ' large group-label mb-2',
                         instructionsClass: instructionClass,
                         errorClass: errorClass,
                     }) }}
 
                     {{ field.oneLine ? "<div>"|raw }}
 
+                    <div class="row gy-1">
                     {% for index, option in field.options %}
-                        <div class="form-check{{ field.oneLine ? " form-check-inline" }}">
-                            <input type="checkbox"
-                                   name="{{ field.handle }}[]"
-                                   value="{{ option.value }}"
-                                   id="{{ field.idAttribute }}-{{ index }}"
-                                   class="form-check-input{{ field.hasErrors ? " is-invalid" }}"
-                                    {{ option.checked ? "checked" : "" }}
-                            />
+                        <div class="col-msm-6">
+                            <div class="form-check{{ field.oneLine ? " form-check-inline" }}">
+                                <input type="checkbox"
+                                    name="{{ field.handle }}[]"
+                                    value="{{ option.value }}"
+                                    id="{{ field.idAttribute }}-{{ index }}"
+                                    class="form-check-input{{ field.hasErrors ? " is-invalid" }}"
+                                        {{ option.checked ? "checked" : "" }}
+                                />
 
-                            <label class="form-check-label" for="{{ field.idAttribute }}-{{ index }}">
-                                {{ option.label|t('freeform')|raw }}
-                            </label>
+                                <label class="form-check-label" for="{{ field.idAttribute }}-{{ index }}">
+                                    {{ option.label|t('freeform')|raw }}
+                                </label>
+                            </div>
                         </div>
                     {% endfor %}
+                    </div>
 
                     {{ field.oneLine ? "</div>"|raw }}
 
@@ -125,16 +129,17 @@
 
                 {% elseif field.type == "radio_group" %}
                     
-                    <div class="d-flex justify-content-between flex-wrap">
-                        {{ field.renderLabel({
-                            labelClass: labelClass ~ ' large',
-                            instructionsClass: instructionClass,
-                            errorClass: errorClass,
-                        }) }}
+                    {{ field.renderLabel({
+                        labelClass: labelClass ~ ' large group-label mb-2',
+                        instructionsClass: instructionClass,
+                        errorClass: errorClass,
+                    }) }}
 
-                        {{ field.oneLine ? "<div>"|raw }}
+                    {{ field.oneLine ? "<div>"|raw }}
 
-                        {% for index, option in field.options %}
+                    <div class="row gy-1">
+                    {% for index, option in field.options %}
+                        <div class="col-msm-6">
                             <div class="form-check{{ field.oneLine ? " form-check-inline" }}">
                                 <input type="radio"
                                     name="{{ field.handle }}"
@@ -147,13 +152,14 @@
                                     {{ option.label|t('freeform')|raw }}
                                 </label>
                             </div>
-                        {% endfor %}
-
-                        {{ field.oneLine ? "</div>"|raw }}
-
-                        {{ field.renderInstructions() }}
-                        {{ field.renderErrors() }}
+                        </div>
+                    {% endfor %}
                     </div>
+
+                    {{ field.oneLine ? "</div>"|raw }}
+
+                    {{ field.renderInstructions() }}
+                    {{ field.renderErrors() }}
 
                 {% elseif field.type == "dynamic_recipients" and (field.showAsRadio or field.showAsCheckboxes) %}
 

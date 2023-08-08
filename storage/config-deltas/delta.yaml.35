@@ -1,15 +1,32 @@
-dateApplied: '2023-08-02 12:07:49'
+dateApplied: '2023-08-04 14:15:38'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690974372
-        to: 1690974465
+        from: 1691154804
+        to: 1691154933
   -
     added:
-      fieldGroups.a3f76f51-1422-4bfe-a045-3f06cad0c550.name: 'Sound Studio'
-    message: 'Save field group “Sound Studio”'
+      globalSets.450dfced-188f-40e6-a65d-d8e0d5ef3c6f.fieldLayouts.08d33819-e39f-48cc-82f4-e27634cbf37b.tabs.0.elementCondition: null
+      globalSets.450dfced-188f-40e6-a65d-d8e0d5ef3c6f.fieldLayouts.08d33819-e39f-48cc-82f4-e27634cbf37b.tabs.0.elements.0.elementCondition: null
+      globalSets.450dfced-188f-40e6-a65d-d8e0d5ef3c6f.fieldLayouts.08d33819-e39f-48cc-82f4-e27634cbf37b.tabs.0.elements.0.fieldUid: d88121d6-672f-488d-a3e6-ff61e5ded3f6
+      globalSets.450dfced-188f-40e6-a65d-d8e0d5ef3c6f.fieldLayouts.08d33819-e39f-48cc-82f4-e27634cbf37b.tabs.0.elements.0.instructions: null
+      globalSets.450dfced-188f-40e6-a65d-d8e0d5ef3c6f.fieldLayouts.08d33819-e39f-48cc-82f4-e27634cbf37b.tabs.0.elements.0.label: null
+      globalSets.450dfced-188f-40e6-a65d-d8e0d5ef3c6f.fieldLayouts.08d33819-e39f-48cc-82f4-e27634cbf37b.tabs.0.elements.0.required: false
+      globalSets.450dfced-188f-40e6-a65d-d8e0d5ef3c6f.fieldLayouts.08d33819-e39f-48cc-82f4-e27634cbf37b.tabs.0.elements.0.tip: null
+      globalSets.450dfced-188f-40e6-a65d-d8e0d5ef3c6f.fieldLayouts.08d33819-e39f-48cc-82f4-e27634cbf37b.tabs.0.elements.0.type: craft\fieldlayoutelements\CustomField
+      globalSets.450dfced-188f-40e6-a65d-d8e0d5ef3c6f.fieldLayouts.08d33819-e39f-48cc-82f4-e27634cbf37b.tabs.0.elements.0.uid: 5c538c0d-3272-4c01-b76e-af84ab66dce8
+      globalSets.450dfced-188f-40e6-a65d-d8e0d5ef3c6f.fieldLayouts.08d33819-e39f-48cc-82f4-e27634cbf37b.tabs.0.elements.0.userCondition: null
+      globalSets.450dfced-188f-40e6-a65d-d8e0d5ef3c6f.fieldLayouts.08d33819-e39f-48cc-82f4-e27634cbf37b.tabs.0.elements.0.warning: null
+      globalSets.450dfced-188f-40e6-a65d-d8e0d5ef3c6f.fieldLayouts.08d33819-e39f-48cc-82f4-e27634cbf37b.tabs.0.elements.0.width: 100
+      globalSets.450dfced-188f-40e6-a65d-d8e0d5ef3c6f.fieldLayouts.08d33819-e39f-48cc-82f4-e27634cbf37b.tabs.0.name: '404 Page'
+      globalSets.450dfced-188f-40e6-a65d-d8e0d5ef3c6f.fieldLayouts.08d33819-e39f-48cc-82f4-e27634cbf37b.tabs.0.uid: f4769df7-007f-4b30-86db-a154578b5ab9
+      globalSets.450dfced-188f-40e6-a65d-d8e0d5ef3c6f.fieldLayouts.08d33819-e39f-48cc-82f4-e27634cbf37b.tabs.0.userCondition: null
+      globalSets.450dfced-188f-40e6-a65d-d8e0d5ef3c6f.handle: settings
+      globalSets.450dfced-188f-40e6-a65d-d8e0d5ef3c6f.name: Settings
+      globalSets.450dfced-188f-40e6-a65d-d8e0d5ef3c6f.sortOrder: 3
+    message: 'Save global set “settings”'
   -
     added:
-      meta.__names__.a3f76f51-1422-4bfe-a045-3f06cad0c550: 'Sound Studio'
+      meta.__names__.450dfced-188f-40e6-a65d-d8e0d5ef3c6f: Settings

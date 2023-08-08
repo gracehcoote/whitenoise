@@ -137,4 +137,4 @@ fields:
     type: craft\fields\RadioButtons
 handle: videoEmbed
 name: 'Video (embed)'
-sortOrder: 9
+sortOrder: 8

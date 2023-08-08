@@ -1,51 +1,56 @@
-dateApplied: '2023-08-02 12:15:22'
+dateApplied: '2023-08-07 12:06:19'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690974854
-        to: 1690974922
+        from: 1691406201
+        to: 1691406379
   -
-    added:
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elementCondition: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.autocapitalize: true
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.autocomplete: false
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.autocorrect: true
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.class: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.disabled: false
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.elementCondition: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.id: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.instructions: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.label: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.max: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.min: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.name: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.orientation: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.placeholder: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.readonly: false
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.requirable: false
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.size: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.step: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.tip: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.title: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.type: craft\fieldlayoutelements\assets\AssetTitleField
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.uid: ecec970f-2e52-4d30-b63c-5635f9999118
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.userCondition: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.warning: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.elements.0.width: 100
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.name: Content
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.uid: abf0e31f-3eb7-4066-aeba-542f1c699f4f
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fieldLayouts.8e239d1c-3c6b-4263-a83d-dafa31a7bd0c.tabs.0.userCondition: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.fs: audio
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.handle: audio
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.name: Audio
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.sortOrder: 7
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.titleTranslationKeyFormat: null
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.titleTranslationMethod: site
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.transformFs: ''
-      volumes.9e71b1fa-79a1-483a-b43f-9a9855cc5108.transformSubpath: ''
-    message: 'Save the “audio” volume'
-  -
-    added:
-      meta.__names__.9e71b1fa-79a1-483a-b43f-9a9855cc5108: Audio
+    message: 'Change settings for plugin “cookie-consent-banner”'
+    changed:
+      plugins.cookie-consent-banner.settings.async_js:
+        from: null
+        to: ''
+      plugins.cookie-consent-banner.settings.auto_inject:
+        from: 1
+        to: '1'
+      plugins.cookie-consent-banner.settings.defer_js:
+        from: null
+        to: ''
+      plugins.cookie-consent-banner.settings.disable_in_live_preview:
+        from: null
+        to: ''
+      plugins.cookie-consent-banner.settings.dismiss_on_scroll:
+        from: 0
+        to: '0'
+      plugins.cookie-consent-banner.settings.dismiss_on_timeout:
+        from: 0
+        to: '0'
+      plugins.cookie-consent-banner.settings.expiry_days:
+        from: 365
+        to: '365'
+      plugins.cookie-consent-banner.settings.honour_do_not_track_header:
+        from: null
+        to: ''
+      plugins.cookie-consent-banner.settings.palette_banner:
+        from: '000000'
+        to: 1a1a1a
+      plugins.cookie-consent-banner.settings.palette_button:
+        from: f1d600
+        to: FFCD00
+      plugins.cookie-consent-banner.settings.palette_button_text:
+        from: '000000'
+        to: 1a1a1a
+      plugins.cookie-consent-banner.settings.palette_left_button_bg:
+        from: f8e71c
+        to: FFCD00
+      plugins.cookie-consent-banner.settings.preload_css:
+        from: null
+        to: ''
+      plugins.cookie-consent-banner.settings.revokable:
+        from: null
+        to: ''
+      plugins.cookie-consent-banner.settings.secure_only:
+        from: null
+        to: ''

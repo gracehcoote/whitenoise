@@ -1,16 +1,17 @@
-dateApplied: '2023-08-02 12:11:47'
+dateApplied: '2023-08-07 11:48:25'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690974645
-        to: 1690974707
+        from: 1691155516
+        to: 1691405304
   -
-    added:
-      fs.audio.hasUrls: true
-      fs.audio.name: Audio
-      fs.audio.settings.path: '@webroot/assets/cms/audio'
-      fs.audio.type: craft\fs\Local
-      fs.audio.url: '@web/assets/cms/audio'
-    message: 'Save the “audio” filesystem'
+    message: 'Save entry type “article”'
+    changed:
+      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.2.elements.1.instructions:
+        from: null
+        to: 'If left blank the article subtitle will be used automatically.'
+      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.2.elements.2.instructions:
+        from: null
+        to: 'If left blank, the article thumbnail or hero image will be used automatically'

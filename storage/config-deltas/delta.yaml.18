@@ -1,178 +1,72 @@
-dateApplied: '2023-08-02 12:19:27'
+dateApplied: '2023-08-07 13:39:19'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690974922
-        to: 1690975145
+        from: 1691408323
+        to: 1691411959
   -
     added:
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.1.elementCondition: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.1.fieldUid: e1892342-465e-413a-9363-446b97324322
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.1.instructions: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.1.label: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.1.required: true
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.1.tip: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.1.type: craft\fieldlayoutelements\CustomField
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.1.uid: 5d00201b-7876-43cd-b8f1-fcb63df673ea
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.1.userCondition: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.1.warning: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.1.width: 100
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.2.elementCondition: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.2.fieldUid: 5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.2.instructions: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.2.label: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.2.required: false
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.2.tip: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.2.type: craft\fieldlayoutelements\CustomField
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.2.uid: d1fab80f-ee75-403c-a99c-93ce4b82b94c
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.2.userCondition: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.2.warning: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.2.width: 100
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.3.elementCondition: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.3.fieldUid: 3508988d-7b9a-4bce-a763-4d4f03a907fa
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.3.instructions: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.3.label: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.3.required: false
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.3.tip: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.3.type: craft\fieldlayoutelements\CustomField
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.3.uid: a7148aee-0d27-4a0f-9dbf-1f414d24f3d4
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.3.userCondition: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.3.warning: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fieldLayouts.d0462643-8df4-4a3c-845d-7ee664a9c779.tabs.0.elements.3.width: 100
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50.columnSuffix: gvqkihmj
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50.contentColumnType: text
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50.fieldGroup: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50.handle: sampleSubtitle
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50.instructions: 'Shows above the title, e.g. client name'
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50.name: 'Sample Subtitle'
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50.searchable: false
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50.settings.byteLimit: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50.settings.charLimit: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50.settings.code: false
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50.settings.columnType: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50.settings.initialRows: 4
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50.settings.multiline: false
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50.settings.placeholder: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50.settings.uiMode: normal
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50.translationKeyFormat: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50.translationMethod: none
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50.type: craft\fields\PlainText
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.columnSuffix: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.contentColumnType: string
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.fieldGroup: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.handle: sampleThumbnail
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.instructions: 'Background will show as plain black if no image is selected'
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.name: 'Sample Thumbnail'
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.searchable: false
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.allowSelfRelations: false
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.allowSubfolders: false
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.allowUploads: true
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.allowedKinds.0: image
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.branchLimit: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.defaultUploadLocationSource: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.defaultUploadLocationSubpath: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.localizeRelations: false
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.maintainHierarchy: false
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.maxRelations: 1
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.minRelations: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.previewMode: full
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.restrictFiles: true
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.restrictLocation: true
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.restrictedDefaultUploadSubpath: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.restrictedLocationSource: 'volume:88345c9b-bba7-481d-b7be-a56f256bad79'
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.restrictedLocationSubpath: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.selectionCondition.__assoc__.0.0: elementType
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.selectionCondition.__assoc__.0.1: craft\elements\Asset
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.selectionCondition.__assoc__.1.0: fieldContext
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.selectionCondition.__assoc__.1.1: global
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.selectionCondition.__assoc__.2.0: class
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.selectionCondition.__assoc__.2.1: craft\elements\conditions\assets\AssetCondition
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.selectionLabel: 'Select an image'
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.showSiteMenu: false
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.showUnpermittedFiles: false
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.showUnpermittedVolumes: false
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.sources: '*'
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.targetSiteId: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.validateRelatedElements: false
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.settings.viewMode: large
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.translationKeyFormat: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.translationMethod: site
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.3508988d-7b9a-4bce-a763-4d4f03a907fa.type: craft\fields\Assets
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.a2e2c41d-ff17-4003-9f00-f458cda4070b.settings.allowedKinds.0: audio
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.a2e2c41d-ff17-4003-9f00-f458cda4070b.settings.allowedKinds.1: video
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.e1892342-465e-413a-9363-446b97324322.columnSuffix: drfngghg
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.e1892342-465e-413a-9363-446b97324322.contentColumnType: text
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.e1892342-465e-413a-9363-446b97324322.fieldGroup: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.e1892342-465e-413a-9363-446b97324322.handle: sampleTitle
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.e1892342-465e-413a-9363-446b97324322.instructions: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.e1892342-465e-413a-9363-446b97324322.name: 'Sample Title'
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.e1892342-465e-413a-9363-446b97324322.searchable: false
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.e1892342-465e-413a-9363-446b97324322.settings.byteLimit: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.e1892342-465e-413a-9363-446b97324322.settings.charLimit: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.e1892342-465e-413a-9363-446b97324322.settings.code: false
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.e1892342-465e-413a-9363-446b97324322.settings.columnType: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.e1892342-465e-413a-9363-446b97324322.settings.initialRows: 4
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.e1892342-465e-413a-9363-446b97324322.settings.multiline: false
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.e1892342-465e-413a-9363-446b97324322.settings.placeholder: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.e1892342-465e-413a-9363-446b97324322.settings.uiMode: normal
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.e1892342-465e-413a-9363-446b97324322.translationKeyFormat: null
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.e1892342-465e-413a-9363-446b97324322.translationMethod: none
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.e1892342-465e-413a-9363-446b97324322.type: craft\fields\PlainText
-    removed:
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.a2e2c41d-ff17-4003-9f00-f458cda4070b.settings.allowedKinds: null
-    message: 'Save matrix block type “sample” for parent field “soundStudioSamples”'
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.elementCondition: null
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.fieldUid: 78b7ec25-ca51-442f-81b1-516f79f96d66
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.instructions: null
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.label: null
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.required: true
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.tip: null
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.type: craft\fieldlayoutelements\CustomField
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.uid: 48860578-6a30-4d66-ad2f-cd45118d185a
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.userCondition: null
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.warning: null
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.width: 100
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.columnSuffix: rzfhsukk
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.contentColumnType: string
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.fieldGroup: null
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.handle: sliderType
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.instructions: null
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.name: 'Slider Type'
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.searchable: false
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.0.__assoc__.0.0: label
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.0.__assoc__.0.1: 'Slideshow (1 image per slide, pagination & arrows)'
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.0.__assoc__.1.0: value
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.0.__assoc__.1.1: slideshow
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.0.__assoc__.2.0: default
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.0.__assoc__.2.1: '1'
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.1.__assoc__.0.0: label
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.1.__assoc__.0.1: 'Carousel (2 images per slide, progress bar)'
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.1.__assoc__.1.0: value
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.1.__assoc__.1.1: carousel
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.1.__assoc__.2.0: default
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.1.__assoc__.2.1: ''
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.translationKeyFormat: null
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.translationMethod: none
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.type: craft\fields\RadioButtons
+    message: 'Save matrix block type “imageSlideshow” for parent field “contentBlocks”'
     changed:
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.a2e2c41d-ff17-4003-9f00-f458cda4070b.instructions:
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.2.fieldUid:
+        from: 78b7ec25-ca51-442f-81b1-516f79f96d66
+        to: 7cf7c89c-868b-4bd0-8296-177d113c53b4
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.2.required:
+        from: true
+        to: false
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.2.uid:
+        from: 48860578-6a30-4d66-ad2f-cd45118d185a
+        to: cf410bb7-ade1-4db0-9a3a-cc327c095e00
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7bee1e32-7f18-4448-95ee-9cfc3b0ed3db.instructions:
         from: null
-        to: 'You can select audio or video files for this field.'
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.a2e2c41d-ff17-4003-9f00-f458cda4070b.settings.maxRelations:
-        from: 0
-        to: 1
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.a2e2c41d-ff17-4003-9f00-f458cda4070b.settings.restrictFiles:
-        from: false
-        to: true
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.a2e2c41d-ff17-4003-9f00-f458cda4070b.settings.selectionLabel:
+        to: 'Note: this will only apply for the Slideshow slider type.'
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7bee1e32-7f18-4448-95ee-9cfc3b0ed3db.settings.options.0.__assoc__.2.1:
+        from: 1
+        to: '1'
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7bee1e32-7f18-4448-95ee-9cfc3b0ed3db.settings.options.1.__assoc__.2.1:
         from: null
-        to: 'Select a file'
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.fields.a2e2c41d-ff17-4003-9f00-f458cda4070b.settings.showSiteMenu:
-        from: false
-        to: true
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.handle:
-        from: audioSample
-        to: sample
-      matrixBlockTypes.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d.name:
-        from: 'Audio Sample'
-        to: Sample
-  -
-    message: 'Save field “soundStudioSamples”'
-    changed:
-      fields.d97cab54-76a8-4280-942d-c59ce888204e.handle:
-        from: audioSample
-        to: soundStudioSamples
-      fields.d97cab54-76a8-4280-942d-c59ce888204e.name:
-        from: 'Audio Sample'
-        to: 'Sound Studio Samples'
-      fields.d97cab54-76a8-4280-942d-c59ce888204e.settings.contentTable:
-        from: '{{%matrixcontent_audiosample}}'
-        to: '{{%matrixcontent_soundstudiosamples}}'
-  -
-    changed:
-      meta.__names__.d97cab54-76a8-4280-942d-c59ce888204e:
-        from: 'Audio Sample'
-        to: 'Sound Studio Samples'
-  -
-    changed:
-      meta.__names__.d55b6c20-2e6a-4ca5-bd04-a8661e712b5d:
-        from: 'Audio Sample'
-        to: Sample
+        to: ''
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.017fdb0e-1650-4bed-aa88-2320f4c5101a.settings.options.0.__assoc__.2.1:
+        from: 1
+        to: '1'
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.017fdb0e-1650-4bed-aa88-2320f4c5101a.settings.options.1.__assoc__.2.1:
+        from: null
+        to: ''
   -
     added:
-      meta.__names__.5f14c2b3-8db7-4ca8-ab6f-6772c62dfa50: 'Sample Subtitle'
-  -
-    added:
-      meta.__names__.3508988d-7b9a-4bce-a763-4d4f03a907fa: 'Sample Thumbnail'
-  -
-    added:
-      meta.__names__.e1892342-465e-413a-9363-446b97324322: 'Sample Title'
+      meta.__names__.7cf7c89c-868b-4bd0-8296-177d113c53b4: 'Slider Type'

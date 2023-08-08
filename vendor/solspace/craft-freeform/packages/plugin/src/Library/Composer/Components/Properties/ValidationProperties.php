@@ -17,7 +17,7 @@ class ValidationProperties extends AbstractProperties
     public const VALIDATION_TYPE_SUBMIT = 'submit';
     public const VALIDATION_TYPE_LIVE = 'live';
 
-    public const DEFAULT_SUCCESS_MESSAGE = 'Form has been submitted successfully!';
+    public const DEFAULT_SUCCESS_MESSAGE = 'Thank you for your message, we will be in touch with you as soon as possible.';
     public const DEFAULT_ERROR_MESSAGE = 'Sorry, there was an error submitting the form. Please try again.';
 
     /** @var string */

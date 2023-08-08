@@ -82,6 +82,10 @@ ul.crumbs {
   
   .section-container {
     padding-top: $space-sm;
+
+    @media #{$small} {
+      padding-top: 30px;
+    }
   }
 }
 
@@ -247,8 +251,11 @@ nav#global {
   .nav-wrapper {
     width: 100vw;
     height: 100%;
-    display: flex;
-    align-items: center;
+
+    @media all and (min-height: 1051px) {
+      display: flex;
+      align-items: center;
+    }
   }
 
   ul.nav {

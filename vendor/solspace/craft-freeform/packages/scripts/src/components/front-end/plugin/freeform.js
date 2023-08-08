@@ -41,7 +41,7 @@ export default class Freeform {
 
     skipHtmlReload: false,
 
-    successBannerMessage: 'Form has been submitted successfully!',
+    successBannerMessage: 'Thank you for your message, we will be in touch with you as soon as possible.',
     errorBannerMessage: 'Sorry, there was an error submitting the form. Please try again.',
 
     errorClassBanner: 'ff-form-errors',

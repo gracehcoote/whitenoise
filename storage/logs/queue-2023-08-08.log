@@ -1,0 +1,493 @@
+2023-08-08 08:50:58 [queue.INFO] [yii\db\Connection::open] Opening DB connection: mysql:host=127.0.0.1;dbname=whitenoise;port=8889 {"memory":766760} 
+2023-08-08 08:50:58 [queue.INFO] [yii\web\Session::open] Session started {"memory":1843592} 
+2023-08-08 08:50:58 [queue.INFO] [nystudio107\codeeditor\CodeEditor::bootstrap] CodeEditor module bootstrapped {"memory":1870816} 
+2023-08-08 08:50:58 [queue.INFO] [adigital\cookieconsentbanner\CookieConsentBanner::init] Cookie Consent Banner plugin loaded {"memory":2007392} 
+2023-08-08 08:50:58 [queue.INFO] [nystudio107\cookies\Cookies::init] Cookies plugin loaded {"memory":2026440} 
+2023-08-08 08:50:58 [queue.INFO] [vaersaagod\matrixmate\MatrixMate::init] MatrixMate plugin loaded {"memory":2405104} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2100] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Started {"memory":3016776} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2100] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Done (time: 0.002s) {"memory":3027632} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2101] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Started {"memory":3031112} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2101] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Done (time: 0.001s) {"memory":3032560} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2102] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Started {"memory":3036040} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2102] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Done (time: 0.000s) {"memory":3037488} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2103] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Started {"memory":3040968} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2103] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Done (time: 0.000s) {"memory":3042416} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2104] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Started {"memory":3051848} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2104] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Done (time: 0.000s) {"memory":3053296} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2105] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Started {"memory":3056776} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2105] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Done (time: 0.000s) {"memory":3058224} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2106] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Started {"memory":3061704} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2106] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Done (time: 0.000s) {"memory":3063152} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2107] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Started {"memory":3066632} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2107] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Done (time: 0.001s) {"memory":3068080} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2108] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Started {"memory":3071560} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2108] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Done (time: 0.000s) {"memory":3073008} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2109] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Started {"memory":3076488} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2109] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Done (time: 0.000s) {"memory":3077936} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2110] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Started {"memory":3081416} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2110] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Done (time: 0.000s) {"memory":3082864} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2111] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Started {"memory":3086344} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2111] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Done (time: 0.000s) {"memory":3087792} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2112] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Started {"memory":3091272} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2112] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Done (time: 0.001s) {"memory":3092720} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2113] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Started {"memory":3100296} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2113] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Done (time: 0.000s) {"memory":3101744} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2114] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Started {"memory":3105224} 
+2023-08-08 08:50:58 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2114] Purge Unfinalized Assets (attempt: 1, pid: 37674) - Done (time: 0.000s) {"memory":3106672} 
+2023-08-08 08:50:58 [queue.INFO] [application] Request context:
+$_GET = [
+    'p' => 'admin/actions/queue/run'
+    'v' => '1691484658501'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '8f2c3cf96b939295061eb13a81ccc27a_username' => 'c756a378f9ad4b95b39abb629ac78d6924bfe5af5bf71406651b02291bd6276ba:2:{i:0;s:41:\"8f2c3cf96b939295061eb13a81ccc27a_username\";i:1;s:5:\"admin\";}'
+    'CRAFT_CSRF_TOKEN' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    'CraftSessionId' => '9kf9mi9n4rmm7uqsr5o3atfl2k'
+    'cookieconsent_status' => 'allow'
+    '8f2c3cf96b939295061eb13a81ccc27a_identity' => 'd425ca449efb75f17784cc8043bf7a90795863e0149b05808fcc087e65bed247a:2:{i:0;s:41:\"8f2c3cf96b939295061eb13a81ccc27a_identity\";i:1;s:159:\"[1,\"[\\\"RYVb0Y9Mgyojj8gpdX6_PLP0bYMcBJ3Qute9awfEYhcPO6bna9fmw8_6I5DxK6oqIo0Eq8wH689AXgsYjvuoLbns5UOKkZ_B_3JK\\\",null,\\\"f2138246781f76a1407401847c35337f\\\"]\",3600]\";}'
+]
+
+$_SESSION = [
+    '0d86b8e7ffa267616a3ade71e3baf37d__flash' => [
+        'cp-notice' => -1
+        'Field saved' => -1
+        'Notification saved' => -1
+    ]
+    '0d86b8e7ffa267616a3ade71e3baf37d__auth_access' => [
+        0 => 'previewElement:3'
+        1 => 'saveAssets:88345c9b-bba7-481d-b7be-a56f256bad79'
+        2 => 'saveAssets:132246f9-c0e6-4f99-a712-62365f4bf939'
+        3 => 'saveAssets:dfb10236-499f-43e8-b5e9-c1ee7d4e58ed'
+        4 => 'saveAssets:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
+        5 => 'previewElement:1149'
+        6 => 'previewDraft:64'
+        7 => 'previewDraft:65'
+        8 => 'previewDraft:66'
+        9 => 'previewElement:1414'
+        10 => 'previewDraft:67'
+        11 => 'previewDraft:68'
+        12 => 'previewDraft:69'
+        13 => 'previewDraft:70'
+        14 => 'previewDraft:71'
+        15 => 'previewDraft:72'
+        16 => 'previewDraft:73'
+        17 => 'previewDraft:74'
+        18 => 'previewDraft:75'
+        19 => 'previewDraft:76'
+        20 => 'previewDraft:77'
+        21 => 'previewDraft:78'
+        22 => 'previewDraft:80'
+        23 => 'previewDraft:81'
+        24 => 'previewElement:988'
+        25 => 'previewDraft:82'
+        26 => 'editStructure:1'
+        27 => 'previewElement:11'
+        28 => 'previewElement:13'
+        29 => 'previewDraft:83'
+        30 => 'editStructure:5'
+        31 => 'previewElement:873'
+        32 => 'editStructure:2'
+        33 => 'previewElement:19'
+        34 => 'previewDraft:84'
+        35 => 'previewDraft:85'
+        36 => 'previewDraft:86'
+        37 => 'previewElement:1515'
+        38 => 'previewDraft:87'
+        39 => 'previewElement:9'
+        40 => 'previewDraft:88'
+        41 => 'editStructure:6'
+        42 => 'previewDraft:89'
+        43 => 'previewDraft:91'
+        44 => 'previewDraft:93'
+        45 => 'previewDraft:95'
+        46 => 'previewDraft:97'
+        47 => 'editStructure:7'
+        48 => 'previewDraft:99'
+        49 => 'previewElement:1607'
+        50 => 'previewElement:1291'
+        51 => 'previewDraft:100'
+    ]
+    'cp-notice' => 'Notification saved'
+    'Field saved' => true
+    'Notification saved' => true
+    '8f2c3cf96b939295061eb13a81ccc27a__token' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    '8f2c3cf96b939295061eb13a81ccc27a__id' => 1
+    '__authKey' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    '8f2c3cf96b939295061eb13a81ccc27a__expire' => 1691488258
+    '__duration' => 3600
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.whitenoise.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/116.0'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://local.whitenoise.com/admin/freeform/forms'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_REGISTERED_ASSET_BUNDLES' => ',verbb\\cpnav\\assetbundles\\CpNavAsset,verbb\\base\\assetbundles\\CpAsset,craft\\web\\assets\\cp\\CpAsset,craft\\web\\assets\\tailwindreset\\TailwindResetAsset,craft\\web\\assets\\axios\\AxiosAsset,craft\\web\\assets\\d3\\D3Asset,craft\\web\\assets\\elementresizedetector\\ElementResizeDetectorAsset,craft\\web\\assets\\garnish\\GarnishAsset,yii\\web\\JqueryAsset,craft\\web\\assets\\jquerytouchevents\\JqueryTouchEventsAsset,craft\\web\\assets\\velocity\\VelocityAsset,craft\\web\\assets\\jqueryui\\JqueryUiAsset,craft\\web\\assets\\jquerypayment\\JqueryPaymentAsset,craft\\web\\assets\\datepickeri18n\\DatepickerI18nAsset,craft\\web\\assets\\picturefill\\PicturefillAsset,craft\\web\\assets\\selectize\\SelectizeAsset,craft\\web\\assets\\fileupload\\FileUploadAsset,craft\\web\\assets\\xregexp\\XregexpAsset,craft\\web\\assets\\fabric\\FabricAsset,craft\\web\\assets\\iframeresizer\\IframeResizerAsset,carlcs\\redactorcustomstyles\\assets\\customcp\\CustomCpAsset,verbb\\smith\\assetbundles\\SmithAsset,craft\\web\\assets\\matrix\\MatrixAsset,Solspace\\Freeform\\Resources\\Bundles\\FormIndexBundle,Solspace\\Freeform\\Resources\\Bundles\\CreateFormModalBundle,doublesecretagency\\cpcss\\web\\assets\\CustomAssets'
+    'HTTP_X_REGISTERED_JS_FILES' => ',http://local.whitenoise.com/cpresources/1f8e0626/tailwind_reset.js?v=1690890157,http://local.whitenoise.com/cpresources/28e210ea/axios.js?v=1690890157,http://local.whitenoise.com/cpresources/ee63805/d3.js?v=1690890157,http://local.whitenoise.com/cpresources/cfc835ee/element-resize-detector.js?v=1690890157,http://local.whitenoise.com/cpresources/ca282a06/jquery.js?v=1690890157,http://local.whitenoise.com/cpresources/9cd55eac/jquery.mobile-events.js?v=1690890157,http://local.whitenoise.com/cpresources/99118379/velocity.js?v=1690890157,http://local.whitenoise.com/cpresources/76b987af/garnish.js?v=1690890157,http://local.whitenoise.com/cpresources/c0cfba10/jquery-ui.js?v=1690890157,http://local.whitenoise.com/cpresources/9c8681ce/jquery.payment.js?v=1690890157,http://local.whitenoise.com/cpresources/928d0809/datepicker-en-GB.js?v=1690890157,http://local.whitenoise.com/cpresources/a0dd5b10/picturefill.js?v=1690890157,http://local.whitenoise.com/cpresources/189bbc04/selectize.js?v=1690890157,http://local.whitenoise.com/cpresources/deb46cbb/jquery.fileupload.js?v=1690890157,http://local.whitenoise.com/cpresources/ab65e610/xregexp-all.js?v=1690890157,http://local.whitenoise.com/cpresources/5e0bb0b8/fabric.js?v=1690890157,http://local.whitenoise.com/cpresources/58731b2/iframeResizer.js?v=1690890157,http://local.whitenoise.com/cpresources/14d31e4c/cp.js?v=1690890157,http://local.whitenoise.com/cpresources/ea050731/js/verbb-ui.js?v=1690890157,http://local.whitenoise.com/cpresources/2b83d9da/js/cp-nav.js?v=1690890157,http://local.whitenoise.com/cpresources/46faf2ff/MatrixInput.js?v=1690890235,http://local.whitenoise.com/cpresources/4ac267bb/js/smith.js?v=1690890235,http://local.whitenoise.com/cpresources/fbc1bee8/js/scripts/cp/forms/index.js?v=1691418279,http://local.whitenoise.com/cpresources/fbc1bee8/js/app/vendor.js?v=1691418279,http://local.whitenoise.com/cpresources/fbc1bee8/js/app/form-modal.js?v=1691418279'
+    'HTTP_X_CSRF_TOKEN' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    'HTTP_ORIGIN' => 'http://local.whitenoise.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '8f2c3cf96b939295061eb13a81ccc27a_username=c756a378f9ad4b95b39abb629ac78d6924bfe5af5bf71406651b02291bd6276ba%3A2%3A%7Bi%3A0%3Bs%3A41%3A%228f2c3cf96b939295061eb13a81ccc27a_username%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3B%7D; CRAFT_CSRF_TOKEN=19ca83dc078a30a26e3d841067a4fc33cb4de15c091962a4c28fd9cb423d2453a%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22CRAFT_CSRF_TOKEN%22%3Bi%3A1%3Bs%3A147%3A%22vcgU3RtVbXInxPf-jZM83g8lQDvO2WRD_Vzv0Zg6%7Cad4733d809827bb162f6e2c107e5263a5fddede97746d3d55146b0824b526331vcgU3RtVbXInxPf-jZM83g8lQDvO2WRD_Vzv0Zg6%7C1%22%3B%7D; CraftSessionId=9kf9mi9n4rmm7uqsr5o3atfl2k; cookieconsent_status=allow; 8f2c3cf96b939295061eb13a81ccc27a_identity=d425ca449efb75f17784cc8043bf7a90795863e0149b05808fcc087e65bed247a%3A2%3A%7Bi%3A0%3Bs%3A41%3A%228f2c3cf96b939295061eb13a81ccc27a_identity%22%3Bi%3A1%3Bs%3A159%3A%22%5B1%2C%22%5B%5C%22RYVb0Y9Mgyojj8gpdX6_PLP0bYMcBJ3Qute9awfEYhcPO6bna9fmw8_6I5DxK6oqIo0Eq8wH689AXgsYjvuoLbns5UOKkZ_B_3JK%5C%22%2Cnull%2C%5C%22f2138246781f76a1407401847c35337f%5C%22%5D%22%2C3600%5D%22%3B%7D'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/8.2.0 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1'
+    'SERVER_NAME' => 'local.whitenoise.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html/index.php'
+    'REMOTE_PORT' => '55979'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'p=admin%2Factions%2Fqueue%2Frun&v=1691484658501'
+    'REQUEST_URI' => '/index.php?p=admin%2Factions%2Fqueue%2Frun&v=1691484658501'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1691484658.5019
+    'REQUEST_TIME' => 1691484658
+    'CRAFT_APP_ID' => 'CraftCMS--4f80cc3b-76dd-45b1-9147-bc8717a572d4'
+    'CRAFT_ENVIRONMENT' => 'dev'
+    'CRAFT_SECURITY_KEY' => '••••••••••••••••••••••••••••••••'
+    'CRAFT_DB_DRIVER' => 'mysql'
+    'CRAFT_DB_SERVER' => '127.0.0.1'
+    'CRAFT_DB_PORT' => '8889'
+    'CRAFT_DB_DATABASE' => 'whitenoise'
+    'CRAFT_DB_USER' => 'root'
+    'CRAFT_DB_PASSWORD' => '••••'
+    'CRAFT_DB_SCHEMA' => ''
+    'CRAFT_DB_TABLE_PREFIX' => ''
+    'DEV_MODE' => 'true'
+    'ALLOW_ADMIN_CHANGES' => 'true'
+    'DISALLOW_ROBOTS' => 'true'
+    'DEFAULT_SITE_NAME' => 'Whitenoise Studios'
+    'PRIMARY_SITE_URL' => 'http://local.whitenoise.com/'
+] {"userId":1} 
+2023-08-08 08:57:21 [queue.INFO] [yii\db\Connection::open] Opening DB connection: mysql:host=127.0.0.1;dbname=whitenoise;port=8889 {"memory":770696} 
+2023-08-08 08:57:21 [queue.INFO] [yii\web\Session::open] Session started {"memory":1847576} 
+2023-08-08 08:57:21 [queue.INFO] [nystudio107\codeeditor\CodeEditor::bootstrap] CodeEditor module bootstrapped {"memory":1874800} 
+2023-08-08 08:57:21 [queue.INFO] [adigital\cookieconsentbanner\CookieConsentBanner::init] Cookie Consent Banner plugin loaded {"memory":2011376} 
+2023-08-08 08:57:21 [queue.INFO] [nystudio107\cookies\Cookies::init] Cookies plugin loaded {"memory":2032920} 
+2023-08-08 08:57:21 [queue.INFO] [vaersaagod\matrixmate\MatrixMate::init] MatrixMate plugin loaded {"memory":2411584} 
+2023-08-08 08:57:21 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2115] t9n:["app","Updating element slugs and URIs"] (attempt: 1, pid: 23471) - Started {"memory":3024544} 
+2023-08-08 08:57:21 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2115] t9n:["app","Updating element slugs and URIs"] (attempt: 1, pid: 23471) - Done (time: 0.010s) {"memory":3078616} 
+2023-08-08 08:57:21 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2116] t9n:["app","Updating search indexes"] (attempt: 1, pid: 23471) - Started {"memory":3081344} 
+2023-08-08 08:57:21 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2116] t9n:["app","Updating search indexes"] (attempt: 1, pid: 23471) - Done (time: 0.066s) {"memory":3511808} 
+2023-08-08 08:57:21 [queue.INFO] [application] Request context:
+$_GET = [
+    'p' => 'admin/actions/queue/run'
+    'v' => '1691485041010'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '8f2c3cf96b939295061eb13a81ccc27a_username' => 'c756a378f9ad4b95b39abb629ac78d6924bfe5af5bf71406651b02291bd6276ba:2:{i:0;s:41:\"8f2c3cf96b939295061eb13a81ccc27a_username\";i:1;s:5:\"admin\";}'
+    'CRAFT_CSRF_TOKEN' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    'CraftSessionId' => '9kf9mi9n4rmm7uqsr5o3atfl2k'
+    'cookieconsent_status' => 'allow'
+    '8f2c3cf96b939295061eb13a81ccc27a_identity' => 'd425ca449efb75f17784cc8043bf7a90795863e0149b05808fcc087e65bed247a:2:{i:0;s:41:\"8f2c3cf96b939295061eb13a81ccc27a_identity\";i:1;s:159:\"[1,\"[\\\"RYVb0Y9Mgyojj8gpdX6_PLP0bYMcBJ3Qute9awfEYhcPO6bna9fmw8_6I5DxK6oqIo0Eq8wH689AXgsYjvuoLbns5UOKkZ_B_3JK\\\",null,\\\"f2138246781f76a1407401847c35337f\\\"]\",3600]\";}'
+]
+
+$_SESSION = [
+    '0d86b8e7ffa267616a3ade71e3baf37d__flash' => [
+        'cp-notice' => -1
+        'Field saved' => -1
+        'Notification saved' => -1
+    ]
+    '0d86b8e7ffa267616a3ade71e3baf37d__auth_access' => [
+        0 => 'previewElement:3'
+        1 => 'saveAssets:88345c9b-bba7-481d-b7be-a56f256bad79'
+        2 => 'saveAssets:132246f9-c0e6-4f99-a712-62365f4bf939'
+        3 => 'saveAssets:dfb10236-499f-43e8-b5e9-c1ee7d4e58ed'
+        4 => 'saveAssets:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
+        5 => 'previewElement:1149'
+        6 => 'previewDraft:64'
+        7 => 'previewDraft:65'
+        8 => 'previewDraft:66'
+        9 => 'previewElement:1414'
+        10 => 'previewDraft:67'
+        11 => 'previewDraft:68'
+        12 => 'previewDraft:69'
+        13 => 'previewDraft:70'
+        14 => 'previewDraft:71'
+        15 => 'previewDraft:72'
+        16 => 'previewDraft:73'
+        17 => 'previewDraft:74'
+        18 => 'previewDraft:75'
+        19 => 'previewDraft:76'
+        20 => 'previewDraft:77'
+        21 => 'previewDraft:78'
+        22 => 'previewDraft:80'
+        23 => 'previewDraft:81'
+        24 => 'previewElement:988'
+        25 => 'previewDraft:82'
+        26 => 'editStructure:1'
+        27 => 'previewElement:11'
+        28 => 'previewElement:13'
+        29 => 'previewDraft:83'
+        30 => 'editStructure:5'
+        31 => 'previewElement:873'
+        32 => 'editStructure:2'
+        33 => 'previewElement:19'
+        34 => 'previewDraft:84'
+        35 => 'previewDraft:85'
+        36 => 'previewDraft:86'
+        37 => 'previewElement:1515'
+        38 => 'previewDraft:87'
+        39 => 'previewElement:9'
+        40 => 'previewDraft:88'
+        41 => 'editStructure:6'
+        42 => 'previewDraft:89'
+        43 => 'previewDraft:91'
+        44 => 'previewDraft:93'
+        45 => 'previewDraft:95'
+        46 => 'previewDraft:97'
+        47 => 'editStructure:7'
+        48 => 'previewDraft:99'
+        49 => 'previewElement:1607'
+        50 => 'previewElement:1291'
+        51 => 'previewDraft:100'
+        52 => 'previewDraft:101'
+    ]
+    'cp-notice' => 'Notification saved'
+    'Field saved' => true
+    'Notification saved' => true
+    '8f2c3cf96b939295061eb13a81ccc27a__token' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    '8f2c3cf96b939295061eb13a81ccc27a__id' => 1
+    '__authKey' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    '8f2c3cf96b939295061eb13a81ccc27a__expire' => 1691488641
+    '__duration' => 3600
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.whitenoise.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/116.0'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://local.whitenoise.com/admin/entries/briefingForms/1621?draftId=101&fresh=1'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_REGISTERED_ASSET_BUNDLES' => ',verbb\\cpnav\\assetbundles\\CpNavAsset,verbb\\base\\assetbundles\\CpAsset,craft\\web\\assets\\cp\\CpAsset,craft\\web\\assets\\tailwindreset\\TailwindResetAsset,craft\\web\\assets\\axios\\AxiosAsset,craft\\web\\assets\\d3\\D3Asset,craft\\web\\assets\\elementresizedetector\\ElementResizeDetectorAsset,craft\\web\\assets\\garnish\\GarnishAsset,yii\\web\\JqueryAsset,craft\\web\\assets\\jquerytouchevents\\JqueryTouchEventsAsset,craft\\web\\assets\\velocity\\VelocityAsset,craft\\web\\assets\\jqueryui\\JqueryUiAsset,craft\\web\\assets\\jquerypayment\\JqueryPaymentAsset,craft\\web\\assets\\datepickeri18n\\DatepickerI18nAsset,craft\\web\\assets\\picturefill\\PicturefillAsset,craft\\web\\assets\\selectize\\SelectizeAsset,craft\\web\\assets\\fileupload\\FileUploadAsset,craft\\web\\assets\\xregexp\\XregexpAsset,craft\\web\\assets\\fabric\\FabricAsset,craft\\web\\assets\\iframeresizer\\IframeResizerAsset,carlcs\\redactorcustomstyles\\assets\\customcp\\CustomCpAsset,verbb\\smith\\assetbundles\\SmithAsset,craft\\web\\assets\\matrix\\MatrixAsset,craft\\redactor\\assets\\field\\FieldAsset,craft\\redactor\\assets\\redactor\\RedactorAsset,http://local.whitenoise.com/cpresources/96b7bfcc/customstyles.js,craft\\web\\assets\\timepicker\\TimepickerAsset,vaersaagod\\matrixmate\\assetbundles\\matrixmate\\MatrixMateAsset,doublesecretagency\\cpcss\\web\\assets\\CustomAssets'
+    'HTTP_X_REGISTERED_JS_FILES' => ',http://local.whitenoise.com/cpresources/1f8e0626/tailwind_reset.js?v=1690890157,http://local.whitenoise.com/cpresources/28e210ea/axios.js?v=1690890157,http://local.whitenoise.com/cpresources/ee63805/d3.js?v=1690890157,http://local.whitenoise.com/cpresources/cfc835ee/element-resize-detector.js?v=1690890157,http://local.whitenoise.com/cpresources/ca282a06/jquery.js?v=1690890157,http://local.whitenoise.com/cpresources/9cd55eac/jquery.mobile-events.js?v=1690890157,http://local.whitenoise.com/cpresources/99118379/velocity.js?v=1690890157,http://local.whitenoise.com/cpresources/76b987af/garnish.js?v=1690890157,http://local.whitenoise.com/cpresources/c0cfba10/jquery-ui.js?v=1690890157,http://local.whitenoise.com/cpresources/9c8681ce/jquery.payment.js?v=1690890157,http://local.whitenoise.com/cpresources/928d0809/datepicker-en-GB.js?v=1690890157,http://local.whitenoise.com/cpresources/a0dd5b10/picturefill.js?v=1690890157,http://local.whitenoise.com/cpresources/189bbc04/selectize.js?v=1690890157,http://local.whitenoise.com/cpresources/deb46cbb/jquery.fileupload.js?v=1690890157,http://local.whitenoise.com/cpresources/ab65e610/xregexp-all.js?v=1690890157,http://local.whitenoise.com/cpresources/5e0bb0b8/fabric.js?v=1690890157,http://local.whitenoise.com/cpresources/58731b2/iframeResizer.js?v=1690890157,http://local.whitenoise.com/cpresources/14d31e4c/cp.js?v=1690890157,http://local.whitenoise.com/cpresources/ea050731/js/verbb-ui.js?v=1690890157,http://local.whitenoise.com/cpresources/2b83d9da/js/cp-nav.js?v=1690890157,http://local.whitenoise.com/cpresources/46faf2ff/MatrixInput.js?v=1690890235,http://local.whitenoise.com/cpresources/4ac267bb/js/smith.js?v=1690890235,http://local.whitenoise.com/cpresources/549f29ae/redactor/redactor.js?v=1690890489,http://local.whitenoise.com/cpresources/549f29ae/redactor/_langs/en.js?v=1690890489,http://local.whitenoise.com/cpresources/c1930237/PluginBase.js?v=1690890489,http://local.whitenoise.com/cpresources/c1930237/CraftAssetImageEditor.js?v=1690890489,http://local.whitenoise.com/cpresources/c1930237/CraftAssetImages.js?v=1690890489,http://local.whitenoise.com/cpresources/c1930237/CraftAssetFiles.js?v=1690890489,http://local.whitenoise.com/cpresources/c1930237/CraftElementLinks.js?v=1690890489,http://local.whitenoise.com/cpresources/c1930237/RedactorInput.js?v=1690890489,http://local.whitenoise.com/cpresources/c1930237/RedactorOverrides.js?v=1690890489,http://local.whitenoise.com/cpresources/96b7bfcc/customstyles.js,http://local.whitenoise.com/cpresources/afafabac/jquery.timepicker.js?v=1690898845,http://local.whitenoise.com/cpresources/fe25fe21/js/MatrixMate.js?v=1690890311'
+    'HTTP_X_CSRF_TOKEN' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    'HTTP_ORIGIN' => 'http://local.whitenoise.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '8f2c3cf96b939295061eb13a81ccc27a_username=c756a378f9ad4b95b39abb629ac78d6924bfe5af5bf71406651b02291bd6276ba%3A2%3A%7Bi%3A0%3Bs%3A41%3A%228f2c3cf96b939295061eb13a81ccc27a_username%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3B%7D; CRAFT_CSRF_TOKEN=19ca83dc078a30a26e3d841067a4fc33cb4de15c091962a4c28fd9cb423d2453a%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22CRAFT_CSRF_TOKEN%22%3Bi%3A1%3Bs%3A147%3A%22vcgU3RtVbXInxPf-jZM83g8lQDvO2WRD_Vzv0Zg6%7Cad4733d809827bb162f6e2c107e5263a5fddede97746d3d55146b0824b526331vcgU3RtVbXInxPf-jZM83g8lQDvO2WRD_Vzv0Zg6%7C1%22%3B%7D; CraftSessionId=9kf9mi9n4rmm7uqsr5o3atfl2k; cookieconsent_status=allow; 8f2c3cf96b939295061eb13a81ccc27a_identity=d425ca449efb75f17784cc8043bf7a90795863e0149b05808fcc087e65bed247a%3A2%3A%7Bi%3A0%3Bs%3A41%3A%228f2c3cf96b939295061eb13a81ccc27a_identity%22%3Bi%3A1%3Bs%3A159%3A%22%5B1%2C%22%5B%5C%22RYVb0Y9Mgyojj8gpdX6_PLP0bYMcBJ3Qute9awfEYhcPO6bna9fmw8_6I5DxK6oqIo0Eq8wH689AXgsYjvuoLbns5UOKkZ_B_3JK%5C%22%2Cnull%2C%5C%22f2138246781f76a1407401847c35337f%5C%22%5D%22%2C3600%5D%22%3B%7D'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/8.2.0 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1'
+    'SERVER_NAME' => 'local.whitenoise.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html/index.php'
+    'REMOTE_PORT' => '56167'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'p=admin%2Factions%2Fqueue%2Frun&v=1691485041010'
+    'REQUEST_URI' => '/index.php?p=admin%2Factions%2Fqueue%2Frun&v=1691485041010'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1691485041.0102
+    'REQUEST_TIME' => 1691485041
+    'CRAFT_APP_ID' => 'CraftCMS--4f80cc3b-76dd-45b1-9147-bc8717a572d4'
+    'CRAFT_ENVIRONMENT' => 'dev'
+    'CRAFT_SECURITY_KEY' => '••••••••••••••••••••••••••••••••'
+    'CRAFT_DB_DRIVER' => 'mysql'
+    'CRAFT_DB_SERVER' => '127.0.0.1'
+    'CRAFT_DB_PORT' => '8889'
+    'CRAFT_DB_DATABASE' => 'whitenoise'
+    'CRAFT_DB_USER' => 'root'
+    'CRAFT_DB_PASSWORD' => '••••'
+    'CRAFT_DB_SCHEMA' => ''
+    'CRAFT_DB_TABLE_PREFIX' => ''
+    'DEV_MODE' => 'true'
+    'ALLOW_ADMIN_CHANGES' => 'true'
+    'DISALLOW_ROBOTS' => 'true'
+    'DEFAULT_SITE_NAME' => 'Whitenoise Studios'
+    'PRIMARY_SITE_URL' => 'http://local.whitenoise.com/'
+] {"userId":1} 
+2023-08-08 08:59:49 [queue.INFO] [yii\db\Connection::open] Opening DB connection: mysql:host=127.0.0.1;dbname=whitenoise;port=8889 {"memory":766232} 
+2023-08-08 08:59:49 [queue.INFO] [yii\web\Session::open] Session started {"memory":1843112} 
+2023-08-08 08:59:49 [queue.INFO] [nystudio107\codeeditor\CodeEditor::bootstrap] CodeEditor module bootstrapped {"memory":1870336} 
+2023-08-08 08:59:49 [queue.INFO] [adigital\cookieconsentbanner\CookieConsentBanner::init] Cookie Consent Banner plugin loaded {"memory":2006912} 
+2023-08-08 08:59:49 [queue.INFO] [nystudio107\cookies\Cookies::init] Cookies plugin loaded {"memory":2025432} 
+2023-08-08 08:59:49 [queue.INFO] [vaersaagod\matrixmate\MatrixMate::init] MatrixMate plugin loaded {"memory":2404096} 
+2023-08-08 08:59:49 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2117] t9n:["app","Updating search indexes"] (attempt: 1, pid: 37668) - Started {"memory":3016304} 
+2023-08-08 08:59:49 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2117] t9n:["app","Updating search indexes"] (attempt: 1, pid: 37668) - Done (time: 0.061s) {"memory":3454928} 
+2023-08-08 08:59:49 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2118] t9n:["app","Updating search indexes"] (attempt: 1, pid: 37668) - Started {"memory":3458816} 
+2023-08-08 08:59:49 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2118] t9n:["app","Updating search indexes"] (attempt: 1, pid: 37668) - Done (time: 0.010s) {"memory":3513824} 
+2023-08-08 08:59:49 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2119] t9n:["app","Updating search indexes"] (attempt: 1, pid: 37668) - Started {"memory":3517216} 
+2023-08-08 08:59:49 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2119] t9n:["app","Updating search indexes"] (attempt: 1, pid: 37668) - Done (time: 0.009s) {"memory":3566592} 
+2023-08-08 08:59:49 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2121] t9n:["app","Updating search indexes"] (attempt: 1, pid: 37668) - Started {"memory":3570072} 
+2023-08-08 08:59:49 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2121] t9n:["app","Updating search indexes"] (attempt: 1, pid: 37668) - Done (time: 0.010s) {"memory":3619448} 
+2023-08-08 08:59:49 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [2120] t9n:["app","Pruning extra revisions"] (attempt: 1, pid: 37668) - Started {"memory":3622928} 
+2023-08-08 08:59:49 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [2120] t9n:["app","Pruning extra revisions"] (attempt: 1, pid: 37668) - Done (time: 0.005s) {"memory":3655544} 
+2023-08-08 08:59:49 [queue.INFO] [application] Request context:
+$_GET = [
+    'p' => 'admin/actions/queue/run'
+    'v' => '1691485188494'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '8f2c3cf96b939295061eb13a81ccc27a_username' => 'c756a378f9ad4b95b39abb629ac78d6924bfe5af5bf71406651b02291bd6276ba:2:{i:0;s:41:\"8f2c3cf96b939295061eb13a81ccc27a_username\";i:1;s:5:\"admin\";}'
+    'CRAFT_CSRF_TOKEN' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    'CraftSessionId' => '9kf9mi9n4rmm7uqsr5o3atfl2k'
+    'cookieconsent_status' => 'allow'
+    '8f2c3cf96b939295061eb13a81ccc27a_identity' => 'd425ca449efb75f17784cc8043bf7a90795863e0149b05808fcc087e65bed247a:2:{i:0;s:41:\"8f2c3cf96b939295061eb13a81ccc27a_identity\";i:1;s:159:\"[1,\"[\\\"RYVb0Y9Mgyojj8gpdX6_PLP0bYMcBJ3Qute9awfEYhcPO6bna9fmw8_6I5DxK6oqIo0Eq8wH689AXgsYjvuoLbns5UOKkZ_B_3JK\\\",null,\\\"f2138246781f76a1407401847c35337f\\\"]\",3600]\";}'
+]
+
+$_SESSION = [
+    '0d86b8e7ffa267616a3ade71e3baf37d__flash' => [
+        'cp-notice' => -1
+        'Field saved' => -1
+        'Notification saved' => -1
+    ]
+    '0d86b8e7ffa267616a3ade71e3baf37d__auth_access' => [
+        0 => 'previewElement:3'
+        1 => 'saveAssets:88345c9b-bba7-481d-b7be-a56f256bad79'
+        2 => 'saveAssets:132246f9-c0e6-4f99-a712-62365f4bf939'
+        3 => 'saveAssets:dfb10236-499f-43e8-b5e9-c1ee7d4e58ed'
+        4 => 'saveAssets:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
+        5 => 'previewElement:1149'
+        6 => 'previewDraft:64'
+        7 => 'previewDraft:65'
+        8 => 'previewDraft:66'
+        9 => 'previewElement:1414'
+        10 => 'previewDraft:67'
+        11 => 'previewDraft:68'
+        12 => 'previewDraft:69'
+        13 => 'previewDraft:70'
+        14 => 'previewDraft:71'
+        15 => 'previewDraft:72'
+        16 => 'previewDraft:73'
+        17 => 'previewDraft:74'
+        18 => 'previewDraft:75'
+        19 => 'previewDraft:76'
+        20 => 'previewDraft:77'
+        21 => 'previewDraft:78'
+        22 => 'previewDraft:80'
+        23 => 'previewDraft:81'
+        24 => 'previewElement:988'
+        25 => 'previewDraft:82'
+        26 => 'editStructure:1'
+        27 => 'previewElement:11'
+        28 => 'previewElement:13'
+        29 => 'previewDraft:83'
+        30 => 'editStructure:5'
+        31 => 'previewElement:873'
+        32 => 'editStructure:2'
+        33 => 'previewElement:19'
+        34 => 'previewDraft:84'
+        35 => 'previewDraft:85'
+        36 => 'previewDraft:86'
+        37 => 'previewElement:1515'
+        38 => 'previewDraft:87'
+        39 => 'previewElement:9'
+        40 => 'previewDraft:88'
+        41 => 'editStructure:6'
+        42 => 'previewDraft:89'
+        43 => 'previewDraft:91'
+        44 => 'previewDraft:93'
+        45 => 'previewDraft:95'
+        46 => 'previewDraft:97'
+        47 => 'editStructure:7'
+        48 => 'previewDraft:99'
+        49 => 'previewElement:1607'
+        50 => 'previewElement:1291'
+        51 => 'previewDraft:100'
+        52 => 'previewDraft:101'
+    ]
+    'cp-notice' => 'Notification saved'
+    'Field saved' => true
+    'Notification saved' => true
+    '8f2c3cf96b939295061eb13a81ccc27a__token' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    '8f2c3cf96b939295061eb13a81ccc27a__id' => 1
+    '__authKey' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    '8f2c3cf96b939295061eb13a81ccc27a__expire' => 1691488789
+    '__duration' => 3600
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.whitenoise.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/116.0'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://local.whitenoise.com/admin/entries/briefingForms?source=section%3Ab613214a-51ce-444e-823e-fba5b6dd7ee2'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_REGISTERED_ASSET_BUNDLES' => ',verbb\\cpnav\\assetbundles\\CpNavAsset,verbb\\base\\assetbundles\\CpAsset,craft\\web\\assets\\cp\\CpAsset,craft\\web\\assets\\tailwindreset\\TailwindResetAsset,craft\\web\\assets\\axios\\AxiosAsset,craft\\web\\assets\\d3\\D3Asset,craft\\web\\assets\\elementresizedetector\\ElementResizeDetectorAsset,craft\\web\\assets\\garnish\\GarnishAsset,yii\\web\\JqueryAsset,craft\\web\\assets\\jquerytouchevents\\JqueryTouchEventsAsset,craft\\web\\assets\\velocity\\VelocityAsset,craft\\web\\assets\\jqueryui\\JqueryUiAsset,craft\\web\\assets\\jquerypayment\\JqueryPaymentAsset,craft\\web\\assets\\datepickeri18n\\DatepickerI18nAsset,craft\\web\\assets\\picturefill\\PicturefillAsset,craft\\web\\assets\\selectize\\SelectizeAsset,craft\\web\\assets\\fileupload\\FileUploadAsset,craft\\web\\assets\\xregexp\\XregexpAsset,craft\\web\\assets\\fabric\\FabricAsset,craft\\web\\assets\\iframeresizer\\IframeResizerAsset,carlcs\\redactorcustomstyles\\assets\\customcp\\CustomCpAsset,verbb\\smith\\assetbundles\\SmithAsset,craft\\web\\assets\\matrix\\MatrixAsset,doublesecretagency\\cpcss\\web\\assets\\CustomAssets'
+    'HTTP_X_REGISTERED_JS_FILES' => ',http://local.whitenoise.com/cpresources/1f8e0626/tailwind_reset.js?v=1690890157,http://local.whitenoise.com/cpresources/28e210ea/axios.js?v=1690890157,http://local.whitenoise.com/cpresources/ee63805/d3.js?v=1690890157,http://local.whitenoise.com/cpresources/cfc835ee/element-resize-detector.js?v=1690890157,http://local.whitenoise.com/cpresources/ca282a06/jquery.js?v=1690890157,http://local.whitenoise.com/cpresources/9cd55eac/jquery.mobile-events.js?v=1690890157,http://local.whitenoise.com/cpresources/99118379/velocity.js?v=1690890157,http://local.whitenoise.com/cpresources/76b987af/garnish.js?v=1690890157,http://local.whitenoise.com/cpresources/c0cfba10/jquery-ui.js?v=1690890157,http://local.whitenoise.com/cpresources/9c8681ce/jquery.payment.js?v=1690890157,http://local.whitenoise.com/cpresources/928d0809/datepicker-en-GB.js?v=1690890157,http://local.whitenoise.com/cpresources/a0dd5b10/picturefill.js?v=1690890157,http://local.whitenoise.com/cpresources/189bbc04/selectize.js?v=1690890157,http://local.whitenoise.com/cpresources/deb46cbb/jquery.fileupload.js?v=1690890157,http://local.whitenoise.com/cpresources/ab65e610/xregexp-all.js?v=1690890157,http://local.whitenoise.com/cpresources/5e0bb0b8/fabric.js?v=1690890157,http://local.whitenoise.com/cpresources/58731b2/iframeResizer.js?v=1690890157,http://local.whitenoise.com/cpresources/14d31e4c/cp.js?v=1690890157,http://local.whitenoise.com/cpresources/ea050731/js/verbb-ui.js?v=1690890157,http://local.whitenoise.com/cpresources/2b83d9da/js/cp-nav.js?v=1690890157,http://local.whitenoise.com/cpresources/46faf2ff/MatrixInput.js?v=1690890235,http://local.whitenoise.com/cpresources/4ac267bb/js/smith.js?v=1690890235'
+    'HTTP_X_CSRF_TOKEN' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    'HTTP_ORIGIN' => 'http://local.whitenoise.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '8f2c3cf96b939295061eb13a81ccc27a_username=c756a378f9ad4b95b39abb629ac78d6924bfe5af5bf71406651b02291bd6276ba%3A2%3A%7Bi%3A0%3Bs%3A41%3A%228f2c3cf96b939295061eb13a81ccc27a_username%22%3Bi%3A1%3Bs%3A5%3A%22admin%22%3B%7D; CRAFT_CSRF_TOKEN=19ca83dc078a30a26e3d841067a4fc33cb4de15c091962a4c28fd9cb423d2453a%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22CRAFT_CSRF_TOKEN%22%3Bi%3A1%3Bs%3A147%3A%22vcgU3RtVbXInxPf-jZM83g8lQDvO2WRD_Vzv0Zg6%7Cad4733d809827bb162f6e2c107e5263a5fddede97746d3d55146b0824b526331vcgU3RtVbXInxPf-jZM83g8lQDvO2WRD_Vzv0Zg6%7C1%22%3B%7D; CraftSessionId=9kf9mi9n4rmm7uqsr5o3atfl2k; cookieconsent_status=allow; 8f2c3cf96b939295061eb13a81ccc27a_identity=d425ca449efb75f17784cc8043bf7a90795863e0149b05808fcc087e65bed247a%3A2%3A%7Bi%3A0%3Bs%3A41%3A%228f2c3cf96b939295061eb13a81ccc27a_identity%22%3Bi%3A1%3Bs%3A159%3A%22%5B1%2C%22%5B%5C%22RYVb0Y9Mgyojj8gpdX6_PLP0bYMcBJ3Qute9awfEYhcPO6bna9fmw8_6I5DxK6oqIo0Eq8wH689AXgsYjvuoLbns5UOKkZ_B_3JK%5C%22%2Cnull%2C%5C%22f2138246781f76a1407401847c35337f%5C%22%5D%22%2C3600%5D%22%3B%7D'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/8.2.0 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1'
+    'SERVER_NAME' => 'local.whitenoise.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/local.whitenoise.com/public_html/index.php'
+    'REMOTE_PORT' => '56240'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'p=admin%2Factions%2Fqueue%2Frun&v=1691485188494'
+    'REQUEST_URI' => '/index.php?p=admin%2Factions%2Fqueue%2Frun&v=1691485188494'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1691485188.4942
+    'REQUEST_TIME' => 1691485188
+    'CRAFT_APP_ID' => 'CraftCMS--4f80cc3b-76dd-45b1-9147-bc8717a572d4'
+    'CRAFT_ENVIRONMENT' => 'dev'
+    'CRAFT_SECURITY_KEY' => '••••••••••••••••••••••••••••••••'
+    'CRAFT_DB_DRIVER' => 'mysql'
+    'CRAFT_DB_SERVER' => '127.0.0.1'
+    'CRAFT_DB_PORT' => '8889'
+    'CRAFT_DB_DATABASE' => 'whitenoise'
+    'CRAFT_DB_USER' => 'root'
+    'CRAFT_DB_PASSWORD' => '••••'
+    'CRAFT_DB_SCHEMA' => ''
+    'CRAFT_DB_TABLE_PREFIX' => ''
+    'DEV_MODE' => 'true'
+    'ALLOW_ADMIN_CHANGES' => 'true'
+    'DISALLOW_ROBOTS' => 'true'
+    'DEFAULT_SITE_NAME' => 'Whitenoise Studios'
+    'PRIMARY_SITE_URL' => 'http://local.whitenoise.com/'
+] {"userId":1} 

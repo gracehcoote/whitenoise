@@ -1,31 +1,23 @@
-dateApplied: '2023-08-02 12:45:21'
+dateApplied: '2023-08-07 14:57:01'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690976619
-        to: 1690976721
+        from: 1691412193
+        to: 1691416621
   -
-    message: 'Save field “soundStudioServices”'
+    message: 'Change settings for plugin “freeform”'
     changed:
-      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.handle:
-        from: soundStudioService
-        to: soundStudioServices
-      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.name:
-        from: 'Sound Studio Service'
-        to: 'Sound Studio Services'
-      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.1.1.__assoc__.2.1:
+      plugins.freeform.settings.allowFileTemplateEdit:
+        from: 1
+        to: '1'
+      plugins.freeform.settings.clientDigestRecipients:
         from: null
         to: ''
-      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.defaults.0.__assoc__.0.1:
+      plugins.freeform.settings.hideBannerDemo:
+        from: false
+        to: true
+      plugins.freeform.settings.sessionContextSecret:
         from: null
         to: ''
-      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.defaults.0.__assoc__.2.1:
-        from: null
-        to: ''
-  -
-    changed:
-      meta.__names__.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac:
-        from: 'Sound Studio Service'
-        to: 'Sound Studio Services'

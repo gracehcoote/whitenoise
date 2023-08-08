@@ -1,26 +1,31 @@
-dateApplied: '2023-08-02 12:02:04'
+dateApplied: '2023-08-02 12:45:21'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690974119
-        to: 1690974123
+        from: 1690976619
+        to: 1690976721
   -
-    message: 'Save field “introTextRightColumn”'
+    message: 'Save field “soundStudioServices”'
     changed:
-      fields.0499b203-3226-46f7-a942-f210773facd9.fieldGroup:
-        from: d65dd566-89fb-49fd-944c-9ebbc1cdad44
-        to: f8e8eec1-974e-4485-8dc8-e4cd25204baa
-      fields.0499b203-3226-46f7-a942-f210773facd9.settings.availableTransforms:
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.handle:
+        from: soundStudioService
+        to: soundStudioServices
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.name:
+        from: 'Sound Studio Service'
+        to: 'Sound Studio Services'
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.1.1.__assoc__.2.1:
         from: null
         to: ''
-      fields.0499b203-3226-46f7-a942-f210773facd9.settings.availableVolumes:
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.defaults.0.__assoc__.0.1:
         from: null
         to: ''
-      fields.0499b203-3226-46f7-a942-f210773facd9.settings.defaultTransform:
+      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.defaults.0.__assoc__.2.1:
         from: null
         to: ''
-      fields.0499b203-3226-46f7-a942-f210773facd9.settings.manualConfig:
-        from: null
-        to: ''
+  -
+    changed:
+      meta.__names__.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac:
+        from: 'Sound Studio Service'
+        to: 'Sound Studio Services'

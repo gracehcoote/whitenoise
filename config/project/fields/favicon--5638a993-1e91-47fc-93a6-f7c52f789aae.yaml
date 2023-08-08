@@ -2,7 +2,7 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: d4243c19-5c01-4c63-9754-11d398a4cbac # Meta
 handle: favicon
-instructions: null
+instructions: '310 x 310px, transparent PNG'
 name: Favicon
 searchable: false
 settings:
@@ -36,7 +36,7 @@ settings:
         - class
         - craft\elements\conditions\assets\AssetCondition
   selectionLabel: 'Select an asset'
-  showSiteMenu: false
+  showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   sources: '*'

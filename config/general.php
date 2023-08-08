@@ -29,6 +29,7 @@ return GeneralConfig::create()
     // Set the @webroot alias so the clear-caches command knows where to find CP resources
     ->maxUploadFileSize(26214400)
     ->transformGifs(false)
+    ->extraAllowedFileExtensions(['webm', 'ico', 'svg', 'xml', 'json', 'webmanifest', 'ogg', 'ogv', 'key'])
     ->aliases([
         '@webroot' => dirname(__DIR__) . '/public_html',
     ])

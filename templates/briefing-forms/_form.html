@@ -1,0 +1,37 @@
+{% extends "_layouts/_base" %}
+
+{% block seo %}
+{% include "_includes/seo" %}
+{% endblock %}
+
+{% set bodyClass = 'black-no-overlay' %}
+
+{% block headContent %}
+
+{% endblock %}
+
+{% block main %}
+
+<section>
+  <div class="section-container py-6">
+    <h1 class="mb-4">{{ entry.title }} Briefing Form</h1>
+  </div><!-- end section-container -->
+
+  <div class="section-container max-width py-6">
+    <div class="shadow form-container">
+      <h2 id="job-title" class="medium text-center mb-4">{{ entry.title }}</h2>
+
+      {% if entry.textBlock %}
+      {{ entry.textBlock }}
+      <hr class="my-5">
+      {% endif %}
+
+      {{ entry.form.render() }}
+    </div>
+    
+  </div><!-- end section-container -->
+</section>
+{% endblock %}
+
+{% block javascript %}
+{% endblock %}

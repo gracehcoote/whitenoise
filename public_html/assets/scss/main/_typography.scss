@@ -257,7 +257,6 @@ p {
 
   a {
     color: $black;
-    text-decoration: underline;
     transition: 0.4s;
 
     &:hover {
@@ -297,7 +296,7 @@ ol {
   }
 }
 
-ul:not(.nav) {
+ul:not(.nav):not(.crumbs) {
   li {
     margin-bottom: 1rem;
   }
@@ -329,6 +328,38 @@ ul.inline-list {
     &:not(:last-child) {
       margin-right: 1rem;
       padding-right: 1rem;
+    }
+  }
+}
+
+.body-text {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  ol {
+    + { h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          margin-top: 3rem;
+        }
+    }
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+
+  p {
+    a {
+      text-decoration: underline;
     }
   }
 }

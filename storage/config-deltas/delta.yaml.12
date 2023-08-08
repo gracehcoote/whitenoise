@@ -1,23 +1,14 @@
-dateApplied: '2023-08-02 12:48:21'
+dateApplied: '2023-08-07 15:14:11'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690976721
-        to: 1690976901
+        from: 1691417610
+        to: 1691417651
   -
-    message: 'Save field “soundStudioServices”'
+    message: 'Save the “careerApplicationFiles” filesystem'
     changed:
-      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.1.1.__assoc__.2.1:
-        from: null
-        to: ''
-      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.2.1.__assoc__.3.1:
-        from: singleline
-        to: multiline
-      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.defaults.0.__assoc__.0.1:
-        from: null
-        to: ''
-      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.defaults.0.__assoc__.2.1:
-        from: null
-        to: ''
+      fs.careerApplicationFiles.hasUrls:
+        from: true
+        to: false

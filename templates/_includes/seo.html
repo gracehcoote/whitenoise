@@ -1,8 +1,8 @@
 {% set title = entry.seoTitle ?? entry.pageTitle ?? entry.title ?? title ?? null %}
-{% set description = entry.seoDescription ?? null %}
+{% set description = entry.seoDescription ?? entry.subtitle ?? null %}
 {% set pageOgImage = entry.ogImage.one() ?? null %}
 {% set globalOgImage = siteInfo.ogImage.one() %}
-{% set heroImage = entry.heroImage.one() ?? null %}
+{% set heroImage = entry.heroImage.one() ?? entry.imageThumbnail.one() ?? null %}
 {% set locale = craft.app.locale %}
 {% set locales = craft.app.i18n.siteLocaleIds|without(locale) %}
 <title>{% if title|length %}{{ title }}{% endif %} - {{ siteInfo.companyName }}</title>
@@ -39,3 +39,4 @@
 {% endif %}
 <link rel="home" href="{{ siteUrl }}" />
 <link rel="canonical" href="{{ craft.app.request.absoluteUrl }}">
+ 

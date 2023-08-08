@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: briefingForms
+name: 'Briefing Forms'
+propagationMethod: all
+siteSettings:
+  dbb4a582-e95f-47f0-bc3e-7a176a701c48: # $DEFAULT_SITE_NAME
+    enabledByDefault: true
+    hasUrls: true
+    template: briefing-forms/_form.html
+    uriFormat: 'briefing-forms/{slug}'
+structure:
+  maxLevels: null
+  uid: 61384318-f422-4151-90c0-1e18dec07ef9
+type: structure

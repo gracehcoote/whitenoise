@@ -1,0 +1,44 @@
+{# subject: New {{ form.name }} submission #}
+{# fromEmail: {{ craft.app.projectConfig.get('email.fromEmail') }} #}
+{# fromName: {{ craft.app.projectConfig.get('email.fromName') }} #}
+{# replyToName: {{ craft.app.projectConfig.get('email.fromName') }} #}
+{# replyToEmail: {{ craft.app.projectConfig.get('email.fromEmail') }} #}
+{# cc:  #}
+{# bcc:  #}
+{# includeAttachments: true #}
+{# presetAssets:  #}
+{# templateName: Admin Contact Notification #}
+{# description: Admin form submission notification email template #}
+
+{% extends "_layouts/_email-notifications" %}
+
+{% block content %}
+
+<h2 style="margin-bottom: 0;">New {{ form.name }} submission</h2>
+<p>Submitted on: {{ dateCreated|date('l, F j, Y \\a\\t g:ia') }}</p>
+
+<ul>
+    {% for field in allFields %}
+        <li style="margin-bottom: 1em;"><strong>{{ field.label }}:</strong><br> {{ field.valueAsString }}</li>
+    {% endfor %}
+</ul>
+
+
+
+{% endblock %}
+
+
+
+{# text #}
+New {{ form.name }} submission.
+Submitted on: {{ dateCreated|date('l, F j, Y \\a\\t g:ia') }}
+
+{% for field in allFields %}
+    - {{ field.label }}: {{ field.valueAsString }}
+{% endfor %}
+
+
+
+
+
+{# /text #}

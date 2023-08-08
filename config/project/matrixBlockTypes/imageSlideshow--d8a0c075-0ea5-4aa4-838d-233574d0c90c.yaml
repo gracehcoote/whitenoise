@@ -31,6 +31,18 @@ fieldLayouts:
             width: 50
           -
             elementCondition: null
+            fieldUid: 7cf7c89c-868b-4bd0-8296-177d113c53b4 # Slider Type
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cf410bb7-ade1-4db0-9a3a-cc327c095e00
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 78b7ec25-ca51-442f-81b1-516f79f96d66 # Image(s)
             instructions: null
             label: null
@@ -50,7 +62,7 @@ fields:
     contentColumnType: string
     fieldGroup: null
     handle: blockWidth
-    instructions: null
+    instructions: 'Note: this will only apply for the Slideshow slider type.'
     name: 'Block Width'
     searchable: false
     settings:
@@ -74,6 +86,41 @@ fields:
             -
               - value
               - contained
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  7cf7c89c-868b-4bd0-8296-177d113c53b4: # Slider Type
+    columnSuffix: rzfhsukk
+    contentColumnType: string
+    fieldGroup: null
+    handle: sliderType
+    instructions: null
+    name: 'Slider Type'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'Slideshow (1 image per slide, pagination & arrows)'
+            -
+              - value
+              - slideshow
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - 'Carousel (2 images per slide, progress bar)'
+            -
+              - value
+              - carousel
             -
               - default
               - ''

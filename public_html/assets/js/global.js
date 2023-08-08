@@ -1,8 +1,8 @@
 $(document).ready(function(){
   // Compensate for nav bar height
-  var headerHeight = $('.navigation-bar').outerHeight();
-  var navSpacerTop = headerHeight;
-  $('nav#global, footer#global-footer').css('padding-top', navSpacerTop + 'px');
+  //var headerHeight = $('.navigation-bar').outerHeight();
+  //var navSpacerTop = headerHeight;
+  //$('nav#global, footer#global-footer').css('padding-top', navSpacerTop + 'px');
 
   // Show/hide navigation
   $('.toggle-nav').click(function(e){

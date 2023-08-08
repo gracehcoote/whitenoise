@@ -20,16 +20,19 @@
 		<div class="section-container">
 			<div class="row justify-content-between">
 				<div class="col-lg-8 mb-5 mb-lg-0">
-					{% if entry.textBlock %}
-					{{ entry.textBlock }}
+          {% if entry.textBlock %}
+          <div class="shadow body-text p-3 p-sm-4 p-md-5 p-lg-6">
+            {{ entry.textBlock }}
+          </div>
 					{% endif %}
 				</div><!-- end col -->
 
-				<div class="col-lg-4 col-xxl-3 ps-lg-6 ps-xxl-0">
+				<div class="col-lg-4 col-xxl-3">
 					<div class="dark p-3">
+            <h6 class="mb-3">Our Contact Information</h6>
             {% set locations = siteInfo.locations.all() %}
-          {% if locations %}
-          {% for location in locations %}
+            {% if locations %}
+            {% for location in locations %}
             <h5>{{ location.locationName }}</h5>
             <p>{{ location.address|nl2br}}</p>
             
@@ -43,70 +46,70 @@
 
             <hr class="small light">
 
-          {% endfor %}
-          {% endif %}
-
-          <p>
-          {% if siteInfo.phoneNumber %}
-            {{ siteInfo.phoneNumber }}<br>
-          {% endif %}
-          {% if siteInfo.emailAddress %}
-            <a class="tw-semibold" href="mailto:{{ siteInfo.emailAddress }}">{{ siteInfo.emailAddress }}</a><br>
-          {% endif %}
-            <a class="tw-semibold" href="https://whitenoisestudios.com">whitenoisestudios.com</a>
-          </p>
-
-          {% if siteInfo.facebook or siteInfo.instagram or siteInfo.linkedin or siteInfo.pinterest or siteInfo.tiktok or siteInfo.twitter or siteInfo.vimeo or siteInfo.youtube %}
-          <ul class="social">
-            {% if siteInfo.facebook %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ siteInfo.facebook }}"><i class="fab fa-facebook"></i></a>
-            </li>
+            {% endfor %}
             {% endif %}
 
-            {% if siteInfo.instagram %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ siteInfo.instagram }}"><i class="fab fa-instagram"></i></a>
-            </li>
+            <p>
+            {% if siteInfo.phoneNumber %}
+              {{ siteInfo.phoneNumber }}<br>
             {% endif %}
+            {% if siteInfo.emailAddress %}
+              <a class="tw-semibold" href="mailto:{{ siteInfo.emailAddress }}">{{ siteInfo.emailAddress }}</a><br>
+            {% endif %}
+              <a class="tw-semibold" href="https://whitenoisestudios.com">whitenoisestudios.com</a>
+            </p>
 
-            {% if siteInfo.linkedin %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ siteInfo.linkedin }}"><i class="fab fa-linkedin"></i></a>
-            </li>
-            {% endif %}
+            {% if siteInfo.facebook or siteInfo.instagram or siteInfo.linkedin or siteInfo.pinterest or siteInfo.tiktok or siteInfo.twitter or siteInfo.vimeo or siteInfo.youtube %}
+            <ul class="social">
+              {% if siteInfo.facebook %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ siteInfo.facebook }}"><i class="fab fa-facebook"></i></a>
+              </li>
+              {% endif %}
 
-            {% if siteInfo.pinterest %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ siteInfo.pinterest }}"><i class="fab fa-pinterest"></i></a>
-            </li>
-            {% endif %}
+              {% if siteInfo.instagram %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ siteInfo.instagram }}"><i class="fab fa-instagram"></i></a>
+              </li>
+              {% endif %}
 
-            {% if siteInfo.tiktok %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ siteInfo.tiktok }}"><i class="fab fa-tiktok"></i></a>
-            </li>
-            {% endif %}
+              {% if siteInfo.linkedin %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ siteInfo.linkedin }}"><i class="fab fa-linkedin"></i></a>
+              </li>
+              {% endif %}
 
-            {% if siteInfo.twitter %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ siteInfo.twitter }}"><i class="fab fa-twitter"></i></a>
-            </li>
-            {% endif %}
+              {% if siteInfo.pinterest %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ siteInfo.pinterest }}"><i class="fab fa-pinterest"></i></a>
+              </li>
+              {% endif %}
 
-            {% if siteInfo.vimeo %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ siteInfo.vimeo }}"><i class="fab fa-vimeo"></i></a>
-            </li>
-            {% endif %}
+              {% if siteInfo.tiktok %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ siteInfo.tiktok }}"><i class="fab fa-tiktok"></i></a>
+              </li>
+              {% endif %}
 
-            {% if siteInfo.youtube %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ siteInfo.youtube }}"><i class="fab fa-youtube"></i></a>
-            </li>
+              {% if siteInfo.twitter %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ siteInfo.twitter }}"><i class="fab fa-twitter"></i></a>
+              </li>
+              {% endif %}
+
+              {% if siteInfo.vimeo %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ siteInfo.vimeo }}"><i class="fab fa-vimeo"></i></a>
+              </li>
+              {% endif %}
+
+              {% if siteInfo.youtube %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ siteInfo.youtube }}"><i class="fab fa-youtube"></i></a>
+              </li>
+              {% endif %}
+            </ul>
             {% endif %}
-          </ul>
-        {% endif %}
 				</div><!-- end col -->
 			</div><!-- end row -->
 		</div><!-- end section-container -->

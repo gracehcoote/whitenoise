@@ -2,7 +2,7 @@ columnSuffix: rrncvwcp
 contentColumnType: string
 fieldGroup: f8e8eec1-974e-4485-8dc8-e4cd25204baa # Common
 handle: headerColour
-instructions: "This will allow you to set the logo and the navigation icon to either black or white, which can be useful for pages like Newsroom articles with light-coloured hero images.\r\nThe default setting is white."
+instructions: "This will allow you to set the logo and the navigation icon to either black or white, which can be useful for pages with light-coloured hero images.\r\nThe default setting is white."
 name: 'Header Colour'
 searchable: false
 settings:

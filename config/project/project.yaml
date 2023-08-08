@@ -1,5 +1,51 @@
-dateModified: 1691155516
+dateModified: 1691485137
 elementSources:
+  craft\elements\Asset:
+    -
+      defaultSort:
+        - dateCreated
+        - desc
+      disabled: false
+      key: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9' # Meta
+      tableAttributes:
+        - filename
+        - size
+        - dateModified
+        - link
+      type: native
+    -
+      key: 'volume:88345c9b-bba7-481d-b7be-a56f256bad79' # Uploads
+      type: native
+    -
+      key: 'volume:dfb10236-499f-43e8-b5e9-c1ee7d4e58ed' # Client Logos
+      type: native
+    -
+      key: 'volume:9e71b1fa-79a1-483a-b43f-9a9855cc5108' # Audio
+      type: native
+    -
+      key: 'volume:132246f9-c0e6-4f99-a712-62365f4bf939' # Videos
+      type: native
+    -
+      heading: ''
+      type: heading
+    -
+      key: 'volume:1544ef0f-cf56-4850-a153-9b5bb47e6064' # Documents
+      type: native
+    -
+      key: 'volume:9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38' # Career Application Files
+      type: native
+    -
+      defaultSort:
+        - dateCreated
+        - desc
+      disabled: true
+      key: 'folder:57b24c2b-4fae-4bf4-9d6a-9ee88bb9bad7'
+      tableAttributes:
+        - filename
+        - size
+        - dateModified
+        - link
+      type: native
   craft\elements\Entry:
     -
       defaultSort:
@@ -83,7 +129,7 @@ fs:
     type: craft\fs\Local
     url: '@web/assets/cms/audio'
   careerApplicationFiles:
-    hasUrls: true
+    hasUrls: false
     name: 'Career Application Files'
     settings:
       path: '@webroot/assets/cms/application-files'
@@ -103,6 +149,13 @@ fs:
       path: '@webroot/assets/cms/documents'
     type: craft\fs\Local
     url: '@web/assets/cms/documents'
+  formFiles:
+    hasUrls: false
+    name: 'Form Files'
+    settings:
+      path: '@webroot/assets/cms/form-files'
+    type: craft\fs\Local
+    url: null
   meta:
     hasUrls: true
     name: Meta
@@ -168,6 +221,7 @@ meta:
     7bee1e32-7f18-4448-95ee-9cfc3b0ed3db: 'Block Width' # Block Width
     7bf25c78-6521-4c16-92af-00826343b035: Work # Work
     07cac246-2cc1-402e-ad2b-a549aac34326: 'Announcement Text' # Announcement Text
+    7cf7c89c-868b-4bd0-8296-177d113c53b4: 'Slider Type' # Slider Type
     7f2c84a0-f102-4d22-9635-5948fed536c7: 'Thumb 480 x 270' # Thumb 480 x 270
     8a79ebaa-bbbe-44fa-af12-dc55acafcf31: 'Announcement Button Text' # Announcement Button Text
     8b8e90e2-3152-4e63-8145-70715f8d6116: Projects # Projects
@@ -218,6 +272,7 @@ meta:
     756d642c-6246-4f4e-8537-32630250456f: 'Favicon 16x16' # Favicon 16x16
     766fddc9-ccdf-4523-acca-d1aeca7b3800: 'Closing Date' # Closing Date
     812ed655-de97-4974-b556-2b648aa8d926: 'Google Maps Link' # Google Maps Link
+    0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a: 'Form Files' # Form Files
     918a41b0-2cc1-4437-a0d9-20d8124c2318: 'Favicon .ico' # Favicon .ico
     1013d0af-42f2-4277-8692-ca5f66ef4588: 'SEO Description' # SEO Description
     1463eb46-b3bc-45c9-81a3-b89fcb1727aa: 'Thumb 512 x 288' # Thumb 512 x 288
@@ -260,7 +315,6 @@ meta:
     a3f76f51-1422-4bfe-a045-3f06cad0c550: 'Sound Studio' # Sound Studio
     a4a25770-eaa8-46ce-8b3b-71a8c8b20614: 'Favicon 32x32' # Favicon 32x32
     a6d4b9df-3107-45d2-ac86-437b4cb6b050: 'Favicon 76x76' # Favicon 76x76
-    a8e2e079-7f11-403c-b358-c93b93a0c992: 'Image Carousel' # Image Carousel
     a14c2dbb-8a00-4c4a-b85b-480a97252c6a: 'Favicon 310x310' # Favicon 310x310
     a57e9e8d-4692-4656-b269-1682179f4fc2: Globals # Globals
     a59ae7c5-8219-4ff7-922e-ec099cf53e73: Image/ImageGrid # Image/ImageGrid
@@ -272,8 +326,10 @@ meta:
     ae375820-3398-4233-97c9-880f9bc88381: 'Hero Image' # Hero Image
     aed785a3-b437-4c3d-9594-430b1b054cb4: 'Careers - Roles' # Careers - Roles
     b0d70358-47f0-4a3e-a0e8-32b83f8a8f76: 'WebM File' # WebM File
+    b1bbaf26-44a5-41ee-bdbd-a54b700dab4e: Default # Default
     b4f2bb50-338e-4111-8725-f254bc3b87b0: Statistic # Statistic
     b919de39-a74a-41ba-8366-3e3bfa181650: 'Favicon 72x72' # Favicon 72x72
+    b613214a-51ce-444e-823e-fba5b6dd7ee2: 'Briefing Forms' # Briefing Forms
     b6822878-090b-45fc-b637-6ccf6bed2f40: Work # Work
     bb59bfee-cc92-4c30-b875-71226f739843: Subtitle # Subtitle
     bc7dee95-9e7b-471a-9e0b-7774fffe011c: 'Block Background Colour' # Block Background Colour
@@ -350,7 +406,7 @@ plugins:
     enabled: true
     schemaVersion: 1.0.1
     settings:
-      allow: 'Allow cookies'
+      allow: Accept
       async_js: ''
       auto_inject: '1'
       decline: Decline
@@ -365,17 +421,17 @@ plugins:
       honour_do_not_track_header: ''
       layout: block
       learn: 'Learn More'
-      learn_more_link: 'http://cookiesandyou.com/'
-      message: 'This website uses cookies to ensure you get the best experience on our website.'
+      learn_more_link: cookie-policy
+      message: 'By clicking Accept, you agree to the use of cookies to analyse site usage. We provide full information on how cookies are used on our website here:'
       palette: default
-      palette_banner: '000000'
+      palette_banner: 1a1a1a
       palette_banner_text: ffffff
-      palette_button: f1d600
-      palette_button_text: '000000'
-      palette_left_button_bg: f8e71c
-      palette_left_button_text: '000000'
+      palette_button: FFCD00
+      palette_button_text: 1a1a1a
+      palette_left_button_bg: '525252'
+      palette_left_button_text: ffffff
       palette_link: ffffff
-      position: bottom
+      position: bottom-right
       preload_css: ''
       revokable: ''
       secure_only: ''
@@ -440,7 +496,7 @@ plugins:
       formattingTemplate: bootstrap-5.twig
       freeformHoneypot: true
       freeformHoneypotEnhancement: false
-      hideBannerDemo: false
+      hideBannerDemo: true
       hideBannerOldFreeform: false
       minimumSubmitTime: null
       pluginName: 'Contact Forms'

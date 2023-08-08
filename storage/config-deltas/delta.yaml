@@ -1,14 +1,14 @@
-dateApplied: '2023-08-04 14:25:16'
+dateApplied: '2023-08-08 09:58:57'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1691155455
-        to: 1691155516
+        from: 1691420267
+        to: 1691485137
   -
-    message: 'Save field “errorTitle”'
+    message: 'Save entry type “default”'
     changed:
-      fields.27380490-0137-4d35-9b9f-cecc8d83b599.instructions:
-        from: null
-        to: 'If left blank, this will say "Page not found"'
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.instructions:
+        from: 'The page title will have "Briefing Form" appended to it, so you only need to enter the type e.g. "Animation", "Branding" etc.'
+        to: 'The page title will have "Briefing Form" appended to it, so you only need to enter the type e.g. "Animation", "Brand" etc.'

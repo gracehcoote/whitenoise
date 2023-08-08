@@ -60,7 +60,7 @@ export default class Validation extends BasePropertyEditor {
           instructions="The text to be shown at the top of the form if the submit is successful (AJAX), or load in your template with `form.successMessage`."
           value={successMessage}
           onChangeHandler={this.update}
-          placeholder="Form has been submitted successfully!"
+          placeholder="Thank you for your message, we'll be in touch with you as soon as possible."
         />
 
         <TextareaProperty

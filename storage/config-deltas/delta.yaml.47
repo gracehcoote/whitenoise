@@ -1,26 +1,14 @@
-dateApplied: '2023-08-01 14:55:19'
+dateApplied: '2023-08-02 12:21:40'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690898090
-        to: 1690898119
+        from: 1690975181
+        to: 1690975299
   -
-    added:
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.elementCondition: null
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.fieldUid: 8a79ebaa-bbbe-44fa-af12-dc55acafcf31
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.instructions: null
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.label: null
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.required: false
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.tip: null
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.type: craft\fieldlayoutelements\CustomField
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.uid: 56a4b97c-b08f-4643-9806-30393cf28242
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.userCondition: null
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.warning: null
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.3.width: 50
-    message: 'Save global set “announcements”'
+    message: 'Save field “pageTitle”'
     changed:
-      globalSets.cb49ef47-da78-485c-a246-4e6d34719e67.fieldLayouts.9b2277fa-a181-4088-8bcb-1e0c16ced4a2.tabs.0.elements.2.width:
-        from: 100
-        to: 50
+      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.instructions:
+        from: 'This only affects the H1 (main heading) of the page and will not change the URL.'
+        to: "• If left blank the entry name will be used automatically\r\n• This only affects the H1 (main heading) of the page and will not change the URL"

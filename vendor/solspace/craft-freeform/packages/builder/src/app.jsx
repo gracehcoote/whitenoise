@@ -37,7 +37,7 @@ const specialFields = [
   {
     type: FieldTypes.HTML,
     label: 'HTML',
-    value: '<div>Html content</div>',
+    value: '<hr>',
   },
 ];
 
