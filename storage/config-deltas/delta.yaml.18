@@ -1,72 +1,69 @@
-dateApplied: '2023-08-07 13:39:19'
+dateApplied: '2023-08-07 15:53:37'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1691408323
-        to: 1691411959
+        from: 1691417796
+        to: 1691420013
   -
     added:
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.elementCondition: null
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.fieldUid: 78b7ec25-ca51-442f-81b1-516f79f96d66
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.instructions: null
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.label: null
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.required: true
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.tip: null
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.type: craft\fieldlayoutelements\CustomField
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.uid: 48860578-6a30-4d66-ad2f-cd45118d185a
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.userCondition: null
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.warning: null
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.width: 100
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.columnSuffix: rzfhsukk
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.contentColumnType: string
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.fieldGroup: null
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.handle: sliderType
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.instructions: null
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.name: 'Slider Type'
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.searchable: false
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.0.__assoc__.0.0: label
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.0.__assoc__.0.1: 'Slideshow (1 image per slide, pagination & arrows)'
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.0.__assoc__.1.0: value
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.0.__assoc__.1.1: slideshow
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.0.__assoc__.2.0: default
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.0.__assoc__.2.1: '1'
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.1.__assoc__.0.0: label
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.1.__assoc__.0.1: 'Carousel (2 images per slide, progress bar)'
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.1.__assoc__.1.0: value
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.1.__assoc__.1.1: carousel
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.1.__assoc__.2.0: default
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.1.__assoc__.2.1: ''
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.translationKeyFormat: null
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.translationMethod: none
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.type: craft\fields\RadioButtons
-    message: 'Save matrix block type “imageSlideshow” for parent field “contentBlocks”'
-    changed:
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.2.fieldUid:
-        from: 78b7ec25-ca51-442f-81b1-516f79f96d66
-        to: 7cf7c89c-868b-4bd0-8296-177d113c53b4
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.2.required:
-        from: true
-        to: false
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.2.uid:
-        from: 48860578-6a30-4d66-ad2f-cd45118d185a
-        to: cf410bb7-ade1-4db0-9a3a-cc327c095e00
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7bee1e32-7f18-4448-95ee-9cfc3b0ed3db.instructions:
-        from: null
-        to: 'Note: this will only apply for the Slideshow slider type.'
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7bee1e32-7f18-4448-95ee-9cfc3b0ed3db.settings.options.0.__assoc__.2.1:
-        from: 1
-        to: '1'
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7bee1e32-7f18-4448-95ee-9cfc3b0ed3db.settings.options.1.__assoc__.2.1:
-        from: null
-        to: ''
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.017fdb0e-1650-4bed-aa88-2320f4c5101a.settings.options.0.__assoc__.2.1:
-        from: 1
-        to: '1'
-      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.017fdb0e-1650-4bed-aa88-2320f4c5101a.settings.options.1.__assoc__.2.1:
-        from: null
-        to: ''
+      sections.b613214a-51ce-444e-823e-fba5b6dd7ee2.defaultPlacement: end
+      sections.b613214a-51ce-444e-823e-fba5b6dd7ee2.enableVersioning: true
+      sections.b613214a-51ce-444e-823e-fba5b6dd7ee2.handle: briefingForms
+      sections.b613214a-51ce-444e-823e-fba5b6dd7ee2.name: 'Briefing Forms'
+      sections.b613214a-51ce-444e-823e-fba5b6dd7ee2.propagationMethod: all
+      sections.b613214a-51ce-444e-823e-fba5b6dd7ee2.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.enabledByDefault: true
+      sections.b613214a-51ce-444e-823e-fba5b6dd7ee2.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.hasUrls: true
+      sections.b613214a-51ce-444e-823e-fba5b6dd7ee2.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.template: briefing-forms/_entry
+      sections.b613214a-51ce-444e-823e-fba5b6dd7ee2.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.uriFormat: 'briefing-forms/{slug}'
+      sections.b613214a-51ce-444e-823e-fba5b6dd7ee2.structure.maxLevels: null
+      sections.b613214a-51ce-444e-823e-fba5b6dd7ee2.structure.uid: 61384318-f422-4151-90c0-1e18dec07ef9
+      sections.b613214a-51ce-444e-823e-fba5b6dd7ee2.type: structure
+    message: 'Save section “briefingForms”'
   -
     added:
-      meta.__names__.7cf7c89c-868b-4bd0-8296-177d113c53b4: 'Slider Type'
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elementCondition: null
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.autocapitalize: true
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.autocomplete: false
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.autocorrect: true
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.class: null
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.disabled: false
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.elementCondition: null
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.id: null
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.instructions: null
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.label: null
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.max: null
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.min: null
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.name: null
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.orientation: null
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.placeholder: null
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.readonly: false
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.requirable: false
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.size: null
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.step: null
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.tip: null
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.title: null
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.type: craft\fieldlayoutelements\entries\EntryTitleField
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.uid: f0296d69-78c7-4033-9790-721df681f5bc
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.userCondition: null
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.warning: null
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.width: 100
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.name: Content
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.uid: 522531d4-4228-4be6-b883-18908eae0b28
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.userCondition: null
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.handle: default
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.hasTitleField: true
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.name: Default
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.section: b613214a-51ce-444e-823e-fba5b6dd7ee2
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.sortOrder: 1
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.titleFormat: null
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.titleTranslationKeyFormat: null
+      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.titleTranslationMethod: site
+    message: 'Save entry type “default”'
+  -
+    added:
+      meta.__names__.b613214a-51ce-444e-823e-fba5b6dd7ee2: 'Briefing Forms'
+  -
+    added:
+      meta.__names__.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e: Default

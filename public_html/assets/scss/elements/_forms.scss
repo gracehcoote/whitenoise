@@ -107,6 +107,10 @@ label {
     font-size: 20px;
     margin-bottom: 0.5rem;
   }
+
+  &.required {
+    margin-right: 0.5rem;
+  }
 }
 
 [data-freeform] {
@@ -122,9 +126,11 @@ label {
   position: relative;
 
   .tooltip-icon {
-    position: absolute;
-    top: 10px;
-    left: -10px;
+    @media #{$small-up} {
+      position: absolute;
+      top: 10px;
+      left: -10px;
+    }
   }
 }
 
@@ -189,7 +195,6 @@ ul.errors {
   display: inline-block;
   width: auto;
   margin: 0;
-  margin-left: 0.5rem;
   padding: 0;
   list-style: none;
 

@@ -1,23 +1,14 @@
-dateApplied: '2023-08-07 14:57:01'
+dateApplied: '2023-08-07 15:57:48'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1691412193
-        to: 1691416621
+        from: 1691420245
+        to: 1691420267
   -
-    message: 'Change settings for plugin “freeform”'
+    message: 'Save section “briefingForms”'
     changed:
-      plugins.freeform.settings.allowFileTemplateEdit:
-        from: 1
-        to: '1'
-      plugins.freeform.settings.clientDigestRecipients:
-        from: null
-        to: ''
-      plugins.freeform.settings.hideBannerDemo:
-        from: false
-        to: true
-      plugins.freeform.settings.sessionContextSecret:
-        from: null
-        to: ''
+      sections.b613214a-51ce-444e-823e-fba5b6dd7ee2.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.template:
+        from: briefing-forms/_entry
+        to: briefing-forms/_form.html

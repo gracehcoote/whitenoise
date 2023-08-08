@@ -10,7 +10,7 @@ settings:
   branchLimit: null
   localizeRelations: false
   maintainHierarchy: false
-  maxRelations: 1
+  maxRelations: null
   minRelations: null
   selectionLabel: 'Select a category'
   showSiteMenu: true

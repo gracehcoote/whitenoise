@@ -1,42 +1,16 @@
-dateApplied: '2023-08-07 12:03:21'
+dateApplied: '2023-08-07 15:13:30'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1691405724
-        to: 1691406201
+        from: 1691416621
+        to: 1691417610
   -
     added:
-      elementSources.craft\elements\Asset.0.defaultSort.0: dateCreated
-      elementSources.craft\elements\Asset.0.defaultSort.1: desc
-      elementSources.craft\elements\Asset.0.disabled: false
-      elementSources.craft\elements\Asset.0.key: 'volume:56f30d52-cee5-4f1a-b135-27ad8bbe2ad9'
-      elementSources.craft\elements\Asset.0.tableAttributes.0: filename
-      elementSources.craft\elements\Asset.0.tableAttributes.1: size
-      elementSources.craft\elements\Asset.0.tableAttributes.2: dateModified
-      elementSources.craft\elements\Asset.0.tableAttributes.3: link
-      elementSources.craft\elements\Asset.0.type: native
-      elementSources.craft\elements\Asset.1.key: 'volume:88345c9b-bba7-481d-b7be-a56f256bad79'
-      elementSources.craft\elements\Asset.1.type: native
-      elementSources.craft\elements\Asset.2.key: 'volume:dfb10236-499f-43e8-b5e9-c1ee7d4e58ed'
-      elementSources.craft\elements\Asset.2.type: native
-      elementSources.craft\elements\Asset.3.key: 'volume:9e71b1fa-79a1-483a-b43f-9a9855cc5108'
-      elementSources.craft\elements\Asset.3.type: native
-      elementSources.craft\elements\Asset.4.key: 'volume:132246f9-c0e6-4f99-a712-62365f4bf939'
-      elementSources.craft\elements\Asset.4.type: native
-      elementSources.craft\elements\Asset.5.heading: ''
-      elementSources.craft\elements\Asset.5.type: heading
-      elementSources.craft\elements\Asset.6.key: 'volume:1544ef0f-cf56-4850-a153-9b5bb47e6064'
-      elementSources.craft\elements\Asset.6.type: native
-      elementSources.craft\elements\Asset.7.key: 'volume:9390ee8c-0a4a-4b3e-bb7a-94bdc619ea38'
-      elementSources.craft\elements\Asset.7.type: native
-      elementSources.craft\elements\Asset.8.defaultSort.0: dateCreated
-      elementSources.craft\elements\Asset.8.defaultSort.1: desc
-      elementSources.craft\elements\Asset.8.disabled: true
-      elementSources.craft\elements\Asset.8.key: 'folder:57b24c2b-4fae-4bf4-9d6a-9ee88bb9bad7'
-      elementSources.craft\elements\Asset.8.tableAttributes.0: filename
-      elementSources.craft\elements\Asset.8.tableAttributes.1: size
-      elementSources.craft\elements\Asset.8.tableAttributes.2: dateModified
-      elementSources.craft\elements\Asset.8.tableAttributes.3: link
-      elementSources.craft\elements\Asset.8.type: native
+      fs.briefingFormFiles.hasUrls: false
+      fs.briefingFormFiles.name: 'Briefing Form Files'
+      fs.briefingFormFiles.settings.path: '@webroot/assets/cms/briefing-forms'
+      fs.briefingFormFiles.type: craft\fs\Local
+      fs.briefingFormFiles.url: null
+    message: 'Save the “briefingFormFiles” filesystem'

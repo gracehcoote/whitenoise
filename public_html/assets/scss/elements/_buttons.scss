@@ -93,3 +93,21 @@ button {
     margin-right: 0rem;
   }
 }
+
+.btn-list {
+  .btn {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.btn {
+  .btn-check:checked + &,
+  :not(.btn-check) + &:active,
+  &:first-child:active,
+  &.active,
+  &.show {
+    background-color: $black;
+    color: #fff;
+  }
+}

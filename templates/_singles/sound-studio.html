@@ -24,7 +24,7 @@
     alt="{{ heroImage.title }}" 
     sizes="100vw" 
     srcset="
-      {{ heroImage.url('thumb480X270') }} 480w,
+      {{ heroImage.url('thumb480X480') }} 480w,
       {{ heroImage.url('thumb512X288') }} 512w,
       {{ heroImage.url('thumb768X432') }} 768w,
       {{ heroImage.url('thumb960X540') }} 960w,
@@ -56,7 +56,7 @@
   {% set samples = entry.soundStudioSamples.all() %}
   {% if samples %}
   <div class="section-container max-width-wide">
-    <h4 class="text-center mb-5">Some samples of our work</h4>
+    <h4 class="text-center mb-msm-3 mb-sm-5">Some samples of our work</h4>
 
     <div class="row gy-2 justify-content-center">
       {% for sample in samples %}
@@ -158,7 +158,7 @@
   </div><!-- end section-container -->
 
   <div class="section-container max-width">
-    <div class="shadow p-4">
+    <div class="mob-shadow-none shadow p-4">
       <h2 class="medium text-center mb-4">Get in touch</h2>
       {{ craft.freeform.form("soundStudioContact").render() }}
     </div>
@@ -168,9 +168,9 @@
 
 {% set clientLogos = entry.clientLogos.all() %}
 {% if clientLogos %}
-<section class="pb-7 pb-lg-10 pb-xl-12 pb-xxl-14">
-  <div class="section-container x-narrow p-0">
-    <h4 class="text-center mb-7">We are proud to work with</h4>
+<section class="pb-5 pb-lg-10 pb-xl-12 pb-xxl-14">
+  <div class="section-container x-narrow">
+    <h4 class="text-center">We are proud to work with</h4>
   </div><!-- end section-container -->
 
   {% if clientLogos|length > 9 %}
@@ -246,6 +246,9 @@ if($('.splide-rtl').length > 0) {
       991: {
         perPage: 4,
       },
+      667: {
+        perPage: 3,
+      },
       480: {
         perPage: 2,
       },
@@ -262,6 +265,9 @@ if($('.splide-ltr').length > 0) {
     breakpoints: {
       991: {
         perPage: 4,
+      },
+      667: {
+        perPage: 3,
       },
       480: {
         perPage: 2,

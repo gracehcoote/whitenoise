@@ -1,22 +1,20 @@
-dateApplied: '2023-08-03 10:53:51'
+dateApplied: '2023-08-07 11:53:30'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1691055584
-        to: 1691056430
+        from: 1691405573
+        to: 1691405610
   -
-    added:
-      entryTypes.721c991d-83b0-44ba-87e5-feaf81b49043.fieldLayouts.4a9006df-131f-493e-aec0-d817150e7b01.tabs.0.elements.2.elementCondition: null
-      entryTypes.721c991d-83b0-44ba-87e5-feaf81b49043.fieldLayouts.4a9006df-131f-493e-aec0-d817150e7b01.tabs.0.elements.2.fieldUid: 9e42d781-7ec4-4ffc-bcb0-b0990f578c4b
-      entryTypes.721c991d-83b0-44ba-87e5-feaf81b49043.fieldLayouts.4a9006df-131f-493e-aec0-d817150e7b01.tabs.0.elements.2.instructions: null
-      entryTypes.721c991d-83b0-44ba-87e5-feaf81b49043.fieldLayouts.4a9006df-131f-493e-aec0-d817150e7b01.tabs.0.elements.2.label: null
-      entryTypes.721c991d-83b0-44ba-87e5-feaf81b49043.fieldLayouts.4a9006df-131f-493e-aec0-d817150e7b01.tabs.0.elements.2.required: false
-      entryTypes.721c991d-83b0-44ba-87e5-feaf81b49043.fieldLayouts.4a9006df-131f-493e-aec0-d817150e7b01.tabs.0.elements.2.tip: null
-      entryTypes.721c991d-83b0-44ba-87e5-feaf81b49043.fieldLayouts.4a9006df-131f-493e-aec0-d817150e7b01.tabs.0.elements.2.type: craft\fieldlayoutelements\CustomField
-      entryTypes.721c991d-83b0-44ba-87e5-feaf81b49043.fieldLayouts.4a9006df-131f-493e-aec0-d817150e7b01.tabs.0.elements.2.uid: 7cbb612b-4fbe-4130-88d6-66f012a427bb
-      entryTypes.721c991d-83b0-44ba-87e5-feaf81b49043.fieldLayouts.4a9006df-131f-493e-aec0-d817150e7b01.tabs.0.elements.2.userCondition: null
-      entryTypes.721c991d-83b0-44ba-87e5-feaf81b49043.fieldLayouts.4a9006df-131f-493e-aec0-d817150e7b01.tabs.0.elements.2.warning: null
-      entryTypes.721c991d-83b0-44ba-87e5-feaf81b49043.fieldLayouts.4a9006df-131f-493e-aec0-d817150e7b01.tabs.0.elements.2.width: 100
-    message: 'Save entry type “page”'
+    message: 'Save field “headerColour”'
+    changed:
+      fields.6ca82952-fe83-4353-84c2-279fa6562e6c.instructions:
+        from: "This will allow you to set the logo and the navigation icon to either black or white, which can be useful for pages like Newsroom articles with light-coloured hero images.\r\nThe default setting is white."
+        to: "This will allow you to set the logo and the navigation icon to either black or white, which can be useful for pages with light-coloured hero images.\r\nThe default setting is white."
+      fields.6ca82952-fe83-4353-84c2-279fa6562e6c.settings.options.0.__assoc__.2.1:
+        from: 1
+        to: '1'
+      fields.6ca82952-fe83-4353-84c2-279fa6562e6c.settings.options.1.__assoc__.2.1:
+        from: null
+        to: ''

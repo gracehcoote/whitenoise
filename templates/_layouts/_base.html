@@ -86,15 +86,15 @@
   {% block body %}
     {% if announcements.announcementBarActive and bodyClass == 'home' %}
     <section id="announcement-bar">
-      <div class="section-container py-1">
-        <div class="d-flex flex-wrap justify-content-center align-items-center">
-          <div>
+      <div class="section-container py-half">
+        <div class="d-flex flex-wrap justify-content-center align-items-center text-center">
+          <div class="mx-half my-quart">
             {{ announcements.announcementText }}
           </div>
           
           {% if announcements.announcementButtonLink %}
             {% set buttonLink = announcements.announcementButtonLink.one() %}
-            <a class="btn btn-outline btn-sm ms-1" href="{{ buttonLink.url }}">{% if announcements.announcementButtonText %}{{ announcements.announcementButtonText }}{% else %}Learn more{% endif %}</a>
+            <a class="btn btn-outline btn-sm mx-half my-quart" href="{{ buttonLink.url }}">{% if announcements.announcementButtonText %}{{ announcements.announcementButtonText }}{% else %}Learn more{% endif %}</a>
           {% endif %}
         </div>
       </div><!-- end section-container -->

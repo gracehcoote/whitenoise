@@ -1,14 +1,17 @@
-dateApplied: '2023-08-03 12:12:31'
+dateApplied: '2023-08-07 11:55:24'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1691056430
-        to: 1691061151
+        from: 1691405610
+        to: 1691405724
   -
-    message: 'Save section “pages”'
+    message: 'Save field “favicon”'
     changed:
-      sections.e5f1c294-aa5c-4406-a9a3-d5a067e2efc0.siteSettings.dbb4a582-e95f-47f0-bc3e-7a176a701c48.uriFormat:
-        from: '{parent.uri}/{slug}'
-        to: '{slug}'
+      fields.5638a993-1e91-47fc-93a6-f7c52f789aae.instructions:
+        from: null
+        to: '310 x 310px, transparent PNG'
+      fields.5638a993-1e91-47fc-93a6-f7c52f789aae.settings.showSiteMenu:
+        from: false
+        to: true

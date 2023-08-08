@@ -1,14 +1,32 @@
-dateApplied: '2023-08-02 12:21:40'
+dateApplied: '2023-08-04 14:23:45'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690975181
-        to: 1690975299
+        from: 1691154933
+        to: 1691155425
   -
-    message: 'Save field “pageTitle”'
-    changed:
-      fields.4ee33dc6-65da-4bc3-8a64-ad85d9832bdf.instructions:
-        from: 'This only affects the H1 (main heading) of the page and will not change the URL.'
-        to: "• If left blank the entry name will be used automatically\r\n• This only affects the H1 (main heading) of the page and will not change the URL"
+    added:
+      fields.27380490-0137-4d35-9b9f-cecc8d83b599.columnSuffix: wjuwdkwa
+      fields.27380490-0137-4d35-9b9f-cecc8d83b599.contentColumnType: text
+      fields.27380490-0137-4d35-9b9f-cecc8d83b599.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
+      fields.27380490-0137-4d35-9b9f-cecc8d83b599.handle: errorTitle
+      fields.27380490-0137-4d35-9b9f-cecc8d83b599.instructions: null
+      fields.27380490-0137-4d35-9b9f-cecc8d83b599.name: '404 Title'
+      fields.27380490-0137-4d35-9b9f-cecc8d83b599.searchable: false
+      fields.27380490-0137-4d35-9b9f-cecc8d83b599.settings.byteLimit: null
+      fields.27380490-0137-4d35-9b9f-cecc8d83b599.settings.charLimit: null
+      fields.27380490-0137-4d35-9b9f-cecc8d83b599.settings.code: false
+      fields.27380490-0137-4d35-9b9f-cecc8d83b599.settings.columnType: null
+      fields.27380490-0137-4d35-9b9f-cecc8d83b599.settings.initialRows: 4
+      fields.27380490-0137-4d35-9b9f-cecc8d83b599.settings.multiline: false
+      fields.27380490-0137-4d35-9b9f-cecc8d83b599.settings.placeholder: null
+      fields.27380490-0137-4d35-9b9f-cecc8d83b599.settings.uiMode: normal
+      fields.27380490-0137-4d35-9b9f-cecc8d83b599.translationKeyFormat: null
+      fields.27380490-0137-4d35-9b9f-cecc8d83b599.translationMethod: none
+      fields.27380490-0137-4d35-9b9f-cecc8d83b599.type: craft\fields\PlainText
+    message: 'Save field “errorTitle”'
+  -
+    added:
+      meta.__names__.27380490-0137-4d35-9b9f-cecc8d83b599: '404 Title'

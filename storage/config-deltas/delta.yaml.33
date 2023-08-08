@@ -1,32 +1,50 @@
-dateApplied: '2023-08-04 14:23:49'
+dateApplied: '2023-08-07 12:33:26'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1691154933
-        to: 1691155425
+        from: 1691407763
+        to: 1691408006
   -
-    added:
-      fields.27380490-0137-4d35-9b9f-cecc8d83b599.columnSuffix: wjuwdkwa
-      fields.27380490-0137-4d35-9b9f-cecc8d83b599.contentColumnType: text
-      fields.27380490-0137-4d35-9b9f-cecc8d83b599.fieldGroup: a57e9e8d-4692-4656-b269-1682179f4fc2
-      fields.27380490-0137-4d35-9b9f-cecc8d83b599.handle: errorTitle
-      fields.27380490-0137-4d35-9b9f-cecc8d83b599.instructions: null
-      fields.27380490-0137-4d35-9b9f-cecc8d83b599.name: '404 Title'
-      fields.27380490-0137-4d35-9b9f-cecc8d83b599.searchable: false
-      fields.27380490-0137-4d35-9b9f-cecc8d83b599.settings.byteLimit: null
-      fields.27380490-0137-4d35-9b9f-cecc8d83b599.settings.charLimit: null
-      fields.27380490-0137-4d35-9b9f-cecc8d83b599.settings.code: false
-      fields.27380490-0137-4d35-9b9f-cecc8d83b599.settings.columnType: null
-      fields.27380490-0137-4d35-9b9f-cecc8d83b599.settings.initialRows: 4
-      fields.27380490-0137-4d35-9b9f-cecc8d83b599.settings.multiline: false
-      fields.27380490-0137-4d35-9b9f-cecc8d83b599.settings.placeholder: null
-      fields.27380490-0137-4d35-9b9f-cecc8d83b599.settings.uiMode: normal
-      fields.27380490-0137-4d35-9b9f-cecc8d83b599.translationKeyFormat: null
-      fields.27380490-0137-4d35-9b9f-cecc8d83b599.translationMethod: none
-      fields.27380490-0137-4d35-9b9f-cecc8d83b599.type: craft\fields\PlainText
-    message: 'Save field “errorTitle”'
-  -
-    added:
-      meta.__names__.27380490-0137-4d35-9b9f-cecc8d83b599: '404 Title'
+    message: 'Change settings for plugin “cookie-consent-banner”'
+    changed:
+      plugins.cookie-consent-banner.settings.async_js:
+        from: null
+        to: ''
+      plugins.cookie-consent-banner.settings.auto_inject:
+        from: 1
+        to: '1'
+      plugins.cookie-consent-banner.settings.defer_js:
+        from: null
+        to: ''
+      plugins.cookie-consent-banner.settings.disable_in_live_preview:
+        from: null
+        to: ''
+      plugins.cookie-consent-banner.settings.dismiss_on_scroll:
+        from: 0
+        to: '0'
+      plugins.cookie-consent-banner.settings.dismiss_on_timeout:
+        from: 0
+        to: '0'
+      plugins.cookie-consent-banner.settings.expiry_days:
+        from: 365
+        to: '365'
+      plugins.cookie-consent-banner.settings.honour_do_not_track_header:
+        from: null
+        to: ''
+      plugins.cookie-consent-banner.settings.palette_left_button_bg:
+        from: FFCD00
+        to: '525252'
+      plugins.cookie-consent-banner.settings.palette_left_button_text:
+        from: '000000'
+        to: ffffff
+      plugins.cookie-consent-banner.settings.preload_css:
+        from: null
+        to: ''
+      plugins.cookie-consent-banner.settings.revokable:
+        from: null
+        to: ''
+      plugins.cookie-consent-banner.settings.secure_only:
+        from: null
+        to: ''

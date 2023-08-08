@@ -1,23 +1,17 @@
-dateApplied: '2023-08-02 12:48:21'
+dateApplied: '2023-08-07 11:48:25'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690976721
-        to: 1690976901
+        from: 1691155516
+        to: 1691405304
   -
-    message: 'Save field “soundStudioServices”'
+    message: 'Save entry type “article”'
     changed:
-      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.1.1.__assoc__.2.1:
+      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.2.elements.1.instructions:
         from: null
-        to: ''
-      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.2.1.__assoc__.3.1:
-        from: singleline
-        to: multiline
-      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.defaults.0.__assoc__.0.1:
+        to: 'If left blank the article subtitle will be used automatically.'
+      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.2.elements.2.instructions:
         from: null
-        to: ''
-      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.defaults.0.__assoc__.2.1:
-        from: null
-        to: ''
+        to: 'If left blank, the article thumbnail or hero image will be used automatically'

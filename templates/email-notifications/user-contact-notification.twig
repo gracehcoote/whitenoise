@@ -1,8 +1,8 @@
 {# subject: Thank you for your submission #}
-{# fromEmail: {{ craft.app.projectConfig.get('email.fromEmail') }} #}
-{# fromName: {{ craft.app.projectConfig.get('email.fromName') }} #}
-{# replyToName: {{ craft.app.projectConfig.get('email.fromName') }} #}
-{# replyToEmail: {{ craft.app.projectConfig.get('email.fromEmail') }} #}
+{# fromEmail: info@whitenoisestudios.com #}
+{# fromName: Whitenoise Studios #}
+{# replyToName: Whitenoise Studios #}
+{# replyToEmail: info@whitenoisestudios.com #}
 {# cc:  #}
 {# bcc:  #}
 {# includeAttachments: true #}
@@ -14,28 +14,39 @@
 
 {% block content %}
 
-<h2 style="margin-bottom: 0;">New {{ form.name }} submission</h2>
-<p>Submitted on: {{ dateCreated|date('l, F j, Y \\a\\t g:ia') }}</p>
+<div style="text-align: center;">
+    <h1 style="margin-bottom: 0;">Thank you for your submission</h1>
+    <p>We aim to get back to you promptly.</p>
+</div>
 
-<ul>
+<div style="text-align: center; margin-top: 2rem;">
+    <h5>Your submisson details:</h5>
+    <ul>
     {% for field in allFields %}
         <li style="margin-bottom: 1em;"><strong>{{ field.label }}:</strong><br> {{ field.valueAsString }}</li>
     {% endfor %}
 </ul>
-
+</div>
 
 
 {% endblock %}
 
 
 
-{# text #}
-New {{ form.name }} submission.
-Submitted on: {{ dateCreated|date('l, F j, Y \\a\\t g:ia') }}
 
+
+
+{# text #}
+Thank you for your submission.
+We aim to get back to you promptly.
+
+Your submisson details:
 {% for field in allFields %}
     - {{ field.label }}: {{ field.valueAsString }}
 {% endfor %}
+
+
+
 
 
 

@@ -15,16 +15,18 @@
 {% set heroVideoClip = entry.heroVideoClip.one() %}
 {% set heroVideoFullLength = entry.heroVideoFullLength.one() %}
 <section class="hero">
-  <div class="section-container d-flex align-items-end py-5 py-lg-10 py-xl-12">
-    <div class="row gy-7 justify-content-between align-items-end w-100">
+  <div class="section-container d-pls-flex align-items-end py-5 py-lg-10 py-xl-12">
+    <div class="row flex-grow-1 gy-4 gy-lg-7 justify-content-between align-items-end">
       <div class="col-lg-10 col-xl-8 col-xxl-6">
         <h1 class="mb-3">{{ entry.pageTitle }}</h1>
 
-        <a class="btn btn-white me-1" href="">Start project</a>
+        <div class="d-grid gap-1 d-msm-block">
+          <a class="btn btn-white me-msm-1" href="">Start project</a>
 
-        {% if heroVideoFullLength %}
-        <button id="play-video" class="btn btn-white btn-outline" type="button" data-bs-toggle="modal" data-bs-target="#video-modal">Play showreel</button>
-        {% endif %}
+          {% if heroVideoFullLength %}
+          <button id="play-video" class="btn btn-white btn-outline" type="button" data-bs-toggle="modal" data-bs-target="#video-modal">Play showreel</button>
+          {% endif %}
+        </div>
       </div><!-- end col -->
 
       <div class="col-lg-2 text-lg-end">
@@ -43,7 +45,7 @@
   alt="{{ heroImage.title }}" 
   sizes="100vw" 
   srcset="
-    {{ heroImage.url('thumb480X270') }} 480w,
+    {{ heroImage.url('thumb480X480') }} 480w,
     {{ heroImage.url('thumb512X288') }} 512w,
     {{ heroImage.url('thumb768X432') }} 768w,
     {{ heroImage.url('thumb960X540') }} 960w,
@@ -133,7 +135,7 @@
               alt="{{ project.title }}" 
               sizes="100vw" 
               srcset="
-                {{ imageThumbnail.url('thumb480X270') }} 480w,
+                {{ imageThumbnail.url('thumb480X480') }} 480w,
                 {{ imageThumbnail.url('thumb512X288') }} 512w,
                 {{ imageThumbnail.url('thumb768X432') }} 768w,
                 {{ imageThumbnail.url('thumb960X540') }} 960w,
@@ -173,7 +175,7 @@
               alt="{{ project.title }}" 
               sizes="100vw" 
               srcset="
-                {{ imageThumbnail.url('thumb480X270') }} 480w,
+                {{ imageThumbnail.url('thumb480X480') }} 480w,
                 {{ imageThumbnail.url('thumb512X288') }} 512w,
                 {{ imageThumbnail.url('thumb768X432') }} 768w,
                 {{ imageThumbnail.url('thumb960X540') }} 960w,
@@ -192,16 +194,16 @@
 
 {% set clientLogos = entry.clientLogos.all() %}
 {% if clientLogos %}
-<section class="py-7 py-lg-10 py-xl-12 py-xxl-14">
-  <div class="section-container x-narrow p-0">
-    <h4 class="text-center mb-7">We are proud to work with</h4>
+<section class="pb-5 pb-lg-10 pb-xl-12 pb-xxl-14">
+  <div class="section-container x-narrow pb-5">
+    <h4 class="text-center">We are proud to work with</h4>
   </div><!-- end section-container -->
 
   {% if clientLogos|length > 9 %}
     {% set firstHalfEnd = clientLogos|length / 2 %}
     {% set secondHalfStart = firstHalfEnd %}
     {% set last = clientLogos|length %}
-    <div class="splide splide-rtl pb-4" aria-label="Partner logos slider">
+    <div class="splide splide-rtl pb-2 pb-md-4" aria-label="Partner logos slider">
       <div class="splide__track">
         <ul class="splide__list">
           {% for logo in clientLogos|slice(0, firstHalfEnd) %}
@@ -219,7 +221,7 @@
       </div>
     </div><!-- end splide -->
     
-    <div class="splide splide-ltr pt-4" aria-label="Partner logos slider">
+    <div class="splide splide-ltr pt-2 pt-md-4" aria-label="Partner logos slider">
       <div class="splide__track">
         <ul class="splide__list">
           {% for logo in clientLogos|slice(secondHalfStart, last) %}
@@ -280,6 +282,9 @@ if($('.splide-rtl').length > 0) {
       991: {
         perPage: 4,
       },
+      667: {
+        perPage: 3,
+      },
       480: {
         perPage: 2,
       },
@@ -296,6 +301,9 @@ if($('.splide-ltr').length > 0) {
     breakpoints: {
       991: {
         perPage: 4,
+      },
+      667: {
+        perPage: 3,
       },
       480: {
         perPage: 2,

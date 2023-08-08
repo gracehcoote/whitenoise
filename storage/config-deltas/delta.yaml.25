@@ -1,56 +1,14 @@
-dateApplied: '2023-08-07 12:06:19'
+dateApplied: '2023-08-07 15:14:11'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1691406201
-        to: 1691406379
+        from: 1691417610
+        to: 1691417651
   -
-    message: 'Change settings for plugin “cookie-consent-banner”'
+    message: 'Save the “careerApplicationFiles” filesystem'
     changed:
-      plugins.cookie-consent-banner.settings.async_js:
-        from: null
-        to: ''
-      plugins.cookie-consent-banner.settings.auto_inject:
-        from: 1
-        to: '1'
-      plugins.cookie-consent-banner.settings.defer_js:
-        from: null
-        to: ''
-      plugins.cookie-consent-banner.settings.disable_in_live_preview:
-        from: null
-        to: ''
-      plugins.cookie-consent-banner.settings.dismiss_on_scroll:
-        from: 0
-        to: '0'
-      plugins.cookie-consent-banner.settings.dismiss_on_timeout:
-        from: 0
-        to: '0'
-      plugins.cookie-consent-banner.settings.expiry_days:
-        from: 365
-        to: '365'
-      plugins.cookie-consent-banner.settings.honour_do_not_track_header:
-        from: null
-        to: ''
-      plugins.cookie-consent-banner.settings.palette_banner:
-        from: '000000'
-        to: 1a1a1a
-      plugins.cookie-consent-banner.settings.palette_button:
-        from: f1d600
-        to: FFCD00
-      plugins.cookie-consent-banner.settings.palette_button_text:
-        from: '000000'
-        to: 1a1a1a
-      plugins.cookie-consent-banner.settings.palette_left_button_bg:
-        from: f8e71c
-        to: FFCD00
-      plugins.cookie-consent-banner.settings.preload_css:
-        from: null
-        to: ''
-      plugins.cookie-consent-banner.settings.revokable:
-        from: null
-        to: ''
-      plugins.cookie-consent-banner.settings.secure_only:
-        from: null
-        to: ''
+      fs.careerApplicationFiles.hasUrls:
+        from: true
+        to: false

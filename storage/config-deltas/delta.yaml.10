@@ -1,51 +1,26 @@
-dateApplied: '2023-08-07 15:14:40'
+dateApplied: '2023-08-08 12:10:48'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1691417651
-        to: 1691417676
+        from: 1691492827
+        to: 1691493047
   -
-    added:
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elementCondition: null
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.autocapitalize: true
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.autocomplete: false
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.autocorrect: true
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.class: null
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.disabled: false
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.elementCondition: null
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.id: null
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.instructions: null
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.label: null
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.max: null
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.min: null
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.name: null
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.orientation: null
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.placeholder: null
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.readonly: false
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.requirable: false
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.size: null
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.step: null
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.tip: null
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.title: null
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.type: craft\fieldlayoutelements\assets\AssetTitleField
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.uid: ca50fb30-1473-4ed4-ac9f-cdfcae9c3aac
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.userCondition: null
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.warning: null
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.elements.0.width: 100
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.name: Content
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.uid: d6c558fa-1337-4a56-884e-e6fdeb89e980
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fieldLayouts.cecd0d53-5bcd-48c7-be3f-b8800d5b3e12.tabs.0.userCondition: null
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fs: briefingFormFiles
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.handle: briefingFormFiles
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.name: 'Briefing Form Files'
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.sortOrder: 8
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.titleTranslationKeyFormat: null
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.titleTranslationMethod: site
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.transformFs: ''
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.transformSubpath: ''
-    message: 'Save the “briefingFormFiles” volume'
-  -
-    added:
-      meta.__names__.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a: 'Briefing Form Files'
+    message: 'Save matrix block type “imageGrid” for parent field “contentBlocks”'
+    changed:
+      matrixBlockTypes.a59ae7c5-8219-4ff7-922e-ec099cf53e73.fields.70d15b4f-fa51-414d-9d0e-372db863492e.settings.maxRelations:
+        from: 4
+        to: 6
+      matrixBlockTypes.a59ae7c5-8219-4ff7-922e-ec099cf53e73.fields.1983e86c-24df-47ad-b8e6-347b4fb66f50.settings.options.0.__assoc__.2.1:
+        from: 1
+        to: '1'
+      matrixBlockTypes.a59ae7c5-8219-4ff7-922e-ec099cf53e73.fields.1983e86c-24df-47ad-b8e6-347b4fb66f50.settings.options.1.__assoc__.2.1:
+        from: null
+        to: ''
+      matrixBlockTypes.a59ae7c5-8219-4ff7-922e-ec099cf53e73.fields.bc7dee95-9e7b-471a-9e0b-7774fffe011c.settings.options.0.__assoc__.2.1:
+        from: 1
+        to: '1'
+      matrixBlockTypes.a59ae7c5-8219-4ff7-922e-ec099cf53e73.fields.bc7dee95-9e7b-471a-9e0b-7774fffe011c.settings.options.1.__assoc__.2.1:
+        from: null
+        to: ''

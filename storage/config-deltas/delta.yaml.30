@@ -1,17 +1,72 @@
-dateApplied: '2023-08-07 11:48:25'
+dateApplied: '2023-08-07 13:39:24'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1691155516
-        to: 1691405304
+        from: 1691408323
+        to: 1691411959
   -
-    message: 'Save entry type “article”'
+    added:
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.elementCondition: null
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.fieldUid: 78b7ec25-ca51-442f-81b1-516f79f96d66
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.instructions: null
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.label: null
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.required: true
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.tip: null
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.type: craft\fieldlayoutelements\CustomField
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.uid: 48860578-6a30-4d66-ad2f-cd45118d185a
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.userCondition: null
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.warning: null
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.3.width: 100
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.columnSuffix: rzfhsukk
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.contentColumnType: string
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.fieldGroup: null
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.handle: sliderType
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.instructions: null
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.name: 'Slider Type'
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.searchable: false
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.0.__assoc__.0.0: label
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.0.__assoc__.0.1: 'Slideshow (1 image per slide, pagination & arrows)'
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.0.__assoc__.1.0: value
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.0.__assoc__.1.1: slideshow
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.0.__assoc__.2.0: default
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.0.__assoc__.2.1: '1'
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.1.__assoc__.0.0: label
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.1.__assoc__.0.1: 'Carousel (2 images per slide, progress bar)'
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.1.__assoc__.1.0: value
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.1.__assoc__.1.1: carousel
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.1.__assoc__.2.0: default
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.settings.options.1.__assoc__.2.1: ''
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.translationKeyFormat: null
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.translationMethod: none
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7cf7c89c-868b-4bd0-8296-177d113c53b4.type: craft\fields\RadioButtons
+    message: 'Save matrix block type “imageSlideshow” for parent field “contentBlocks”'
     changed:
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.2.elements.1.instructions:
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.2.fieldUid:
+        from: 78b7ec25-ca51-442f-81b1-516f79f96d66
+        to: 7cf7c89c-868b-4bd0-8296-177d113c53b4
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.2.required:
+        from: true
+        to: false
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fieldLayouts.1bd210be-001f-4e52-a401-bb949c452b9a.tabs.0.elements.2.uid:
+        from: 48860578-6a30-4d66-ad2f-cd45118d185a
+        to: cf410bb7-ade1-4db0-9a3a-cc327c095e00
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7bee1e32-7f18-4448-95ee-9cfc3b0ed3db.instructions:
         from: null
-        to: 'If left blank the article subtitle will be used automatically.'
-      entryTypes.a3e0dba9-74d3-4194-bd3a-ea2696f87086.fieldLayouts.e47f984b-92fd-41ea-9a5a-132aff407849.tabs.2.elements.2.instructions:
+        to: 'Note: this will only apply for the Slideshow slider type.'
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7bee1e32-7f18-4448-95ee-9cfc3b0ed3db.settings.options.0.__assoc__.2.1:
+        from: 1
+        to: '1'
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.7bee1e32-7f18-4448-95ee-9cfc3b0ed3db.settings.options.1.__assoc__.2.1:
         from: null
-        to: 'If left blank, the article thumbnail or hero image will be used automatically'
+        to: ''
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.017fdb0e-1650-4bed-aa88-2320f4c5101a.settings.options.0.__assoc__.2.1:
+        from: 1
+        to: '1'
+      matrixBlockTypes.d8a0c075-0ea5-4aa4-838d-233574d0c90c.fields.017fdb0e-1650-4bed-aa88-2320f4c5101a.settings.options.1.__assoc__.2.1:
+        from: null
+        to: ''
+  -
+    added:
+      meta.__names__.7cf7c89c-868b-4bd0-8296-177d113c53b4: 'Slider Type'

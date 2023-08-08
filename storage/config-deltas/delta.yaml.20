@@ -1,50 +1,36 @@
-dateApplied: '2023-08-07 12:33:26'
+dateApplied: '2023-08-07 15:16:36'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1691407763
-        to: 1691408006
+        from: 1691417759
+        to: 1691417796
   -
-    message: 'Change settings for plugin “cookie-consent-banner”'
+    added:
+      fs.formFiles.hasUrls: false
+      fs.formFiles.name: 'Form Files'
+      fs.formFiles.settings.path: '@webroot/assets/cms/form-files'
+      fs.formFiles.type: craft\fs\Local
+      fs.formFiles.url: null
+    message: 'Save the “formFiles” filesystem'
+  -
+    removed:
+      fs.briefingFormFiles.hasUrls: false
+      fs.briefingFormFiles.name: 'Briefing Form Files'
+      fs.briefingFormFiles.settings.path: '@webroot/assets/cms/briefing-forms'
+      fs.briefingFormFiles.type: craft\fs\Local
+      fs.briefingFormFiles.url: null
+    message: 'Remove the “briefingFormFiles” filesystem'
+  -
+    message: 'Save the “formFiles” volume'
     changed:
-      plugins.cookie-consent-banner.settings.async_js:
+      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fs:
+        from: briefingFormFiles
+        to: formFiles
+      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.transformFs:
         from: null
         to: ''
-      plugins.cookie-consent-banner.settings.auto_inject:
-        from: 1
-        to: '1'
-      plugins.cookie-consent-banner.settings.defer_js:
-        from: null
-        to: ''
-      plugins.cookie-consent-banner.settings.disable_in_live_preview:
-        from: null
-        to: ''
-      plugins.cookie-consent-banner.settings.dismiss_on_scroll:
-        from: 0
-        to: '0'
-      plugins.cookie-consent-banner.settings.dismiss_on_timeout:
-        from: 0
-        to: '0'
-      plugins.cookie-consent-banner.settings.expiry_days:
-        from: 365
-        to: '365'
-      plugins.cookie-consent-banner.settings.honour_do_not_track_header:
-        from: null
-        to: ''
-      plugins.cookie-consent-banner.settings.palette_left_button_bg:
-        from: FFCD00
-        to: '525252'
-      plugins.cookie-consent-banner.settings.palette_left_button_text:
-        from: '000000'
-        to: ffffff
-      plugins.cookie-consent-banner.settings.preload_css:
-        from: null
-        to: ''
-      plugins.cookie-consent-banner.settings.revokable:
-        from: null
-        to: ''
-      plugins.cookie-consent-banner.settings.secure_only:
+      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.transformSubpath:
         from: null
         to: ''

@@ -43,6 +43,7 @@ ul.crumbs {
   padding: 0;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 
   li {
     font-size: 12px;
@@ -166,18 +167,20 @@ body.black-no-overlay {
     }
   }
 
-  &:hover {
-    .burger {
-      &:before {
-        top: -8px;
-      }
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      .burger {
+        &:before {
+          top: -8px;
+        }
 
-      &:after {
-        top: 8px;
+        &:after {
+          top: 8px;
+        }
       }
     }
   }
-
+  
   &.active {
     .burger {
       background-color: transparent;
@@ -197,20 +200,22 @@ body.black-no-overlay {
       }
     }
 
-    &:hover {
-      .burger {
-        &:before,
-        &:after {
-          top: 0;
-          transition: top 0s, transform 0.3s, background-color 0.3s 0.3s;
-        }
+    @media (hover: hover) and (pointer: fine) {
+      &:hover {
+        .burger {
+          &:before,
+          &:after {
+            top: 0;
+            transition: top 0s, transform 0.3s, background-color 0.3s 0.3s;
+          }
 
-        &:before {
-          transform: rotate(35deg)
-        }
+          &:before {
+            transform: rotate(35deg)
+          }
 
-        &:after {
-          transform: rotate(-35deg)
+          &:after {
+            transform: rotate(-35deg)
+          }
         }
       }
     }
@@ -250,11 +255,12 @@ nav#global {
 
   .nav-wrapper {
     width: 100vw;
-    height: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
 
-    @media all and (min-height: 1051px) {
-      display: flex;
-      align-items: center;
+   @media handheld and (orientation: landscape) {  
+      display: block;
     }
   }
 
@@ -348,5 +354,13 @@ nav#global {
         color: $yellow;
       }
     }
+  }
+}
+
+ul.btn-list {
+  margin: 0 -0.5rem;
+
+  .nav-item {
+    margin: 0 0.5rem;
   }
 }

@@ -115,17 +115,17 @@ section {
 		padding-top: 4rem;
 		padding-bottom: 4rem;
 	}
+
+	@media #{$extra-small} {
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+	}
 }
 
 .post-block {
 	.section-container {
-		padding-top: 10rem;
-		padding-bottom: 10rem;
-
-		@media #{$tablet-ls} {
-			padding-top: 8rem;
-			padding-bottom: 8rem;
-		}
+		padding-top: 8rem;
+		padding-bottom: 8rem;
 
 		@media #{$bs-large} {
 			padding-top: 6rem;
@@ -135,6 +135,11 @@ section {
 		@media #{$phone-ls} {
 			padding-top: 4rem;
 			padding-bottom: 4rem;
+		}
+
+		@media #{$extra-small} {
+			padding-top: 2.5rem;
+			padding-bottom: 2.5rem;
 		}
 	}
 
@@ -178,5 +183,15 @@ section {
 .mob-hide {
 	@media #{$tablet-ls} {
 		display: none !important;
+	}
+}
+
+.mobile-fill {
+	@media #{$small} {
+		width: 115%;
+		max-width: none;
+		padding-left: 0;
+		padding-right: 0;
+		left: -7.5%;
 	}
 }

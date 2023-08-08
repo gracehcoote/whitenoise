@@ -17,12 +17,12 @@
 {% set entry = craft.entries.slug(slug).one() %}
 
 <section>
-  <div class="section-container py-6">
-    <h1 class="mb-4">Application Form</h1>
+  <div class="section-container py-4 py-sm-5 py-tls-6 py-xl-8">
+    <h1 class="mb-0">Application Form</h1>
   </div><!-- end section-container -->
 
   <div class="section-container max-width py-6">
-    <div class="shadow p-3 p-pls-5 px-lg-12 py-lg-6">
+    <div class="mob-shadow-none shadow p-3 p-pls-5 px-lg-12 py-lg-6">
       <h2 id="job-title" class="medium text-center mb-4">{{ entry.title }}</h2>
       {{ craft.freeform.form("careerApplication", {
         overrideValues: {

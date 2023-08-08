@@ -13,76 +13,82 @@
 {% block main %}
 <section>
   <div class="section-container max-width py-6">
-    <div class="shadow px-12 py-6">
-      <h1 class="text-center mb-4">{{ entry.title }}</h1>
+    <div class="mob-shadow-none shadow p-3 p-pls-5 px-lg-12 py-lg-6">
+      <h1 class="text-center mb-0">{{ entry.title }}</h1>
 
       {% if entry.roleInformation %}
       <div class="py-5">
-        <div class="row">
-          <div class="col-6">
+        <div class="row gy-1 gy-sm-2">
+          <div class="col-md-6">
             {% for detail in entry.roleInformation %}
-              <div class="row gy-2">
-                {% if detail.position %}
-                <div class="col-6">
+              {% if detail.position %}
+              <div class="row gy-msm-1 gy-sm-2 mb-1 mb-sm-2">
+                <div class="col-msm-6">
                   <p class="title-font tw-bold">Position:</p>
-                </div>
-                <div class="col-6">
+                </div><!-- end col -->
+                <div class="col-msm-6">
                   <p class="title-font">{{ detail.position }}</p>
-                </div>
-                {% endif %}
+                </div><!-- end col -->
+              </div><!-- end row -->
+              {% endif %}
 
-                {% if detail.location %}
-                <div class="col-6">
+              {% if detail.location %}
+              <div class="row gy-msm-1 gy-sm-2 mb-1 mb-sm-2">
+                <div class="col-msm-6">
                   <p class="title-font tw-bold">Location:</p>
-                </div>
-                <div class="col-6">
+                </div><!-- end col -->
+                <div class="col-msm-6">
                   <p class="title-font">{{ detail.location }}</p>
-                </div>
-                {% endif %}
+                </div><!-- end col -->
+              </div><!-- end row -->
+              {% endif %}
 
-                {% if detail.salary %}
-                <div class="col-6">
+              {% if detail.salary %}
+              <div class="row gy-msm-1 gy-sm-2">
+                <div class="col-msm-6">
                   <p class="title-font tw-bold">Salary:</p>
-                </div>
-                <div class="col-6">
+                </div><!-- end col -->
+                <div class="col-msm-6">
                   <p class="title-font">{{ detail.salary }}</p>
-                </div>
-                {% endif %}
-              </div>
+                </div><!-- end col -->
+              </div><!-- end row -->
+              {% endif %}
             {% endfor %}
           </div><!-- end col -->
 
-          <div class="col-6">
+          <div class="col-md-6">
             {% for detail in entry.roleInformation %}
               {% if detail.employmentType %}
-              <div class="row mb-2">
-                <div class="col-6">
+              <div class="row gy-msm-1 gy-sm-2 mb-1 mb-sm-2">
+                <div class="col-msm-6">
                   <p class="title-font tw-bold">Employment:</p>
-                </div>
-                <div class="col-6">
+                </div><!-- end col -->
+                <div class="col-msm-6">
                   <p class="title-font">{{ detail.employmentType }}, {{ detail.employmentHours }} </p>
-                </div>
-              </div>  
+                </div><!-- end col -->
+              </div> <!-- end row -->
               {% endif %}
             {% endfor %}
 
-            <div class="row gy-2">
-              <div class="col-6">
+            <div class="row gy-msm-1 gy-sm-2 mb-1 mb-sm-2">
+              <div class="col-msm-6">
                 <p class="title-font tw-bold">Date posted:</p>
-              </div>
+              </div><!-- end col -->
 
-              <div class="col-6">
+              <div class="col-msm-6">
                 <p class="title-font">{{ entry.dateCreated|date("d/m/y") }}</p>
-              </div>  
-
-              <div class="col-6">
+              </div>  <!-- end col -->
+            </div><!-- end row -->
+            
+            <div class="row gy-msm-1 gy-sm-2">
+              <div class="col-msm-6">
                 <p class="title-font tw-bold">Closing date:</p>
-              </div>
+              </div><!-- end col -->
               
-              <div class="col-6">
+              <div class="col-msm-6">
                 <p class="title-font">{{ entry.closingDate|datetime("d/m/y, g:ia") }}</p>
-              </div>
-            </div>
+              </div><!-- end col -->
+            </div><!-- end row -->
           </div><!-- end col -->
         </div><!-- end row -->
       </div>

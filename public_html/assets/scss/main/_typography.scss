@@ -53,35 +53,45 @@ body {
 h1 {
   font-weight: 600;
   font-size: 61px;
+
+  @media #{$phone-ls} {
+    font-size: 56px;
+  }
+
+  @media #{$extra-small} {
+    font-size: 48px;
+  }
+
   line-height: 1;
 
   .home & {
     font-size: 76px;
+
+    @media #{$phone-ls} {
+      font-size: 56px;
+    }
+
+    @media #{$extra-small} {
+      font-size: 48px;
+    }
   }
 
   strong {
     font-weight: 800;
   }
-
-  @media #{$tablet-ls} {
-
-  }
-
-  @media #{$tablet-pt} {
-
-  }
-
-  @media #{$small} {
-
-  }
-
-  @media #{$extra-small} {
-
-  }
 }
 
 h2 {
   font-size: 61px;
+
+  @media #{$phone-ls} {
+    font-size: 56px;
+  }
+
+  @media #{$extra-small} {
+    font-size: 38px;
+  }
+
   font-weight: 600;
   line-height: 1.1;
 
@@ -91,33 +101,54 @@ h2 {
 
   &.large {
     font-size: 76px;
+
+    @media #{$phone-ls} {
+      font-size: 60px;
+    }
+
+    @media #{$extra-small} {
+      font-size: 39px;
+    }
+
     font-weight: 400;
   }
 
   &.medium {
     font-size: 48px;
+
+    @media #{$phone-ls} {
+      font-size: 40px;
+    }
+
+    @media #{$extra-small} {
+      font-size: 36px;
+    }
   }
 
   &.small {
     font-size: 31px;
-  }
 
-  @media #{$tablet-ls} {
-    
-  }
+    @media #{$phone-ls} {
+      font-size: 28px;
+    }
 
-  @media #{$tablet-pt} {
-   
+    @media #{$extra-small} {
+      font-size: 24px;
+    }
   }
-
-  @media #{$phone-ls} {
-    
-  }
-
 }
 
 h3 {
   font-size: 31px;
+
+  @media #{$phone-ls} {
+    font-size: 28px;
+  }
+
+  @media #{$extra-small} {
+    font-size: 24px;
+  }
+
   font-weight: 500;
 
   &.small {
@@ -131,31 +162,22 @@ h3 {
   strong {
     font-weight: 700;
   }
-
-  @media #{$tablet-ls} {
-
-  }
-
-  @media #{$tablet-pt} {
- 
-  }
-
 }
 
 h4 {
   font-weight: 700;
   font-size: 25px;
 
+  @media #{$phone-ls} {
+    font-size: 23px;
+  }
+
+  @media #{$extra-small} {
+    font-size: 19px;
+  }
+
   strong {
     font-weight: 900;
-  }
-
-  @media #{$tablet-ls} {
-
-  }
-
-  @media #{$tablet-pt} {
-
   }
 }
 
@@ -167,12 +189,28 @@ h5 {
   strong {
     font-weight: 900;
   }
+
+  @media #{$phone-ls} {
+    font-size: 18px;
+  }
+
+  @media #{$extra-small} {
+    font-size: 16px;
+  }
 }
 
 h6 {
   font-family: $title-font;
   font-size: 16px;
   font-weight: 800;
+
+  @media #{$phone-ls} {
+    font-size: 15px;
+  }
+
+  @media #{$extra-small} {
+    font-size: 14px;
+  }
 }
 
 blockquote {
@@ -184,6 +222,7 @@ blockquote p {
   font-family: $title-font;
   font-size: 31px;
   font-weight: 500;
+  line-height: 1.2;
 }
 
 cite {
@@ -355,6 +394,10 @@ ul.inline-list {
 
   h2 {
     font-size: 48px;
+
+    @media #{$extra-small} {
+      font-size: 38px;
+    }
   }
 
   p {

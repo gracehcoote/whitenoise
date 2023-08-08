@@ -1,85 +1,99 @@
 {% set query = query ?? '' %}
+<div class="d-flex justify-content-between align-items-center flex-wrap mb-2">
+    {% set categories = craft.categories().group('newsroomCategories').all() %}
+    <ul class="nav btn-list my-1">
+      <li class="nav-item">
+        <input type="radio" class="btn-check" name="categories" id="all" autocomplete="off" checked>
+        <label class="btn btn-white" for="all">All</label>
+      </li>
 
-    <div class="field">
-        {# Replaces only the `#results` div #}
-        <input sprig s-trigger="keyup changed" s-replace="#results" type="text" name="query" value="{{ query }}" placeholder="Search" class="text">
+      {% for category in categories %}
+      <li class="nav-item">
+        <input type="radio" class="btn-check" name="categories" id="{{ category.slug }}" autocomplete="off">
+        <label class="btn btn-white" for="{{ category.slug }}">{{ category.title }}</label>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <div class="my-1 flex-grow-1 flex-sm-grow-0">
+      <input sprig s-trigger="keyup changed" s-replace="#results" type="text" name="query" value="{{ query }}" placeholder="Start typing to search" class="text form-control">
     </div>
+</div>
 
-    <div id="results">
-        {% if query %}
-            {% set articles = craft.entries.section('newsroomArticles').search(query).all() %}
-            {% if articles|length %}
-              <div class="row gy-1half">
-                {% for article in articles %}
-                {% set thumbnail = article.imageThumbnail.one() %}
-                {% set category = article.category.one() %}
-                <div class="col-sm-6 col-lg-4 d-flex position-relative greyscale-hover-off">
-                  <div class="shadow d-flex flex-column">
-                    <a href="{{ article.url }}">
-                      <img class="greyscale" src="{{ thumbnail.url('thumb512X288') }}" alt="{{ article.title }}">
-                    </a>
-
-                    <div class="p-2 p-md-3 flex-grow-1 d-flex flex-column justify-content-between align-items-start">
-                      <div>
-                        <p class="tw-bold">{{ category.title }}</p>
-                        <h3 class="x-small"><a href="{{ article.url }}">{{ article.title }}</a></h3>
-                      </div>
-                      
-                      <a class="btn-link stretched-link" href="{{ article.url }}">Read more</a>
-                    </div>
-                  </div>
-                </div><!-- end col -->
-                {% endfor %}
-              </div><!-- end row -->
-            {% else %}
-                    No results
-            {% endif %}
-        {% else %}
-
-        {% set articles = craft.entries().section('newsroomArticles').limit(6) %}
+<div id="results">
+    {% if query %}
+        {% set articles = craft.entries.section('newsroomArticles').search(query).all() %}
+        {% if articles|length %}
           <div class="row gy-1half">
-          {% for article in articles %}
+            {% for article in articles %}
             {% set thumbnail = article.imageThumbnail.one() %}
-            {% set category = article.category.one() %}
-            {% if loop.first %}
-              <div class="col-12 mb-5 position-relative greyscale-hover-off">
-                <div class="shadow">
-                  <div class="row g-0">
-                    <div class="col-md-6 col-lg-7 col-xl-8">
-                      <a href="{{ article.url }}">
-                        <img class="greyscale object-fit-cover" src="{{ thumbnail.url('thumb960X540') }}" alt="{{ article.title }}">
-                      </a>
-                    </div><!-- end col -->
+            {% set categories = article.category.all() %}
+            <div class="col-sm-6 col-lg-4 d-flex position-relative greyscale-hover-off">
+              <div class="shadow d-flex flex-column">
+                <a href="{{ article.url }}">
+                  <img class="greyscale" src="{{ thumbnail.url('thumb512X288') }}" alt="{{ article.title }}">
+                </a>
 
-                    <div class="col-md-6 col-lg-5 col-xl-4 d-flex flex-column justify-content-center">
-                      <div class="p-3 flex-grow-1 d-flex flex-column justify-content-center align-items-start">
-                        <p class="tw-bold mb-0">{{ category.title }}</p>
-                        <h2 class="small tw-medium my-2"><a href="{{ article.url }}">{{ article.title }}</a></h2>
-                        <a class="btn-link stretched-link" href="{{ article.url }}">Read more</a>
-                      </div>
-                    </div><!-- end col -->
-                  </div><!-- end row --> 
-                </div>
-              </div><!-- end col -->
-            {% else %}
-              <div class="col-sm-6 col-lg-4 d-flex position-relative greyscale-hover-off">
-                <div class="shadow d-flex flex-column">
-                  <a href="{{ article.url }}">
-                    <img class="greyscale" src="{{ thumbnail.url('thumb512X288') }}" alt="{{ article.title }}">
-                  </a>
-
-                  <div class="p-2 p-md-3 flex-grow-1 d-flex flex-column justify-content-between align-items-start">
-                    <div>
-                      <p class="tw-bold">{{ category.title }}</p>
-                      <h3 class="x-small"><a href="{{ article.url }}">{{ article.title }}</a></h3>
-                    </div>
-                    
-                    <a class="btn-link stretched-link" href="{{ article.url }}">Read more</a>
+                <div class="p-2 p-md-3 flex-grow-1 d-flex flex-column justify-content-between align-items-start">
+                  <div>
+                    <p class="tw-bold">{% for category in categories %}{{ category.title }}{% if not loop.last %}, {% endif %}{% endfor %}</p>
+                    <h3 class="x-small"><a href="{{ article.url }}">{{ article.title }}</a></h3>
                   </div>
+                  
+                  <a class="btn-link stretched-link" href="{{ article.url }}">Read more</a>
                 </div>
-              </div><!-- end col -->
-            {% endif %}
+              </div>
+            </div><!-- end col -->
             {% endfor %}
           </div><!-- end row -->
+        {% else %}
+                No results
         {% endif %}
-    </div>
+    {% else %}
+      {% set articles = craft.entries().section('newsroomArticles').limit(6) %}
+        <div class="row gy-1half">
+        {% for article in articles %}
+          {% set thumbnail = article.imageThumbnail.one() %}
+          {% set categories = article.category.all() %}
+          {% if loop.first %}
+            <div class="col-12 mb-2 mb-lg-5 position-relative greyscale-hover-off mobile-fill">
+              <div class="shadow">
+                <div class="row g-0">
+                  <div class="col-md-6 col-lg-7 col-xl-8">
+                    <a href="{{ article.url }}">
+                      <img class="greyscale object-fit-cover" src="{{ thumbnail.url('thumb960X540') }}" alt="{{ article.title }}">
+                    </a>
+                  </div><!-- end col -->
+
+                  <div class="col-md-6 col-lg-5 col-xl-4 d-flex flex-column justify-content-center">
+                    <div class="p-3 flex-grow-1 d-flex flex-column justify-content-center align-items-start">
+                      <p class="tw-bold">{% for category in categories %}{{ category.title }}{% if not loop.last %}, {% endif %}{% endfor %}</p>
+                      <h2 class="small tw-medium my-2"><a href="{{ article.url }}">{{ article.title }}</a></h2>
+                      <a class="btn-link stretched-link" href="{{ article.url }}">Read more</a>
+                    </div>
+                  </div><!-- end col -->
+                </div><!-- end row --> 
+              </div>
+            </div><!-- end col -->
+          {% else %}
+            <div class="col-sm-6 col-lg-4 d-flex position-relative greyscale-hover-off">
+              <div class="shadow d-flex flex-column">
+                <a href="{{ article.url }}">
+                  <img class="greyscale" src="{{ thumbnail.url('thumb512X288') }}" alt="{{ article.title }}">
+                </a>
+
+                <div class="p-2 p-md-3 flex-grow-1 d-flex flex-column justify-content-between align-items-start">
+                  <div>
+                    <p class="tw-bold">{% for category in categories %}{{ category.title }}{% if not loop.last %}, {% endif %}{% endfor %}</p>
+                    <h3 class="x-small"><a href="{{ article.url }}">{{ article.title }}</a></h3>
+                  </div>
+                  
+                  <a class="btn-link stretched-link" href="{{ article.url }}">Read more</a>
+                </div>
+              </div>
+            </div><!-- end col -->
+          {% endif %}
+        {% endfor %}
+      </div><!-- end row -->
+    {% endif %}
+</div>

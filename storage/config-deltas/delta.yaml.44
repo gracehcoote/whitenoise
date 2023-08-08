@@ -1,31 +1,14 @@
-dateApplied: '2023-08-02 12:45:26'
+dateApplied: '2023-08-04 14:25:16'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1690976619
-        to: 1690976721
+        from: 1691155455
+        to: 1691155516
   -
-    message: 'Save field “soundStudioServices”'
+    message: 'Save field “errorTitle”'
     changed:
-      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.handle:
-        from: soundStudioService
-        to: soundStudioServices
-      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.name:
-        from: 'Sound Studio Service'
-        to: 'Sound Studio Services'
-      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.columns.__assoc__.1.1.__assoc__.2.1:
+      fields.27380490-0137-4d35-9b9f-cecc8d83b599.instructions:
         from: null
-        to: ''
-      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.defaults.0.__assoc__.0.1:
-        from: null
-        to: ''
-      fields.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac.settings.defaults.0.__assoc__.2.1:
-        from: null
-        to: ''
-  -
-    changed:
-      meta.__names__.98c3f6fb-bcbc-4f96-9786-f6a8c6bb88ac:
-        from: 'Sound Studio Service'
-        to: 'Sound Studio Services'
+        to: 'If left blank, this will say "Page not found"'

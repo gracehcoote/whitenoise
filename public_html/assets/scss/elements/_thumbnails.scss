@@ -27,24 +27,35 @@ THUMBNAIL STYLES
       z-index: -1;
       background: rgb(26,26,26);
       background: linear-gradient(0deg, rgba(26,26,26,0.5032213569021359) 0%, rgba(26,26,26,0) 100%); 
-      opacity: 0;
       transition: all 0.5s;
     }
+    
+    @media (hover: hover) and (pointer: fine) {
+      &:after {
+        opacity: 0;
+      }
 
-    .thumb-subtitle {
-      opacity: 0;
-      transition: all 0.5s;
+      .thumb-subtitle {
+        opacity: 0;
+        transition: all 0.5s;
+      }
+
+      &:hover {
+        &:after {
+          opacity: 1;
+        }
+
+        .thumb-subtitle {
+          opacity: 1;
+          margin-bottom: 0 !important;
+        }
+      }
     }
-  }
 
-  &:hover {
-    .text-container:after {
-      opacity: 1;
-    }
-
-    .thumb-subtitle {
-      opacity: 1;
-      margin-bottom: 0 !important;
+     @media (pointer: coarse) {
+      .thumb-subtitle {
+        margin-bottom: 0 !important;
+      }
     }
   }
 }
@@ -60,6 +71,11 @@ THUMBNAIL STYLES
   width: 100%;
   height: 100%;
   padding-top: 56.25%;
+
+  @media #{$extra-small} {
+    padding-top: 100%;
+  }
+
   position: relative;
 
   video,

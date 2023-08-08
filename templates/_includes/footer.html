@@ -124,7 +124,7 @@
 
   <section class="sub-footer">
     <div class="section-container py-1half">
-      <div class="d-flex justify-content-between flex-wrap">
+      <div class="d-flex justify-content-between">
         {% set policyPages = craft.entries()
           .section('pages')
           .type('page')
@@ -132,7 +132,7 @@
           .all() %}
         {% if policyPages|length %}
         <div class="my-quart">
-          <ul class="nav sub-nav">
+          <ul class="nav sub-nav flex-column flex-md-row">
             {% for page in policyPages %}
             <li class="nav-item">
               <a class="nav-link" href="{{ page.url }}">{{ page.title }}</a>
@@ -152,7 +152,11 @@
         {% endif %}
 
         <div class="my-quart">
-          <p><span class="me-1">Build: <a href="https://gracecoote.co.uk/" target="_blank"><img class="ms-quart" src="{{ siteUrl }}assets/images/gracecoote-logo.svg" alt="Grace Coote Design &amp; Web Development" width="25"></a></span> &copy; {{ siteInfo.companyName }} {{ copyrightYears }}.</p>
+          <p>
+            <span class="d-inline-block me-1 mb-1 mb-md-0">Build: <a href="https://gracecoote.co.uk/" target="_blank"><img class="ms-quart" src="{{ siteUrl }}assets/images/gracecoote-logo.svg" alt="Grace Coote Design &amp; Web Development" width="25"></a></span> 
+            <br class="d-md-none">
+            &copy; {{ siteInfo.companyName }} {{ copyrightYears }}
+          </p>
         </div>
       </div>
     </div><!-- end section-container -->

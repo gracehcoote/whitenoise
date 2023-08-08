@@ -1,36 +1,22 @@
-dateApplied: '2023-08-07 15:16:36'
+dateApplied: '2023-08-08 15:27:57'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1691417759
-        to: 1691417796
+        from: 1691493257
+        to: 1691504877
   -
-    added:
-      fs.formFiles.hasUrls: false
-      fs.formFiles.name: 'Form Files'
-      fs.formFiles.settings.path: '@webroot/assets/cms/form-files'
-      fs.formFiles.type: craft\fs\Local
-      fs.formFiles.url: null
-    message: 'Save the “formFiles” filesystem'
-  -
-    removed:
-      fs.briefingFormFiles.hasUrls: false
-      fs.briefingFormFiles.name: 'Briefing Form Files'
-      fs.briefingFormFiles.settings.path: '@webroot/assets/cms/briefing-forms'
-      fs.briefingFormFiles.type: craft\fs\Local
-      fs.briefingFormFiles.url: null
-    message: 'Remove the “briefingFormFiles” filesystem'
-  -
-    message: 'Save the “formFiles” volume'
+    message: 'Saving transform “thumb480X270”'
     changed:
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.fs:
-        from: briefingFormFiles
-        to: formFiles
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.transformFs:
-        from: null
-        to: ''
-      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.transformSubpath:
-        from: null
-        to: ''
+      imageTransforms.7f2c84a0-f102-4d22-9635-5948fed536c7.height:
+        from: 270
+        to: 480
+      imageTransforms.7f2c84a0-f102-4d22-9635-5948fed536c7.name:
+        from: 'Thumb 480 x 270'
+        to: 'Thumb 480 x 480'
+  -
+    changed:
+      meta.__names__.7f2c84a0-f102-4d22-9635-5948fed536c7:
+        from: 'Thumb 480 x 270'
+        to: 'Thumb 480 x 480'

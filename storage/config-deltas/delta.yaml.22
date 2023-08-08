@@ -1,50 +1,28 @@
-dateApplied: '2023-08-07 12:28:16'
+dateApplied: '2023-08-07 15:15:59'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1691407433
-        to: 1691407696
+        from: 1691417676
+        to: 1691417759
   -
-    message: 'Change settings for plugin “cookie-consent-banner”'
+    message: 'Save the “formFiles” volume'
     changed:
-      plugins.cookie-consent-banner.settings.allow:
-        from: 'Allow cookies'
-        to: Accept
-      plugins.cookie-consent-banner.settings.async_js:
+      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.handle:
+        from: briefingFormFiles
+        to: formFiles
+      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.name:
+        from: 'Briefing Form Files'
+        to: 'Form Files'
+      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.transformFs:
         from: null
         to: ''
-      plugins.cookie-consent-banner.settings.auto_inject:
-        from: 1
-        to: '1'
-      plugins.cookie-consent-banner.settings.defer_js:
+      volumes.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a.transformSubpath:
         from: null
         to: ''
-      plugins.cookie-consent-banner.settings.disable_in_live_preview:
-        from: null
-        to: ''
-      plugins.cookie-consent-banner.settings.dismiss_on_scroll:
-        from: 0
-        to: '0'
-      plugins.cookie-consent-banner.settings.dismiss_on_timeout:
-        from: 0
-        to: '0'
-      plugins.cookie-consent-banner.settings.expiry_days:
-        from: 365
-        to: '365'
-      plugins.cookie-consent-banner.settings.honour_do_not_track_header:
-        from: null
-        to: ''
-      plugins.cookie-consent-banner.settings.message:
-        from: 'This website uses cookies to ensure you get the best experience on our website.'
-        to: 'By clicking "Accept", you agree to the use of cookies to analyse site usage. We provide full information on how cookies are used on our website here:'
-      plugins.cookie-consent-banner.settings.preload_css:
-        from: null
-        to: ''
-      plugins.cookie-consent-banner.settings.revokable:
-        from: null
-        to: ''
-      plugins.cookie-consent-banner.settings.secure_only:
-        from: null
-        to: ''
+  -
+    changed:
+      meta.__names__.0832eba3-d04f-4a3a-80a4-5c2ec0b5f77a:
+        from: 'Briefing Form Files'
+        to: 'Form Files'

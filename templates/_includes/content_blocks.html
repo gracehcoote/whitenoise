@@ -85,7 +85,7 @@
 			{% else %}
 				<div class="row g-0">
 					{% for image in images %}
-					<div class="{% if images|length == '2' or images|length == '4' %}col-msm-6{%else %}col-sm{% endif %}">
+					<div class="{% if images|length == '2' or images|length == '4' %}col-msm-6{% elseif images|length == '3' or images|length == '6' %}col-sm-4{% else %}col-sm{% endif %}">
 						<img 
 						loading="lazy" 
 						src="{{ image.url('thumb1280X720') }}" 

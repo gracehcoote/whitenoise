@@ -25,7 +25,7 @@
     alt="{{ heroImage.title }}" 
     sizes="100vw" 
     srcset="
-      {{ heroImage.url('thumb480X270') }} 480w,
+      {{ heroImage.url('thumb480X480') }} 480w,
       {{ heroImage.url('thumb512X288') }} 512w,
       {{ heroImage.url('thumb768X432') }} 768w,
       {{ heroImage.url('thumb960X540') }} 960w,
@@ -81,7 +81,7 @@
   </div><!-- end section-container -->
 
   <div class="section-container max-width">
-    <div class="shadow p-4">
+    <div class="mob-shadow-none shadow p-4">
       <h2 class="medium text-center mb-4">Get in touch</h2>
       {{ craft.freeform.form("generalContact").render() }}
     </div>

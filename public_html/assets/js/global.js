@@ -1,8 +1,9 @@
 $(document).ready(function(){
   // Compensate for nav bar height
-  //var headerHeight = $('.navigation-bar').outerHeight();
-  //var navSpacerTop = headerHeight;
-  //$('nav#global, footer#global-footer').css('padding-top', navSpacerTop + 'px');
+  var headerHeight = $('.navigation-bar').outerHeight();
+  var navSpacerTop = headerHeight;
+  $('.hero').css('padding-top', navSpacerTop + 'px');
+  $('nav#global, footer#global-footer').css('padding-top', navSpacerTop - '20' + 'px');
 
   // Show/hide navigation
   $('.toggle-nav').click(function(e){
@@ -58,7 +59,13 @@ $(document).ready(function(){
     }
   });
 
-  // Scroll top when using footer navigation
+  // Scroll top when using navigation
+  $('header#global .toggle-nav').click(function(){
+    $('html, body').animate({
+      scrollTop: $('header#global').offset().top
+    }, 'slow');
+  });
+
   $('footer#global-footer .toggle-nav').click(function(){
     $('header#global .navigation-bar').fadeToggle();
     $('html, body').animate({
@@ -94,18 +101,23 @@ $(window).scroll(function() {
 	}
 });
 
-// Show/hide
-if($('.hidden-el').length > 0) {
-  $('.hidden-el').hide();
-  $('.hidden-el-toggle').on('click', function(){
+// Show/hide (Desktop)
+if($('.hidden-el:not(.hidden-mob)').length > 0) {
+  $('.hidden-el:not(.hidden-mob)').hide();
+  $('.hidden-el-toggle:not(.hidden-mob)').on('click', function(){
     $(this).toggleClass('hidden-opened');
-    $(this).next('.hidden-el').slideToggle();
+    $(this).next('.hidden-el:not(.hidden-mob)').slideToggle();
   });
+}
 
-  // $('.hidden-el-close').on('click', function(){
-  //   $(this).parents().closest('.hidden-el-toggle').toggleClass('hidden-opened');
-  //   $(this).parents().closest('.hidden-el').slideUp();
-  // });
+if($('.hidden-el.hidden-mob').length > 0) {
+  if($(window).width() <= 667) {
+    $('.hidden-el.hidden-mob').hide();
+    $('.hidden-el-toggle.hidden-mob').on('click', function(){
+      $(this).toggleClass('hidden-opened');
+      $(this).next('.hidden-el.hidden-mob').slideToggle();
+    });
+  }
 }
 
 if($('[data-fancybox="gallery"]').length > 0) {

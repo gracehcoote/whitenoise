@@ -45,6 +45,15 @@ HERO STYLES
   &.full,
   .home & {
     display: flex;
+  }
+
+  &.full {
     min-height: 100vh;
+  }
+
+  @media #{$phone-ls-up} {
+    .home & {
+      min-height: 100vh;
+    }
   }
 }

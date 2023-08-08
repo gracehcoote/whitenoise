@@ -1,14 +1,14 @@
-dateApplied: '2023-08-07 15:14:11'
+dateApplied: '2023-08-08 11:55:20'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1691417610
-        to: 1691417651
+        from: 1691485137
+        to: 1691492120
   -
-    message: 'Save the “careerApplicationFiles” filesystem'
+    message: 'Save field “category”'
     changed:
-      fs.careerApplicationFiles.hasUrls:
-        from: true
-        to: false
+      fields.377e4815-2d50-4422-8079-ef03bd4ea6a9.settings.maxRelations:
+        from: 1
+        to: null

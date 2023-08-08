@@ -1,14 +1,22 @@
-dateApplied: '2023-08-08 09:58:57'
+dateApplied: '2023-08-08 15:31:33'
 changes:
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1691420267
-        to: 1691485137
+        from: 1691504977
+        to: 1691505088
   -
-    message: 'Save entry type “default”'
+    message: 'Saving transform “thumb480X480”'
     changed:
-      entryTypes.b1bbaf26-44a5-41ee-bdbd-a54b700dab4e.fieldLayouts.6f34e909-c840-4c6b-88bf-66ac22aac7cf.tabs.0.elements.0.instructions:
-        from: 'The page title will have "Briefing Form" appended to it, so you only need to enter the type e.g. "Animation", "Branding" etc.'
-        to: 'The page title will have "Briefing Form" appended to it, so you only need to enter the type e.g. "Animation", "Brand" etc.'
+      imageTransforms.25d6b8ae-e58d-4921-9e3e-f99da09e0f4e.handle:
+        from: thumbnail480X480
+        to: thumb480X480
+      imageTransforms.25d6b8ae-e58d-4921-9e3e-f99da09e0f4e.name:
+        from: 'Thumbnail 480 x 480'
+        to: 'Thumb 480 x 480'
+  -
+    changed:
+      meta.__names__.25d6b8ae-e58d-4921-9e3e-f99da09e0f4e:
+        from: 'Thumbnail 480 x 480'
+        to: 'Thumb 480 x 480'

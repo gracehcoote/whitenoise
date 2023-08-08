@@ -11,6 +11,14 @@ footer#global-footer {
 
   h2 {
     font-size: 48px;
+
+    @media #{$phone-ls} {
+      font-size: 40px;
+    }
+
+    @media #{$extra-small} {
+      font-size: 32px;
+    }
   }
 
   label {
@@ -36,7 +44,7 @@ footer#global-footer {
   }
 
   .sub-footer {
-    border-top: 2px solid rgba(255,255,255,0.2);
+    border-top: 2px solid #fff;
     
     p,
     ul,

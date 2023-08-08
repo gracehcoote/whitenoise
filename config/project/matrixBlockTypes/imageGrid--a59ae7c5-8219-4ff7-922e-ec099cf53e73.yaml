@@ -50,7 +50,7 @@ fields:
     contentColumnType: string
     fieldGroup: null
     handle: images
-    instructions: "You should select a minimum of 1 image, which will automatically be 100% width of the container.\r\nYou can select up to 4 images - multiple images will automatically form either a row or 2, row of 3 or grid of 4."
+    instructions: "* You must select a minimum of 1 image, which will automatically be 100% width of the container.\r\n* You can select up to 6 images - multiple images will automatically form either a row of 2, 3 or 5, or a grid of 4 or 6"
     name: Images
     searchable: false
     settings:
@@ -64,7 +64,7 @@ fields:
       defaultUploadLocationSubpath: null
       localizeRelations: false
       maintainHierarchy: false
-      maxRelations: 4
+      maxRelations: 6
       minRelations: null
       previewMode: thumbs
       restrictFiles: true
