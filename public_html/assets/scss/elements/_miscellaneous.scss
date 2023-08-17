@@ -390,6 +390,18 @@ hr.small {
   }
 }
 
+// Sprig loader
+#indicator {
+  position: fixed;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  pointer-events: none;
+}
+
 /* Craft CMS Styles */
 
 body.ltr .matrixblock > .titlebar > .preview {

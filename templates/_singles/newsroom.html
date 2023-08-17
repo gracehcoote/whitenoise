@@ -7,23 +7,50 @@
 {% set bodyClass = 'black-no-overlay' %}
 
 {% block headContent %}
-
+<style>
+  #indicator .loader {
+    display: none;
+  }
+  #indicator.loading .loader {
+    display: inline;
+  }
+  #indicator.loading .complete {
+    display: none;
+  }
+</style>
 {% endblock %}
 
 {% block main %}
 <section>
-  <div class="section-container max-width py-5">
+  <div class="section-container max-width py-4 py-sm-5 py-tls-6 py-xl-8">
     <h1>{{ entry.pageTitle ?? entry.title }}</h1>
   </div><!-- end section-container -->
 
-  <div class="section-container max-width">
+  <div class="section-container max-width pb-7">
     {% set articles = craft.entries().section('newsroomArticles').limit(6) %}
 
-    {{ sprig('_components/search') }}
+    {{ sprig('_components/newsroom-filters') }}
+    
   </div><!-- end section-container -->
 </section>
 {% endblock %}
 
 {% block javascript %}
  {{ sprig.script }}
+ <script>
+  htmx.config.requestClass = 'loading';
+
+  htmx.on('htmx:afterSwap', function(event) {
+    // scroll to top so we aren't left at the bottom of the new page
+    window.scrollTo(0, 50);
+  });
+
+  $('input[type="search"]').focus(function () {
+    $(this).toggleClass('active inactive');
+    $(this).attr("placeholder", "Start typing...");
+  }).blur(function () {
+    $(this).toggleClass('active inactive');
+    $(this).attr("placeholder", "Search");
+  });
+</script>
 {% endblock %}

@@ -21,12 +21,16 @@ footer#global-footer {
     }
   }
 
-  label {
-    color: #fff;
-  }
 
   .form-control {
-    border-color: #fff;
+    &:not(:focus) {
+      border-color: #fff;
+
+      + label {
+        color: #fff;
+      }
+    }
+
     color: #fff;
 
     &::-webkit-input-placeholder { /* Chrome/Opera/Safari */

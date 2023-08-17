@@ -1,0 +1,225 @@
+{% set page = page ?? 1 %}
+{% set firstPageLimit = 7 %}
+{% set limit = 9 %}
+{% set offSet = firstPageLimit - limit %}
+
+{% set isQuery = false %}
+{% set catId = 0 %}
+{% set search = search ?? '' %}
+{% set category = category ?? [''] %}
+
+{# Push the URL into the history stack with the filters, adding extra values. #}
+{% set filters = {
+    search:search,
+    category:category
+} %}
+{% do sprig.pushUrl('?' ~ filters|merge({
+    page: page, 
+})|url_encode) %}
+
+{# initial query #}
+{% if page > 1 %}
+    {% set entryQuery = craft.entries()
+        .section('newsroomArticles')
+        .offset(offSet)
+        .limit(limit)
+    %}
+    {% set paginationQuery = craft.entries()
+        .section('newsroomArticles')
+        .limit(limit)
+    %}
+{% else %}
+    {% set entryQuery = craft.entries()
+        .section('newsroomArticles')
+        .limit(firstPageLimit)
+    %}
+    {% set paginationQuery = craft.entries()
+        .section('newsroomArticles')
+        .limit(firstPageLimit)
+    %}
+{% endif %}
+
+{# SET Search #}
+{% if search is not empty %}
+    {% set isQuery = true %}
+    {% do entryQuery.search(search) %}
+    {% do entryQuery.orderBy('score') %}
+{% else %}
+    {% do entryQuery.orderBy('postDate Desc') %}
+{% endif %}
+
+{# SET category #}
+{% if category[0] is not empty %}
+    {% set isQuery = true %}
+    {% do entryQuery.andRelatedTo(category) %}
+    {% set catId = category|integer %}
+{% endif %}
+
+{# initial query / paginate #}
+{% set paginationInfo = sprig.paginate(paginationQuery, page) %}
+{% set pageInfo = sprig.paginate(entryQuery, page) %}
+{% set articles = pageInfo.pageResults %}
+
+{# Categories #}
+{% set articleCategories = craft.categories.group('newsroomCategories').all() %}
+
+{% if articles|length %}
+    {% set curPage = paginationInfo.currentPage %} 
+    {% if curPage == 1 and not isQuery %}
+        {% set showingStart = 1 %}
+        {% set showingEnd = firstPageLimit %}
+        {% if showingEnd > paginationInfo.total %}
+            {% set showingEnd = paginationInfo.total %}
+        {% endif %}
+        {% set pageTotal = paginationInfo.total %}
+    {% elseif isQuery %}
+        {% set showingStart = limit * (curPage - 1) + 1 %}
+        {% set showingEnd = showingStart + (limit - 1) %}
+        {% if showingEnd > pageInfo.total %}
+            {% set showingEnd = pageInfo.total %}
+        {% endif %}
+        {% set pageTotal = pageInfo.total %}
+    {% else %}
+        {% set showingStart = limit * (curPage - 1) + 2 %}
+        {% set showingEnd = showingStart + (limit - 1) %}
+        {% if showingEnd > paginationInfo.total %}
+            {% set showingEnd = paginationInfo.total %}
+        {% endif %}
+        {% set pageTotal = paginationInfo.total %}
+    {% endif %}
+{% endif %}
+
+<div class="d-sm-flex justify-content-between align-items-center mb-2 position-relative">
+  <div class="scoll-nav">
+    <ul class="nav btn-list my-1">
+      <li class="nav-item">
+        <input type="radio" class="btn-check" name="category[]" id="all" autocomplete="off" value="" checked sprig s-indicator="#indicator" s-replace="#results">
+        <label class="btn btn-white" for="all">All</label>
+      </li>
+
+      {% for category in articleCategories %}
+      <li class="nav-item">
+        <input type="radio" class="btn-check" name="category[]" id="category-{{ category.slug }}" value="{{ category.id }}" autocomplete="off" sprig s-indicator="#indicator" s-replace="#results">
+        <label class="btn btn-white" for="category-{{ category.slug }}">{{ category.title }}</label>
+      </li>
+      {% endfor %}
+    </ul>
+  </div><!-- end scroll-nav -->
+
+  <div class="my-1 flex-grow-1 flex-sm-grow-0">
+    <input sprig s-trigger="keyup changed" s-replace="#results" s-indicator="#indicator" type="search" name="search" value="{{ search }}" placeholder="Search" class="text form-control search inactive">
+  </div>
+</div>
+
+<div id="results">
+  <div id="indicator">
+    <svg class="loader" version="1.1" id="L9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
+      <path fill="#1a1a1a" d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50">
+        <animateTransform 
+          attributeName="transform" 
+          attributeType="XML" 
+          type="rotate"
+          dur="1s" 
+          from="0 50 50"
+          to="360 50 50" 
+          repeatCount="indefinite" />
+      </path>
+    </svg>
+  </div><!-- end indicator -->
+
+    {% if articles|length %}
+        <div class="row gy-1half">
+        {% for article in articles %}
+          {% set thumbnail = article.imageThumbnail.one() %}
+          {% set categories = article.category.all() %}
+          {% if loop.first and page == 1 and not isQuery %}
+            <div class="col-12 mb-2 mb-lg-5 position-relative greyscale-hover-off mobile-fill">
+              <div class="shadow">
+                <div class="row g-0">
+                  <div class="col-md-6 col-lg-7 col-xl-8">
+                    <a href="{{ article.url }}">
+                      <img class="greyscale object-fit-cover" src="{{ thumbnail.url('thumb960X540') }}" alt="{{ article.title }}">
+                    </a>
+                  </div><!-- end col -->
+
+                  <div class="col-md-6 col-lg-5 col-xl-4 d-flex flex-column justify-content-center">
+                    <div class="p-3 flex-grow-1 d-flex flex-column justify-content-center align-items-start">
+                      <p class="tw-bold">{% for category in categories %}{{ category.title }}{% if not loop.last %}, {% endif %}{% endfor %}</p>
+                      <h2 class="small tw-medium my-2"><a href="{{ article.url }}">{{ article.title }}</a></h2>
+                      <a class="btn-link stretched-link" href="{{ article.url }}">Read more</a>
+                    </div>
+                  </div><!-- end col -->
+                </div><!-- end row --> 
+              </div>
+            </div><!-- end col -->
+          {% elseif not loop.first or page > 1 or isQuery %}
+
+          <div class="col-sm-6 col-lg-4 d-flex position-relative greyscale-hover-off">
+            <div class="shadow d-flex flex-column">
+              <a href="{{ article.url }}">
+                <img class="greyscale" src="{{ thumbnail.url('thumb512X288') }}" alt="{{ article.title }}">
+              </a>
+
+              <div class="p-2 p-md-3 flex-grow-1 d-flex flex-column justify-content-between align-items-start">
+                <div>
+                  <p class="tw-bold">{% for category in categories %}{{ category.title }}{% if not loop.last %}, {% endif %}{% endfor %}</p>
+                  <h3 class="x-small"><a href="{{ article.url }}">{{ article.title }}</a></h3>
+                </div>
+                
+                <a class="btn-link stretched-link" href="{{ article.url }}">Read more</a>
+              </div>
+            </div>
+          </div><!-- end col -->
+          {% endif %}
+        {% endfor %}
+      </div><!-- end row -->
+
+      {# Pagination #}
+      <nav aria-label="Page navigation" class="mt-7">
+        <ul class="pagination justify-content-center">
+          {# Previous #}
+          <li class="page-item">
+            <a
+              sprig
+              s-val:page="{{ page - 1 }}"
+              s-push-url="?page={{ page - 1 }}"
+              s-indicator="#indicator"
+              class="page-link arrow{% if page < pageInfo.totalPages %} disabled{% endif %}">
+              <span class="material-icons-outlined">arrow_back_ios</span>
+            </a>
+          </li>
+
+          {# Numbers #}
+          {% for i in pageInfo.getDynamicRange(5) %}
+              {% if i == page %}
+              <li class="page-item"><span class="page-link active">{{ i }}</span></li>
+              {% else %}
+              <li class="page-item">
+                <a
+                  sprig
+                  s-val:page="{{ i }}"
+                  s-push-url="?page={{ i }}"
+                  s-indicator="#indicator"
+                  class="page-link">
+                  {{ i }}
+                </a>
+              </li>
+              {% endif %}
+          {% endfor %}
+
+          {# Next #}
+          <li class="page-item">
+            <a
+              sprig
+              s-val:page="{{ page + 1 }}"
+              s-push-url="?page={{ page + 1 }}"
+              s-indicator="#indicator"
+              class="page-link arrow{% if page > 1 %} disabled{% endif %}">
+              <span class="material-icons-outlined">arrow_forward_ios</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    {% endif %}
+</div>

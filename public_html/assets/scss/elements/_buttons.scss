@@ -110,4 +110,11 @@ button {
     background-color: $black;
     color: #fff;
   }
+
+  .btn-check + & {
+    @media #{$phone-ls} {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
 }

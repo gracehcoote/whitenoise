@@ -67,6 +67,88 @@ ul.crumbs {
   }
 }
 
+ul.pagination {
+  font-family: $title-font;
+  font-size: 16px;
+  font-weight: 600;
+
+  .page-link {
+    border: none;
+    color: $black;
+    border-bottom: 2px solid transparent;
+
+    &:not(.disabled) {
+      cursor: pointer;
+    }
+
+    &:not(.arrow) {
+      padding-left: 0.25rem;
+      padding-right: 0.25rem;
+      margin: 0 0.25rem;
+    }
+
+    &.disabled {
+      background-color: transparent;
+      opacity: 0.3;
+    }
+
+    &.active {
+      &:not(.disabled) {
+        font-weight: 900;
+      }
+    }
+    
+    &.active,
+    &:hover {
+      &:not(.disabled) {
+        color: $black;
+        background-color: transparent;
+      }
+
+      &:not(.arrow) {
+        border-bottom-color: $yellow;
+      }
+
+      &.arrow {
+        color: $yellow; 
+      }
+    }
+  }
+}
+
+// Scrollable nav
+
+.scoll-nav {
+  white-space: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  scrollbar-width: none;
+  &:-webkit-scrollbar {
+    display: none;
+  }
+
+  @media #{$small} {
+    &:after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      width: 50px;
+      height: 75px;
+      background: rgb(255,255,255);
+      background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.1) 100%);
+    }
+  }
+
+  ul.nav {
+    flex-wrap: nowrap;
+    margin: 0;
+    margin-left: -0.5rem;
+  }
+}
+
 // Global navigation 
 
 .navigation-bar {
