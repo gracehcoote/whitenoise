@@ -18,20 +18,15 @@
 
   {% set heroImage = entry.heroImage.one() %}
   {% if heroImage %}
-  <img 
-    class="background-image{% if entry.greyscaleImage %} greyscale{% endif %}" 
-    loading="lazy" 
-    src="{{ heroImage.url('thumb1920X1080') }}" 
-    alt="{{ heroImage.title }}" 
-    sizes="100vw" 
-    srcset="
-      {{ heroImage.url('thumb480X480') }} 480w,
-      {{ heroImage.url('thumb512X288') }} 512w,
-      {{ heroImage.url('thumb768X432') }} 768w,
-      {{ heroImage.url('thumb960X540') }} 960w,
-      {{ heroImage.url('thumb1280X720') }} 1280w,
-      {{ heroImage.url('thumb1920X1080') }} 1920w
-      ">
+  <picture>
+    <source media="(min-width: 1280px)" srcset="{{ heroImage.url('thumb1920X1080') }}">
+    <source media="(min-width: 960px)" srcset="{{ heroImage.url('thumb1280X720') }}">
+    <source media="(min-width: 768px)" srcset="{{ heroImage.url('thumb960X540') }}">
+    <source media="(min-width: 512px)" srcset="{{ heroImage.url('thumb768X432') }}">
+    <source media="(min-width: 480px)" srcset="{{ heroImage.url('thumb512X288') }}">
+    <source media="(min-width: 0px)" srcset="{{ heroImage.url('thumb480X480') }}">
+    <img class="background-image{% if entry.greyscaleImage %} greyscale{% endif %}" src="{{ heroImage.url('thumb1920X1080') }}" alt="{{ heroImage.alt ?? heroImage.title ?? entry.title ?? null }}" loading="lazy">
+  </picture> 
     {% endif %}
 </section>
 

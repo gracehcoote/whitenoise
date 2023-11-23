@@ -1,35 +1,34 @@
-{% set careerContentBlocks = entry.careerContentBlocks.all() %}
-<!-- {{ careerContentBlocks | length }} -->
-{% for block in careerContentBlocks %}
+{% set pageContentBlocks = entry.pageContentBlocks.all() %}
+<!-- {{ pageContentBlocks | length }} -->
+{% for block in pageContentBlocks %}
 	{% if block.type == 'textBlock' %}
-		<div class="py-5 body-text border-top border-2 border-dark">
-			{{ block.text | replace({'&nbsp;' : ''})|raw }}
+		<div class="pb-5 body-text">
+			{{ block.text }}
 		</div>
 
-	{% elseif block.type == 'statement' %}
-		<div class="py-5 border-top border-2 border-dark">
-			<h2 class="large">{{ block.statementText }}</h2>
-			{% if block.statementCaption %}
-			<cite>{{ block.statementCaption }}</cite>
-			{% endif %}
-		</div>
-
-	{% elseif block.type == 'statistics' %}
-		<div class="py-5 border-top border-2 border-dark">
-			<div class="d-flex flex-wrap justify-content-center align-items-start">
-			{% for row in block.statistic %}
-				<div class="px-3 my-2 text-center">
-					<span class="stat-text">{{ row.statisticFact }}</span>
-					{% if row.statisticCaption %}
-					<p class="tw-medium">{{ row.statisticCaption }}</p>
-					{% endif %}
-				</div>
+	{% elseif block.type == 'faqsBlock' %}
+		<div class="pb-5 body-text">
+			<div class="accordion" id="faq-{{ block.id }}">
+			{% set questions = block.questions.all() %}
+			{% for question in questions %}
+				<div class="accordion-item border-top border-2 border-black{% if loop.last %} border-bottom border-2 border-black{% endif %}">
+					<h4 class="accordion-header mb-0">
+						<button class="accordion-button{% if not loop.first %} collapsed{% endif %} py-2 py-lg-3" type="button" data-bs-toggle="collapse" data-bs-target="#answer-{{ question.id }}" aria-expanded="{% if loop.first %}true{% else %}false{% endif %}" aria-controls="answer-{{ question.id }}">
+							{{ question.question }}
+						</button>
+					</h4>
+					<div id="answer-{{ question.id }}" class="accordion-collapse collapse{% if loop.first %} show{% endif %}" data-bs-parent="#faq-{{ block.id }}">
+						<div class="accordion-body pb-2 pb-lg-3">
+							{{ question.answer }}
+						</div>
+					</div>
+				</div><!-- end accordion-item -->
 			{% endfor %}
-			</div>
+			</div><!-- end accordion -->
 		</div>
 
 	{% elseif block.type == 'imageBlock' %}
-		<div>
+		<div class="pb-5">
 		{% set images = block.images.all() %}
 		{% if images|length == '1' %}
 			{% for image in images %}
@@ -75,7 +74,7 @@
 		</div>
 
 	{% elseif block.type == 'videoUpload' %}
-		<div class="border-top border-2 border-dark">
+		<div class="pb-5">
 			{% set videoFile = block.videoFile.one() %}
 			{% if videoFile %}
 			<div class="video-player">
@@ -95,7 +94,7 @@
 		</div>
 
 	{% elseif block.type == 'videoEmbed' %}
-		<div class="border-top border-2 border-dark">
+		<div class="pb-5">
 			{{ block.embedCode|raw }}
 		</div>
 	{% endif %}

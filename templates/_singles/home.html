@@ -21,7 +21,7 @@
         <h1 class="mb-3">{{ entry.pageTitle }}</h1>
 
         <div class="d-grid gap-1 d-msm-block">
-          <a class="btn btn-white me-msm-1" href="">Start project</a>
+          <a class="btn btn-white me-msm-1" href="{{ siteUrl }}contact">Start project</a>
 
           {% if heroVideoFullLength %}
           <button id="play-video" class="btn btn-white btn-outline" type="button" data-bs-toggle="modal" data-bs-target="#video-modal">Play showreel</button>
@@ -37,26 +37,21 @@
     </div><!-- end row -->
   </div><!-- end section-container -->
 
-  {% if heroImage|length and not heroVideoClip|length %}
-  <img 
-  class="background-image{% if entry.greyscaleImage %} greyscale{% endif %}" 
-  loading="lazy" 
-  src="{{ heroImage.url('thumb1920X1080') }}" 
-  alt="{{ heroImage.title }}" 
-  sizes="100vw" 
-  srcset="
-    {{ heroImage.url('thumb480X480') }} 480w,
-    {{ heroImage.url('thumb512X288') }} 512w,
-    {{ heroImage.url('thumb768X432') }} 768w,
-    {{ heroImage.url('thumb960X540') }} 960w,
-    {{ heroImage.url('thumb1280X720') }} 1280w,
-    {{ heroImage.url('thumb1920X1080') }} 1920w
-    ">
+  {% if heroImage and not heroVideoClip %}
+  <picture>
+    <source media="(min-width: 1280px)" srcset="{{ heroImage.url('thumb1920X1080') }}">
+    <source media="(min-width: 960px)" srcset="{{ heroImage.url('thumb1280X720') }}">
+    <source media="(min-width: 768px)" srcset="{{ heroImage.url('thumb960X540') }}">
+    <source media="(min-width: 512px)" srcset="{{ heroImage.url('thumb768X432') }}">
+    <source media="(min-width: 480px)" srcset="{{ heroImage.url('thumb512X288') }}">
+    <source media="(min-width: 0px)" srcset="{{ heroImage.url('thumb480X480') }}">
+    <img class="background-image{% if entry.greyscaleImage %} greyscale{% endif %}" src="{{ heroImage.url('thumb1920X1080') }}" alt="{{ heroImage.alt ?? heroImage.title ?? entry.title ?? null }}" loading="lazy">
+  </picture> 
   {% endif %}
 
   
   {% if heroVideoClip %}
-  <video class="background-video" autoplay loop muted poster="{{ heroImage.url }}">
+  <video class="background-video" autoplay playsinline loop muted poster="{{ heroImage.url }}">
     <source src="{{ heroVideoClip.url }}" type="video/mp4">
     {% if heroVideoClip.webmFile %}
     <source src="{{ heroVideoClip.webmFile }}" type="video/webm">
@@ -112,10 +107,11 @@
     <div class="col-12">
       <div class="work-item">
         <a href="{{ project.url }}">
-          <div class="text-container p-2 p-sm-3 px-lg-4 py-lg-3 p-xl-5 d-flex justify-content-start align-items-end">
+          {% set thumbnailTextColour = project.thumbnailTextColour %}
+          <div class="text-container p-2 p-sm-3 px-lg-4 py-lg-3 p-xl-5 d-flex justify-content-start align-items-end{% if thumbnailTextColour == 'dark' %} light-overlay{% endif %}">
             <div>
-              <h3 class="thumb-title small tw-black text-white mb-0">{{ project.title }}</h3>
-              <p class="thumb-subtitle text-white tw-medium">{{ project.subtitle }}</p>
+              <h3 class="thumb-title small tw-black{% if thumbnailTextColour == 'dark' %} text-black{% else %} text-white{% endif %} mb-0">{{ project.title }}</h3>
+              <p class="thumb-subtitle{% if thumbnailTextColour == 'dark' %} text-black{% else %} text-white{% endif %} tw-medium">{{ project.subtitle }}</p>
             </div>   
           </div><!-- end text-container -->
           
@@ -124,15 +120,16 @@
             {% set imageThumbnail = project.imageThumbnail.one() %}
 
             {% if videoThumbnailUpload %}
-              <video preload="false" autoplay loop muted poster="{{ imageThumbnail.url('thumb1280X720') }}">
+              <video preload="false" autoplay playsinline loop muted poster="{{ imageThumbnail.url('thumb1280X720') }}">
                 <source src="{{ videoThumbnailUpload.url }}" type="video/mp4">
               </video>
             {% endif %}
             
+            {% if imageThumbnail %}
             <img 
               loading="lazy" 
               src="{{ imageThumbnail.url('thumb1920X1080') }}" 
-              alt="{{ project.title }}" 
+              alt="{{ imageThumbnail.alt ?? imageThumbnail.title ?? project.title ?? null }}" 
               sizes="100vw" 
               srcset="
                 {{ imageThumbnail.url('thumb480X480') }} 480w,
@@ -142,6 +139,7 @@
                 {{ imageThumbnail.url('thumb1280X720') }} 1280w,
                 {{ imageThumbnail.url('thumb1920X1080') }} 1920w
                 ">
+              {% endif %}
           </div><!-- end thumb-container -->
         </a>
       </div><!-- end work-item -->
@@ -152,10 +150,11 @@
     <div class="{% if loop.length == 5 or loop.length == 3 %}col-xl-6{% else %}col-xl-4{% endif %}">
       <div class="work-item">
         <a href="{{ project.url }}">
-          <div class="text-container p-2 p-sm-3 px-lg-4 py-lg-3 p-xl-5 d-flex justify-content-start align-items-end">
+          {% set thumbnailTextColour = project.thumbnailTextColour %}
+          <div class="text-container p-2 p-sm-3 px-lg-4 py-lg-3 p-xl-5 d-flex justify-content-start align-items-end{% if thumbnailTextColour == 'dark' %} light-overlay{% endif %}">
             <div>
-              <h3 class="thumb-title small tw-black text-white mb-0">{{ project.title }}</h3>
-              <p class="thumb-subtitle text-white tw-medium">{{ project.subtitle }}</p>
+              <h3 class="thumb-title small tw-black{% if thumbnailTextColour == 'dark' %} text-black{% else %} text-white{% endif %} mb-0">{{ project.title }}</h3>
+              <p class="thumb-subtitle{% if thumbnailTextColour == 'dark' %} text-black{% else %} text-white{% endif %} tw-medium">{{ project.subtitle }}</p>
             </div>   
           </div><!-- end text-container -->
           
@@ -164,15 +163,16 @@
             {% set imageThumbnail = project.imageThumbnail.one() %}
 
             {% if videoThumbnailUpload %}
-              <video preload="false" autoplay loop muted poster="{{ imageThumbnail.url('thumb1280X720') }}">
+              <video preload="false" autoplay playsinline loop muted poster="{{ imageThumbnail.url('thumb1280X720') }}">
                 <source src="{{ videoThumbnailUpload.url }}" type="video/mp4">
               </video>
             {% endif %}
             
+            {% if imageThumbnail %}
             <img 
               loading="lazy" 
               src="{{ imageThumbnail.url('thumb1920X1080') }}" 
-              alt="{{ project.title }}" 
+              alt="{{ imageThumbnail.alt ?? imageThumbnail.title ?? project.title ?? null }}" 
               sizes="100vw" 
               srcset="
                 {{ imageThumbnail.url('thumb480X480') }} 480w,
@@ -182,6 +182,7 @@
                 {{ imageThumbnail.url('thumb1280X720') }} 1280w,
                 {{ imageThumbnail.url('thumb1920X1080') }} 1920w
                 ">
+              {% endif %}
           </div><!-- end thumb-container -->
         </a>
       </div><!-- end work-item -->
@@ -207,13 +208,13 @@
       <div class="splide__track">
         <ul class="splide__list">
           {% for logo in clientLogos|slice(0, firstHalfEnd) %}
-          <li class="splide__slide px-2">
+          <li class="splide__slide text-center px-2">
             {% if logo.assetLink %}
             <a href="{{ logo.assetLink }}" target="_blank">
-              <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+              <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{% if logo.alt %}{{ logo.alt }}{% else %}Whitenoise client {{ logo.title }}{% endif %}">
             </a>
             {% else %}
-            <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+            <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{% if logo.alt %}{{ logo.alt }}{% else %}Whitenoise client {{ logo.title }}{% endif %}">
             {% endif %}
           </li>
           {% endfor %}
@@ -225,13 +226,13 @@
       <div class="splide__track">
         <ul class="splide__list">
           {% for logo in clientLogos|slice(secondHalfStart, last) %}
-          <li class="splide__slide px-2">
+          <li class="splide__slide text-center px-2">
             {% if logo.assetLink %}
             <a href="{{ logo.assetLink }}" target="_blank">
-              <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+              <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{% if logo.alt %}{{ logo.alt }}{% else %}Whitenoise client {{ logo.title }}{% endif %}">
             </a>
             {% else %}
-            <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+            <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{% if logo.alt %}{{ logo.alt }}{% else %}Whitenoise client {{ logo.title }}{% endif %}">
             {% endif %}
           </li>
           {% endfor %}
@@ -243,13 +244,13 @@
       <div class="splide__track">
         <ul class="splide__list">
           {% for logo in clientLogos %}
-          <li class="splide__slide px-2">
+          <li class="splide__slide text-center px-2">
             {% if logo.assetLink %}
             <a href="{{ logo.assetLink }}" target="_blank">
-              <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+              <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{% if logo.alt %}{{ logo.alt }}{% else %}Whitenoise client {{ logo.title }}{% endif %}">
             </a>
             {% else %}
-            <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+            <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{% if logo.alt %}{{ logo.alt }}{% else %}Whitenoise client {{ logo.title }}{% endif %}">
             {% endif %}
           </li>
           {% endfor %}
@@ -268,6 +269,10 @@
       var subtitle = $(this).find('.thumb-subtitle');
       subtitleHeight = subtitle.outerHeight() + 'px';
       subtitle.css('margin-bottom', '-' + subtitleHeight);
+    });
+
+    $('#video-modal').on("hidden.bs.modal", function (e) {
+      $('video').trigger('pause');
     });
   });
 </script>

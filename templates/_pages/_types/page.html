@@ -7,27 +7,26 @@
 {% set bodyClass = 'black-no-overlay' %}
 
 {% block headContent %}
+<link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
 {% endblock %}
 
 {% block main %}
 	<section>
-		<div class="section-container pb-0">
+		<div class="section-container pt-xl-8 pb-0">
 			<h1 class="mb-0">{{ entry.title }}</h1>
 		</div><!-- end section-container -->
 	</section>
 
 	<section>
-		<div class="section-container">
+		<div class="section-container pt-xl-8">
 			<div class="row gy-3 justify-content-between">
-				<div class="col-lg-8">
-          {% if entry.textBlock %}
-          <div class="mob-shadow-none shadow body-text p-3 p-sm-4 p-md-5 p-lg-6">
-            {{ entry.textBlock }}
+				<div class="col-xl-8">
+          <div class="mob-shadow-none shadow body-text p-3 p-sm-4 p-md-5 p-lg-6 pb-0">
+            {% include "_includes/page_content_blocks" %}
           </div>
-					{% endif %}
 				</div><!-- end col -->
 
-				<div class="col-lg-4 col-xxl-3">
+				<div class="col-xl-4 col-xxl-3">
 					<div class="dark p-3">
             <h6 class="mb-3">Our Contact Information</h6>
             {% set locations = siteInfo.locations.all() %}
@@ -117,5 +116,5 @@
 {% endblock %}
 
 {% block javascript %}
-
+<script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
 {% endblock %}

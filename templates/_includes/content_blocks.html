@@ -5,7 +5,7 @@
 		{% set bgColour = block.blockBackgroundColour %}
 		<section class="post-block body-text contained{% if bgColour %} {{ bgColour.value }}{% else %} light{% endif %}">
 			<div class="section-container max-width">
-				{{ block.text }}
+				{{ block.text | replace({'&nbsp;' : ''})|raw }}
 			</div>
 		</section><!-- end post-block -->
 
@@ -13,7 +13,7 @@
 		{% set bgColour = block.blockBackgroundColour %}
 		<section class="post-block body-text contained{% if bgColour %} {{ bgColour.value }}{% else %} light{% endif %}">
 			<div class="section-container max-width">
-				{{ block.title }}
+				{{ block.blockTitle }}
 
 				<div class="row">
 					<div class="col-lg-6 pe-lg-3">
@@ -60,7 +60,8 @@
 
 	{% elseif block.type == 'imageGrid' %}
 		{% set width = block.blockWidth %}
-		<section class="post-block {% if width == 'contained' %} contained{% else %} full-width{% endif %}">
+		{% set bgColour = block.blockBackgroundColour %}
+		<section class="post-block {% if width == 'contained' %} contained{% else %} full-width{% endif %}{% if bgColour %} {{ bgColour.value }}{% else %} light{% endif %}">
 			{% if width == 'contained' %}
 			<div class="section-container">
 			{% endif %}
@@ -68,6 +69,7 @@
 			{% set images = block.images.all() %}
 			{% if images|length == '1' %}
 				{% for image in images %}
+				{% if image.kind == 'image' %}
 				<img 
 					loading="lazy" 
           src="{{ image.url('thumb1920X1080') }}" 
@@ -81,11 +83,17 @@
             {{ image.url('thumb1280X720') }} 1280w,
             {{ image.url('thumb1920X1080') }} 1920w
           ">
+					{% elseif image.kind == 'video' %}
+					<video preload="false" autoplay playsinline loop muted>
+						<source src="{{ image.url }}" type="video/mp4">
+					</video>
+					{% endif %}
 				{% endfor %}
 			{% else %}
 				<div class="row g-0">
 					{% for image in images %}
 					<div class="{% if images|length == '2' or images|length == '4' %}col-msm-6{% elseif images|length == '3' or images|length == '6' %}col-sm-4{% else %}col-sm{% endif %}">
+						{% if image.kind == 'image' %}
 						<img 
 						loading="lazy" 
 						src="{{ image.url('thumb1280X720') }}" 
@@ -98,13 +106,18 @@
 							{{ image.url('thumb960X540') }} 960w,
 							{{ image.url('thumb1280X720') }} 1280w
 						">
-					</div>
+						{% elseif image.kind == 'video' %}
+						<video preload="false" autoplay playsinline loop muted>
+							<source src="{{ image.url }}" type="video/mp4">
+						</video>
+						{% endif %}
+					</div><!-- end col -->
 					{% endfor %}
-				</div>
+				</div><!-- end row -->
 			{% endif %}
 
 			{% if width == 'contained' %}
-			</div>
+			</div><!-- end section-container -->
 			{% endif %}
 		</section><!-- end post-block -->
 
@@ -198,7 +211,43 @@
 			<div class="section-container">
 			{% endif %}
 
-			{{ block.embedCode|raw }}
+			<div class="ratio ratio-16x9">
+				{{ block.embedCode|raw }}
+			</div>
+
+			{% if width == 'contained' %}
+			</div>
+			{% endif %}
+		</section><!-- end post-block -->
+	
+	{% elseif block.type == 'autoplayVideo' %}
+		{% set width = block.blockWidth %}
+		{% set bgColour = block.blockBackgroundColour %}
+		<section class="post-block {% if width == 'contained' %} contained{% else %} full-width{% endif %}{% if bgColour %} {{ bgColour.value }}{% else %} light{% endif %}">
+			{% if width == 'contained' %}
+			<div class="section-container">
+			{% endif %}
+
+			{% set videoFile = block.videoFile.one() %}
+			{% if videoFile.kind == 'video' %}
+			<video preload="false" autoplay playsinline loop muted>
+				<source src="{{ videoFile.url }}" type="video/mp4">
+			</video>
+			{% elseif videoFile.kind == 'image' %}
+			<img 
+				loading="lazy" 
+				src="{{ videoFile.url('thumb1280X720') }}" 
+				alt="{{ videoFile.title }}" 
+				class="w-100"
+				sizes="100vw" 
+				srcset="
+					{{ videoFile.url('thumb480X270') }} 480w,
+					{{ videoFile.url('thumb512X288') }} 512w,
+					{{ videoFile.url('thumb768X432') }} 768w,
+					{{ videoFile.url('thumb960X540') }} 960w,
+					{{ videoFile.url('thumb1280X720') }} 1280w
+				">
+			{% endif %}
 
 			{% if width == 'contained' %}
 			</div>

@@ -249,8 +249,12 @@ section {
 .post-block:not(.full-width).dark + .contained.dark .section-container {
   padding-top: 0;
 }
+.post-block img {
+  width: 100%;
+}
 .post-block video {
   width: 100%;
+  display: block;
 }
 
 .spacer {
@@ -1119,6 +1123,7 @@ COLOUR STYLES
 .dark ol,
 .dark ul,
 .dark li,
+.dark .stat-text,
 .page-footer h2,
 .page-footer h3,
 .page-footer h4,
@@ -1129,7 +1134,8 @@ COLOUR STYLES
 .page-footer p,
 .page-footer ol,
 .page-footer ul,
-.page-footer li {
+.page-footer li,
+.page-footer .stat-text {
   color: #fff;
 }
 .dark p a,
@@ -1445,10 +1451,6 @@ FORM STYLES
     font-size: 16px;
   }
 }
-textarea.form-control {
-  height: 100px;
-}
-
 label {
   display: inline-block;
   font-size: 12px;
@@ -1614,6 +1616,20 @@ HERO STYLES
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .hero-video-container {
+    position: relative;
+    height: 0;
+    padding-bottom: 100%;
+  }
+  .hero-video-container video,
+  .hero-video-container iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+  }
+}
 /************
 IMAGE STYLES
 ************/
@@ -1973,6 +1989,37 @@ hr.small {
   color: #FFCD00;
 }
 
+.accordion-item .accordion-button {
+  font-weight: inherit;
+  text-align: left;
+  width: 100%;
+}
+@media only screen and (min-width: 576px) {
+  .accordion-item .accordion-button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
+.accordion-item .accordion-button:after {
+  flex-shrink: 0;
+  font-family: "Jeko", "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  content: "Read More";
+  padding-left: 0.5rem;
+}
+@media only screen and (max-width: 575px) {
+  .accordion-item .accordion-button:after {
+    font-size: 14px;
+    display: block;
+    padding-left: 0;
+  }
+}
+.accordion-item .accordion-button:not(.collapsed):after {
+  content: "Close";
+}
+
 .cc-revoke,
 .cc-window {
   font-family: "Poppins", Arial, Helvetica, sans-serif !important;
@@ -1990,6 +2037,15 @@ hr.small {
 }
 .cc-btn.cc-deny:hover {
   color: #1A1A1A !important;
+}
+
+#wm-button-fixed {
+  position: fixed;
+  z-index: 1000;
+  top: 1rem;
+  background: #fff;
+  padding: 4px 10px 8px 20px;
+  border-radius: 60px;
 }
 
 #indicator {
@@ -2219,8 +2275,12 @@ THUMBNAIL STYLES
   height: 50%;
   z-index: -1;
   background: rgb(26, 26, 26);
-  background: linear-gradient(0deg, rgba(26, 26, 26, 0.5032213569) 0%, rgba(26, 26, 26, 0) 100%);
+  background: linear-gradient(0deg, rgba(26, 26, 26, 0.5) 0%, rgba(26, 26, 26, 0) 100%);
   transition: all 0.5s;
+}
+.work-item .text-container.light-overlay:after {
+  background: #fff;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
 }
 @media (hover: hover) and (pointer: fine) {
   .work-item .text-container:after {
@@ -2272,13 +2332,13 @@ THUMBNAIL STYLES
   bottom: 0;
   left: 0;
   right: 0;
+  object-fit: cover;
 }
 .thumb-container video,
 .thumb-container iframe {
   z-index: 2;
 }
 .thumb-container img {
-  object-fit: cover;
   z-index: 1;
 }
 

@@ -26,8 +26,13 @@ THUMBNAIL STYLES
       height: 50%;
       z-index: -1;
       background: rgb(26,26,26);
-      background: linear-gradient(0deg, rgba(26,26,26,0.5032213569021359) 0%, rgba(26,26,26,0) 100%); 
+      background: linear-gradient(0deg, rgba(26,26,26,0.5) 0%, rgba(26,26,26,0) 100%); 
       transition: all 0.5s;
+    }
+
+    &.light-overlay:after {
+      background: #fff;
+      background: linear-gradient(0deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 100%); 
     }
     
     @media (hover: hover) and (pointer: fine) {
@@ -89,6 +94,7 @@ THUMBNAIL STYLES
     bottom: 0;
     left: 0;
     right: 0;
+    object-fit: cover;
   }
 
   video,
@@ -97,7 +103,6 @@ THUMBNAIL STYLES
   }
 
   img {
-    object-fit: cover;
     z-index: 1;
   }
 }

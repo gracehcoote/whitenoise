@@ -2,7 +2,7 @@ $(document).ready(function(){
   // Compensate for nav bar height
   var headerHeight = $('.navigation-bar').outerHeight();
   var navSpacerTop = headerHeight;
-  $('.hero').css('padding-top', navSpacerTop + 'px');
+  //$('.hero').css('padding-top', navSpacerTop + 'px');
   $('nav#global, footer#global-footer').css('padding-top', navSpacerTop - '20' + 'px');
 
   // Show/hide navigation
@@ -30,7 +30,9 @@ $(document).ready(function(){
   $(document).keyup(function(e) {
       if (e.keyCode == 27) { // escape key maps to keycode `27
       $('body, .toggle-nav, header#global, nav#global').removeClass('active');
-      $('.navigation-bar').toggleClass('fixed');
+      $('.navigation-bar').removeClass('fixed');
+      $('ul.nav').removeClass('active');
+      $('.info-wrap').removeClass('active');
     }
   });
 

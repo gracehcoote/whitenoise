@@ -18,20 +18,15 @@
 
   {% set heroImage = entry.heroImage.one() %}
   {% if heroImage %}
-  <img 
-    class="background-image{% if entry.greyscaleImage %} greyscale{% endif %}" 
-    loading="lazy" 
-    src="{{ heroImage.url('thumb1920X1080') }}" 
-    alt="{{ heroImage.title }}" 
-    sizes="100vw" 
-    srcset="
-      {{ heroImage.url('thumb480X480') }} 480w,
-      {{ heroImage.url('thumb512X288') }} 512w,
-      {{ heroImage.url('thumb768X432') }} 768w,
-      {{ heroImage.url('thumb960X540') }} 960w,
-      {{ heroImage.url('thumb1280X720') }} 1280w,
-      {{ heroImage.url('thumb1920X1080') }} 1920w
-      ">
+  <picture>
+    <source media="(min-width: 1280px)" srcset="{{ heroImage.url('thumb1920X1080') }}">
+    <source media="(min-width: 960px)" srcset="{{ heroImage.url('thumb1280X720') }}">
+    <source media="(min-width: 768px)" srcset="{{ heroImage.url('thumb960X540') }}">
+    <source media="(min-width: 512px)" srcset="{{ heroImage.url('thumb768X432') }}">
+    <source media="(min-width: 480px)" srcset="{{ heroImage.url('thumb512X288') }}">
+    <source media="(min-width: 0px)" srcset="{{ heroImage.url('thumb480X480') }}">
+    <img class="background-image{% if entry.greyscaleImage %} greyscale{% endif %}" src="{{ heroImage.url('thumb1920X1080') }}" alt="{{ heroImage.alt ?? heroImage.title ?? entry.title ?? null }}" loading="lazy">
+  </picture> 
     {% endif %}
 </section>
 
@@ -57,9 +52,20 @@
       <p class="mb-0 me-1"><strong>Weekend mode</strong></p>
 
       <label class="switch">
-        <input type="checkbox" id="weekend-mode">
+        <input type="checkbox" id="weekend-mode" class="weekend-switch">
         <div class="slider round"></div>
       </label>
+    </div>
+
+    <div id="wm-button-fixed" style="display: none;">
+      <div class="d-flex align-items-center">
+        <p class="mb-0 me-1"><strong>Weekend mode</strong></p>
+
+        <label class="switch">
+          <input type="checkbox" id="weekend-mode-fixed" class="weekend-switch">
+          <div class="slider round"></div>
+        </label>
+      </div>
     </div>
   </div><!-- end section-container -->
   
@@ -68,7 +74,7 @@
 
 {% set team = entry.team.all() %}
 {% if team %}
-<section>
+<section id="team">
   <div class="row g-0">
     {% for member in team %}
     {% set weekdayImage = member.teamMemberImageWeekday.one() %}
@@ -80,23 +86,27 @@
           <p class="text-white mb-0 toggle-display d-none">{{ member.teamMemberRoleWeekend }}</p>
         </div><!-- end text-overlay -->
 
+        {% if weekdayImage %}
         <img 
           class="background-image greyscale{% if weekendImage %} toggle-opacity opacity-1{% endif %}" 
           loading="lazy" 
           src="{{ weekdayImage.url('squareThumb1080X1080') }}" 
-          alt="{{ weekdayImage.title }}" 
+          alt="{{ member.teamMemberName }} {{ member.teamMemberRoleWeekday }} at Whitenoise" 
           sizes="100vw" 
           srcset="
             {{ weekdayImage.url('squareThumb540X540') }} 540w,
             {{ weekdayImage.url('squareThumb1080X1080') }} 1080w
             ">
+          {% else %}
+            <img class="background-image greyscale{% if weekendImage %} toggle-opacity opacity-1{% endif %}" loading="lazy" src="{{ siteUrl }}assets/images/team-placeholder.jpg" alt="{{ member.teamMemberName }} {{ member.teamMemberRoleWeekday }}">
+          {% endif %}
 
           {% if weekendImage %}
           <img 
           class="background-image position-absolute top-0 start-0 toggle-opacity opacity-0" 
           loading="lazy" 
           src="{{ weekendImage.url('squareThumb1080X1080') }}" 
-          alt="{{ weekendImage.title }}" 
+          alt="{{ member.teamMemberName }} {{ member.teamMemberRoleWeekday }} at Whitenoise" 
           sizes="100vw" 
           srcset="
             {{ weekendImage.url('squareThumb540X540') }} 540w,
@@ -128,8 +138,10 @@
 
     $('#confetti').hide();
     
-    $('#weekend-mode').change(function() {
+    $('#weekend-mode, #weekend-mode-fixed').change(function() {
         if(this.checked) {
+          console.log('Checked');
+          $('.weekend-switch').prop('checked', true);
           $('.toggle-display').fadeToggle().toggleClass('d-none');
           $('.toggle-opacity').toggleClass('opacity-0 opacity-1 ');
           $('#confetti').show();
@@ -142,12 +154,25 @@
             $('#confetti').hide();
           });
         } else {
+          console.log('Unchecked');
+          $('.weekend-switch').prop('checked', false);
           $('.toggle-display').fadeToggle().toggleClass('d-none');
           $('.toggle-opacity').toggleClass('opacity-1 opacity-0');
           animationCompleted = true;
           $('#confetti').hide();
         }
     });
+  });
+
+  $(document).on('scroll', function() {
+    var bottom = $('#team').position().top + $('#team').outerHeight(true) - '400';
+    var wmButtonFixed = $('#wm-button-fixed');
+
+    if (($(this).scrollTop() >= $('#team').position().top) && ($(this).scrollTop() <= bottom)) {
+      wmButtonFixed.fadeIn();
+    } else {
+      wmButtonFixed.fadeOut();
+    }
   });
 </script>
 {% endblock %}

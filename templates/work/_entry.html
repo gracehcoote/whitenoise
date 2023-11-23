@@ -13,20 +13,26 @@
 
 {% block main %}
 {% set heroImage = entry.heroImage.one() ?? entry.imageThumbnail.one() %}
+{% set heroVideo = entry.heroVideo.one() ?? entry.videoThumbnailUpload.one() %}
 <section>
-  <img 
-    class="background-image{% if entry.greyscaleImage %} greyscale{% endif %}"
-    src="{{ heroImage.url('thumb1920X1080') }}" 
-    alt="{{ entry.title }}" 
-    sizes="100vw" 
-    srcset="
-      {{ heroImage.url('thumb480X480') }} 480w,
-      {{ heroImage.url('thumb512X288') }} 512w,
-      {{ heroImage.url('thumb768X432') }} 768w,
-      {{ heroImage.url('thumb960X540') }} 960w,
-      {{ heroImage.url('thumb1280X720') }} 1280w,
-      {{ heroImage.url('thumb1920X1080') }} 1920w
-      ">
+  {% if heroImage and not heroVideo %}
+  <picture>
+    <source media="(min-width: 1280px)" srcset="{{ heroImage.url('thumb1920X1080') }}">
+    <source media="(min-width: 960px)" srcset="{{ heroImage.url('thumb1280X720') }}">
+    <source media="(min-width: 768px)" srcset="{{ heroImage.url('thumb960X540') }}">
+    <source media="(min-width: 512px)" srcset="{{ heroImage.url('thumb768X432') }}">
+    <source media="(min-width: 480px)" srcset="{{ heroImage.url('thumb512X288') }}">
+    <source media="(min-width: 0px)" srcset="{{ heroImage.url('thumb480X480') }}">
+    <img class="background-image{% if entry.greyscaleImage %} greyscale{% endif %}" src="{{ heroImage.url('thumb1920X1080') }}" alt="{{ entry.title }}">
+  </picture> 
+
+  {% elseif heroVideo %}
+  <div class="hero-video-container">
+    <video class="w-100" style="display: block;" preload="false" playsinline autoplay loop muted {% if heroImage %}poster="{{ heroImage.url('thumb1280X720') }}{% endif %}">
+      <source src="{{ heroVideo.url }}" type="video/mp4">
+    </video>
+  </div>
+  {% endif %}
 </section>
  
 <section>
@@ -74,7 +80,7 @@
             {% set imageThumbnail = project.imageThumbnail.one() %}
 
             {% if videoThumbnailUpload %}
-              <video preload="false" autoplay loop muted poster="{{ imageThumbnail.url('thumb1280X720') }}">
+              <video preload="false" autoplay playsinline loop muted poster="{{ imageThumbnail.url('thumb1280X720') }}">
                 <source src="{{ videoThumbnailUpload.url }}" type="video/mp4">
               </video>
             {% endif %}
@@ -108,10 +114,11 @@
     <div class="col-pls-6">
       <div class="work-item">
         <a href="{{ project.url }}">
-          <div class="text-container p-2 p-sm-3 px-lg-4 py-lg-3 p-xl-5 d-flex justify-content-start align-items-end">
+          {% set thumbnailTextColour = project.thumbnailTextColour %}
+          <div class="text-container p-2 p-sm-3 px-lg-4 py-lg-3 p-xl-5 d-flex justify-content-start align-items-end{% if thumbnailTextColour == 'dark' %} light-overlay{% endif %}">
             <div>
-              <h3 class="thumb-title small tw-black text-white mb-0">{{ project.title }}</h3>
-              <p class="thumb-subtitle text-white tw-medium">{{ project.subtitle }}</p>
+              <h3 class="thumb-title small tw-black{% if thumbnailTextColour == 'dark' %} text-black{% else %} text-white{% endif %} mb-0">{{ project.title }}</h3>
+              <p class="thumb-subtitle{% if thumbnailTextColour == 'dark' %} text-black{% else %} text-white{% endif %} tw-medium">{{ project.subtitle }}</p>
             </div>   
           </div><!-- end text-container -->
           
@@ -120,7 +127,7 @@
             {% set imageThumbnail = project.imageThumbnail.one() %}
 
             {% if videoThumbnailUpload %}
-              <video preload="false" autoplay loop muted poster="{{ imageThumbnail.url('thumb1280X720') }}">
+              <video preload="false" autoplay playsinline loop muted poster="{{ imageThumbnail.url('thumb1280X720') }}">
                 <source src="{{ videoThumbnailUpload.url }}" type="video/mp4">
               </video>
             {% endif %}

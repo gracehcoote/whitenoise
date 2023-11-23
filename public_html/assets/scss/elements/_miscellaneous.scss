@@ -368,6 +368,44 @@ hr.small {
   }
 }
 
+// Accordions
+
+.accordion-item {
+  .accordion-button {
+    font-weight: inherit;
+    text-align: left;
+
+    @media #{$small-up} {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    
+    width: 100%;
+    
+    &:after {
+      flex-shrink: 0;
+      font-family: $title-font;
+      font-size: 16px;
+      font-weight: 800;
+      content: 'Read More';
+      padding-left: 0.5rem;
+
+      @media #{$small} {
+        font-size: 14px;
+        display: block;
+        padding-left: 0;
+      }
+    }
+
+    &:not(.collapsed) {
+      &:after {
+        content: 'Close';
+      }
+    }
+  }
+}
+
 // Cookie consent bar 
 .cc-revoke,
 .cc-window {
@@ -388,6 +426,17 @@ hr.small {
   &.cc-deny:hover {
     color: $black !important;
   }
+}
+
+// Weekend mode button
+
+#wm-button-fixed {
+  position: fixed;
+  z-index: 1000;
+  top: 1rem;
+  background: #fff;
+  padding: 4px 10px 8px 20px;
+  border-radius: 60px;
 }
 
 // Sprig loader

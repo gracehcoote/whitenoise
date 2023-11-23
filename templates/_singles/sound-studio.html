@@ -17,20 +17,15 @@
 
   {% set heroImage = entry.heroImage.one() %}
   {% if heroImage %}
-  <img 
-    class="background-image{% if entry.greyscaleImage %} greyscale{% endif %}" 
-    loading="lazy" 
-    src="{{ heroImage.url('thumb1920X1080') }}" 
-    alt="{{ heroImage.title }}" 
-    sizes="100vw" 
-    srcset="
-      {{ heroImage.url('thumb480X480') }} 480w,
-      {{ heroImage.url('thumb512X288') }} 512w,
-      {{ heroImage.url('thumb768X432') }} 768w,
-      {{ heroImage.url('thumb960X540') }} 960w,
-      {{ heroImage.url('thumb1280X720') }} 1280w,
-      {{ heroImage.url('thumb1920X1080') }} 1920w
-      ">
+  <picture>
+    <source media="(min-width: 1280px)" srcset="{{ heroImage.url('thumb1920X1080') }}">
+    <source media="(min-width: 960px)" srcset="{{ heroImage.url('thumb1280X720') }}">
+    <source media="(min-width: 768px)" srcset="{{ heroImage.url('thumb960X540') }}">
+    <source media="(min-width: 512px)" srcset="{{ heroImage.url('thumb768X432') }}">
+    <source media="(min-width: 480px)" srcset="{{ heroImage.url('thumb512X288') }}">
+    <source media="(min-width: 0px)" srcset="{{ heroImage.url('thumb480X480') }}">
+    <img class="background-image{% if entry.greyscaleImage %} greyscale{% endif %}" src="{{ heroImage.url('thumb1920X1080') }}" alt="{{ heroImage.alt ?? heroImage.title ?? entry.title ?? null }}" loading="lazy">
+  </picture> 
     {% endif %}
 </section>
 
@@ -87,7 +82,7 @@
 
             {% set thumbnail = sample.sampleThumbnail.one() %}
             {% if thumbnail %}
-            <img src="{{ thumbnail.url('thumb512X288') }}" alt="{{ thumbnail.title }}">
+            <img src="{{ thumbnail.url('thumb512X288') }}" alt="{{ thumbnail.alt ?? thumbnail.title ?? sample.sampleTitle ?? null }}">
             {% else %}
             {% endif %}
           </div>
@@ -117,7 +112,7 @@
           <img 
             loading="lazy" 
             src="{{ image.url('thumb480X270') }}" 
-            alt="{{ image.title }}" 
+            alt="{{ image.alt ?? image.title ?? null }}" 
             sizes="100vw" 
             srcset="
               {{ image.url('thumb480X270') }} 480w,
@@ -181,13 +176,13 @@
       <div class="splide__track">
         <ul class="splide__list">
           {% for logo in clientLogos|slice(0, firstHalfEnd) %}
-          <li class="splide__slide px-2">
+          <li class="splide__slide text-center px-2">
             {% if logo.assetLink %}
             <a href="{{ logo.assetLink }}" target="_blank">
-              <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+              <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{% if logo.alt %}{{ logo.alt }}{% else %}Whitenoise client {{ logo.title }}{% endif %}">
             </a>
             {% else %}
-            <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+            <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{% if logo.alt %}{{ logo.alt }}{% else %}Whitenoise client {{ logo.title }}{% endif %}">
             {% endif %}
           </li>
           {% endfor %}
@@ -199,13 +194,13 @@
       <div class="splide__track">
         <ul class="splide__list">
           {% for logo in clientLogos|slice(secondHalfStart, last) %}
-          <li class="splide__slide px-2">
+          <li class="splide__slide text-center px-2">
             {% if logo.assetLink %}
             <a href="{{ logo.assetLink }}" target="_blank">
-              <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+              <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{% if logo.alt %}{{ logo.alt }}{% else %}Whitenoise client {{ logo.title }}{% endif %}">
             </a>
             {% else %}
-            <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+            <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{% if logo.alt %}{{ logo.alt }}{% else %}Whitenoise client {{ logo.title }}{% endif %}">
             {% endif %}
           </li>
           {% endfor %}
@@ -217,13 +212,13 @@
       <div class="splide__track">
         <ul class="splide__list">
           {% for logo in clientLogos %}
-          <li class="splide__slide px-2">
+          <li class="splide__slide text-center px-2">
             {% if logo.assetLink %}
             <a href="{{ logo.assetLink }}" target="_blank">
-              <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+              <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{% if logo.alt %}{{ logo.alt }}{% else %}Whitenoise client {{ logo.title }}{% endif %}">
             </a>
             {% else %}
-            <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{{ logo.title }}">
+            <img src="{{ logo.url('logoMaxWidthAndHeight') }}" alt="{% if logo.alt %}{{ logo.alt }}{% else %}Whitenoise client {{ logo.title }}{% endif %}">
             {% endif %}
           </li>
           {% endfor %}
