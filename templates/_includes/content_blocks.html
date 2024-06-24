@@ -15,13 +15,13 @@
 			<div class="section-container max-width">
 				{{ block.blockTitle }}
 
-				<div class="row">
-					<div class="col-lg-6 pe-lg-3">
+				<div class="row g-2 g-lg-5">
+					<div class="col-lg-6">
 						{{ block.leftColumnText }}
 					</div>
 
 					{% if block.rightColumnText %}
-						<div class="col-lg-6 ps-lg-3">
+						<div class="col-lg-6">
 							{{ block.rightColumnText }}
 						</div>
 					{% endif %}
@@ -211,7 +211,7 @@
 			<div class="section-container">
 			{% endif %}
 
-			<div class="ratio ratio-16x9">
+			<div class="ratio ratio-16x9"> 
 				{{ block.embedCode|raw }}
 			</div>
 
