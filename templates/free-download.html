@@ -1,0 +1,49 @@
+{% extends "_layouts/_base" %}
+
+{% set title = 'Get your free download' %}
+
+{% block seo %}
+{% include "_includes/seo" %}
+{% endblock %}
+
+{% set bodyClass = 'black-no-overlay' %}
+
+{% block headContent %}
+{% endblock %}
+
+{% block main %}
+  <section>
+    <div class="section-container">
+      <div class="row g-4">
+        <div class="col-xl-5 col-xxxl-4">
+          <h1>Get your free download</h1>
+          <!-- <h5>Add your info and check your email for your free download, or download it from here.</h5> -->
+
+          <div id="form-wrapper">
+            {{ craft.freeform.form("freeDownload").render() }}
+          </div>
+        </div><!-- end col -->
+      </div><!-- end row -->
+
+      <div id="custom-content" style="display: none;">
+        <p>Thank you for your interest! You can get your free download below, and it will be emailed to you as well.</p>
+
+        <a class="btn btn-secondary mt-2" href="{{ siteUrl }}assets/cms/documents/WN_Meet_The_Buyer_Event_Small.pdf" target="_blank">Get your free download</a>
+      </div>
+    </div><!-- end section-container -->
+  </section>
+{% endblock %}
+
+{% block javascript %}
+<script>
+document.addEventListener('freeform-render-success', function (event) {
+  // Disable the default success rendering
+  event.preventDefault();
+
+  // We locate the 'form-wrapper' DIV element which contains our form
+  // and we swap its contents (the whole form) with the HTML that we
+  // fetch from any other element already present on the page
+  $('#form-wrapper').html($('#custom-content').html());
+});
+</script>
+{% endblock %}

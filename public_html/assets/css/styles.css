@@ -738,7 +738,7 @@ h1 {
 }
 @media only screen and (max-width: 480px) {
   h1 {
-    font-size: 48px;
+    font-size: 40px;
   }
 }
 .home h1 {
@@ -1472,9 +1472,12 @@ label {
   transition: 0.3s;
 }
 label.form-check-label {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   margin: 0;
+}
+label.form-check-label.small {
+  font-size: 14px;
 }
 label.large {
   font-size: 20px;
@@ -1501,12 +1504,20 @@ label.required {
   }
 }
 
+.form-check {
+  display: flex;
+}
 .form-check .form-check-input {
   width: 24px;
   height: 24px;
   border: 2px solid #1A1A1A;
   background-color: transparent;
   margin-right: 0.75rem;
+  flex-shrink: 0;
+}
+.form-check .form-check-input.small {
+  width: 20px;
+  height: 20px;
 }
 .form-check .form-check-input:checked[type=radio] {
   background-color: #1a1a1a;
@@ -2328,6 +2339,9 @@ THUMBNAIL STYLES
   height: 100%;
   padding-top: 56.25%;
   position: relative;
+}
+.thumb-container.article-thumb-container {
+  height: auto;
 }
 @media only screen and (max-width: 480px) {
   .thumb-container {

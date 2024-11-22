@@ -14,7 +14,9 @@
 
 {% block main %}
 {% set heroImage = entry.heroImage.one() ?? entry.imageThumbnail.one() %}
+{% set heroVideo = entry.heroVideo.one() %}
 <section>
+  {% if heroImage and not heroVideo %}
   <picture>
     <source media="(min-width: 1280px)" srcset="{{ heroImage.url('thumb1920X1080') }}">
     <source media="(min-width: 960px)" srcset="{{ heroImage.url('thumb1280X720') }}">
@@ -22,8 +24,16 @@
     <source media="(min-width: 512px)" srcset="{{ heroImage.url('thumb768X432') }}">
     <source media="(min-width: 480px)" srcset="{{ heroImage.url('thumb512X288') }}">
     <source media="(min-width: 0px)" srcset="{{ heroImage.url('thumb480X480') }}">
-    <img class="w-100 background-image{% if entry.greyscaleImage %} greyscale{% endif %}" src="{{ heroImage.url('thumb1920X1080') }}" alt="{{ entry.title }}" loading="lazy">
+    <img class="w-100 background-image{% if entry.greyscaleImage %} greyscale{% endif %}" src="{{ heroImage.url('thumb1920X1080') }}" alt="{{ entry.title }}">
   </picture> 
+
+  {% elseif heroVideo %}
+  <div class="hero-video-container">
+    <video class="w-100" style="display: block;" preload="false" playsinline autoplay loop muted {% if heroImage %}poster="{{ heroImage.url('thumb1280X720') }}{% endif %}">
+      <source src="{{ heroVideo.url }}" type="video/mp4">
+    </video>
+  </div>
+  {% endif %}
 </section>
 
 <section>
@@ -43,7 +53,7 @@
       <div class="row">
         <div class="col-lg-10 col-xl-8">
           <h3 class="tw-medium">{{ entry.subtitle }}</h3>
-        </div><!-- end col -->
+        </div><!-- end col --> 
       </div><!-- end row -->
     </div><!-- end section-container -->
   </section>

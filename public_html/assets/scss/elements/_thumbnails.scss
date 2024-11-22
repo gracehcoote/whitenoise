@@ -75,6 +75,11 @@ THUMBNAIL STYLES
 .thumb-container {
   width: 100%;
   height: 100%;
+
+  &.article-thumb-container {
+    height: auto;
+  }
+  
   padding-top: 56.25%;
 
   @media #{$extra-small} {

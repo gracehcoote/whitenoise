@@ -182,15 +182,16 @@
 			{% endif %}
 
 			{% set videoFile = block.videoFile.one() %}
+      {% set posterImage = block.posterImage.one() %}
 			{% if videoFile %}
 			<div class="video-player">
-				<video class="video-js" data-setup='{"controls": true, "autoplay": false, "preload": "none", "fluid": "true"}'>
+				<video class="video-js" data-setup='{"controls": true, "autoplay": false, "preload": "none", "fluid": "true"}'{% if posterImage|length %} poster="{{ posterImage.url('thumb1920X1080') }}"{% endif %}>
 					<source src="{{ videoFile.url }}" type="video/mp4">
 
 					<p class="vjs-no-js">
 						To view this video please enable JavaScript, and consider upgrading to a
 						web browser that
-						<a href="https://videojs.com/html5-video-support/" target="_blank"
+						<a href="https://videojs.com/html5-video-support/" target="_blank" 
 							>supports HTML5 video</a
 						>
 					</p>

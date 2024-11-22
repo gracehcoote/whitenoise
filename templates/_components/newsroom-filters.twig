@@ -109,7 +109,7 @@
   <div class="my-1 flex-grow-1 flex-sm-grow-0">
     <input sprig s-trigger="keyup changed" s-replace="#results" s-indicator="#indicator" type="search" name="search" value="{{ search }}" placeholder="Search" class="text form-control search inactive">
   </div>
-</div>
+</div> 
 
 <div id="results">
   <div id="indicator">
@@ -131,15 +131,25 @@
     {% if articles|length %}
         <div class="row gy-1half">
         {% for article in articles %}
-          {% set thumbnail = article.imageThumbnail.one() %}
+          {% set imageThumbnail = article.imageThumbnail.one() ?? null %}
+          {% set videoThumbnailUpload = article.videoThumbnailUpload.one() %}
+
           {% set categories = article.category.all() %}
           {% if loop.first and page == 1 and not isQuery %}
             <div class="col-12 mb-2 mb-lg-5 position-relative greyscale-hover-off mobile-fill">
               <div class="shadow">
                 <div class="row g-0">
                   <div class="col-md-6 col-lg-7 col-xl-8">
-                    <a href="{{ article.url }}">
-                      <img class="greyscale object-fit-cover" src="{{ thumbnail.url('thumb960X540') }}" alt="{{ article.title }}">
+                    <a class="thumb-container d-block" href="{{ article.url }}">
+                      {% if videoThumbnailUpload %}
+                      <video preload="false" autoplay playsinline loop muted{% if imageThumbnail %} poster="{{ imageThumbnail.url('thumb960X540') }}"{% endif %}>
+                        <source src="{{ videoThumbnailUpload.url }}" type="video/mp4">
+                      </video>
+                      {% endif %}
+
+                      {% if imageThumbnail %}
+                      <img class="greyscale object-fit-cover" src="{{ imageThumbnail.url('thumb960X540') }}" alt="{{ article.title }}">
+                      {% endif %}
                     </a>
                   </div><!-- end col -->
 
@@ -157,8 +167,16 @@
 
           <div class="col-sm-6 col-lg-4 d-flex position-relative greyscale-hover-off">
             <div class="shadow d-flex flex-column">
-              <a href="{{ article.url }}">
-                <img class="greyscale" src="{{ thumbnail.url('thumb512X288') }}" alt="{{ article.title }}">
+              <a {% if videoThumbnailUpload %}class="thumb-container article-thumb-container d-block"{% endif %} href="{{ article.url }}">
+                {% if videoThumbnailUpload %}
+                <video preload="false" autoplay playsinline loop muted poster="{{ imageThumbnail.url('thumb512X288') }}">
+                  <source src="{{ videoThumbnailUpload.url }}" type="video/mp4">
+                </video>
+                {% endif %}
+
+                {% if imageThumbnail %}
+                <img class="greyscale" src="{{ imageThumbnail.url('thumb512X288') }}" alt="{{ article.title }}">
+                {% endif %}
               </a>
 
               <div class="p-2 p-md-3 flex-grow-1 d-flex flex-column justify-content-between align-items-start">
